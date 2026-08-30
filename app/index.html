@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HW1-Haozhe Wang</title>
+</head>
+<body>
+
+  <h1>Clinical Trial Registration</h1>
+
+  <form id="trialForm">
+
+
+    <label for="Brief Title">Brief Title</label>
+    <input type="text" id="briefTitle" name="briefTitle"
+            placeholder="Please type in the brief title of trial description which can be easily read by people."
+            required autofocus>
+
+
+    <label for="Sponsor">Sponsor</label>
+    <input type="text" id="sponsor" name="sponsor"
+            placeholder="Please type in the sponsor of trial, e.g. University of Colorado, Denver."
+            required>
+
+ 
+    <label for="Submitter Email">SubmitterEmail</label>
+    <input type="email" id="submitterEmail" name="submitterEmail"
+            placeholder="email_address_of_submitter@trial.com" required>
+
+
+    <label for="Detailed Description">DetailedDescription</label>
+    <textarea id="detailedDescription" name="detailedDescription" rows="6"
+            placeholder="Write at least 25 characters to describe the details of trial."
+            required></textarea>
+
+    <label for="Funder Type">FunderType</label>
+    <select id="funderType" name="funderType" required>
+        <option value="">-- Select a funder type --</option>
+        <option value="NIH">NIH</option>
+        <option value="Other U.S. federal agency">Other U.S. federal agency</option>
+        <option value="Industry">Industry</option>
+        <option value="All others (individuals, universities, organizations)">All others (individuals, universities, organizations)</option>
+    </select>
+
+    <input type="checkbox" id="agreeTerms" name="agreeTerms" required>
+    <label for="AgreeTerms">I agree to the terms and conditions.</label>
+    
+
+    <button type="submit">Submit Trial!</button>
+  </form>
+
+  <script src="feedback.js"></script>
+</body>
+</html>
