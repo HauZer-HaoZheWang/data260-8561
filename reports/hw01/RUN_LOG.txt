@@ -1,0 +1,29 @@
+DATA 260 HW1 - RUN LOG
+Student: Haozhe Wang
+Hardware: MacBook Pro 14" (Apple M4, 16 GB unified memory), macOS Tahoe 26.3
+Local model: qwen3:8b via Ollama
+Python: 3.12.14 (conda env: data260)
+Region: us-west-1
+
+Part 2 - agent pipeline
+  see reports/hw01/part2_run.txt
+
+Part 3 - nondeterminism, 40 runs
+  see reports/hw01/nondeterminism_log.txt
+  raw data: reports/hw01/raw/nondeterminism_runs.json
+  stats:    reports/hw01/part3_stats.txt
+
+Part 4 - five-turn session with token accounting
+  see reports/hw01/part4_session.txt
+
+Docker
+  docker build -t s8561-hw1 .
+  docker run -d -p 8461:80 --name s8561-web s8561-hw1
+  verified at http://localhost:8461
+
+AWS ECS
+  ECR: 877710816843.dkr.ecr.us-west-1.amazonaws.com/s8561-hw1:latest
+  Cluster: s8561-cluster
+  Task definition: s8561-task:1 (Linux/ARM64)
+  Public IP: 54.176.97.177
+  Service scaled to 0 after verification.

@@ -1,0 +1,21 @@
+{
+  "sid4": 8561,
+  "port_base": 8461,
+  "prefix": "s8561",
+  "seed": 8561,
+  "verify_seed": 268561,
+  "domain_id": 1,
+  "domain": "Clinical trial listings",
+  "hardware": "MacBook Pro 14, Apple M4, 16GB",
+  "local_model": "qwen3:8b",
+  "python": "3.12.14",
+  "checks": {
+    "html_form_elements": 7,
+    "nondeterminism_runs": 40,
+    "distinct_tag_sets_temp_07": 13,
+    "distinct_tag_sets_temp_00": 1,
+    "client_turns": 5,
+    "docker_local": true,
+    "aws_ecs_public_ip": "54.176.97.177"
+  }
+}
