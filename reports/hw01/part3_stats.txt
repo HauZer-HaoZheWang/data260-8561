@@ -1,0 +1,28 @@
+
+=== temperature = 0.7  (n=20) ===
+Distinct tag sets      : 13
+Tags in ALL runs       : ['Deep Brain Stimulation']
+Tags in EXACTLY 1 run  : ['Motor Response Analysis', 'Neurological Conditions', 'Neurophysiological Monitoring', 'Motor Symptoms', 'Movement Disorder Assessment', 'Neurophysiological Data', 'Electrophysiological Recordings', 'Motor Symptom Evaluation', 'Neurological Movement Disorders']
+Latency p50/p95/p99 ms : 92533 / 153022 / 180020
+Unique sets detail:
+  5x  ['Deep Brain Stimulation', 'Local Field Potentials', 'Movement Disorders']
+  2x  ['Deep Brain Stimulation', 'Local Field Potentials', 'Neurological Disorders']
+  2x  ['Deep Brain Stimulation', 'Movement Disorders', 'Neural Signal Analysis']
+  2x  ['Deep Brain Stimulation', 'Local Field Potentials', 'Motor Symptom Assessment']
+  1x  ['Deep Brain Stimulation', 'Local Field Potentials', 'Motor Response Analysis']
+  1x  ['Deep Brain Stimulation', 'Electrophysiological Monitoring', 'Movement Disorders']
+  1x  ['Deep Brain Stimulation', 'Local Field Potentials', 'Neurological Conditions']
+  1x  ['Deep Brain Stimulation', 'Motor Symptoms', 'Neurophysiological Monitoring']
+  1x  ['Deep Brain Stimulation', 'Movement Disorder Assessment', 'Neurophysiological Data']
+  1x  ['Deep Brain Stimulation', 'Electrophysiological Recordings', 'Movement Disorders']
+  1x  ['Deep Brain Stimulation', 'Local Field Potentials', 'Motor Symptom Evaluation']
+  1x  ['Deep Brain Stimulation', 'Local Field Potentials', 'Neurological Movement Disorders']
+  1x  ['Deep Brain Stimulation', 'Electrophysiological Monitoring', 'Neurological Disorders']
+
+=== temperature = 0.0  (n=20) ===
+Distinct tag sets      : 1
+Tags in ALL runs       : ['Local Field Potentials', 'Deep Brain Stimulation', 'Neurological Disorders']
+Tags in EXACTLY 1 run  : []
+Latency p50/p95/p99 ms : 78362 / 81361 / 84505
+Unique sets detail:
+  20x  ['Deep Brain Stimulation', 'Local Field Potentials', 'Neurological Disorders']

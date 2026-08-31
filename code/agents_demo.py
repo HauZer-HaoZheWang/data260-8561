@@ -207,13 +207,14 @@ def main():
     ap.add_argument("--base_url", default=os.environ.get("OLLAMA_URL", "http://localhost:11434"))
     ap.add_argument("--turns", type=int, default=1)
     ap.add_argument("--strict", action="store_true")
+    ap.add_argument("--temperature", type=float, default=0.0)
     args = ap.parse_args()
 
     # Initialize Ollama chat model (students can adjust params)
     try:
         llm = ChatOllama(
             model=args.model,
-            temperature=0.0,
+            temperature=args.temperature,
             base_url=args.base_url,
             num_ctx=2048,
             format="json",  # asks Ollama to produce JSON when supported
