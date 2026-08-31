@@ -1,3 +1,5 @@
 agent_demo_upload.py
 agent_demo_upload.py
 .DS_Store
+__pycache__/
+*.pyc
