@@ -14,7 +14,7 @@
 ## Entity
 
 
-**Entity name:** `Clinical Trial Registration`
+**Entity name:** 'Clinical Trial Registration'
 
 This entity is the list of clinical trials.
 
