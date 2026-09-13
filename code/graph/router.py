@@ -1,33 +1,39 @@
 from __future__ import annotations
 
+import os
+
 from .state import AgentState
 
 
-MAX_TURNS = 6
+DEFAULT_MAX_TURNS = 6
 
 
 def router_logic(state: AgentState) -> str:
+    #Read the ceiling from environment variable, default is 6
+    max_turns = int(
+        os.getenv("MAX_TURNS", str(DEFAULT_MAX_TURNS))
+    )
+
     #Read the values needed for routing
     turn_count = state.get("turn_count", 0)
     proposal = state.get("planner_proposal")
     feedback = state.get("reviewer_feedback")
 
     #If Reviewer approved the proposal, finish as success.
-    #Check this before MAX_TURNS so an approval on turn 6 still counts.
     if feedback is not None and feedback.get("approved") is True:
         return "END"
 
-    #If it is not approved and reaches the ceiling, stop retrying
-    if turn_count >= MAX_TURNS:
+    #If proposal is waiting for review, let Reviewer finish it
+    if proposal and feedback is None:
+        return "reviewer"
+
+    #If it is not approved and reaches ceiling, stop retrying.
+    if turn_count >= max_turns:
         return "END"
 
-    #If Planner has not created a proposal, go to Planner.
+    #If there is no proposal, go to Planner
     if not proposal:
         return "planner"
 
-    #If there is a proposal but no feedback, go to Reviewer
-    if feedback is None:
-        return "reviewer"
-
-    #There is feedback and approved is False, go back to Planner.
+    #There is feedback and approved is False, retry Planner.
     return "planner"
