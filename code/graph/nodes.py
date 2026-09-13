@@ -118,6 +118,9 @@ def planner_node(state: AgentState) -> dict[str, Any]:
 
     return {
         "planner_proposal": planner_proposal,
+        #Planner has consumed the feedback, so clear it
+        #Otherwise, the router keeps seeing approved=False and routes back to Planner forever.
+        "reviewer_feedback": None,
         "trace": old_trace + [new_trace],
     }
 
