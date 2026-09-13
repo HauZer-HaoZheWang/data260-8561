@@ -14,8 +14,10 @@ sys.path.insert(0, str(SRC_DIR))
 
 from model_client import complete
 from agents_demo import extract_json_block, parse_and_coerce
+from pydantic import ValidationError
 
 from .state import AgentState
+from .schema import PlannerData
 
 def planner_node(state: AgentState) -> dict[str, Any]: 
     print("-------NODE: Planner------")
@@ -230,6 +232,28 @@ def reviewer_node(state: AgentState) -> dict[str, Any]:
                 f"Reviewer output could not be parsed: {error}"
             ]
         }
+
+    #Get data from the whole Planner proposal
+    data = proposal.get("data", {})
+
+    #If data is not a dictionary, use empty dictionary.
+    #Pydantic will report the missing tags and summary.
+    if not isinstance(data, dict):
+        data = {}
+
+    #Use Pydantic to check tags and summary
+    try:
+        ##Data also has issues, but PlannerData only validates tags and summary.
+        #Pydantic ignores extra fields by default, so issues will not cause error
+        PlannerData(**data)
+
+    #If Pydantic finds any problems, add them into Reviewer issues.
+    except ValidationError as error:
+        for err in error.errors():
+            reviewer_feedback["issues"].append(err["msg"])
+
+        #Pydantic validation overrides the LLM decision
+        reviewer_feedback["approved"] = False
 
     #Create the trace for this running.
     new_trace = {
