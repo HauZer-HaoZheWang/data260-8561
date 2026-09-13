@@ -1,0 +1,493 @@
+Sun Sep 13 06:38:21 PDT 2026
+[1/70] Running schema_30, run 1/30, ceiling=6
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished schema_30 run 1: valid_first_attempt
+[2/70] Running schema_30, run 2/30, ceiling=6
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished schema_30 run 2: valid_first_attempt
+[3/70] Running schema_30, run 3/30, ceiling=6
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished schema_30 run 3: valid_first_attempt
+[4/70] Running schema_30, run 4/30, ceiling=6
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished schema_30 run 4: valid_first_attempt
+[5/70] Running schema_30, run 5/30, ceiling=6
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished schema_30 run 5: valid_first_attempt
+[6/70] Running schema_30, run 6/30, ceiling=6
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished schema_30 run 6: valid_first_attempt
+[7/70] Running schema_30, run 7/30, ceiling=6
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished schema_30 run 7: valid_first_attempt
+[8/70] Running schema_30, run 8/30, ceiling=6
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished schema_30 run 8: valid_first_attempt
+[9/70] Running schema_30, run 9/30, ceiling=6
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished schema_30 run 9: valid_first_attempt
+[10/70] Running schema_30, run 10/30, ceiling=6
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished schema_30 run 10: valid_first_attempt
+[11/70] Running schema_30, run 11/30, ceiling=6
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished schema_30 run 11: valid_first_attempt
+[12/70] Running schema_30, run 12/30, ceiling=6
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished schema_30 run 12: valid_first_attempt
+[13/70] Running schema_30, run 13/30, ceiling=6
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished schema_30 run 13: valid_first_attempt
+[14/70] Running schema_30, run 14/30, ceiling=6
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished schema_30 run 14: valid_first_attempt
+[15/70] Running schema_30, run 15/30, ceiling=6
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished schema_30 run 15: valid_first_attempt
+[16/70] Running schema_30, run 16/30, ceiling=6
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished schema_30 run 16: valid_first_attempt
+[17/70] Running schema_30, run 17/30, ceiling=6
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished schema_30 run 17: valid_first_attempt
+
+[1/53] Running schema_30, run 1/13, ceiling=6
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished schema_30 run 1: valid_first_attempt
+[2/53] Running schema_30, run 2/13, ceiling=6
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished schema_30 run 2: valid_first_attempt
+[3/53] Running schema_30, run 3/13, ceiling=6
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished schema_30 run 3: valid_first_attempt
+[4/53] Running schema_30, run 4/13, ceiling=6
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished schema_30 run 4: valid_first_attempt
+[5/53] Running schema_30, run 5/13, ceiling=6
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished schema_30 run 5: valid_first_attempt
+[6/53] Running schema_30, run 6/13, ceiling=6
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished schema_30 run 6: valid_first_attempt
+[7/53] Running schema_30, run 7/13, ceiling=6
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished schema_30 run 7: valid_first_attempt
+[8/53] Running schema_30, run 8/13, ceiling=6
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished schema_30 run 8: valid_first_attempt
+[9/53] Running schema_30, run 9/13, ceiling=6
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished schema_30 run 9: valid_first_attempt
+[10/53] Running schema_30, run 10/13, ceiling=6
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished schema_30 run 10: valid_first_attempt
+[11/53] Running schema_30, run 11/13, ceiling=6
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished schema_30 run 11: valid_first_attempt
+[12/53] Running schema_30, run 12/13, ceiling=6
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished schema_30 run 12: valid_first_attempt
+[13/53] Running schema_30, run 13/13, ceiling=6
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished schema_30 run 13: valid_first_attempt
+[14/53] Running ceiling_2, run 1/20, ceiling=2
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished ceiling_2 run 1: valid_first_attempt
+[15/53] Running ceiling_2, run 2/20, ceiling=2
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished ceiling_2 run 2: valid_first_attempt
+[16/53] Running ceiling_2, run 3/20, ceiling=2
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished ceiling_2 run 3: valid_first_attempt
+[17/53] Running ceiling_2, run 4/20, ceiling=2
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished ceiling_2 run 4: valid_first_attempt
+[18/53] Running ceiling_2, run 5/20, ceiling=2
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished ceiling_2 run 5: valid_first_attempt
+[19/53] Running ceiling_2, run 6/20, ceiling=2
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished ceiling_2 run 6: valid_first_attempt
+[20/53] Running ceiling_2, run 7/20, ceiling=2
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished ceiling_2 run 7: valid_first_attempt
+[21/53] Running ceiling_2, run 8/20, ceiling=2
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished ceiling_2 run 8: valid_first_attempt
+[22/53] Running ceiling_2, run 9/20, ceiling=2
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished ceiling_2 run 9: valid_first_attempt
+[23/53] Running ceiling_2, run 10/20, ceiling=2
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished ceiling_2 run 10: valid_first_attempt
+[24/53] Running ceiling_2, run 11/20, ceiling=2
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished ceiling_2 run 11: valid_first_attempt
+[25/53] Running ceiling_2, run 12/20, ceiling=2
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished ceiling_2 run 12: valid_first_attempt
+[26/53] Running ceiling_2, run 13/20, ceiling=2
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished ceiling_2 run 13: valid_first_attempt
+[27/53] Running ceiling_2, run 14/20, ceiling=2
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished ceiling_2 run 14: valid_first_attempt
+[28/53] Running ceiling_2, run 15/20, ceiling=2
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished ceiling_2 run 15: valid_first_attempt
+[29/53] Running ceiling_2, run 16/20, ceiling=2
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished ceiling_2 run 16: valid_first_attempt
+[30/53] Running ceiling_2, run 17/20, ceiling=2
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished ceiling_2 run 17: valid_first_attempt
+[31/53] Running ceiling_2, run 18/20, ceiling=2
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished ceiling_2 run 18: valid_first_attempt
+[32/53] Running ceiling_2, run 19/20, ceiling=2
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished ceiling_2 run 19: valid_first_attempt
+[33/53] Running ceiling_2, run 20/20, ceiling=2
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished ceiling_2 run 20: valid_first_attempt
+[34/53] Running ceiling_10, run 1/20, ceiling=10
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished ceiling_10 run 1: valid_first_attempt
+[35/53] Running ceiling_10, run 2/20, ceiling=10
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished ceiling_10 run 2: valid_first_attempt
+[36/53] Running ceiling_10, run 3/20, ceiling=10
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished ceiling_10 run 3: valid_first_attempt
+[37/53] Running ceiling_10, run 4/20, ceiling=10
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished ceiling_10 run 4: valid_first_attempt
+[38/53] Running ceiling_10, run 5/20, ceiling=10
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished ceiling_10 run 5: valid_first_attempt
+[39/53] Running ceiling_10, run 6/20, ceiling=10
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished ceiling_10 run 6: valid_first_attempt
+[40/53] Running ceiling_10, run 7/20, ceiling=10
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished ceiling_10 run 7: valid_first_attempt
+[41/53] Running ceiling_10, run 8/20, ceiling=10
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished ceiling_10 run 8: valid_first_attempt
+[42/53] Running ceiling_10, run 9/20, ceiling=10
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished ceiling_10 run 9: valid_first_attempt
+[43/53] Running ceiling_10, run 10/20, ceiling=10
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished ceiling_10 run 10: valid_first_attempt
+[44/53] Running ceiling_10, run 11/20, ceiling=10
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished ceiling_10 run 11: valid_first_attempt
+[45/53] Running ceiling_10, run 12/20, ceiling=10
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished ceiling_10 run 12: valid_first_attempt
+[46/53] Running ceiling_10, run 13/20, ceiling=10
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished ceiling_10 run 13: valid_first_attempt
+[47/53] Running ceiling_10, run 14/20, ceiling=10
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished ceiling_10 run 14: valid_first_attempt
+[48/53] Running ceiling_10, run 15/20, ceiling=10
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished ceiling_10 run 15: valid_first_attempt
+[49/53] Running ceiling_10, run 16/20, ceiling=10
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished ceiling_10 run 16: valid_first_attempt
+[50/53] Running ceiling_10, run 17/20, ceiling=10
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished ceiling_10 run 17: valid_first_attempt
+[51/53] Running ceiling_10, run 18/20, ceiling=10
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished ceiling_10 run 18: valid_first_attempt
+[52/53] Running ceiling_10, run 19/20, ceiling=10
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished ceiling_10 run 19: valid_first_attempt
+[53/53] Running ceiling_10, run 20/20, ceiling=10
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished ceiling_10 run 20: valid_first_attempt
+All experiments finished. Results saved to: /Users/haozhewang/data260-8561/reports/hw02/raw/batch_results.csv
