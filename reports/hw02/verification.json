@@ -1,0 +1,37 @@
+{
+  "homework_number": "HW02",
+  "sid4": "8561",
+  "commit_hash": "f515a2ff9e7afe138442d197ede9e89508e2b700",
+  "model": "qwen3:8b",
+  "model_config": {
+    "settings_source": "src/model_client.py",
+    "api_port": 8461,
+    "graph_max_turns": 6,
+    "graph_timeout_seconds": 180
+  },
+  "SEED": 8561,
+  "VERIFY_SEED": 268561,
+  "checks": [
+    {
+      "name": "FastAPI responds on port 8461",
+      "passed": true,
+      "detail": "GET /api/trials returned HTTP 200 and 3 trials."
+    },
+    {
+      "name": "CRUD create, list and delete",
+      "passed": true,
+      "detail": "Created trial 4, confirmed the list increased by one, then deleted the temporary trial."
+    },
+    {
+      "name": "LangGraph terminates within timeout",
+      "passed": true,
+      "detail": "Graph returned a final state within 180 seconds."
+    },
+    {
+      "name": "Planner returns exactly three string tags",
+      "passed": true,
+      "detail": "Planner returned 3 tags; all_string_tags=True."
+    }
+  ],
+  "all_passed": true
+}

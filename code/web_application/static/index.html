@@ -11,6 +11,7 @@
 
     <title>HW2 - Haozhe Wang</title>
 
+    <!--Load CSS file-->
     <link rel="stylesheet" href="/static/styles.css">
 </head>
 
@@ -91,7 +92,7 @@
             Loading trials...
         </div>
 
-        <!--Shown when the API returns an empty list-->
+        <!--Shown when API returns an empty list-->
         <div
             id="emptyState"
             style="display: none;"
@@ -108,28 +109,30 @@
         <!--Display all clinical trials-->
         <section>
             <h2>Trial List</h2>
-        <div class="tableWrapper">
-            <table
-                id="trialTable"
-                style="display: none;"
-            >
-                <thead>
-                    <tr>
-                        <th>ID</th>
-                        <th>Brief Title</th>
-                        <th>Sponsor</th>
-                        <th>Actions</th>
-                    </tr>
-                </thead>
 
-                <!--JavaScript will create rows inside this tbody-->
-                <tbody id="trialTableBody"></tbody>
-            </table>
-        </div>
+            <!--Keep wide table scrolling inside this container-->
+            <div class="tableWrapper">
+                <table
+                    id="trialTable"
+                    style="display: none;"
+                >
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Brief Title</th>
+                            <th>Sponsor</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+
+                    <!--JavaScript creates trial rows here-->
+                    <tbody id="trialTableBody"></tbody>
+                </table>
+            </div>
         </section>
     </main>
 
-    <!--Load the new HW2 JavaScript file-->
+    <!--Load HW2 JavaScript file after HTML is created-->
     <script src="/static/app.js"></script>
 </body>
 </html>
