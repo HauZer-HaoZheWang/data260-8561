@@ -1,0 +1,137 @@
+# HW02 Reproducible Run Instructions
+
+## 1. Environment
+
+Run all commands from the repository root:
+
+```bash
+cd ~/data260-8561
+```
+
+Create and activate the Conda environment:
+
+```bash
+conda create -n data260 python=3.12
+conda activate data260
+```
+
+Install the required Python packages:
+
+```bash
+pip install -r requirements.txt
+```
+
+Install Ollama, and then download the model used in this homework:
+
+```bash
+ollama pull qwen3:8b
+```
+
+Make sure Ollama is running before running the LangGraph experiments.
+
+## 2. Web Application (Part 1 and Part 2)
+
+Activate the environment:
+
+```bash
+conda activate data260
+```
+
+Move into the web application directory and start the FastAPI server:
+
+```bash
+cd ~/data260-8561/code/web_application
+python main.py
+```
+
+Open the following address in a browser:
+
+```text
+http://localhost:8461
+```
+
+The FastAPI documentation is available at:
+
+```text
+http://localhost:8461/docs
+```
+
+Stop the server with `Ctrl+C` after testing the web application.
+
+## 3. Main Experiments (Part 4.3 and Part 4.4)
+
+The main batch script runs 70 experiments:
+
+- 30 runs with ceiling 6
+- 20 runs with ceiling 2
+- 20 runs with ceiling 10
+
+Run the script from the repository root:
+
+```bash
+cd ~/data260-8561
+conda activate data260
+python code/experiments/run_batch.py
+```
+
+The experiment takes approximately 70 minutes.
+
+The results are written to:
+
+```text
+reports/hw02/raw/batch_results.csv
+```
+
+Each result is written to the CSV file immediately after a run finishes. Therefore, completed results are preserved if a later run fails or is interrupted.
+
+## 4. Adversarial Experiment (Part 4.5)
+
+Run the adversarial experiment from the repository root:
+
+```bash
+cd ~/data260-8561
+conda activate data260
+python code/experiments/run_adversarial.py
+```
+
+This script runs the adversarial input 5 times and takes approximately 25 minutes.
+
+The results are written to:
+
+```text
+reports/hw02/raw/adversarial_results.csv
+```
+
+## 5. Self-check
+
+Before running the verification script, stop any process that is already using port 8461:
+
+```bash
+kill $(lsof -ti :8461)
+```
+
+If no process is using port 8461, this command may print a message. That does not affect the verification.
+
+Run the verification script from the repository root:
+
+```bash
+cd ~/data260-8561
+conda activate data260
+python code/experiments/verify_hw02.py
+```
+
+The script checks the API response, CRUD operations, LangGraph termination, and Planner tag count.
+
+The verification result is written to:
+
+```text
+reports/hw02/verification.json
+```
+
+## Notes
+
+The `MAX_TURNS` environment variable is read by `router_logic()` on every call, so the ceiling can be changed without editing the source code. `run_batch.py` sets this variable itself for each configuration, which is how it runs ceiling 2 and ceiling 10 in a single process.
+
+Before running `verify_hw02.py`, make sure port 8461 is available because the verification script starts its own FastAPI server on that port.
+
+The experiments call the local `qwen3:8b` model through Ollama. Runtime may vary depending on the computer and current memory usage.

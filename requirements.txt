@@ -1,0 +1,18 @@
+# DATA-260 HW02 — Python 3.12 (conda env: data260)
+# Local model served by Ollama (qwen3:8b), not installed via pip.
+
+# Web layer (Part 1 & Part 2)
+fastapi==0.141.1
+uvicorn==0.53.0
+
+# Validation (Part 4.1)
+pydantic==2.13.5
+
+# Agent graph (Part 3)
+langgraph==1.2.11
+langchain-core==1.6.1
+langchain-ollama==1.1.0
+langchain-community==0.4.2
+
+# Model adapter (src/model_client.py)
+ollama==0.6.2
