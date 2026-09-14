@@ -491,3 +491,82 @@ Finished ceiling_10 run 19: valid_first_attempt
 -------NODE: Supervisor------
 Finished ceiling_10 run 20: valid_first_attempt
 All experiments finished. Results saved to: /Users/haozhewang/data260-8561/reports/hw02/raw/batch_results.csv
+[1/5] Running adversarial, run 1/5, ceiling=6
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished adversarial run 1: valid_after_2plus_retries
+[2/5] Running adversarial, run 2/5, ceiling=6
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished adversarial run 2: valid_after_1_retry
+[3/5] Running adversarial, run 3/5, ceiling=6
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished adversarial run 3: valid_after_1_retry
+[4/5] Running adversarial, run 4/5, ceiling=6
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+-------NODE: Planner------
+[1/2] Running adversarial, run 1/2, ceiling=6
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished adversarial run 1: valid_after_2plus_retries
+[2/2] Running adversarial, run 2/2, ceiling=6
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+-------NODE: Planner------
+-------NODE: Supervisor------
+-------NODE: Reviewer------
+-------NODE: Supervisor------
+Finished adversarial run 2: hit_turn_ceiling
+All experiments finished. Results saved to: /Users/haozhewang/data260-8561/reports/hw02/raw/adversarial_results.csv
