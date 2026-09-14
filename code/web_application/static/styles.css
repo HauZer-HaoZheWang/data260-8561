@@ -1,0 +1,226 @@
+/*Include padding and border inside element width*/
+* {
+    box-sizing: border-box;
+}
+
+
+/*Set basic page style*/
+html,
+body {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f6f8;
+    color: #222222;
+}
+
+
+/*Keep main content inside the screen*/
+main {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+/*Set main heading style*/
+h1 {
+    margin-top: 0;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+
+/*Separate each part of the page*/
+section {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    padding: 16px;
+    background-color: white;
+    border: 1px solid #dddddd;
+    border-radius: 6px;
+}
+
+
+/*Set section heading style*/
+h2 {
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+
+/*Make labels easier to read*/
+label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+
+/*Keep inputs inside their container*/
+input,
+select,
+textarea {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+    border-radius: 4px;
+    font: inherit;
+}
+
+
+/*Set button style*/
+button {
+    max-width: 100%;
+    margin-top: 10px;
+    margin-right: 6px;
+    padding: 9px 14px;
+    border: 1px solid #555555;
+    border-radius: 4px;
+    background-color: #eeeeee;
+    color: #222222;
+    font: inherit;
+    cursor: pointer;
+}
+
+
+/*Show a different color when mouse is over button*/
+button:hover {
+    background-color: #dddddd;
+}
+
+
+/*Set Add Trial button style*/
+#createForm button {
+    background-color: #1667c5;
+    color: white;
+    border-color: #1667c5;
+}
+
+
+/*Set Edit button style*/
+.editBtn {
+    background-color: #f0ad4e;
+    border-color: #d99835;
+}
+
+
+/*Set Delete button style*/
+.deleteBtn {
+    background-color: #c9302c;
+    color: white;
+    border-color: #ac2925;
+}
+
+
+/*Let only the table area scroll on a narrow screen*/
+.tableWrapper {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+
+/*Make table use the full available width*/
+table {
+    width: 100%;
+    min-width: 620px;
+    border-collapse: collapse;
+}
+
+
+/*Set table cell style*/
+th,
+td {
+    padding: 10px;
+    border: 1px solid #cccccc;
+    text-align: left;
+    vertical-align: top;
+    overflow-wrap: break-word;
+}
+
+
+/*Set table heading color*/
+th {
+    background-color: #e9ecef;
+}
+
+
+/*Keep Edit and Delete buttons readable*/
+td:last-child {
+    white-space: nowrap;
+}
+
+
+/*Show loading state with italic text*/
+#loadingState {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 14px;
+    background-color: #e8f2ff;
+    color: #24527a;
+    font-style: italic;
+    border-radius: 4px;
+}
+
+
+/*Show empty state with gray text*/
+#emptyState {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 14px;
+    background-color: #eeeeee;
+    color: #666666;
+    border-radius: 4px;
+}
+
+
+/*Show error state with red background*/
+#errorState {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 14px;
+    background-color: #f8d7da;
+    color: #842029;
+    border: 1px solid #f5c2c7;
+    border-radius: 4px;
+}
+
+
+/*Apply these styles only on narrow screens*/
+@media (max-width: 480px) {
+    main {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    section {
+        padding: 12px;
+    }
+
+    #createForm button,
+    #searchButton,
+    #clearSearchButton {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    th,
+    td {
+        padding: 8px;
+    }
+}

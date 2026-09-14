@@ -1,0 +1,294 @@
+===== index.html =====
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HW1-Haozhe Wang</title>
+</head>
+<body>
+
+  <h1>Clinical Trial Registration</h1>
+
+  <form id="trialForm">
+
+
+    <label for="briefTitle">Brief Title</label>
+    <input type="text" id="briefTitle" name="briefTitle"
+            placeholder="Please type in the brief title of trial description which can be easily read by people."
+            required autofocus>
+
+
+    <label for="sponsor">Sponsor</label>
+    <input type="text" id="sponsor" name="sponsor"
+            placeholder="Please type in the sponsor of trial, e.g. University of Colorado, Denver."
+            required>
+
+ 
+    <label for="submitterEmail">Submitter Email</label>
+    <input type="email" id="submitterEmail" name="submitterEmail"
+            placeholder="email_address_of_submitter@trial.com" required>
+
+
+    <label for="detailedDescription">Detailed Description</label>
+    <textarea id="detailedDescription" name="detailedDescription" rows="6"
+            placeholder="Write at least 25 characters to describe the details of trial."
+            required></textarea>
+
+    <label for="funderType">Funder Type</label>
+    <select id="funderType" name="funderType" required>
+        <option value="">-- Select a funder type --</option>
+        <option value="NIH">NIH</option>
+        <option value="Other U.S. federal agency">Other U.S. federal agency</option>
+        <option value="Industry">Industry</option>
+        <option value="All others (individuals, universities, organizations)">All others (individuals, universities, organizations)</option>
+    </select>
+
+    <input type="checkbox" id="agreeTerms" name="agreeTerms" required>
+    <label for="agreeTerms">I agree to the terms and conditions.</label>
+    
+
+
+    <button type="submit">Submit Trial!</button>
+  </form>
+
+  <script src="feedback.js"></script>
+</body>
+</html>
+===== feedback.js =====
+function makeSubmission() {
+  let count = 0;
+  return function () {
+    count = count + 1;
+    return count;
+  };
+}
+
+
+const countSubmission = makeSubmission();
+
+
+const trialForm = document.getElementById("trialForm");
+
+trialForm.addEventListener("submit", (event) => {
+
+  event.preventDefault();
+
+  const detailedDescription = document.getElementById("detailedDescription").value;
+  if (detailedDescription.length <= 25) {
+    alert("Your detailed description must more than 25 characters.");
+    return;
+  }
+
+  const agreeTerms = document.getElementById("agreeTerms").checked;
+  if (!agreeTerms) {
+    alert("Please check 'I agree to the terms and conditions.'");
+    return;
+  }
+
+  const trialData = Object.fromEntries(new FormData(trialForm));
+  const jsonString = JSON.stringify(trialData);
+  console.log("Submitted JSON:", jsonString);
+
+  const parsed = JSON.parse(jsonString);
+  const { briefTitle, submitterEmail } = parsed;
+  console.log("Brief Title:", briefTitle);
+  console.log("Submitter Email:", submitterEmail);
+ 
+  const withDate = { ...parsed, submissionDate: new Date().toISOString() };
+  console.log("With date:", withDate);
+
+  const total = countSubmission();
+  console.log("Submission count:", total);
+});
+===== Dockerfile =====
+FROM nginx:alpine
+
+RUN rm -rf /usr/share/nginx/html/*
+
+COPY web_application/ /usr/share/nginx/html/
+
+EXPOSE 80
+
+CMD ["nginx", "-g", "daemon off;"]
+
+===== PART 2 OUTPUT =====
+
+--- Planner (21958 ms) ---
+{
+  "thought": "Identifying key themes in the study's focus on DBS, local field potentials, and motor symptom evaluation.",
+  "message": "Tags and summary created based on the study's focus on DBS, local field potentials, and motor symptom evaluation in neurological disorders.",
+  "data": {
+    "tags": [
+      "Deep Brain Stimulation Research",
+      "Local Field Potentials Analysis",
+      "Motor Symptom Evaluation in Neurological Disorders"
+    ],
+    "summary": "This study examines motor symptom responses in Parkinson's and related disorders using local field potentials from deep brain stimulation electrodes.",
+    "issues": []
+  }
+}
+
+--- Reviewer (42261 ms) ---
+{
+  "thought": "Tags focus on study methods and conditions; summary captures key objective.",
+  "message": "Tags and summary created based on study's focus on DBS, local field potentials, and motor symptom evaluation in neurological disorders.",
+  "data": {
+    "tags": [
+      "Deep Brain Stimulation",
+      "Local Field Potentials",
+      "Motor Symptom Evaluation"
+    ],
+    "summary": "Study examines DBS's impact on motor symptoms via local field potentials in Parkinson's and movement disorders.",
+    "issues": []
+  }
+}
+
+ Finalized Output 
+{
+  "thought": "Finalizing tags and summary based on study's focus on DBS, local field potentials, and motor symptom evaluation in neurological disorders.",
+  "message": "Tags and summary refined to reflect study's core focus on DBS, neural recordings, and motor symptom assessment in movement disorders.",
+  "data": {
+    "tags": [
+      "Deep Brain Stimulation",
+      "Local Field Potentials",
+      "Neurological Disorders"
+    ],
+    "summary": "This study examines motor symptom responses in Parkinson's and related disorders using DBS electrode recordings of brain activity.",
+    "issues": []
+  }
+}
+
+ Publish Package 
+{
+  "title": "Deep Brain Stimulation for Parkinson's Disease",
+  "email": "student@example.com",
+  "content": "This observational study records local field potentials from deep brain stimulating electrodes implanted in patients with Parkinson disease, essential tremor, or dystonia, to evaluate motor symptom response.",
+  "agents": {
+    "transcript": [
+      {
+        "role": "Planner",
+        "content": "Tags and summary created based on the study's focus on DBS, local field potentials, and motor symptom evaluation in neurological disorders."
+      },
+      {
+        "role": "Reviewer",
+        "content": "Tags and summary created based on study's focus on DBS, local field potentials, and motor symptom evaluation in neurological disorders."
+      }
+    ],
+    "final": {
+      "tags": [
+        "Deep Brain Stimulation",
+        "Local Field Potentials",
+        "Neurological Disorders"
+      ],
+      "summary": "This study examines motor symptom responses in Parkinson's and related disorders using DBS electrode recordings of brain activity.",
+      "issues": []
+    }
+  },
+  "submissionDate": "2026-08-31T06:51:38Z"
+}
+
+===== PART 3 STATS =====
+
+=== temperature = 0.7  (n=20) ===
+Distinct tag sets      : 13
+Tags in ALL runs       : ['Deep Brain Stimulation']
+Tags in EXACTLY 1 run  : ['Motor Response Analysis', 'Neurological Conditions', 'Neurophysiological Monitoring', 'Motor Symptoms', 'Movement Disorder Assessment', 'Neurophysiological Data', 'Electrophysiological Recordings', 'Motor Symptom Evaluation', 'Neurological Movement Disorders']
+Latency p50/p95/p99 ms : 92533 / 153022 / 180020
+Unique sets detail:
+  5x  ['Deep Brain Stimulation', 'Local Field Potentials', 'Movement Disorders']
+  2x  ['Deep Brain Stimulation', 'Local Field Potentials', 'Neurological Disorders']
+  2x  ['Deep Brain Stimulation', 'Movement Disorders', 'Neural Signal Analysis']
+  2x  ['Deep Brain Stimulation', 'Local Field Potentials', 'Motor Symptom Assessment']
+  1x  ['Deep Brain Stimulation', 'Local Field Potentials', 'Motor Response Analysis']
+  1x  ['Deep Brain Stimulation', 'Electrophysiological Monitoring', 'Movement Disorders']
+  1x  ['Deep Brain Stimulation', 'Local Field Potentials', 'Neurological Conditions']
+  1x  ['Deep Brain Stimulation', 'Motor Symptoms', 'Neurophysiological Monitoring']
+  1x  ['Deep Brain Stimulation', 'Movement Disorder Assessment', 'Neurophysiological Data']
+  1x  ['Deep Brain Stimulation', 'Electrophysiological Recordings', 'Movement Disorders']
+  1x  ['Deep Brain Stimulation', 'Local Field Potentials', 'Motor Symptom Evaluation']
+  1x  ['Deep Brain Stimulation', 'Local Field Potentials', 'Neurological Movement Disorders']
+  1x  ['Deep Brain Stimulation', 'Electrophysiological Monitoring', 'Neurological Disorders']
+
+=== temperature = 0.0  (n=20) ===
+Distinct tag sets      : 1
+Tags in ALL runs       : ['Local Field Potentials', 'Deep Brain Stimulation', 'Neurological Disorders']
+Tags in EXACTLY 1 run  : []
+Latency p50/p95/p99 ms : 78362 / 81361 / 84505
+Unique sets detail:
+  20x  ['Deep Brain Stimulation', 'Local Field Potentials', 'Neurological Disorders']
+
+===== PART 4 SESSION =====
+hw1_client — type /stats for statistics, /exit to quit
+
+> 
+- Function name 'add' does not match the subtraction operation.  
+- The operation should be addition (a + b) instead of subtraction.  
+- No error handling for invalid input types.  
+- The function lacks docstring for clarity.  
+- The code is overly simplified and does not follow standard practices.  
+- The function could be renamed to 'subtract' for consistency.
+
+[turn 1] input=112 output=493 total=605
+
+> 
+- Function lacks error handling for division by zero.  
+- No docstring explaining the purpose and parameters.  
+- Division operator '/' may perform integer division in Python 2.  
+- The function could benefit from type hints for clarity.  
+- No input validation for non-numeric arguments.  
+- The function name 'div' is correct but could be more descriptive.
+
+[turn 2] input=212 output=522 total=734
+
+> 
+- The code is invalid due to the "/think" suffix.  
+- No error handling for file not found or read errors.  
+- Using open without a context manager (with statement) leads to resource leaks.  
+- No encoding specified for the file, which may cause issues with non-UTF-32 files.  
+- The variable x is assigned the entire file content as a string, which may not be necessary.  
+- The code lacks comments or docstrings explaining the purpose.
+
+[turn 3] input=308 output=900 total=1208
+
+> --- STATS ---
+turns                     : 3
+cumulative input tokens   : 632
+cumulative output tokens  : 1915
+serialized history length : 411 (estimated)
+-------------
+
+> 
+- The code uses index-based iteration instead of directly iterating over the list for simplicity.  
+- No error handling for empty 'items' or non-iterable types.  
+- The variable 'i' is less descriptive than using 'index' for clarity.  
+- The code could be simplified by directly iterating over 'items' instead of using range(len()).  
+- No input validation to prevent potential NoneType errors.  
+- The code lacks comments or docstrings explaining the purpose.
+
+[turn 4] input=431 output=467 total=898
+
+> 
+- Hardcoded password in plain text violates security best practices.  
+- Password 'admin123' is weak and easily guessable.  
+- No encryption or hashing applied to the password.  
+- Variable name 'password' is acceptable but could be more descriptive.  
+- The code lacks input validation or security checks.  
+- Suggest using environment variables or a secrets manager for sensitive credentials.
+
+[turn 5] input=549 output=561 total=1110
+
+> --- STATS ---
+turns                     : 5
+cumulative input tokens   : 1612
+cumulative output tokens  : 2943
+serialized history length : 647 (estimated)
+-------------
+
+> 
+=== SESSION SUMMARY ===
+--- STATS ---
+turns                     : 5
+cumulative input tokens   : 1612
+cumulative output tokens  : 2943
+serialized history length : 647 (estimated)
+-------------

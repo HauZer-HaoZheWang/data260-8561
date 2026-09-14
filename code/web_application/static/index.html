@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!--Make the page work correctly on mobile screens-->
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>HW2 - Haozhe Wang</title>
+
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+
+<body>
+    <main>
+        <h1>Clinical Trial Registration</h1>
+
+        <!--Create a new clinical trial-->
+        <section>
+            <h2>Add New Trial</h2>
+
+            <form id="createForm">
+                <label for="newTitle">
+                    Brief Title
+                </label>
+
+                <input
+                    type="text"
+                    id="newTitle"
+                    name="briefTitle"
+                    placeholder="Please type in the brief title"
+                    required
+                    autofocus
+                >
+
+                <label for="newSponsor">
+                    Sponsor
+                </label>
+
+                <input
+                    type="text"
+                    id="newSponsor"
+                    name="sponsor"
+                    placeholder="For example, Stanford University"
+                    required
+                >
+
+                <button type="submit">
+                    Add Trial
+                </button>
+            </form>
+        </section>
+
+        <!--Search clinical trials-->
+        <section>
+            <h2>Search Trials</h2>
+
+            <label for="searchInput">
+                Search:
+            </label>
+
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Search by title or sponsor"
+            >
+
+            <button
+                type="button"
+                id="searchButton"
+            >
+                Search
+            </button>
+
+            <button
+                type="button"
+                id="clearSearchButton"
+            >
+                Clear
+            </button>
+        </section>
+
+        <!--Shown while waiting for API response-->
+        <div
+            id="loadingState"
+            style="display: none;"
+        >
+            Loading trials...
+        </div>
+
+        <!--Shown when the API returns an empty list-->
+        <div
+            id="emptyState"
+            style="display: none;"
+        >
+            No trials found.
+        </div>
+
+        <!--Shown when a request fails-->
+        <div
+            id="errorState"
+            style="display: none;"
+        ></div>
+
+        <!--Display all clinical trials-->
+        <section>
+            <h2>Trial List</h2>
+        <div class="tableWrapper">
+            <table
+                id="trialTable"
+                style="display: none;"
+            >
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Brief Title</th>
+                        <th>Sponsor</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+
+                <!--JavaScript will create rows inside this tbody-->
+                <tbody id="trialTableBody"></tbody>
+            </table>
+        </div>
+        </section>
+    </main>
+
+    <!--Load the new HW2 JavaScript file-->
+    <script src="/static/app.js"></script>
+</body>
+</html>
