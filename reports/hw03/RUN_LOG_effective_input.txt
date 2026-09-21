@@ -1,0 +1,48 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Effective input diagnostic
+Embedding model: sentence-transformers/all-MiniLM-L6-v2
+Model sequence limit: 256
+Reserved special-token positions: 2
+Effective content-token limit: 254
+
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 10062.73it/s]
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (515 > 512). Running this sequence through the model will result in indexing errors
+LLM is explicitly disabled. Using MockLLM.
+Documents: 100
+Characters: 548264
+
+Building all chunking configurations
+
+Token statistics
+------------------------------------------------------------------------------------------------------------------------
+token                visible_text nodes=  692  median=  213  p90=  229  max=  257  over254=    3 (  0.43%)  lost=      6
+token                index_input  nodes=  692  median=  264  p90=  281  max=  309  over254=  483 ( 69.80%)  lost=   7944
+semantic_95          visible_text nodes=  299  median=  324  p90=  863  max= 1760  over254=  182 ( 60.87%)  lost=  59221
+semantic_95          index_input  nodes=  299  median=  374  p90=  913  max= 1812  over254=  202 ( 67.56%)  lost=  69073
+sentence_window      visible_text nodes= 3233  median=   25  p90=   73  max=  806  over254=   32 (  0.99%)  lost=   4719
+sentence_window      index_input  nodes= 3233  median=   76  p90=  124  max=  858  over254=   43 (  1.33%)  lost=   6563
+semantic_tuned_80    visible_text nodes=  750  median=  104  p90=  382  max= 1039  over254=  157 ( 20.93%)  lost=  26312
+semantic_tuned_80    index_input  nodes=  750  median=  156  p90=  434  max= 1089  over254=  224 ( 29.87%)  lost=  35945
+
+Store-score validation
+------------------------------------------------------------------------------------------------------------------------
+Technique: token
+Question: In the ARV-6723 dose escalation study, over how many days after the first administration are dose-limiting toxicities assessed?
+Visible cosine uses MetadataMode.NONE.
+Metadata cosine uses MetadataMode.EMBED.
+Generating embeddings:   0%|          | 0/692 [00:00<?, ?it/s]Generating embeddings:   4%|▍         | 30/692 [00:00<00:02, 267.39it/s]Generating embeddings:  10%|█         | 70/692 [00:00<00:02, 297.30it/s]Generating embeddings:  16%|█▌        | 110/692 [00:00<00:01, 304.21it/s]Generating embeddings:  22%|██▏       | 150/692 [00:00<00:01, 308.50it/s]Generating embeddings:  27%|██▋       | 190/692 [00:00<00:01, 310.88it/s]Generating embeddings:  33%|███▎      | 230/692 [00:00<00:01, 311.34it/s]Generating embeddings:  39%|███▉      | 270/692 [00:00<00:01, 311.48it/s]Generating embeddings:  45%|████▍     | 310/692 [00:01<00:01, 312.52it/s]Generating embeddings:  51%|█████     | 350/692 [00:01<00:01, 312.78it/s]Generating embeddings:  56%|█████▋    | 390/692 [00:01<00:00, 313.54it/s]Generating embeddings:  62%|██████▏   | 430/692 [00:01<00:00, 314.16it/s]Generating embeddings:  68%|██████▊   | 470/692 [00:01<00:00, 314.25it/s]Generating embeddings:  74%|███████▎  | 510/692 [00:01<00:00, 314.56it/s]Generating embeddings:  79%|███████▉  | 550/692 [00:01<00:00, 315.10it/s]Generating embeddings:  85%|████████▌ | 590/692 [00:01<00:00, 314.44it/s]Generating embeddings:  91%|█████████ | 630/692 [00:02<00:00, 314.42it/s]Generating embeddings:  97%|█████████▋| 670/692 [00:02<00:00, 315.37it/s]Generating embeddings: 100%|██████████| 692/692 [00:02<00:00, 311.74it/s]
+
+Rank  Source                       Store     Visible    Metadata   Delta visible   Delta metadata
+-------------------------------------------------------------------------------------------------
+1     NCT07749586.txt           0.786970    0.808809    0.786970     -0.02183905       0.00000000
+2     NCT05902988.txt           0.653576    0.654454    0.653576     -0.00087824       0.00000000
+3     NCT07244835.txt           0.650841    0.639441    0.650841      0.01139951       0.00000000
+4     NCT05379985.txt           0.643924    0.600620    0.643924      0.04330406       0.00000001
+5     NCT05902988.txt           0.637148    0.598231    0.637148      0.03891689      -0.00000000
+
+Maximum absolute store-versus-visible delta: 0.0433040638
+Maximum absolute store-versus-metadata delta: 0.0000000053
+Result: MetadataMode.EMBED reproduces the vector-store scores within floating-point tolerance.
+
+Effective input CSV saved to: /Users/haozhewang/data260-8561/reports/hw03/raw/effective_input_diagnostic.csv
+Metadata score CSV saved to: /Users/haozhewang/data260-8561/reports/hw03/raw/metadata_score_validation.csv

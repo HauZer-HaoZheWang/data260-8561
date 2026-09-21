@@ -1265,3 +1265,135 @@ Failed: 0
 Overall pass: True
 Saved to: /Users/haozhewang/data260-8561/reports/hw03/verification.json
 ================================================================================
+/opt/anaconda3/envs/data260/lib/python3.12/site-packages/fastapi/testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+  from starlette.testclient import TestClient as TestClient  # noqa
+DATA 260 HW3 verification
+Repository: /Users/haozhewang/data260-8561
+Mode: core
+
+[PASS] required_files: All required files exist
+[PASS] corpus_file_count: 100 files listed
+[PASS] corpus_minimum_size: 548872 bytes; minimum is 204800
+[PASS] corpus_hashes: Verified 100 files
+[PASS] manifest_copies_match: Local and report manifests match
+[PASS] question_count: 5 questions
+[PASS] question_required_fields: All questions have required fields
+[PASS] question_sources_exist: All expected source files exist
+[PASS] single_source_questions: 5 questions marked as single source
+[PASS] raw_output_files: All raw output files exist
+[PASS] retrieval_result_structure: Verified 20 result files
+[PASS] main_techniques: Techniques found: ['semantic_95', 'semantic_tuned_80', 'sentence_window', 'token']
+[PASS] recall_at_5_values: Main Recall@5 values: [1.0, 1.0, 1.0]
+[PASS] recall_at_1_values: Recall@1 values: {'token': 0.8, 'semantic_95': 0.8, 'sentence_window': 0.6, 'semantic_tuned_80': 0.8}
+[PASS] semantic_top1_comparison: 5/5 identical Top-1 chunks
+[FAIL] metrics_document_sections: Missing: ['## Chunk Size Diagnostic']
+[PASS] web_home: Status 200
+[PASS] invalid_login: Status 302; location=/login?error=invalid
+[PASS] valid_login: Status 302; location=/dashboard
+[PASS] local_cookie_attributes: session=eyj1c2vyijogimfkbwluiiwgimxhc3rfc2vlbii6ide3otawmtgyotgundm1otc0oh0=.argc-g.1i1medzfllrmd5g-b6cpz8dcqky; path=/; max-age=3600; httponly; samesite=lax
+[PASS] protected_dashboard: Status 200
+[PASS] trials_frontend: Status 200
+[PASS] crud_get: Status 200
+[PASS] crud_create: Status 201
+[PASS] crud_update: Status 200
+[PASS] crud_delete: Status 200
+[PASS] logout_blocks_reuse: Logout 302; dashboard location=/login
+[PASS] idle_timeout: Status 302; location=/login?error=expired
+[PASS] https_cookie_evidence: Secure, HttpOnly, and SameSite=lax found
+[PASS] screenshots: 14 screenshots found
+[PASS] questions_before_run: Question commit: 2026-09-20T18:08:46-07:00; run start: 2026-09-20T18:08:58.340939-07:00
+
+================================================================================
+Passed: 30
+Failed: 1
+Overall pass: False
+Saved to: /Users/haozhewang/data260-8561/reports/hw03/verification.json
+================================================================================
+/opt/anaconda3/envs/data260/lib/python3.12/site-packages/fastapi/testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+  from starlette.testclient import TestClient as TestClient  # noqa
+DATA 260 HW3 verification
+Repository: /Users/haozhewang/data260-8561
+Mode: core
+
+[PASS] required_files: All required files exist
+[PASS] corpus_file_count: 100 files listed
+[PASS] corpus_minimum_size: 548872 bytes; minimum is 204800
+[PASS] corpus_hashes: Verified 100 files
+[PASS] manifest_copies_match: Local and report manifests match
+[PASS] question_count: 5 questions
+[PASS] question_required_fields: All questions have required fields
+[PASS] question_sources_exist: All expected source files exist
+[PASS] single_source_questions: 5 questions marked as single source
+[PASS] raw_output_files: All raw output files exist
+[PASS] retrieval_result_structure: Verified 20 result files
+[PASS] main_techniques: Techniques found: ['semantic_95', 'semantic_tuned_80', 'sentence_window', 'token']
+[PASS] recall_at_5_values: Main Recall@5 values: [1.0, 1.0, 1.0]
+[PASS] recall_at_1_values: Recall@1 values: {'token': 0.8, 'semantic_95': 0.8, 'sentence_window': 0.6, 'semantic_tuned_80': 0.8}
+[PASS] semantic_top1_comparison: 5/5 identical Top-1 chunks
+[PASS] metrics_document_sections: All required sections found
+[PASS] web_home: Status 200
+[PASS] invalid_login: Status 302; location=/login?error=invalid
+[PASS] valid_login: Status 302; location=/dashboard
+[PASS] local_cookie_attributes: session=eyj1c2vyijogimfkbwluiiwgimxhc3rfc2vlbii6ide3otawmtgzntcumjkxmtqxfq==.argdnq.esgec87vsmqucep-pn0f7hefrqq; path=/; max-age=3600; httponly; samesite=lax
+[PASS] protected_dashboard: Status 200
+[PASS] trials_frontend: Status 200
+[PASS] crud_get: Status 200
+[PASS] crud_create: Status 201
+[PASS] crud_update: Status 200
+[PASS] crud_delete: Status 200
+[PASS] logout_blocks_reuse: Logout 302; dashboard location=/login
+[PASS] idle_timeout: Status 302; location=/login?error=expired
+[PASS] https_cookie_evidence: Secure, HttpOnly, and SameSite=lax found
+[PASS] screenshots: 14 screenshots found
+[PASS] questions_before_run: Question commit: 2026-09-20T18:08:46-07:00; run start: 2026-09-20T18:08:58.340939-07:00
+
+================================================================================
+Passed: 31
+Failed: 0
+Overall pass: True
+Saved to: /Users/haozhewang/data260-8561/reports/hw03/verification.json
+================================================================================
+/opt/anaconda3/envs/data260/lib/python3.12/site-packages/fastapi/testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+  from starlette.testclient import TestClient as TestClient  # noqa
+DATA 260 HW3 verification
+Repository: /Users/haozhewang/data260-8561
+Mode: core
+
+[PASS] required_files: All required files exist
+[PASS] corpus_file_count: 100 files listed
+[PASS] corpus_minimum_size: 548872 bytes; minimum is 204800
+[PASS] corpus_hashes: Verified 100 files
+[PASS] manifest_copies_match: Local and report manifests match
+[PASS] question_count: 5 questions
+[PASS] question_required_fields: All questions have required fields
+[PASS] question_sources_exist: All expected source files exist
+[PASS] single_source_questions: 5 questions marked as single source
+[PASS] raw_output_files: All raw output files exist
+[PASS] retrieval_result_structure: Verified 20 result files
+[PASS] main_techniques: Techniques found: ['semantic_95', 'semantic_tuned_80', 'sentence_window', 'token']
+[PASS] recall_at_5_values: Main Recall@5 values: [1.0, 1.0, 1.0]
+[PASS] recall_at_1_values: Recall@1 values: {'token': 0.8, 'semantic_95': 0.8, 'sentence_window': 0.6, 'semantic_tuned_80': 0.8}
+[PASS] semantic_top1_comparison: 5/5 identical Top-1 chunks
+[PASS] metrics_document_sections: All required sections found
+[PASS] web_home: Status 200
+[PASS] invalid_login: Status 302; location=/login?error=invalid
+[PASS] valid_login: Status 302; location=/dashboard
+[PASS] local_cookie_attributes: session=eyj1c2vyijogimfkbwluiiwgimxhc3rfc2vlbii6ide3otawmtg1mziumja2njazfq==.argd5a.wq6q7f8x4ps2uta25vcginbhecg; path=/; max-age=3600; httponly; samesite=lax
+[PASS] protected_dashboard: Status 200
+[PASS] trials_frontend: Status 200
+[PASS] crud_get: Status 200
+[PASS] crud_create: Status 201
+[PASS] crud_update: Status 200
+[PASS] crud_delete: Status 200
+[PASS] logout_blocks_reuse: Logout 302; dashboard location=/login
+[PASS] idle_timeout: Status 302; location=/login?error=expired
+[PASS] https_cookie_evidence: Secure, HttpOnly, and SameSite=lax found
+[PASS] screenshots: 14 screenshots found
+[PASS] questions_before_run: Question commit: 2026-09-20T18:08:46-07:00; run start: 2026-09-20T18:08:58.340939-07:00
+
+================================================================================
+Passed: 31
+Failed: 0
+Overall pass: True
+Saved to: /Users/haozhewang/data260-8561/reports/hw03/verification.json
+================================================================================

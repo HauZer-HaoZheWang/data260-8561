@@ -16,8 +16,11 @@ from llama_index.core.node_parser import (
 )
 
 
-#Keep token chunks near the MiniLM input limit
-#The splitter and MiniLM use different tokenizers
+# MiniLM accepts 256 total sequence positions, including special tokens.
+# TokenTextSplitter does not use exactly the same tokenizer as MiniLM's
+# WordPiece tokenizer, so 256 is a near-limit target for visible chunk text,
+# not a strict guarantee. LlamaIndex metadata may also make the actual
+# embedding input longer than the visible text.
 TOKEN_CHUNK_SIZE = 256
 TOKEN_CHUNK_OVERLAP = 32
 

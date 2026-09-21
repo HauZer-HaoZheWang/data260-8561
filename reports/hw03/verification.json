@@ -1,10 +1,10 @@
 {
-  "verified_at": "2026-09-20T19:04:33-07:00",
+  "verified_at": "2026-09-21T12:22:12-07:00",
   "mode": "core",
   "sid4": 8561,
   "verify_seed": 268561,
   "domain_id": 1,
-  "git_commit": "30e27cf23fc7a268fafef38e149346f7fa5002fb",
+  "git_commit": "5c7fe9ed80fc8b297b957233d5a9a75b2ee58347",
   "overall_pass": true,
   "passed_checks": 31,
   "failed_checks": 0,
@@ -107,7 +107,7 @@
     {
       "name": "local_cookie_attributes",
       "passed": true,
-      "detail": "session=eyj1c2vyijogimfkbwluiiwgimxhc3rfc2vlbii6ide3odk5ntyynzmumdkwnjg0fq==.arcqsq.bizx5bunld_8jd9snipepgtye_g; path=/; max-age=3600; httponly; samesite=lax"
+      "detail": "session=eyj1c2vyijogimfkbwluiiwgimxhc3rfc2vlbii6ide3otawmtg1mziumja2njazfq==.argd5a.wq6q7f8x4ps2uta25vcginbhecg; path=/; max-age=3600; httponly; samesite=lax"
     },
     {
       "name": "protected_dashboard",
@@ -157,7 +157,7 @@
     {
       "name": "screenshots",
       "passed": true,
-      "detail": "11 screenshots found"
+      "detail": "14 screenshots found"
     },
     {
       "name": "questions_before_run",

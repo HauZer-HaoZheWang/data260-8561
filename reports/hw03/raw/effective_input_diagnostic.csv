@@ -1,0 +1,9 @@
+technique,content_variant,nodes,median_tokens,p90_tokens,max_tokens,over_254_count,over_254_pct,estimated_truncated_tokens
+token,visible_text,692,213,229,257,3,0.4335260115606936,6
+token,index_input,692,264,281,309,483,69.79768786127167,7944
+semantic_95,visible_text,299,324,863,1760,182,60.86956521739131,59221
+semantic_95,index_input,299,374,913,1812,202,67.55852842809364,69073
+sentence_window,visible_text,3233,25,73,806,32,0.9897927621404269,4719
+sentence_window,index_input,3233,76,124,858,43,1.3300340241261985,6563
+semantic_tuned_80,visible_text,750,104,382,1039,157,20.933333333333334,26312
+semantic_tuned_80,index_input,750,156,434,1089,224,29.86666666666667,35945

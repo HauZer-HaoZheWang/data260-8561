@@ -1,0 +1,6 @@
+rank,source_file,expected_source,store_score,visible_text_cosine,metadata_embed_cosine,store_minus_visible,store_minus_metadata,visible_characters,embed_content_characters,metadata_keys
+1,NCT07749586.txt,NCT07749586.txt,0.7869701428374768,0.8088091905926494,0.7869701428354349,-0.021839047755172647,2.041922186890588e-12,900,1004,creation_date|file_name|file_path|file_size|file_type|last_modified_date|source_file
+2,NCT05902988.txt,NCT07749586.txt,0.6535761077921017,0.6544543445021274,0.6535761050259511,-0.0008782367100256261,2.7661506418752424e-09,827,931,creation_date|file_name|file_path|file_size|file_type|last_modified_date|source_file
+3,NCT07244835.txt,NCT07749586.txt,0.6508405347456981,0.6394410271631373,0.6508405309471894,0.011399507582560808,3.798508729779826e-09,467,571,creation_date|file_name|file_path|file_size|file_type|last_modified_date|source_file
+4,NCT05379985.txt,NCT07749586.txt,0.6439239445697272,0.6006198807980395,0.6439239392608439,0.04330406377168772,5.308883332943992e-09,432,536,creation_date|file_name|file_path|file_size|file_type|last_modified_date|source_file
+5,NCT05902988.txt,NCT07749586.txt,0.6371480935865191,0.5982311995741274,0.6371480961436892,0.038916894012391734,-2.5571700312809753e-09,669,773,creation_date|file_name|file_path|file_size|file_type|last_modified_date|source_file

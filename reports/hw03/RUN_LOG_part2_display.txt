@@ -1,0 +1,87 @@
+DATA 260 HW3 RETRIEVAL OUTPUT
+Technique: token
+Question: Q2
+
+====================================================================================================
+Technique: token
+Question: Q2 - In the ARV-6723 dose escalation study, over how many days after the first administration are dose-limiting toxicities assessed?
+Expected source: NCT07749586.txt
+Query embedding dimension: 384
+Query embedding first 8 values: [0.012151692993938923, -0.03523905947804451, -0.038597285747528076, 0.03076348826289177, 0.01728588156402111, -0.06552444398403168, -0.016129588708281517, 0.08212193846702576]
+Query vector shape: (384,)
+Document vectors shape: (5, 384)
+Retrieval latency: 5.108 ms
+Recall@5: 1
+----------------------------------------------------------------------------------------------------
+Rank  Store       Cosine      Length    Source                Preview
+----------------------------------------------------------------------------------------------------
+1     0.786970    0.808809    900       NCT07749586.txt       Toxicities (DLTs) of ARV-6723 [Time Frame: 21 days from first ARV-6723 administration] Number of participants within a dose escalation cohort with adverse event
+2     0.653576    0.654454    827       NCT05902988.txt       Any clinically significant ascites or pleural effusions at time of enrollment, or any therapeutic paracentesis or thoracentesis within 28 days of planned first 
+3     0.650841    0.639441    467       NCT07244835.txt       Age: 18 Years Maximum Age: Sex: ALL Primary Outcome Measures: - Incidence of dose limiting toxicity (DLT) [Time Frame: From first dose through the end of Cycle 
+4     0.643924    0.600620    432       NCT05379985.txt       protocol prior/concomitant therapy Other inclusion/exclusion criteria may apply. Minimum Age: 18 Years Maximum Age: Sex: ALL Primary Outcome Measures: - Inciden
+5     0.637148    0.598231    669       NCT05902988.txt       version 5.0 [Time Frame: Up to 12 months] - Dose Escalation: Frequency of Treatment-related Adverse Events (AEs) graded per NCI-CTCAE version 5.0 [Time Frame: U
+----------------------------------------------------------------------------------------------------
+Top-1 cosine: 0.808809
+Mean@5 cosine: 0.660311
+====================================================================================================
+
+
+DATA 260 HW3 RETRIEVAL OUTPUT
+Technique: semantic_95
+Question: Q2
+
+====================================================================================================
+Technique: semantic_95
+Question: Q2 - In the ARV-6723 dose escalation study, over how many days after the first administration are dose-limiting toxicities assessed?
+Expected source: NCT07749586.txt
+Query embedding dimension: 384
+Query embedding first 8 values: [0.012151692993938923, -0.03523905947804451, -0.038597285747528076, 0.03076348826289177, 0.01728588156402111, -0.06552444398403168, -0.016129588708281517, 0.08212193846702576]
+Query vector shape: (384,)
+Document vectors shape: (5, 384)
+Retrieval latency: 2.352 ms
+Recall@5: 1
+----------------------------------------------------------------------------------------------------
+Rank  Store       Cosine      Length    Source                Preview
+----------------------------------------------------------------------------------------------------
+1     0.691659    0.740519    2163      NCT07749586.txt       * Baseline (screening) standard 12-lead electrocardiogram (ECG) that demonstrates clinically relevant abnormalities that may affect participant safety or interp
+2     0.635154    0.601450    1821      NCT07623525.txt       Part A (Single Ascending DoseDose in HHT): Part A is a dose-escalation phase evaluating ascending single-dose levels of DIAG723 administered subcutaneously in s
+3     0.608800    0.524563    639       NCT07623525.txt       Across all study parts, participants are randomized using an interactive response system, and study treatment is administered under double-blind conditions. A S
+4     0.575350    0.510768    704       NCT05706129.txt       Minimum Age: 18 Years Maximum Age: Sex: ALL Primary Outcome Measures: - Part A: Number of Participants With Treatment-Emergent Adverse Events (TEAEs) and Seriou
+5     0.478436    0.471942    1250      NCT07244835.txt       Pregnant or breastfeeding women 4. Active or concurrent malignancy requiring treatment (including both systemic therapy and radiotherapy) within 14 days or 5 ha
+----------------------------------------------------------------------------------------------------
+Top-1 cosine: 0.740519
+Mean@5 cosine: 0.569848
+====================================================================================================
+
+
+DATA 260 HW3 RETRIEVAL OUTPUT
+Technique: sentence_window
+Question: Q2
+
+====================================================================================================
+Technique: sentence_window
+Question: Q2 - In the ARV-6723 dose escalation study, over how many days after the first administration are dose-limiting toxicities assessed?
+Expected source: NCT07749586.txt
+Query embedding dimension: 384
+Query embedding first 8 values: [0.012151692993938923, -0.03523905947804451, -0.038597285747528076, 0.03076348826289177, 0.01728588156402111, -0.06552444398403168, -0.016129588708281517, 0.08212193846702576]
+Query vector shape: (384,)
+Document vectors shape: (5, 384)
+Retrieval latency: 24.290 ms
+Recall@5: 1
+----------------------------------------------------------------------------------------------------
+Rank  Store       Cosine      Length    Source                Preview
+----------------------------------------------------------------------------------------------------
+1     0.806447    0.800927    351       NCT07749586.txt       Minimum Age: 18 Years Maximum Age: Sex: ALL Primary Outcome Measures: - Part A1: Number of Dose-Limiting Toxicities (DLTs) of ARV-6723 [Time Frame: 21 days from
+                                                              Window: * Prior treatment with any HPK1-targeting agent * Systemic anti-cancer therapy or radiation therapy within 14 days prior to study treatment start. * Current use
+2     0.700750    0.713428    437       NCT07749586.txt       - Part A1: Number of Participants With Adverse Events (AEs) [Time Frame: From the first dose of ARV-6723 through at least 28 days after the last dose (up to app
+                                                              Window: * Current use of any prohibited concomitant medication(s) or herbal supplements which cannot be discontinued, prior to start of study intervention and for the d
+3     0.688058    0.721727    420       NCT07749586.txt       - Part A2: Number of Participants With AEs [Time Frame: From the first dose of ARV-6723 through at least 28 days after the last dose (up to approximately 4.7 ye
+                                                              Window: * Baseline (screening) standard 12-lead electrocardiogram (ECG) that demonstrates clinically relevant abnormalities that may affect participant safety or interp
+4     0.664527    0.651038    243       NCT07623525.txt       - Incidence of Dose-Limiting Toxicities (DLTs) - Part A (Single Dose) [Time Frame: From first dose through Day 28] Number and proportion of participants experie
+                                                              Window: Sterile normal saline (0.9% NaCl) administered subcutaneously in volumes matched to DIAG723 to maintain study blinding. Eligibility Criteria: Inclusion Criteria
+5     0.662549    0.645407    191       NCT06639191.txt       Minimum Age: 18 Years Maximum Age: Sex: ALL Primary Outcome Measures: - Primary Endpoint - rate of dose limiting toxicities [Time Frame: From first dose to a mi
+                                                              Window: Severe skin diseases requiring systemic anti-inflammatory treatment, including plaque psoriasis, Stevens Johnsons syndrome or dermatomyositis. 8. A known histor
+----------------------------------------------------------------------------------------------------
+Top-1 cosine: 0.800927
+Mean@5 cosine: 0.706505
+====================================================================================================

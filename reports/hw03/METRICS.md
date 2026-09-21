@@ -1,719 +1,612 @@
-# HW3 Retrieval Metrics
+# HW3 Retrieval Metrics and Analysis
 
 ## Configuration
 
-- SID4: 8561
-- PORT_BASE: 8461
-- PREFIX: s8561
-- SEED: 8561
-- VERIFY_SEED: 268561
-- DOMAIN_ID: 1
-- Domain: Clinical Trial Listings
-- Hardware: Apple M4 with 16 GB unified memory
-- Embedding model: `sentence-transformers/all-MiniLM-L6-v2`
-- Embedding dimension: 384
-- Generation model: None
-- Experiment type: Retrieval only
-- Retrieval top-k: 5
-- Corpus documents: 100
-- Corpus size: 548,872 bytes
-- Graded run date: 2026-09-20
-- Graded run start: 2026-09-20T18:08:58-07:00
-- Questions correction commit: `1f29b0d`
-- Experiment code commit: `11dd151`
+| Item | Value |
+|---|---|
+| SID4 | 8561 |
+| Prefix | s8561 |
+| Port | 8461 |
+| Experiment seed | 8561 |
+| Verification seed | 268561 |
+| Domain ID | 1 |
+| Domain | Clinical Trial Listings |
+| Embedding model | sentence-transformers/all-MiniLM-L6-v2 |
+| Embedding dimensions | 384 |
+| Generation model | None |
+| Retrieval mode | Retrieval only |
+| Retrieval depth | Top 5 |
+| Hardware | Apple M4, 16 GB memory |
+| Main techniques | Token, Semantic 95, Sentence-window |
+| Additional ablation | Semantic tuned 80 |
+
+`Settings.llm` was set to `None`. No generation model, reranker, or retrieval postprocessor was used.
+
+The embedding model was configured before constructing any index or semantic splitter. This prevented LlamaIndex from attempting to use its default OpenAI embedding configuration.
 
 ## Dataset
 
-The graded corpus contains 100 local plain-text snapshots generated from
-ClinicalTrials.gov API v2 records.
+The corpus contains 100 ClinicalTrials.gov records related to recruiting studies involving diabetes, lung cancer, or hypertension.
 
-Each study is stored as one text file named with its NCT number. The rendered
-documents contain fields such as title, sponsor, condition, phase, enrollment,
-eligibility criteria, interventions, primary outcomes, and outcome time
-frames.
+| Property | Value |
+|---|---:|
+| Files | 100 |
+| Total bytes | 548,872 |
+| Total UTF-8 characters | 548,264 |
+| Minimum file size | 1,933 bytes |
+| Maximum file size | 25,209 bytes |
+| Required minimum | 204,800 bytes |
+| Requirement status | Satisfied |
+| Size relative to minimum | Approximately 2.7 times |
 
-The original API response is preserved under:
+The difference between the byte and character counts is caused by multibyte UTF-8 characters in organization names and other clinical-trial text.
 
-```text
-code/rag/raw_json/api_response.json
-```
+The corpus has two important characteristics.
 
-The rendered corpus is stored under:
+First, document size varies by approximately thirteen times. Fixed token chunking therefore creates many chunks for long documents and fewer chunks for short documents.
 
-```text
-code/rag/corpus/
-```
+Second, the records contain repeated structured fields and boilerplate eligibility language. For example, `Minimum Age: 18 Years` appears in many records. Similar language from unrelated trials can therefore produce high embedding similarity without identifying the requested study.
 
-The corpus manifests are stored at:
+The corpus manifest is stored in both locations:
 
-```text
-code/rag/CORPUS_MANIFEST.json
-reports/hw03/CORPUS_MANIFEST.json
-```
+- `code/rag/CORPUS_MANIFEST.json`
+- `reports/hw03/CORPUS_MANIFEST.json`
 
-The corpus contains 548,872 bytes, approximately 2.7 times the required minimum
-of 204,800 bytes.
+The verification script confirmed that the two manifest copies match and that all 100 corpus hashes are valid.
 
 ## Experiment Design
 
-The experiment compares three required LlamaIndex chunking techniques:
+Five questions were registered before the graded experiment. Each question has one expected source document.
 
-1. Token chunking using `TokenTextSplitter`
-2. Semantic chunking using `SemanticSplitterNodeParser`
-3. Sentence-window chunking using `SentenceWindowNodeParser`
+| ID | Question purpose | Expected source |
+|---|---|---|
+| Q1 | Lung-cancer germline polymorphisms and outcome time frame | NCT00471978.txt |
+| Q2 | ARV-6723 dose-limiting toxicity assessment period | NCT07749586.txt |
+| Q3 | Arrowhead obesity and type 2 diabetes enrollment and phase | NCT06937203.txt |
+| Q4 | Minimum age for the Massachusetts General Hospital lung-cancer genetic study | NCT00471978.txt |
+| Q5 | Resistant hypertension and mortality over ten-year follow-up | NCT06160921.txt |
 
-An additional Semantic Splitter configuration with percentile 80 is included
-as an ablation experiment. It is not treated as a fourth required technique.
+The questions were committed before the formal experiment. Q4 was corrected before the graded run because its earlier version did not identify a unique source and could not be scored consistently with the other questions.
 
-All techniques use the same local embedding model:
+For each technique, the experiment performed the following operations:
 
-```text
-sentence-transformers/all-MiniLM-L6-v2
-```
+1. Load the same 100 source documents.
+2. Split the documents using the selected chunking technique.
+3. Generate embeddings with `sentence-transformers/all-MiniLM-L6-v2`.
+4. Build a LlamaIndex vector index.
+5. Embed each query.
+6. Retrieve the top five nodes.
+7. Re-embed each returned node's visible text with the same model.
+8. Compute manual cosine similarity between the query embedding and each visible-text embedding.
+9. Record rank, vector-store score, manual cosine, chunk length, source file, preview, and retrieval latency.
+10. Calculate Recall@5, Recall@1, Top-1 cosine, and Mean@5 cosine.
 
-No generation model is used. The application sets:
-
-```python
-Settings.embed_model = embed_model
-Settings.llm = None
-```
-
-The following message appeared during each experiment:
-
-```text
-LLM is explicitly disabled. Using MockLLM.
-```
-
-This confirms that the experiment is retrieval only and does not use a
-generative LLM.
+Raw outputs were saved as JSON, JSONL, and CSV files under `reports/hw03/raw/`.
 
 ## Chunking Parameters
 
 ### Token
 
-```text
-chunk_size = 256
-chunk_overlap = 32
-```
+| Parameter | Value |
+|---|---:|
+| Splitter | TokenTextSplitter |
+| Chunk size | 256 |
+| Chunk overlap | 32 |
+
+MiniLM accepts 256 total sequence positions, including special tokens. `TokenTextSplitter` does not use exactly the same tokenizer as MiniLM's WordPiece tokenizer, so 256 is a near-limit target for visible chunk text rather than a strict guarantee. Metadata added by LlamaIndex can also make the actual embedding input longer than the visible text.
 
 ### Semantic 95
 
-```text
-buffer_size = 1
-breakpoint_percentile_threshold = 95
-```
+| Parameter | Value |
+|---|---:|
+| Splitter | SemanticSplitterNodeParser |
+| Buffer size | 1 |
+| Breakpoint percentile | 95 |
+| Embedding model | sentence-transformers/all-MiniLM-L6-v2 |
+
+A buffer size of one compares neighboring sentences. The 95th-percentile threshold creates boundaries only at the largest semantic changes within each document.
 
 ### Sentence-window
 
-```text
-window_size = 3
-window_metadata_key = window
-original_text_metadata_key = original_sentence
-```
+| Parameter | Value |
+|---|---:|
+| Splitter | SentenceWindowNodeParser |
+| Window size | 3 |
+| Window metadata key | window |
+| Original sentence key | original_sentence |
 
-Each Sentence-window node contains one indexed sentence. Three neighboring
-sentences on each side are retained in metadata for contextual display.
+Each searchable node is normally one sentence. A three-sentence window on each side is retained in metadata for context.
 
 ### Semantic Tuned 80 Ablation
 
-```text
-buffer_size = 1
-breakpoint_percentile_threshold = 80
-```
+| Parameter | Value |
+|---|---:|
+| Splitter | SemanticSplitterNodeParser |
+| Buffer size | 1 |
+| Breakpoint percentile | 80 |
+| Experiment group | Additional ablation |
 
-Percentile 80 was selected as a compromise that reduces truncation exposure
-without reducing most semantic chunks to near-sentence size.
+Semantic 80 is an additional ablation configuration and is not one of the three required main techniques.
 
 ## Metric Definitions
 
-- **Chunks**: Total nodes produced from the 100 corpus documents.
-- **Average chunk length**: Mean length of `node.text` in characters.
-- **Top-1 cosine**: Highest manually calculated cosine similarity among the
-  returned five nodes. The summary reports the mean across five questions.
-- **Mean@5 cosine**: Mean manually calculated cosine similarity of the five
-  retrieved nodes, averaged across all five questions.
-- **Recall@1**: A binary value for each question. It is 1 when the first-ranked
-  result comes from the expected source and 0 otherwise.
-- **Recall@5**: A binary value for each question. It is 1 when at least one of
-  the five returned nodes has a `source_file` matching the question's
-  `expected_source`.
-- **Retrieval latency**: Time spent in the in-memory similarity search. Query
-  embedding time and explicit document re-embedding time are excluded.
-- **Sentence-window length**: Length of the indexed single-sentence node. The
-  neighboring window is retained in metadata and is not used for manual cosine
-  calculation.
-- **Chunking and indexing time**: Measured after the embedding model was
-  loaded. Initial model download and model-loading time are excluded.
+### Recall@5
+
+Recall@5 is one when the expected source document appears anywhere among the five returned chunks and zero otherwise.
+
+For each technique:
+
+`Recall@5 = questions with expected source in top five / total questions`
+
+### Recall@1
+
+Recall@1 is one when the vector store's rank-one chunk belongs to the expected source document.
+
+### Top-1 Cosine
+
+Top-1 cosine follows the assignment definition: it is the highest manual visible-text cosine among the top-five returned results. It is therefore not necessarily the manual cosine of the vector store's rank-one chunk.
+
+The vector store ranks metadata-inclusive embeddings, whereas the manual cosine calculation re-embeds only the visible chunk text.
+
+### Mean@5 Cosine
+
+Mean@5 cosine is the arithmetic mean of the five manual visible-text cosine similarities returned for a question. The reported technique value is the mean across all five questions.
+
+### Retrieval Latency
+
+Retrieval latency measures the retrieval operation after index construction. The reported values are descriptive measurements from one five-query experiment. Each query was not repeated enough times to establish a stable latency benchmark or remove all warm-up effects.
+
+### Chunking and Indexing Time
+
+Chunking time and indexing time were recorded separately. Semantic splitting embeds sentences while determining boundaries, so its chunking time includes additional embedding work.
 
 ## Main Retrieval Comparison
 
-| Technique | Chunks | Avg chunk length | Mean Top-1 cosine | Mean@5 cosine | Recall@1 | Recall@5 | Mean retrieval latency |
+| Technique | Chunks | Average chunk length | Mean Top-1 cosine | Mean@5 cosine | Recall@1 | Recall@5 | Mean retrieval latency |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| Token | 692 | 916.327 chars | 0.695357 | 0.597878 | 0.800 | 1.000 | 5.231 ms |
-| Semantic 95 | 299 | 1,833.659 chars | 0.651176 | 0.542636 | 0.800 | 1.000 | 2.291 ms |
-| Sentence-window | 3,233 | 169.584 chars | 0.684724 | 0.611694 | 0.600 | 1.000 | 24.063 ms |
+| Token | 692 | 916.327 characters | 0.695357 | 0.597878 | 0.800 | 1.000 | 5.231 ms |
+| Semantic 95 | 299 | 1,833.659 characters | 0.651176 | 0.542636 | 0.800 | 1.000 | 2.291 ms |
+| Sentence-window | 3,233 | 169.584 characters | 0.684724 | 0.611694 | 0.600 | 1.000 | 24.063 ms |
+| Semantic tuned 80 | 750 | 731.019 characters | 0.651176 | 0.571094 | 0.800 | 1.000 | 5.789 ms |
+
+Semantic tuned 80 is shown for comparison but is not included as one of the three required main techniques.
+
+Token produced the highest mean Top-1 cosine among the required techniques. Sentence-window produced the highest Mean@5 cosine. Semantic 95 produced the fewest nodes and the lowest observed lookup latency. All techniques reached saturated Recall@5, while Recall@1 separated sentence-window from the other configurations.
 
 ## Chunking and Indexing Cost
 
-| Technique | Chunking time | Indexing time |
-|---|---:|---:|
-| Token | 0.348 s | 2.332 s |
-| Semantic 95 | 8.016 s | 0.990 s |
-| Sentence-window | 0.087 s | 7.109 s |
-| Semantic tuned 80 | 7.642 s | 2.447 s |
+| Technique | Chunking time | Indexing time | Total preparation time |
+|---|---:|---:|---:|
+| Token | 0.348 s | 2.332 s | 2.680 s |
+| Semantic 95 | 8.016 s | 0.990 s | 9.006 s |
+| Sentence-window | 0.087 s | 7.109 s | 7.196 s |
+| Semantic tuned 80 | 7.642 s | 2.447 s | 10.089 s |
 
-Semantic splitting is slower during chunk creation because it embeds sentences
-to identify semantic boundaries. Token and Sentence-window splitting are
-rule-based.
+Token used rule-based splitting and had moderate indexing cost.
 
-Sentence-window has the highest indexing cost because it creates 3,233 nodes,
-more than four times the Token count and more than ten times the Semantic 95
-count.
+Semantic 95 had the highest required-technique chunking cost because semantic boundary selection embedded sentences during splitting. Its smaller 299-node index was then inexpensive to construct and search.
 
-Semantic 95 has the lowest retrieval latency because its index contains only
-299 nodes. Sentence-window is the slowest because its index contains 3,233
-single-sentence nodes.
+Sentence-window had negligible splitting cost but generated 3,233 nodes. Embedding and indexing this larger node collection required 7.109 seconds.
 
 ## Per-Question Top-1 Cosine
 
-| Question | Token | Semantic 95 | Sentence-window |
-|---|---:|---:|---:|
-| Q1 | 0.639076 | 0.586228 | 0.720197 |
-| Q2 | 0.808809 | 0.740519 | 0.800927 |
-| Q3 | 0.600887 | 0.574956 | 0.574956 |
-| Q4 | 0.688238 | 0.708671 | 0.724010 |
-| Q5 | 0.739773 | 0.645509 | 0.603529 |
+| Question | Token | Semantic 95 | Sentence-window | Semantic tuned 80 | Highest required technique |
+|---|---:|---:|---:|---:|---|
+| Q1 | 0.639076 | 0.586228 | 0.720197 | 0.586228 | Sentence-window |
+| Q2 | 0.808809 | 0.740519 | 0.800927 | 0.740519 | Token |
+| Q3 | 0.600887 | 0.574956 | 0.574956 | 0.574956 | Token |
+| Q4 | 0.688238 | 0.708671 | 0.724010 | 0.708671 | Sentence-window |
+| Q5 | 0.739773 | 0.645509 | 0.603529 | 0.645509 | Token |
 
-Token had the highest Top-1 cosine on Q2, Q3, and Q5. Sentence-window had the
-highest Top-1 cosine on Q1 and Q4.
+The best technique differed by question. Sentence-window led on Q1 and Q4, while Token led on Q2, Q3, and Q5.
+
+Sentence-window's Q4 lead did not produce the correct rank-one source. Its highest-ranked result belonged to another lung-cancer trial.
+
+Semantic 95 and sentence-window both report a Q3 Top-1 cosine of `0.574956`. This is not a transcription error. The corresponding chunks had different full text but shared the same first 254 visible content tokens, so MiniLM discarded the trailing differences when producing their visible-text embeddings.
 
 ## Per-Question Mean@5 Cosine
 
-| Question | Token | Semantic 95 | Sentence-window |
-|---|---:|---:|---:|
-| Q1 | 0.533401 | 0.474282 | 0.590039 |
-| Q2 | 0.660311 | 0.569848 | 0.706505 |
-| Q3 | 0.558540 | 0.510237 | 0.552801 |
-| Q4 | 0.650957 | 0.618898 | 0.675762 |
-| Q5 | 0.586181 | 0.539913 | 0.533362 |
+| Question | Token | Semantic 95 | Sentence-window | Semantic tuned 80 |
+|---|---:|---:|---:|---:|
+| Q1 | 0.533401 | 0.474282 | 0.590039 | 0.495156 |
+| Q2 | 0.660311 | 0.569848 | 0.706505 | 0.645153 |
+| Q3 | 0.558540 | 0.510237 | 0.552801 | 0.520055 |
+| Q4 | 0.650957 | 0.618898 | 0.675762 | 0.649833 |
+| Q5 | 0.586181 | 0.539913 | 0.533362 | 0.545273 |
 
-Sentence-window had the highest overall Mean@5 cosine. Token had the highest
-Mean@5 cosine on Q3 and Q5.
+Sentence-window achieved the highest overall Mean@5 cosine because its short searchable nodes often contained less unrelated visible text. However, this did not give it the highest Recall@1.
 
 ## Recall Saturation
 
-All three required techniques achieved Recall@5 of 1.0. This confirms that the
-expected source appeared somewhere in the top five, but it does not distinguish
-the techniques on this corpus.
+Recall@5 was `1.0` for all three required methods and the Semantic 80 ablation.
 
-The corpus contains only 100 documents, and several questions contain highly
-distinctive anchors such as `GSTP1`, `ARV-6723`, and Arrowhead Pharmaceuticals.
-These terms make it relatively easy for the correct document to appear
-somewhere in five retrieved results.
+| Technique | Group | Recall@5 |
+|---|---|---:|
+| Token | Main | 1.0 |
+| Semantic 95 | Main | 1.0 |
+| Sentence-window | Main | 1.0 |
+| Semantic tuned 80 | Ablation | 1.0 |
 
-Recall@1 provides more discrimination:
+This result does not establish that the techniques were equally effective. The corpus contained only 100 documents, each query allowed five returned positions, and several questions contained distinctive terms such as `ARV-6723`, `Arrowhead Pharmaceuticals`, and a specific sequence of gene names.
 
-| Technique | Top-1 source hits | Recall@1 |
-|---|---:|---:|
-| Token | 4 of 5 | 0.800 |
-| Semantic 95 | 4 of 5 | 0.800 |
-| Sentence-window | 3 of 5 | 0.600 |
-| Semantic tuned 80 | 4 of 5 | 0.800 |
+Recall@1 provided more discrimination:
 
-Token and Semantic retrieved the expected source first for four questions.
-Sentence-window retrieved the expected source first for three questions.
+| Technique | Group | Top-1 hits | Questions | Recall@1 |
+|---|---|---:|---:|---:|
+| Token | Main | 4 | 5 | 0.8 |
+| Semantic 95 | Main | 4 | 5 | 0.8 |
+| Sentence-window | Main | 3 | 5 | 0.6 |
+| Semantic tuned 80 | Ablation | 4 | 5 | 0.8 |
 
-Recall@5 is therefore saturated at this corpus size and value of k. Cosine
-similarity, Recall@1, latency, and truncation behavior provide more useful
-distinctions among the techniques.
+Token and Semantic 95 placed the expected source first for four of five questions. Sentence-window did so for three questions. All configurations failed at rank one on Q4, while sentence-window also failed at rank one on Q3.
 
-The only failure unique to Sentence-window was Q3. Q4 was missed at rank one by
-all four configurations and was intentionally retained as the high-similarity
-incorrect retrieval example.
+Recall@5 is therefore saturated at this corpus size and value of k. Recall@1, cosine similarity, truncation behavior, latency, and manual result inspection provide more useful distinctions.
 
 ## Chunk Size Diagnostic
 
-MiniLM truncates inputs longer than its 256-token input limit. Token counts were
-measured with the MiniLM tokenizer across the complete 100-document corpus.
+### Effective Embedding Input and Truncation Diagnostic
 
-| Technique | Nodes | Median tokens | P90 tokens | Max tokens | Over 256 | Over-limit rate | Estimated truncated tokens |
-|---|---:|---:|---:|---:|---:|---:|---:|
-| Token | 692 | 213 | 229 | 257 | 1 | 0.14% | 1 |
-| Semantic 95 | 299 | 324 | 863 | 1,760 | 181 | 60.54% | 58,858 |
-| Semantic tuned 80 | 750 | 104 | 382 | 1,039 | 156 | 20.80% | 25,998 |
-| Sentence-window | 3,233 | 25 | 73 | 806 | 30 | 0.93% | 4,655 |
+The original exploratory diagnostic counted visible chunk text and treated 256 content tokens as the threshold. A stricter follow-up diagnostic corrected two issues.
 
-The estimated truncated-token count is an approximation based on the
-256-token limit. It is not a direct measurement of tokens discarded internally
-by the model.
+First, MiniLM's 256-position sequence includes `[CLS]` and `[SEP]`, leaving an effective maximum of 254 content tokens. Second, LlamaIndex embeds `node.get_content(metadata_mode=MetadataMode.EMBED)` unless metadata fields are excluded. This representation includes metadata in addition to the visible text.
 
-Token chunking was almost completely within the MiniLM limit. Only one Token
-chunk exceeded the limit, and it exceeded it by one token.
+The follow-up diagnostic measured both representations:
 
-Semantic 95 produced the fewest chunks, but 60.54% exceeded the embedding
-model's input limit. This means the embedding did not represent the end of many
-Semantic chunks.
+- **Visible text:** `MetadataMode.NONE`, corresponding to displayed chunk text and the report's manual cosine calculation.
+- **Index input:** `MetadataMode.EMBED`, corresponding to the content embedded when LlamaIndex built the vector index.
 
-Sentence-window was normally well below the limit. A small number of long
-headers and Eligibility sections were treated as single sentences because the
-source text did not contain normal sentence-ending punctuation.
+| Technique | Content measured | Nodes | Median tokens | P90 tokens | Maximum | Over 254 | Over-limit rate | Estimated truncated tokens |
+|---|---|---:|---:|---:|---:|---:|---:|---:|
+| Token | Visible text | 692 | 213 | 229 | 257 | 3 | 0.43% | 6 |
+| Token | Index input | 692 | 264 | 281 | 309 | 483 | 69.80% | 7,944 |
+| Semantic 95 | Visible text | 299 | 324 | 863 | 1,760 | 182 | 60.87% | 59,221 |
+| Semantic 95 | Index input | 299 | 374 | 913 | 1,812 | 202 | 67.56% | 69,073 |
+| Sentence-window | Visible text | 3,233 | 25 | 73 | 806 | 32 | 0.99% | 4,719 |
+| Sentence-window | Index input | 3,233 | 76 | 124 | 858 | 43 | 1.33% | 6,563 |
+| Semantic tuned 80 | Visible text | 750 | 104 | 382 | 1,039 | 157 | 20.93% | 26,312 |
+| Semantic tuned 80 | Index input | 750 | 156 | 434 | 1,089 | 224 | 29.87% | 35,945 |
 
-## Semantic Threshold Exploration
+The visible-text results show that fixed token chunking controlled document text much more tightly than Semantic 95. Only 3 of 692 Token chunks exceeded 254 visible tokens, compared with 182 of 299 Semantic 95 chunks.
 
-The Semantic Splitter percentile was tested on a ten-document sample.
+However, the actual index-input results qualify that advantage. Metadata increased the Token median from 213 to 264 tokens and caused 483 of 692 Token index inputs to exceed the effective limit.
 
-| Percentile | Nodes | Median tokens | P90 tokens | Max tokens | Over-limit rate | Estimated truncated tokens |
-|---:|---:|---:|---:|---:|---:|---:|
-| 95 | 24 | 324 | 680 | 894 | 70.8% | 4,153 |
-| 90 | 34 | 260 | 653 | 894 | 50.0% | 3,276 |
-| 80 | 54 | 133 | 354 | 680 | 25.9% | 1,771 |
-| 70 | 73 | 80 | 299 | 632 | 16.4% | 1,384 |
-| 60 | 93 | 61 | 257 | 632 | 10.8% | 858 |
-| 50 | 110 | 43 | 233 | 632 | 7.3% | 820 |
-| 40 | 130 | 30 | 202 | 632 | 5.4% | 803 |
+The metadata overhead was especially important for Token because its visible chunks were already close to the limit. Sentence-window remained mostly within the limit after metadata was included because its nodes were usually short. Semantic 95 had the largest total estimated truncation loss at 69,073 tokens.
 
-Lowering the percentile creates more and smaller chunks. However, the maximum
-chunk length remained 632 tokens from percentile 70 through percentile 40.
+The estimated truncated-token value sums `max(0, token_count - 254)` across all nodes. It measures potential input discarded by the model and should be treated as an estimate rather than an exact reconstruction of internal attention sequences.
 
-This occurs because `breakpoint_percentile_threshold` controls relative
-semantic boundaries rather than imposing a hard maximum chunk size. A long and
-semantically consistent paragraph can remain intact even when the percentile
-is reduced.
+### Direct Evidence of MiniLM Truncation
 
-Below percentile 60, additional splitting sharply reduced the median chunk
-length but produced little improvement in estimated truncated tokens.
-Percentile 80 was therefore retained as a compromise ablation.
+The Q3 results provide direct evidence of truncation.
+
+The Semantic 95 chunk from `NCT06937203.txt` contained 1,084 characters and 292 visible content tokens. The sentence-window header chunk from the same document contained 1,027 characters and 277 visible content tokens.
+
+The diagnostic produced:
+
+    semantic_95 token count: 292
+    sentence_window token count: 277
+    full text identical: False
+    first 254 tokens identical: True
+    semantic characters: 1084
+    sentence-window characters: 1027
+
+Both chunks produced the same manual cosine, `0.574956`, despite their different full lengths. They also produced the same store score, `0.580185`.
+
+Their shared prefix filled MiniLM's effective visible-text input window, so the different trailing text did not affect the manual embedding. The indexed representation also included metadata before the text. Because both nodes came from the same source document, their metadata and initial header text were also identical.
 
 ## Semantic Threshold Ablation
 
-The additional Semantic 80 experiment is not part of the required
-three-technique comparison.
+Semantic 80 was evaluated as an additional ablation rather than one of the required main techniques.
 
-| Technique | Chunks | Avg chunk length | Mean Top-1 cosine | Mean@5 cosine | Recall@1 | Recall@5 | Mean latency |
+| Technique | Chunks | Average chunk length | Mean Top-1 cosine | Mean@5 cosine | Recall@1 | Recall@5 | Mean latency |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| Semantic 95 | 299 | 1,833.659 chars | 0.651176 | 0.542636 | 0.800 | 1.000 | 2.291 ms |
-| Semantic tuned 80 | 750 | 731.019 chars | 0.651176 | 0.571094 | 0.800 | 1.000 | 5.789 ms |
+| Semantic 95 | 299 | 1,833.659 characters | 0.651176 | 0.542636 | 0.800 | 1.000 | 2.291 ms |
+| Semantic tuned 80 | 750 | 731.019 characters | 0.651176 | 0.571094 | 0.800 | 1.000 | 5.789 ms |
 
-Changing the percentile from 95 to 80:
+Changing the breakpoint percentile from 95 to 80:
 
-- Increased chunks from 299 to 750
-- Reduced average chunk length from 1,833.659 to 731.019 characters
-- Reduced the over-limit rate from 60.54% to 20.80%
-- Reduced estimated truncated tokens from 58,858 to 25,998
-- Improved Mean@5 cosine from 0.542636 to 0.571094
-- Did not change mean Top-1 cosine
-- Did not change Recall@1 or Recall@5
-- Increased retrieval latency from 2.291 ms to 5.789 ms
+- Increased the number of chunks from 299 to 750.
+- Reduced average chunk length from 1,833.659 to 731.019 characters.
+- Reduced the visible-text over-limit rate from 60.87% to 20.93%.
+- Reduced the index-input over-limit rate from 67.56% to 29.87%.
+- Reduced estimated metadata-inclusive truncation from 69,073 to 35,945 tokens.
+- Improved Mean@5 cosine from 0.542636 to 0.571094.
+- Did not change mean Top-1 cosine.
+- Did not change Recall@1 or Recall@5.
+- Increased observed retrieval latency from 2.291 ms to 5.789 ms.
+
+The lower percentile created more boundaries and smaller typical chunks. However, it did not impose a hard maximum size. Semantically consistent passages could still remain larger than MiniLM's input window.
 
 ## Why Semantic 95 and Semantic 80 Have the Same Top-1 Score
 
-Semantic 95 and Semantic 80 produced exactly the same mean Top-1 cosine of
-0.651176. This was independently checked using the complete saved chunk text.
+Semantic 95 and Semantic 80 produced exactly the same mean Top-1 cosine of `0.651176`.
 
-For all five questions, both configurations had:
+The saved results were compared using complete chunk text and SHA-256 hashes. For all five questions, the two configurations had:
 
-- The same Top-1 source file
-- The same Top-1 chunk length
-- Identical Top-1 chunk text
-- The same SHA-256 hash
-- The same store score
-- The same manually calculated cosine similarity
+- The same Top-1 source file.
+- The same Top-1 visible text.
+- The same chunk length.
+- The same SHA-256 text hash.
+- The same vector-store score.
+- The same manual cosine.
 
-| Question | Top-1 source | Chunk length | Identical text |
-|---|---|---:|---|
-| Q1 | NCT00471978.txt | 1,661 | Yes |
-| Q2 | NCT07749586.txt | 2,163 | Yes |
-| Q3 | NCT06937203.txt | 1,084 | Yes |
-| Q4 | NCT07465848.txt | 376 | Yes |
-| Q5 | NCT06160921.txt | 784 | Yes |
+The breakpoint percentile changed many lower-ranked and less-relevant chunks but did not split the five most relevant passages. These passages were semantically cohesive enough to remain intact at both thresholds.
 
-The saved SHA-256 hashes were identical between configurations for every
-question.
-
-This confirms that the percentile parameter was applied correctly. The two
-configurations produced different total node counts and different Mean@5
-cosine values. However, the most relevant semantic region for each question
-was sufficiently cohesive to remain unbroken at both thresholds.
-
-The percentile change affected lower-ranked candidates and improved Mean@5,
-but it did not change any Top-1 chunk.
+This shows that lowering the semantic percentile changed corpus-wide chunk statistics without changing the most highly scored chunk for any registered question.
 
 ## Confidently Scored Incorrect Retrieval
 
 Q4 asked:
 
-> What is the minimum age requirement for the lung cancer genetic analysis
-> study sponsored by Massachusetts General Hospital?
+> What is the minimum age requirement for the lung cancer genetic analysis study sponsored by Massachusetts General Hospital?
 
-The correct answer is 18 Years from:
+The expected source was `NCT00471978.txt`, whose minimum age was 18 years. All configurations returned another lung-cancer trial, `NCT07465848.txt`, at rank one.
 
-```text
-NCT00471978.txt
-```
+| Technique | Rank-one source | Store score | Manual cosine | Correct rank-one document? |
+|---|---|---:|---:|---|
+| Token | NCT07465848.txt | 0.665644 | 0.666341 | No |
+| Semantic 95 | NCT07465848.txt | 0.700266 | 0.708671 | No |
+| Sentence-window | NCT07465848.txt | 0.720796 | 0.708041 | No |
+| Semantic tuned 80 | NCT07465848.txt | 0.700266 | 0.708671 | No |
 
-However, every required technique ranked a different lung-cancer study,
-`NCT07465848.txt`, above the correct source.
+The incorrect trial had a minimum age of 45 years. It still received high similarity because it was another lung-cancer study with similar structured eligibility language.
 
-The incorrect study reported a minimum age of 45 Years.
+The question's general terms, including “minimum age,” “lung cancer,” and “study,” matched the wrong eligibility block strongly. The sponsor and exact study identity were not weighted strongly enough to place the expected document first.
 
-| Technique | Wrong result rank | Wrong source | Wrong age | Store score | Manual cosine |
-|---|---:|---|---:|---:|---:|
-| Token | 1 | NCT07465848.txt | 45 Years | 0.665644 | 0.666341 |
-| Semantic 95 | 1 | NCT07465848.txt | 45 Years | 0.700266 | 0.708671 |
-| Sentence-window | 1 | NCT07465848.txt | 45 Years | 0.720796 | 0.708041 |
-
-This result is confidently scored but incorrect.
-
-The corpus contains highly repetitive clinical-trial language, and the exact
-line:
-
-```text
-Minimum Age: 18 Years
-```
-
-appears in 78 of the 100 documents. Both the requested study and the incorrect
-result discuss lung-cancer eligibility.
-
-The embedding model captured shared topic and eligibility language but did not
-reliably bind Massachusetts General Hospital, the correct age, and the target
-NCT record.
-
-This also shows that source Recall@5 does not guarantee that the highest-ranked
-node contains the answer. The correct source appeared somewhere in the top five
-for every technique, but the incorrect 45-year result was ranked first.
+This is the clearest confidently scored error in the experiment. Sentence-window achieved the highest Q4 Top-1 cosine among the required techniques, but its vector-store rank-one result belonged to the wrong study. High cosine similarity therefore did not guarantee that the result contained the answer from the requested source.
 
 ## Sentence-Window Q3 Failure Analysis
 
-Q3 asked for the enrollment and phase of the Arrowhead Pharmaceuticals study
-in obesity and type 2 diabetes.
+Q3 asked:
 
-The correct source was:
+> What is the planned enrollment and trial phase of the Arrowhead Pharmaceuticals study in obesity and type 2 diabetes?
 
-```text
-NCT06937203.txt
-```
+The expected source was `NCT06937203.txt`.
 
 Sentence-window returned:
 
-| Rank | Source | Store score | Chunk length | Description |
-|---:|---|---:|---:|---|
-| 1 | NCT07296484.txt | 0.599353 | 441 | Incorrect CAPTAIN-T2D header block |
-| 2 | NCT06937203.txt | 0.594625 | 855 | Correct document, but an eligibility block |
-| 3 | NCT06937203.txt | 0.580185 | 1,027 | Correct header containing phase and enrollment |
+| Rank | Source | Store score | Chunk length |
+|---:|---|---:|---:|
+| 1 | NCT07296484.txt | 0.599353 | 441 |
+| 2 | NCT06937203.txt | 0.594625 | 855 |
+| 3 | NCT06937203.txt | 0.580185 | 1,027 |
+| 4 | NCT06323538.txt | 0.540817 | 279 |
+| 5 | NCT07588438.txt | 0.540615 | 259 |
 
-The incorrect rank-1 result and correct rank-3 result were both structured
-header blocks beginning with fields such as:
+The incorrect rank-one result was the CAPTAIN-T2D study. Its header used the same structured fields as the expected document:
 
-```text
-NCT Number
-Title
-Official Title
-Lead Sponsor
-Overall Status
-Study Type
-Phases
-Enrollment
-Conditions
-```
+- NCT Number
+- Title
+- Official Title
+- Lead Sponsor
+- Overall Status
+- Start Date
+- Study Type
+- Phases
+- Enrollment
+- Conditions
 
-Sentence-window normally creates one node per sentence. However, these
-newline-separated fields do not contain normal sentence-ending punctuation.
-The sentence parser therefore treated the complete header region as one long
-sentence instead of splitting individual fields.
+This failure was not caused by the answer being split into an isolated short sentence. The source header contained few sentence-ending punctuation marks, so the sentence parser retained a long field block as one node.
 
-The incorrect CAPTAIN-T2D header and the correct Arrowhead header have nearly
-identical field structure and both contain type 2 diabetes terminology. The
-unique identifier `Arrowhead Pharmaceuticals` was only one field inside a much
-larger template-like block, so its contribution to the embedding was diluted.
+The wrong and correct records both concerned type 2 diabetes and used almost identical field ordering. The competing CAPTAIN-T2D block was therefore slightly closer in the metadata-inclusive vector space even though it did not contain the requested sponsor.
 
-The incorrect result scored 0.599353, while the correct header scored 0.580185,
-a difference of only 0.019168.
+The correct document still appeared at ranks two and three. The score difference between the wrong rank-one result and the first result from the correct document was only `0.004728`.
 
-This failure was not caused by the node being too small. It was caused by the
-header being treated as one oversized, structurally repetitive sentence. The
-same underlying corpus property also affected Q4, where repetitive Eligibility
-blocks confused trials with different minimum-age values.
+This suggests that document-level aggregation could improve retrieval. Two chunks from `NCT06937203.txt` appeared within the first three positions, providing stronger combined evidence for that document than the single CAPTAIN-T2D result.
 
-The correct document occupied both rank 2 and rank 3. A document-level
-aggregation method that combines scores from multiple chunks belonging to the
-same source could promote the correct document.
+## Verified Explanation of Store Score and Manual Cosine Differences
 
-A simple maximum-score aggregation would not fix this example because the
-incorrect document's maximum score was still higher. A top-n sum or another
-multi-chunk aggregation method would be required and is outside the scope of
-this retrieval-only comparison.
+The vector-store score and the report's manual cosine are based on different embedding inputs.
 
-## Store Score and Manual Cosine
+The manual cosine calculation re-embeds visible chunk text:
 
-Store scores and manually calculated cosine similarities were both recorded as
-required.
+    visible_text = node.get_content(
+        metadata_mode=MetadataMode.NONE
+    )
 
-They are close but are not always identical, and their ordering can differ.
+    visible_embedding = embed_model.get_text_embedding(
+        visible_text
+    )
 
-The manual cosine calculation explicitly embeds only:
+    manual_cosine = cosine_similarity(
+        query_embedding,
+        visible_embedding
+    )
 
-```text
-node.text
-```
+LlamaIndex builds the vector index from:
 
-using `MetadataMode.NONE`.
+    node.get_content(
+        metadata_mode=MetadataMode.EMBED
+    )
 
-The vector index may include embedding metadata in the representation used
-during indexing. This difference in embedded content is the likely main reason
-the store score and manual cosine do not always match.
+Unless metadata keys are excluded, this representation contains metadata in addition to visible text. The attached metadata included:
 
-The differences occur in both directions. For example, Token Q1 had a store
-score of 0.636421 and a manual cosine of 0.599561 for its first result, while
-Token Q2 had a store score of 0.786970 and a manual cosine of 0.808809.
+- `creation_date`
+- `file_name`
+- `file_path`
+- `file_size`
+- `file_type`
+- `last_modified_date`
+- `source_file`
 
-This pattern is not consistent with one simple constant scaling factor. It is
-more consistent with the indexed and manually re-embedded inputs containing
-slightly different text or metadata.
+A follow-up validation rebuilt the Token index and independently embedded both representations for the five Q2 results.
+
+| Rank | Source | Store score | Visible-text cosine | Metadata-content cosine | Store − visible | Store − metadata |
+|---:|---|---:|---:|---:|---:|---:|
+| 1 | NCT07749586.txt | 0.786970 | 0.808809 | 0.786970 | -0.021839 | 0.000000 |
+| 2 | NCT05902988.txt | 0.653576 | 0.654454 | 0.653576 | -0.000878 | 0.000000 |
+| 3 | NCT07244835.txt | 0.650841 | 0.639441 | 0.650841 | 0.011400 | 0.000000 |
+| 4 | NCT05379985.txt | 0.643924 | 0.600620 | 0.643924 | 0.043304 | 0.000000 |
+| 5 | NCT05902988.txt | 0.637148 | 0.598231 | 0.637148 | 0.038917 | -0.000000 |
+
+The maximum absolute difference between the store score and metadata-content cosine was `0.0000000053`, which is ordinary floating-point error. The maximum difference between the store score and visible-text cosine was `0.0433040638`.
+
+This verifies that the vector store ranked nodes using the `MetadataMode.EMBED` representation, while the report's manual cosine used visible chunk text. The two columns therefore measure related but different representations and are not expected to be identical.
+
+This also reveals a methodological limitation. Fields such as `file_name`, `file_path`, and `source_file` contain document identifiers, including NCT numbers. These fields may influence retrieval and consume part of the model's input window.
+
+A future experiment should retain `source_file` for Recall scoring while excluding file-system and source-identity fields from embedding input through `excluded_embed_metadata_keys`. The formal experiment was not rerun after this diagnostic so that its recorded results remain unchanged and auditable.
 
 No LLM, reranker, or retrieval postprocessor was used.
 
 ## Observations
 
-### 1. Semantic Boundaries Do Not Control Chunk Size
+Token chunking gave the best empirical balance among the three required techniques. It achieved the highest mean Top-1 cosine (`0.695`), tied Semantic 95 for the best Recall@1 (`0.8`), and had moderate observed retrieval latency (`5.2 ms`). Its visible text was tightly controlled: 689 of 692 chunks fit within the effective 254-content-token limit. However, the follow-up diagnostic showed that metadata increased the median actual index input to 264 tokens, causing 483 of 692 inputs to exceed the limit. Semantic 95 produced the fewest chunks and the lowest observed lookup latency, but 67.56% of its metadata-inclusive inputs exceeded the limit and it had the largest estimated truncation loss. Sentence-window had the highest Mean@5 cosine (`0.612`) and kept 98.67% of its index inputs within the limit, but its 3,233-node index produced the slowest observed retrieval and the lowest Recall@1 (`0.6`).
 
-Semantic splitting optimizes boundary coherence rather than enforcing a
-maximum chunk length.
+The best technique differed by question. Token produced the highest Top-1 cosine for Q2, Q3, and Q5, while sentence-window led on Q1 and Q4. The sentence-window Q4 lead did not produce the correct rank-one document: its highest-ranked chunk came from `NCT07465848.txt`, not the expected `NCT00471978.txt`. Recall@5 was saturated at `1.0` for all three required techniques, so Recall@1, per-query cosine values, and manual inspection were needed to expose differences. The latency results are descriptive rather than conclusive because each of the five queries was timed only once and no dedicated repeated-query benchmark was performed.
 
-Semantic 95 produced only 299 chunks, but 60.54% exceeded MiniLM's 256-token
-input limit. The estimated truncation exposure was 58,858 tokens.
+## Detailed Analysis
 
-Lowering the percentile to 80 increased the node count to 750 and reduced
-estimated truncation to 25,998 tokens. However, it did not impose a hard size
-limit.
+### Chunk-Size Control
 
-Sample experiments from percentile 95 through percentile 40 showed that the
-longest chunk remained above 600 tokens even while the median dropped from 324
-to 30 tokens.
+The semantic percentile parameter controls relative boundary placement rather than an absolute maximum length. Lowering the threshold from 95 to 80 increased the number of chunks from 299 to 750, but 29.87% of the tuned configuration's metadata-inclusive inputs still exceeded 254 tokens.
 
-The percentile is calculated from relative semantic distances. A long,
-semantically consistent paragraph may therefore remain intact at multiple
-thresholds. Lowering the threshold eventually fragments ordinary text while
-providing little additional improvement for the longest coherent blocks.
+The five Top-1 chunks were identical between Semantic 95 and Semantic 80. The most relevant passages were semantically cohesive enough to remain unsplit at both thresholds.
 
-Semantic 95 and Semantic 80 also returned exactly the same Top-1 chunk for all
-five questions. Complete text and SHA-256 comparison confirmed that the five
-pairs were identical.
+Token chunking controlled visible text effectively, but it did not control complete embedding input because LlamaIndex prepended metadata. Sentence-window normally produced the shortest complete inputs, although punctuation-free headers and eligibility blocks remained as unusually large nodes.
 
-The threshold change affected lower-ranked results and improved Mean@5 cosine,
-but the most relevant semantic region for each question remained unbroken at
-both thresholds.
+### Template-Like Records
 
-### 2. Template-Like Clinical Records Cause Structurally Similar Chunks to Compete
+Clinical-trial records repeatedly use the same header and eligibility structures. This caused unrelated but structurally similar chunks to compete.
 
-The main retrieval errors were caused by repeated document structure.
+For Q3, sentence-window ranked the CAPTAIN-T2D header first even though two chunks from the correct Arrowhead document appeared at ranks two and three. For Q4, all required techniques ranked a different lung-cancer study first, and sentence-window assigned that incorrect result its highest Q4 cosine.
 
-For Q4, every main technique ranked the Eligibility section of
-`NCT07465848.txt` above the expected `NCT00471978.txt`. The wrong result stated
-a minimum age of 45 Years, while the expected answer was 18 Years.
+These cases demonstrate that high embedding similarity does not guarantee that a chunk contains the requested fact. The model sometimes captured the general clinical domain and template structure more strongly than the question's specific sponsor or study identity.
 
-Both documents discussed lung-cancer eligibility, and the corpus contained many
-nearly identical age and eligibility fields.
+### Metadata Effects
 
-Q3 showed the same mechanism in the document header. Sentence-window treated
-the newline-separated header fields as one sentence because they lacked normal
-sentence-ending punctuation.
+The score validation proved that LlamaIndex embedded metadata together with text. This explains the difference between vector-store scores and visible-text manual cosine values.
 
-The incorrect CAPTAIN-T2D header and correct Arrowhead header had the same
-field order and shared type 2 diabetes terminology. The unique sponsor field
-was diluted inside the larger template block.
+File identifiers may have contributed to retrieval, while metadata also reduced the text space available inside MiniLM's input window. The formal run remains valid as a record of the implemented system, but this behavior is an important limitation.
 
-These failures occurred in different parts of the records, Eligibility and
-header fields, but had the same cause: structurally similar template text
-received high embedding similarity even when the trial-specific entity or
-numeric answer was wrong.
+A future controlled comparison should exclude file-system and source identifiers from embedding input while retaining `source_file` as non-embedded metadata for Recall scoring.
 
-The corpus also has a 13-times document-size range. Long records create more
-Token and Sentence-window nodes and therefore have more opportunities to appear
-in top-k results.
+### Latency Limitation
 
-### 3. High Similarity Does Not Guarantee That a Chunk Contains the Answer
+The reported retrieval latency was calculated from five queries in one run. Semantic 95 had the lowest observed mean latency while searching 299 vectors, whereas sentence-window searched 3,233 vectors.
 
-Sentence-window achieved the highest Mean@5 cosine at 0.611694, but it had the
-lowest Recall@1 at 0.600. Token and Semantic 95 both achieved Recall@1 of
-0.800.
+The experiment did not repeat each query enough times to estimate a stable median or remove warm-up effects. The latency values therefore describe this run but should not be treated as a general performance benchmark.
 
-Sentence-window produced highly focused embeddings for ordinary sentences, as
-shown by its strong Q1 and Q2 scores. However, the method depends on the
-sentence parser identifying meaningful boundaries.
+## Discussion and Future Work
 
-Header fields and some Eligibility sections did not contain normal punctuation,
-so they became large single nodes instead of fine-grained sentence nodes.
+Four changes would strengthen a future experiment:
 
-The Q3 incorrect result scored 0.599353, only 0.019168 above the correct header.
-The Q4 incorrect result scored 0.720796 even though it contained the wrong
-minimum age.
+1. Exclude `file_name`, `file_path`, `source_file`, timestamps, file size, and file type from embedding input while retaining `source_file` for Recall scoring.
+2. Add a maximum-token postprocessing step after semantic splitting so that semantically cohesive but oversized chunks cannot exceed the embedding model's input window.
+3. Repeat each retrieval query multiple times, discard a warm-up run, and report median and percentile latency.
+4. Aggregate chunk-level evidence by source document so multiple strong chunks from one document can collectively outrank a single competing chunk.
 
-These cases demonstrate that a confident embedding score measures semantic and
-structural similarity, not factual correctness.
-
-Recall@5 was 1.0 for every method and was therefore saturated on this
-100-document corpus. Distinctive anchors made it relatively easy for the
-correct source to appear somewhere in five results.
-
-Recall@1, cosine measurements, latency, and truncation behavior provided more
-useful discrimination.
-
-### Overall Comparison
-
-Token chunking provided the strongest balance. It achieved the highest mean
-Top-1 cosine, Recall@1 of 0.800, perfect Recall@5, a mean latency of 5.231 ms,
-and almost no MiniLM truncation.
-
-Semantic 95 searched fastest because it created only 299 nodes, but its large
-chunks caused severe truncation and produced the lowest cosine measurements.
-
-Semantic 80 improved Mean@5 and reduced truncation exposure, but it did not
-change any Top-1 result.
-
-Sentence-window achieved the highest Mean@5 cosine, but it created 3,233 nodes,
-had the highest latency, and achieved the lowest Recall@1. Its expected
-fine-grained behavior also failed on punctuation-free structured fields.
+Document-level aggregation is particularly relevant to sentence-window Q3. The correct document occupied ranks two and three, while the incorrect document appeared only once at rank one. Aggregating evidence could therefore recover the expected document even when its highest individual chunk is narrowly outranked.
 
 ## Conclusion
 
-Token chunking is the best overall technique for this clinical-trial corpus.
-It achieved the highest mean Top-1 cosine, Recall@1 of 0.800, perfect Recall@5,
-low retrieval latency, and almost no embedding truncation.
-
-Sentence-window produced the highest Mean@5 cosine but the lowest Recall@1. Its
-main failure occurred when newline-separated header fields were treated as one
-long sentence, allowing a structurally similar but incorrect trial to rank
-above the correct Arrowhead study.
-
-Semantic 95 matched Token's Recall@1 and had the fastest search, but its
-uncontrolled chunk lengths caused substantial MiniLM truncation. Semantic 80
-reduced truncation and improved lower-ranked results, but all five Top-1 chunks
-remained identical to Semantic 95.
-
-The dominant difficulty was not only chunk size. Repetitive ClinicalTrials.gov
-headers and Eligibility templates caused semantically similar chunks from
-different trials to compete.
-
-Future work could combine chunk retrieval with document-level top-n score
-aggregation or metadata-aware filtering, but those postprocessing methods are
-outside the required retrieval-only comparison.
+Token chunking was the best empirical technique for this corpus because it produced the highest mean Top-1 cosine among the required methods, tied for the best Recall@1, and maintained moderate observed retrieval latency. However, its original input-length advantage applied only to visible chunk text: metadata caused 69.80% of its actual index inputs to exceed MiniLM's effective 254-content-token limit. Semantic chunking suffered the largest estimated truncation loss, while sentence-window created the largest index and lowest Recall@1 despite achieving the highest Mean@5 cosine. Overall, the experiment shows that chunk boundaries, embedded metadata, model truncation, and document-template repetition must all be controlled when evaluating retrieval over structured clinical-trial records.
 
 ## AI Use
 
 ### 1. What was an AI assistant used for, and what did I do myself?
 
-I used an AI assistant to interpret the homework requirements, review the
-project structure, draft code modules, suggest test commands, and help explain
-retrieval measurements.
+I used OpenAI ChatGPT/Codex as a development assistant for initial code structure, debugging suggestions, experimental-design discussion, and report organization.
 
-I selected the clinical-trial corpus, ran every command locally, inspected the
-rendered documents, identified unique question anchors, verified corpus sizes
-and hashes, reviewed terminal output, and checked the final files and Git
-history.
+The AI assistant proposed initial structures for the shared retrieval pipeline, chunking functions, authentication router, experiment runner, diagnostic scripts, and report sections. It also suggested possible explanations for unexpected retrieval results.
 
-I also independently decided which unexpected results required additional
-validation, including Recall@1, the Semantic Top-1 equality, and the
-Sentence-window Q3 failure.
+I independently inspected the repository, executed every command, reviewed all generated files, tested the application, ran the retrieval experiments, and verified the numerical claims against saved raw outputs.
+
+My independent work included:
+
+- Inspecting the repository before selecting final file locations.
+- Building and checking the 100-document corpus.
+- Preserving deterministic corpus ordering.
+- Recording corpus hashes and manifests.
+- Registering and correcting the five evaluation questions.
+- Extending semantic threshold testing beyond the initially suggested values.
+- Running the formal four-configuration retrieval experiment.
+- Checking MiniLM token counts with its own tokenizer.
+- Verifying Recall@1 from saved result files.
+- Comparing Semantic 95 and Semantic 80 Top-1 chunks using SHA-256 hashes.
+- Identifying the sentence-window Q3 failure mechanism.
+- Verifying metadata-inclusive vector-store scoring.
+- Writing and running the 31-check verification script.
+- Testing login, logout, idle expiration, HTTPS cookies, and CRUD behavior.
+- Capturing and reviewing the required evidence screenshots.
 
 ### 2. What AI-produced output was wrong or unsuitable, or what did I independently verify?
 
-The first pilot version of Q4 was unsuitable because it asked for a minimum age
-without naming a specific trial and had:
+The most important unsuitable output was the original Q4 design. Its first version had no expected source, which made it unsuitable for source-based Recall scoring and did not satisfy the single-source question requirement.
 
-```text
-expected_source: None
-```
+An early directory instruction also proposed creating `routers/auth.py` under a `routers/` directory at the repository root. The actual FastAPI application was located under `code/web_application/`. The proposed command failed because the root-level directory did not exist. I inspected the repository and placed the router at `code/web_application/routers/auth.py`.
 
-That question could not have one objectively correct source and did not satisfy
-the assignment requirement.
+Another suggested edit temporarily risked placing a second `if __name__ == "__main__"` block next to the existing application startup block. I inspected `main.py` and consolidated startup behavior rather than retaining conflicting blocks.
 
-The initial estimate that Semantic splitting might require tens of minutes was
-also too high. The measured full-corpus Semantic chunking time was approximately
-eight seconds after the embedding model was loaded.
+The initial estimate suggested that full semantic splitting could require tens of minutes. A three-document pilot and the full run showed that it completed much faster on the Apple M4.
 
-The initial explanation for Sentence-window's Q3 failure was also incomplete.
-The failure was first attributed to overly small chunks. Inspection of the
-actual returned text showed the opposite: newline-separated header fields were
-treated as one large sentence.
+The initial chunk-size interpretation also treated 256 visible tokens as the complete input limit. I later verified that two sequence positions were used by special tokens and that LlamaIndex metadata was included in the indexed embedding input.
 
-I also independently verified the unexpected result that Semantic 95 and
-Semantic 80 had exactly the same mean Top-1 cosine.
+### 3. How did I detect or verify the problems?
 
-### 3. How did I detect or verify the problem?
+I detected the Q4 problem after the pilot run by comparing every question with the assignment requirement and its `expected_source` field. The null expected source made the question inconsistent with the other four and impossible to score as a required single-source query.
 
-I detected the Q4 issue in the pilot retrieval output. Every technique printed:
+I detected the directory problem when the proposed root-level `routers/auth.py` command failed. Instead of creating a new root-level application structure, I inspected the existing tree and confirmed that `main.py`, templates, and application requirements were under `code/web_application/`.
 
-```text
-Expected source: None
-Recall@5: 0
-```
+I tested semantic runtime using a small sample before running the complete corpus. The measured pilot time contradicted the earlier estimate.
 
-I compared this output with the assignment requirement that every question
-record an expected answer and expected source file.
+I detected the Semantic 95 and Semantic 80 score coincidence by comparing their saved Top-1 results. A dedicated script confirmed that all five pairs had identical source files, text, scores, lengths, and SHA-256 hashes.
 
-I verified the Semantic Top-1 equality by comparing complete saved chunk text,
-source filenames, chunk lengths, store scores, cosine similarities, and SHA-256
-hashes. All five Top-1 chunks were identical between Semantic 95 and Semantic
-80.
+I verified the effective token limit using the MiniLM tokenizer with special tokens excluded from the count. I then counted both visible node text and `MetadataMode.EMBED` content across every node.
 
-I inspected the complete Sentence-window Q3 results. The incorrect rank-1 block
-and correct rank-3 block were both large structured headers rather than short
-isolated fields. This showed that missing sentence punctuation, not excessive
-fragmentation, caused the failure.
-
-I also measured actual Semantic runtime instead of relying on the original
-estimate.
+Finally, I rebuilt the Token index for Q2 and independently embedded both representations. The metadata-inclusive cosine reproduced the vector-store score with a maximum error of only `0.0000000053`, while the visible-text cosine differed by as much as `0.0433040638`.
 
 ### 4. What did I change, and why does it work now?
 
-I replaced Q4 with a study-specific question naming the lung-cancer genetic
-analysis study and Massachusetts General Hospital.
+I changed Q4 to ask for the minimum age of the lung-cancer genetic analysis study sponsored by Massachusetts General Hospital and set its expected source to `NCT00471978.txt`. This made it a valid single-source question while preserving its value as a difficult template-confusion example. The correction was committed before the formal graded run.
 
-I set:
+I moved the authentication router into `code/web_application/routers/auth.py`, matching the application's package structure and template paths.
 
-```text
-Expected answer: 18 Years
-Expected source: NCT00471978.txt
-```
+I retained Semantic 95 as the required main configuration and classified Semantic 80 as an additional ablation. This avoided changing the required three-technique comparison while still measuring the effect of a more aggressive semantic threshold.
 
-I committed this correction as commit `1f29b0d` before starting the graded
-retrieval run. The corrected question has one valid source, and all techniques
-achieved source Recall@5 of 1.
+I added Recall@1 because Recall@5 was saturated. This revealed a difference between Token and Semantic 95 at `0.8` and sentence-window at `0.6`.
 
-I added Recall@1 because Recall@5 was saturated. Recall@1 distinguishes the
-techniques and shows that Token and Semantic 95 retrieved the expected source
-first for four questions, while Sentence-window did so for three.
+I added effective-input and metadata-score diagnostics. The report now distinguishes visible text from actual metadata-inclusive index input, uses 254 content tokens as the effective threshold, and explains the store-score difference with measured evidence rather than speculation.
 
-I retained Semantic 80 as an ablation because it reduces estimated truncation
-while preserving more semantic context than lower percentiles. The saved
-Top-1 comparison confirms that its unchanged Top-1 score is a genuine result,
-not a parameter or implementation bug.
-
-I replaced the initial Sentence-window explanation with one supported by the
-actual retrieved chunks. The final explanation identifies punctuation-free,
-template-like header blocks as the cause of Q3's incorrect Top-1 result.
+All important claims are supported by saved CSV, JSON, JSONL, log, screenshot, manifest, or verification evidence.
 
 ## Machine-Readable Evidence
 
-The experiment produced:
+The following files support the reported results:
 
-```text
-reports/hw03/raw/chunk_metrics.csv
-reports/hw03/raw/chunk_size_diagnostic.csv
-reports/hw03/raw/per_query_metrics.csv
-reports/hw03/raw/recall_at_1.csv
-reports/hw03/raw/recall_at_1_summary.csv
-reports/hw03/raw/retrieval_results.jsonl
-reports/hw03/raw/run_metadata.json
-reports/hw03/raw/semantic_top1_comparison.csv
-reports/hw03/raw/summary_metrics.csv
-```
+- `reports/hw03/raw/summary_metrics.csv`
+- `reports/hw03/raw/per_query_metrics.csv`
+- `reports/hw03/raw/retrieval_results.jsonl`
+- `reports/hw03/raw/chunk_metrics.csv`
+- `reports/hw03/raw/chunk_size_diagnostic.csv`
+- `reports/hw03/raw/recall_at_1.csv`
+- `reports/hw03/raw/recall_at_1_summary.csv`
+- `reports/hw03/raw/semantic_top1_comparison.csv`
+- `reports/hw03/raw/effective_input_diagnostic.csv`
+- `reports/hw03/raw/metadata_score_validation.csv`
+- `reports/hw03/raw/run_metadata.json`
+- `reports/hw03/RUN_LOG.txt`
+- `reports/hw03/RUN_LOG_https.txt`
+- `reports/hw03/RUN_LOG_effective_input.txt`
+- `reports/hw03/RUN_LOG_part2_display.txt`
+- `reports/hw03/verification.json`
 
-Per-question JSON files are stored under:
+The verification script is stored at:
 
-```text
-reports/hw03/raw/token/
-reports/hw03/raw/semantic_95/
-reports/hw03/raw/semantic_tuned_80/
-reports/hw03/raw/sentence_window/
-```
+- `code/rag/scripts/verify_hw03.py`
+
+The diagnostic scripts are stored at:
+
+- `code/rag/scripts/chunk_size_diagnostic.py`
+- `code/rag/scripts/analyze_retrieval_results.py`
+- `code/rag/scripts/effective_input_diagnostic.py`
+
+The complete retrieval implementation is stored under:
+
+- `code/rag/pipeline.py`
+- `code/rag/chunkers.py`
+- `code/rag/retrieval.py`
+- `code/rag/run_experiment.py`
+
+The pre-registered questions are stored at:
+
+- `reports/hw03/questions.yaml`
