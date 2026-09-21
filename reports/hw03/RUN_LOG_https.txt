@@ -1,0 +1,15 @@
+16:40:36 INFO:     Started server process [72512]
+16:40:36 INFO:     Waiting for application startup.
+16:40:36 INFO:     Application startup complete.
+16:40:36 INFO:     Uvicorn running on https://127.0.0.1:8461 (Press CTRL+C to quit)
+16:41:10 INFO:     127.0.0.1:50492 - "GET / HTTP/1.1" 200 OK
+16:41:10 INFO:     127.0.0.1:50492 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+16:41:34 INFO:     127.0.0.1:50501 - "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 Not Found
+16:45:18 INFO:     127.0.0.1:51401 - "GET /login HTTP/1.1" 200 OK
+16:45:18 INFO:     127.0.0.1:51401 - "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 Not Found
+16:45:44 INFO:     127.0.0.1:51508 - "POST /login HTTP/1.1" 302 Found
+16:45:44 INFO:     127.0.0.1:51508 - "GET /dashboard HTTP/1.1" 200 OK
+16:45:44 INFO:     127.0.0.1:51508 - "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 Not Found
+16:59:48 INFO:     127.0.0.1:54899 - "GET /dashboard HTTP/1.1" 302 Found
+16:59:48 INFO:     127.0.0.1:54899 - "GET /login?error=expired HTTP/1.1" 200 OK
+16:59:48 INFO:     127.0.0.1:54899 - "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 Not Found

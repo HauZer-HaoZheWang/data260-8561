@@ -1,0 +1,103 @@
+{
+  "technique": "token",
+  "question_id": "Q2",
+  "question": "In the ARV-6723 dose escalation study, over how many days after the first administration are dose-limiting toxicities assessed?",
+  "expected_answer": "Dose-limiting toxicities are assessed for 21 days after the first ARV-6723 administration.",
+  "expected_source": "NCT07749586.txt",
+  "top_k": 5,
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "query_embedding_dimension": 384,
+  "query_embedding_first_8": [
+    0.012151692993938923,
+    -0.03523905947804451,
+    -0.038597285747528076,
+    0.03076348826289177,
+    0.01728588156402111,
+    -0.06552444398403168,
+    -0.016129588708281517,
+    0.08212193846702576
+  ],
+  "query_vector_shape": [
+    384
+  ],
+  "document_vectors_shape": [
+    5,
+    384
+  ],
+  "retrieval_latency_ms": 5.108249999466352,
+  "top_1_cosine": 0.808809191919654,
+  "mean_at_k_cosine": 0.6603111288470116,
+  "recall_at_k": 1,
+  "results": [
+    {
+      "rank": 1,
+      "source_file": "NCT07749586.txt",
+      "store_score": 0.7869701428374768,
+      "cosine_similarity": 0.808809191919654,
+      "chunk_length": 900,
+      "chunk_text": "Toxicities (DLTs) of ARV-6723 [Time Frame: 21 days from first ARV-6723 administration] Number of participants within a dose escalation cohort with adverse events (AEs) meeting protocol defined dose limiting toxicities during cycle 1 (21 days).\n- Part A1: Number of Participants With Adverse Events (AEs) [Time Frame: From the first dose of ARV-6723 through at least 28 days after the last dose (up to approximately 4.7 years)] AEs as characterized by type, frequency, severity (as graded by National Cancer Institute Common Terminology Criteria for Adverse Events \\[NCI CTCAE\\]), timing, seriousness, and relationship to study intervention as a measure of safety and tolerability.\n- Part A2: Number of Participants With AEs [Time Frame: From the first dose of ARV-6723 through at least 28 days after the last dose (up to approximately 4.7 years)] AEs as characterized by type, frequency, severity (as",
+      "preview": "Toxicities (DLTs) of ARV-6723 [Time Frame: 21 days from first ARV-6723 administration] Number of participants within a dose escalation cohort with adverse event",
+      "window_length": 0,
+      "window_text": "",
+      "window_preview": "",
+      "matches_expected_source": true
+    },
+    {
+      "rank": 2,
+      "source_file": "NCT05902988.txt",
+      "store_score": 0.6535761077921017,
+      "cosine_similarity": 0.6544543445021274,
+      "chunk_length": 827,
+      "chunk_text": "Any clinically significant ascites or pleural effusions at time of enrollment, or any therapeutic paracentesis or thoracentesis within 28 days of planned first dose of study drug\n* Bowel obstruction or GI perforation within 6 months of planned first dose of study drug\nMinimum Age: 18 Years\nMaximum Age: \nSex: ALL\n\nPrimary Outcome Measures:\n- Dose Escalation: Incidence of Dose Limiting Toxicities (DLTs) in DLT-evaluable subjects [Time Frame: Up to 12 months] \n- Dose Escalation: Determination of the MTD of VLS-1488 [Time Frame: Up to 12 months] \n- Dose Escalation: Frequency of Serious Adverse Events (SAEs) graded according to the National Cancer Institute Common Terminology Criteria for Adverse Events (NCI-CTCAE) version 5.0 [Time Frame: Up to 12 months] \n- Dose Escalation: Frequency of Treatment-related Adverse Events",
+      "preview": "Any clinically significant ascites or pleural effusions at time of enrollment, or any therapeutic paracentesis or thoracentesis within 28 days of planned first ",
+      "window_length": 0,
+      "window_text": "",
+      "window_preview": "",
+      "matches_expected_source": false
+    },
+    {
+      "rank": 3,
+      "source_file": "NCT07244835.txt",
+      "store_score": 0.6508405347456981,
+      "cosine_similarity": 0.6394410288527664,
+      "chunk_length": 467,
+      "chunk_text": "Age: 18 Years\nMaximum Age: \nSex: ALL\n\nPrimary Outcome Measures:\n- Incidence of dose limiting toxicity (DLT) [Time Frame: From first dose through the end of Cycle 1 (each cycle is 28 days)] Number of participants with DLT in Part 1\n- Incidence of adverse events (AEs) and serious AEs (SAEs) as assessed by CTCAE v5.0 [Time Frame: From Screening up to 30 days after the last dose] Number, type, frequency, severity, timing, and relationship to DEG6498 of AEs, SAEs, etc",
+      "preview": "Age: 18 Years Maximum Age: Sex: ALL Primary Outcome Measures: - Incidence of dose limiting toxicity (DLT) [Time Frame: From first dose through the end of Cycle ",
+      "window_length": 0,
+      "window_text": "",
+      "window_preview": "",
+      "matches_expected_source": false
+    },
+    {
+      "rank": 4,
+      "source_file": "NCT05379985.txt",
+      "store_score": 0.6439239445697272,
+      "cosine_similarity": 0.6006198803556057,
+      "chunk_length": 432,
+      "chunk_text": "protocol prior/concomitant therapy\n\nOther inclusion/exclusion criteria may apply.\nMinimum Age: 18 Years\nMaximum Age: \nSex: ALL\n\nPrimary Outcome Measures:\n- Incidence and severity of treatment-emergent Adverse Events (AEs) and serious AEs, including incidence and severity of findings in laboratory values and vital signs [Time Frame: up to 2.5 years] \n- Number of Participants with Dose-Limiting Toxicity (DLT) [Time Frame: 21 days]",
+      "preview": "protocol prior/concomitant therapy Other inclusion/exclusion criteria may apply. Minimum Age: 18 Years Maximum Age: Sex: ALL Primary Outcome Measures: - Inciden",
+      "window_length": 0,
+      "window_text": "",
+      "window_preview": "",
+      "matches_expected_source": false
+    },
+    {
+      "rank": 5,
+      "source_file": "NCT05902988.txt",
+      "store_score": 0.6371480935865191,
+      "cosine_similarity": 0.5982311986049041,
+      "chunk_length": 669,
+      "chunk_text": "version 5.0 [Time Frame: Up to 12 months] \n- Dose Escalation: Frequency of Treatment-related Adverse Events (AEs) graded per NCI-CTCAE version 5.0 [Time Frame: Up to 12 months] \n- Dose Escalation: Frequency of Treatment-Emergent AEs (TEAEs) graded per NCI-CTCAE version 5.0 [Time Frame: Up to 12 months] \n- Dose Escalation: Frequency of Dose Interruptions and Permanent Treatment Discontinuations [Time Frame: Up to 12 months] \n- Dose Expansion: Frequency of Trigger Events (TEs) [Time Frame: Up to 18 months] \n- Dose Expansion: Objective Response Rate (ORR) as assessed by Response Evaluation Criteria in Solid Tumors (RECIST) version 1.1 [Time Frame: Up to 18 months]",
+      "preview": "version 5.0 [Time Frame: Up to 12 months] - Dose Escalation: Frequency of Treatment-related Adverse Events (AEs) graded per NCI-CTCAE version 5.0 [Time Frame: U",
+      "window_length": 0,
+      "window_text": "",
+      "window_preview": "",
+      "matches_expected_source": false
+    }
+  ],
+  "experiment_group": "main",
+  "chunk_count": 692,
+  "avg_chunk_length_chars": 916.3265895953757,
+  "chunking_seconds": 0.34768720799911534,
+  "indexing_seconds": 2.33176345800166
+}

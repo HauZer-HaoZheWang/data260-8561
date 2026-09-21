@@ -1,0 +1,9 @@
+llama-index
+llama-index-embeddings-huggingface
+sentence-transformers
+transformers
+faiss-cpu
+numpy
+pandas
+PyYAML
+requests

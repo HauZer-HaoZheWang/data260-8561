@@ -1,0 +1,103 @@
+{
+  "technique": "semantic_95",
+  "question_id": "Q2",
+  "question": "In the ARV-6723 dose escalation study, over how many days after the first administration are dose-limiting toxicities assessed?",
+  "expected_answer": "Dose-limiting toxicities are assessed for 21 days after the first ARV-6723 administration.",
+  "expected_source": "NCT07749586.txt",
+  "top_k": 5,
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "query_embedding_dimension": 384,
+  "query_embedding_first_8": [
+    0.012151692993938923,
+    -0.03523905947804451,
+    -0.038597285747528076,
+    0.03076348826289177,
+    0.01728588156402111,
+    -0.06552444398403168,
+    -0.016129588708281517,
+    0.08212193846702576
+  ],
+  "query_vector_shape": [
+    384
+  ],
+  "document_vectors_shape": [
+    5,
+    384
+  ],
+  "retrieval_latency_ms": 2.352041003177874,
+  "top_1_cosine": 0.740518874813947,
+  "mean_at_k_cosine": 0.5698483534534009,
+  "recall_at_k": 1,
+  "results": [
+    {
+      "rank": 1,
+      "source_file": "NCT07749586.txt",
+      "store_score": 0.6916593595373546,
+      "cosine_similarity": 0.740518874813947,
+      "chunk_length": 2163,
+      "chunk_text": "* Baseline (screening) standard 12-lead electrocardiogram (ECG) that demonstrates clinically relevant abnormalities that may affect participant safety or interpretation of study results.\nMinimum Age: 18 Years\nMaximum Age: \nSex: ALL\n\nPrimary Outcome Measures:\n- Part A1: Number of Dose-Limiting Toxicities (DLTs) of ARV-6723 [Time Frame: 21 days from first ARV-6723 administration] Number of participants within a dose escalation cohort with adverse events (AEs) meeting protocol defined dose limiting toxicities during cycle 1 (21 days).\n- Part A1: Number of Participants With Adverse Events (AEs) [Time Frame: From the first dose of ARV-6723 through at least 28 days after the last dose (up to approximately 4.7 years)] AEs as characterized by type, frequency, severity (as graded by National Cancer Institute Common Terminology Criteria for Adverse Events \\[NCI CTCAE\\]), timing, seriousness, and relationship to study intervention as a measure of safety and tolerability.\n- Part A2: Number of Participants With AEs [Time Frame: From the first dose of ARV-6723 through at least 28 days after the last dose (up to approximately 4.7 years)] AEs as characterized by type, frequency, severity (as graded by National Cancer Institute Common Terminology Criteria for Adverse Events \\[NCI CTCAE\\]), timing, seriousness, and relationship to study intervention as a measure of safety and tolerability.\n- Part A2: Overall Response Rate (ORR) by computed tomography/magnetic resonance imaging (CT/MRI) Using Response Evaluation Criteria in Solid Tumors, version 1.1 (RECIST 1.1) Criteria Per Investigator Assessment [Time Frame: Approximately 24 months] ORR is defined as the proportion of participants reaching a confirmed complete response (CR) or partial response (PR) to the study treatment based on investigator assessment using RECIST 1.1 criteria.\n- Part B: ORR by CT/MRI using RECIST v1.1 Criteria Per Investigator Assessment [Time Frame: Approximately 24 months] ORR is defined as the proportion of participants reaching a confirmed complete response (CR) or partial response (PR) to the study treatment based on investigator assessment using RECIST 1.1 criteria.",
+      "preview": "* Baseline (screening) standard 12-lead electrocardiogram (ECG) that demonstrates clinically relevant abnormalities that may affect participant safety or interp",
+      "window_length": 0,
+      "window_text": "",
+      "window_preview": "",
+      "matches_expected_source": true
+    },
+    {
+      "rank": 2,
+      "source_file": "NCT07623525.txt",
+      "store_score": 0.6351541297553498,
+      "cosine_similarity": 0.6014497734735944,
+      "chunk_length": 1821,
+      "chunk_text": "Part A (Single Ascending DoseDose in HHT):\n\nPart A is a dose-escalation phase evaluating ascending single-dose levels of DIAG723 administered subcutaneously in sequential cohorts. Within each cohort, participants are randomized to receive DIAG723 or placebo. Dose escalation proceeds in a stepwise manner following review of safety, tolerability, and pharmacokinetic data. Sentinel dosing is implemented to allow for early safety assessment prior to dosing additional participants. Participants are monitored in an inpatient setting following dosing, with continued outpatient follow-up through the end of the assessment period.\n\nPart B (Multiple-Dose Expansion in HHT):\n\nPart B evaluates the safety, tolerability, pharmacokinetics, and preliminary clinical activity of DIAG723 administered as a multiple-dose regimen in patients with HHT symptoms. Participants are randomized to receive DIAG723 or placebo and receive repeated subcutaneous administrations over a planned treatment period of approximately 13 weeks. Dose levels and regimens evaluated in Part B are informed by available safety, pharmacokinetic, and pharmacodynamic data from Part A. An independent data monitoring process is used to support dose selection and cohort progression.\n\nPart C (Multiple-Dose Expansion in HHT with Pulmonary Arterial Hypertension):\n\nPart C evaluates the safety, tolerability, pharmacokinetics, and clinical effects of DIAG723 in a population of patients with HHT and concomitant pulmonary arterial hypertension. Participants are randomized to receive DIAG723 or placebo and receive the same general multiple-dose treatment approach as in Part B. Dose selection for Part C is informed by cumulative data from Part A and Part B, with additional assessments conducted to characterize effects in this specific patient population.\n\n",
+      "preview": "Part A (Single Ascending DoseDose in HHT): Part A is a dose-escalation phase evaluating ascending single-dose levels of DIAG723 administered subcutaneously in s",
+      "window_length": 0,
+      "window_text": "",
+      "window_preview": "",
+      "matches_expected_source": false
+    },
+    {
+      "rank": 3,
+      "source_file": "NCT07623525.txt",
+      "store_score": 0.608800279309562,
+      "cosine_similarity": 0.5245627553776392,
+      "chunk_length": 639,
+      "chunk_text": "Across all study parts, participants are randomized using an interactive response system, and study treatment is administered under double-blind conditions. A Safety Review Committee and an independent Data Safety Monitoring Board provide ongoing review of safety data and support dose-escalation and progression decisions throughout the study. Dose escalation and cohort progression are guided by predefined safety criteria and overall risk-benefit assessment.\n\nAll doses are administered by subcutaneous injection, and participants undergo safety monitoring, pharmacokinetic sampling, and clinical assessments at scheduled study visits. ",
+      "preview": "Across all study parts, participants are randomized using an interactive response system, and study treatment is administered under double-blind conditions. A S",
+      "window_length": 0,
+      "window_text": "",
+      "window_preview": "",
+      "matches_expected_source": false
+    },
+    {
+      "rank": 4,
+      "source_file": "NCT05706129.txt",
+      "store_score": 0.5753500997737255,
+      "cosine_similarity": 0.5107679963356643,
+      "chunk_length": 704,
+      "chunk_text": "Minimum Age: 18 Years\nMaximum Age: \nSex: ALL\n\nPrimary Outcome Measures:\n- Part A: Number of Participants With Treatment-Emergent Adverse Events (TEAEs) and Serious Adverse Events (SAEs) [Time Frame: Up to Day 7] \n- Part B: Number of Participants Experiencing Dose-Limiting Toxicities (DLTs) [Time Frame: Cycle 1(each cycle = 28 or 42 days depending on every 4 weeks or 6 weeks dosing schedule)] \n- Part C: Objective Response Rate (ORR) [Time Frame: Up to 81 months] \n- Part D: Concordance Between [68Ga]Ga-DPI-4452 Uptake by PET Imaging and Assessment of Histological Characteristics of IDRM [Time Frame: Day 1] \n- Part E: Radiotracer Uptake at Lesion Level Identified by PET Imaging [Time Frame: Day 1] ",
+      "preview": "Minimum Age: 18 Years Maximum Age: Sex: ALL Primary Outcome Measures: - Part A: Number of Participants With Treatment-Emergent Adverse Events (TEAEs) and Seriou",
+      "window_length": 0,
+      "window_text": "",
+      "window_preview": "",
+      "matches_expected_source": false
+    },
+    {
+      "rank": 5,
+      "source_file": "NCT07244835.txt",
+      "store_score": 0.4784360849588714,
+      "cosine_similarity": 0.4719423672661601,
+      "chunk_length": 1250,
+      "chunk_text": "Pregnant or breastfeeding women\n4. Active or concurrent malignancy requiring treatment (including both systemic therapy and radiotherapy) within 14 days or 5 half lives (whichever is shorter) prior to the first dose of study drug, or received antibody therapy within 28 days\n5. Symptomatic CNS metastases which are neurologically unstable, or CNS metastases requiring local CNS directed therapy, or increasing doses of corticosteroids within 2 weeks of first dose of study treatment.\n6. Clinically significant cardiovascular disease\n7. Known active or chronic infection that requires systemic therapy within 2 weeks of first dose of study drug\n8. Known human immunodeficiency virus (HIV) infection or known acquired immunodeficiency syndrome, or active HBV or HCV infection.\nMinimum Age: 18 Years\nMaximum Age: \nSex: ALL\n\nPrimary Outcome Measures:\n- Incidence of dose limiting toxicity (DLT) [Time Frame: From first dose through the end of Cycle 1 (each cycle is 28 days)] Number of participants with DLT in Part 1\n- Incidence of adverse events (AEs) and serious AEs (SAEs) as assessed by CTCAE v5.0 [Time Frame: From Screening up to 30 days after the last dose] Number, type, frequency, severity, timing, and relationship to DEG6498 of AEs, SAEs, etc",
+      "preview": "Pregnant or breastfeeding women 4. Active or concurrent malignancy requiring treatment (including both systemic therapy and radiotherapy) within 14 days or 5 ha",
+      "window_length": 0,
+      "window_text": "",
+      "window_preview": "",
+      "matches_expected_source": false
+    }
+  ],
+  "experiment_group": "main",
+  "chunk_count": 299,
+  "avg_chunk_length_chars": 1833.6588628762543,
+  "chunking_seconds": 8.015912125003524,
+  "indexing_seconds": 0.9901958339978592
+}

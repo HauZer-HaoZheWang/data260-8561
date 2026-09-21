@@ -1,0 +1,103 @@
+{
+  "technique": "semantic_tuned_80",
+  "question_id": "Q2",
+  "question": "In the ARV-6723 dose escalation study, over how many days after the first administration are dose-limiting toxicities assessed?",
+  "expected_answer": "Dose-limiting toxicities are assessed for 21 days after the first ARV-6723 administration.",
+  "expected_source": "NCT07749586.txt",
+  "top_k": 5,
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "query_embedding_dimension": 384,
+  "query_embedding_first_8": [
+    0.012151692993938923,
+    -0.03523905947804451,
+    -0.038597285747528076,
+    0.03076348826289177,
+    0.01728588156402111,
+    -0.06552444398403168,
+    -0.016129588708281517,
+    0.08212193846702576
+  ],
+  "query_vector_shape": [
+    384
+  ],
+  "document_vectors_shape": [
+    5,
+    384
+  ],
+  "retrieval_latency_ms": 5.7482499978505075,
+  "top_1_cosine": 0.740518874813947,
+  "mean_at_k_cosine": 0.6451531304918766,
+  "recall_at_k": 1,
+  "results": [
+    {
+      "rank": 1,
+      "source_file": "NCT07749586.txt",
+      "store_score": 0.6916593595373546,
+      "cosine_similarity": 0.740518874813947,
+      "chunk_length": 2163,
+      "chunk_text": "* Baseline (screening) standard 12-lead electrocardiogram (ECG) that demonstrates clinically relevant abnormalities that may affect participant safety or interpretation of study results.\nMinimum Age: 18 Years\nMaximum Age: \nSex: ALL\n\nPrimary Outcome Measures:\n- Part A1: Number of Dose-Limiting Toxicities (DLTs) of ARV-6723 [Time Frame: 21 days from first ARV-6723 administration] Number of participants within a dose escalation cohort with adverse events (AEs) meeting protocol defined dose limiting toxicities during cycle 1 (21 days).\n- Part A1: Number of Participants With Adverse Events (AEs) [Time Frame: From the first dose of ARV-6723 through at least 28 days after the last dose (up to approximately 4.7 years)] AEs as characterized by type, frequency, severity (as graded by National Cancer Institute Common Terminology Criteria for Adverse Events \\[NCI CTCAE\\]), timing, seriousness, and relationship to study intervention as a measure of safety and tolerability.\n- Part A2: Number of Participants With AEs [Time Frame: From the first dose of ARV-6723 through at least 28 days after the last dose (up to approximately 4.7 years)] AEs as characterized by type, frequency, severity (as graded by National Cancer Institute Common Terminology Criteria for Adverse Events \\[NCI CTCAE\\]), timing, seriousness, and relationship to study intervention as a measure of safety and tolerability.\n- Part A2: Overall Response Rate (ORR) by computed tomography/magnetic resonance imaging (CT/MRI) Using Response Evaluation Criteria in Solid Tumors, version 1.1 (RECIST 1.1) Criteria Per Investigator Assessment [Time Frame: Approximately 24 months] ORR is defined as the proportion of participants reaching a confirmed complete response (CR) or partial response (PR) to the study treatment based on investigator assessment using RECIST 1.1 criteria.\n- Part B: ORR by CT/MRI using RECIST v1.1 Criteria Per Investigator Assessment [Time Frame: Approximately 24 months] ORR is defined as the proportion of participants reaching a confirmed complete response (CR) or partial response (PR) to the study treatment based on investigator assessment using RECIST 1.1 criteria.",
+      "preview": "* Baseline (screening) standard 12-lead electrocardiogram (ECG) that demonstrates clinically relevant abnormalities that may affect participant safety or interp",
+      "window_length": 0,
+      "window_text": "",
+      "window_preview": "",
+      "matches_expected_source": true
+    },
+    {
+      "rank": 2,
+      "source_file": "NCT07623525.txt",
+      "store_score": 0.6566424134648862,
+      "cosine_similarity": 0.6304737146086374,
+      "chunk_length": 482,
+      "chunk_text": "Part A (Single Ascending DoseDose in HHT):\n\nPart A is a dose-escalation phase evaluating ascending single-dose levels of DIAG723 administered subcutaneously in sequential cohorts. Within each cohort, participants are randomized to receive DIAG723 or placebo. Dose escalation proceeds in a stepwise manner following review of safety, tolerability, and pharmacokinetic data. Sentinel dosing is implemented to allow for early safety assessment prior to dosing additional participants. ",
+      "preview": "Part A (Single Ascending DoseDose in HHT): Part A is a dose-escalation phase evaluating ascending single-dose levels of DIAG723 administered subcutaneously in s",
+      "window_length": 0,
+      "window_text": "",
+      "window_preview": "",
+      "matches_expected_source": false
+    },
+    {
+      "rank": 3,
+      "source_file": "NCT05902988.txt",
+      "store_score": 0.6210330601395215,
+      "cosine_similarity": 0.6289360475954633,
+      "chunk_length": 1038,
+      "chunk_text": "Detailed Description:\nThis a first-in-human phase I/II study designed to assess the safety, tolerability and preliminary efficacy of VLS-1488 monotherapy and consists of two parts: Dose Escalation and Dose Expansion.\n\nDose Escalation will examine the safety and tolerability of VLS-1488 in different solid tumor types at various dose levels through a series of Dose Escalation and Backfill Cohorts to identify the Maximum Tolerated Dose (MTD) and to select dose levels for Dose Expansion. The criteria for dose (de-)escalation will be based on a Bayesian Optimal Interval (BOIN) design.\n\nDose Expansion will examine the safety, tolerability, Drug Drug Interaction (DDI) risk, Food Effect (FE) and preliminary efficacy of VLS-1488 in different tumor types and/or dose levels of interest through various expansion cohorts.\n\nVLS-1488 will be given orally in 28-day cycles. Dosing will be continued until disease progression, unacceptable toxicity, withdrawal of consent, or other stopping criteria are met.\n\nInterventions:\n- DRUG: VLS-1488. ",
+      "preview": "Detailed Description: This a first-in-human phase I/II study designed to assess the safety, tolerability and preliminary efficacy of VLS-1488 monotherapy and co",
+      "window_length": 0,
+      "window_text": "",
+      "window_preview": "",
+      "matches_expected_source": false
+    },
+    {
+      "rank": 4,
+      "source_file": "NCT06639191.txt",
+      "store_score": 0.6125491982605779,
+      "cosine_similarity": 0.5638848257637823,
+      "chunk_length": 300,
+      "chunk_text": "1. Rate of Dose Limiting Toxicities, according to the definition of (S)AEs according to the CTCAE version 5.0.\n2. TEAEs, SAEs, clinically significant laboratory abnormalities and deaths\n3. AEs \u2265 grade 3 according to the CTCAE version 5.0 grading system (CTCAE v 5.0, 2017) during the treatment period",
+      "preview": "1. Rate of Dose Limiting Toxicities, according to the definition of (S)AEs according to the CTCAE version 5.0. 2. TEAEs, SAEs, clinically significant laboratory",
+      "window_length": 0,
+      "window_text": "",
+      "window_preview": "",
+      "matches_expected_source": false
+    },
+    {
+      "rank": 5,
+      "source_file": "NCT06561685.txt",
+      "store_score": 0.6113059068252682,
+      "cosine_similarity": 0.6619521896775532,
+      "chunk_length": 115,
+      "chunk_text": "The study is conducted in two parts - phase Ia (dose-escalation) and phase Ib (dose-optimization, dose-expansion). ",
+      "preview": "The study is conducted in two parts - phase Ia (dose-escalation) and phase Ib (dose-optimization, dose-expansion).",
+      "window_length": 0,
+      "window_text": "",
+      "window_preview": "",
+      "matches_expected_source": false
+    }
+  ],
+  "experiment_group": "ablation",
+  "chunk_count": 750,
+  "avg_chunk_length_chars": 731.0186666666667,
+  "chunking_seconds": 7.6423999999969965,
+  "indexing_seconds": 2.446921458998986
+}

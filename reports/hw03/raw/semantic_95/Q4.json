@@ -1,0 +1,103 @@
+{
+  "technique": "semantic_95",
+  "question_id": "Q4",
+  "question": "What is the minimum age requirement for the lung cancer genetic analysis study sponsored by Massachusetts General Hospital?",
+  "expected_answer": "The minimum age requirement is 18 Years.",
+  "expected_source": "NCT00471978.txt",
+  "top_k": 5,
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "query_embedding_dimension": 384,
+  "query_embedding_first_8": [
+    0.025558074936270714,
+    0.06208902224898338,
+    -0.059946607798337936,
+    -0.04336759075522423,
+    -0.04121971130371094,
+    0.01306072622537613,
+    -0.13941222429275513,
+    0.04706212878227234
+  ],
+  "query_vector_shape": [
+    384
+  ],
+  "document_vectors_shape": [
+    5,
+    384
+  ],
+  "retrieval_latency_ms": 2.221291004389059,
+  "top_1_cosine": 0.7086714705497983,
+  "mean_at_k_cosine": 0.6188975500360447,
+  "recall_at_k": 1,
+  "results": [
+    {
+      "rank": 1,
+      "source_file": "NCT07465848.txt",
+      "store_score": 0.700265915765313,
+      "cosine_similarity": 0.7086714705497983,
+      "chunk_length": 376,
+      "chunk_text": "* Vulnerable population, for example, minors, prisoners, pregnant women, adults physically or mentally incapable of giving consent.\nMinimum Age: 45 Years\nMaximum Age: \nSex: ALL\n\nPrimary Outcome Measures:\n- To determine the risk of developing lung cancer, expressed as a percentage, in order to assist doctors in the diagnosis of lung cancer. [Time Frame: At study enrollment] ",
+      "preview": "* Vulnerable population, for example, minors, prisoners, pregnant women, adults physically or mentally incapable of giving consent. Minimum Age: 45 Years Maximu",
+      "window_length": 0,
+      "window_text": "",
+      "window_preview": "",
+      "matches_expected_source": false
+    },
+    {
+      "rank": 2,
+      "source_file": "NCT05991193.txt",
+      "store_score": 0.6595584417530953,
+      "cosine_similarity": 0.6457029613665336,
+      "chunk_length": 856,
+      "chunk_text": "* Provision of fully informed consent prior to any study specific procedures.\n* Patient with EGFR 19Del or L858R mutation diagnosed histologically or cytologically. The mutations above may exist alone or together.\n* Patients must have untreated advanced Non-Small Cell Lung Cancer (NSCLC).\n* According to the RECIST 1.1 standard, the patient must have at least one measurable lesion.\n\nExclusion Criteria:\n\n* None\nMinimum Age: 18 Years\nMaximum Age: \nSex: ALL\n\nPrimary Outcome Measures:\n- Progression-free survival [Time Frame: 2 years] Progression-free survival (PFS) is defined as the time from beginning of study treatment until the date of objective disease progression or death (by any cause in the absence of progression), regardless of whether the patient withdraws from randomized therapy or receives another anti-cancer therapy prior to progression.",
+      "preview": "* Provision of fully informed consent prior to any study specific procedures. * Patient with EGFR 19Del or L858R mutation diagnosed histologically or cytologica",
+      "window_length": 0,
+      "window_text": "",
+      "window_preview": "",
+      "matches_expected_source": false
+    },
+    {
+      "rank": 3,
+      "source_file": "NCT00471978.txt",
+      "store_score": 0.6101817064057925,
+      "cosine_similarity": 0.6184487596623688,
+      "chunk_length": 1228,
+      "chunk_text": "Blood samples are collected from patients and controls. Samples are analyzed by polymerase chain reaction for gene polymorphisms. Genes to be studied include GSTP1, GSTM1, GSTT1, ERCC2, XRCC1, EPHX, NAT-2, p53 gene, CYP1A1, NQO1, MnSOD, and GPX1. Tissue samples collected from patients undergoing surgery and blood samples are archived for future studies.\n\nPatients and controls complete questionnaires about diet, medical history, and occupational/environmental history.\n\nPROJECTED ACCRUAL: A total of 3,400 patients and 3,400 controls will be accrued for early phases of this study. Total enrollment to reach 15,000.\n\nInterventions:\n\nEligibility Criteria:\nDISEASE CHARACTERISTICS:\n\n* Patient:\n\n  * Newly diagnosed primary lung cancer\n\n    * Patient at Massachusetts General Hospital (MGH) or Boston Medical Center Cancer Center\n\nPATIENT CHARACTERISTICS:\n\n* Not specified\n\nPRIOR CONCURRENT THERAPY:\n\n* Not specified\n\nEXCLUSIONS:\n\nVulnerable populations are excluded. Patients with metastasis from another site to lung or mesothelioma are excluded.\nMinimum Age: 18 Years\nMaximum Age: 120 Years\nSex: ALL\n\nPrimary Outcome Measures:\n- Metabolic polymorphisms [Time Frame: 10 years] to compare differences among lung cancer patients",
+      "preview": "Blood samples are collected from patients and controls. Samples are analyzed by polymerase chain reaction for gene polymorphisms. Genes to be studied include GS",
+      "window_length": 0,
+      "window_text": "",
+      "window_preview": "",
+      "matches_expected_source": true
+    },
+    {
+      "rank": 4,
+      "source_file": "NCT06878274.txt",
+      "store_score": 0.590491329457543,
+      "cosine_similarity": 0.5352544972941625,
+      "chunk_length": 722,
+      "chunk_text": "11. Postoperative lung function examination: FEV1 \\> 1 L (or greater than 35% expected value)\n\nExclusion Criteria:\n\n1. Pregnant individuals\n2. Previous chest radiotherapy\n3. \\>24 weeks after thoracic surgery\n4. History of other non-cutaneous neoplasms within the last 24 months\n5. Active grade \u2265 2 pneumonitis.\n6. Presence of interstitial lung disease\n7. Recurrence or metastasis occurred\n8. Medical conditions that hinders the safe administration of radiotherapy or follow-up.\nMinimum Age: 18 Years\nMaximum Age: \nSex: ALL\n\nPrimary Outcome Measures:\n- Disease-free Survival [Time Frame: Defined as the time from random assignment to loco-regional or distant recurrence, or death from any cause, assessed up to 60 months.] ",
+      "preview": "11. Postoperative lung function examination: FEV1 \\> 1 L (or greater than 35% expected value) Exclusion Criteria: 1. Pregnant individuals 2. Previous chest radi",
+      "window_length": 0,
+      "window_text": "",
+      "window_preview": "",
+      "matches_expected_source": false
+    },
+    {
+      "rank": 5,
+      "source_file": "NCT06646471.txt",
+      "store_score": 0.5868368493048232,
+      "cosine_similarity": 0.5864100613073605,
+      "chunk_length": 4104,
+      "chunk_text": "NCT Number: NCT06646471\nTitle: PROspective Master-protocol for Evaluation of Systemic THErapeutics in Elderly With Thoracic Malignancies\nOfficial Title: PROspective Master-protocol for Evaluation of Systemic THErapeutics in Elderly\nLead Sponsor: GFPC Investigation\nOverall Status: RECRUITING\nStart Date: 2024-09-26\nStudy Type: INTERVENTIONAL\nPhases: PHASE4\nEnrollment: 500\nConditions: Non Small Cell Lung Cancer, Lung Cancer\n\nBrief Summary:\nThe objective of the study is to prospectively generate real-life data in patients aged \u226570 years treated in first line for a thoracic tumor (Non-Small-Cell Lung Carcinoma) according to best standard of care as defined by the European Society for Medical Oncology (ESMO). This cohort will aim to:\n\n* characterize participants in terms of geriatrics, biology and carcinology\n* describe the treatment modalities by stage, as well as the results in terms of efficacy, safety and impact on quality of life.\n\nAt the same time, exploratory sub-cohorts will be identified including participants treated uniformly with the same molecule, and/or the same innovative strategy.\n\nParticipants will be followed in accordance with investigator's usual clinical practice at the corresponding site. They will be asked to:\n\n* visit the clinic as per physician's request for checkups and tests for assessing general condition and clinical efficacy and tolerance of current treatment.\n* perform the necessary regular para-clinical examinations (lab testing, imaging, re-biopsy).\n* provide blood samples for bio-bank repository\n* perform assessments specific to older adults\n* answer three quality of life questionnaires\n\nDetailed Description:\n\n\nInterventions:\n- GENETIC: Bio-bank repository. Blood samples taken during the screening phase prior to the first administration of systemic treatment and stored in a repository for a maximum duration of 10 years\n- OTHER: Quality of Life (QoL). Collection of EORTC QoL questionnaires QLQ-F17, QLQ-LC13 and QLQ-ELD14:\n\n* stage 3 non-operable/non-radiable, stage 4: at inclusion, 12 weeks, 6 months of treatment, first-line progression.\n* operable stage 1 to 3b: at inclusion, end of neoadjuvant period before surgery post-operative baseline, at 6 months, at 12 months.\n* radiable stages 3a to 3c: at inclusion, at the end of thoracic radiotherapy, at 6 months, at 12 months.\n- PROCEDURE: G-Code. G-CODE: Katz Autonomy Scale (ADL), Instrumental Activities of Daily Living questionnaire (IADL), Charlson score, mini GDS, mini COG, falls history, Timed Get Up and Go test, social environment.\n\nEligibility Criteria:\nInclusion Criteria:\n\n* Patient \u226570 years\n* Non-small-cell lung cancer for which the multidisciplinary consultation required systemic treatment regardless of Tumor-Node-Metastasis (TNM) stage\n* Patient na\u00efve to systemic anticancer treatment for bronchial neoplasia\n* Patient covered by social security\n* Patient eligible for systemic treatment\n* Systemic treatment with marketing authorization in the indication, available in routine care early access or compassionate access.\n* Patient able to understand the protocol\n* Patient not opposed to the collection of data concerning him/her\n* Signature of study consent form.\n\nExclusion Criteria:\n\n* Patients under guardians or curators\n* Patient not under the care of the investigating center and not monitored by the investigating center\n* Patient already treated with systemic therapy for NSCLC\nMinimum Age: 70 Years\nMaximum Age: \nSex: ALL\n\nPrimary Outcome Measures:\n- Progression Free Survival (PFS) [Time Frame: From the date of first dose of treatment received until the date of the first documented disease progression according to Response Evaluation Criteria in Solid Tumor (RECIST) 1.1 or to death from any cause, whichever comes first, assessed up to 2 years] The Progression Free Survival is defined as the time between treatment start date and event date defined by the Response Evaluation Criteria in Solid Tumor (RECIST) 1.1 progression or death for any cause, whichever comes first.\n\nDisease progression will be evaluated according to (RECIST) 1.1 assessed locally. ",
+      "preview": "NCT Number: NCT06646471 Title: PROspective Master-protocol for Evaluation of Systemic THErapeutics in Elderly With Thoracic Malignancies Official Title: PROspec",
+      "window_length": 0,
+      "window_text": "",
+      "window_preview": "",
+      "matches_expected_source": false
+    }
+  ],
+  "experiment_group": "main",
+  "chunk_count": 299,
+  "avg_chunk_length_chars": 1833.6588628762543,
+  "chunking_seconds": 8.015912125003524,
+  "indexing_seconds": 0.9901958339978592
+}

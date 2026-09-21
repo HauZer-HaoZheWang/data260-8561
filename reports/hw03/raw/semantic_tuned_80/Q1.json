@@ -1,0 +1,103 @@
+{
+  "technique": "semantic_tuned_80",
+  "question_id": "Q1",
+  "question": "Which study examines germline polymorphisms in DNA repair genes such as GSTP1, GSTM1, and ERCC2 in relation to lung cancer risk, and over what time frame is its primary outcome measured?",
+  "expected_answer": "The study is NCT00471978, and the primary outcome is measured over 10 years.",
+  "expected_source": "NCT00471978.txt",
+  "top_k": 5,
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "query_embedding_dimension": 384,
+  "query_embedding_first_8": [
+    -0.030549421906471252,
+    0.009654760360717773,
+    0.007370664272457361,
+    -0.04916924238204956,
+    0.01927119493484497,
+    0.020461520180106163,
+    -0.03012298047542572,
+    0.11021419614553452
+  ],
+  "query_vector_shape": [
+    384
+  ],
+  "document_vectors_shape": [
+    5,
+    384
+  ],
+  "retrieval_latency_ms": 5.973916006041691,
+  "top_1_cosine": 0.5862276557110009,
+  "mean_at_k_cosine": 0.495155532513603,
+  "recall_at_k": 1,
+  "results": [
+    {
+      "rank": 1,
+      "source_file": "NCT00471978.txt",
+      "store_score": 0.6404070921136198,
+      "cosine_similarity": 0.5862276557110009,
+      "chunk_length": 1661,
+      "chunk_text": "NCT Number: NCT00471978\nTitle: DNA Analysis of Blood and Tissue from Patients with Lung Cancer\nOfficial Title: Molecular and Genetic Analysis of Lung Cancer\nLead Sponsor: Massachusetts General Hospital\nOverall Status: RECRUITING\nStart Date: 2005-09\nStudy Type: OBSERVATIONAL\nPhases: \nEnrollment: \nConditions: Lung Cancer\n\nBrief Summary:\nRATIONALE: Studying samples of blood and tissue from patients with cancer in the laboratory may help doctors learn more about changes that occur in DNA and identify biomarkers related to cancer. It may also help the study of cancer in the future.\n\nPURPOSE: This clinical trial is analyzing the DNA in blood and tissue samples from patients with lung cancer.\n\nDetailed Description:\nOBJECTIVES:\n\n* Assess the role of genetic polymorphisms in lung-cancer risk in patients with lung cancer.\n* Assess the role of germline polymorphisms in DNA repair genes, p53 pathway genes, and a matrix metalloproteinase gene (tumor invasion factor) in lung-cancer risk, after adjusting for potential confounders.\n* Assess the roles of gender and age in the genetic susceptibility of lung cancer.\n* Assess the role of genetic polymorphisms in modifying the diet-lung cancer risk association (gene-diet and exploratory gene-gender-diet and gene-gene-diet interactions).\n* Assess the role of polymorphisms on the risk of developing specific histologic subtypes of lung cancer in case-only analyses.\n* Determine whether continued exposures to mainstream and/or second-hand tobacco smoking is associated with poorer clinical prognosis in patients treated for lung cancer.\n\nOUTLINE: This began as a case-control study, but is currently case only.\n\n",
+      "preview": "NCT Number: NCT00471978 Title: DNA Analysis of Blood and Tissue from Patients with Lung Cancer Official Title: Molecular and Genetic Analysis of Lung Cancer Lea",
+      "window_length": 0,
+      "window_text": "",
+      "window_preview": "",
+      "matches_expected_source": true
+    },
+    {
+      "rank": 2,
+      "source_file": "NCT00471978.txt",
+      "store_score": 0.5919149037259369,
+      "cosine_similarity": 0.5570172699790489,
+      "chunk_length": 357,
+      "chunk_text": "Blood samples are collected from patients and controls. Samples are analyzed by polymerase chain reaction for gene polymorphisms. Genes to be studied include GSTP1, GSTM1, GSTT1, ERCC2, XRCC1, EPHX, NAT-2, p53 gene, CYP1A1, NQO1, MnSOD, and GPX1. Tissue samples collected from patients undergoing surgery and blood samples are archived for future studies.\n\n",
+      "preview": "Blood samples are collected from patients and controls. Samples are analyzed by polymerase chain reaction for gene polymorphisms. Genes to be studied include GS",
+      "window_length": 0,
+      "window_text": "",
+      "window_preview": "",
+      "matches_expected_source": true
+    },
+    {
+      "rank": 3,
+      "source_file": "NCT00471978.txt",
+      "store_score": 0.4891237602030406,
+      "cosine_similarity": 0.43504437275195723,
+      "chunk_length": 643,
+      "chunk_text": "Total enrollment to reach 15,000.\n\nInterventions:\n\nEligibility Criteria:\nDISEASE CHARACTERISTICS:\n\n* Patient:\n\n  * Newly diagnosed primary lung cancer\n\n    * Patient at Massachusetts General Hospital (MGH) or Boston Medical Center Cancer Center\n\nPATIENT CHARACTERISTICS:\n\n* Not specified\n\nPRIOR CONCURRENT THERAPY:\n\n* Not specified\n\nEXCLUSIONS:\n\nVulnerable populations are excluded. Patients with metastasis from another site to lung or mesothelioma are excluded.\nMinimum Age: 18 Years\nMaximum Age: 120 Years\nSex: ALL\n\nPrimary Outcome Measures:\n- Metabolic polymorphisms [Time Frame: 10 years] to compare differences among lung cancer patients",
+      "preview": "Total enrollment to reach 15,000. Interventions: Eligibility Criteria: DISEASE CHARACTERISTICS: * Patient: * Newly diagnosed primary lung cancer * Patient at Ma",
+      "window_length": 0,
+      "window_text": "",
+      "window_preview": "",
+      "matches_expected_source": true
+    },
+    {
+      "rank": 4,
+      "source_file": "NCT07465848.txt",
+      "store_score": 0.48225339135450823,
+      "cosine_similarity": 0.4614503972570736,
+      "chunk_length": 1024,
+      "chunk_text": "NCT Number: NCT07465848\nTitle: Prospective Multicentre Study for the Application of Telomere Measurement Technology as a Tool for Lung Cancer Diagnosis\nOfficial Title: Prospective Multicentre Study for the Application of Telomere Measurement Technology as a Tool for Lung Cancer Diagnosis\nLead Sponsor: Grupo Espa\u00f1ol de Investigaci\u00f3n en Diagn\u00f3stico y Tratamiento Hipertemprano de Enfermedades (GeDiTPhe)\nOverall Status: RECRUITING\nStart Date: 2025-10-08\nStudy Type: INTERVENTIONAL\nPhases: NA\nEnrollment: 1200\nConditions: Lung Cancer (Diagnosis), Health Adult Subjects, Patient\n\nBrief Summary:\nThis research is a clinical performance study of in vitro diagnostic device (IVD), a prospective, multicentre, open-label, case-control clinical investigation aimed at constructing a predictive model that allows results to be classified as positive or negative in relation to the probability of having lung cancer.\n\nDetailed Description:\n\n\nInterventions:\n- DIAGNOSTIC_TEST: Blood sample collection for telomere biomarker analysis. ",
+      "preview": "NCT Number: NCT07465848 Title: Prospective Multicentre Study for the Application of Telomere Measurement Technology as a Tool for Lung Cancer Diagnosis Official",
+      "window_length": 0,
+      "window_text": "",
+      "window_preview": "",
+      "matches_expected_source": false
+    },
+    {
+      "rank": 5,
+      "source_file": "NCT05991193.txt",
+      "store_score": 0.4533493116754566,
+      "cosine_similarity": 0.4360379668689345,
+      "chunk_length": 856,
+      "chunk_text": "* Provision of fully informed consent prior to any study specific procedures.\n* Patient with EGFR 19Del or L858R mutation diagnosed histologically or cytologically. The mutations above may exist alone or together.\n* Patients must have untreated advanced Non-Small Cell Lung Cancer (NSCLC).\n* According to the RECIST 1.1 standard, the patient must have at least one measurable lesion.\n\nExclusion Criteria:\n\n* None\nMinimum Age: 18 Years\nMaximum Age: \nSex: ALL\n\nPrimary Outcome Measures:\n- Progression-free survival [Time Frame: 2 years] Progression-free survival (PFS) is defined as the time from beginning of study treatment until the date of objective disease progression or death (by any cause in the absence of progression), regardless of whether the patient withdraws from randomized therapy or receives another anti-cancer therapy prior to progression.",
+      "preview": "* Provision of fully informed consent prior to any study specific procedures. * Patient with EGFR 19Del or L858R mutation diagnosed histologically or cytologica",
+      "window_length": 0,
+      "window_text": "",
+      "window_preview": "",
+      "matches_expected_source": false
+    }
+  ],
+  "experiment_group": "ablation",
+  "chunk_count": 750,
+  "avg_chunk_length_chars": 731.0186666666667,
+  "chunking_seconds": 7.6423999999969965,
+  "indexing_seconds": 2.446921458998986
+}

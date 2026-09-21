@@ -1,0 +1,5 @@
+technique,group,chunks,avg_chunk_length_chars,chunking_seconds,indexing_seconds
+token,main,692,916.327,0.348,2.332
+semantic_95,main,299,1833.659,8.016,0.99
+sentence_window,main,3233,169.584,0.087,7.109
+semantic_tuned_80,ablation,750,731.019,7.642,2.447

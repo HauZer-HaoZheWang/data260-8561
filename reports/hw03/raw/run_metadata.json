@@ -1,0 +1,17 @@
+{
+  "started_at": "2026-09-20T18:08:58.340939-07:00",
+  "finished_at": "2026-09-20T18:09:31.728906-07:00",
+  "elapsed_seconds": 33.387967,
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "generation_model": null,
+  "document_count": 100,
+  "question_count": 5,
+  "top_k": 5,
+  "include_tuned": true,
+  "techniques": [
+    "token",
+    "semantic_95",
+    "sentence_window",
+    "semantic_tuned_80"
+  ]
+}

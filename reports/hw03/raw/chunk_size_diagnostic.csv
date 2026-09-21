@@ -1,0 +1,5 @@
+technique,percentile,nodes,median_tokens,p90_tokens,max_tokens,over_256_count,over_256_pct,lost_tokens,elapsed_seconds
+token,n/a,692,213,229,257,1,0.14,1,0.356
+semantic_95,95,299,324,863,1760,181,60.54,58858,8.099
+semantic_tuned_80,80,750,104,382,1039,156,20.8,25998,7.649
+sentence_window,n/a,3233,25,73,806,30,0.93,4655,0.086

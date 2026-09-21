@@ -1,0 +1,103 @@
+{
+  "technique": "token",
+  "question_id": "Q3",
+  "question": "What is the planned enrollment and trial phase of the Arrowhead Pharmaceuticals study in obesity and type 2 diabetes?",
+  "expected_answer": "The planned enrollment is 150 participants, and the study is Phase 1 and Phase 2.",
+  "expected_source": "NCT06937203.txt",
+  "top_k": 5,
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "query_embedding_dimension": 384,
+  "query_embedding_first_8": [
+    0.05704692378640175,
+    0.000649439578410238,
+    -0.010042190551757812,
+    0.06667398661375046,
+    0.024496885016560555,
+    0.014385819435119629,
+    -0.07617654651403427,
+    0.08285562694072723
+  ],
+  "query_vector_shape": [
+    384
+  ],
+  "document_vectors_shape": [
+    5,
+    384
+  ],
+  "retrieval_latency_ms": 5.472542005009018,
+  "top_1_cosine": 0.6008874581631951,
+  "mean_at_k_cosine": 0.5585397068370481,
+  "recall_at_k": 1,
+  "results": [
+    {
+      "rank": 1,
+      "source_file": "NCT06937203.txt",
+      "store_score": 0.59436073718813,
+      "cosine_similarity": 0.5517647487740034,
+      "chunk_length": 1004,
+      "chunk_text": "etc.) for any indication within 6 months prior to Screening\n* Use of non-GLP-1R medications for weight loss within 3 months prior to Screening, including but not limited to naltrexone/bupropion, orlistat, phentermine/topiramate, and other prescription or over-the-counter medication or supplement taken for weight loss purposes\n* Obesity attributable primarily in the Investigator's opinion to medication use, monogenic or endocrinologic disorders (other than polycystic ovary syndrome)\n* History of prior surgical or device-based therapy for obesity (including endoscopic bariatric procedures)\n* Use of medications or therapies strongly associated with weight gain, alterations in body composition, or increase in muscle mass, within 3 months prior to Screening\n* Type 1 diabetes mellitus\n\nNote: Additional inclusion/exclusion criteria may apply per protocol.\nMinimum Age: 18 Years\nMaximum Age: 65 Years\nSex: ALL\n\nPrimary Outcome Measures:\n- Number of Participants with Treatment-Emergent Adverse Events",
+      "preview": "etc.) for any indication within 6 months prior to Screening * Use of non-GLP-1R medications for weight loss within 3 months prior to Screening, including but no",
+      "window_length": 0,
+      "window_text": "",
+      "window_preview": "",
+      "matches_expected_source": true
+    },
+    {
+      "rank": 2,
+      "source_file": "NCT06937203.txt",
+      "store_score": 0.5801852750301946,
+      "cosine_similarity": 0.6008874581631951,
+      "chunk_length": 816,
+      "chunk_text": "NCT Number: NCT06937203\nTitle: A First-In-Human Study of ARO-ALK7 in Adults With Obesity With and Without Type 2 Diabetes Mellitus\nOfficial Title: A Phase 1/2A Dose-Escalating Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of ARO-ALK7 in Adult Volunteers With Obesity With and Without Type 2 Diabetes Mellitus\nLead Sponsor: Arrowhead Pharmaceuticals\nOverall Status: RECRUITING\nStart Date: 2025-05-09\nStudy Type: INTERVENTIONAL\nPhases: PHASE1, PHASE2\nEnrollment: 150\nConditions: Obesity, Diabetes Mellitus, Type 2\n\nBrief Summary:\nThis is a Phase 1/2a double-blind dose-escalating study to evaluate the safety, tolerability, pharmacokinetics (PK), and pharmacodynamics (PD) of single and multiple doses of ARO-ALK7 in adult participants with obesity without Type 2 Diabetes Mellitus",
+      "preview": "NCT Number: NCT06937203 Title: A First-In-Human Study of ARO-ALK7 in Adults With Obesity With and Without Type 2 Diabetes Mellitus Official Title: A Phase 1/2A ",
+      "window_length": 0,
+      "window_text": "",
+      "window_preview": "",
+      "matches_expected_source": true
+    },
+    {
+      "rank": 3,
+      "source_file": "NCT07588438.txt",
+      "store_score": 0.5700841979958015,
+      "cosine_similarity": 0.5719139584401852,
+      "chunk_length": 955,
+      "chunk_text": "population. The study includes two cohorts: Cohort 1 consists of adults with obesity (BMI \u226530 kg/m\u00b2) without type 2 diabetes mellitus (T2DM), and Cohort 2 consists of adults with T2DM with or without obesity. Each cohort will enroll 80 participants (160 total). All participants will receive tirzepatide as part of their standard clinical care and will be followed for 52 weeks with visits approximately every 6 weeks. Primary outcomes include percentage change in body weight from baseline at week 52 (Cohort 1) and change in HbA1c and body weight at week 52 (Cohort 2). Safety outcomes include adverse event rates. The study is conducted at Las Rias Medical Center, Asuncion, Paraguay, and has been approved by the CEI-INCAN Ethics Committee and authorized by DINAVISA.\n\nDetailed Description:\nInnovation and Regional Significance This study represents a pioneering milestone as the first prospective, long-term real-world evidence (RWE) investigation of",
+      "preview": "population. The study includes two cohorts: Cohort 1 consists of adults with obesity (BMI \u226530 kg/m\u00b2) without type 2 diabetes mellitus (T2DM), and Cohort 2 consi",
+      "window_length": 0,
+      "window_text": "",
+      "window_preview": "",
+      "matches_expected_source": false
+    },
+    {
+      "rank": 4,
+      "source_file": "NCT07296484.txt",
+      "store_score": 0.5596582536283543,
+      "cosine_similarity": 0.5440399836505947,
+      "chunk_length": 833,
+      "chunk_text": "NCT Number: NCT07296484\nTitle: Trial Against INtractable Type 2 Diabetes (CAPTAIN-T2D)\nOfficial Title: Clofutriben And Placebo Phase 2 Trial Against INtractable Type 2 Diabetes (CAPTAIN-T2D)\nLead Sponsor: Sparrow Pharmaceuticals\nOverall Status: RECRUITING\nStart Date: 2025-11-29\nStudy Type: INTERVENTIONAL\nPhases: PHASE2\nEnrollment: 1500\nConditions: Type 2 Diabetes, Cortisol Excess\n\nBrief Summary:\nCAPTAIN-T2D will take place in two parts. Part 1 (Screening) will evaluate patients with type 2 diabetes and elevated cortisol risk factors for trial eligibility and the presence of elevated cortisol. Participants deemed eligible from Part 1 will be randomized to either clofutriben or placebo in the double-blind (participant and investigator), dose-ranging, interventional Part 2 (Treatment).\n\nDetailed Description:\nCAPTAIN-T2D is a",
+      "preview": "NCT Number: NCT07296484 Title: Trial Against INtractable Type 2 Diabetes (CAPTAIN-T2D) Official Title: Clofutriben And Placebo Phase 2 Trial Against INtractable",
+      "window_length": 0,
+      "window_text": "",
+      "window_preview": "",
+      "matches_expected_source": false
+    },
+    {
+      "rank": 5,
+      "source_file": "NCT06875193.txt",
+      "store_score": 0.5175761320153425,
+      "cosine_similarity": 0.5240923851572619,
+      "chunk_length": 783,
+      "chunk_text": "NCT Number: NCT06875193\nTitle: DM Treatment to Evaluate the Efficacy and Safety of Dapagliflozin or Pioglitazone in Patients with Type 2 Diabetes\nOfficial Title: Key Finding of DM Treatment with Combination, a MuLticenter, Randomized, Parallel, Gathering Information of Phase 4 Trial to Evaluate the Efficacy and Safety of Dapagliflozin or Pioglitazone Add-on to Metformin and DPP-4 Inhibitor in Patients with Type 2 Diabetes\nLead Sponsor: Dong Wha Pharmaceutical Co. Ltd.\nOverall Status: RECRUITING\nStart Date: 2024-05-28\nStudy Type: INTERVENTIONAL\nPhases: PHASE4\nEnrollment: 196\nConditions: Type2diabetes\n\nBrief Summary:\nKey finding of DM Treatment with combination, A MuLticenter, Randomized, Parallel, Gathering Information of phase 4 Trial to Evaluate the Efficacy and Safety of",
+      "preview": "NCT Number: NCT06875193 Title: DM Treatment to Evaluate the Efficacy and Safety of Dapagliflozin or Pioglitazone in Patients with Type 2 Diabetes Official Title",
+      "window_length": 0,
+      "window_text": "",
+      "window_preview": "",
+      "matches_expected_source": false
+    }
+  ],
+  "experiment_group": "main",
+  "chunk_count": 692,
+  "avg_chunk_length_chars": 916.3265895953757,
+  "chunking_seconds": 0.34768720799911534,
+  "indexing_seconds": 2.33176345800166
+}

@@ -1,0 +1,103 @@
+{
+  "technique": "sentence_window",
+  "question_id": "Q2",
+  "question": "In the ARV-6723 dose escalation study, over how many days after the first administration are dose-limiting toxicities assessed?",
+  "expected_answer": "Dose-limiting toxicities are assessed for 21 days after the first ARV-6723 administration.",
+  "expected_source": "NCT07749586.txt",
+  "top_k": 5,
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "query_embedding_dimension": 384,
+  "query_embedding_first_8": [
+    0.012151692993938923,
+    -0.03523905947804451,
+    -0.038597285747528076,
+    0.03076348826289177,
+    0.01728588156402111,
+    -0.06552444398403168,
+    -0.016129588708281517,
+    0.08212193846702576
+  ],
+  "query_vector_shape": [
+    384
+  ],
+  "document_vectors_shape": [
+    5,
+    384
+  ],
+  "retrieval_latency_ms": 24.290249995829072,
+  "top_1_cosine": 0.800926580878689,
+  "mean_at_k_cosine": 0.7065051733844264,
+  "recall_at_k": 1,
+  "results": [
+    {
+      "rank": 1,
+      "source_file": "NCT07749586.txt",
+      "store_score": 0.8064469945877423,
+      "cosine_similarity": 0.800926580878689,
+      "chunk_length": 351,
+      "chunk_text": "Minimum Age: 18 Years\nMaximum Age: \nSex: ALL\n\nPrimary Outcome Measures:\n- Part A1: Number of Dose-Limiting Toxicities (DLTs) of ARV-6723 [Time Frame: 21 days from first ARV-6723 administration] Number of participants within a dose escalation cohort with adverse events (AEs) meeting protocol defined dose limiting toxicities during cycle 1 (21 days).\n",
+      "preview": "Minimum Age: 18 Years Maximum Age: Sex: ALL Primary Outcome Measures: - Part A1: Number of Dose-Limiting Toxicities (DLTs) of ARV-6723 [Time Frame: 21 days from",
+      "window_length": 2181,
+      "window_text": "* Prior treatment with any HPK1-targeting agent\n* Systemic anti-cancer therapy or radiation therapy within 14 days prior to study treatment start.\n * Current use of any prohibited concomitant medication(s) or herbal supplements which cannot be discontinued, prior to start of study intervention and for the duration of the study.\n * Baseline (screening) standard 12-lead electrocardiogram (ECG) that demonstrates clinically relevant abnormalities that may affect participant safety or interpretation of study results.\n Minimum Age: 18 Years\nMaximum Age: \nSex: ALL\n\nPrimary Outcome Measures:\n- Part A1: Number of Dose-Limiting Toxicities (DLTs) of ARV-6723 [Time Frame: 21 days from first ARV-6723 administration] Number of participants within a dose escalation cohort with adverse events (AEs) meeting protocol defined dose limiting toxicities during cycle 1 (21 days).\n - Part A1: Number of Participants With Adverse Events (AEs) [Time Frame: From the first dose of ARV-6723 through at least 28 days after the last dose (up to approximately 4.7 years)] AEs as characterized by type, frequency, severity (as graded by National Cancer Institute Common Terminology Criteria for Adverse Events \\[NCI CTCAE\\]), timing, seriousness, and relationship to study intervention as a measure of safety and tolerability.\n - Part A2: Number of Participants With AEs [Time Frame: From the first dose of ARV-6723 through at least 28 days after the last dose (up to approximately 4.7 years)] AEs as characterized by type, frequency, severity (as graded by National Cancer Institute Common Terminology Criteria for Adverse Events \\[NCI CTCAE\\]), timing, seriousness, and relationship to study intervention as a measure of safety and tolerability.\n - Part A2: Overall Response Rate (ORR) by computed tomography/magnetic resonance imaging (CT/MRI) Using Response Evaluation Criteria in Solid Tumors, version 1.1 (RECIST 1.1) Criteria Per Investigator Assessment [Time Frame: Approximately 24 months] ORR is defined as the proportion of participants reaching a confirmed complete response (CR) or partial response (PR) to the study treatment based on investigator assessment using RECIST 1.1 criteria.\n",
+      "window_preview": "* Prior treatment with any HPK1-targeting agent * Systemic anti-cancer therapy or radiation therapy within 14 days prior to study treatment start. * Current use",
+      "matches_expected_source": true
+    },
+    {
+      "rank": 2,
+      "source_file": "NCT07749586.txt",
+      "store_score": 0.7007497692049215,
+      "cosine_similarity": 0.7134279369563005,
+      "chunk_length": 437,
+      "chunk_text": "- Part A1: Number of Participants With Adverse Events (AEs) [Time Frame: From the first dose of ARV-6723 through at least 28 days after the last dose (up to approximately 4.7 years)] AEs as characterized by type, frequency, severity (as graded by National Cancer Institute Common Terminology Criteria for Adverse Events \\[NCI CTCAE\\]), timing, seriousness, and relationship to study intervention as a measure of safety and tolerability.\n",
+      "preview": "- Part A1: Number of Participants With Adverse Events (AEs) [Time Frame: From the first dose of ARV-6723 through at least 28 days after the last dose (up to app",
+      "window_length": 2351,
+      "window_text": "* Current use of any prohibited concomitant medication(s) or herbal supplements which cannot be discontinued, prior to start of study intervention and for the duration of the study.\n * Baseline (screening) standard 12-lead electrocardiogram (ECG) that demonstrates clinically relevant abnormalities that may affect participant safety or interpretation of study results.\n Minimum Age: 18 Years\nMaximum Age: \nSex: ALL\n\nPrimary Outcome Measures:\n- Part A1: Number of Dose-Limiting Toxicities (DLTs) of ARV-6723 [Time Frame: 21 days from first ARV-6723 administration] Number of participants within a dose escalation cohort with adverse events (AEs) meeting protocol defined dose limiting toxicities during cycle 1 (21 days).\n - Part A1: Number of Participants With Adverse Events (AEs) [Time Frame: From the first dose of ARV-6723 through at least 28 days after the last dose (up to approximately 4.7 years)] AEs as characterized by type, frequency, severity (as graded by National Cancer Institute Common Terminology Criteria for Adverse Events \\[NCI CTCAE\\]), timing, seriousness, and relationship to study intervention as a measure of safety and tolerability.\n - Part A2: Number of Participants With AEs [Time Frame: From the first dose of ARV-6723 through at least 28 days after the last dose (up to approximately 4.7 years)] AEs as characterized by type, frequency, severity (as graded by National Cancer Institute Common Terminology Criteria for Adverse Events \\[NCI CTCAE\\]), timing, seriousness, and relationship to study intervention as a measure of safety and tolerability.\n - Part A2: Overall Response Rate (ORR) by computed tomography/magnetic resonance imaging (CT/MRI) Using Response Evaluation Criteria in Solid Tumors, version 1.1 (RECIST 1.1) Criteria Per Investigator Assessment [Time Frame: Approximately 24 months] ORR is defined as the proportion of participants reaching a confirmed complete response (CR) or partial response (PR) to the study treatment based on investigator assessment using RECIST 1.1 criteria.\n - Part B: ORR by CT/MRI using RECIST v1.1 Criteria Per Investigator Assessment [Time Frame: Approximately 24 months] ORR is defined as the proportion of participants reaching a confirmed complete response (CR) or partial response (PR) to the study treatment based on investigator assessment using RECIST 1.1 criteria.",
+      "window_preview": "* Current use of any prohibited concomitant medication(s) or herbal supplements which cannot be discontinued, prior to start of study intervention and for the d",
+      "matches_expected_source": true
+    },
+    {
+      "rank": 3,
+      "source_file": "NCT07749586.txt",
+      "store_score": 0.6880583483552314,
+      "cosine_similarity": 0.721726963052069,
+      "chunk_length": 420,
+      "chunk_text": "- Part A2: Number of Participants With AEs [Time Frame: From the first dose of ARV-6723 through at least 28 days after the last dose (up to approximately 4.7 years)] AEs as characterized by type, frequency, severity (as graded by National Cancer Institute Common Terminology Criteria for Adverse Events \\[NCI CTCAE\\]), timing, seriousness, and relationship to study intervention as a measure of safety and tolerability.\n",
+      "preview": "- Part A2: Number of Participants With AEs [Time Frame: From the first dose of ARV-6723 through at least 28 days after the last dose (up to approximately 4.7 ye",
+      "window_length": 2168,
+      "window_text": "* Baseline (screening) standard 12-lead electrocardiogram (ECG) that demonstrates clinically relevant abnormalities that may affect participant safety or interpretation of study results.\n Minimum Age: 18 Years\nMaximum Age: \nSex: ALL\n\nPrimary Outcome Measures:\n- Part A1: Number of Dose-Limiting Toxicities (DLTs) of ARV-6723 [Time Frame: 21 days from first ARV-6723 administration] Number of participants within a dose escalation cohort with adverse events (AEs) meeting protocol defined dose limiting toxicities during cycle 1 (21 days).\n - Part A1: Number of Participants With Adverse Events (AEs) [Time Frame: From the first dose of ARV-6723 through at least 28 days after the last dose (up to approximately 4.7 years)] AEs as characterized by type, frequency, severity (as graded by National Cancer Institute Common Terminology Criteria for Adverse Events \\[NCI CTCAE\\]), timing, seriousness, and relationship to study intervention as a measure of safety and tolerability.\n - Part A2: Number of Participants With AEs [Time Frame: From the first dose of ARV-6723 through at least 28 days after the last dose (up to approximately 4.7 years)] AEs as characterized by type, frequency, severity (as graded by National Cancer Institute Common Terminology Criteria for Adverse Events \\[NCI CTCAE\\]), timing, seriousness, and relationship to study intervention as a measure of safety and tolerability.\n - Part A2: Overall Response Rate (ORR) by computed tomography/magnetic resonance imaging (CT/MRI) Using Response Evaluation Criteria in Solid Tumors, version 1.1 (RECIST 1.1) Criteria Per Investigator Assessment [Time Frame: Approximately 24 months] ORR is defined as the proportion of participants reaching a confirmed complete response (CR) or partial response (PR) to the study treatment based on investigator assessment using RECIST 1.1 criteria.\n - Part B: ORR by CT/MRI using RECIST v1.1 Criteria Per Investigator Assessment [Time Frame: Approximately 24 months] ORR is defined as the proportion of participants reaching a confirmed complete response (CR) or partial response (PR) to the study treatment based on investigator assessment using RECIST 1.1 criteria.",
+      "window_preview": "* Baseline (screening) standard 12-lead electrocardiogram (ECG) that demonstrates clinically relevant abnormalities that may affect participant safety or interp",
+      "matches_expected_source": true
+    },
+    {
+      "rank": 4,
+      "source_file": "NCT07623525.txt",
+      "store_score": 0.6645273896550942,
+      "cosine_similarity": 0.6510375599407208,
+      "chunk_length": 243,
+      "chunk_text": "- Incidence of Dose-Limiting Toxicities (DLTs) - Part A (Single Dose) [Time Frame: From first dose through Day 28] Number and proportion of participants experiencing DLTs during the dose-escalation period following single-dose administration.\n",
+      "preview": "- Incidence of Dose-Limiting Toxicities (DLTs) - Part A (Single Dose) [Time Frame: From first dose through Day 28] Number and proportion of participants experie",
+      "window_length": 2313,
+      "window_text": "Sterile normal saline (0.9% NaCl) administered subcutaneously in volumes matched to DIAG723 to maintain study blinding.\n\n Eligibility Criteria:\nInclusion Criteria:\n\n* Adult patients \u226518 years with a clinical or genetic diagnosis of HHT\n* Adequate hepatic and renal function\n* Part B: Epistaxis and anemia or transfusion/iron history\n* Part C: HHT with documented pre-capillary pulmonary arterial hypertension\n\nExclusion Criteria:\n\n* Active or recent systemic infection\n* Recent thromboembolic events\n* Use of anti-angiogenic drugs within 6 weeks\n* Pregnancy or lactation\n* Recent participation in another investigational study\nMinimum Age: 18 Years\nMaximum Age: \nSex: ALL\n\nPrimary Outcome Measures:\n- Incidence of Treatment-Emergent Adverse Events (TEAEs) - Part A (Single Dose) [Time Frame: From first dose through Day 28] Number and proportion of participants experiencing TEAEs following single-dose administration of DIAG723.\n - Incidence of Serious Adverse Events (SAEs) - Part A (Single Dose) [Time Frame: From first dose through Day 28] Number and proportion of participants experiencing SAEs following single-dose administration of DIAG723.\n - Incidence of Dose-Limiting Toxicities (DLTs) - Part A (Single Dose) [Time Frame: From first dose through Day 28] Number and proportion of participants experiencing DLTs during the dose-escalation period following single-dose administration.\n - Number of participants with abnormal laboratory tests results - Part A (Single Dose) [Time Frame: Baseline through Day 28] Laboratory assessments include hematology (complete blood count), clinical chemistry (basic metabolic panel; liver function tests; renal function; electrolytes; thyroid-stimulating hormone, free T4, free T3; cortisol; luteinizing hormone; lipase; amylase), coagulation (prothrombin time/international normalized ratio, activated partial thromboplastin time), and urinalysis.\n - Number of participants with abnormal vital signs - Part A (Single Dose) [Time Frame: Baseline through Day 28] Vital sign measurements include body temperature, heart rate, respiratory rate, blood pressure, and oxygen saturation.\n - Change from Baseline in Electrocardiogram (ECG) Parameters - Part A (Single Dose) [Time Frame: Baseline through Day 28] Change from baseline in ECG parameters, including QTc interval.\n",
+      "window_preview": "Sterile normal saline (0.9% NaCl) administered subcutaneously in volumes matched to DIAG723 to maintain study blinding. Eligibility Criteria: Inclusion Criteria",
+      "matches_expected_source": false
+    },
+    {
+      "rank": 5,
+      "source_file": "NCT06639191.txt",
+      "store_score": 0.6625493264974276,
+      "cosine_similarity": 0.6454068260943522,
+      "chunk_length": 191,
+      "chunk_text": "Minimum Age: 18 Years\nMaximum Age: \nSex: ALL\n\nPrimary Outcome Measures:\n- Primary Endpoint - rate of dose limiting toxicities [Time Frame: From first dose to a minimum of 6 weeks post-dose.] ",
+      "preview": "Minimum Age: 18 Years Maximum Age: Sex: ALL Primary Outcome Measures: - Primary Endpoint - rate of dose limiting toxicities [Time Frame: From first dose to a mi",
+      "window_length": 619,
+      "window_text": "Severe skin diseases requiring systemic anti-inflammatory treatment, including plaque psoriasis, Stevens Johnsons syndrome or dermatomyositis.\n 8.  A known history of Human Immunodeficiency Virus (HIV) infection, hepatitis B (HBsAg reactive) or hepatitis C (HCV RNA detected) infection or active tuberculosis.\n Minimum Age: 18 Years\nMaximum Age: \nSex: ALL\n\nPrimary Outcome Measures:\n- Primary Endpoint - rate of dose limiting toxicities [Time Frame: From first dose to a minimum of 6 weeks post-dose.]  1.  Rate of Dose Limiting Toxicities, according to the definition of (S)AEs according to the CTCAE version 5.0.\n 2. ",
+      "window_preview": "Severe skin diseases requiring systemic anti-inflammatory treatment, including plaque psoriasis, Stevens Johnsons syndrome or dermatomyositis. 8. A known histor",
+      "matches_expected_source": false
+    }
+  ],
+  "experiment_group": "main",
+  "chunk_count": 3233,
+  "avg_chunk_length_chars": 169.5836684194247,
+  "chunking_seconds": 0.08687533299962524,
+  "indexing_seconds": 7.109113708997029
+}

@@ -1,0 +1,103 @@
+{
+  "technique": "semantic_tuned_80",
+  "question_id": "Q5",
+  "question": "Which study reports resistant hypertension and mortality outcomes over a ten-year follow-up period?",
+  "expected_answer": "The study is NCT06160921, Prognostic Model of Hypertension.",
+  "expected_source": "NCT06160921.txt",
+  "top_k": 5,
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "query_embedding_dimension": 384,
+  "query_embedding_first_8": [
+    -0.029272854328155518,
+    0.05313964560627937,
+    -0.033551134169101715,
+    0.037281934171915054,
+    0.060999445617198944,
+    0.04610908403992653,
+    -0.15335802733898163,
+    0.04400951787829399
+  ],
+  "query_vector_shape": [
+    384
+  ],
+  "document_vectors_shape": [
+    5,
+    384
+  ],
+  "retrieval_latency_ms": 5.747916002292186,
+  "top_1_cosine": 0.6455087603297093,
+  "mean_at_k_cosine": 0.5452727252238155,
+  "recall_at_k": 1,
+  "results": [
+    {
+      "rank": 1,
+      "source_file": "NCT06160921.txt",
+      "store_score": 0.6721913512459275,
+      "cosine_similarity": 0.6455087603297093,
+      "chunk_length": 784,
+      "chunk_text": "Interventions:\n- OTHER: Standard therapy. Individualized blood pressure reduction program\n\nEligibility Criteria:\nInclusion Criteria:\n\n* A patient diagnosed with primary hypertension who was admitted to the First Affiliated Hospital of Xinjiang Medical University\n\nExclusion Criteria:\n\n* Patients with secondary hypertension, patients with liver and kidney dysfunction,\n* patients with mental disorders, and patients who are unwilling to participate in this trial\nMinimum Age: \nMaximum Age: \nSex: ALL\n\nPrimary Outcome Measures:\n- Resistant hypertension [Time Frame: 10 years of follow-up Resistant hypertension occurred during this period] \n- Death (all-cause mortality, mortality from hypertension complications) [Time Frame: 10 years of follow-up deaths occurred during this period] ",
+      "preview": "Interventions: - OTHER: Standard therapy. Individualized blood pressure reduction program Eligibility Criteria: Inclusion Criteria: * A patient diagnosed with p",
+      "window_length": 0,
+      "window_text": "",
+      "window_preview": "",
+      "matches_expected_source": true
+    },
+    {
+      "rank": 2,
+      "source_file": "NCT07296484.txt",
+      "store_score": 0.5818916054230701,
+      "cosine_similarity": 0.5288016611379813,
+      "chunk_length": 176,
+      "chunk_text": "At Day 1\n* No change in, or initiation of, medications for hypertension within 1 month prior to Day 1.\n\nExclusion Criteria:\n\n* New-onset diabetes (onset \\<1 year in the past).\n",
+      "preview": "At Day 1 * No change in, or initiation of, medications for hypertension within 1 month prior to Day 1. Exclusion Criteria: * New-onset diabetes (onset \\<1 year ",
+      "window_length": 0,
+      "window_text": "",
+      "window_preview": "",
+      "matches_expected_source": false
+    },
+    {
+      "rank": 3,
+      "source_file": "NCT07599579.txt",
+      "store_score": 0.5582724742437654,
+      "cosine_similarity": 0.5257307156794305,
+      "chunk_length": 385,
+      "chunk_text": "* Children will be excluded as the study is only recruiting people who are 10-20 years postpartum.\nMinimum Age: 18 Years\nMaximum Age: \nSex: FEMALE\n\nPrimary Outcome Measures:\n- Change in systolic blood pressure from baseline to 3 months [Time Frame: Baseline, 3 Months] Change in home-based systolic blood pressure from baseline to 3 months between the intervention and usual care arms.",
+      "preview": "* Children will be excluded as the study is only recruiting people who are 10-20 years postpartum. Minimum Age: 18 Years Maximum Age: Sex: FEMALE Primary Outcom",
+      "window_length": 0,
+      "window_text": "",
+      "window_preview": "",
+      "matches_expected_source": false
+    },
+    {
+      "rank": 4,
+      "source_file": "NCT06160921.txt",
+      "store_score": 0.5470079571213228,
+      "cosine_similarity": 0.5171973407215366,
+      "chunk_length": 1526,
+      "chunk_text": "NCT Number: NCT06160921\nTitle: Prognostic Model of Hypertension\nOfficial Title: Prognostic Model of Hypertension\nLead Sponsor: Xinjiang Medical University\nOverall Status: RECRUITING\nStart Date: 2020-01-01\nStudy Type: OBSERVATIONAL\nPhases: \nEnrollment: 50000\nConditions: Hypertension\n\nBrief Summary:\nThe aim of this study was to establish a registration and monitoring system for hypertension in Xinjiang from 2020 to 2030 to obtain real information about patient basic information, patient characteristics, diagnostic test patterns, treatment options, and hospitalization outcomes (including mortality). Treatment complications, hospitalization costs, and end-of-life events (death, major adverse cardiac events, mild adverse cardiovascular events) in patients with hypertension in Xinjiang; and scientific prevention strategies aimed at effectively preventing the onset of hypertension; Guidelines in clinical practice recommend, analyze and develop effective treatment strategies to optimize management and outcomes for patients with hypertension; and create cost-effective assessment systems.\n\nDetailed Description:\nThe aim of the study is to establish a platform for monitoring, clinical research and translational medicine in Xinjiang, which aims to provide a basis for future quality improvement and research, and to promote efforts to improve the prognosis of patients with hypertension, and to translate research into improved care for patients, thereby reducing Morbidity and mortality associated with hypertension.\n\n",
+      "preview": "NCT Number: NCT06160921 Title: Prognostic Model of Hypertension Official Title: Prognostic Model of Hypertension Lead Sponsor: Xinjiang Medical University Overa",
+      "window_length": 0,
+      "window_text": "",
+      "window_preview": "",
+      "matches_expected_source": true
+    },
+    {
+      "rank": 5,
+      "source_file": "NCT06642246.txt",
+      "store_score": 0.532691883234864,
+      "cosine_similarity": 0.5091251482504198,
+      "chunk_length": 509,
+      "chunk_text": "* Speak, read, and write in English.\n\nExclusion Criteria for Parents/Legal Guardians:\n\n\\- Limited English proficiency\nMinimum Age: 13 Years\nMaximum Age: 18 Years\nSex: ALL\n\nPrimary Outcome Measures:\n- Hypertension [Time Frame: From baseline to approximately week 11] The number of participants who are still diagnosed with hypertension by ambulatory blood pressure monitoring (ABPM). This is defined as a mean systolic or diastolic blood pressure when either awake or asleep, greater than the 95th percentile.\n",
+      "preview": "* Speak, read, and write in English. Exclusion Criteria for Parents/Legal Guardians: \\- Limited English proficiency Minimum Age: 13 Years Maximum Age: 18 Years ",
+      "window_length": 0,
+      "window_text": "",
+      "window_preview": "",
+      "matches_expected_source": false
+    }
+  ],
+  "experiment_group": "ablation",
+  "chunk_count": 750,
+  "avg_chunk_length_chars": 731.0186666666667,
+  "chunking_seconds": 7.6423999999969965,
+  "indexing_seconds": 2.446921458998986
+}

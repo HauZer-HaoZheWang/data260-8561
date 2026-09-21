@@ -1,0 +1,103 @@
+{
+  "technique": "sentence_window",
+  "question_id": "Q1",
+  "question": "Which study examines germline polymorphisms in DNA repair genes such as GSTP1, GSTM1, and ERCC2 in relation to lung cancer risk, and over what time frame is its primary outcome measured?",
+  "expected_answer": "The study is NCT00471978, and the primary outcome is measured over 10 years.",
+  "expected_source": "NCT00471978.txt",
+  "top_k": 5,
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "query_embedding_dimension": 384,
+  "query_embedding_first_8": [
+    -0.030549421906471252,
+    0.009654760360717773,
+    0.007370664272457361,
+    -0.04916924238204956,
+    0.01927119493484497,
+    0.020461520180106163,
+    -0.03012298047542572,
+    0.11021419614553452
+  ],
+  "query_vector_shape": [
+    384
+  ],
+  "document_vectors_shape": [
+    5,
+    384
+  ],
+  "retrieval_latency_ms": 24.04141700390028,
+  "top_1_cosine": 0.7201968088264249,
+  "mean_at_k_cosine": 0.5900394515960574,
+  "recall_at_k": 1,
+  "results": [
+    {
+      "rank": 1,
+      "source_file": "NCT00471978.txt",
+      "store_score": 0.7533775174226682,
+      "cosine_similarity": 0.7201968088264249,
+      "chunk_length": 208,
+      "chunk_text": "* Assess the role of germline polymorphisms in DNA repair genes, p53 pathway genes, and a matrix metalloproteinase gene (tumor invasion factor) in lung-cancer risk, after adjusting for potential confounders.\n",
+      "preview": "* Assess the role of germline polymorphisms in DNA repair genes, p53 pathway genes, and a matrix metalloproteinase gene (tumor invasion factor) in lung-cancer r",
+      "window_length": 889,
+      "window_text": "It may also help the study of cancer in the future.\n\n PURPOSE: This clinical trial is analyzing the DNA in blood and tissue samples from patients with lung cancer.\n\n Detailed Description:\nOBJECTIVES:\n\n* Assess the role of genetic polymorphisms in lung-cancer risk in patients with lung cancer.\n * Assess the role of germline polymorphisms in DNA repair genes, p53 pathway genes, and a matrix metalloproteinase gene (tumor invasion factor) in lung-cancer risk, after adjusting for potential confounders.\n * Assess the roles of gender and age in the genetic susceptibility of lung cancer.\n * Assess the role of genetic polymorphisms in modifying the diet-lung cancer risk association (gene-diet and exploratory gene-gender-diet and gene-gene-diet interactions).\n * Assess the role of polymorphisms on the risk of developing specific histologic subtypes of lung cancer in case-only analyses.\n",
+      "window_preview": "It may also help the study of cancer in the future. PURPOSE: This clinical trial is analyzing the DNA in blood and tissue samples from patients with lung cancer",
+      "matches_expected_source": true
+    },
+    {
+      "rank": 2,
+      "source_file": "NCT00471978.txt",
+      "store_score": 0.6600342773732004,
+      "cosine_similarity": 0.6312374082633921,
+      "chunk_length": 128,
+      "chunk_text": "Detailed Description:\nOBJECTIVES:\n\n* Assess the role of genetic polymorphisms in lung-cancer risk in patients with lung cancer.\n",
+      "preview": "Detailed Description: OBJECTIVES: * Assess the role of genetic polymorphisms in lung-cancer risk in patients with lung cancer.",
+      "window_length": 1293,
+      "window_text": "NCT Number: NCT00471978\nTitle: DNA Analysis of Blood and Tissue from Patients with Lung Cancer\nOfficial Title: Molecular and Genetic Analysis of Lung Cancer\nLead Sponsor: Massachusetts General Hospital\nOverall Status: RECRUITING\nStart Date: 2005-09\nStudy Type: OBSERVATIONAL\nPhases: \nEnrollment: \nConditions: Lung Cancer\n\nBrief Summary:\nRATIONALE: Studying samples of blood and tissue from patients with cancer in the laboratory may help doctors learn more about changes that occur in DNA and identify biomarkers related to cancer.  It may also help the study of cancer in the future.\n\n PURPOSE: This clinical trial is analyzing the DNA in blood and tissue samples from patients with lung cancer.\n\n Detailed Description:\nOBJECTIVES:\n\n* Assess the role of genetic polymorphisms in lung-cancer risk in patients with lung cancer.\n * Assess the role of germline polymorphisms in DNA repair genes, p53 pathway genes, and a matrix metalloproteinase gene (tumor invasion factor) in lung-cancer risk, after adjusting for potential confounders.\n * Assess the roles of gender and age in the genetic susceptibility of lung cancer.\n * Assess the role of genetic polymorphisms in modifying the diet-lung cancer risk association (gene-diet and exploratory gene-gender-diet and gene-gene-diet interactions).\n",
+      "window_preview": "NCT Number: NCT00471978 Title: DNA Analysis of Blood and Tissue from Patients with Lung Cancer Official Title: Molecular and Genetic Analysis of Lung Cancer Lea",
+      "matches_expected_source": true
+    },
+    {
+      "rank": 3,
+      "source_file": "NCT00471978.txt",
+      "store_score": 0.5981423470098941,
+      "cosine_similarity": 0.5860156548326487,
+      "chunk_length": 172,
+      "chunk_text": "* Assess the role of genetic polymorphisms in modifying the diet-lung cancer risk association (gene-diet and exploratory gene-gender-diet and gene-gene-diet interactions).\n",
+      "preview": "* Assess the role of genetic polymorphisms in modifying the diet-lung cancer risk association (gene-diet and exploratory gene-gender-diet and gene-gene-diet int",
+      "window_length": 971,
+      "window_text": "Detailed Description:\nOBJECTIVES:\n\n* Assess the role of genetic polymorphisms in lung-cancer risk in patients with lung cancer.\n * Assess the role of germline polymorphisms in DNA repair genes, p53 pathway genes, and a matrix metalloproteinase gene (tumor invasion factor) in lung-cancer risk, after adjusting for potential confounders.\n * Assess the roles of gender and age in the genetic susceptibility of lung cancer.\n * Assess the role of genetic polymorphisms in modifying the diet-lung cancer risk association (gene-diet and exploratory gene-gender-diet and gene-gene-diet interactions).\n * Assess the role of polymorphisms on the risk of developing specific histologic subtypes of lung cancer in case-only analyses.\n * Determine whether continued exposures to mainstream and/or second-hand tobacco smoking is associated with poorer clinical prognosis in patients treated for lung cancer.\n\n OUTLINE: This began as a case-control study, but is currently case only.\n\n",
+      "window_preview": "Detailed Description: OBJECTIVES: * Assess the role of genetic polymorphisms in lung-cancer risk in patients with lung cancer. * Assess the role of germline pol",
+      "matches_expected_source": true
+    },
+    {
+      "rank": 4,
+      "source_file": "NCT00471978.txt",
+      "store_score": 0.5966613607857516,
+      "cosine_similarity": 0.4855493220771948,
+      "chunk_length": 179,
+      "chunk_text": "Minimum Age: 18 Years\nMaximum Age: 120 Years\nSex: ALL\n\nPrimary Outcome Measures:\n- Metabolic polymorphisms [Time Frame: 10 years] to compare differences among lung cancer patients",
+      "preview": "Minimum Age: 18 Years Maximum Age: 120 Years Sex: ALL Primary Outcome Measures: - Metabolic polymorphisms [Time Frame: 10 years] to compare differences among lu",
+      "window_length": 646,
+      "window_text": "Total enrollment to reach 15,000.\n\n Interventions:\n\nEligibility Criteria:\nDISEASE CHARACTERISTICS:\n\n* Patient:\n\n  * Newly diagnosed primary lung cancer\n\n    * Patient at Massachusetts General Hospital (MGH) or Boston Medical Center Cancer Center\n\nPATIENT CHARACTERISTICS:\n\n* Not specified\n\nPRIOR CONCURRENT THERAPY:\n\n* Not specified\n\nEXCLUSIONS:\n\nVulnerable populations are excluded.  Patients with metastasis from another site to lung or mesothelioma are excluded.\n Minimum Age: 18 Years\nMaximum Age: 120 Years\nSex: ALL\n\nPrimary Outcome Measures:\n- Metabolic polymorphisms [Time Frame: 10 years] to compare differences among lung cancer patients",
+      "window_preview": "Total enrollment to reach 15,000. Interventions: Eligibility Criteria: DISEASE CHARACTERISTICS: * Patient: * Newly diagnosed primary lung cancer * Patient at Ma",
+      "matches_expected_source": true
+    },
+    {
+      "rank": 5,
+      "source_file": "NCT00471978.txt",
+      "store_score": 0.591924742739357,
+      "cosine_similarity": 0.5271980639806263,
+      "chunk_length": 128,
+      "chunk_text": "* Assess the role of polymorphisms on the risk of developing specific histologic subtypes of lung cancer in case-only analyses.\n",
+      "preview": "* Assess the role of polymorphisms on the risk of developing specific histologic subtypes of lung cancer in case-only analyses.",
+      "window_length": 899,
+      "window_text": "* Assess the role of germline polymorphisms in DNA repair genes, p53 pathway genes, and a matrix metalloproteinase gene (tumor invasion factor) in lung-cancer risk, after adjusting for potential confounders.\n * Assess the roles of gender and age in the genetic susceptibility of lung cancer.\n * Assess the role of genetic polymorphisms in modifying the diet-lung cancer risk association (gene-diet and exploratory gene-gender-diet and gene-gene-diet interactions).\n * Assess the role of polymorphisms on the risk of developing specific histologic subtypes of lung cancer in case-only analyses.\n * Determine whether continued exposures to mainstream and/or second-hand tobacco smoking is associated with poorer clinical prognosis in patients treated for lung cancer.\n\n OUTLINE: This began as a case-control study, but is currently case only.\n\n Blood samples are collected from patients and controls. ",
+      "window_preview": "* Assess the role of germline polymorphisms in DNA repair genes, p53 pathway genes, and a matrix metalloproteinase gene (tumor invasion factor) in lung-cancer r",
+      "matches_expected_source": true
+    }
+  ],
+  "experiment_group": "main",
+  "chunk_count": 3233,
+  "avg_chunk_length_chars": 169.5836684194247,
+  "chunking_seconds": 0.08687533299962524,
+  "indexing_seconds": 7.109113708997029
+}

@@ -1,0 +1,103 @@
+{
+  "technique": "sentence_window",
+  "question_id": "Q4",
+  "question": "What is the minimum age requirement for the lung cancer genetic analysis study sponsored by Massachusetts General Hospital?",
+  "expected_answer": "The minimum age requirement is 18 Years.",
+  "expected_source": "NCT00471978.txt",
+  "top_k": 5,
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "query_embedding_dimension": 384,
+  "query_embedding_first_8": [
+    0.025558074936270714,
+    0.06208902224898338,
+    -0.059946607798337936,
+    -0.04336759075522423,
+    -0.04121971130371094,
+    0.01306072622537613,
+    -0.13941222429275513,
+    0.04706212878227234
+  ],
+  "query_vector_shape": [
+    384
+  ],
+  "document_vectors_shape": [
+    5,
+    384
+  ],
+  "retrieval_latency_ms": 24.10095799859846,
+  "top_1_cosine": 0.7240097574870047,
+  "mean_at_k_cosine": 0.6757622731220696,
+  "recall_at_k": 1,
+  "results": [
+    {
+      "rank": 1,
+      "source_file": "NCT07465848.txt",
+      "store_score": 0.7207962161150222,
+      "cosine_similarity": 0.7080408663669031,
+      "chunk_length": 210,
+      "chunk_text": "Minimum Age: 45 Years\nMaximum Age: \nSex: ALL\n\nPrimary Outcome Measures:\n- To determine the risk of developing lung cancer, expressed as a percentage, in order to assist doctors in the diagnosis of lung cancer. ",
+      "preview": "Minimum Age: 45 Years Maximum Age: Sex: ALL Primary Outcome Measures: - To determine the risk of developing lung cancer, expressed as a percentage, in order to ",
+      "window_length": 496,
+      "window_text": "* Patient with severe liver disease, defined as Child-Pugh C.\n * Active infection, or treated less than 4 weeks ago.\n * Vulnerable population, for example, minors, prisoners, pregnant women, adults physically or mentally incapable of giving consent.\n Minimum Age: 45 Years\nMaximum Age: \nSex: ALL\n\nPrimary Outcome Measures:\n- To determine the risk of developing lung cancer, expressed as a percentage, in order to assist doctors in the diagnosis of lung cancer.  [Time Frame: At study enrollment] ",
+      "window_preview": "* Patient with severe liver disease, defined as Child-Pugh C. * Active infection, or treated less than 4 weeks ago. * Vulnerable population, for example, minors",
+      "matches_expected_source": false
+    },
+    {
+      "rank": 2,
+      "source_file": "NCT05979818.txt",
+      "store_score": 0.6717557758574005,
+      "cosine_similarity": 0.6607027006384606,
+      "chunk_length": 475,
+      "chunk_text": "Eligibility Criteria:\nInclusion Criteria:\n\n* Sign a written informed consent prior to any research-related procedure\n* Age \u226518 years and \u2264 75 years old\n* ECOG PS score of 0-1\n* Expected survival time \u2265 12 weeks\n* Patients with histologically or cytologically confirmed non-localizable stage IIIB-IIIC, stage IV non-small cell lung cancer (International Association for the Study of Lung Cancer and the Joint Committee on the American Classification of Cancers, 8th edition). ",
+      "preview": "Eligibility Criteria: Inclusion Criteria: * Sign a written informed consent prior to any research-related procedure * Age \u226518 years and \u2264 75 years old * ECOG PS",
+      "window_length": 2299,
+      "window_text": "- DRUG: Chemotherapy.  Platinum-based chemotherapy:\n\nFor non-squamous cell carcinoma options: carboplatin/cisplatin + pemetrexed; For squamous cell carcinoma: carboplatin/cisplatin + paclitaxel/gemcitabine.  Carboplatin: IV, AUC 5, Day1, Q3W; Cisplatin: IV, 75 mg/m2, Day1-3, Q3W; Pemetrexed: IV, 500 mg/m2, Day1, Q3W; Paclitaxel: IV, 175 mg/m\u00b2, Day1, Q3W; Albumin-bound paclitaxel: IV, 100 mg/m\u00b2, Day1, 8, 15; or 260 mg/m2, Q3W; Gemcitabine: IV, 1000mg/m2, Day1, 8, Q3W; After 4-6 cycles of sintilimab and platinum-based chemotherapy, the patients of non-squamous cell carcinoma will be received with sintilimab and pemetrexed for maintenance therapy, for up to 2 years until disease progression/intolerable toxicity/withdrawal of informed consent.\n\n Eligibility Criteria:\nInclusion Criteria:\n\n* Sign a written informed consent prior to any research-related procedure\n* Age \u226518 years and \u2264 75 years old\n* ECOG PS score of 0-1\n* Expected survival time \u2265 12 weeks\n* Patients with histologically or cytologically confirmed non-localizable stage IIIB-IIIC, stage IV non-small cell lung cancer (International Association for the Study of Lung Cancer and the Joint Committee on the American Classification of Cancers, 8th edition).  Patients with unresectable IIIB-IIIC include recurrent and primary unresectable (surgery and radical concurrent chemoradiotherapy), and stage IV includes primary or recurrent stage IV but without prior systemic therapy for advanced/metastatic disease.\n * Chemotherapy and chemoradiotherapy are permitted as neoadjuvant/adjuvant treatment as long as the treatment is completed at least 12 months prior to the diagnosis of advanced or metastatic disease\n* There must be no EGFR gene-sensitive mutation, ALK gene fusion or ROS1 gene fusion in non-squamous carcinoma\n* At least one imaging measurable lesion according to the criteria for the evaluation of the efficacy of solid tumors (RECIST version 1.1).  A lesion located in the field of exposure to previous radiotherapy is considered measurable if progression is confirmed (within 28 days prior to the first treatment)\n* Subjects with brain metastases who are asymptomatic or whose symptoms have stabilized with local treatment are permitted to be enrolled, provided that the subject meets the following criteria:\n\n  1. ",
+      "window_preview": "- DRUG: Chemotherapy. Platinum-based chemotherapy: For non-squamous cell carcinoma options: carboplatin/cisplatin + pemetrexed; For squamous cell carcinoma: car",
+      "matches_expected_source": false
+    },
+    {
+      "rank": 3,
+      "source_file": "NCT00471978.txt",
+      "store_score": 0.6703636568276524,
+      "cosine_similarity": 0.6234003489289639,
+      "chunk_length": 348,
+      "chunk_text": "Interventions:\n\nEligibility Criteria:\nDISEASE CHARACTERISTICS:\n\n* Patient:\n\n  * Newly diagnosed primary lung cancer\n\n    * Patient at Massachusetts General Hospital (MGH) or Boston Medical Center Cancer Center\n\nPATIENT CHARACTERISTICS:\n\n* Not specified\n\nPRIOR CONCURRENT THERAPY:\n\n* Not specified\n\nEXCLUSIONS:\n\nVulnerable populations are excluded. ",
+      "preview": "Interventions: Eligibility Criteria: DISEASE CHARACTERISTICS: * Patient: * Newly diagnosed primary lung cancer * Patient at Massachusetts General Hospital (MGH)",
+      "window_length": 876,
+      "window_text": "Patients and controls complete questionnaires about diet, medical history, and occupational/environmental history.\n\n PROJECTED ACCRUAL: A total of 3,400 patients and 3,400 controls will be accrued for early phases of this study.  Total enrollment to reach 15,000.\n\n Interventions:\n\nEligibility Criteria:\nDISEASE CHARACTERISTICS:\n\n* Patient:\n\n  * Newly diagnosed primary lung cancer\n\n    * Patient at Massachusetts General Hospital (MGH) or Boston Medical Center Cancer Center\n\nPATIENT CHARACTERISTICS:\n\n* Not specified\n\nPRIOR CONCURRENT THERAPY:\n\n* Not specified\n\nEXCLUSIONS:\n\nVulnerable populations are excluded.  Patients with metastasis from another site to lung or mesothelioma are excluded.\n Minimum Age: 18 Years\nMaximum Age: 120 Years\nSex: ALL\n\nPrimary Outcome Measures:\n- Metabolic polymorphisms [Time Frame: 10 years] to compare differences among lung cancer patients",
+      "window_preview": "Patients and controls complete questionnaires about diet, medical history, and occupational/environmental history. PROJECTED ACCRUAL: A total of 3,400 patients ",
+      "matches_expected_source": true
+    },
+    {
+      "rank": 4,
+      "source_file": "NCT00471978.txt",
+      "store_score": 0.6534472870042725,
+      "cosine_similarity": 0.7240097574870047,
+      "chunk_length": 179,
+      "chunk_text": "Minimum Age: 18 Years\nMaximum Age: 120 Years\nSex: ALL\n\nPrimary Outcome Measures:\n- Metabolic polymorphisms [Time Frame: 10 years] to compare differences among lung cancer patients",
+      "preview": "Minimum Age: 18 Years Maximum Age: 120 Years Sex: ALL Primary Outcome Measures: - Metabolic polymorphisms [Time Frame: 10 years] to compare differences among lu",
+      "window_length": 646,
+      "window_text": "Total enrollment to reach 15,000.\n\n Interventions:\n\nEligibility Criteria:\nDISEASE CHARACTERISTICS:\n\n* Patient:\n\n  * Newly diagnosed primary lung cancer\n\n    * Patient at Massachusetts General Hospital (MGH) or Boston Medical Center Cancer Center\n\nPATIENT CHARACTERISTICS:\n\n* Not specified\n\nPRIOR CONCURRENT THERAPY:\n\n* Not specified\n\nEXCLUSIONS:\n\nVulnerable populations are excluded.  Patients with metastasis from another site to lung or mesothelioma are excluded.\n Minimum Age: 18 Years\nMaximum Age: 120 Years\nSex: ALL\n\nPrimary Outcome Measures:\n- Metabolic polymorphisms [Time Frame: 10 years] to compare differences among lung cancer patients",
+      "window_preview": "Total enrollment to reach 15,000. Interventions: Eligibility Criteria: DISEASE CHARACTERISTICS: * Patient: * Newly diagnosed primary lung cancer * Patient at Ma",
+      "matches_expected_source": true
+    },
+    {
+      "rank": 5,
+      "source_file": "NCT05704920.txt",
+      "store_score": 0.6424302768505212,
+      "cosine_similarity": 0.6626576921890159,
+      "chunk_length": 406,
+      "chunk_text": "* vulnerable people: adults under guardianship, adults under curatorship medical and/or psychiatric problems of sufficient severity to limit full adherence to the study or expose patients to excessive risk\nMinimum Age: 18 Years\nMaximum Age: 80 Years\nSex: ALL\n\nPrimary Outcome Measures:\n- Diagnosis of lung disease [Time Frame: At 3 years] Elapsed time between lung nodule discovery and MDT decision making.",
+      "preview": "* vulnerable people: adults under guardianship, adults under curatorship medical and/or psychiatric problems of sufficient severity to limit full adherence to t",
+      "window_length": 1409,
+      "window_text": "Detailed Description:\n\n\nInterventions:\n- OTHER: IA.  The multidisciplinary team meeting discussion is informed of the AI-based analysis of their chest computed tomography\n- OTHER: Not IA.  The multidisciplinary team meeting discussion is not informed of the AI-based analysis of their chest computed tomography\n\nEligibility Criteria:\nInclusion Criteria:\n\n* Age between 50 and 80 years old\n* active smoker or ex-smoker who quit smoking less than 15 years ago\n* smoking history of at least 20 pack-years\n* signature of the informed consent\n* affiliation to French social security\n\nExclusion Criteria:\n\n* clinical signs suggestive of cancer\n* recent chest scan (\\<1 year) for another cause\n* radiological abnormality requiring follow-up or additional investigations\n* health problem significantly limiting life expectancy from the clinician's point of view\n* health problem limiting ability or willingness to undergo lung surgery\n* Patients with active neoplasia, except basal cell carcinoma of the skin.\n * vulnerable people: adults under guardianship, adults under curatorship medical and/or psychiatric problems of sufficient severity to limit full adherence to the study or expose patients to excessive risk\nMinimum Age: 18 Years\nMaximum Age: 80 Years\nSex: ALL\n\nPrimary Outcome Measures:\n- Diagnosis of lung disease [Time Frame: At 3 years] Elapsed time between lung nodule discovery and MDT decision making.",
+      "window_preview": "Detailed Description: Interventions: - OTHER: IA. The multidisciplinary team meeting discussion is informed of the AI-based analysis of their chest computed tom",
+      "matches_expected_source": false
+    }
+  ],
+  "experiment_group": "main",
+  "chunk_count": 3233,
+  "avg_chunk_length_chars": 169.5836684194247,
+  "chunking_seconds": 0.08687533299962524,
+  "indexing_seconds": 7.109113708997029
+}

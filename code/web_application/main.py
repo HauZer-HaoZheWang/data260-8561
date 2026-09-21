@@ -1,22 +1,59 @@
-from fastapi import FastAPI, HTTPException, Query
-from fastapi.staticfiles import StaticFiles
-from fastapi.responses import FileResponse
-from pydantic import BaseModel
+import os
+from pathlib import Path
 from typing import List, Optional
+
 import uvicorn
+from fastapi import FastAPI, HTTPException, Query
+from fastapi.responses import FileResponse
+from fastapi.staticfiles import StaticFiles
+from pydantic import BaseModel
+from starlette.middleware.sessions import SessionMiddleware
+
+from routers.auth import router as auth_router
 
 
+#Get the web_application folder
+BASE_DIR = Path(__file__).resolve().parent
+
+#This is the assigned port for SID4 8561
+PORT_BASE = 8461
+
+#Create the FastAPI application
 app = FastAPI(
     title="Clinical Trial API",
     version="1.0.0"
 )
 
-PORT_BASE = 8461  # 8000 + (8561 mod 900)
+#Read session settings from environment variables
+SECRET_KEY = os.getenv(
+    "SECRET_KEY",
+    "dev-only-secret-key"
+)
 
-#Make files inside static/ available through /static
+#Use false for local HTTP and true for the HTTPS test
+COOKIE_SECURE = os.getenv(
+    "COOKIE_SECURE",
+    "0"
+) == "1"
+
+#Add signed cookie session support
+app.add_middleware(
+    SessionMiddleware,
+    secret_key=SECRET_KEY,
+    https_only=COOKIE_SECURE,
+    same_site="lax",
+    max_age=3600
+)
+
+#Add Homework 3 authentication routes
+app.include_router(auth_router)
+
+#Make files inside static available through /static
 app.mount(
     "/static",
-    StaticFiles(directory="static"),
+    StaticFiles(
+        directory=str(BASE_DIR / "static")
+    ),
     name="static"
 )
 
@@ -29,7 +66,7 @@ class Trial(BaseModel):
 
 
 #TrialCreate is the data client sends when creating a trial
-#Client does not need to provide id because server creates it.
+#Client does not provide id because server creates it.
 class TrialCreate(BaseModel):
     brief_title: str
     sponsor: str
@@ -62,10 +99,12 @@ trials: List[Trial] = [
 ]
 
 
-#Return the frontend HTML page.
-@app.get("/")
-def home():
-    return FileResponse("static/index.html")
+#Return the Homework 2 CRUD frontend page.
+@app.get("/trials")
+def trials_ui():
+    return FileResponse(
+        BASE_DIR / "static" / "index.html"
+    )
 
 
 #Return all trials or search by title and sponsor
@@ -118,7 +157,9 @@ def get_trial(trial_id: int):
     response_model=Trial,
     status_code=201
 )
-def create_trial(trial_data: TrialCreate):
+def create_trial(
+    trial_data: TrialCreate
+):
     #Find the largest current id and add one.
     new_id = max(
         [trial.id for trial in trials],
@@ -138,7 +179,7 @@ def create_trial(trial_data: TrialCreate):
     return new_trial
 
 
-#Update an existed trial by its id.
+#Update an existing trial by its id.
 @app.put(
     "/api/trials/{trial_id}",
     response_model=Trial
@@ -147,7 +188,7 @@ def update_trial(
     trial_id: int,
     trial_data: TrialUpdate
 ):
-    #Use enumerate() to get both index and trial
+    #Use enumerate to get both index and trial
     for index, trial in enumerate(trials):
         if trial.id == trial_id:
             updated_trial = Trial(
@@ -170,8 +211,10 @@ def update_trial(
 
 #Delete a trial by its id
 @app.delete("/api/trials/{trial_id}")
-def delete_trial(trial_id: int):
-    #Use enumerate() to find its position in the list.
+def delete_trial(
+    trial_id: int
+):
+    #Use enumerate to find its position in the list.
     for index, trial in enumerate(trials):
         if trial.id == trial_id:
             deleted_trial = trials.pop(index)
@@ -188,9 +231,18 @@ def delete_trial(trial_id: int):
     )
 
 
+#Run the application in HTTP or HTTPS mode.
 if __name__ == "__main__":
-    uvicorn.run(
-        app,
-        host="0.0.0.0",
-        port=PORT_BASE
-    )
+    ssl_dir = BASE_DIR / "certs"
+    use_https = (ssl_dir / "cert.pem").exists() and COOKIE_SECURE
+
+    if use_https:
+        uvicorn.run(
+            app,
+            host="127.0.0.1",
+            port=PORT_BASE,
+            ssl_keyfile=str(ssl_dir / "key.pem"),
+            ssl_certfile=str(ssl_dir / "cert.pem"),
+        )
+    else:
+        uvicorn.run(app, host="127.0.0.1", port=PORT_BASE)

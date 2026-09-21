@@ -1,0 +1,1155 @@
+16:16:11 INFO:     Started server process [68028]
+16:16:11 INFO:     Waiting for application startup.
+16:16:11 INFO:     Application startup complete.
+16:16:11 INFO:     Uvicorn running on http://0.0.0.0:8461 (Press CTRL+C to quit)
+16:16:21 INFO:     127.0.0.1:50415 - "GET / HTTP/1.1" 200 OK
+16:16:25 INFO:     127.0.0.1:50415 - "GET /login HTTP/1.1" 200 OK
+16:16:29 INFO:     127.0.0.1:50415 - "POST /login HTTP/1.1" 302 Found
+16:16:29 INFO:     127.0.0.1:50415 - "GET /login?error=invalid HTTP/1.1" 200 OK
+16:16:40 INFO:     127.0.0.1:50416 - "POST /login HTTP/1.1" 302 Found
+16:16:40 INFO:     127.0.0.1:50416 - "GET /dashboard HTTP/1.1" 200 OK
+16:16:48 INFO:     127.0.0.1:50417 - "GET / HTTP/1.1" 200 OK
+16:17:24 INFO:     127.0.0.1:50418 - "GET /dashboard HTTP/1.1" 200 OK
+16:17:27 INFO:     127.0.0.1:50418 - "GET /trials HTTP/1.1" 200 OK
+16:17:27 INFO:     127.0.0.1:50418 - "GET /static/styles.css HTTP/1.1" 200 OK
+16:17:27 INFO:     127.0.0.1:50419 - "GET /static/app.js HTTP/1.1" 200 OK
+16:17:27 INFO:     127.0.0.1:50419 - "GET /api/trials HTTP/1.1" 200 OK
+16:23:09 INFO:     127.0.0.1:50428 - "GET /dashboard HTTP/1.1" 302 Found
+16:23:09 INFO:     127.0.0.1:50428 - "GET /login?error=expired HTTP/1.1" 200 OKWarning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Chunk size diagnostic started: 2026-09-20T17:52:54-07:00
+Embedding model: sentence-transformers/all-MiniLM-L6-v2
+Model token limit: 256
+
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 10643.87it/s]
+LLM is explicitly disabled. Using MockLLM.
+Documents: 100
+Characters: 548264
+
+token               p=n/a  nodes=  692  median=  213  p90=  229  max=  257  over256=   1 (  0.14%)  lost=      1  time=   0.343s
+semantic_95         p=95   nodes=  299  median=  324  p90=  863  max= 1760  over256= 181 ( 60.54%)  lost=  58858  time=   8.655s
+semantic_tuned_80   p=80   nodes=  750  median=  104  p90=  382  max= 1039  over256= 156 ( 20.80%)  lost=  25998  time=   7.573s
+sentence_window     p=n/a  nodes= 3233  median=   25  p90=   73  max=  806  over256=  30 (  0.93%)  lost=   4655  time=   0.087s
+
+CSV saved to: /Users/haozhewang/data260-8561/reports/hw03/raw/chunk_size_diagnostic.csv
+Chunk size diagnostic finished: 2026-09-20T17:53:15-07:00
+Total elapsed time: 21.2 seconds
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Chunk size diagnostic started: 2026-09-20T17:53:31-07:00
+Embedding model: sentence-transformers/all-MiniLM-L6-v2
+Model token limit: 256
+
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 24099.82it/s]
+LLM is explicitly disabled. Using MockLLM.
+Documents: 100
+Characters: 548264
+
+token               p=n/a  nodes=  692  median=  213  p90=  229  max=  257  over256=   1 (  0.14%)  lost=      1  time=   0.356s
+semantic_95         p=95   nodes=  299  median=  324  p90=  863  max= 1760  over256= 181 ( 60.54%)  lost=  58858  time=   8.099s
+semantic_tuned_80   p=80   nodes=  750  median=  104  p90=  382  max= 1039  over256= 156 ( 20.80%)  lost=  25998  time=   7.649s
+sentence_window     p=n/a  nodes= 3233  median=   25  p90=   73  max=  806  over256=  30 (  0.93%)  lost=   4655  time=   0.086s
+
+CSV saved to: /Users/haozhewang/data260-8561/reports/hw03/raw/chunk_size_diagnostic.csv
+Chunk size diagnostic finished: 2026-09-20T17:53:52-07:00
+Total elapsed time: 20.5 seconds
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+HW3 retrieval experiment started: 2026-09-20T18:05:18-07:00
+Embedding model: sentence-transformers/all-MiniLM-L6-v2
+Generation model: none
+Top-k: 5
+
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 10800.06it/s]
+LLM is explicitly disabled. Using MockLLM.
+Documents loaded: 100
+Questions loaded: 5
+
+
+####################################################################################################
+Building technique: token
+####################################################################################################
+Chunks: 692
+Average chunk length: 916.33 characters
+Chunking time: 0.346 seconds
+Generating embeddings:   0%|          | 0/692 [00:00<?, ?it/s]Generating embeddings:   1%|▏         | 10/692 [00:00<00:24, 27.62it/s]Generating embeddings:   7%|▋         | 50/692 [00:00<00:05, 122.98it/s]Generating embeddings:  13%|█▎        | 90/692 [00:00<00:03, 184.93it/s]Generating embeddings:  19%|█▉        | 130/692 [00:00<00:02, 226.51it/s]Generating embeddings:  25%|██▍       | 170/692 [00:00<00:02, 254.84it/s]Generating embeddings:  30%|███       | 210/692 [00:00<00:01, 274.46it/s]Generating embeddings:  36%|███▌      | 250/692 [00:01<00:01, 288.03it/s]Generating embeddings:  42%|████▏     | 290/692 [00:01<00:01, 296.94it/s]Generating embeddings:  48%|████▊     | 330/692 [00:01<00:01, 302.94it/s]Generating embeddings:  53%|█████▎    | 370/692 [00:01<00:01, 306.87it/s]Generating embeddings:  59%|█████▉    | 410/692 [00:01<00:00, 310.42it/s]Generating embeddings:  65%|██████▌   | 450/692 [00:01<00:00, 311.69it/s]Generating embeddings:  71%|███████   | 490/692 [00:01<00:00, 313.73it/s]Generating embeddings:  77%|███████▋  | 530/692 [00:02<00:00, 314.60it/s]Generating embeddings:  82%|████████▏ | 570/692 [00:02<00:00, 315.80it/s]Generating embeddings:  88%|████████▊ | 610/692 [00:02<00:00, 316.75it/s]Generating embeddings:  94%|█████████▍| 650/692 [00:02<00:00, 316.68it/s]Generating embeddings: 100%|█████████▉| 690/692 [00:02<00:00, 316.95it/s]Generating embeddings: 100%|██████████| 692/692 [00:02<00:00, 274.39it/s]
+Indexing time: 2.572 seconds
+
+====================================================================================================
+Technique: token
+Question: Q1 - Which study examines germline polymorphisms in DNA repair genes such as GSTP1, GSTM1, and ERCC2 in relation to lung cancer risk, and over what time frame is its primary outcome measured?
+
+Expected source: NCT00471978.txt
+Query embedding dimension: 384
+Query embedding first 8 values: [-0.030549421906471252, 0.009654760360717773, 0.007370664272457361, -0.04916924238204956, 0.01927119493484497, 0.020461520180106163, -0.03012298047542572, 0.11021419614553452]
+Query vector shape: (384,)
+Document vectors shape: (5, 384)
+Retrieval latency: 5.284 ms
+Recall@5: 1
+----------------------------------------------------------------------------------------------------
+Rank  Store       Cosine      Length    Source                Preview
+----------------------------------------------------------------------------------------------------
+1     0.636421    0.599561    982       NCT00471978.txt       NCT Number: NCT00471978 Title: DNA Analysis of Blood and Tissue from Patients with Lung Cancer Official Title: Molecular and Genetic Analysis of Lung Cancer Lea
+2     0.596141    0.639076    1005      NCT00471978.txt       polymorphisms in DNA repair genes, p53 pathway genes, and a matrix metalloproteinase gene (tumor invasion factor) in lung-cancer risk, after adjusting for poten
+3     0.571762    0.561590    880       NCT00471978.txt       Genes to be studied include GSTP1, GSTM1, GSTT1, ERCC2, XRCC1, EPHX, NAT-2, p53 gene, CYP1A1, NQO1, MnSOD, and GPX1. Tissue samples collected from patients unde
+4     0.488257    0.470652    949       NCT07465848.txt       NCT Number: NCT07465848 Title: Prospective Multicentre Study for the Application of Telomere Measurement Technology as a Tool for Lung Cancer Diagnosis Official
+5     0.471551    0.396127    365       NCT00471978.txt       specified PRIOR CONCURRENT THERAPY: * Not specified EXCLUSIONS: Vulnerable populations are excluded. Patients with metastasis from another site to lung or mesot
+----------------------------------------------------------------------------------------------------
+Top-1 cosine: 0.639076
+Mean@5 cosine: 0.533401
+====================================================================================================
+
+====================================================================================================
+Technique: token
+Question: Q2 - In the ARV-6723 dose escalation study, over how many days after the first administration are dose-limiting toxicities assessed?
+
+Expected source: NCT07749586.txt
+Query embedding dimension: 384
+Query embedding first 8 values: [0.012151692993938923, -0.03523905947804451, -0.038597285747528076, 0.03076348826289177, 0.01728588156402111, -0.06552444398403168, -0.016129588708281517, 0.08212193846702576]
+Query vector shape: (384,)
+Document vectors shape: (5, 384)
+Retrieval latency: 5.014 ms
+Recall@5: 1
+----------------------------------------------------------------------------------------------------
+Rank  Store       Cosine      Length    Source                Preview
+----------------------------------------------------------------------------------------------------
+1     0.786970    0.808809    900       NCT07749586.txt       Toxicities (DLTs) of ARV-6723 [Time Frame: 21 days from first ARV-6723 administration] Number of participants within a dose escalation cohort with adverse event
+2     0.653576    0.654454    827       NCT05902988.txt       Any clinically significant ascites or pleural effusions at time of enrollment, or any therapeutic paracentesis or thoracentesis within 28 days of planned first 
+3     0.650841    0.639441    467       NCT07244835.txt       Age: 18 Years Maximum Age: Sex: ALL Primary Outcome Measures: - Incidence of dose limiting toxicity (DLT) [Time Frame: From first dose through the end of Cycle 
+4     0.643924    0.600620    432       NCT05379985.txt       protocol prior/concomitant therapy Other inclusion/exclusion criteria may apply. Minimum Age: 18 Years Maximum Age: Sex: ALL Primary Outcome Measures: - Inciden
+5     0.637148    0.598231    669       NCT05902988.txt       version 5.0 [Time Frame: Up to 12 months] - Dose Escalation: Frequency of Treatment-related Adverse Events (AEs) graded per NCI-CTCAE version 5.0 [Time Frame: U
+----------------------------------------------------------------------------------------------------
+Top-1 cosine: 0.808809
+Mean@5 cosine: 0.660311
+====================================================================================================
+
+====================================================================================================
+Technique: token
+Question: Q3 - What is the planned enrollment and trial phase of the Arrowhead Pharmaceuticals study in obesity and type 2 diabetes?
+
+Expected source: NCT06937203.txt
+Query embedding dimension: 384
+Query embedding first 8 values: [0.05704692378640175, 0.000649439578410238, -0.010042190551757812, 0.06667398661375046, 0.024496885016560555, 0.014385819435119629, -0.07617654651403427, 0.08285562694072723]
+Query vector shape: (384,)
+Document vectors shape: (5, 384)
+Retrieval latency: 5.037 ms
+Recall@5: 1
+----------------------------------------------------------------------------------------------------
+Rank  Store       Cosine      Length    Source                Preview
+----------------------------------------------------------------------------------------------------
+1     0.594361    0.551765    1004      NCT06937203.txt       etc.) for any indication within 6 months prior to Screening * Use of non-GLP-1R medications for weight loss within 3 months prior to Screening, including but no
+2     0.580185    0.600887    816       NCT06937203.txt       NCT Number: NCT06937203 Title: A First-In-Human Study of ARO-ALK7 in Adults With Obesity With and Without Type 2 Diabetes Mellitus Official Title: A Phase 1/2A 
+3     0.570084    0.571914    955       NCT07588438.txt       population. The study includes two cohorts: Cohort 1 consists of adults with obesity (BMI ≥30 kg/m²) without type 2 diabetes mellitus (T2DM), and Cohort 2 consi
+4     0.559658    0.544040    833       NCT07296484.txt       NCT Number: NCT07296484 Title: Trial Against INtractable Type 2 Diabetes (CAPTAIN-T2D) Official Title: Clofutriben And Placebo Phase 2 Trial Against INtractable
+5     0.517576    0.524092    783       NCT06875193.txt       NCT Number: NCT06875193 Title: DM Treatment to Evaluate the Efficacy and Safety of Dapagliflozin or Pioglitazone in Patients with Type 2 Diabetes Official Title
+----------------------------------------------------------------------------------------------------
+Top-1 cosine: 0.600887
+Mean@5 cosine: 0.558540
+====================================================================================================
+
+====================================================================================================
+Technique: token
+Question: Q4 - What is the minimum age requirement for participation in this trial?
+
+Expected source: None
+Query embedding dimension: 384
+Query embedding first 8 values: [0.11010602861642838, 0.08275777101516724, -0.06529013812541962, -0.0392661951482296, -0.03456306457519531, 0.08625492453575134, -0.0399346649646759, 0.060734350234270096]
+Query vector shape: (384,)
+Document vectors shape: (5, 384)
+Retrieval latency: 5.056 ms
+Recall@5: 0
+----------------------------------------------------------------------------------------------------
+Rank  Store       Cosine      Length    Source                Preview
+----------------------------------------------------------------------------------------------------
+1     0.580385    0.538779    330       NCT06835569.txt       criteria may apply. Minimum Age: 18 Years Maximum Age: Sex: ALL Primary Outcome Measures: - Adverse Events [Time Frame: Up to 39 months] Number of participants 
+2     0.514032    0.455466    1010      NCT06923774.txt       agents with an unknown safety profile that would interfere with participation in this study or study results. * Female patient that is pregnant or breast feedin
+3     0.507096    0.549568    432       NCT05379985.txt       protocol prior/concomitant therapy Other inclusion/exclusion criteria may apply. Minimum Age: 18 Years Maximum Age: Sex: ALL Primary Outcome Measures: - Inciden
+4     0.505249    0.515632    185       NCT06937203.txt       18 Years Maximum Age: 65 Years Sex: ALL Primary Outcome Measures: - Number of Participants with Treatment-Emergent Adverse Events (TEAEs) [Time Frame: Up to Day
+5     0.489699    0.509426    407       NCT07468188.txt       proficiency * developmental, cognitive, or psychiatric limitations that compromise participation in the intervention sessions and study. Minimum Age: 18 Years M
+----------------------------------------------------------------------------------------------------
+Top-1 cosine: 0.549568
+Mean@5 cosine: 0.513774
+====================================================================================================
+
+====================================================================================================
+Technique: token
+Question: Q5 - Which study reports resistant hypertension and mortality outcomes over a ten-year follow-up period?
+
+Expected source: NCT06160921.txt
+Query embedding dimension: 384
+Query embedding first 8 values: [-0.029272854328155518, 0.05313964560627937, -0.033551134169101715, 0.037281934171915054, 0.060999445617198944, 0.04610908403992653, -0.15335802733898163, 0.04400951787829399]
+Query vector shape: (384,)
+Document vectors shape: (5, 384)
+Retrieval latency: 5.012 ms
+Recall@5: 1
+----------------------------------------------------------------------------------------------------
+Rank  Store       Cosine      Length    Source                Preview
+----------------------------------------------------------------------------------------------------
+1     0.736878    0.739773    334       NCT06160921.txt       in this trial Minimum Age: Maximum Age: Sex: ALL Primary Outcome Measures: - Resistant hypertension [Time Frame: 10 years of follow-up Resistant hypertension oc
+2     0.582214    0.520493    229       NCT07599579.txt       Outcome Measures: - Change in systolic blood pressure from baseline to 3 months [Time Frame: Baseline, 3 Months] Change in home-based systolic blood pressure fr
+3     0.553585    0.553430    1086      NCT06160921.txt       NCT Number: NCT06160921 Title: Prognostic Model of Hypertension Official Title: Prognostic Model of Hypertension Lead Sponsor: Xinjiang Medical University Overa
+4     0.544183    0.526660    1002      NCT07768865.txt       and BP-matched controls. Controls will be sourced from existing funded studies performing similar measurements on young people with primary hypertension and hea
+5     0.543266    0.590548    1241      NCT06160921.txt       the onset of hypertension; Guidelines in clinical practice recommend, analyze and develop effective treatment strategies to optimize management and outcomes for
+----------------------------------------------------------------------------------------------------
+Top-1 cosine: 0.739773
+Mean@5 cosine: 0.586181
+====================================================================================================
+
+####################################################################################################
+Building technique: semantic_95
+####################################################################################################
+Chunks: 299
+Average chunk length: 1833.66 characters
+Chunking time: 8.040 seconds
+Generating embeddings:   0%|          | 0/299 [00:00<?, ?it/s]Generating embeddings:  10%|█         | 30/299 [00:00<00:00, 298.71it/s]Generating embeddings:  23%|██▎       | 70/299 [00:00<00:00, 304.57it/s]Generating embeddings:  37%|███▋      | 110/299 [00:00<00:00, 306.26it/s]Generating embeddings:  50%|█████     | 150/299 [00:00<00:00, 307.24it/s]Generating embeddings:  64%|██████▎   | 190/299 [00:00<00:00, 307.45it/s]Generating embeddings:  77%|███████▋  | 230/299 [00:00<00:00, 309.28it/s]Generating embeddings:  90%|█████████ | 270/299 [00:00<00:00, 309.94it/s]Generating embeddings: 100%|██████████| 299/299 [00:00<00:00, 307.95it/s]
+Indexing time: 0.993 seconds
+
+====================================================================================================
+Technique: semantic_95
+Question: Q1 - Which study examines germline polymorphisms in DNA repair genes such as GSTP1, GSTM1, and ERCC2 in relation to lung cancer risk, and over what time frame is its primary outcome measured?
+
+Expected source: NCT00471978.txt
+Query embedding dimension: 384
+Query embedding first 8 values: [-0.030549421906471252, 0.009654760360717773, 0.007370664272457361, -0.04916924238204956, 0.01927119493484497, 0.020461520180106163, -0.03012298047542572, 0.11021419614553452]
+Query vector shape: (384,)
+Document vectors shape: (5, 384)
+Retrieval latency: 2.353 ms
+Recall@5: 1
+----------------------------------------------------------------------------------------------------
+Rank  Store       Cosine      Length    Source                Preview
+----------------------------------------------------------------------------------------------------
+1     0.640407    0.586228    1661      NCT00471978.txt       NCT Number: NCT00471978 Title: DNA Analysis of Blood and Tissue from Patients with Lung Cancer Official Title: Molecular and Genetic Analysis of Lung Cancer Lea
+2     0.616002    0.552095    1228      NCT00471978.txt       Blood samples are collected from patients and controls. Samples are analyzed by polymerase chain reaction for gene polymorphisms. Genes to be studied include GS
+3     0.482253    0.444705    2989      NCT07465848.txt       NCT Number: NCT07465848 Title: Prospective Multicentre Study for the Application of Telomere Measurement Technology as a Tool for Lung Cancer Diagnosis Official
+4     0.453349    0.436038    856       NCT05991193.txt       * Provision of fully informed consent prior to any study specific procedures. * Patient with EGFR 19Del or L858R mutation diagnosed histologically or cytologica
+5     0.450987    0.352345    376       NCT07465848.txt       * Vulnerable population, for example, minors, prisoners, pregnant women, adults physically or mentally incapable of giving consent. Minimum Age: 45 Years Maximu
+----------------------------------------------------------------------------------------------------
+Top-1 cosine: 0.586228
+Mean@5 cosine: 0.474282
+====================================================================================================
+
+====================================================================================================
+Technique: semantic_95
+Question: Q2 - In the ARV-6723 dose escalation study, over how many days after the first administration are dose-limiting toxicities assessed?
+
+Expected source: NCT07749586.txt
+Query embedding dimension: 384
+Query embedding first 8 values: [0.012151692993938923, -0.03523905947804451, -0.038597285747528076, 0.03076348826289177, 0.01728588156402111, -0.06552444398403168, -0.016129588708281517, 0.08212193846702576]
+Query vector shape: (384,)
+Document vectors shape: (5, 384)
+Retrieval latency: 2.241 ms
+Recall@5: 1
+----------------------------------------------------------------------------------------------------
+Rank  Store       Cosine      Length    Source                Preview
+----------------------------------------------------------------------------------------------------
+1     0.691659    0.740519    2163      NCT07749586.txt       * Baseline (screening) standard 12-lead electrocardiogram (ECG) that demonstrates clinically relevant abnormalities that may affect participant safety or interp
+2     0.635154    0.601450    1821      NCT07623525.txt       Part A (Single Ascending DoseDose in HHT): Part A is a dose-escalation phase evaluating ascending single-dose levels of DIAG723 administered subcutaneously in s
+3     0.608800    0.524563    639       NCT07623525.txt       Across all study parts, participants are randomized using an interactive response system, and study treatment is administered under double-blind conditions. A S
+4     0.575350    0.510768    704       NCT05706129.txt       Minimum Age: 18 Years Maximum Age: Sex: ALL Primary Outcome Measures: - Part A: Number of Participants With Treatment-Emergent Adverse Events (TEAEs) and Seriou
+5     0.478436    0.471942    1250      NCT07244835.txt       Pregnant or breastfeeding women 4. Active or concurrent malignancy requiring treatment (including both systemic therapy and radiotherapy) within 14 days or 5 ha
+----------------------------------------------------------------------------------------------------
+Top-1 cosine: 0.740519
+Mean@5 cosine: 0.569848
+====================================================================================================
+
+====================================================================================================
+Technique: semantic_95
+Question: Q3 - What is the planned enrollment and trial phase of the Arrowhead Pharmaceuticals study in obesity and type 2 diabetes?
+
+Expected source: NCT06937203.txt
+Query embedding dimension: 384
+Query embedding first 8 values: [0.05704692378640175, 0.000649439578410238, -0.010042190551757812, 0.06667398661375046, 0.024496885016560555, 0.014385819435119629, -0.07617654651403427, 0.08285562694072723]
+Query vector shape: (384,)
+Document vectors shape: (5, 384)
+Retrieval latency: 2.262 ms
+Recall@5: 1
+----------------------------------------------------------------------------------------------------
+Rank  Store       Cosine      Length    Source                Preview
+----------------------------------------------------------------------------------------------------
+1     0.580185    0.574956    1084      NCT06937203.txt       NCT Number: NCT06937203 Title: A First-In-Human Study of ARO-ALK7 in Adults With Obesity With and Without Type 2 Diabetes Mellitus Official Title: A Phase 1/2A 
+2     0.554860    0.496876    1272      NCT07296484.txt       NCT Number: NCT07296484 Title: Trial Against INtractable Type 2 Diabetes (CAPTAIN-T2D) Official Title: Clofutriben And Placebo Phase 2 Trial Against INtractable
+3     0.510297    0.502060    639       NCT07623525.txt       Across all study parts, participants are randomized using an interactive response system, and study treatment is administered under double-blind conditions. A S
+4     0.506787    0.457098    2305      NCT06937203.txt       Subcutaneous (SC) injection - DRUG: Placebo. calculated volume to match active treatment by SC injection Eligibility Criteria: Inclusion Criteria: * Obesity, de
+5     0.497115    0.520193    1395      NCT04024631.txt       Subjects will undergo a whole body DXA scan for assessment of adiposity index and body fat distribution. Eligibility Criteria: Inclusion Criteria: * Age 10-70 y
+----------------------------------------------------------------------------------------------------
+Top-1 cosine: 0.574956
+Mean@5 cosine: 0.510237
+====================================================================================================
+
+====================================================================================================
+Technique: semantic_95
+Question: Q4 - What is the minimum age requirement for participation in this trial?
+
+Expected source: None
+Query embedding dimension: 384
+Query embedding first 8 values: [0.11010602861642838, 0.08275777101516724, -0.06529013812541962, -0.0392661951482296, -0.03456306457519531, 0.08625492453575134, -0.0399346649646759, 0.060734350234270096]
+Query vector shape: (384,)
+Document vectors shape: (5, 384)
+Retrieval latency: 2.296 ms
+Recall@5: 0
+----------------------------------------------------------------------------------------------------
+Rank  Store       Cosine      Length    Source                Preview
+----------------------------------------------------------------------------------------------------
+1     0.563404    0.590801    264       NCT06875193.txt       * Any other person deemed by the investigator to be unsuitable for participation in the study Minimum Age: 19 Years Maximum Age: Sex: ALL Primary Outcome Measur
+2     0.535723    0.575600    376       NCT07465848.txt       * Vulnerable population, for example, minors, prisoners, pregnant women, adults physically or mentally incapable of giving consent. Minimum Age: 45 Years Maximu
+3     0.528676    0.493052    300       NCT07504055.txt       Minimum Age: 18 Years Maximum Age: Sex: ALL Primary Outcome Measures: - Baroreflex Sensitivity [Time Frame: Within 4 weeks before an intervention; within 2 week
+4     0.523591    0.779495    48        NCT06639191.txt       Participant must be 18 years of age or older 2.
+5     0.481435    0.494121    1161      NCT05379985.txt       * Treatment naive or have received prior standard therapy appropriate for tumor type and stage * Have Eastern Cooperative Oncology Group (ECOG) performance stat
+----------------------------------------------------------------------------------------------------
+Top-1 cosine: 0.779495
+Mean@5 cosine: 0.586614
+====================================================================================================
+
+====================================================================================================
+Technique: semantic_95
+Question: Q5 - Which study reports resistant hypertension and mortality outcomes over a ten-year follow-up period?
+
+Expected source: NCT06160921.txt
+Query embedding dimension: 384
+Query embedding first 8 values: [-0.029272854328155518, 0.05313964560627937, -0.033551134169101715, 0.037281934171915054, 0.060999445617198944, 0.04610908403992653, -0.15335802733898163, 0.04400951787829399]
+Query vector shape: (384,)
+Document vectors shape: (5, 384)
+Retrieval latency: 2.241 ms
+Recall@5: 1
+----------------------------------------------------------------------------------------------------
+Rank  Store       Cosine      Length    Source                Preview
+----------------------------------------------------------------------------------------------------
+1     0.672191    0.645509    784       NCT06160921.txt       Interventions: - OTHER: Standard therapy. Individualized blood pressure reduction program Eligibility Criteria: Inclusion Criteria: * A patient diagnosed with p
+2     0.547008    0.517197    1526      NCT06160921.txt       NCT Number: NCT06160921 Title: Prognostic Model of Hypertension Official Title: Prognostic Model of Hypertension Lead Sponsor: Xinjiang Medical University Overa
+3     0.533770    0.544332    149       NCT06394934.txt       2. Diagnosed with hypertension. 3. Regular use of antihypertensive medication for at least two years. 4. Access to a home blood pressure monitor. 5.
+4     0.508161    0.498960    3492      NCT05826925.txt       NCT Number: NCT05826925 Title: Optimizing Cardiovascular Preventive Care for Women Following Hypertensive Disorders of Pregnancy Official Title: Optimizing Card
+5     0.501217    0.493567    1702      NCT07599579.txt       NCT Number: NCT07599579 Title: Mobile Health Program for Post-Preeclampsia Hypertension Official Title: Multilevel Mobile Health Program to Improve Hypertension
+----------------------------------------------------------------------------------------------------
+Top-1 cosine: 0.645509
+Mean@5 cosine: 0.539913
+====================================================================================================
+
+####################################################################################################
+Building technique: sentence_window
+####################################################################################################
+Chunks: 3233
+Average chunk length: 169.58 characters
+Chunking time: 0.086 seconds
+Generating embeddings:   0%|          | 0/2048 [00:00<?, ?it/s]Generating embeddings:   2%|▏         | 40/2048 [00:00<00:05, 364.96it/s]Generating embeddings:   4%|▍         | 90/2048 [00:00<00:04, 438.08it/s]Generating embeddings:   7%|▋         | 150/2048 [00:00<00:03, 484.88it/s]Generating embeddings:  10%|▉         | 199/2048 [00:00<00:03, 464.41it/s]Generating embeddings:  12%|█▏        | 246/2048 [00:00<00:04, 421.80it/s]Generating embeddings:  15%|█▍        | 300/2048 [00:00<00:04, 435.25it/s]Generating embeddings:  18%|█▊        | 360/2048 [00:00<00:03, 461.14it/s]Generating embeddings:  21%|██        | 420/2048 [00:00<00:03, 498.25it/s]Generating embeddings:  23%|██▎       | 471/2048 [00:01<00:03, 486.88it/s]Generating embeddings:  26%|██▌       | 530/2048 [00:01<00:02, 507.68it/s]Generating embeddings:  29%|██▉       | 590/2048 [00:01<00:02, 511.04it/s]Generating embeddings:  32%|███▏      | 650/2048 [00:01<00:02, 529.23it/s]Generating embeddings:  35%|███▌      | 720/2048 [00:01<00:02, 554.05it/s]Generating embeddings:  38%|███▊      | 776/2048 [00:01<00:02, 536.68it/s]Generating embeddings:  41%|████      | 830/2048 [00:01<00:02, 461.31it/s]Generating embeddings:  43%|████▎     | 878/2048 [00:01<00:02, 446.64it/s]Generating embeddings:  45%|████▌     | 924/2048 [00:01<00:02, 426.91it/s]Generating embeddings:  47%|████▋     | 970/2048 [00:02<00:02, 425.33it/s]Generating embeddings:  50%|████▉     | 1014/2048 [00:02<00:02, 427.57it/s]Generating embeddings:  52%|█████▏    | 1060/2048 [00:02<00:02, 409.35it/s]Generating embeddings:  54%|█████▍    | 1110/2048 [00:02<00:02, 433.72it/s]Generating embeddings:  57%|█████▋    | 1160/2048 [00:02<00:01, 451.19it/s]Generating embeddings:  60%|█████▉    | 1220/2048 [00:02<00:01, 484.76it/s]Generating embeddings:  63%|██████▎   | 1290/2048 [00:02<00:01, 538.06it/s]Generating embeddings:  66%|██████▌   | 1345/2048 [00:02<00:01, 539.35it/s]Generating embeddings:  68%|██████▊   | 1400/2048 [00:02<00:01, 529.14it/s]Generating embeddings:  71%|███████   | 1454/2048 [00:03<00:01, 507.18it/s]Generating embeddings:  74%|███████▎  | 1510/2048 [00:03<00:01, 488.89it/s]Generating embeddings:  76%|███████▌  | 1560/2048 [00:03<00:01, 485.75it/s]Generating embeddings:  79%|███████▊  | 1610/2048 [00:03<00:00, 479.80it/s]Generating embeddings:  81%|████████  | 1660/2048 [00:03<00:00, 471.18it/s]Generating embeddings:  84%|████████▍ | 1720/2048 [00:03<00:00, 496.84it/s]Generating embeddings:  86%|████████▋ | 1770/2048 [00:03<00:00, 492.44it/s]Generating embeddings:  89%|████████▉ | 1820/2048 [00:03<00:00, 488.05it/s]Generating embeddings:  92%|█████████▏| 1880/2048 [00:03<00:00, 506.78it/s]Generating embeddings:  95%|█████████▍| 1940/2048 [00:04<00:00, 520.99it/s]Generating embeddings:  97%|█████████▋| 1993/2048 [00:04<00:00, 498.81it/s]Generating embeddings: 100%|██████████| 2048/2048 [00:04<00:00, 483.79it/s]
+Generating embeddings:   0%|          | 0/1185 [00:00<?, ?it/s]Generating embeddings:   3%|▎         | 40/1185 [00:00<00:02, 396.79it/s]Generating embeddings:   8%|▊         | 100/1185 [00:00<00:02, 492.02it/s]Generating embeddings:  13%|█▎        | 149/1185 [00:00<00:02, 461.20it/s]Generating embeddings:  17%|█▋        | 200/1185 [00:00<00:02, 465.80it/s]Generating embeddings:  22%|██▏       | 260/1185 [00:00<00:01, 491.82it/s]Generating embeddings:  26%|██▌       | 310/1185 [00:00<00:01, 467.05it/s]Generating embeddings:  30%|███       | 360/1185 [00:00<00:01, 469.93it/s]Generating embeddings:  35%|███▌      | 420/1185 [00:00<00:01, 500.96it/s]Generating embeddings:  41%|████      | 480/1185 [00:00<00:01, 521.34it/s]Generating embeddings:  46%|████▌     | 540/1185 [00:01<00:01, 534.40it/s]Generating embeddings:  51%|█████     | 600/1185 [00:01<00:01, 507.72it/s]Generating embeddings:  55%|█████▌    | 652/1185 [00:01<00:01, 497.84it/s]Generating embeddings:  59%|█████▉    | 703/1185 [00:01<00:00, 492.28it/s]Generating embeddings:  64%|██████▎   | 753/1185 [00:01<00:00, 474.57it/s]Generating embeddings:  68%|██████▊   | 801/1185 [00:01<00:00, 451.42it/s]Generating embeddings:  72%|███████▏  | 850/1185 [00:01<00:00, 437.54it/s]Generating embeddings:  77%|███████▋  | 910/1185 [00:01<00:00, 471.87it/s]Generating embeddings:  81%|████████  | 960/1185 [00:01<00:00, 473.54it/s]Generating embeddings:  85%|████████▌ | 1010/1185 [00:02<00:00, 452.58it/s]Generating embeddings:  89%|████████▉ | 1060/1185 [00:02<00:00, 452.11it/s]Generating embeddings:  94%|█████████▎| 1110/1185 [00:02<00:00, 461.66it/s]Generating embeddings:  99%|█████████▊| 1170/1185 [00:02<00:00, 482.50it/s]Generating embeddings: 100%|██████████| 1185/1185 [00:02<00:00, 476.50it/s]
+Indexing time: 7.059 seconds
+
+====================================================================================================
+Technique: sentence_window
+Question: Q1 - Which study examines germline polymorphisms in DNA repair genes such as GSTP1, GSTM1, and ERCC2 in relation to lung cancer risk, and over what time frame is its primary outcome measured?
+
+Expected source: NCT00471978.txt
+Query embedding dimension: 384
+Query embedding first 8 values: [-0.030549421906471252, 0.009654760360717773, 0.007370664272457361, -0.04916924238204956, 0.01927119493484497, 0.020461520180106163, -0.03012298047542572, 0.11021419614553452]
+Query vector shape: (384,)
+Document vectors shape: (5, 384)
+Retrieval latency: 24.056 ms
+Recall@5: 1
+----------------------------------------------------------------------------------------------------
+Rank  Store       Cosine      Length    Source                Preview
+----------------------------------------------------------------------------------------------------
+1     0.753378    0.720197    208       NCT00471978.txt       * Assess the role of germline polymorphisms in DNA repair genes, p53 pathway genes, and a matrix metalloproteinase gene (tumor invasion factor) in lung-cancer r
+                                                              Window: It may also help the study of cancer in the future. PURPOSE: This clinical trial is analyzing the DNA in blood and tissue samples from patients with lung cancer
+2     0.660034    0.631237    128       NCT00471978.txt       Detailed Description: OBJECTIVES: * Assess the role of genetic polymorphisms in lung-cancer risk in patients with lung cancer.
+                                                              Window: NCT Number: NCT00471978 Title: DNA Analysis of Blood and Tissue from Patients with Lung Cancer Official Title: Molecular and Genetic Analysis of Lung Cancer Lea
+3     0.598142    0.586016    172       NCT00471978.txt       * Assess the role of genetic polymorphisms in modifying the diet-lung cancer risk association (gene-diet and exploratory gene-gender-diet and gene-gene-diet int
+                                                              Window: Detailed Description: OBJECTIVES: * Assess the role of genetic polymorphisms in lung-cancer risk in patients with lung cancer. * Assess the role of germline pol
+4     0.596661    0.485549    179       NCT00471978.txt       Minimum Age: 18 Years Maximum Age: 120 Years Sex: ALL Primary Outcome Measures: - Metabolic polymorphisms [Time Frame: 10 years] to compare differences among lu
+                                                              Window: Total enrollment to reach 15,000. Interventions: Eligibility Criteria: DISEASE CHARACTERISTICS: * Patient: * Newly diagnosed primary lung cancer * Patient at Ma
+5     0.591925    0.527198    128       NCT00471978.txt       * Assess the role of polymorphisms on the risk of developing specific histologic subtypes of lung cancer in case-only analyses.
+                                                              Window: * Assess the role of germline polymorphisms in DNA repair genes, p53 pathway genes, and a matrix metalloproteinase gene (tumor invasion factor) in lung-cancer r
+----------------------------------------------------------------------------------------------------
+Top-1 cosine: 0.720197
+Mean@5 cosine: 0.590039
+====================================================================================================
+
+====================================================================================================
+Technique: sentence_window
+Question: Q2 - In the ARV-6723 dose escalation study, over how many days after the first administration are dose-limiting toxicities assessed?
+
+Expected source: NCT07749586.txt
+Query embedding dimension: 384
+Query embedding first 8 values: [0.012151692993938923, -0.03523905947804451, -0.038597285747528076, 0.03076348826289177, 0.01728588156402111, -0.06552444398403168, -0.016129588708281517, 0.08212193846702576]
+Query vector shape: (384,)
+Document vectors shape: (5, 384)
+Retrieval latency: 23.362 ms
+Recall@5: 1
+----------------------------------------------------------------------------------------------------
+Rank  Store       Cosine      Length    Source                Preview
+----------------------------------------------------------------------------------------------------
+1     0.806447    0.800927    351       NCT07749586.txt       Minimum Age: 18 Years Maximum Age: Sex: ALL Primary Outcome Measures: - Part A1: Number of Dose-Limiting Toxicities (DLTs) of ARV-6723 [Time Frame: 21 days from
+                                                              Window: * Prior treatment with any HPK1-targeting agent * Systemic anti-cancer therapy or radiation therapy within 14 days prior to study treatment start. * Current use
+2     0.700750    0.713428    437       NCT07749586.txt       - Part A1: Number of Participants With Adverse Events (AEs) [Time Frame: From the first dose of ARV-6723 through at least 28 days after the last dose (up to app
+                                                              Window: * Current use of any prohibited concomitant medication(s) or herbal supplements which cannot be discontinued, prior to start of study intervention and for the d
+3     0.688058    0.721727    420       NCT07749586.txt       - Part A2: Number of Participants With AEs [Time Frame: From the first dose of ARV-6723 through at least 28 days after the last dose (up to approximately 4.7 ye
+                                                              Window: * Baseline (screening) standard 12-lead electrocardiogram (ECG) that demonstrates clinically relevant abnormalities that may affect participant safety or interp
+4     0.664527    0.651038    243       NCT07623525.txt       - Incidence of Dose-Limiting Toxicities (DLTs) - Part A (Single Dose) [Time Frame: From first dose through Day 28] Number and proportion of participants experie
+                                                              Window: Sterile normal saline (0.9% NaCl) administered subcutaneously in volumes matched to DIAG723 to maintain study blinding. Eligibility Criteria: Inclusion Criteria
+5     0.662549    0.645407    191       NCT06639191.txt       Minimum Age: 18 Years Maximum Age: Sex: ALL Primary Outcome Measures: - Primary Endpoint - rate of dose limiting toxicities [Time Frame: From first dose to a mi
+                                                              Window: Severe skin diseases requiring systemic anti-inflammatory treatment, including plaque psoriasis, Stevens Johnsons syndrome or dermatomyositis. 8. A known histor
+----------------------------------------------------------------------------------------------------
+Top-1 cosine: 0.800927
+Mean@5 cosine: 0.706505
+====================================================================================================
+
+====================================================================================================
+Technique: sentence_window
+Question: Q3 - What is the planned enrollment and trial phase of the Arrowhead Pharmaceuticals study in obesity and type 2 diabetes?
+
+Expected source: NCT06937203.txt
+Query embedding dimension: 384
+Query embedding first 8 values: [0.05704692378640175, 0.000649439578410238, -0.010042190551757812, 0.06667398661375046, 0.024496885016560555, 0.014385819435119629, -0.07617654651403427, 0.08285562694072723]
+Query vector shape: (384,)
+Document vectors shape: (5, 384)
+Retrieval latency: 23.533 ms
+Recall@5: 1
+----------------------------------------------------------------------------------------------------
+Rank  Store       Cosine      Length    Source                Preview
+----------------------------------------------------------------------------------------------------
+1     0.599353    0.536061    441       NCT07296484.txt       NCT Number: NCT07296484 Title: Trial Against INtractable Type 2 Diabetes (CAPTAIN-T2D) Official Title: Clofutriben And Placebo Phase 2 Trial Against INtractable
+                                                              Window: NCT Number: NCT07296484 Title: Trial Against INtractable Type 2 Diabetes (CAPTAIN-T2D) Official Title: Clofutriben And Placebo Phase 2 Trial Against INtractable
+2     0.594625    0.537965    855       NCT06937203.txt       for any indication within 6 months prior to Screening * Use of non-GLP-1R medications for weight loss within 3 months prior to Screening, including but not limi
+                                                              Window: Subcutaneous (SC) injection - DRUG: Placebo. calculated volume to match active treatment by SC injection Eligibility Criteria: Inclusion Criteria: * Obesity, de
+3     0.580185    0.574956    1027      NCT06937203.txt       NCT Number: NCT06937203 Title: A First-In-Human Study of ARO-ALK7 in Adults With Obesity With and Without Type 2 Diabetes Mellitus Official Title: A Phase 1/2A 
+                                                              Window: NCT Number: NCT06937203 Title: A First-In-Human Study of ARO-ALK7 in Adults With Obesity With and Without Type 2 Diabetes Mellitus Official Title: A Phase 1/2A 
+4     0.540817    0.544522    279       NCT06323538.txt       In order to prospectively investigate links between diet and the later occurrence of common diseases such as type 2 diabetes, cardiovascular diseases and cancer
+                                                              Window: Of particular importance is the dietary assessment of novel vegan and vegetarian foods, thus an app adapted to the needs of this study was developed. The charac
+5     0.540615    0.570499    259       NCT07588438.txt       Study Design and Long-Term Follow-Up The study is structured as a 52-week prospective cohort investigation, a duration that exceeds most regional observational 
+                                                              Window: Detailed Description: Innovation and Regional Significance This study represents a pioneering milestone as the first prospective, long-term real-world evidence 
+----------------------------------------------------------------------------------------------------
+Top-1 cosine: 0.574956
+Mean@5 cosine: 0.552801
+====================================================================================================
+
+====================================================================================================
+Technique: sentence_window
+Question: Q4 - What is the minimum age requirement for participation in this trial?
+
+Expected source: None
+Query embedding dimension: 384
+Query embedding first 8 values: [0.11010602861642838, 0.08275777101516724, -0.06529013812541962, -0.0392661951482296, -0.03456306457519531, 0.08625492453575134, -0.0399346649646759, 0.060734350234270096]
+Query vector shape: (384,)
+Document vectors shape: (5, 384)
+Retrieval latency: 23.452 ms
+Recall@5: 0
+----------------------------------------------------------------------------------------------------
+Rank  Store       Cosine      Length    Source                Preview
+----------------------------------------------------------------------------------------------------
+1     0.646259    0.672985    146       NCT07229729.txt       Participants must be aged between 18 and 70 years old (inclusive) when signing the informed consent form, and both men and women are eligible; 3.
+                                                              Window: Osimertinib Mesylate. Eligibility Criteria: Inclusion Criteria: 1. Voluntarily participate in this clinical study, understand the research procedures and be abl
+2     0.595578    0.634822    239       NCT05187338.txt       Minimum Age: 18 Years Maximum Age: 70 Years Sex: ALL Primary Outcome Measures: - Safety of 3 drugs combination treatment [Time Frame: 5 years] Safety will be as
+                                                              Window: Allergic to contrast agent; 8. Any agents which could affect the absorption or pharmacokinetics of the study drugs 9. Other conditions that investigator decides
+3     0.591174    0.569807    181       NCT06670625.txt       Participants will be enrolled by the age of four months and visit the research clinic ever third months up until the age of 24 months, and then yearly up until 
+                                                              Window: Secondary objectives are to determine whether IDAC is associated with infant and early childhood growth and body composition and to determine whether IDAC reduc
+4     0.583544    0.574644    287       NCT07556497.txt       Interventions: Eligibility Criteria: Inclusion Criteria: * T2D * Males and females * Older than 18 years of age * Willingness to participate in the study and pr
+                                                              Window: An in vitro sub-study will evaluate a potential therapeutic strategy to improve EPC function by increasing the activity of endothelial nitric oxide synthase (eN
+5     0.581761    0.605701    201       NCT06835569.txt       Minimum Age: 18 Years Maximum Age: Sex: ALL Primary Outcome Measures: - Adverse Events [Time Frame: Up to 39 months] Number of participants that experience trea
+                                                              Window: * Progressed on, intolerant to, or declined prior standard-of-care therapy (including targeted therapy, if applicable) appropriate to tumor type and stage * Eas
+----------------------------------------------------------------------------------------------------
+Top-1 cosine: 0.672985
+Mean@5 cosine: 0.611592
+====================================================================================================
+
+====================================================================================================
+Technique: sentence_window
+Question: Q5 - Which study reports resistant hypertension and mortality outcomes over a ten-year follow-up period?
+
+Expected source: NCT06160921.txt
+Query embedding dimension: 384
+Query embedding first 8 values: [-0.029272854328155518, 0.05313964560627937, -0.033551134169101715, 0.037281934171915054, 0.060999445617198944, 0.04610908403992653, -0.15335802733898163, 0.04400951787829399]
+Query vector shape: (384,)
+Document vectors shape: (5, 384)
+Retrieval latency: 23.439 ms
+Recall@5: 1
+----------------------------------------------------------------------------------------------------
+Rank  Store       Cosine      Length    Source                Preview
+----------------------------------------------------------------------------------------------------
+1     0.666340    0.603529    742       NCT06160921.txt       Individualized blood pressure reduction program Eligibility Criteria: Inclusion Criteria: * A patient diagnosed with primary hypertension who was admitted to th
+                                                              Window: Treatment complications, hospitalization costs, and end-of-life events (death, major adverse cardiac events, mild adverse cardiovascular events) in patients wit
+2     0.587108    0.558714    214       NCT06642246.txt       Participants will have a recent diagnosis of essential hypertension, based on clinical ambulatory blood pressure monitoring, with initial treatment targeting li
+                                                              Window: Investigators are developing a mobile platform to promote sleep in children that may have utility for treating pediatric essential hypertension. The overall obj
+3     0.575983    0.538922    287       NCT05252208.txt       This study involves a randomized controlled trial of 96 men and women presenting with either high-normal blood pressure (systolic 130 to 139 mmHg or diastolic 8
+                                                              Window: Additional recent studies show stretching can reduce arterial stiffness and sympathetic nervous system activation, suggesting physiological mechanisms by which 
+4     0.573829    0.500198    493       NCT06160921.txt       Treatment complications, hospitalization costs, and end-of-life events (death, major adverse cardiac events, mild adverse cardiovascular events) in patients wit
+                                                              Window: NCT Number: NCT06160921 Title: Prognostic Model of Hypertension Official Title: Prognostic Model of Hypertension Lead Sponsor: Xinjiang Medical University Overa
+5     0.561234    0.465448    258       NCT05252208.txt       Lead Sponsor: University of Saskatchewan Overall Status: RECRUITING Start Date: 2022-03-28 Study Type: INTERVENTIONAL Phases: NA Enrollment: 96 Conditions: Hype
+                                                              Window: NCT Number: NCT05252208 Title: Stretching vs Walking for Lowering Blood Pressure Official Title: Is Stretching Superior to Aerobic Training for Reducing Blood P
+----------------------------------------------------------------------------------------------------
+Top-1 cosine: 0.603529
+Mean@5 cosine: 0.533362
+====================================================================================================
+
+####################################################################################################
+Building technique: semantic_tuned_80
+####################################################################################################
+Chunks: 750
+Average chunk length: 731.02 characters
+Chunking time: 7.608 seconds
+Generating embeddings:   0%|          | 0/750 [00:00<?, ?it/s]Generating embeddings:   5%|▌         | 40/750 [00:00<00:02, 310.24it/s]Generating embeddings:  11%|█         | 80/750 [00:00<00:02, 310.54it/s]Generating embeddings:  16%|█▌        | 120/750 [00:00<00:02, 311.45it/s]Generating embeddings:  21%|██▏       | 160/750 [00:00<00:01, 315.51it/s]Generating embeddings:  27%|██▋       | 200/750 [00:00<00:01, 312.92it/s]Generating embeddings:  32%|███▏      | 240/750 [00:00<00:01, 312.35it/s]Generating embeddings:  37%|███▋      | 280/750 [00:00<00:01, 311.86it/s]Generating embeddings:  43%|████▎     | 320/750 [00:01<00:01, 312.55it/s]Generating embeddings:  48%|████▊     | 360/750 [00:01<00:01, 312.45it/s]Generating embeddings:  53%|█████▎    | 400/750 [00:01<00:01, 321.68it/s]Generating embeddings:  59%|█████▊    | 440/750 [00:01<00:00, 318.70it/s]Generating embeddings:  64%|██████▍   | 480/750 [00:01<00:00, 316.76it/s]Generating embeddings:  69%|██████▉   | 520/750 [00:01<00:00, 315.08it/s]Generating embeddings:  75%|███████▍  | 560/750 [00:01<00:00, 313.89it/s]Generating embeddings:  80%|████████  | 600/750 [00:01<00:00, 314.03it/s]Generating embeddings:  85%|████████▌ | 640/750 [00:02<00:00, 313.14it/s]Generating embeddings:  91%|█████████ | 680/750 [00:02<00:00, 312.70it/s]Generating embeddings:  96%|█████████▌| 720/750 [00:02<00:00, 312.39it/s]Generating embeddings: 100%|██████████| 750/750 [00:02<00:00, 313.76it/s]
+Indexing time: 2.446 seconds
+
+====================================================================================================
+Technique: semantic_tuned_80
+Question: Q1 - Which study examines germline polymorphisms in DNA repair genes such as GSTP1, GSTM1, and ERCC2 in relation to lung cancer risk, and over what time frame is its primary outcome measured?
+
+Expected source: NCT00471978.txt
+Query embedding dimension: 384
+Query embedding first 8 values: [-0.030549421906471252, 0.009654760360717773, 0.007370664272457361, -0.04916924238204956, 0.01927119493484497, 0.020461520180106163, -0.03012298047542572, 0.11021419614553452]
+Query vector shape: (384,)
+Document vectors shape: (5, 384)
+Retrieval latency: 6.197 ms
+Recall@5: 1
+----------------------------------------------------------------------------------------------------
+Rank  Store       Cosine      Length    Source                Preview
+----------------------------------------------------------------------------------------------------
+1     0.640407    0.586228    1661      NCT00471978.txt       NCT Number: NCT00471978 Title: DNA Analysis of Blood and Tissue from Patients with Lung Cancer Official Title: Molecular and Genetic Analysis of Lung Cancer Lea
+2     0.591915    0.557017    357       NCT00471978.txt       Blood samples are collected from patients and controls. Samples are analyzed by polymerase chain reaction for gene polymorphisms. Genes to be studied include GS
+3     0.489124    0.435044    643       NCT00471978.txt       Total enrollment to reach 15,000. Interventions: Eligibility Criteria: DISEASE CHARACTERISTICS: * Patient: * Newly diagnosed primary lung cancer * Patient at Ma
+4     0.482253    0.461450    1024      NCT07465848.txt       NCT Number: NCT07465848 Title: Prospective Multicentre Study for the Application of Telomere Measurement Technology as a Tool for Lung Cancer Diagnosis Official
+5     0.453349    0.436038    856       NCT05991193.txt       * Provision of fully informed consent prior to any study specific procedures. * Patient with EGFR 19Del or L858R mutation diagnosed histologically or cytologica
+----------------------------------------------------------------------------------------------------
+Top-1 cosine: 0.586228
+Mean@5 cosine: 0.495156
+====================================================================================================
+
+====================================================================================================
+Technique: semantic_tuned_80
+Question: Q2 - In the ARV-6723 dose escalation study, over how many days after the first administration are dose-limiting toxicities assessed?
+
+Expected source: NCT07749586.txt
+Query embedding dimension: 384
+Query embedding first 8 values: [0.012151692993938923, -0.03523905947804451, -0.038597285747528076, 0.03076348826289177, 0.01728588156402111, -0.06552444398403168, -0.016129588708281517, 0.08212193846702576]
+Query vector shape: (384,)
+Document vectors shape: (5, 384)
+Retrieval latency: 5.725 ms
+Recall@5: 1
+----------------------------------------------------------------------------------------------------
+Rank  Store       Cosine      Length    Source                Preview
+----------------------------------------------------------------------------------------------------
+1     0.691659    0.740519    2163      NCT07749586.txt       * Baseline (screening) standard 12-lead electrocardiogram (ECG) that demonstrates clinically relevant abnormalities that may affect participant safety or interp
+2     0.656642    0.630474    482       NCT07623525.txt       Part A (Single Ascending DoseDose in HHT): Part A is a dose-escalation phase evaluating ascending single-dose levels of DIAG723 administered subcutaneously in s
+3     0.621033    0.628936    1038      NCT05902988.txt       Detailed Description: This a first-in-human phase I/II study designed to assess the safety, tolerability and preliminary efficacy of VLS-1488 monotherapy and co
+4     0.612549    0.563885    300       NCT06639191.txt       1. Rate of Dose Limiting Toxicities, according to the definition of (S)AEs according to the CTCAE version 5.0. 2. TEAEs, SAEs, clinically significant laboratory
+5     0.611306    0.661952    115       NCT06561685.txt       The study is conducted in two parts - phase Ia (dose-escalation) and phase Ib (dose-optimization, dose-expansion).
+----------------------------------------------------------------------------------------------------
+Top-1 cosine: 0.740519
+Mean@5 cosine: 0.645153
+====================================================================================================
+
+====================================================================================================
+Technique: semantic_tuned_80
+Question: Q3 - What is the planned enrollment and trial phase of the Arrowhead Pharmaceuticals study in obesity and type 2 diabetes?
+
+Expected source: NCT06937203.txt
+Query embedding dimension: 384
+Query embedding first 8 values: [0.05704692378640175, 0.000649439578410238, -0.010042190551757812, 0.06667398661375046, 0.024496885016560555, 0.014385819435119629, -0.07617654651403427, 0.08285562694072723]
+Query vector shape: (384,)
+Document vectors shape: (5, 384)
+Retrieval latency: 5.720 ms
+Recall@5: 1
+----------------------------------------------------------------------------------------------------
+Rank  Store       Cosine      Length    Source                Preview
+----------------------------------------------------------------------------------------------------
+1     0.580185    0.574956    1084      NCT06937203.txt       NCT Number: NCT06937203 Title: A First-In-Human Study of ARO-ALK7 in Adults With Obesity With and Without Type 2 Diabetes Mellitus Official Title: A Phase 1/2A 
+2     0.554860    0.496876    1272      NCT07296484.txt       NCT Number: NCT07296484 Title: Trial Against INtractable Type 2 Diabetes (CAPTAIN-T2D) Official Title: Clofutriben And Placebo Phase 2 Trial Against INtractable
+3     0.529402    0.533738    503       NCT07159282.txt       * The potential subject must agree to attend the weekly study visits required by the protocol. * The potential subject must be willing and able to participate i
+4     0.515168    0.492647    1597      NCT06683391.txt       Participants will undergo three distinct interventions, each designed to test a different amount and timing of CHO intake. Eligibility Criteria: Inclusion Crite
+5     0.510297    0.502060    639       NCT07623525.txt       Across all study parts, participants are randomized using an interactive response system, and study treatment is administered under double-blind conditions. A S
+----------------------------------------------------------------------------------------------------
+Top-1 cosine: 0.574956
+Mean@5 cosine: 0.520055
+====================================================================================================
+
+====================================================================================================
+Technique: semantic_tuned_80
+Question: Q4 - What is the minimum age requirement for participation in this trial?
+
+Expected source: None
+Query embedding dimension: 384
+Query embedding first 8 values: [0.11010602861642838, 0.08275777101516724, -0.06529013812541962, -0.0392661951482296, -0.03456306457519531, 0.08625492453575134, -0.0399346649646759, 0.060734350234270096]
+Query vector shape: (384,)
+Document vectors shape: (5, 384)
+Retrieval latency: 5.691 ms
+Recall@5: 0
+----------------------------------------------------------------------------------------------------
+Rank  Store       Cosine      Length    Source                Preview
+----------------------------------------------------------------------------------------------------
+1     0.642189    0.633569    362       NCT07229729.txt       Voluntarily participate in this clinical study, understand the research procedures and be able to sign the informed consent form in writing; 2. Participants mus
+2     0.563404    0.590801    264       NCT06875193.txt       * Any other person deemed by the investigator to be unsuitable for participation in the study Minimum Age: 19 Years Maximum Age: Sex: ALL Primary Outcome Measur
+3     0.558507    0.539660    310       NCT06835569.txt       Minimum Age: 18 Years Maximum Age: Sex: ALL Primary Outcome Measures: - Adverse Events [Time Frame: Up to 39 months] Number of participants that experience trea
+4     0.535723    0.575600    376       NCT07465848.txt       * Vulnerable population, for example, minors, prisoners, pregnant women, adults physically or mentally incapable of giving consent. Minimum Age: 45 Years Maximu
+5     0.528676    0.493052    300       NCT07504055.txt       Minimum Age: 18 Years Maximum Age: Sex: ALL Primary Outcome Measures: - Baroreflex Sensitivity [Time Frame: Within 4 weeks before an intervention; within 2 week
+----------------------------------------------------------------------------------------------------
+Top-1 cosine: 0.633569
+Mean@5 cosine: 0.566536
+====================================================================================================
+
+====================================================================================================
+Technique: semantic_tuned_80
+Question: Q5 - Which study reports resistant hypertension and mortality outcomes over a ten-year follow-up period?
+
+Expected source: NCT06160921.txt
+Query embedding dimension: 384
+Query embedding first 8 values: [-0.029272854328155518, 0.05313964560627937, -0.033551134169101715, 0.037281934171915054, 0.060999445617198944, 0.04610908403992653, -0.15335802733898163, 0.04400951787829399]
+Query vector shape: (384,)
+Document vectors shape: (5, 384)
+Retrieval latency: 5.751 ms
+Recall@5: 1
+----------------------------------------------------------------------------------------------------
+Rank  Store       Cosine      Length    Source                Preview
+----------------------------------------------------------------------------------------------------
+1     0.672191    0.645509    784       NCT06160921.txt       Interventions: - OTHER: Standard therapy. Individualized blood pressure reduction program Eligibility Criteria: Inclusion Criteria: * A patient diagnosed with p
+2     0.581892    0.528802    176       NCT07296484.txt       At Day 1 * No change in, or initiation of, medications for hypertension within 1 month prior to Day 1. Exclusion Criteria: * New-onset diabetes (onset \<1 year 
+3     0.558272    0.525731    385       NCT07599579.txt       * Children will be excluded as the study is only recruiting people who are 10-20 years postpartum. Minimum Age: 18 Years Maximum Age: Sex: FEMALE Primary Outcom
+4     0.547008    0.517197    1526      NCT06160921.txt       NCT Number: NCT06160921 Title: Prognostic Model of Hypertension Official Title: Prognostic Model of Hypertension Lead Sponsor: Xinjiang Medical University Overa
+5     0.532692    0.509125    509       NCT06642246.txt       * Speak, read, and write in English. Exclusion Criteria for Parents/Legal Guardians: \- Limited English proficiency Minimum Age: 13 Years Maximum Age: 18 Years 
+----------------------------------------------------------------------------------------------------
+Top-1 cosine: 0.645509
+Mean@5 cosine: 0.545273
+====================================================================================================
+
+====================================================================================================
+JSONL saved to: /Users/haozhewang/data260-8561/reports/hw03/raw/retrieval_results.jsonl
+Summary saved to: /Users/haozhewang/data260-8561/reports/hw03/raw/summary_metrics.csv
+Experiment finished: 2026-09-20T18:05:52-07:00
+Total elapsed time: 34.0 seconds
+====================================================================================================
+Pilot retrieval run completed with invalid Q4 expected_source=None. Q4 was corrected before the graded run.
+Pilot retrieval run completed with invalid Q4 expected_source=None. Q4 was corrected before the graded run.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+HW3 retrieval experiment started: 2026-09-20T18:08:58-07:00
+Embedding model: sentence-transformers/all-MiniLM-L6-v2
+Generation model: none
+Top-k: 5
+
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 12260.57it/s]
+LLM is explicitly disabled. Using MockLLM.
+Documents loaded: 100
+Questions loaded: 5
+
+
+####################################################################################################
+Building technique: token
+####################################################################################################
+Chunks: 692
+Average chunk length: 916.33 characters
+Chunking time: 0.348 seconds
+Generating embeddings:   0%|          | 0/692 [00:00<?, ?it/s]Generating embeddings:   1%|▏         | 10/692 [00:00<00:08, 78.38it/s]Generating embeddings:   7%|▋         | 50/692 [00:00<00:02, 216.60it/s]Generating embeddings:  13%|█▎        | 90/692 [00:00<00:02, 262.67it/s]Generating embeddings:  19%|█▉        | 130/692 [00:00<00:01, 284.69it/s]Generating embeddings:  25%|██▍       | 170/692 [00:00<00:01, 296.80it/s]Generating embeddings:  30%|███       | 210/692 [00:00<00:01, 304.52it/s]Generating embeddings:  36%|███▌      | 250/692 [00:00<00:01, 309.06it/s]Generating embeddings:  42%|████▏     | 290/692 [00:01<00:01, 312.22it/s]Generating embeddings:  48%|████▊     | 330/692 [00:01<00:01, 314.71it/s]Generating embeddings:  53%|█████▎    | 370/692 [00:01<00:01, 315.49it/s]Generating embeddings:  59%|█████▉    | 410/692 [00:01<00:00, 316.51it/s]Generating embeddings:  65%|██████▌   | 450/692 [00:01<00:00, 317.19it/s]Generating embeddings:  71%|███████   | 490/692 [00:01<00:00, 317.40it/s]Generating embeddings:  77%|███████▋  | 530/692 [00:01<00:00, 317.20it/s]Generating embeddings:  82%|████████▏ | 570/692 [00:01<00:00, 317.03it/s]Generating embeddings:  88%|████████▊ | 610/692 [00:02<00:00, 317.00it/s]Generating embeddings:  94%|█████████▍| 650/692 [00:02<00:00, 317.08it/s]Generating embeddings: 100%|█████████▉| 690/692 [00:02<00:00, 317.09it/s]Generating embeddings: 100%|██████████| 692/692 [00:02<00:00, 303.34it/s]
+Indexing time: 2.332 seconds
+
+====================================================================================================
+Technique: token
+Question: Q1 - Which study examines germline polymorphisms in DNA repair genes such as GSTP1, GSTM1, and ERCC2 in relation to lung cancer risk, and over what time frame is its primary outcome measured?
+Expected source: NCT00471978.txt
+Query embedding dimension: 384
+Query embedding first 8 values: [-0.030549421906471252, 0.009654760360717773, 0.007370664272457361, -0.04916924238204956, 0.01927119493484497, 0.020461520180106163, -0.03012298047542572, 0.11021419614553452]
+Query vector shape: (384,)
+Document vectors shape: (5, 384)
+Retrieval latency: 5.213 ms
+Recall@5: 1
+----------------------------------------------------------------------------------------------------
+Rank  Store       Cosine      Length    Source                Preview
+----------------------------------------------------------------------------------------------------
+1     0.636421    0.599561    982       NCT00471978.txt       NCT Number: NCT00471978 Title: DNA Analysis of Blood and Tissue from Patients with Lung Cancer Official Title: Molecular and Genetic Analysis of Lung Cancer Lea
+2     0.596141    0.639076    1005      NCT00471978.txt       polymorphisms in DNA repair genes, p53 pathway genes, and a matrix metalloproteinase gene (tumor invasion factor) in lung-cancer risk, after adjusting for poten
+3     0.571762    0.561590    880       NCT00471978.txt       Genes to be studied include GSTP1, GSTM1, GSTT1, ERCC2, XRCC1, EPHX, NAT-2, p53 gene, CYP1A1, NQO1, MnSOD, and GPX1. Tissue samples collected from patients unde
+4     0.488257    0.470652    949       NCT07465848.txt       NCT Number: NCT07465848 Title: Prospective Multicentre Study for the Application of Telomere Measurement Technology as a Tool for Lung Cancer Diagnosis Official
+5     0.471551    0.396127    365       NCT00471978.txt       specified PRIOR CONCURRENT THERAPY: * Not specified EXCLUSIONS: Vulnerable populations are excluded. Patients with metastasis from another site to lung or mesot
+----------------------------------------------------------------------------------------------------
+Top-1 cosine: 0.639076
+Mean@5 cosine: 0.533401
+====================================================================================================
+
+====================================================================================================
+Technique: token
+Question: Q2 - In the ARV-6723 dose escalation study, over how many days after the first administration are dose-limiting toxicities assessed?
+Expected source: NCT07749586.txt
+Query embedding dimension: 384
+Query embedding first 8 values: [0.012151692993938923, -0.03523905947804451, -0.038597285747528076, 0.03076348826289177, 0.01728588156402111, -0.06552444398403168, -0.016129588708281517, 0.08212193846702576]
+Query vector shape: (384,)
+Document vectors shape: (5, 384)
+Retrieval latency: 5.108 ms
+Recall@5: 1
+----------------------------------------------------------------------------------------------------
+Rank  Store       Cosine      Length    Source                Preview
+----------------------------------------------------------------------------------------------------
+1     0.786970    0.808809    900       NCT07749586.txt       Toxicities (DLTs) of ARV-6723 [Time Frame: 21 days from first ARV-6723 administration] Number of participants within a dose escalation cohort with adverse event
+2     0.653576    0.654454    827       NCT05902988.txt       Any clinically significant ascites or pleural effusions at time of enrollment, or any therapeutic paracentesis or thoracentesis within 28 days of planned first 
+3     0.650841    0.639441    467       NCT07244835.txt       Age: 18 Years Maximum Age: Sex: ALL Primary Outcome Measures: - Incidence of dose limiting toxicity (DLT) [Time Frame: From first dose through the end of Cycle 
+4     0.643924    0.600620    432       NCT05379985.txt       protocol prior/concomitant therapy Other inclusion/exclusion criteria may apply. Minimum Age: 18 Years Maximum Age: Sex: ALL Primary Outcome Measures: - Inciden
+5     0.637148    0.598231    669       NCT05902988.txt       version 5.0 [Time Frame: Up to 12 months] - Dose Escalation: Frequency of Treatment-related Adverse Events (AEs) graded per NCI-CTCAE version 5.0 [Time Frame: U
+----------------------------------------------------------------------------------------------------
+Top-1 cosine: 0.808809
+Mean@5 cosine: 0.660311
+====================================================================================================
+
+====================================================================================================
+Technique: token
+Question: Q3 - What is the planned enrollment and trial phase of the Arrowhead Pharmaceuticals study in obesity and type 2 diabetes?
+Expected source: NCT06937203.txt
+Query embedding dimension: 384
+Query embedding first 8 values: [0.05704692378640175, 0.000649439578410238, -0.010042190551757812, 0.06667398661375046, 0.024496885016560555, 0.014385819435119629, -0.07617654651403427, 0.08285562694072723]
+Query vector shape: (384,)
+Document vectors shape: (5, 384)
+Retrieval latency: 5.473 ms
+Recall@5: 1
+----------------------------------------------------------------------------------------------------
+Rank  Store       Cosine      Length    Source                Preview
+----------------------------------------------------------------------------------------------------
+1     0.594361    0.551765    1004      NCT06937203.txt       etc.) for any indication within 6 months prior to Screening * Use of non-GLP-1R medications for weight loss within 3 months prior to Screening, including but no
+2     0.580185    0.600887    816       NCT06937203.txt       NCT Number: NCT06937203 Title: A First-In-Human Study of ARO-ALK7 in Adults With Obesity With and Without Type 2 Diabetes Mellitus Official Title: A Phase 1/2A 
+3     0.570084    0.571914    955       NCT07588438.txt       population. The study includes two cohorts: Cohort 1 consists of adults with obesity (BMI ≥30 kg/m²) without type 2 diabetes mellitus (T2DM), and Cohort 2 consi
+4     0.559658    0.544040    833       NCT07296484.txt       NCT Number: NCT07296484 Title: Trial Against INtractable Type 2 Diabetes (CAPTAIN-T2D) Official Title: Clofutriben And Placebo Phase 2 Trial Against INtractable
+5     0.517576    0.524092    783       NCT06875193.txt       NCT Number: NCT06875193 Title: DM Treatment to Evaluate the Efficacy and Safety of Dapagliflozin or Pioglitazone in Patients with Type 2 Diabetes Official Title
+----------------------------------------------------------------------------------------------------
+Top-1 cosine: 0.600887
+Mean@5 cosine: 0.558540
+====================================================================================================
+
+====================================================================================================
+Technique: token
+Question: Q4 - What is the minimum age requirement for the lung cancer genetic analysis study sponsored by Massachusetts General Hospital?
+Expected source: NCT00471978.txt
+Query embedding dimension: 384
+Query embedding first 8 values: [0.025558074936270714, 0.06208902224898338, -0.059946607798337936, -0.04336759075522423, -0.04121971130371094, 0.01306072622537613, -0.13941222429275513, 0.04706212878227234]
+Query vector shape: (384,)
+Document vectors shape: (5, 384)
+Retrieval latency: 5.225 ms
+Recall@5: 1
+----------------------------------------------------------------------------------------------------
+Rank  Store       Cosine      Length    Source                Preview
+----------------------------------------------------------------------------------------------------
+1     0.665644    0.666341    1027      NCT07465848.txt       chemotherapy or immunotherapy). Control Group: Cohort A (High risk controls): * Person aged 45 years or older at the time of signing the consent form. * High ri
+2     0.652882    0.635333    846       NCT05704920.txt       social security Exclusion Criteria: * clinical signs suggestive of cancer * recent chest scan (\<1 year) for another cause * radiological abnormality requiring 
+3     0.633506    0.688238    1060      NCT07465848.txt       Criteria: * History of any malignant neoplasm, except for subjects with tumors in localized stages who have undergone radical treatment and have been disease-fr
+4     0.633136    0.638522    365       NCT00471978.txt       specified PRIOR CONCURRENT THERAPY: * Not specified EXCLUSIONS: Vulnerable populations are excluded. Patients with metastasis from another site to lung or mesot
+5     0.631359    0.626352    880       NCT00471978.txt       Genes to be studied include GSTP1, GSTM1, GSTT1, ERCC2, XRCC1, EPHX, NAT-2, p53 gene, CYP1A1, NQO1, MnSOD, and GPX1. Tissue samples collected from patients unde
+----------------------------------------------------------------------------------------------------
+Top-1 cosine: 0.688238
+Mean@5 cosine: 0.650957
+====================================================================================================
+
+====================================================================================================
+Technique: token
+Question: Q5 - Which study reports resistant hypertension and mortality outcomes over a ten-year follow-up period?
+Expected source: NCT06160921.txt
+Query embedding dimension: 384
+Query embedding first 8 values: [-0.029272854328155518, 0.05313964560627937, -0.033551134169101715, 0.037281934171915054, 0.060999445617198944, 0.04610908403992653, -0.15335802733898163, 0.04400951787829399]
+Query vector shape: (384,)
+Document vectors shape: (5, 384)
+Retrieval latency: 5.136 ms
+Recall@5: 1
+----------------------------------------------------------------------------------------------------
+Rank  Store       Cosine      Length    Source                Preview
+----------------------------------------------------------------------------------------------------
+1     0.736878    0.739773    334       NCT06160921.txt       in this trial Minimum Age: Maximum Age: Sex: ALL Primary Outcome Measures: - Resistant hypertension [Time Frame: 10 years of follow-up Resistant hypertension oc
+2     0.582214    0.520493    229       NCT07599579.txt       Outcome Measures: - Change in systolic blood pressure from baseline to 3 months [Time Frame: Baseline, 3 Months] Change in home-based systolic blood pressure fr
+3     0.553585    0.553430    1086      NCT06160921.txt       NCT Number: NCT06160921 Title: Prognostic Model of Hypertension Official Title: Prognostic Model of Hypertension Lead Sponsor: Xinjiang Medical University Overa
+4     0.544183    0.526660    1002      NCT07768865.txt       and BP-matched controls. Controls will be sourced from existing funded studies performing similar measurements on young people with primary hypertension and hea
+5     0.543266    0.590548    1241      NCT06160921.txt       the onset of hypertension; Guidelines in clinical practice recommend, analyze and develop effective treatment strategies to optimize management and outcomes for
+----------------------------------------------------------------------------------------------------
+Top-1 cosine: 0.739773
+Mean@5 cosine: 0.586181
+====================================================================================================
+
+####################################################################################################
+Building technique: semantic_95
+####################################################################################################
+Chunks: 299
+Average chunk length: 1833.66 characters
+Chunking time: 8.016 seconds
+Generating embeddings:   0%|          | 0/299 [00:00<?, ?it/s]Generating embeddings:  13%|█▎        | 40/299 [00:00<00:00, 308.97it/s]Generating embeddings:  27%|██▋       | 80/299 [00:00<00:00, 310.18it/s]Generating embeddings:  40%|████      | 120/299 [00:00<00:00, 309.81it/s]Generating embeddings:  54%|█████▎    | 160/299 [00:00<00:00, 309.39it/s]Generating embeddings:  67%|██████▋   | 200/299 [00:00<00:00, 308.95it/s]Generating embeddings:  80%|████████  | 240/299 [00:00<00:00, 309.04it/s]Generating embeddings:  94%|█████████▎| 280/299 [00:00<00:00, 308.59it/s]Generating embeddings: 100%|██████████| 299/299 [00:00<00:00, 308.75it/s]
+Indexing time: 0.990 seconds
+
+====================================================================================================
+Technique: semantic_95
+Question: Q1 - Which study examines germline polymorphisms in DNA repair genes such as GSTP1, GSTM1, and ERCC2 in relation to lung cancer risk, and over what time frame is its primary outcome measured?
+Expected source: NCT00471978.txt
+Query embedding dimension: 384
+Query embedding first 8 values: [-0.030549421906471252, 0.009654760360717773, 0.007370664272457361, -0.04916924238204956, 0.01927119493484497, 0.020461520180106163, -0.03012298047542572, 0.11021419614553452]
+Query vector shape: (384,)
+Document vectors shape: (5, 384)
+Retrieval latency: 2.408 ms
+Recall@5: 1
+----------------------------------------------------------------------------------------------------
+Rank  Store       Cosine      Length    Source                Preview
+----------------------------------------------------------------------------------------------------
+1     0.640407    0.586228    1661      NCT00471978.txt       NCT Number: NCT00471978 Title: DNA Analysis of Blood and Tissue from Patients with Lung Cancer Official Title: Molecular and Genetic Analysis of Lung Cancer Lea
+2     0.616002    0.552095    1228      NCT00471978.txt       Blood samples are collected from patients and controls. Samples are analyzed by polymerase chain reaction for gene polymorphisms. Genes to be studied include GS
+3     0.482253    0.444705    2989      NCT07465848.txt       NCT Number: NCT07465848 Title: Prospective Multicentre Study for the Application of Telomere Measurement Technology as a Tool for Lung Cancer Diagnosis Official
+4     0.453349    0.436038    856       NCT05991193.txt       * Provision of fully informed consent prior to any study specific procedures. * Patient with EGFR 19Del or L858R mutation diagnosed histologically or cytologica
+5     0.450987    0.352345    376       NCT07465848.txt       * Vulnerable population, for example, minors, prisoners, pregnant women, adults physically or mentally incapable of giving consent. Minimum Age: 45 Years Maximu
+----------------------------------------------------------------------------------------------------
+Top-1 cosine: 0.586228
+Mean@5 cosine: 0.474282
+====================================================================================================
+
+====================================================================================================
+Technique: semantic_95
+Question: Q2 - In the ARV-6723 dose escalation study, over how many days after the first administration are dose-limiting toxicities assessed?
+Expected source: NCT07749586.txt
+Query embedding dimension: 384
+Query embedding first 8 values: [0.012151692993938923, -0.03523905947804451, -0.038597285747528076, 0.03076348826289177, 0.01728588156402111, -0.06552444398403168, -0.016129588708281517, 0.08212193846702576]
+Query vector shape: (384,)
+Document vectors shape: (5, 384)
+Retrieval latency: 2.352 ms
+Recall@5: 1
+----------------------------------------------------------------------------------------------------
+Rank  Store       Cosine      Length    Source                Preview
+----------------------------------------------------------------------------------------------------
+1     0.691659    0.740519    2163      NCT07749586.txt       * Baseline (screening) standard 12-lead electrocardiogram (ECG) that demonstrates clinically relevant abnormalities that may affect participant safety or interp
+2     0.635154    0.601450    1821      NCT07623525.txt       Part A (Single Ascending DoseDose in HHT): Part A is a dose-escalation phase evaluating ascending single-dose levels of DIAG723 administered subcutaneously in s
+3     0.608800    0.524563    639       NCT07623525.txt       Across all study parts, participants are randomized using an interactive response system, and study treatment is administered under double-blind conditions. A S
+4     0.575350    0.510768    704       NCT05706129.txt       Minimum Age: 18 Years Maximum Age: Sex: ALL Primary Outcome Measures: - Part A: Number of Participants With Treatment-Emergent Adverse Events (TEAEs) and Seriou
+5     0.478436    0.471942    1250      NCT07244835.txt       Pregnant or breastfeeding women 4. Active or concurrent malignancy requiring treatment (including both systemic therapy and radiotherapy) within 14 days or 5 ha
+----------------------------------------------------------------------------------------------------
+Top-1 cosine: 0.740519
+Mean@5 cosine: 0.569848
+====================================================================================================
+
+====================================================================================================
+Technique: semantic_95
+Question: Q3 - What is the planned enrollment and trial phase of the Arrowhead Pharmaceuticals study in obesity and type 2 diabetes?
+Expected source: NCT06937203.txt
+Query embedding dimension: 384
+Query embedding first 8 values: [0.05704692378640175, 0.000649439578410238, -0.010042190551757812, 0.06667398661375046, 0.024496885016560555, 0.014385819435119629, -0.07617654651403427, 0.08285562694072723]
+Query vector shape: (384,)
+Document vectors shape: (5, 384)
+Retrieval latency: 2.211 ms
+Recall@5: 1
+----------------------------------------------------------------------------------------------------
+Rank  Store       Cosine      Length    Source                Preview
+----------------------------------------------------------------------------------------------------
+1     0.580185    0.574956    1084      NCT06937203.txt       NCT Number: NCT06937203 Title: A First-In-Human Study of ARO-ALK7 in Adults With Obesity With and Without Type 2 Diabetes Mellitus Official Title: A Phase 1/2A 
+2     0.554860    0.496876    1272      NCT07296484.txt       NCT Number: NCT07296484 Title: Trial Against INtractable Type 2 Diabetes (CAPTAIN-T2D) Official Title: Clofutriben And Placebo Phase 2 Trial Against INtractable
+3     0.510297    0.502060    639       NCT07623525.txt       Across all study parts, participants are randomized using an interactive response system, and study treatment is administered under double-blind conditions. A S
+4     0.506787    0.457098    2305      NCT06937203.txt       Subcutaneous (SC) injection - DRUG: Placebo. calculated volume to match active treatment by SC injection Eligibility Criteria: Inclusion Criteria: * Obesity, de
+5     0.497115    0.520193    1395      NCT04024631.txt       Subjects will undergo a whole body DXA scan for assessment of adiposity index and body fat distribution. Eligibility Criteria: Inclusion Criteria: * Age 10-70 y
+----------------------------------------------------------------------------------------------------
+Top-1 cosine: 0.574956
+Mean@5 cosine: 0.510237
+====================================================================================================
+
+====================================================================================================
+Technique: semantic_95
+Question: Q4 - What is the minimum age requirement for the lung cancer genetic analysis study sponsored by Massachusetts General Hospital?
+Expected source: NCT00471978.txt
+Query embedding dimension: 384
+Query embedding first 8 values: [0.025558074936270714, 0.06208902224898338, -0.059946607798337936, -0.04336759075522423, -0.04121971130371094, 0.01306072622537613, -0.13941222429275513, 0.04706212878227234]
+Query vector shape: (384,)
+Document vectors shape: (5, 384)
+Retrieval latency: 2.221 ms
+Recall@5: 1
+----------------------------------------------------------------------------------------------------
+Rank  Store       Cosine      Length    Source                Preview
+----------------------------------------------------------------------------------------------------
+1     0.700266    0.708671    376       NCT07465848.txt       * Vulnerable population, for example, minors, prisoners, pregnant women, adults physically or mentally incapable of giving consent. Minimum Age: 45 Years Maximu
+2     0.659558    0.645703    856       NCT05991193.txt       * Provision of fully informed consent prior to any study specific procedures. * Patient with EGFR 19Del or L858R mutation diagnosed histologically or cytologica
+3     0.610182    0.618449    1228      NCT00471978.txt       Blood samples are collected from patients and controls. Samples are analyzed by polymerase chain reaction for gene polymorphisms. Genes to be studied include GS
+4     0.590491    0.535254    722       NCT06878274.txt       11. Postoperative lung function examination: FEV1 \> 1 L (or greater than 35% expected value) Exclusion Criteria: 1. Pregnant individuals 2. Previous chest radi
+5     0.586837    0.586410    4104      NCT06646471.txt       NCT Number: NCT06646471 Title: PROspective Master-protocol for Evaluation of Systemic THErapeutics in Elderly With Thoracic Malignancies Official Title: PROspec
+----------------------------------------------------------------------------------------------------
+Top-1 cosine: 0.708671
+Mean@5 cosine: 0.618898
+====================================================================================================
+
+====================================================================================================
+Technique: semantic_95
+Question: Q5 - Which study reports resistant hypertension and mortality outcomes over a ten-year follow-up period?
+Expected source: NCT06160921.txt
+Query embedding dimension: 384
+Query embedding first 8 values: [-0.029272854328155518, 0.05313964560627937, -0.033551134169101715, 0.037281934171915054, 0.060999445617198944, 0.04610908403992653, -0.15335802733898163, 0.04400951787829399]
+Query vector shape: (384,)
+Document vectors shape: (5, 384)
+Retrieval latency: 2.266 ms
+Recall@5: 1
+----------------------------------------------------------------------------------------------------
+Rank  Store       Cosine      Length    Source                Preview
+----------------------------------------------------------------------------------------------------
+1     0.672191    0.645509    784       NCT06160921.txt       Interventions: - OTHER: Standard therapy. Individualized blood pressure reduction program Eligibility Criteria: Inclusion Criteria: * A patient diagnosed with p
+2     0.547008    0.517197    1526      NCT06160921.txt       NCT Number: NCT06160921 Title: Prognostic Model of Hypertension Official Title: Prognostic Model of Hypertension Lead Sponsor: Xinjiang Medical University Overa
+3     0.533770    0.544332    149       NCT06394934.txt       2. Diagnosed with hypertension. 3. Regular use of antihypertensive medication for at least two years. 4. Access to a home blood pressure monitor. 5.
+4     0.508161    0.498960    3492      NCT05826925.txt       NCT Number: NCT05826925 Title: Optimizing Cardiovascular Preventive Care for Women Following Hypertensive Disorders of Pregnancy Official Title: Optimizing Card
+5     0.501217    0.493567    1702      NCT07599579.txt       NCT Number: NCT07599579 Title: Mobile Health Program for Post-Preeclampsia Hypertension Official Title: Multilevel Mobile Health Program to Improve Hypertension
+----------------------------------------------------------------------------------------------------
+Top-1 cosine: 0.645509
+Mean@5 cosine: 0.539913
+====================================================================================================
+
+####################################################################################################
+Building technique: sentence_window
+####################################################################################################
+Chunks: 3233
+Average chunk length: 169.58 characters
+Chunking time: 0.087 seconds
+Generating embeddings:   0%|          | 0/2048 [00:00<?, ?it/s]Generating embeddings:   2%|▏         | 40/2048 [00:00<00:05, 359.61it/s]Generating embeddings:   4%|▍         | 90/2048 [00:00<00:04, 432.04it/s]Generating embeddings:   7%|▋         | 150/2048 [00:00<00:03, 481.33it/s]Generating embeddings:  10%|▉         | 199/2048 [00:00<00:03, 468.57it/s]Generating embeddings:  12%|█▏        | 246/2048 [00:00<00:04, 425.14it/s]Generating embeddings:  15%|█▍        | 300/2048 [00:00<00:03, 439.00it/s]Generating embeddings:  18%|█▊        | 360/2048 [00:00<00:03, 461.99it/s]Generating embeddings:  21%|██        | 420/2048 [00:00<00:03, 497.42it/s]Generating embeddings:  23%|██▎       | 471/2048 [00:01<00:03, 484.41it/s]Generating embeddings:  26%|██▌       | 530/2048 [00:01<00:02, 506.26it/s]Generating embeddings:  29%|██▉       | 590/2048 [00:01<00:02, 508.86it/s]Generating embeddings:  32%|███▏      | 650/2048 [00:01<00:02, 530.57it/s]Generating embeddings:  35%|███▍      | 710/2048 [00:01<00:02, 549.62it/s]Generating embeddings:  37%|███▋      | 766/2048 [00:01<00:02, 536.63it/s]Generating embeddings:  40%|████      | 820/2048 [00:01<00:02, 474.34it/s]Generating embeddings:  42%|████▏     | 869/2048 [00:01<00:02, 448.02it/s]Generating embeddings:  45%|████▍     | 915/2048 [00:01<00:02, 435.86it/s]Generating embeddings:  47%|████▋     | 960/2048 [00:02<00:02, 416.27it/s]Generating embeddings:  49%|████▉     | 1010/2048 [00:02<00:02, 414.13it/s]Generating embeddings:  52%|█████▏    | 1060/2048 [00:02<00:02, 411.79it/s]Generating embeddings:  54%|█████▍    | 1110/2048 [00:02<00:02, 433.00it/s]Generating embeddings:  57%|█████▋    | 1160/2048 [00:02<00:01, 449.25it/s]Generating embeddings:  60%|█████▉    | 1220/2048 [00:02<00:01, 479.79it/s]Generating embeddings:  63%|██████▎   | 1290/2048 [00:02<00:01, 523.25it/s]Generating embeddings:  66%|██████▌   | 1343/2048 [00:02<00:01, 517.71it/s]Generating embeddings:  68%|██████▊   | 1400/2048 [00:02<00:01, 519.25it/s]Generating embeddings:  71%|███████   | 1453/2048 [00:03<00:01, 497.61it/s]Generating embeddings:  74%|███████▎  | 1510/2048 [00:03<00:01, 483.35it/s]Generating embeddings:  76%|███████▌  | 1560/2048 [00:03<00:01, 480.14it/s]Generating embeddings:  79%|███████▊  | 1610/2048 [00:03<00:00, 472.88it/s]Generating embeddings:  81%|████████  | 1660/2048 [00:03<00:00, 466.82it/s]Generating embeddings:  84%|████████▍ | 1720/2048 [00:03<00:00, 495.93it/s]Generating embeddings:  86%|████████▋ | 1770/2048 [00:03<00:00, 490.02it/s]Generating embeddings:  89%|████████▉ | 1820/2048 [00:03<00:00, 483.99it/s]Generating embeddings:  92%|█████████▏| 1880/2048 [00:03<00:00, 500.81it/s]Generating embeddings:  95%|█████████▍| 1940/2048 [00:04<00:00, 514.00it/s]Generating embeddings:  97%|█████████▋| 1992/2048 [00:04<00:00, 489.20it/s]Generating embeddings: 100%|██████████| 2048/2048 [00:04<00:00, 480.38it/s]
+Generating embeddings:   0%|          | 0/1185 [00:00<?, ?it/s]Generating embeddings:   3%|▎         | 40/1185 [00:00<00:02, 397.44it/s]Generating embeddings:   8%|▊         | 100/1185 [00:00<00:02, 491.41it/s]Generating embeddings:  13%|█▎        | 149/1185 [00:00<00:02, 457.84it/s]Generating embeddings:  17%|█▋        | 200/1185 [00:00<00:02, 461.14it/s]Generating embeddings:  22%|██▏       | 260/1185 [00:00<00:01, 487.75it/s]Generating embeddings:  26%|██▌       | 310/1185 [00:00<00:01, 465.51it/s]Generating embeddings:  30%|███       | 360/1185 [00:00<00:01, 468.47it/s]Generating embeddings:  35%|███▌      | 420/1185 [00:00<00:01, 497.44it/s]Generating embeddings:  41%|████      | 480/1185 [00:00<00:01, 520.98it/s]Generating embeddings:  46%|████▌     | 540/1185 [00:01<00:01, 537.61it/s]Generating embeddings:  51%|█████     | 600/1185 [00:01<00:01, 509.71it/s]Generating embeddings:  55%|█████▌    | 652/1185 [00:01<00:01, 498.52it/s]Generating embeddings:  59%|█████▉    | 703/1185 [00:01<00:00, 491.99it/s]Generating embeddings:  64%|██████▎   | 753/1185 [00:01<00:00, 473.69it/s]Generating embeddings:  68%|██████▊   | 801/1185 [00:01<00:00, 449.71it/s]Generating embeddings:  72%|███████▏  | 850/1185 [00:01<00:00, 437.75it/s]Generating embeddings:  77%|███████▋  | 910/1185 [00:01<00:00, 471.90it/s]Generating embeddings:  81%|████████  | 960/1185 [00:01<00:00, 476.46it/s]Generating embeddings:  85%|████████▌ | 1010/1185 [00:02<00:00, 454.53it/s]Generating embeddings:  89%|████████▉ | 1060/1185 [00:02<00:00, 453.07it/s]Generating embeddings:  94%|█████████▎| 1110/1185 [00:02<00:00, 461.83it/s]Generating embeddings:  99%|█████████▊| 1170/1185 [00:02<00:00, 485.06it/s]Generating embeddings: 100%|██████████| 1185/1185 [00:02<00:00, 476.80it/s]
+Indexing time: 7.109 seconds
+
+====================================================================================================
+Technique: sentence_window
+Question: Q1 - Which study examines germline polymorphisms in DNA repair genes such as GSTP1, GSTM1, and ERCC2 in relation to lung cancer risk, and over what time frame is its primary outcome measured?
+Expected source: NCT00471978.txt
+Query embedding dimension: 384
+Query embedding first 8 values: [-0.030549421906471252, 0.009654760360717773, 0.007370664272457361, -0.04916924238204956, 0.01927119493484497, 0.020461520180106163, -0.03012298047542572, 0.11021419614553452]
+Query vector shape: (384,)
+Document vectors shape: (5, 384)
+Retrieval latency: 24.041 ms
+Recall@5: 1
+----------------------------------------------------------------------------------------------------
+Rank  Store       Cosine      Length    Source                Preview
+----------------------------------------------------------------------------------------------------
+1     0.753378    0.720197    208       NCT00471978.txt       * Assess the role of germline polymorphisms in DNA repair genes, p53 pathway genes, and a matrix metalloproteinase gene (tumor invasion factor) in lung-cancer r
+                                                              Window: It may also help the study of cancer in the future. PURPOSE: This clinical trial is analyzing the DNA in blood and tissue samples from patients with lung cancer
+2     0.660034    0.631237    128       NCT00471978.txt       Detailed Description: OBJECTIVES: * Assess the role of genetic polymorphisms in lung-cancer risk in patients with lung cancer.
+                                                              Window: NCT Number: NCT00471978 Title: DNA Analysis of Blood and Tissue from Patients with Lung Cancer Official Title: Molecular and Genetic Analysis of Lung Cancer Lea
+3     0.598142    0.586016    172       NCT00471978.txt       * Assess the role of genetic polymorphisms in modifying the diet-lung cancer risk association (gene-diet and exploratory gene-gender-diet and gene-gene-diet int
+                                                              Window: Detailed Description: OBJECTIVES: * Assess the role of genetic polymorphisms in lung-cancer risk in patients with lung cancer. * Assess the role of germline pol
+4     0.596661    0.485549    179       NCT00471978.txt       Minimum Age: 18 Years Maximum Age: 120 Years Sex: ALL Primary Outcome Measures: - Metabolic polymorphisms [Time Frame: 10 years] to compare differences among lu
+                                                              Window: Total enrollment to reach 15,000. Interventions: Eligibility Criteria: DISEASE CHARACTERISTICS: * Patient: * Newly diagnosed primary lung cancer * Patient at Ma
+5     0.591925    0.527198    128       NCT00471978.txt       * Assess the role of polymorphisms on the risk of developing specific histologic subtypes of lung cancer in case-only analyses.
+                                                              Window: * Assess the role of germline polymorphisms in DNA repair genes, p53 pathway genes, and a matrix metalloproteinase gene (tumor invasion factor) in lung-cancer r
+----------------------------------------------------------------------------------------------------
+Top-1 cosine: 0.720197
+Mean@5 cosine: 0.590039
+====================================================================================================
+
+====================================================================================================
+Technique: sentence_window
+Question: Q2 - In the ARV-6723 dose escalation study, over how many days after the first administration are dose-limiting toxicities assessed?
+Expected source: NCT07749586.txt
+Query embedding dimension: 384
+Query embedding first 8 values: [0.012151692993938923, -0.03523905947804451, -0.038597285747528076, 0.03076348826289177, 0.01728588156402111, -0.06552444398403168, -0.016129588708281517, 0.08212193846702576]
+Query vector shape: (384,)
+Document vectors shape: (5, 384)
+Retrieval latency: 24.290 ms
+Recall@5: 1
+----------------------------------------------------------------------------------------------------
+Rank  Store       Cosine      Length    Source                Preview
+----------------------------------------------------------------------------------------------------
+1     0.806447    0.800927    351       NCT07749586.txt       Minimum Age: 18 Years Maximum Age: Sex: ALL Primary Outcome Measures: - Part A1: Number of Dose-Limiting Toxicities (DLTs) of ARV-6723 [Time Frame: 21 days from
+                                                              Window: * Prior treatment with any HPK1-targeting agent * Systemic anti-cancer therapy or radiation therapy within 14 days prior to study treatment start. * Current use
+2     0.700750    0.713428    437       NCT07749586.txt       - Part A1: Number of Participants With Adverse Events (AEs) [Time Frame: From the first dose of ARV-6723 through at least 28 days after the last dose (up to app
+                                                              Window: * Current use of any prohibited concomitant medication(s) or herbal supplements which cannot be discontinued, prior to start of study intervention and for the d
+3     0.688058    0.721727    420       NCT07749586.txt       - Part A2: Number of Participants With AEs [Time Frame: From the first dose of ARV-6723 through at least 28 days after the last dose (up to approximately 4.7 ye
+                                                              Window: * Baseline (screening) standard 12-lead electrocardiogram (ECG) that demonstrates clinically relevant abnormalities that may affect participant safety or interp
+4     0.664527    0.651038    243       NCT07623525.txt       - Incidence of Dose-Limiting Toxicities (DLTs) - Part A (Single Dose) [Time Frame: From first dose through Day 28] Number and proportion of participants experie
+                                                              Window: Sterile normal saline (0.9% NaCl) administered subcutaneously in volumes matched to DIAG723 to maintain study blinding. Eligibility Criteria: Inclusion Criteria
+5     0.662549    0.645407    191       NCT06639191.txt       Minimum Age: 18 Years Maximum Age: Sex: ALL Primary Outcome Measures: - Primary Endpoint - rate of dose limiting toxicities [Time Frame: From first dose to a mi
+                                                              Window: Severe skin diseases requiring systemic anti-inflammatory treatment, including plaque psoriasis, Stevens Johnsons syndrome or dermatomyositis. 8. A known histor
+----------------------------------------------------------------------------------------------------
+Top-1 cosine: 0.800927
+Mean@5 cosine: 0.706505
+====================================================================================================
+
+====================================================================================================
+Technique: sentence_window
+Question: Q3 - What is the planned enrollment and trial phase of the Arrowhead Pharmaceuticals study in obesity and type 2 diabetes?
+Expected source: NCT06937203.txt
+Query embedding dimension: 384
+Query embedding first 8 values: [0.05704692378640175, 0.000649439578410238, -0.010042190551757812, 0.06667398661375046, 0.024496885016560555, 0.014385819435119629, -0.07617654651403427, 0.08285562694072723]
+Query vector shape: (384,)
+Document vectors shape: (5, 384)
+Retrieval latency: 24.339 ms
+Recall@5: 1
+----------------------------------------------------------------------------------------------------
+Rank  Store       Cosine      Length    Source                Preview
+----------------------------------------------------------------------------------------------------
+1     0.599353    0.536061    441       NCT07296484.txt       NCT Number: NCT07296484 Title: Trial Against INtractable Type 2 Diabetes (CAPTAIN-T2D) Official Title: Clofutriben And Placebo Phase 2 Trial Against INtractable
+                                                              Window: NCT Number: NCT07296484 Title: Trial Against INtractable Type 2 Diabetes (CAPTAIN-T2D) Official Title: Clofutriben And Placebo Phase 2 Trial Against INtractable
+2     0.594625    0.537965    855       NCT06937203.txt       for any indication within 6 months prior to Screening * Use of non-GLP-1R medications for weight loss within 3 months prior to Screening, including but not limi
+                                                              Window: Subcutaneous (SC) injection - DRUG: Placebo. calculated volume to match active treatment by SC injection Eligibility Criteria: Inclusion Criteria: * Obesity, de
+3     0.580185    0.574956    1027      NCT06937203.txt       NCT Number: NCT06937203 Title: A First-In-Human Study of ARO-ALK7 in Adults With Obesity With and Without Type 2 Diabetes Mellitus Official Title: A Phase 1/2A 
+                                                              Window: NCT Number: NCT06937203 Title: A First-In-Human Study of ARO-ALK7 in Adults With Obesity With and Without Type 2 Diabetes Mellitus Official Title: A Phase 1/2A 
+4     0.540817    0.544522    279       NCT06323538.txt       In order to prospectively investigate links between diet and the later occurrence of common diseases such as type 2 diabetes, cardiovascular diseases and cancer
+                                                              Window: Of particular importance is the dietary assessment of novel vegan and vegetarian foods, thus an app adapted to the needs of this study was developed. The charac
+5     0.540615    0.570499    259       NCT07588438.txt       Study Design and Long-Term Follow-Up The study is structured as a 52-week prospective cohort investigation, a duration that exceeds most regional observational 
+                                                              Window: Detailed Description: Innovation and Regional Significance This study represents a pioneering milestone as the first prospective, long-term real-world evidence 
+----------------------------------------------------------------------------------------------------
+Top-1 cosine: 0.574956
+Mean@5 cosine: 0.552801
+====================================================================================================
+
+====================================================================================================
+Technique: sentence_window
+Question: Q4 - What is the minimum age requirement for the lung cancer genetic analysis study sponsored by Massachusetts General Hospital?
+Expected source: NCT00471978.txt
+Query embedding dimension: 384
+Query embedding first 8 values: [0.025558074936270714, 0.06208902224898338, -0.059946607798337936, -0.04336759075522423, -0.04121971130371094, 0.01306072622537613, -0.13941222429275513, 0.04706212878227234]
+Query vector shape: (384,)
+Document vectors shape: (5, 384)
+Retrieval latency: 24.101 ms
+Recall@5: 1
+----------------------------------------------------------------------------------------------------
+Rank  Store       Cosine      Length    Source                Preview
+----------------------------------------------------------------------------------------------------
+1     0.720796    0.708041    210       NCT07465848.txt       Minimum Age: 45 Years Maximum Age: Sex: ALL Primary Outcome Measures: - To determine the risk of developing lung cancer, expressed as a percentage, in order to 
+                                                              Window: * Patient with severe liver disease, defined as Child-Pugh C. * Active infection, or treated less than 4 weeks ago. * Vulnerable population, for example, minors
+2     0.671756    0.660703    475       NCT05979818.txt       Eligibility Criteria: Inclusion Criteria: * Sign a written informed consent prior to any research-related procedure * Age ≥18 years and ≤ 75 years old * ECOG PS
+                                                              Window: - DRUG: Chemotherapy. Platinum-based chemotherapy: For non-squamous cell carcinoma options: carboplatin/cisplatin + pemetrexed; For squamous cell carcinoma: car
+3     0.670364    0.623400    348       NCT00471978.txt       Interventions: Eligibility Criteria: DISEASE CHARACTERISTICS: * Patient: * Newly diagnosed primary lung cancer * Patient at Massachusetts General Hospital (MGH)
+                                                              Window: Patients and controls complete questionnaires about diet, medical history, and occupational/environmental history. PROJECTED ACCRUAL: A total of 3,400 patients 
+4     0.653447    0.724010    179       NCT00471978.txt       Minimum Age: 18 Years Maximum Age: 120 Years Sex: ALL Primary Outcome Measures: - Metabolic polymorphisms [Time Frame: 10 years] to compare differences among lu
+                                                              Window: Total enrollment to reach 15,000. Interventions: Eligibility Criteria: DISEASE CHARACTERISTICS: * Patient: * Newly diagnosed primary lung cancer * Patient at Ma
+5     0.642430    0.662658    406       NCT05704920.txt       * vulnerable people: adults under guardianship, adults under curatorship medical and/or psychiatric problems of sufficient severity to limit full adherence to t
+                                                              Window: Detailed Description: Interventions: - OTHER: IA. The multidisciplinary team meeting discussion is informed of the AI-based analysis of their chest computed tom
+----------------------------------------------------------------------------------------------------
+Top-1 cosine: 0.724010
+Mean@5 cosine: 0.675762
+====================================================================================================
+
+====================================================================================================
+Technique: sentence_window
+Question: Q5 - Which study reports resistant hypertension and mortality outcomes over a ten-year follow-up period?
+Expected source: NCT06160921.txt
+Query embedding dimension: 384
+Query embedding first 8 values: [-0.029272854328155518, 0.05313964560627937, -0.033551134169101715, 0.037281934171915054, 0.060999445617198944, 0.04610908403992653, -0.15335802733898163, 0.04400951787829399]
+Query vector shape: (384,)
+Document vectors shape: (5, 384)
+Retrieval latency: 23.545 ms
+Recall@5: 1
+----------------------------------------------------------------------------------------------------
+Rank  Store       Cosine      Length    Source                Preview
+----------------------------------------------------------------------------------------------------
+1     0.666340    0.603529    742       NCT06160921.txt       Individualized blood pressure reduction program Eligibility Criteria: Inclusion Criteria: * A patient diagnosed with primary hypertension who was admitted to th
+                                                              Window: Treatment complications, hospitalization costs, and end-of-life events (death, major adverse cardiac events, mild adverse cardiovascular events) in patients wit
+2     0.587108    0.558714    214       NCT06642246.txt       Participants will have a recent diagnosis of essential hypertension, based on clinical ambulatory blood pressure monitoring, with initial treatment targeting li
+                                                              Window: Investigators are developing a mobile platform to promote sleep in children that may have utility for treating pediatric essential hypertension. The overall obj
+3     0.575983    0.538922    287       NCT05252208.txt       This study involves a randomized controlled trial of 96 men and women presenting with either high-normal blood pressure (systolic 130 to 139 mmHg or diastolic 8
+                                                              Window: Additional recent studies show stretching can reduce arterial stiffness and sympathetic nervous system activation, suggesting physiological mechanisms by which 
+4     0.573829    0.500198    493       NCT06160921.txt       Treatment complications, hospitalization costs, and end-of-life events (death, major adverse cardiac events, mild adverse cardiovascular events) in patients wit
+                                                              Window: NCT Number: NCT06160921 Title: Prognostic Model of Hypertension Official Title: Prognostic Model of Hypertension Lead Sponsor: Xinjiang Medical University Overa
+5     0.561234    0.465448    258       NCT05252208.txt       Lead Sponsor: University of Saskatchewan Overall Status: RECRUITING Start Date: 2022-03-28 Study Type: INTERVENTIONAL Phases: NA Enrollment: 96 Conditions: Hype
+                                                              Window: NCT Number: NCT05252208 Title: Stretching vs Walking for Lowering Blood Pressure Official Title: Is Stretching Superior to Aerobic Training for Reducing Blood P
+----------------------------------------------------------------------------------------------------
+Top-1 cosine: 0.603529
+Mean@5 cosine: 0.533362
+====================================================================================================
+
+####################################################################################################
+Building technique: semantic_tuned_80
+####################################################################################################
+Chunks: 750
+Average chunk length: 731.02 characters
+Chunking time: 7.642 seconds
+Generating embeddings:   0%|          | 0/750 [00:00<?, ?it/s]Generating embeddings:   5%|▌         | 40/750 [00:00<00:02, 309.78it/s]Generating embeddings:  11%|█         | 80/750 [00:00<00:02, 310.39it/s]Generating embeddings:  16%|█▌        | 120/750 [00:00<00:02, 311.63it/s]Generating embeddings:  21%|██▏       | 160/750 [00:00<00:01, 315.78it/s]Generating embeddings:  27%|██▋       | 200/750 [00:00<00:01, 313.31it/s]Generating embeddings:  32%|███▏      | 240/750 [00:00<00:01, 312.64it/s]Generating embeddings:  37%|███▋      | 280/750 [00:00<00:01, 312.14it/s]Generating embeddings:  43%|████▎     | 320/750 [00:01<00:01, 312.63it/s]Generating embeddings:  48%|████▊     | 360/750 [00:01<00:01, 312.20it/s]Generating embeddings:  53%|█████▎    | 400/750 [00:01<00:01, 321.62it/s]Generating embeddings:  59%|█████▊    | 440/750 [00:01<00:00, 318.20it/s]Generating embeddings:  64%|██████▍   | 480/750 [00:01<00:00, 316.75it/s]Generating embeddings:  69%|██████▉   | 520/750 [00:01<00:00, 314.92it/s]Generating embeddings:  75%|███████▍  | 560/750 [00:01<00:00, 313.89it/s]Generating embeddings:  80%|████████  | 600/750 [00:01<00:00, 313.67it/s]Generating embeddings:  85%|████████▌ | 640/750 [00:02<00:00, 312.81it/s]Generating embeddings:  91%|█████████ | 680/750 [00:02<00:00, 312.56it/s]Generating embeddings:  96%|█████████▌| 720/750 [00:02<00:00, 311.94it/s]Generating embeddings: 100%|██████████| 750/750 [00:02<00:00, 313.57it/s]
+Indexing time: 2.447 seconds
+
+====================================================================================================
+Technique: semantic_tuned_80
+Question: Q1 - Which study examines germline polymorphisms in DNA repair genes such as GSTP1, GSTM1, and ERCC2 in relation to lung cancer risk, and over what time frame is its primary outcome measured?
+Expected source: NCT00471978.txt
+Query embedding dimension: 384
+Query embedding first 8 values: [-0.030549421906471252, 0.009654760360717773, 0.007370664272457361, -0.04916924238204956, 0.01927119493484497, 0.020461520180106163, -0.03012298047542572, 0.11021419614553452]
+Query vector shape: (384,)
+Document vectors shape: (5, 384)
+Retrieval latency: 5.974 ms
+Recall@5: 1
+----------------------------------------------------------------------------------------------------
+Rank  Store       Cosine      Length    Source                Preview
+----------------------------------------------------------------------------------------------------
+1     0.640407    0.586228    1661      NCT00471978.txt       NCT Number: NCT00471978 Title: DNA Analysis of Blood and Tissue from Patients with Lung Cancer Official Title: Molecular and Genetic Analysis of Lung Cancer Lea
+2     0.591915    0.557017    357       NCT00471978.txt       Blood samples are collected from patients and controls. Samples are analyzed by polymerase chain reaction for gene polymorphisms. Genes to be studied include GS
+3     0.489124    0.435044    643       NCT00471978.txt       Total enrollment to reach 15,000. Interventions: Eligibility Criteria: DISEASE CHARACTERISTICS: * Patient: * Newly diagnosed primary lung cancer * Patient at Ma
+4     0.482253    0.461450    1024      NCT07465848.txt       NCT Number: NCT07465848 Title: Prospective Multicentre Study for the Application of Telomere Measurement Technology as a Tool for Lung Cancer Diagnosis Official
+5     0.453349    0.436038    856       NCT05991193.txt       * Provision of fully informed consent prior to any study specific procedures. * Patient with EGFR 19Del or L858R mutation diagnosed histologically or cytologica
+----------------------------------------------------------------------------------------------------
+Top-1 cosine: 0.586228
+Mean@5 cosine: 0.495156
+====================================================================================================
+
+====================================================================================================
+Technique: semantic_tuned_80
+Question: Q2 - In the ARV-6723 dose escalation study, over how many days after the first administration are dose-limiting toxicities assessed?
+Expected source: NCT07749586.txt
+Query embedding dimension: 384
+Query embedding first 8 values: [0.012151692993938923, -0.03523905947804451, -0.038597285747528076, 0.03076348826289177, 0.01728588156402111, -0.06552444398403168, -0.016129588708281517, 0.08212193846702576]
+Query vector shape: (384,)
+Document vectors shape: (5, 384)
+Retrieval latency: 5.748 ms
+Recall@5: 1
+----------------------------------------------------------------------------------------------------
+Rank  Store       Cosine      Length    Source                Preview
+----------------------------------------------------------------------------------------------------
+1     0.691659    0.740519    2163      NCT07749586.txt       * Baseline (screening) standard 12-lead electrocardiogram (ECG) that demonstrates clinically relevant abnormalities that may affect participant safety or interp
+2     0.656642    0.630474    482       NCT07623525.txt       Part A (Single Ascending DoseDose in HHT): Part A is a dose-escalation phase evaluating ascending single-dose levels of DIAG723 administered subcutaneously in s
+3     0.621033    0.628936    1038      NCT05902988.txt       Detailed Description: This a first-in-human phase I/II study designed to assess the safety, tolerability and preliminary efficacy of VLS-1488 monotherapy and co
+4     0.612549    0.563885    300       NCT06639191.txt       1. Rate of Dose Limiting Toxicities, according to the definition of (S)AEs according to the CTCAE version 5.0. 2. TEAEs, SAEs, clinically significant laboratory
+5     0.611306    0.661952    115       NCT06561685.txt       The study is conducted in two parts - phase Ia (dose-escalation) and phase Ib (dose-optimization, dose-expansion).
+----------------------------------------------------------------------------------------------------
+Top-1 cosine: 0.740519
+Mean@5 cosine: 0.645153
+====================================================================================================
+
+====================================================================================================
+Technique: semantic_tuned_80
+Question: Q3 - What is the planned enrollment and trial phase of the Arrowhead Pharmaceuticals study in obesity and type 2 diabetes?
+Expected source: NCT06937203.txt
+Query embedding dimension: 384
+Query embedding first 8 values: [0.05704692378640175, 0.000649439578410238, -0.010042190551757812, 0.06667398661375046, 0.024496885016560555, 0.014385819435119629, -0.07617654651403427, 0.08285562694072723]
+Query vector shape: (384,)
+Document vectors shape: (5, 384)
+Retrieval latency: 5.770 ms
+Recall@5: 1
+----------------------------------------------------------------------------------------------------
+Rank  Store       Cosine      Length    Source                Preview
+----------------------------------------------------------------------------------------------------
+1     0.580185    0.574956    1084      NCT06937203.txt       NCT Number: NCT06937203 Title: A First-In-Human Study of ARO-ALK7 in Adults With Obesity With and Without Type 2 Diabetes Mellitus Official Title: A Phase 1/2A 
+2     0.554860    0.496876    1272      NCT07296484.txt       NCT Number: NCT07296484 Title: Trial Against INtractable Type 2 Diabetes (CAPTAIN-T2D) Official Title: Clofutriben And Placebo Phase 2 Trial Against INtractable
+3     0.529402    0.533738    503       NCT07159282.txt       * The potential subject must agree to attend the weekly study visits required by the protocol. * The potential subject must be willing and able to participate i
+4     0.515168    0.492647    1597      NCT06683391.txt       Participants will undergo three distinct interventions, each designed to test a different amount and timing of CHO intake. Eligibility Criteria: Inclusion Crite
+5     0.510297    0.502060    639       NCT07623525.txt       Across all study parts, participants are randomized using an interactive response system, and study treatment is administered under double-blind conditions. A S
+----------------------------------------------------------------------------------------------------
+Top-1 cosine: 0.574956
+Mean@5 cosine: 0.520055
+====================================================================================================
+
+====================================================================================================
+Technique: semantic_tuned_80
+Question: Q4 - What is the minimum age requirement for the lung cancer genetic analysis study sponsored by Massachusetts General Hospital?
+Expected source: NCT00471978.txt
+Query embedding dimension: 384
+Query embedding first 8 values: [0.025558074936270714, 0.06208902224898338, -0.059946607798337936, -0.04336759075522423, -0.04121971130371094, 0.01306072622537613, -0.13941222429275513, 0.04706212878227234]
+Query vector shape: (384,)
+Document vectors shape: (5, 384)
+Retrieval latency: 5.706 ms
+Recall@5: 1
+----------------------------------------------------------------------------------------------------
+Rank  Store       Cosine      Length    Source                Preview
+----------------------------------------------------------------------------------------------------
+1     0.700266    0.708671    376       NCT07465848.txt       * Vulnerable population, for example, minors, prisoners, pregnant women, adults physically or mentally incapable of giving consent. Minimum Age: 45 Years Maximu
+2     0.696389    0.682098    643       NCT00471978.txt       Total enrollment to reach 15,000. Interventions: Eligibility Criteria: DISEASE CHARACTERISTICS: * Patient: * Newly diagnosed primary lung cancer * Patient at Ma
+3     0.671370    0.665543    1039      NCT07465848.txt       * Person with a current anatomopathologically confirmed diagnosis of small-cell or non-small cell lung cancer. * Not having received any oncological treatment p
+4     0.659558    0.645703    856       NCT05991193.txt       * Provision of fully informed consent prior to any study specific procedures. * Patient with EGFR 19Del or L858R mutation diagnosed histologically or cytologica
+5     0.591702    0.547152    457       NCT07465848.txt       * No diagnosis or suspicion of lung cancer. Exclusion Criteria: * History of any malignant neoplasm, except for subjects with tumors in localized stages who hav
+----------------------------------------------------------------------------------------------------
+Top-1 cosine: 0.708671
+Mean@5 cosine: 0.649833
+====================================================================================================
+
+====================================================================================================
+Technique: semantic_tuned_80
+Question: Q5 - Which study reports resistant hypertension and mortality outcomes over a ten-year follow-up period?
+Expected source: NCT06160921.txt
+Query embedding dimension: 384
+Query embedding first 8 values: [-0.029272854328155518, 0.05313964560627937, -0.033551134169101715, 0.037281934171915054, 0.060999445617198944, 0.04610908403992653, -0.15335802733898163, 0.04400951787829399]
+Query vector shape: (384,)
+Document vectors shape: (5, 384)
+Retrieval latency: 5.748 ms
+Recall@5: 1
+----------------------------------------------------------------------------------------------------
+Rank  Store       Cosine      Length    Source                Preview
+----------------------------------------------------------------------------------------------------
+1     0.672191    0.645509    784       NCT06160921.txt       Interventions: - OTHER: Standard therapy. Individualized blood pressure reduction program Eligibility Criteria: Inclusion Criteria: * A patient diagnosed with p
+2     0.581892    0.528802    176       NCT07296484.txt       At Day 1 * No change in, or initiation of, medications for hypertension within 1 month prior to Day 1. Exclusion Criteria: * New-onset diabetes (onset \<1 year 
+3     0.558272    0.525731    385       NCT07599579.txt       * Children will be excluded as the study is only recruiting people who are 10-20 years postpartum. Minimum Age: 18 Years Maximum Age: Sex: FEMALE Primary Outcom
+4     0.547008    0.517197    1526      NCT06160921.txt       NCT Number: NCT06160921 Title: Prognostic Model of Hypertension Official Title: Prognostic Model of Hypertension Lead Sponsor: Xinjiang Medical University Overa
+5     0.532692    0.509125    509       NCT06642246.txt       * Speak, read, and write in English. Exclusion Criteria for Parents/Legal Guardians: \- Limited English proficiency Minimum Age: 13 Years Maximum Age: 18 Years 
+----------------------------------------------------------------------------------------------------
+Top-1 cosine: 0.645509
+Mean@5 cosine: 0.545273
+====================================================================================================
+
+====================================================================================================
+JSONL saved to: /Users/haozhewang/data260-8561/reports/hw03/raw/retrieval_results.jsonl
+Summary saved to: /Users/haozhewang/data260-8561/reports/hw03/raw/summary_metrics.csv
+Experiment finished: 2026-09-20T18:09:31-07:00
+Total elapsed time: 33.4 seconds
+====================================================================================================

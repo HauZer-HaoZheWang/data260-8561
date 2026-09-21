@@ -1,0 +1,103 @@
+{
+  "technique": "sentence_window",
+  "question_id": "Q3",
+  "question": "What is the planned enrollment and trial phase of the Arrowhead Pharmaceuticals study in obesity and type 2 diabetes?",
+  "expected_answer": "The planned enrollment is 150 participants, and the study is Phase 1 and Phase 2.",
+  "expected_source": "NCT06937203.txt",
+  "top_k": 5,
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "query_embedding_dimension": 384,
+  "query_embedding_first_8": [
+    0.05704692378640175,
+    0.000649439578410238,
+    -0.010042190551757812,
+    0.06667398661375046,
+    0.024496885016560555,
+    0.014385819435119629,
+    -0.07617654651403427,
+    0.08285562694072723
+  ],
+  "query_vector_shape": [
+    384
+  ],
+  "document_vectors_shape": [
+    5,
+    384
+  ],
+  "retrieval_latency_ms": 24.33924999786541,
+  "top_1_cosine": 0.5749556999286357,
+  "mean_at_k_cosine": 0.5528005641575098,
+  "recall_at_k": 1,
+  "results": [
+    {
+      "rank": 1,
+      "source_file": "NCT07296484.txt",
+      "store_score": 0.5993527453540594,
+      "cosine_similarity": 0.5360611414614491,
+      "chunk_length": 441,
+      "chunk_text": "NCT Number: NCT07296484\nTitle: Trial Against INtractable Type 2 Diabetes (CAPTAIN-T2D)\nOfficial Title: Clofutriben And Placebo Phase 2 Trial Against INtractable Type 2 Diabetes (CAPTAIN-T2D)\nLead Sponsor: Sparrow Pharmaceuticals\nOverall Status: RECRUITING\nStart Date: 2025-11-29\nStudy Type: INTERVENTIONAL\nPhases: PHASE2\nEnrollment: 1500\nConditions: Type 2 Diabetes, Cortisol Excess\n\nBrief Summary:\nCAPTAIN-T2D will take place in two parts. ",
+      "preview": "NCT Number: NCT07296484 Title: Trial Against INtractable Type 2 Diabetes (CAPTAIN-T2D) Official Title: Clofutriben And Placebo Phase 2 Trial Against INtractable",
+      "window_length": 1005,
+      "window_text": "NCT Number: NCT07296484\nTitle: Trial Against INtractable Type 2 Diabetes (CAPTAIN-T2D)\nOfficial Title: Clofutriben And Placebo Phase 2 Trial Against INtractable Type 2 Diabetes (CAPTAIN-T2D)\nLead Sponsor: Sparrow Pharmaceuticals\nOverall Status: RECRUITING\nStart Date: 2025-11-29\nStudy Type: INTERVENTIONAL\nPhases: PHASE2\nEnrollment: 1500\nConditions: Type 2 Diabetes, Cortisol Excess\n\nBrief Summary:\nCAPTAIN-T2D will take place in two parts.  Part 1 (Screening) will evaluate patients with type 2 diabetes and elevated cortisol risk factors for trial eligibility and the presence of elevated cortisol.  Participants deemed eligible from Part 1 will be randomized to either clofutriben or placebo in the double-blind (participant and investigator), dose-ranging, interventional Part 2 (Treatment).\n\n Detailed Description:\nCAPTAIN-T2D is a two-part, multicenter, randomized, double-blind, parallel group, placebo- controlled trial of the 11-hydroxysteroid dehydrogenase type 1 (HSD-1) inhibitor clofutriben. ",
+      "window_preview": "NCT Number: NCT07296484 Title: Trial Against INtractable Type 2 Diabetes (CAPTAIN-T2D) Official Title: Clofutriben And Placebo Phase 2 Trial Against INtractable",
+      "matches_expected_source": false
+    },
+    {
+      "rank": 2,
+      "source_file": "NCT06937203.txt",
+      "store_score": 0.5946248437204724,
+      "cosine_similarity": 0.5379648482203091,
+      "chunk_length": 855,
+      "chunk_text": "for any indication within 6 months prior to Screening\n* Use of non-GLP-1R medications for weight loss within 3 months prior to Screening, including but not limited to naltrexone/bupropion, orlistat, phentermine/topiramate, and other prescription or over-the-counter medication or supplement taken for weight loss purposes\n* Obesity attributable primarily in the Investigator's opinion to medication use, monogenic or endocrinologic disorders (other than polycystic ovary syndrome)\n* History of prior surgical or device-based therapy for obesity (including endoscopic bariatric procedures)\n* Use of medications or therapies strongly associated with weight gain, alterations in body composition, or increase in muscle mass, within 3 months prior to Screening\n* Type 1 diabetes mellitus\n\nNote: Additional inclusion/exclusion criteria may apply per protocol.\n",
+      "preview": "for any indication within 6 months prior to Screening * Use of non-GLP-1R medications for weight loss within 3 months prior to Screening, including but not limi",
+      "window_length": 2309,
+      "window_text": "Subcutaneous (SC) injection\n- DRUG: Placebo.  calculated volume to match active treatment by SC injection\n\nEligibility Criteria:\nInclusion Criteria:\n\n* Obesity, defined as body mass index (BMI) between 30-50 kilograms (kg)/square meter (m\\^2), inclusive, with weight at Screening not to exceed 159 kg (350 pounds \\[lbs\\])\n* At least one self-reported, unsuccessful attempt at weight loss with lifestyle modification\n* No abnormal finding of clinical relevance at Screening that could adversely impact participant safety during the study or adversely impact study results\n* Female participants of childbearing potential must agree to use highly effective contraception and male participants with female partners of childbearing potential must agree to use a condom during the study and for at least 90 days following the end of the study or last dose of study drug, whichever is later.  Participants must not donate sperm or eggs during the study for at least 90 days following the end of the study or last dose of study drug, whichever is later\n\nExclusion Criteria:\n\n* Self-reported (or documented) weight gain or loss \\>5% within 3 months prior to Screening\n* Use of glucagon-like peptide-1 receptor agonist (GLP-1RAs) (liraglutide, semaglutide, etc.)  for any indication within 6 months prior to Screening\n* Use of non-GLP-1R medications for weight loss within 3 months prior to Screening, including but not limited to naltrexone/bupropion, orlistat, phentermine/topiramate, and other prescription or over-the-counter medication or supplement taken for weight loss purposes\n* Obesity attributable primarily in the Investigator's opinion to medication use, monogenic or endocrinologic disorders (other than polycystic ovary syndrome)\n* History of prior surgical or device-based therapy for obesity (including endoscopic bariatric procedures)\n* Use of medications or therapies strongly associated with weight gain, alterations in body composition, or increase in muscle mass, within 3 months prior to Screening\n* Type 1 diabetes mellitus\n\nNote: Additional inclusion/exclusion criteria may apply per protocol.\n Minimum Age: 18 Years\nMaximum Age: 65 Years\nSex: ALL\n\nPrimary Outcome Measures:\n- Number of Participants with Treatment-Emergent Adverse Events (TEAEs) [Time Frame: Up to Day 253 End of Study (EOS)] ",
+      "window_preview": "Subcutaneous (SC) injection - DRUG: Placebo. calculated volume to match active treatment by SC injection Eligibility Criteria: Inclusion Criteria: * Obesity, de",
+      "matches_expected_source": true
+    },
+    {
+      "rank": 3,
+      "source_file": "NCT06937203.txt",
+      "store_score": 0.5801852750301946,
+      "cosine_similarity": 0.5749556999286357,
+      "chunk_length": 1027,
+      "chunk_text": "NCT Number: NCT06937203\nTitle: A First-In-Human Study of ARO-ALK7 in Adults With Obesity With and Without Type 2 Diabetes Mellitus\nOfficial Title: A Phase 1/2A Dose-Escalating Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of ARO-ALK7 in Adult Volunteers With Obesity With and Without Type 2 Diabetes Mellitus\nLead Sponsor: Arrowhead Pharmaceuticals\nOverall Status: RECRUITING\nStart Date: 2025-05-09\nStudy Type: INTERVENTIONAL\nPhases: PHASE1, PHASE2\nEnrollment: 150\nConditions: Obesity, Diabetes Mellitus, Type 2\n\nBrief Summary:\nThis is a Phase 1/2a double-blind dose-escalating study to evaluate the safety, tolerability, pharmacokinetics (PK), and pharmacodynamics (PD) of single and multiple doses of ARO-ALK7 in adult participants with obesity without Type 2 Diabetes Mellitus (T2DM) (Part 1), and the safety, tolerability, and PD of multiple doses of ARO-ALK7 in adult participants with obesity with and without T2DM, either as monotherapy or in combination with tirzepatide (Part 2).\n\n",
+      "preview": "NCT Number: NCT06937203 Title: A First-In-Human Study of ARO-ALK7 in Adults With Obesity With and Without Type 2 Diabetes Mellitus Official Title: A Phase 1/2A ",
+      "window_length": 1971,
+      "window_text": "NCT Number: NCT06937203\nTitle: A First-In-Human Study of ARO-ALK7 in Adults With Obesity With and Without Type 2 Diabetes Mellitus\nOfficial Title: A Phase 1/2A Dose-Escalating Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of ARO-ALK7 in Adult Volunteers With Obesity With and Without Type 2 Diabetes Mellitus\nLead Sponsor: Arrowhead Pharmaceuticals\nOverall Status: RECRUITING\nStart Date: 2025-05-09\nStudy Type: INTERVENTIONAL\nPhases: PHASE1, PHASE2\nEnrollment: 150\nConditions: Obesity, Diabetes Mellitus, Type 2\n\nBrief Summary:\nThis is a Phase 1/2a double-blind dose-escalating study to evaluate the safety, tolerability, pharmacokinetics (PK), and pharmacodynamics (PD) of single and multiple doses of ARO-ALK7 in adult participants with obesity without Type 2 Diabetes Mellitus (T2DM) (Part 1), and the safety, tolerability, and PD of multiple doses of ARO-ALK7 in adult participants with obesity with and without T2DM, either as monotherapy or in combination with tirzepatide (Part 2).\n\n Detailed Description:\n\n\nInterventions:\n- DRUG: ARO-ALK7.  Subcutaneous (SC) injection\n- DRUG: Placebo.  calculated volume to match active treatment by SC injection\n\nEligibility Criteria:\nInclusion Criteria:\n\n* Obesity, defined as body mass index (BMI) between 30-50 kilograms (kg)/square meter (m\\^2), inclusive, with weight at Screening not to exceed 159 kg (350 pounds \\[lbs\\])\n* At least one self-reported, unsuccessful attempt at weight loss with lifestyle modification\n* No abnormal finding of clinical relevance at Screening that could adversely impact participant safety during the study or adversely impact study results\n* Female participants of childbearing potential must agree to use highly effective contraception and male participants with female partners of childbearing potential must agree to use a condom during the study and for at least 90 days following the end of the study or last dose of study drug, whichever is later. ",
+      "window_preview": "NCT Number: NCT06937203 Title: A First-In-Human Study of ARO-ALK7 in Adults With Obesity With and Without Type 2 Diabetes Mellitus Official Title: A Phase 1/2A ",
+      "matches_expected_source": true
+    },
+    {
+      "rank": 4,
+      "source_file": "NCT06323538.txt",
+      "store_score": 0.5408167181519571,
+      "cosine_similarity": 0.5445221056162906,
+      "chunk_length": 279,
+      "chunk_text": "In order to prospectively investigate links between diet and the later occurrence of common diseases such as type 2 diabetes, cardiovascular diseases and cancer, the study participants should be followed up for at least 20 years if third-party funding is successfully acquired.\n\n",
+      "preview": "In order to prospectively investigate links between diet and the later occurrence of common diseases such as type 2 diabetes, cardiovascular diseases and cancer",
+      "window_length": 1403,
+      "window_text": "Of particular importance is the dietary assessment of novel vegan and vegetarian foods, thus an app adapted to the needs of this study was developed.  The characterisation of external and internal intakes of nutrients and contaminants within a particular diet will be examined.  Large epidemiological projects currently underway in Germany, such as the NAKO Health Study, are unable to answer these questions.  In order to prospectively investigate links between diet and the later occurrence of common diseases such as type 2 diabetes, cardiovascular diseases and cancer, the study participants should be followed up for at least 20 years if third-party funding is successfully acquired.\n\n The study is to be conducted in study centers at the Federal Institute for Risk Assessment (BfR), Berlin, the Max Rubner-Institut (MRI) in Karlsruhe, the Rheinische Friedrich-Wilhelms University in Bonn, the Friedrich Schiller University Jena, the Research Institute for Plant-Based Nutrition in Giessen, in cooperation with the Justus Liebig University Giessen and at the universities of Heidelberg, Regensburg and Vienna.  Furthermore, the basic examination includes measurements of body composition, bone health, cardiovascular risk factors, diabetes risk, contaminants and lifestyle.  Specific aspects of dietary behavior, physical activity and other lifestyle factors will be assessed using questionnaires. ",
+      "window_preview": "Of particular importance is the dietary assessment of novel vegan and vegetarian foods, thus an app adapted to the needs of this study was developed. The charac",
+      "matches_expected_source": false
+    },
+    {
+      "rank": 5,
+      "source_file": "NCT07588438.txt",
+      "store_score": 0.5406152775014231,
+      "cosine_similarity": 0.5704990255608644,
+      "chunk_length": 259,
+      "chunk_text": "Study Design and Long-Term Follow-Up\n\nThe study is structured as a 52-week prospective cohort investigation, a duration that exceeds most regional observational studies, allowing for the assessment of weight loss maintenance and long-term glycemic stability. ",
+      "preview": "Study Design and Long-Term Follow-Up The study is structured as a 52-week prospective cohort investigation, a duration that exceeds most regional observational ",
+      "window_length": 1355,
+      "window_text": "Detailed Description:\nInnovation and Regional Significance This study represents a pioneering milestone as the first prospective, long-term real-world evidence (RWE) investigation of tirzepatide in Paraguay.  While global randomized clinical trials have established efficacy within controlled environments, this research addresses a critical knowledge gap by evaluating the performance of dual GIP/GLP-1 receptor agonism within a South American cohort.  By documenting metabolic outcomes, safety, and adherence under routine clinical conditions-shaped by unique genetic, dietary, and socioeconomic factors-this project provides essential data for the regional medical community and sets a new benchmark for metabolic excellence in the region.\n\n Study Design and Long-Term Follow-Up\n\nThe study is structured as a 52-week prospective cohort investigation, a duration that exceeds most regional observational studies, allowing for the assessment of weight loss maintenance and long-term glycemic stability.  Participants are divided into two distinct metabolic profiles:\n\n* Cohort 1 (Obesity Focus): Adults with BMI \u226530 kg/m\u00b2 without T2DM.\n * Cohort 2 (Metabolic Synergy): Adults with T2DM, with or without obesity.  This dual-track approach allows for a comprehensive analysis of tirzepatide's pleiotropic effects across the spectrum of metabolic disease.\n\n",
+      "window_preview": "Detailed Description: Innovation and Regional Significance This study represents a pioneering milestone as the first prospective, long-term real-world evidence ",
+      "matches_expected_source": false
+    }
+  ],
+  "experiment_group": "main",
+  "chunk_count": 3233,
+  "avg_chunk_length_chars": 169.5836684194247,
+  "chunking_seconds": 0.08687533299962524,
+  "indexing_seconds": 7.109113708997029
+}

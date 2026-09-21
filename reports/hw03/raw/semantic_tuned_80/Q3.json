@@ -1,0 +1,103 @@
+{
+  "technique": "semantic_tuned_80",
+  "question_id": "Q3",
+  "question": "What is the planned enrollment and trial phase of the Arrowhead Pharmaceuticals study in obesity and type 2 diabetes?",
+  "expected_answer": "The planned enrollment is 150 participants, and the study is Phase 1 and Phase 2.",
+  "expected_source": "NCT06937203.txt",
+  "top_k": 5,
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "query_embedding_dimension": 384,
+  "query_embedding_first_8": [
+    0.05704692378640175,
+    0.000649439578410238,
+    -0.010042190551757812,
+    0.06667398661375046,
+    0.024496885016560555,
+    0.014385819435119629,
+    -0.07617654651403427,
+    0.08285562694072723
+  ],
+  "query_vector_shape": [
+    384
+  ],
+  "document_vectors_shape": [
+    5,
+    384
+  ],
+  "retrieval_latency_ms": 5.7697919983183965,
+  "top_1_cosine": 0.5749556999286357,
+  "mean_at_k_cosine": 0.5200552455749631,
+  "recall_at_k": 1,
+  "results": [
+    {
+      "rank": 1,
+      "source_file": "NCT06937203.txt",
+      "store_score": 0.5801852750301946,
+      "cosine_similarity": 0.5749556999286357,
+      "chunk_length": 1084,
+      "chunk_text": "NCT Number: NCT06937203\nTitle: A First-In-Human Study of ARO-ALK7 in Adults With Obesity With and Without Type 2 Diabetes Mellitus\nOfficial Title: A Phase 1/2A Dose-Escalating Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of ARO-ALK7 in Adult Volunteers With Obesity With and Without Type 2 Diabetes Mellitus\nLead Sponsor: Arrowhead Pharmaceuticals\nOverall Status: RECRUITING\nStart Date: 2025-05-09\nStudy Type: INTERVENTIONAL\nPhases: PHASE1, PHASE2\nEnrollment: 150\nConditions: Obesity, Diabetes Mellitus, Type 2\n\nBrief Summary:\nThis is a Phase 1/2a double-blind dose-escalating study to evaluate the safety, tolerability, pharmacokinetics (PK), and pharmacodynamics (PD) of single and multiple doses of ARO-ALK7 in adult participants with obesity without Type 2 Diabetes Mellitus (T2DM) (Part 1), and the safety, tolerability, and PD of multiple doses of ARO-ALK7 in adult participants with obesity with and without T2DM, either as monotherapy or in combination with tirzepatide (Part 2).\n\nDetailed Description:\n\n\nInterventions:\n- DRUG: ARO-ALK7. ",
+      "preview": "NCT Number: NCT06937203 Title: A First-In-Human Study of ARO-ALK7 in Adults With Obesity With and Without Type 2 Diabetes Mellitus Official Title: A Phase 1/2A ",
+      "window_length": 0,
+      "window_text": "",
+      "window_preview": "",
+      "matches_expected_source": true
+    },
+    {
+      "rank": 2,
+      "source_file": "NCT07296484.txt",
+      "store_score": 0.5548604297902326,
+      "cosine_similarity": 0.4968761294356977,
+      "chunk_length": 1272,
+      "chunk_text": "NCT Number: NCT07296484\nTitle: Trial Against INtractable Type 2 Diabetes (CAPTAIN-T2D)\nOfficial Title: Clofutriben And Placebo Phase 2 Trial Against INtractable Type 2 Diabetes (CAPTAIN-T2D)\nLead Sponsor: Sparrow Pharmaceuticals\nOverall Status: RECRUITING\nStart Date: 2025-11-29\nStudy Type: INTERVENTIONAL\nPhases: PHASE2\nEnrollment: 1500\nConditions: Type 2 Diabetes, Cortisol Excess\n\nBrief Summary:\nCAPTAIN-T2D will take place in two parts. Part 1 (Screening) will evaluate patients with type 2 diabetes and elevated cortisol risk factors for trial eligibility and the presence of elevated cortisol. Participants deemed eligible from Part 1 will be randomized to either clofutriben or placebo in the double-blind (participant and investigator), dose-ranging, interventional Part 2 (Treatment).\n\nDetailed Description:\nCAPTAIN-T2D is a two-part, multicenter, randomized, double-blind, parallel group, placebo- controlled trial of the 11-hydroxysteroid dehydrogenase type 1 (HSD-1) inhibitor clofutriben. The primary objectives of this trial are to characterize the relationship of clofutriben dose to improved glycemic control, and to identify one or more doses suitable for Phase 3 evaluation, in patients with T2D and elevated cortisol.\n\nThe trial consists of two parts.\n\n",
+      "preview": "NCT Number: NCT07296484 Title: Trial Against INtractable Type 2 Diabetes (CAPTAIN-T2D) Official Title: Clofutriben And Placebo Phase 2 Trial Against INtractable",
+      "window_length": 0,
+      "window_text": "",
+      "window_preview": "",
+      "matches_expected_source": false
+    },
+    {
+      "rank": 3,
+      "source_file": "NCT07159282.txt",
+      "store_score": 0.529401500531019,
+      "cosine_similarity": 0.5337375136326821,
+      "chunk_length": 503,
+      "chunk_text": "* The potential subject must agree to attend the weekly study visits required by the protocol.\n* The potential subject must be willing and able to participate in the informed consent process.\n* The potential subject must have participated in the CAMPX trial in the SOC only arm and NOT achieved complete closure by the 12-week endpoint.\n\nExclusion Criteria:\n\n* The potential subject is known to have a life expectancy of \\< 6 months.\n* The potential subject's target ulcer is not secondary to diabetes.\n",
+      "preview": "* The potential subject must agree to attend the weekly study visits required by the protocol. * The potential subject must be willing and able to participate i",
+      "window_length": 0,
+      "window_text": "",
+      "window_preview": "",
+      "matches_expected_source": false
+    },
+    {
+      "rank": 4,
+      "source_file": "NCT06683391.txt",
+      "store_score": 0.515167767498717,
+      "cosine_similarity": 0.4926468029600035,
+      "chunk_length": 1597,
+      "chunk_text": "Participants will undergo three distinct interventions, each designed to test a different amount and timing of CHO intake.\n\nEligibility Criteria:\nInclusion Criteria:\n\n* Adults aged 18 years and older\n* Clinical diagnosis of Type 1 diabetes for at least 1 year\n* Currently treated with multiple daily insulin injections (MDI), continuous subcutaneous insulin infusion (CSII), or automated insulin delivery (AID) systems\n* HbA1c level below 9.0%\n* Equal distribution of male and female participants, as well as MDI/CSII and AID users\n\nExclusion Criteria:\n\n* Gastroparesis\n* Significant cardiac rhythm abnormalities\n* Clinically significant microvascular complications such as nephropathy (eGFR \\< 40 ml/min) or severe proliferative retinopathy\n* Diagnosis of epilepsy\n* Pregnancy or currently breastfeeding\n* Severe hypoglycemic episode within 1 month prior to inclusion\n* Macrovascular events or uncorrected hypokalemia (K+ \\< 3.5 mmol/L) within 3 months prior to inclusion\n* Anticipated treatment changes during the trial period\n* Inability to provide informed consent\nMinimum Age: 18 Years\nMaximum Age: \nSex: ALL\n\nPrimary Outcome Measures:\n- Percentage of Hypoglycemia Prevention with 16g CHO at 5.0 mmol/L [Time Frame: 60 minutes] The primary outcome will measure the percentage of hypoglycemic episodes prevented when participants consume 16 grams of carbohydrate (CHO) at a proactive threshold of 5.0 mmol/L, as indicated by continuous glucose monitoring (CGM) readings. Prevention is defined by the avoidance of any CGM interstitial glucose reading below 4.0 mmol/L following the CHO intake. ",
+      "preview": "Participants will undergo three distinct interventions, each designed to test a different amount and timing of CHO intake. Eligibility Criteria: Inclusion Crite",
+      "window_length": 0,
+      "window_text": "",
+      "window_preview": "",
+      "matches_expected_source": false
+    },
+    {
+      "rank": 5,
+      "source_file": "NCT07623525.txt",
+      "store_score": 0.5102968341882071,
+      "cosine_similarity": 0.5020600819177966,
+      "chunk_length": 639,
+      "chunk_text": "Across all study parts, participants are randomized using an interactive response system, and study treatment is administered under double-blind conditions. A Safety Review Committee and an independent Data Safety Monitoring Board provide ongoing review of safety data and support dose-escalation and progression decisions throughout the study. Dose escalation and cohort progression are guided by predefined safety criteria and overall risk-benefit assessment.\n\nAll doses are administered by subcutaneous injection, and participants undergo safety monitoring, pharmacokinetic sampling, and clinical assessments at scheduled study visits. ",
+      "preview": "Across all study parts, participants are randomized using an interactive response system, and study treatment is administered under double-blind conditions. A S",
+      "window_length": 0,
+      "window_text": "",
+      "window_preview": "",
+      "matches_expected_source": false
+    }
+  ],
+  "experiment_group": "ablation",
+  "chunk_count": 750,
+  "avg_chunk_length_chars": 731.0186666666667,
+  "chunking_seconds": 7.6423999999969965,
+  "indexing_seconds": 2.446921458998986
+}
