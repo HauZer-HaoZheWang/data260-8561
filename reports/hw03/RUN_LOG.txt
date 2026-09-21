@@ -1153,3 +1153,27 @@ Summary saved to: /Users/haozhewang/data260-8561/reports/hw03/raw/summary_metric
 Experiment finished: 2026-09-20T18:09:31-07:00
 Total elapsed time: 33.4 seconds
 ====================================================================================================
+Retrieval result analysis started: 2026-09-20T18:19:49-07:00
+
+Recall@1 summary
+------------------------------------------------------------
+token                 hits=4/5  Recall@1=0.800
+semantic_95           hits=4/5  Recall@1=0.800
+sentence_window       hits=3/5  Recall@1=0.600
+semantic_tuned_80     hits=4/5  Recall@1=0.800
+
+Semantic 95 vs Semantic 80 Top-1 comparison
+------------------------------------------------------------
+Q1: same_source=True  same_text=True  same_store_score=True  same_cosine=True
+Q2: same_source=True  same_text=True  same_store_score=True  same_cosine=True
+Q3: same_source=True  same_text=True  same_store_score=True  same_cosine=True
+Q4: same_source=True  same_text=True  same_store_score=True  same_cosine=True
+Q5: same_source=True  same_text=True  same_store_score=True  same_cosine=True
+
+Identical Semantic Top-1 chunks: 5/5
+
+Recall details saved to: /Users/haozhewang/data260-8561/reports/hw03/raw/recall_at_1.csv
+Recall summary saved to: /Users/haozhewang/data260-8561/reports/hw03/raw/recall_at_1_summary.csv
+Semantic comparison saved to: /Users/haozhewang/data260-8561/reports/hw03/raw/semantic_top1_comparison.csv
+
+Analysis finished: 2026-09-20T18:19:49-07:00

@@ -1,0 +1,5 @@
+technique,questions,top_1_hits,recall_at_1
+token,5,4,0.8
+semantic_95,5,4,0.8
+sentence_window,5,3,0.6
+semantic_tuned_80,5,4,0.8
