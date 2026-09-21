@@ -1,15 +1,11 @@
-16:40:36 INFO:     Started server process [72512]
-16:40:36 INFO:     Waiting for application startup.
-16:40:36 INFO:     Application startup complete.
-16:40:36 INFO:     Uvicorn running on https://127.0.0.1:8461 (Press CTRL+C to quit)
-16:41:10 INFO:     127.0.0.1:50492 - "GET / HTTP/1.1" 200 OK
-16:41:10 INFO:     127.0.0.1:50492 - "GET /favicon.ico HTTP/1.1" 404 Not Found
-16:41:34 INFO:     127.0.0.1:50501 - "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 Not Found
-16:45:18 INFO:     127.0.0.1:51401 - "GET /login HTTP/1.1" 200 OK
-16:45:18 INFO:     127.0.0.1:51401 - "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 Not Found
-16:45:44 INFO:     127.0.0.1:51508 - "POST /login HTTP/1.1" 302 Found
-16:45:44 INFO:     127.0.0.1:51508 - "GET /dashboard HTTP/1.1" 200 OK
-16:45:44 INFO:     127.0.0.1:51508 - "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 Not Found
-16:59:48 INFO:     127.0.0.1:54899 - "GET /dashboard HTTP/1.1" 302 Found
-16:59:48 INFO:     127.0.0.1:54899 - "GET /login?error=expired HTTP/1.1" 200 OK
-16:59:48 INFO:     127.0.0.1:54899 - "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 Not Found
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    32    0     0  100    32      0    526 --:--:-- --:--:-- --:--:--   533
+HTTP/1.1 302 Found
+date: Mon, 21 Sep 2026 01:41:55 GMT
+server: uvicorn
+content-length: 0
+location: /dashboard
+vary: Cookie
+set-cookie: session=eyJ1c2VyIjogImFkbWluIiwgImxhc3Rfc2VlbiI6IDE3ODk5NTQ5MTYuNDEyMzU3OH0=.arCLZA.GA_AlMGhIHF0Dso4S162RLH-3XE; path=/; Max-Age=3600; httponly; samesite=lax; secure
+

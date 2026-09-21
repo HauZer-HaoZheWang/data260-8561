@@ -1,0 +1,168 @@
+{
+  "verified_at": "2026-09-20T19:04:33-07:00",
+  "mode": "core",
+  "sid4": 8561,
+  "verify_seed": 268561,
+  "domain_id": 1,
+  "git_commit": "30e27cf23fc7a268fafef38e149346f7fa5002fb",
+  "overall_pass": true,
+  "passed_checks": 31,
+  "failed_checks": 0,
+  "checks": [
+    {
+      "name": "required_files",
+      "passed": true,
+      "detail": "All required files exist"
+    },
+    {
+      "name": "corpus_file_count",
+      "passed": true,
+      "detail": "100 files listed"
+    },
+    {
+      "name": "corpus_minimum_size",
+      "passed": true,
+      "detail": "548872 bytes; minimum is 204800"
+    },
+    {
+      "name": "corpus_hashes",
+      "passed": true,
+      "detail": "Verified 100 files"
+    },
+    {
+      "name": "manifest_copies_match",
+      "passed": true,
+      "detail": "Local and report manifests match"
+    },
+    {
+      "name": "question_count",
+      "passed": true,
+      "detail": "5 questions"
+    },
+    {
+      "name": "question_required_fields",
+      "passed": true,
+      "detail": "All questions have required fields"
+    },
+    {
+      "name": "question_sources_exist",
+      "passed": true,
+      "detail": "All expected source files exist"
+    },
+    {
+      "name": "single_source_questions",
+      "passed": true,
+      "detail": "5 questions marked as single source"
+    },
+    {
+      "name": "raw_output_files",
+      "passed": true,
+      "detail": "All raw output files exist"
+    },
+    {
+      "name": "retrieval_result_structure",
+      "passed": true,
+      "detail": "Verified 20 result files"
+    },
+    {
+      "name": "main_techniques",
+      "passed": true,
+      "detail": "Techniques found: ['semantic_95', 'semantic_tuned_80', 'sentence_window', 'token']"
+    },
+    {
+      "name": "recall_at_5_values",
+      "passed": true,
+      "detail": "Main Recall@5 values: [1.0, 1.0, 1.0]"
+    },
+    {
+      "name": "recall_at_1_values",
+      "passed": true,
+      "detail": "Recall@1 values: {'token': 0.8, 'semantic_95': 0.8, 'sentence_window': 0.6, 'semantic_tuned_80': 0.8}"
+    },
+    {
+      "name": "semantic_top1_comparison",
+      "passed": true,
+      "detail": "5/5 identical Top-1 chunks"
+    },
+    {
+      "name": "metrics_document_sections",
+      "passed": true,
+      "detail": "All required sections found"
+    },
+    {
+      "name": "web_home",
+      "passed": true,
+      "detail": "Status 200"
+    },
+    {
+      "name": "invalid_login",
+      "passed": true,
+      "detail": "Status 302; location=/login?error=invalid"
+    },
+    {
+      "name": "valid_login",
+      "passed": true,
+      "detail": "Status 302; location=/dashboard"
+    },
+    {
+      "name": "local_cookie_attributes",
+      "passed": true,
+      "detail": "session=eyj1c2vyijogimfkbwluiiwgimxhc3rfc2vlbii6ide3odk5ntyynzmumdkwnjg0fq==.arcqsq.bizx5bunld_8jd9snipepgtye_g; path=/; max-age=3600; httponly; samesite=lax"
+    },
+    {
+      "name": "protected_dashboard",
+      "passed": true,
+      "detail": "Status 200"
+    },
+    {
+      "name": "trials_frontend",
+      "passed": true,
+      "detail": "Status 200"
+    },
+    {
+      "name": "crud_get",
+      "passed": true,
+      "detail": "Status 200"
+    },
+    {
+      "name": "crud_create",
+      "passed": true,
+      "detail": "Status 201"
+    },
+    {
+      "name": "crud_update",
+      "passed": true,
+      "detail": "Status 200"
+    },
+    {
+      "name": "crud_delete",
+      "passed": true,
+      "detail": "Status 200"
+    },
+    {
+      "name": "logout_blocks_reuse",
+      "passed": true,
+      "detail": "Logout 302; dashboard location=/login"
+    },
+    {
+      "name": "idle_timeout",
+      "passed": true,
+      "detail": "Status 302; location=/login?error=expired"
+    },
+    {
+      "name": "https_cookie_evidence",
+      "passed": true,
+      "detail": "Secure, HttpOnly, and SameSite=lax found"
+    },
+    {
+      "name": "screenshots",
+      "passed": true,
+      "detail": "11 screenshots found"
+    },
+    {
+      "name": "questions_before_run",
+      "passed": true,
+      "detail": "Question commit: 2026-09-20T18:08:46-07:00; run start: 2026-09-20T18:08:58.340939-07:00"
+    }
+  ]
+}
