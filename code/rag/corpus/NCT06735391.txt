@@ -1,0 +1,58 @@
+NCT Number: NCT06735391
+Title: A Clinical Study of JMT101 in Combination With Osimertinib Versus Osimertinib Alone as First-Line Treatment for Patients With Locally Advanced or Metastatic Non-Squamous Non-Small Cell Lung Cancer (NSCLC) Harboring Epidermal Growth Factor Receptor (EGFR) Sensitive Mutations
+Official Title: A Phase 3 Clinical Study of JMT101 in Combination With Osimertinib Versus Osimertinib Alone as First-Line Treatment for Patients With Locally Advanced or Metastatic Non-Squamous Non-Small Cell Lung Cancer (NSCLC) Harboring Epidermal Growth Factor Receptor (EGFR) Sensitive Mutations
+Lead Sponsor: Shanghai JMT-Bio Inc.
+Overall Status: RECRUITING
+Start Date: 2024-10-23
+Study Type: INTERVENTIONAL
+Phases: PHASE3
+Enrollment: 516
+Conditions: Locally Advanced or Metastatic Non-squamous NSCLC, Harboring EGFR Sensitive Mutations NSCLC, Previously Untreated Systematically NSCLC
+
+Brief Summary:
+This is a Phase 3, randomized, positive-controlled, open-label clinical study. The primary objective is to evaluate the efficacy of JMT101 in combination with osimertinib versus osimertinib alone in patients with newly diagnosed locally advanced or metastatic non-squamous NSCLC harboring EGFR-sensitive mutations.
+
+Detailed Description:
+
+
+Interventions:
+- DRUG: JMT101. JMT101 is a recombinant humanized anti-EGFR monoclonal antibody.
+- DRUG: Osimertinib. EGFR TKI
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+1. Be able to understand and voluntarily sign the written informed consent form (ICF);
+2. Age ≥ 18 years old, male or female;
+3. Participants with histologically or cytologically (pathology report required) confirmed non-squamous NSCLC that is unresectable and locally advanced or metastatic (stage IIIB, IIIC, or IV) according to the International Association for the Study of Lung Cancer (IASLC) 8th edition TNM staging criteria.
+4. Participants who have no prior systemic anti-tumor therapy (including anti-EGFR targeted therapy, chemotherapy, biotherapy, immunotherapy, or any investigational drug) for locally advanced or metastatic NSCLC and are not amenable to radical surgery or radiotherapy. For participants with recurrent disease after prior surgical treatment who have undergone prior adjuvant and neoadjuvant therapy, it is necessary to confirm that there is no recurrence or metastasis of tumor within 6 months after surgery, and the randomization is \> 6 months from the end of adjuvant/neoadjuvant therapy;
+5. Have at least one measurable lesion that meets the RECIST 1.1 criteria at baseline. Target lesions must be either radiation naive or, if previously irradiated, there must be evidence of unequivocal disease progression after radiotherapy. Brain metastases should not be considered as target lesions;
+6. ECOG PS score of 0 or 1;
+7. Expected survival ≥ 3 months;
+8. Have major organ and bone marrow functions that meet the following criteria within 7 days prior to the first dose in a non-intervention state:
+
+1\) Hematology:
+
+1. Absolute neutrophil count (ANC) ≥ 1.5×109/L (prior to the hematology assessment, there is no treatment with cell growth factors within 7 days, and no treatment with long-acting granulocyte colony-stimulating factor (G-CSF) or pegylated recombinant human granulocyte colony-stimulating factor (PEG-CSF) within 14 days);
+2. Platelets ≥ 90×109/L (there is no platelet transfusion or recombinant human thrombopoietin therapy within 7 days prior to hematology assessment);
+3. Hemoglobin ≥ 90 g/L (there is no red blood cell transfusion/blood transfusion treatment within 14 days prior to hematology assessment); 2) Renal function: Serum creatinine ≤ 1.5×upper limit of normal (ULN), or creatinine clearance (CrCL) ≥ 50 mL/min (using the Cockcroft-Gault formula); 3) Liver function:
+
+a. Total bilirubin ≤ 1.5×ULN (or ≤ 3×ULN for participants with Gilbert syndrome or metastases to liver); b. Aspartate aminotransferase (AST) and alanine aminotransferase (ALT) ≤ 2.5×ULN (or AST and ALT ≤ 5×ULN for participants with metastases to liver); 4) Coagulation function:
+
+1. International normalized ratio (INR) ≤ 1.5;
+2. Activated partial thromboplastin time (APTT) ≤ 1.5×ULN;
+
+Exclusion Criteria:
+
+1. Participants with concomitant mutations such as ALK, ROS1, KRAS, BRAF, RET, MET, NTRK, and HER2, for which targeted drugs are commercially available for clinical treatment, who will not benefit from this clinical study as judged by the investigator; or participants with other mutations who will not benefit from this clinical study as judged by the investigator;
+2. Have received Chinese patent medicine preparations for the treatment of lung cancer as an indication within 2 weeks prior to randomization;
+3. Have received local radiotherapy within 2 weeks prior to randomization; have received more than 30% of bone marrow irradiation or extensive radiotherapy within 4 weeks prior to randomization;
+4. Presence of pericardial effusion (small amount of pericardial effusion stable for ≥ 2 weeks prior to randomization is allowed);
+5. Major surgery or severe traumatic injury within 4 weeks prior to the first study treatment, or anticipation of major surgery during the study. Some clinical procedures such as vascular access placement and aspiration biopsy are allowed;
+6. Participants with meningeal metastases; spinal cord compression; symptomatic and unstable brain metastases, unless the participants have completed curative treatment, are in stable condition for at least 2 weeks prior to randomization and do not require steroid therapy. Participants with asymptomatic brain metastases may be enrolled if the investigator assesses that there is no indication for immediate curative treatment;
+Minimum Age: 18 Years
+Maximum Age: 
+Sex: ALL
+
+Primary Outcome Measures:
+- PFS assessed by the independent review committee (IRC) based on Response Evaluation Criteria in Solid Tumors (RECIST) 1.1 [Time Frame: Up to approximately 44 months after the first participant is enrolled] 

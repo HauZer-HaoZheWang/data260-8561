@@ -1,0 +1,49 @@
+NCT Number: NCT06287736
+Title: Spinal Cord Stimulation and Small Fiber Peripheral Neuropathy
+Official Title: A Novel Neuromodulation Approach to Target Small Fiber Neuropathy Early in Diabetes and Measure Functional Recovery
+Lead Sponsor: Ohio State University
+Overall Status: RECRUITING
+Start Date: 2024-04-17
+Study Type: INTERVENTIONAL
+Phases: NA
+Enrollment: 60
+Conditions: Diabetic Peripheral Neuropathy
+
+Brief Summary:
+This is a prospective randomized control trial. Participants enrolled into the study will be randomized into one of three groups, two of which are treatment groups and the third is a control group. A time course of measurements before and after spinal cord stimulation (SCS) treatment (where applicable) will assess pain, DPN severity, small fiber nerve activity, and metabolic health markers.
+
+Detailed Description:
+Peripheral neuropathy (PN) is caused by diabetes, aging, chemotherapy, and over 30 other conditions, and impacts more than 30 million patients in the US alone. Diabetes is the number one cause of peripheral neuropathy, and more than half of patients with diabetes will eventually develop diabetic peripheral neuropathy (DPN), a complex set of symptoms including pain, numbness, tingling, and burning. Spinal cord stimulation (SCS) is an approved intervention for the treatment of chronic pain, including DPN. Spinal cord stimulation has had FDA approval for the treatment of painful DPN since 2015. This study is being done to learn more about the diagnosis of DPN and treatment of DPN with SCS.
+
+Interventions:
+- DEVICE: Spinal Cord Stimulator Implantation (SCS). Spinal cord stimulator implantation is broken up into two parts. The first part involves placement of temporary SCS leads for a one-week trial. If the participants respond favorably to the SCS, then they will undergo the second part and the device is implanted
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+* Over 18 years old
+* Diagnosis of diabetic peripheral neuropathy refractory to treatment with gabapentin or pregabalin and at least 1 other class of analgesic
+* Diagnosis of medically refractory pain secondary to diabetic neuropathy
+* Presence of pain for 12 months
+* Lower limb pain intensity score ≥4 on a visual analog scale
+* DN4 ≥4
+* Pass pre-operative neuropsychological assessment (surgical group only)
+* Capable of providing informed consent
+
+Exclusion Criteria:
+
+* Severe medical comorbidities that, in the opinion of the surgeon, exclude the patient from surgical intervention
+* Spinal disease with severe spinal stenosis or spinal cord compression in the region of the proposed spinal cord stimulator lead placement
+* Coagulopathy that cannot be corrected
+* Unable to discontinue blood thinning medications
+* Hemoglobin A1c level greater than 10
+* Presence of systemic infection
+* Pregnancy
+Minimum Age: 18 Years
+Maximum Age: 
+Sex: ALL
+
+Primary Outcome Measures:
+- Change in Pain level [Time Frame: 18 months post baseline] change in Visual analog pain scale (VAS). The VAS endpoints range from 'no pain at all' to 'pain as bad as it could be'
+- Change in Diabetic Peripheral Neuropathy (DPN) Pain using the Neuropathic pain diagnostic questionnaire (DN4) [Time Frame: 18 months post baseline] Neuropathic Pain Diagnostic "Douleur Neuropathique 4" questionnaire (DN4) is a screening questionnaire to help identify neuropathic pain (NP) in clinical practice and research. It is a clinican-administered questionnaire consisting of 10 items.The first 7 symptoms items are scored by interviewing the patient, and the 3 remaining items are scored by means of clinical examination. The scores are added and a score of 4 or more out of 10 is suggestive of neuropathic pain
+- Change in PROMIS quality of life in relation to pain level [Time Frame: 18 months post baseline] Change in patient-reported outcomes measurement (PROMIS 29)

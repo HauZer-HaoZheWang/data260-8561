@@ -1,0 +1,84 @@
+NCT Number: NCT06639191
+Title: [177Lu]Lu-AKIR001 First-in-human Study
+Official Title: A Phase 1 Prospective, Open-label, First-in-human Study to Evaluate the Safety, Tolerability and Biodistribution of [177Lu]Lu-AKIR001 and Its Anti-tumour Effect in Adult Patients With CD44v6 Expressing Solid Tumours
+Lead Sponsor: Karolinska University Hospital
+Overall Status: RECRUITING
+Start Date: 2026-01-28
+Study Type: INTERVENTIONAL
+Phases: EARLY_PHASE1
+Enrollment: 15
+Conditions: Thyroid Gland Anaplastic Carcinoma, Poorly Differentiated Thyroid Carcinoma, Cancer Head and Neck, Cervix Carcinoma, Vulvar Cancer, Stage IV, Non-small Cell Lung Cancer Stage IV
+
+Brief Summary:
+The goal of this clinical trial is to evaluate the safety and tolerability of increasing doses of \[177Lu\]Lu-AKIR001, both in relation to tolerable activity of lutetium-177 and the absorbed protein mass dose of AKIR-001 in patients with irresectable or metastatic CD44v6-expressing solid malignancies for whom no reasonable systemic treatment options are be available. The main question it aims to answer is:
+
+• What is the toxicity profile of the study drug \[177Lu\]Lu-AKIR001 according to the rate of Dose Limiting Toxicities and (Severe) Adverse Events? Participants will receive one \[177Lu\]Lu-AKIR001 infusion followed by a 6-week safety follow-up period, which can be extended up to 12 weeks. Possible additional infusions of the trial drug, up to a maximum number of four, can be given when clinical benefit is noted and toxicity is deemed acceptable.
+
+Detailed Description:
+
+
+Interventions:
+- DRUG: [177Lu]Lu-AKIR001. Patient cohorts of a minimum of three and a maximum of 12 evaluable participants will be opened according to the decision tree defined in the protocol and will be consecutively completed. When one cohort has been completed and fully evaluated, the next cohort will be opened after all participants in the previous cohort have received at least one dose of the IMP without dose-limiting toxicities during a follow-up period of at least six weeks.
+
+The \[177Lu\]Lu-AKIR001 protein mass dose and activity are predefined for each cohort, and could be adjusted according to the results of previous cohort(s) to ensure the safety of participants. The initial design of the trial encompasses five cohorts to escalate both \[177Lu\]Lu-AKIR001 pmd, from 50 mg to 100 mg, and activity, from 0.75 to 3.0 GBq.
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+1. Participant must be 18 years of age or older
+2. Willing and able to provide written informed consent
+3. Participant has one of the following histologically confirmed metastatic or locally advanced irresectable CD44v6 expressing (confirmed in pre-screening according to the pathology manual (Appendix III) solid malignancy in one of the following groups, with documented disease progression in the last 8 weeks during/after available standard of care treatment options as mentioned below:
+
+   * For anaplastic, poorly differentiated and radioiodine refractory differentiated thyroid cancer (ATC, PDTC, RAI-R DTC):
+
+     * For BRAFv600E mutated tumours: BRAF/MEK inhibitors.
+     * For BRAF-wildtype tumours at least one of the following: anthracycline- or taxane containing chemotherapy/ chemoradiotherapy, or other targeted therapies including vascular endothelial growth factor (VEGF) tyrosine kinase inhibitors (TKI), targeted therapies aimed at specific moleculo-pathological features (e.g., targeting NTRK, RET, ALK, PD-L1)
+     * For PDTC or RAI-R DTC: Radio-iodine refractory disease as deemed by treating physician and disease progression after at least one line of systemic targeted therapy (including VEGF, TKI, NTRK, RET, BRAF inhibitors)
+   * For HNSCC:
+
+     \- At least one prior treatment with combination chemotherapy (either platinum based + 5-Fluorouracil or platinum based + taxane) together with PD1-inhibitor pembrolizumab if combined positive score (CPS) ≥1 or EGFR-inhibitor if CPS \<1 (or if immunotherapy is contraindicated)
+   * For NSCLC
+
+     \- Treatment with at least two lines of systemic therapy, including checkpoint inhibitor based on PD-L1 status and chemotherapy with a platinum-based regimen.
+   * For vulvar SCC:
+
+     \- After treatment with first line platinum/paclitaxel+/-bevacizumab +/- pembrolizumab (the latter in case of PD-L1 positivity), and second line with weekly paclitaxel
+   * For cervical SCC:
+
+     * After treatment with first line systemic therapy with platinum/paclitaxel+/-pembrolizumab (the latter in case of PD-L1 positivity)
+4. Measurable disease per Response Criteria for Solid Tumours (RECIST) v1.1.
+5. Eastern Cooperative Oncology Group (ECOG) performance status 0-1.
+6. Life expectancy of at least three months as estimated by the investigator.
+7. Adequate organ and bone marrow function within eight days before the first \[177Lu\]Lu-AKIR001 infusion:
+
+   * Peripheral white blood cells (WBC) ≥3.0 x 109/L
+   * Absolute neutrophil count (ANC) ≥ 2,000/mm3
+   * Platelet \> 100 x 109/L
+   * Hemoglobin \> 100 g/L.
+   * Serum creatinine of ≤ 1.5x ULN or calculated creatinine clearance of ≥ 60 mL/min/1.73 m2 by Cockcroft- Gault
+   * Total serum bilirubin ≤ 1.5x ULN (unless due to Gilbert's syndrome, in which case direct bilirubin must be normal)
+   * Serum AST and ALT ≤1.5x ULN (or ≤ 5x ULN if participant has liver metastases)
+   * Left Ventricular Ejection Fraction \>50% on echocardiography
+8. Contraceptives
+
+   * Females of child-bearing potential must agree to use adequate contraception prior to study entry, for the duration of study treatment Phase and for six months after the last dose of study drug. Examples of contraceptive methods with a failure rate of \< 1% per year include bilateral tubal ligation, male sterilization, established, proper use of hormonal contraceptives that inhibit ovulation, hormone- releasing intrauterine devices (IUDs), and copper IUDs. Periodic abstinence (e.g., calendar, ovulation, symptom-thermal, or post-ovulation methods) and withdrawal are not acceptable methods of contraception. Women must refrain from donating eggs during this same period. Should a female become pregnant or suspect she is pregnant while participating in this study, she should inform her study physician immediately. If a female participant is of child-bearing potential (females are considered not of childbearing potential if they are at least one year postmenopausal and/or surgically sterile), she must have a documented negative serum pregnancy test before any \[177Lu\]Lu-AKIR001 infusion.
+   * Male participant must agree to practice effective barrier contraception (condom) during the entire study treatment period and through four months after the last dose of study drug or agree to completely abstain from heterosexual intercourse.
+
+Exclusion Criteria:
+
+1. Symptomatic brain metastases that are not previously treated and/or that require ongoing steroid-treatment
+2. Other malignancy diagnosed within the last five years, except for radically treated basal or squamous cell carcinoma of the skin or carcinoma in situ of the cervix
+3. Chemo-, targeted or radiotherapy within the last 4 weeks before enrolment in the study.
+4. Ongoing toxicities graded according to the Common Terminology Criteria for Adverse Events (CTCAE) \> 1 from previous anti-cancer treatments.
+5. Pregnancy or lactation
+6. Uncontrolled hypertension, heart, liver, or kidney disease or other medical/ psychiatric disorders.
+7. Severe skin diseases requiring systemic anti-inflammatory treatment, including plaque psoriasis, Stevens Johnsons syndrome or dermatomyositis.
+8. A known history of Human Immunodeficiency Virus (HIV) infection, hepatitis B (HBsAg reactive) or hepatitis C (HCV RNA detected) infection or active tuberculosis.
+Minimum Age: 18 Years
+Maximum Age: 
+Sex: ALL
+
+Primary Outcome Measures:
+- Primary Endpoint - rate of dose limiting toxicities [Time Frame: From first dose to a minimum of 6 weeks post-dose.] 1. Rate of Dose Limiting Toxicities, according to the definition of (S)AEs according to the CTCAE version 5.0.
+2. TEAEs, SAEs, clinically significant laboratory abnormalities and deaths
+3. AEs ≥ grade 3 according to the CTCAE version 5.0 grading system (CTCAE v 5.0, 2017) during the treatment period

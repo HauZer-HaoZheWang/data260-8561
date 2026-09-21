@@ -1,0 +1,42 @@
+NCT Number: NCT07468188
+Title: Diabetes Body Project 2
+Official Title: Development of a T2D-Specific, Virtually-Delivered Disordered Eating Prevention Intervention - Diabetes Body Project 2
+Lead Sponsor: Joslin Diabetes Center
+Overall Status: RECRUITING
+Start Date: 2025-01-24
+Study Type: INTERVENTIONAL
+Phases: NA
+Enrollment: 42
+Conditions: Eating Disorders, Type 2 Diabetes
+
+Brief Summary:
+The purpose of this study is to test the feasibility and effectiveness of an eating disorder prevention program specifically targeted for women with type 2 diabetes (T2D) called the Diabetes Body Project 2 (DBP2).
+
+The Diabetes Body Project 2 (DBP2) will be adapted from the Diabetes Body Project, which is an eating disorder prevention program developed to improve satisfaction with body image and diabetes management for young women with type 1 diabetes (DBP).
+
+The study is looking to see if the DBP is effective in improving body image concerns, reducing disordered eating behaviors and improving glycemic control in women with T2D.
+
+Detailed Description:
+
+
+Interventions:
+- BEHAVIORAL: Body Project Type 2. This program consists of weekly 1-hour sessions for 6 weeks, co-led by 2 facilitators. Each session has home exercises. Home exercises are discussed at each session. session 1, collectively define the thin appearance ideal, discuss costs of pursuing this ideal. session 2 dissuade facilitators from pursuing the thin ideal in role-plays. session 3, conduct role-plays challenging thin-ideal statements, discuss personal body image concerns. session 4, the negative effects of social comparison, the advantages and costs of social media. session 5, strategies of living well with diabetes and maintaining good self-care, as well as the physiological and psychological advantages of insulin. session 6 discuss the benefits of the group and what was learned and how to continue some of the exercises introduced in the Diabetes Body Project; participants are encouraged to engage in at least one more self-affirmation exercise and email the facilitators to tell them how it went.
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+* 1.) Female sex 2) self-reported gender identity of "woman"; 3) age 18-40 years old; 4) diagnosed with T2D for at least 6 months; 5) experiencing at least one body image concern.
+
+Exclusion Criteria:
+
+* Recent hospitalization for eating disorder within the last 12 months
+* Eating disorder related diabetic ketoacidosis within the last 12 months
+* unwillingness to be video-recorded,
+* restricted English proficiency
+* developmental, cognitive, or psychiatric limitations that compromise participation in the intervention sessions and study.
+Minimum Age: 18 Years
+Maximum Age: 40 Years
+Sex: FEMALE
+
+Primary Outcome Measures:
+- Intervention refinement [Time Frame: 6 months] Development and refinement of diabetes body project intervention script "DBP2" for young women with type 2 diabetes and body image concern

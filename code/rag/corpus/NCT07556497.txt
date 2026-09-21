@@ -1,0 +1,46 @@
+NCT Number: NCT07556497
+Title: Role of Endothelial Progenitor Cells Dysregulation and Inflammation in the Pathophysiology of Cardiovascular Complications of Type 2 Diabetes
+Official Title: Role of Endothelial Progenitor Cells Dysregulation and Inflammation in the Pathophysiology of Cardiovascular Complications of Type 2 Diabetes
+Lead Sponsor: Weill Cornell Medical College in Qatar
+Overall Status: RECRUITING
+Start Date: 2020-11-17
+Study Type: OBSERVATIONAL
+Phases: 
+Enrollment: 90
+Conditions: Diabete Type 2, Cardio Vascular Disease
+
+Brief Summary:
+This study aims to isolate endothelial progenitor cells (EPCs) from participants with type 2 diabetes (T2D) and cardiovascular complications and to comprehensively characterize EPC dysfunction. Specifically, the study will evaluate maladaptive angiocrine signaling, calcium signaling pathways, and the role of inflammation in EPC function and the progression of atherosclerosis during T2D development. A sub-study will assess EPC functionality by examining endothelial nitric oxide synthase (eNOS) expression and activity, as well as the effectiveness of in vitro eNOS gene enhancement.
+
+Detailed Description:
+Type 2 diabetes (T2D) is associated with damage to blood vessels, which can lead to serious complications such as heart disease, stroke, and other vascular problems.
+
+Endothelial progenitor cells (EPCs) help maintain healthy blood vessels by repairing vascular injury. In people with T2D, the number and function of these cells are reduced, which may contribute to poor blood vessel repair and increased cardiovascular risk. The mechanisms responsible for this dysfunction are not fully understood. This study aims to examine how changes in cell signaling and chronic low-grade inflammation in T2D affect EPC function. EPCs will be isolated from patients with T2D, with and without cardiovascular complications, to assess their signaling properties, function, and ability to mature into vascular cells.
+
+An in vitro sub-study will evaluate a potential therapeutic strategy to improve EPC function by increasing the activity of endothelial nitric oxide synthase (eNOS), a protein that plays a key role in maintaining healthy blood vessels. Reduced eNOS activity is an important contributor to vascular dysfunction in diabetes. Enhancing eNOS expression and function in EPCs may improve their regenerative capacity and help prevent or treat diabetic vascular complications.
+
+Interventions:
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+* T2D
+* Males and females
+* Older than 18 years of age
+* Willingness to participate in the study and provide written consent form
+* Consent to having peripheral blood withdrawals and urine collection for the study requirement.
+
+Exclusion Criteria:
+
+* Unable to meet the inclusion criteria
+* Type I diabetes, MODY diabetes or other form of diabetes
+* Active infection, inflammation, cancer or acute illness of any kind (other than a cardiovascular complication of diabetes if applicable in the group they are assigned to).
+* Chronic inflammation (eg. auto-immune diseases) or infections (eg. HIV, chronic hepatitis).
+* Evidence of malignancy within the past 5 years
+Minimum Age: 18 Years
+Maximum Age: 
+Sex: ALL
+
+Primary Outcome Measures:
+- Characterization of EPCs dysregulation in Type 2 diabetes [Time Frame: Following the EPC isolation (15 - 20 days).] Functional characterization of endothelial progenitor cells (EPCs) isolated from participants will be performed by assessing cellular signaling and functional pathways. Measurements will be compared among EPCs isolated from participants with type 2 diabetes and cardiovascular diseases, participants with type 2 diabetes without cardiovascular diseases, and healthy volunteers without diabetes or cardiovascular diseases.
+- Functional Analysis of inflammatory responses in Endothelial Progenitor Cells in type 2 Diabetes with cardiovascular complications [Time Frame: Following the EPC isolation (15 - 20 days)] Functional characterization of endothelial progenitor cells (EPCs) isolated from participants will be performed by assessing cellular signaling and functional pathways. Measurements will be compared among EPCs isolated from participants with type 2 diabetes and cardiovascular diseases, participants with type 2 diabetes without cardiovascular diseases, and healthy volunteers without diabetes or cardiovascular diseases.

@@ -1,0 +1,64 @@
+NCT Number: NCT06984133
+Title: Structured Education Program and Glycemic Control in Adolescents With Type 1 Diabetes
+Official Title: Evaluating the Effectiveness of a Structured Educational Program on Glycemic Control in Adolescents With Type 1 Diabetes: A Randomized Controlled Trial
+Lead Sponsor: Dasman Diabetes Institute
+Overall Status: RECRUITING
+Start Date: 2025-05-18
+Study Type: INTERVENTIONAL
+Phases: NA
+Enrollment: 128
+Conditions: Type 1 Diabetes (T1D), Type 1 Diabetes Mellitus (T1DM)
+
+Brief Summary:
+Type 1 diabetes is becoming more common in Kuwaiti and Arab adolescents. Many young people with this condition struggle to keep their blood glucose levels under control, which can lead to diabetes-related complications and affect their quality of life.
+
+The goal of this clinical trial is to evaluate the effectiveness of a structured educational program on glycemic control among Arab adolescents with type 1 diabetes aged 11 to 14 years.
+
+Participants will be randomly assigned to one of two groups. The intervention group will receive the structured education program, and the control group will continue with standard care.
+
+All participants will undergo assessments that include:
+
+* collecting demographic and diabetes management data
+* measuring weight and height
+* measuring HbA1c levels and lipid profile
+* filling out questionnaires on quality of life, carbohydrate and insulin dosing knowledge, physical activity
+* collecting dietary intake
+* providing AGP report
+
+Participants in the intervention group will additionally be required to:
+
+* attend the program for 4 consecutive days, one day for parents and three days for children
+* fill out 3-day food diary records during the program
+* attend a refresher course after 6 months
+
+Participants in the control group will have the opportunity to participate in the program after approximately six months.
+
+Detailed Description:
+
+
+Interventions:
+- BEHAVIORAL: Structured education program. A structured group educational program culturally adapted from a UK model for adolescents with type 1 diabetes. The program aims to empower adolescents by providing knowledge and tools needed for effective diabetes management.
+
+It is delivered by dietitians, diabetes educators, and a pediatric endocrinologist in small groups. The curriculum targets both caregivers and adolescents: the first day is for parents and covers diabetes basics, management of hypoglycemia and hyperglycemia, insulin dosing, sick day management, and exercise considerations. The following three days focus on adolescents and include interactive sessions on the role of food in diabetes management, the effect of different nutrients on blood glucose levels, carbohydrate sources, reading food labels, advanced carbohydrate counting, and insulin dose adjustment.
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+* Arab adolescents
+* Males and females aged 11 to 14 years.
+* Have been diagnosed with type 1 diabetes for at least 6 months.
+* Wearing a continuous glucose monitor (CGM).
+* Individuals and their parents must be able to join the entire duration of the study.
+* Individuals and their parents must voluntarily provide consent and assent.
+
+Exclusion Criteria:
+
+* Presence of learning disabilities or any known psychological issues.
+* Attendance at any diabetes education or carbohydrate counting programs within the six months preceding the study.
+Minimum Age: 11 Years
+Maximum Age: 14 Years
+Sex: ALL
+
+Primary Outcome Measures:
+- Change in HbA1c Levels [Time Frame: Baseline and 6 months] Change in HbA1c Levels from baseline to 6 months
+- Change in %Time In Range (%TIR) [Time Frame: Baseline and 6 months] Change in %TIR from baseline to 6 months

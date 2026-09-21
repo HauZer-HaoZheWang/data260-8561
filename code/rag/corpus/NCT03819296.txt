@@ -1,0 +1,121 @@
+NCT Number: NCT03819296
+Title: Role of Gut Microbiome and Fecal Transplant on Medication-Induced GI Complications in Patients With Cancer
+Official Title: Role of Microbiome in the Realm of Immune-Checkpoint Inhibitor Induced GI Complications In Cancer Population
+Lead Sponsor: M.D. Anderson Cancer Center
+Overall Status: RECRUITING
+Start Date: 2021-02-21
+Study Type: INTERVENTIONAL
+Phases: PHASE1
+Enrollment: 800
+Conditions: Clinical Stage 0 Cutaneous Melanoma AJCC v8, Clinical Stage I Cutaneous Melanoma AJCC v8, Clinical Stage IA Cutaneous Melanoma AJCC v8, Clinical Stage IB Cutaneous Melanoma AJCC v8, Clinical Stage II Cutaneous Melanoma AJCC v8, Clinical Stage IIA Cutaneous Melanoma AJCC v8, Clinical Stage IIB Cutaneous Melanoma AJCC v8, Clinical Stage IIC Cutaneous Melanoma AJCC v8, Clinical Stage III Cutaneous Melanoma AJCC v8, Clinical Stage IV Cutaneous Melanoma AJCC v8, Colitis, Lung Non-Small Cell Carcinoma, Malignant Genitourinary System Neoplasm, Malignant Solid Neoplasm, Pathologic Stage 0 Cutaneous Melanoma AJCC v8, Pathologic Stage I Cutaneous Melanoma AJCC v8, Pathologic Stage IA Cutaneous Melanoma AJCC v8, Pathologic Stage IB Cutaneous Melanoma AJCC v8, Pathologic Stage II Cutaneous Melanoma AJCC v8, Pathologic Stage IIA Cutaneous Melanoma AJCC v8, Pathologic Stage IIB Cutaneous Melanoma AJCC v8, Pathologic Stage IIC Cutaneous Melanoma AJCC v8, Pathologic Stage III Cutaneous Melanoma AJCC v8, Pathologic Stage IIIA Cutaneous Melanoma AJCC v8, Pathologic Stage IIIB Cutaneous Melanoma AJCC v8, Pathologic Stage IIIC Cutaneous Melanoma AJCC v8, Pathologic Stage IIID Cutaneous Melanoma AJCC v8, Pathologic Stage IV Cutaneous Melanoma AJCC v8, Stage 0 Lung Cancer AJCC v8, Stage I Lung Cancer AJCC v8, Stage IA1 Lung Cancer AJCC v8, Stage IA2 Lung Cancer AJCC v8, Stage IA3 Lung Cancer AJCC v8, Stage IB Lung Cancer AJCC v8, Stage II Lung Cancer AJCC v8, Stage IIA Lung Cancer AJCC v8, Stage IIB Lung Cancer AJCC v8, Stage III Lung Cancer AJCC v8, Stage IIIA Lung Cancer AJCC v8, Stage IIIB Lung Cancer AJCC v8, Stage IIIC Lung Cancer AJCC v8, Stage IV Lung Cancer AJCC v8, Stage IVA Lung Cancer AJCC v8, Stage IVB Lung Cancer AJCC v8
+
+Brief Summary:
+This trial studies the role of the gut microbiome and effectiveness of a fecal transplant on medication-induced gastrointestinal (GI) complications in patients with melanoma or genitourinary cancer. The gut microbiome (the bacteria and microorganisms that live in the digestive system) may affect whether or not someone develops colitis (inflammation of the intestines) during cancer treatment with immune-checkpoint inhibitor drugs. Studying samples of stool, blood, and tissue from patients with melanoma or genitourinary cancer may help doctors learn more about the effects of treatment on cells, and help doctors understand how well patients respond to treatment. Treatment with fecal transplantation may help to improve diarrhea and colitis symptoms.
+
+Detailed Description:
+PRIMARY OBJECTIVES:
+
+I. To compare the difference in stool microbiome pattern between patients who develop immune-checkpoint inhibitor (ICPI)-related colitis and patients who don't develop ICPI-related colitis.
+
+II. To compare the difference in stool microbiome pattern in patients who developed ICPI-related colitis before and after colitis medical treatment.
+
+III. To assess the safety and tolerability and efficacy of fecal microbiota transplantation (FMT).
+
+SECONDARY OBJECTIVES:
+
+I. To identify and characterize immune profile and genetic factors associated with onset of ICPI-related colitis in blood and colon tissue.
+
+II. To identify and characterize immune profile and genetic factors in blood and colon tissue that are associated with quick response of ICPI-related colitis to medical treatment.
+
+III. To characterize the endoscopic and histologic features of ICPI-related colitis before and after medical treatment.
+
+IV. To document the changes of ICPI-related symptoms and the impact on functioning and quality of life (QoL) from fecal microbiota transplantation by patient-reported outcomes (PRO).
+
+V. To assess stool microbiome and cytokine features that are associated with good response to fecal microbiota transplantation.
+
+VI. To assess the factors in genetic/immune profile obtained from blood and colon tissue that are associated with good response to fecal microbiota transplantation.
+
+VII. To characterize the endoscopic and histologic features of ICPI-related colitis before and after fecal microbiota transplantation.
+
+EXPLORATORY OBJECTIVES:
+
+I. To identify and characterize immune profile and genetic factors associated with onset of ICPI-related colitis in inflamed colonic mucosa and its matched normal mucosa.
+
+II. To characterize the immune profile and genetic factors from the colon tissue in these colitis patients among different histological subtypes.
+
+III. To assess the pattern of stool microbiome that is associated with good tumor response to ICPI treatment.
+
+IV. To assess the association between stool inflammatory markers (i.e. lactoferrin and calprotectin) and the severity of endoscopic/histologic inflammation.
+
+V. To assess the sensitivity and specificity of stool inflammatory markers (i.e. lactoferrin and calprotectin) as an indicators of ICPI-relate colitis response to treatment.
+
+VI. To assess the microbiome pattern that triggers the infections on immunosuppressant treatment for ICPI colitis.
+
+OUTLINE:
+
+PROJECT 1: Patients receive standard of care and undergo collection of stool and blood samples.
+
+PROJECT 2: Patients receive prednisone, infliximab, or vedolizumab per standard of care and undergo standard of care endoscopy 2 months after treatment. Patients also undergo collection of stool, blood, and tissue samples.
+
+PROJECT 3: Patients undergo fecal microbiota transplant (FMT).
+
+After completion of study, patients are followed up periodically.
+
+Interventions:
+- OTHER: Best Practice. Receive standard of care
+- OTHER: Biospecimen Collection. Undergo collection of stool, blood, and tissue samples
+- PROCEDURE: Endoscopic Procedure. Undergo endoscopy
+- PROCEDURE: Fecal Microbiota Transplantation. Undergo FMT
+- BIOLOGICAL: Infliximab. Given intravenously (IV)
+- OTHER: Laboratory Biomarker Analysis. Ancillary studies
+- DRUG: Prednisone. Given orally
+- BIOLOGICAL: Vedolizumab. Given IV
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+1. Diagnosis of any stage melanoma, Non-Small Cell Lung Cancer or genitourinary (GU) malignancies (Project 1).
+2. Diagnosis of any cancer type (Projects 2 and 3)
+3. Treatment with any ICPI agent
+4. Ability to understand and willingness to sign an informed consent form and rate surveys
+5. Life expectancy \> 4 months (Project 3)
+6. ICPI-related diarrhea and/or colitis of any grade with or without concurrent non- GI toxicity as the toxicity group (project 1)
+7. Patients with no organ toxicity as the control group (project 1)
+8. ICPI-related colitis and/or diarrhea of grade ≥ 2 as GI toxicity (initial episode or recurrence) receiving standard treatment of immunosuppressive agents (steroid, infliximab, vedolizumab, or ustekinumab) any time during the colitis disease course until sustained resolution of GI toxicity, or one- year time point after enrollment (Project 2)
+9. ICPI-related colitis and/or diarrhea of grade ≥ 2 as GI toxicity without involvement of non- GI toxicity within 45 days prior to FMT (Project 3)
+10. ICPI-related colitis and/or diarrhea of grade ≥ 2 within 45 days prior to FMT with ANY of the following characteristics (project 3):
+
+    (i) refractory to treatment of steroid and two doses of non-steroidal immunosuppressants e.g. infliximab, vedolizumab or ustekinumab,
+
+    (ii) contraindication for immunosuppressive treatment,
+
+    (iii) recurrence after successful initial treatment,
+
+    (iv) recurrent symptoms once steroid is tapered down/off or diarrhea/colitis symptoms are steroid dependent, or
+
+    (v) patients with a history of refractory ICPI-related colitis and/or diarrhea to medical treatment, even if they have improved symptoms from supportive care within 45 days prior to FMT
+11. No concern for active concomitant GI infection for the ICPI diarrhea/colitis work up at the time of protocol therapy initiation as confirmed by stool tests or as per the treating physician based on clinical presentation (project 3)
+12. Patient who has been cleared for enrollment by Infectious Diseases consultant or treating physician if positive infection workup or screening tests (e.g. lifelong positive T-spot due to BCG inoculation, chronic colonization) prior to initiation of diarrhea/colitis treatment (project 3)
+
+Exclusion Criteria:
+
+1. Age younger than 18 years
+2. History of inflammatory bowel disease, and/or radiation enteritis or colitis with active disease status at the time of study treatment initiation
+3. Pregnant and breastfeeding women
+4. Women of child-bearing potential who have positive urine or serum pregnancy test or refuse to do pregnancy test unless last menstrual cycle was \> 1 year prior to consent and/ or clear documentation states that patient is peri- or post-menopausal or there was recent supporting objective evidence of 'no pregnancy' status (e.g. blood or imaging) within 30 days prior to date of study treatment
+5. Patients who develop concurrent non- GI toxicity at the time of FMT treatment (project 3)
+6. Patients with active bacterial or fungal infection (Project 3)
+7. Donors at risk for monkeypox infection and/ or exposure as determined by a questionnaire (Project 3)
+
+Withdrawal Criteria
+
+1. Patients may withdraw from the trial at any time
+2. Patients who develop GI perforation or toxic colitis that require surgery from ICPI colitis
+3. In project 3, if the first 30% of cases fail the fecal transplant treatment, then project 3 will be terminated
+Minimum Age: 18 Years
+Maximum Age: 
+Sex: ALL
+
+Primary Outcome Measures:
+- Difference in stool microbiome pattern [Time Frame: Up to 1 year] The primary endpoint is alpha diversity of bacteria species (measured using inverse Simpson index). It is a measure of diversity which takes into account the number of species present, as well as the relative abundance of each species. As species richness and evenness increase, so diversity increases.
+- Incidence of adverse events (AE) of fecal microbiota transplantation (FMT) (Project 3) [Time Frame: Up to 1 year] Adverse events will be recorded by Common Terminology Criteria for Adverse Events version 5 as well as FMT-specific events. All events will be recorded with grade and attribution to FMT. Adverse events that are related to fecal microbiota transplantation will be summarized using frequency and percentage by AE grade, type and attributions.

@@ -1,0 +1,91 @@
+NCT Number: NCT07623525
+Title: DIAG723 in Adults With Hereditary Hemorrhagic Telangiectasia
+Official Title: A Phase 1/2, First-in-Human, Multicenter, Ascending Single-Dose and Multi-Dose Study to Assess the Safety of DIAG723, a Novel Bispecific ALK-1 and BMPRII Agonist Antibody in Adult Patients With Hereditary Hemorrhagic Telangiectasia (DIAMOND Trial)
+Lead Sponsor: Diagonal Therapeutics, Inc.
+Overall Status: RECRUITING
+Start Date: 2026-06-04
+Study Type: INTERVENTIONAL
+Phases: PHASE1, PHASE2
+Enrollment: 93
+Conditions: Hereditary Hemorrhagic Telangiectasia, Pulmonary Arterial Hypertension
+
+Brief Summary:
+This is a Phase 1/2, randomized, double-blind, placebo-controlled, first-in-human study evaluating the safety, tolerability, pharmacokinetics, and preliminary efficacy of subcutaneously administered DIAG723 in adult patients with hereditary hemorrhagic telangiectasia (HHT).
+
+The study consists of three parts:
+
+Part A (dose escalation): Single ascending subcutaneous doses of DIAG723 are evaluated in sequential cohorts to assess safety, tolerability, and pharmacokinetics.
+
+Part B (dose expansion): Multiple doses of DIAG723 administered over 13 weeks are evaluated in patients with HHT to assess safety and preliminary efficacy.
+
+Part C (dose expansion): Multiple doses of DIAG723 administered over 13 weeks are evaluated in patients with HHT and concomitant pulmonary arterial hypertension to assess safety and exploratory clinical effects in this population.
+
+Participants will be randomized within each study part to receive DIAG723 or placebo. The study includes dose escalation in Part A and dose expansion in Parts B and C.
+
+Detailed Description:
+This is a Phase 1/2, randomized, double-blind, placebo-controlled, first-in-human, multicenter study designed to evaluate the safety, tolerability, pharmacokinetics, and preliminary clinical activity of DIAG723, a bispecific agonist monoclonal antibody targeting activin receptor-like kinase 1 (ALK-1) and bone morphogenetic protein receptor type II (BMPRII), in adult patients with hereditary hemorrhagic telangiectasia (HHT).
+
+The study is conducted in three sequential parts (Parts A, B, and C), each evaluating different dosing strategies and patient populations.
+
+Part A (Single Ascending DoseDose in HHT):
+
+Part A is a dose-escalation phase evaluating ascending single-dose levels of DIAG723 administered subcutaneously in sequential cohorts. Within each cohort, participants are randomized to receive DIAG723 or placebo. Dose escalation proceeds in a stepwise manner following review of safety, tolerability, and pharmacokinetic data. Sentinel dosing is implemented to allow for early safety assessment prior to dosing additional participants. Participants are monitored in an inpatient setting following dosing, with continued outpatient follow-up through the end of the assessment period.
+
+Part B (Multiple-Dose Expansion in HHT):
+
+Part B evaluates the safety, tolerability, pharmacokinetics, and preliminary clinical activity of DIAG723 administered as a multiple-dose regimen in patients with HHT symptoms. Participants are randomized to receive DIAG723 or placebo and receive repeated subcutaneous administrations over a planned treatment period of approximately 13 weeks. Dose levels and regimens evaluated in Part B are informed by available safety, pharmacokinetic, and pharmacodynamic data from Part A. An independent data monitoring process is used to support dose selection and cohort progression.
+
+Part C (Multiple-Dose Expansion in HHT with Pulmonary Arterial Hypertension):
+
+Part C evaluates the safety, tolerability, pharmacokinetics, and clinical effects of DIAG723 in a population of patients with HHT and concomitant pulmonary arterial hypertension. Participants are randomized to receive DIAG723 or placebo and receive the same general multiple-dose treatment approach as in Part B. Dose selection for Part C is informed by cumulative data from Part A and Part B, with additional assessments conducted to characterize effects in this specific patient population.
+
+Across all study parts, participants are randomized using an interactive response system, and study treatment is administered under double-blind conditions. A Safety Review Committee and an independent Data Safety Monitoring Board provide ongoing review of safety data and support dose-escalation and progression decisions throughout the study. Dose escalation and cohort progression are guided by predefined safety criteria and overall risk-benefit assessment.
+
+All doses are administered by subcutaneous injection, and participants undergo safety monitoring, pharmacokinetic sampling, and clinical assessments at scheduled study visits. The study includes both inpatient and outpatient components depending on the study part and stage of participation.
+
+This study is designed to characterize the safety profile and pharmacokinetic properties of DIAG723 and to support selection of appropriate doses and regimens for further clinical development in HHT.
+
+Interventions:
+- BIOLOGICAL: DIAG723. Bispecific agonist monoclonal antibody targeting ALK-1 and BMPRII, administered subcutaneously as:
+
+Single ascending dose in Part A; Multiple doses (7 doses over 13 weeks) in Parts B and C
+- OTHER: Placebo. Sterile normal saline (0.9% NaCl) administered subcutaneously in volumes matched to DIAG723 to maintain study blinding.
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+* Adult patients ≥18 years with a clinical or genetic diagnosis of HHT
+* Adequate hepatic and renal function
+* Part B: Epistaxis and anemia or transfusion/iron history
+* Part C: HHT with documented pre-capillary pulmonary arterial hypertension
+
+Exclusion Criteria:
+
+* Active or recent systemic infection
+* Recent thromboembolic events
+* Use of anti-angiogenic drugs within 6 weeks
+* Pregnancy or lactation
+* Recent participation in another investigational study
+Minimum Age: 18 Years
+Maximum Age: 
+Sex: ALL
+
+Primary Outcome Measures:
+- Incidence of Treatment-Emergent Adverse Events (TEAEs) - Part A (Single Dose) [Time Frame: From first dose through Day 28] Number and proportion of participants experiencing TEAEs following single-dose administration of DIAG723.
+- Incidence of Serious Adverse Events (SAEs) - Part A (Single Dose) [Time Frame: From first dose through Day 28] Number and proportion of participants experiencing SAEs following single-dose administration of DIAG723.
+- Incidence of Dose-Limiting Toxicities (DLTs) - Part A (Single Dose) [Time Frame: From first dose through Day 28] Number and proportion of participants experiencing DLTs during the dose-escalation period following single-dose administration.
+- Number of participants with abnormal laboratory tests results - Part A (Single Dose) [Time Frame: Baseline through Day 28] Laboratory assessments include hematology (complete blood count), clinical chemistry (basic metabolic panel; liver function tests; renal function; electrolytes; thyroid-stimulating hormone, free T4, free T3; cortisol; luteinizing hormone; lipase; amylase), coagulation (prothrombin time/international normalized ratio, activated partial thromboplastin time), and urinalysis.
+- Number of participants with abnormal vital signs - Part A (Single Dose) [Time Frame: Baseline through Day 28] Vital sign measurements include body temperature, heart rate, respiratory rate, blood pressure, and oxygen saturation.
+- Change from Baseline in Electrocardiogram (ECG) Parameters - Part A (Single Dose) [Time Frame: Baseline through Day 28] Change from baseline in ECG parameters, including QTc interval.
+- Incidence of Treatment-Emergent Adverse Events (TEAEs) - Part B (Multiple Dose) [Time Frame: From first dose through 28 days after final dose] Number and proportion of participants experiencing TEAEs following multiple-dose administration of DIAG723.
+- Incidence of Serious Adverse Events (SAEs) - Part B (Multiple Dose) [Time Frame: From first dose through 28 days after final dose] Number and proportion of participants experiencing SAEs following multiple-dose administration.
+- Incidence of Dose-Limiting Toxicities (DLTs) - Part B (Multiple Dose) [Time Frame: From first dose through 28 days after final dose] Number and proportion of participants experiencing DLTs during multiple-dose treatment.
+- Number of participants with abnormal laboratory tests results - Part B (Multiple Dose) [Time Frame: Baseline through Week 15] Laboratory assessments include hematology (complete blood count), clinical chemistry (basic metabolic panel; liver function tests; renal function; electrolytes; thyroid-stimulating hormone, free T4, free T3; cortisol; luteinizing hormone; lipase; amylase), coagulation (prothrombin time/international normalized ratio, activated partial thromboplastin time), and urinalysis.
+- Number of participants with abnormal vital signs - Part B (Multiple Dose) [Time Frame: Baseline through Week 17] Vital sign measurements include body temperature, heart rate, respiratory rate, blood pressure, and oxygen saturation.
+- Change from Baseline in Electrocardiogram (ECG) Parameters - Part B (Multiple Dose) [Time Frame: Baseline through Week 17] Change from baseline in ECG parameters, including QTc interval.
+- Incidence of Treatment-Emergent Adverse Events (TEAEs) - Part C (Multiple Dose, HHT with PAH) [Time Frame: From first dose through 28 days after final dose] Number and proportion of participants experiencing TEAEs following multiple-dose administration in participants with HHT and pulmonary arterial hypertension.
+- Incidence of Serious Adverse Events (SAEs) - Part C (Multiple Dose, HHT with PAH) [Time Frame: From first dose through 28 days after final dose] Number and proportion of participants experiencing SAEs in this population.
+- Incidence of Dose-Limiting Toxicities (DLTs) - Part C (Multiple Dose, HHT with PAH) [Time Frame: From first dose through 28 days after final dose] Number and proportion of participants experiencing DLTs during treatment.
+- Number of participants with abnormal laboratory tests results - Part C (Multiple Dose, HHT with PAH) [Time Frame: Baseline through Week 15] Laboratory assessments include hematology (complete blood count), clinical chemistry (basic metabolic panel; liver function tests; renal function; electrolytes; thyroid-stimulating hormone, free T4, free T3; cortisol; luteinizing hormone; lipase; amylase), coagulation (prothrombin time/international normalized ratio, activated partial thromboplastin time), and urinalysis.
+- Number of participants with abnormal vital signs - Part C (Multiple Dose, HHT with PAH) [Time Frame: Baseline through Week 17] Vital sign measurements include body temperature, heart rate, respiratory rate, blood pressure, and oxygen saturation.
+- Change from Baseline in Electrocardiogram (ECG) Parameters - Part C (Multiple Dose, HHT with PAH) [Time Frame: Baseline through Week 17] Change from baseline in ECG parameters, including QTc interval.

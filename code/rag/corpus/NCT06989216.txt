@@ -1,0 +1,53 @@
+NCT Number: NCT06989216
+Title: Multi-modal Quantitative Imaging of the Skin
+Official Title: DermaFlow Alpha - Multi-modal Quantitative Imaging of the Skin
+Lead Sponsor: HJN Sverige AB/Neko Health
+Overall Status: RECRUITING
+Start Date: 2023-02-01
+Study Type: OBSERVATIONAL
+Phases: 
+Enrollment: 8000
+Conditions: Skin Cancer, Skin Diseases, Atopic Dermatitis, Psoriasis, Raynaud Disease, Diabetic Foot, Peripheral Arterial Disease
+
+Brief Summary:
+This clinical trial is about evaluating the suitability of multi-modal imaging technology, which covers virtually the entire body, to evaluate the possibility of screening and early detection of disease.
+
+Detailed Description:
+This clinical investigation aims to evaluate the feasibility of full-body multi-modal imaging for screening, monitoring and diagnostic support purposes in primary care, by assessing accuracy of body measurements and sensitivity and correlation to disease. The performance in detection of skin cancer, peripheral arterial disease, Raynaud's phenomenon and dermatological conditions are within the scope of this investigation.
+
+The multi-modal technology is based on camera systems, which can capture high-resolution 2D and 3D color images (visible spectrum) and thermal images (infrared spectrum). The appearance, shape, color, etc. and topography of lesions is captured by the color 2D camera of the system and can thus be inspected / quantified. Thermal images are used to capture thermal gradients which may be indicative of microcirculatory changes. The 3D camera is used to ensure that 2D color data and thermal data can be geometrically aligned, thus being able to compare characteristics of the two data types from the very same skin segment / lesion. Furthermore, it enables geometrical measurements of the lesions.
+
+The participants mainly consist of a prospective primary care population, that undergo an investigation at a primary care visit. Full-body images (front and back) of all participants are captured during the visit. Participants receive a questionnaire to fill in on-site, where they state whether they have/have had any of the diseases and conditions part of the investigation. In some subjects, body measurements (circumference and distance) will be acquired manually as part of the primary care flow. Repeated yearly measurements may be performed in subjects who are interested.
+
+Interventions:
+
+Eligibility Criteria:
+Inclusion criteria:
+
+* Adult patients that are part of the regular healthcare patient flow at the investigational sites, or as separately invited to participate in this investigation.
+* Patients with signed informed consent
+
+Exclusion criteria:
+
+* Cognitive impairment
+* Patients unable to understand the oral and written study information in Swedish or English
+* Other severe disorder or terminal disease
+* Patients unable to provide an informed consent
+* Patients not able to keep balance, while standing up with closed eyes, without any aid
+* Claustrophobic patients
+Minimum Age: 18 Years
+Maximum Age: 
+Sex: ALL
+
+Primary Outcome Measures:
+- Sensitivity for detection of lesions requiring excision in comparison to visual inspection [Time Frame: Typically same day as enrolment, or if follow-up then 1 year following enrolment.] Evaluate the sensitivity of detecting lesions that required excision by inspection and labelling of full-body color images acquired by full-body photography. Manual labelling of images acquired by full-body photography will be compared to ocular inspection by doctor on-site, performed as part of a standard primary care flow. An expert reviewer blinded to outcome from ocular inspection will perform the manual labelling of images.
+- Difference in body metrics between full-body 3D photography and traditional measurements [Time Frame: Typically same day as enrolment, or if follow-up then 1 year following enrolment.] Evaluation of the mean difference in estimated body height, body circumference measurements and distance measurements (carotid centre - suprasternal notch, carotid centre - femoral centre and suprasternal notch - symphysis) using 3D images acquired by full-body photography compared to manual measurement using standard tape measures or height measurement tools. Difference is reported in metric units.
+- Sensitivity in detection of dermatological conditions with 2D images from full-body photography [Time Frame: Typically same day as enrolment, or if follow-up then 1 year following enrolment.] Percentage of all dermatological (eczema, psoriasis, rosacea), identified by self-reported diagnosis or by ocular inspection by a healthcare professional, which can be identified by 2D images from full-body photography (remote assessment by a trained healthcare professional, blinded to the outcome).
+
+The categories of assessment conclusion may include: 1. Cleared, no presence of specified condition 2. Diagnosed with condition 3. Further diagnostic steps are needed.
+- Sensitivity in detection of new or significantly changed lesions, from macroscopic images using 2D and 3D full-body photography. [Time Frame: Typically same day as enrolment, or if follow-up then 1 year following enrolment.] Sensitivity in detection of whether there are new or changed lesions on the visible parts of the body, based on a set of 2D and 3D images acquired using full-body photography.
+
+Expert reviewers with competence in lesion assessment will review images from subjects who have had no changed lesions and those who have had an excised lesion at second visit. . Images from initial and follow-up visit will be compared side-to-side. The expert reviewer will then classify, based on a collation of 2D and 3D images, into categories: 1. Significantly changed lesion 2. New lesion 3. No changed lesion.
+- Correlation between thermal gradient in hands and/or feet with diagnosis of peripheral arterial disease or Raynaud's phenomenon [Time Frame: Typically same day as enrolment, or if follow-up then 1 year following enrolment.] Evaluate correlation between thermal temperature gradient in thermal images acquired using full-body photography and diagnosis of peripheral arterial disease (PAD) and Raynaud's phenomenon.
+
+Confirmation of pathology presence is based on self-reported diagnosis from an on-site questionnaire. Alternatively, diagnosis is based on information from the participant's electronic health record if they are seeking care for a condition following their study visit.

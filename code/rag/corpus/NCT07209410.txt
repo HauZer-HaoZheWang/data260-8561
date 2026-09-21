@@ -1,0 +1,62 @@
+NCT Number: NCT07209410
+Title: Evaluating Injection With the Use of Brimonidine Tartrate Ophthalmic 0.025% on Patients Using Netarsudil 0.02%/Latanoprost 0.005% to Treat Glaucoma
+Official Title: Impact of Brimonidine Tartrate Ophthalmic 0.025% on Patients Using Netarsudil 0.02%/Latanoprost 0.005% to Treat Glaucoma
+Lead Sponsor: Insight Eyecare Specialties, Inc. dba Vision Source Eyecare,
+Overall Status: RECRUITING
+Start Date: 2025-11-01
+Study Type: INTERVENTIONAL
+Phases: PHASE4
+Enrollment: 35
+Conditions: Glaucoma
+
+Brief Summary:
+To evaluate the effect of brimonidine tartrate 0.025% on conjunctival hyperemia in patients treated with netarsudil 0.02%/latanoprost 0.005% mono-therapy for intraocular pressure lowering.
+
+Detailed Description:
+
+
+Interventions:
+- DRUG: Brimonidine Tartrate Ophthalmic 0.025%. Lumify is an approved eye drop to minimize ocular hyperemia.
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+* 1\. Adult patients 18-65 years old diagnosed with open-angle glaucoma or ocular hypertension.
+
+  2\. Currently on netarsudil 0.02%/latanoprost 0.005% monotherapy for a minimum of 2-6 weeks.
+
+  3\. Able to move from current topical glaucoma treatment to netarsudil 0.02%/latanoprost 0.005% for a minimum of 4 weeks or longer based on FDA recommended washout per drug classification prior to Visit 3.
+
+  4\. Experience conjunctival redness as graded on the Efron scale of at least grade 2 after minimum of 4 weeks on netarsudil 0.02%/latanoprost 0.005% mono-therapy or longer based on recommended washout per drug classification 4. Have a best corrected Visual Acuity by Snellen chart of 20/30 or better in study eye.
+
+  5\. Are willing and able to self-administer or have an able person available to assist with administration of study drug.
+
+Willing and able to comply with study procedures and attend follow-up visits.
+
+Exclusion Criteria:
+
+1. Allergy or hypersensitivity to brimonidine or other components of brimonidine tartrate 0.025% or netarsudil 0.02%/latanoprost 0.005%.
+2. Use of any other topical ocular medications.
+3. Active ocular infection, inflammation unrelated to glaucoma therapy, uveitis, iritis or congenital aphakia.
+4. Have pterygium/pinguecula, chemosis, episcleritis, scleritis (or any condition that may affect hyperemia grading) in the opinion of the investigator
+5. Have moderate or severe dry eyes.
+6. Pregnant, plan to become pregnant or breastfeeding.
+7. Concurrent or past use in the last 90 days of vasoconstrictive ocular drops other than brimondine 0.025%
+8. Have undergone previous incision IOP lowering surgeries.
+9. Have undergone previous laser surgery for glaucoma (selective laser trabeculoplasty (SLT) or argon laser trabeculoplasty (ALT)), or microinvasive glaucoma surgery (MIGS) with 6 months of screening.
+10. Have had intraocular or per-ocular surgery within the past 3 months.
+11. Advanced glaucoma or c/d ratio greater than 0.8. Are non-responsive to topical treatment with netarsudil 0.02%/latanoprost 0.005%.
+12. In the judgement of the investigator, have previous or currently active clinically significant systemic or ocular disease in either eye that could affect study outcomes.
+Minimum Age: 18 Years
+Maximum Age: 65 Years
+Sex: ALL
+
+Primary Outcome Measures:
+- Effron Grading scale of ocular redness [Time Frame: 2 weeks] Measuring Ocular Hyperemia and injection.
+
+This is measured on Scale 0-4 0- Normal
+
+1. Trace
+2. Mild
+3. Moderate
+4. Severe

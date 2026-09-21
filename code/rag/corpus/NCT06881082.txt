@@ -1,0 +1,52 @@
+NCT Number: NCT06881082
+Title: Cross-section Band Ligation Versus Stepladder Band Ligation of Esophageal Varices
+Official Title: Cross-section Band Ligation Versus Stepladder Band Ligation Techniques in Prophylaxis of Esophageal Varices in Cirrhotic Liver Disease. A Randomized Controlled Trial.
+Lead Sponsor: Tanta University
+Overall Status: RECRUITING
+Start Date: 2024-12-01
+Study Type: INTERVENTIONAL
+Phases: NA
+Enrollment: 320
+Conditions: Esophageal Varices
+
+Brief Summary:
+The goal of this randomized controlled trial is to evaluate the cross-section band ligation technique versus the stepladder band ligation technique in esophageal varices prophylaxis.
+
+Researchers will compare cross-section and step ladder band ligation techniques for esophageal varices prophylaxis regarding efficacy, side effects, variceal recurrence, and survival.
+
+Participants will undergo history-taking, clinical examination, laboratory investigations, and upper endoscopy. Index upper endoscopy will be performed to evaluate the presence, size, and grade of esophageal varices. Patients will be randomly assigned to endoscopic band ligation (EBL) either by cross-section or stepladder techniques every two to four weeks until eradication. After eradication of varices, endoscopy will be repeated after 3-6 months to check for variceal recurrence. For a period of 6 months, all patients in the treatment groups will be followed up every 3 months with clinic visits, including laboratory testing, evaluation of treatment-related side effects, bleeding rates, and mortality from EBL treatment.
+
+Detailed Description:
+
+
+Interventions:
+- PROCEDURE: endoscopic band ligation with cross-section technique. Endoscopic band ligation (EBL) of medium/large-sized esophageal varices using the cross-section banding technique. EBL will be repeated every two to four weeks until eradication. After eradication of varices, endoscopy will be repeated after 3- 6 months to check for variceal recurrence, evaluation of treatment-related side effects, bleeding rates, and mortality from EBL treatment.
+- PROCEDURE: Endoscopic band ligation using stepladder technique. Endoscopic band ligation (EBL) of medium/large-sized esophageal varices using the stepladder banding technique. EBL will be repeated every two to four weeks until eradication. After eradication of varices, endoscopy will be repeated after 3- 6 months to check for variceal recurrence, evaluation of treatment-related side effects, bleeding rates, and mortality from EBL treatment
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+* Aged \>18 years.
+* Cirrhotic patients.
+* Endoscopic evidence of medium/large-sized esophageal varices.
+
+Exclusion Criteria:
+
+* History of variceal bleeding or previous primary prevention of varices.
+* Portal vein thrombosis or previous porto-systemic shunts as TIPS.
+* Patients on drugs affecting portal pressure (beta blockers, nitrates).
+* Advanced cardiovascular disease including acute myocardial infarction, atrio-ventricular block, congestive heart failure, chronic peripheral ischemia, and severe bradycardia.
+* Patients with severe respiratory diseases (COPD, bronchial asthma).
+* Uncontrolled diabetes mellitus.
+* Renal impairment.
+* Hepatocellular carcinoma.
+* Allergy to carvedilol.
+* Pregnancy or lactation.
+Minimum Age: 18 Years
+Maximum Age: 
+Sex: ALL
+
+Primary Outcome Measures:
+- Vriceal bleeding rate at 6 weeks follow up [Time Frame: through study completion, an average of 1 year] -The occurrence of first variceal bleeding (early bleeding within 3 - 10 days after band ligation and late bleeding after that) will be evaluated and compared across the studied groups.
+- Mortality rate at 6 weeks follow up [Time Frame: through study completion, an average of 1 year] Bleeding-related mortality rate and overall mortality rate at 6 weeks will be assessed and compared across the studied groups.
+- Banding side effects at 6 weeks follow up [Time Frame: through study completion, an average of 1 year] Side effects of banding (e.g. post banding ulcers, portal hypertensive gastropathy, esophageal strictures and perforation) at 6 weeks will be evaluated and compared across the studied groups.

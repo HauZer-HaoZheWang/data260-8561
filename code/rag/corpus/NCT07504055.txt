@@ -1,0 +1,65 @@
+NCT Number: NCT07504055
+Title: Non-invasive Spinal Cord Stimulation and Blood Pressure Regulation After Spinal Cord Injury
+Official Title: Effectiveness of Transcutaneous Spinal Cord Stimulation on Blood Pressure Regulation in Individuals With Chronic Spinal Cord Injury
+Lead Sponsor: University of Louisville
+Overall Status: RECRUITING
+Start Date: 2026-04-01
+Study Type: INTERVENTIONAL
+Phases: NA
+Enrollment: 40
+Conditions: Spinal Cord Injury, Orthostatic Hypertension, Autonomic Dysreflexia
+
+Brief Summary:
+The goal of this clinical trial is to learn if non-invasive spinal cord stimulation intervention improves blood pressure regulation in individuals with chronic spinal cord injury. The main questions it aims to answer are:
+
+* Can site specific spinal cord stimulation enhance blood pressure regulation?
+* Does this stimulation affect enzymes responsible for blood pressure regulation? Researchers will stimulate different sites of spinal cord and compare to see if site-specific stimulation provide blood pressure stability.
+
+Participants will have up to six pairs of self-adhesive conductive electrodes placed on the skin over the spinal cord (midline and/or just to the left and right of midline) as cathodes and up to six pairs of self-adhesive electrodes located symmetrically on the skin over the iliac crests, clavicles, shoulders, and/or abdominal muscles (left and right of the umbilicus) as anodes for stimulation of the spinal cord.
+
+Detailed Description:
+This study introduces a novel mechanistic framework for treating and understanding autonomic regulation of blood pressure in SCI. The central hypothesis is that targeted specific scTS will restore cardiovascular homeostasis by strengthening complex neurohormonal pathways of blood pressure control. We expect that changes in these physiological and biochemical parameters will translate into greater cardiovascular stability, reduced frequency and severity of hypotensive and hypertensive episodes, and enhanced quality of life for individuals with SCI in individuals with Spinal Cord Injury (SCI) at the neurological level T1 and above, and more than one year after injury. The study team will recruit up to forty participants with the goal of fifteen participants to complete study interventions and assessments through the second follow-up visit. After recruitment and screening, primary and secondary outcome measures will be obtained at the following time points: 1) Pre-intervention (inclusive of randomization and mapping), 2) Session 20, 3) Mid-Intervention, 4) Session 60, 5) post-intervention, 6) 1st Follow-Up (8 weeks after post-intervention), and 7) 2nd Follow-Up (16 weeks after post-intervention). Participants will be asked to complete eighty sessions over a 16 to 20-week period, delivered 4 to 5 days per week for one hour each day. The stimulation will be delivered with frequency of up to 100 Hz, with incrementally increased intensity up to 200 mA to the participant for 80 sessions 1 hour long spanning 16 to 20 weeks.
+
+Interventions:
+- DEVICE: Spinal Cord Transcutaneous Stimulation. Spinal Cord Transcutaneous Stimulation (scTS) will be administered using the Biostim/Neostim (Cosyma Inc., Denver CO) device. Up to six pairs of self-adhesive conductive electrodes will be placed on the skin over the spinal cord (midline and/or just to the left and right of midline) as cathodes and up to six pairs of self-adhesive electrodes located symmetrically on the skin over the iliac crests, clavicles, shoulders, and/or abdominal muscles (left and right of the umbilicus) as anodes. During scTS mapping sessions, stimulation will be provided to assess the impact on functional outcomes and to refine stimulation parameters for training (e.g., blood pressure modulation, respiratory function) targeted for each arm. Using multi-variant combinations of electrode locations and different electrical configurations, the stimulation will be delivered at a level specific to each arm with frequency of up to 100 Hz, with incrementally increased intensity up to 200 mA.
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+* At least 18 years old,
+* Stable medical condition,
+* Non-progression SCI (no negative change in the neurological level and motor-completeness assess during screening when compared to the neurological status assessed at 6-month period after injury or at least 6 months prior to the screening),
+* Motor-complete SCI according to the American Spinal Injury Association (ASIA) Impairment Scale (AIS) grade "A," "B," or "C" above T1 spinal level according to the ASIA International Standards for Neurological Classification of Spinal Cord Injury (ISNCSCI) Neurological Level of Injury (NLI),
+* Sustained SCI at least 12 months prior to entering the study,
+* Evidence of symptomatic hypotension as determined by a total score \>0 on the Orthostatic Hypotension Symptom Assessment (OSHA),
+* Normal renal function as defined by eGFR \> 59 ml/min/1.73, creatinine value within the range of 0.6-1.2 mg/dl, and BUN values within the range of 7-18 mg/dl,
+* Competent to give informed consent for the research protocol,
+* Able to understand instructions.
+
+Exclusion Criteria:
+
+* Major pulmonary or cardiovascular disease unrelated to SCI,
+* Ventilator dependence,
+* Painful musculoskeletal dysfunction that might interfere with testing or stimulation,
+* Unhealed fracture that might interfere with testing or stimulation,
+* Unhealed contracture that might interfere with testing or stimulation,
+* Unhealed pressure sore that might interfere with testing or stimulation,
+* Untreated clinically significant depression or psychiatric disorders,
+* Ongoing drug abuse,
+* Malignancy ,
+* Class III obesity (BMI \>40) and at least one co-morbidity thereof: a) Type 2 diabetes as defined by ≥6.5% level on two separate glycated hemoglobin (A1C) tests, b) hypertension as defined by consistent blood pressure readings of ≥140/90 mmHg or taking medication for blood pressure,
+* Acute or chronic obstructive deep vein thrombosis,
+* Secondary hypotension unrelated to SCI (anemia, hypervolemia, endocrine and neurological diseases),
+* Major esophageal/gastrointestinal problem,
+* Currently pregnant (females of childbearing potential only),
+* Other major medical illness contraindicated for testing or stimulation.
+Minimum Age: 18 Years
+Maximum Age: 
+Sex: ALL
+
+Primary Outcome Measures:
+- Baroreflex Sensitivity [Time Frame: Within 4 weeks before an intervention; within 2 weeks after intervention #40; within 2 weeks after intervention #80; within 2 weeks after weeks after 8 weeks and 16-weeks follow-up period.] Baroreflex Sensitivity refers to the ability of the baroreflex mechanism in the body to sense changes in blood pressure and modulate heart rate and vascular tone accordingly. It is calculated as a linear regression of systolic blood pressure plotted against its corresponding R-R peaks on the electrocardiograph.
+- Renal Artery Systolic Velocity (Right and Left) [Time Frame: Within 4 weeks before an intervention; within 2 weeks after intervention #40; within 2 weeks after intervention #80; within 2 weeks after weeks after 8 weeks and 16-weeks follow-up period.] Renal Artery Systolic Velocity is the velocity of blood flow in the main renal artery supplying the kidneys. It will be obtained individually for right main renal artery and left main renal artery.
+- Plasma Renin Activity [Time Frame: Within 4 weeks before an intervention; within 2 weeks after intervention #20; within 2 weeks after intervention #40; within 2 weeks after intervention #60; within 2 weeks after intervention #80; within 2 weeks after weeks after 8 and 16-weeks follow-up.] Plasma Renin Activity is a biochemical blood test that measures the enzymatic activity of renin in the plasma. It is assessed by determining how effectively renin converts angiotensinogen to angiotensin I to evaluate the renin-angiotensin-aldosterone system (RAAS) activity.
+- Angiotensin Converting Enzyme [Time Frame: Within 4 weeks before an intervention; within 2 weeks after intervention #20; within 2 weeks after intervention #40; within 2 weeks after intervention #60; within 2 weeks after intervention #80; within 2 weeks after weeks after 8 and 16-weeks follow-up.] The blood test for angiotensin converting enzyme (ACE) evaluates the concentration of ACE in the bloodstream, an enzyme that converts angiotensin I into angiotensin II, which helps regulate blood pressure by constricting small blood vessels.
+- Aldosterone [Time Frame: Within 4 weeks before an intervention; within 2 weeks after intervention #20; within 2 weeks after intervention #40; within 2 weeks after intervention #60; within 2 weeks after intervention #80; within 2 weeks after weeks after 8 and 16-weeks follow-up.] An aldosterone blood test measures the hormone aldosterone in the blood to evaluate adrenal gland function and its impact on blood pressure and electrolyte balance.

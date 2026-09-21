@@ -1,0 +1,54 @@
+NCT Number: NCT06683391
+Title: Updating Preventive and Treatment Guidelines for Hypoglycemia in Individuals Living With Type 1 Diabetes
+Official Title: Updating pReventive and Treatment guidelinEs for Mild hypOglycemia in Individuals Living With Type 1 Diabetes During the erA of Continuous gLucose Monitoring: The REMODAL Trial
+Lead Sponsor: Institut de Recherches Cliniques de Montreal
+Overall Status: RECRUITING
+Start Date: 2025-02-06
+Study Type: INTERVENTIONAL
+Phases: NA
+Enrollment: 32
+Conditions: Type 1 Diabetes
+
+Brief Summary:
+The REMODAL trial is a randomized crossover study aiming to update treatment guidelines for mild hypoglycemia in people with Type 1 diabetes using continuous glucose monitoring (CGM) technology. The study will assess whether treating mild hypoglycemia proactively (at a glucose threshold of 5.0 mmol/L) with lower doses of carbohydrate (CHO) is more effective than the traditional reactive approach (treatment at \< 4.0 mmol/L). The goal is to reduce hypoglycemia frequency and improve quality of life, while minimizing caloric intake and rebound hyperglycemia.
+
+Detailed Description:
+The REMODAL trial explores an individualized, proactive approach to treat mild hypoglycemia in individuals with Type 1 diabetes (T1D) who use CGM. Traditional guidelines, established in the 1980s, recommend the "15g/15min rule" - consuming 15g of CHO every 15 minutes for glucose levels below 4.0 mmol/L. However, these guidelines may no longer be optimal with the advancements in insulin therapies and CGM, which provide real-time glucose data and predict glucose trends.
+
+In this study, 32 adult participants with T1D will receive three interventions to test different amounts and timing of CHO intake under real-life conditions. These are as follows:
+
+1. 8g of CHO at a threshold of 5.0 mmol/L (proactive approach).
+2. 16g of CHO at a threshold of 5.0 mmol/L (proactive approach).
+3. 16g of CHO at a threshold of \< 4.0 mmol/L (traditional reactive approach).
+
+The primary outcome is the prevention rate of hypoglycemic episodes under each intervention, with additional measures on glucose levels, time spent in hypoglycemia, and rebound hyperglycemia. The study also considers differences in glucose management between multiple daily injections, continuous subcutaneous insulin infusion, and automated insulin delivery systems, which may affect CHO needs. This study hopes to redefine effective hypoglycemia management in the modern era of diabetes care, providing personalized recommendations to improve glycemic control and overall quality of life.
+
+Interventions:
+- BEHAVIORAL: Oral Carbohydrate (CHO) Administration for Hypoglycemia Prevention and Treatment. The intervention in the REMODAL trial involves administering specific amounts of oral carbohydrates (CHO) at different glucose thresholds to evaluate the effectiveness of proactive versus reactive hypoglycemia management strategies in adults with Type 1 diabetes using continuous glucose monitoring (CGM). Participants will undergo three distinct interventions, each designed to test a different amount and timing of CHO intake.
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+* Adults aged 18 years and older
+* Clinical diagnosis of Type 1 diabetes for at least 1 year
+* Currently treated with multiple daily insulin injections (MDI), continuous subcutaneous insulin infusion (CSII), or automated insulin delivery (AID) systems
+* HbA1c level below 9.0%
+* Equal distribution of male and female participants, as well as MDI/CSII and AID users
+
+Exclusion Criteria:
+
+* Gastroparesis
+* Significant cardiac rhythm abnormalities
+* Clinically significant microvascular complications such as nephropathy (eGFR \< 40 ml/min) or severe proliferative retinopathy
+* Diagnosis of epilepsy
+* Pregnancy or currently breastfeeding
+* Severe hypoglycemic episode within 1 month prior to inclusion
+* Macrovascular events or uncorrected hypokalemia (K+ \< 3.5 mmol/L) within 3 months prior to inclusion
+* Anticipated treatment changes during the trial period
+* Inability to provide informed consent
+Minimum Age: 18 Years
+Maximum Age: 
+Sex: ALL
+
+Primary Outcome Measures:
+- Percentage of Hypoglycemia Prevention with 16g CHO at 5.0 mmol/L [Time Frame: 60 minutes] The primary outcome will measure the percentage of hypoglycemic episodes prevented when participants consume 16 grams of carbohydrate (CHO) at a proactive threshold of 5.0 mmol/L, as indicated by continuous glucose monitoring (CGM) readings. Prevention is defined by the avoidance of any CGM interstitial glucose reading below 4.0 mmol/L following the CHO intake. Measured for each intervention visit within 60 minutes after CHO ingestion.

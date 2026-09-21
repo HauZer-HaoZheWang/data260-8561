@@ -1,0 +1,64 @@
+NCT Number: NCT06326957
+Title: Reducing Chronic Breathlessness in Adults by Following a Self-guided, Internet Based Supportive Intervention (SELF-BREATHE)
+Official Title: A Multicentre, Randomised Controlled Trial Comparing Usual NHS Care to a Self-guided Internet-based Intervention (SELF-BREATHE) Plus Usual NHS Care to Reduce Breathlessness in Adults Living With Chronic Breathlessness
+Lead Sponsor: King's College Hospital NHS Trust
+Overall Status: RECRUITING
+Start Date: 2024-07-04
+Study Type: INTERVENTIONAL
+Phases: NA
+Enrollment: 246
+Conditions: Chronic Obstructive Pulmonary Disease, Bronchiectasis, Interstitial Lung Disease, Lung Cancer, Asthma, Dyspnea, Fibrotic Lung Disease, Chronic Lung Disease
+
+Brief Summary:
+Background:
+
+Some health conditions make breathing difficult and uncomfortable. When this happens every day, it is called chronic breathlessness. Over 3 million people living with heart and lung disease have chronic breathlessness in the UK.
+
+Breathlessness is very difficult for patients themselves and their families, resulting in disability and feelings of fear, distress, and isolation. Due a to lack of supportive breathlessness services many patients frequently attend hospital Accident and Emergency (A\&E) departments seeking help.
+
+Given the on-going challenges faced by the National Health Service (NHS) in the United Kingdom, such as long waiting times, staff shortages, increased demand for services because of the COVID-19 pandemic, there is an urgent need to develop new ways to support those living with chronic breathlessness. One potential solution is to offer support online, as it is estimated that in the UK, 7 out of every 10 people with chronic breathlessness are internet users.
+
+With the help of patients and NIHR funding the research team lead by Dr Charles Reilly, developed an online breathlessness supportive website called SELF-BREATHE. SELF-BREATHE provides information and self-management tools such as breathing exercises, that patients can do at home themselves.
+
+SELF-BREATHE has been tested as part of its development. SELF-BREATHE is acceptable and valued by patients. But what is unknown is whether SELF-BREATHE improves patients' breathlessness and their life? This is the question this research seeks to answer.
+
+Aims
+
+1. To test if using SELF-BREATHE for six-weeks improves patients' breathlessness, their quality of life and whether SELF-BREATHE should be offered within the NHS
+2. To see if patients opt to continue to use SELF-BREATHE after six-weeks and what benefits this may have for patients.
+
+Methods
+
+The research team are undertaking a randomised controlled trial. For this, 246 people living with chronic breathlessness will be recruited in to this study. Each person will be randomly chosen by a computer to continue with their usual care or their usual care plus access to SELF-BREATHE. All study participants will complete questionnaires at the start of the study, thereafter at seven and twelve weeks after randomisation.
+
+These questionnaires will ask patients about 1) their breathlessness and its effect on their life and 2) planned and unplanned hospital visits. At the end of the study, we will compare answers to these questionnaires between the two groups at seven and 12 weeks.
+
+This will tell if SELF-BREATHE improved patients' breathlessness and reduced their need for unplanned hospital visits e.g., A\&E attendances due to breathlessness.
+
+Detailed Description:
+
+
+Interventions:
+- OTHER: SELF-BREATHE. SELF-BREATHE is on online supportive self - management intervention for individuals living with chronic breathlessness due to respiratory disease. SELF-BREATHE provides user with educational resources about breathlessness and self - management techniques such as breathing exercises, goal setting which aims to help with their breathlessness.
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+* Adults ≥ 18 years of age
+* Chronic Breathlessness at rest and / or exertion
+* Chronic Breathlessness (CB) defined as breathlessness that persists (\>3months) despite pharmacological treatment of the underlying disease including, but not limited to; cancer, chronic obstructive pulmonary disease (COPD), interstitial lung disease (ILD), bronchiectasis, chronic fibrotic lung disease following SARS-CoV2 infection
+* Medical Research Council (MRC) dyspnea score ≥ 2 (MRC 2= short of breath when hurrying on the level or walking up a slight hill
+* Availability to a computer, tablet, or smart phone with internet access
+* Able to provide informed consent.
+
+Exclusion Criteria:
+
+* Breathlessness of unknown cause
+* Primary diagnosis of chronic hyperventilation syndrome
+* Currently participating in a rehabilitation programme e.g.,pulmonary/cardiac rehabilitation (patients that have completed PR \>4-weeks will be eligible).
+Minimum Age: 18 Years
+Maximum Age: 110 Years
+Sex: ALL
+
+Primary Outcome Measures:
+- Numerical Rating Scale (NRS) Worst Breathlessness [Time Frame: previous 24 hours] The primary outcome is patient rated intensity of worst breathlessness over the previous 24 hours, using a validated 11-point (0-10) numerical rating scale (NRS), where 0 = no breathlessness, and 10 = worst imaginable breathlessness (Patient self-reported out-come measure)

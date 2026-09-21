@@ -1,0 +1,51 @@
+NCT Number: NCT06878274
+Title: Post-operative Radiotherapy After Neodjuvant Chemo-immunotherapy and Surgery in Stage III NSCLC
+Official Title: Radiotherapy to Optimize Event-free Survival Following Chemo-Immunotherapy and Surgery in Upper Stage III NSCLC With Evidence of Pathological Residual Disease (RESCUE): Phase II Trial
+Lead Sponsor: Centre hospitalier de l'Université de Montréal (CHUM)
+Overall Status: RECRUITING
+Start Date: 2026-01-29
+Study Type: INTERVENTIONAL
+Phases: PHASE2
+Enrollment: 118
+Conditions: Non Small Cell Lung Cancer, Stage III Lung Cancer
+
+Brief Summary:
+This study investigates whether postoperative radiotherapy (PORT) improves outcomes for patients with stage III non-small cell lung cancer (NSCLC) who have residual disease after neoadjuvant chemo-immunotherapy and surgery. The primary objective is to compare event-free survival (EFS) between patients receiving PORT targeting involved lymph node regions and those without PORT. Secondary and tertiary endpoints include overall survival, locoregional and distant control, toxicity, and quality of life. The phase II randomized trial will enroll 118 patients, stratifying by adjuvant immunotherapy use, with follow-up extending up to 5 years. Statistical analysis aims to detect a 15% improvement in 2-year EFS, with a total study duration of 7 years.
+
+Detailed Description:
+
+
+Interventions:
+- RADIATION: Post-operative radiotherapy. Mediastinal post-operative radiotherapy to a dose of 40 Gy in 15 fractions
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+1. Participants must be ≥ 18 years old
+2. Ability to provide written informed consent
+3. ECOG performance status 0-2
+4. Histologically confirmed NSCLC
+5. Absence of actionable driver mutation (EGFR/ALK/ROS)
+6. Complete preoperative imaging staging, including: FDG-PET and brain imaging to exclude distant metastases will be mandatory.
+7. Baseline clinical or post-operative pathological stage III including specifically stage T1-4N2-3
+8. Completion of 2-4 cycles of neoadjuvant chemo-IO, regardless of the specific immunotherapy and chemotherapy used.
+9. Status post-complete (R0) surgical resection with mediastinal lymph node dissection.
+10. Residual nodal disease on final pathology specimen (i.e. absence of pathological complete response).
+11. Postoperative lung function examination: FEV1 \> 1 L (or greater than 35% expected value)
+
+Exclusion Criteria:
+
+1. Pregnant individuals
+2. Previous chest radiotherapy
+3. \>24 weeks after thoracic surgery
+4. History of other non-cutaneous neoplasms within the last 24 months
+5. Active grade ≥ 2 pneumonitis.
+6. Presence of interstitial lung disease
+7. Recurrence or metastasis occurred
+8. Medical conditions that hinders the safe administration of radiotherapy or follow-up.
+Minimum Age: 18 Years
+Maximum Age: 
+Sex: ALL
+
+Primary Outcome Measures:
+- Disease-free Survival [Time Frame: Defined as the time from random assignment to loco-regional or distant recurrence, or death from any cause, assessed up to 60 months.] 

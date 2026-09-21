@@ -1,0 +1,40 @@
+NCT Number: NCT00568490
+Title: Identification of Secreted Markers for Tumor Hypoxia in Patients With Head and Neck or Lung Cancers
+Official Title: Identification of Secreted Markers for Tumor Hypoxia in Patients With Head and Neck or Lung Cancers
+Lead Sponsor: Stanford University
+Overall Status: RECRUITING
+Start Date: 1998-09-01
+Study Type: OBSERVATIONAL
+Phases: 
+Enrollment: 200
+Conditions: Head and Neck Cancer, Lung Cancer, Lip Cancer, Lip Neoplasms, Head and Neck Cancers
+
+Brief Summary:
+The purpose of this study is to identify and confirm new blood and tissue markers for prognosis and tumor hypoxia. Tumor hypoxia, or the condition of low oxygen in the tumor, has been shown to increase the risk of tumor spread and enhance tumor resistance to the standard treatment of radiation and chemotherapy in head and neck and lung cancers. We have recently identified several proteins or markers in the blood and in tumors (including osteopontin, lysyl oxidase, macrophage inhibiting factor and proteomic technology) in the laboratory that may be able to identify tumors with low oxygen levels or more aggressive behaving tumors.
+
+Detailed Description:
+The endpoints of the study are
+
+1. To validate the prognostic significance of OPN in H\&N and lung cancer patients and to monitor its level during active therapy and follow up for cancer surveillance.
+2. To identify a gene and protein signature for hypoxia in H\&N and lung cancer patients.
+
+Interventions:
+- PROCEDURE: Tumor biopsy. For patients who undergo tumor biopsy or resection at Stanford, approximately 500 mg of the tumor will be removed from the resection specimen
+- PROCEDURE: Phlebotomy. Blood draw (approximately 20 cc) prior to any anticancer therapy Weekly blood draw (approximately 20cc) only for patients who are undergoing radiation treatment at Stanford University
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+* Histologically confirmed squamous cell carcinoma of the head and neck sites or non-small cell lung cancer, or relatives of patients with histologically confirmed squamous cell carcinoma of the head and neck.
+* Able to sign a Stanford IRB approved consent form
+
+Exclusion criteria:
+
+* Refuse or unable to sign an IRB approved consent form.
+* Refuse to be contacted in the future for follow up.
+Minimum Age: 18 Years
+Maximum Age: 
+Sex: ALL
+
+Primary Outcome Measures:
+- Identification of Secreted Markers for Tumor Hypoxia through tissue collection [Time Frame: before therapy, weekly during therapy] 

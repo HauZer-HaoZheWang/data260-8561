@@ -1,0 +1,44 @@
+NCT Number: NCT07739121
+Title: Benchmarking Large Language Models Against Tumour Boards for Oncology Treatment Recommendations
+Official Title: Benchmarking AI for Clinical Oncology decisioNmaking (BEACON): A Prospective, Multicentre, Blinded Evaluation of Frontier Large Language Models Against Multidisciplinary Tumour Board Recommendations in Oncology Treatment Planning
+Lead Sponsor: Assistance Publique - Hôpitaux de Paris
+Overall Status: RECRUITING
+Start Date: 2026-05-01
+Study Type: OBSERVATIONAL
+Phases: 
+Enrollment: 100
+Conditions: Breast Neoplasms, Lung Neoplasms, Urologic Neoplasms, Prostatic Neoplasms, Urinary Bladder Neoplasms, Kidney Neoplasms, Digestive System Neoplasms, Genital Neoplasms, Artifical Intelligence, Large Language Models, Decision Making, Decision Support Systems, Clinical
+
+Brief Summary:
+BEACON (Benchmarking AI for Clinical Oncology decisioNmaking) is a prospective, multicentre, comparative, blinded, non-interventional benchmark evaluating the treatment recommendations of five frontier large language models (LLMs) against the recommendations of multidisciplinary tumour boards (RCP) in oncology treatment planning. One hundred standardised synthetic cases (20 per localisation, across breast, lung, urological, digestive and gynaecological cancers) are submitted as identical structured input to two independent tumour boards per localisation and to five frontier LLMs. Each recommendation - human or model - is decomposed into five predefined decision domains (intent, surgery, radiotherapy, systemic therapy, work-up and biomarkers) and scored 0/1/2 for concordance against a two-tier reference: the consensus of the two tumour boards, complemented by an a priori locked guideline matrix (ESMO, NCCN). The primary endpoint is domain-level concordance between LLM and RCP consensus, expressed as a linearly weighted Cohen's kappa. A co-primary safety endpoint captures the proportion of recommendations carrying serious harm potential, because concordance alone can conceal dangerous errors. Because expert boards may disagree with one another on identical cases, model performance is always interpreted against the human consensus. BEACON is designed as reusable, openly licensed, pre-registered infrastructure: all synthetic cases, evaluation rubrics, the locked guideline matrix, scoring algorithms and verbatim prompts are released for full reproducibility.
+
+Detailed Description:
+BEACON is a prospective, multicentre, blinded benchmark using automated, criteria-based scoring. It is built on three design decisions that distinguish it from the existing literature: (i) synthetic, standardised cases remove the record-completeness variability that confounds retrospective comparisons and allow the identical input to be given to every board and every model; (ii) two independent tumour boards per localisation let human-human agreement be measured rather than assumed; and (iii) a guideline matrix, locked a priori, provides an objective anchor applied identically to human and model recommendations.
+
+Reference standard. For each case-domain, a guideline matrix (guideline-recommended / acceptable / unsupported options per case-domain; ESMO, NCCN), locked and time-stamped before data collection, is applied identically to boards and models.
+
+Five decision domains. Every recommendation is decomposed into D1 Intent, D2 Surgery, D3 Radiotherapy, D4 Systemic therapy (class + line), and D5 Work-up \& biomarkers before any comparison.
+
+Interventions:
+- OTHER: Multidisciplinary tumour boards. Two independent tumour boards per localisation (10 boards in total) issue a categorical recommendation for every synthetic case. Where both boards agree, their consensus defines the reference standard; where they differ, the case-domain is classified as EQUIPOISE and analysed separately.
+- OTHER: Frontier large language models. Five frontier LLMs (GPT-5.6, Claude Fable 5, Gemini 3.1 Pro, DeepSeek V4 Pro, Llama 4 Maverick) each receive the identical structured input for every case, three times in independent sessions, under locked prompts, versions and settings.
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+* Synthetic oncology case within one of the five predefined localisations (breast, lung, urological, digestive, gynaecological).
+* Complete structured schema: UICC 8th-edition stage, biomarkers, ECOG performance status, comorbidities and a standardised clinical question.
+* A clinically answerable treatment-planning question that is mappable to the locked guideline matrix.
+
+Exclusion Criteria:
+
+* Case outside the five predefined localisations.
+* Incomplete, internally inconsistent or ambiguous schema.
+* Duplicate or near-duplicate of an existing case in the set.
+* Question not resolvable by current guidelines.
+Minimum Age: 18 Years
+Maximum Age: 
+Sex: ALL
+
+Primary Outcome Measures:
+- Domain-level performance between LLM recommendations and the locked guidelines. [Time Frame: Assessed once at central scoring, after data collection (~October 2026)] For each recommendation domain and each LLM, proportion of LLM recommendation concordant with locked guidelines

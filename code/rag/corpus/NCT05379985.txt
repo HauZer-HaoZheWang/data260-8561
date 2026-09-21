@@ -1,0 +1,43 @@
+NCT Number: NCT05379985
+Title: Study of RMC-6236 in Patients With Advanced Solid Tumors Harboring Specific Mutations in RAS
+Official Title: A Multicenter Open-Label Study of RMC-6236 in Patients With Advanced Solid Tumors Harboring Specific Mutations in RAS
+Lead Sponsor: Revolution Medicines, Inc.
+Overall Status: RECRUITING
+Start Date: 2022-05-31
+Study Type: INTERVENTIONAL
+Phases: PHASE1, PHASE2
+Enrollment: 754
+Conditions: Non-small Cell Lung Cancer (NSCLC), Colorectal Cancer (CRC), Pancreatic Ductal Adenocarcinoma (PDAC), Advanced Solid Tumors
+
+Brief Summary:
+Evaluate the safety and tolerability of RMC-6236 in adults with specific RAS mutant advanced solid tumors.
+
+Detailed Description:
+This is a Phase 1/2, multicenter open-label study to evaluate the safety, tolerability, pharmacokinetics (PK), and clinical activity of escalating doses of RMC-6236 in adult patients with advanced solid tumors harboring specific RAS mutations, and to determine the maximum tolerated dose (MTD) and/or recommended phase 2 dose \[RP2D\] within investigated patient population groups. RMC-6236 is a potent, orally bioavailable RAS-MULTI(ON) inhibitor, selective for the active RAS(ON) form of both wild type and mutant variants of the canonical RAS isoforms (HRAS, NRAS, and KRAS).
+
+Interventions:
+- DRUG: RMC-6236. Oral Tablets
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+* Histologically confirmed advanced solid tumor with specific KRAS G12 mutations (dose escalation) or RAS mutations (dose optimization/expansion) identified through deoxyribonucleic acid (DNA) sequencing. PDAC with wild-type RAS (expansion).
+* Treatment naive or have received prior standard therapy appropriate for tumor type and stage
+* Have Eastern Cooperative Oncology Group (ECOG) performance status of 0 or 1
+* Adequate organ function
+
+Exclusion Criteria:
+
+* Primary central nervous system (CNS) tumors
+* Active, untreated brain metastases
+* Known or suspected impairment of gastrointestinal function that may prohibit ability to swallow or absorb an oral medication
+* History of any other unstable or clinically significant concurrent medical condition that would, in the opinion of the investigator, jeopardize the safety of a participant, impact their expected survival through the end of the study participation, and/or impact their ability to comply with the protocol prior/concomitant therapy
+
+Other inclusion/exclusion criteria may apply.
+Minimum Age: 18 Years
+Maximum Age: 
+Sex: ALL
+
+Primary Outcome Measures:
+- Incidence and severity of treatment-emergent Adverse Events (AEs) and serious AEs, including incidence and severity of findings in laboratory values and vital signs [Time Frame: up to 2.5 years] 
+- Number of Participants with Dose-Limiting Toxicity (DLT) [Time Frame: 21 days] 

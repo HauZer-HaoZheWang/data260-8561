@@ -1,0 +1,59 @@
+NCT Number: NCT07159282
+Title: A Multicenter, Prospective, Controlled Clinical Trial Evaluating the Efficacy of a Single Layer Placental-based Allograft and Standard of Care in the Management of Nonhealing Diabetic Foot Ulcers
+Official Title: A Multicenter, Prospective, Controlled Clinical Trial Evaluating the Efficacy of a Single Layer Placental-based Allograft and Standard of Care in the Management of Nonhealing Diabetic Foot Ulcers
+Lead Sponsor: Applied Biologics, LLC
+Overall Status: RECRUITING
+Start Date: 2025-08-26
+Study Type: INTERVENTIONAL
+Phases: PHASE4
+Enrollment: 60
+Conditions: Diabetic Foot, Foot Ulcer, Ulcer Foot, DFU, Foot Ulcer Due to Type 2 Diabetes Mellitus, Foot Ulcer Due to Type 1 Diabetes Mellitus, Diabetic Foot Ulcer
+
+Brief Summary:
+A multicenter, prospective, controlled clinical trial evaluating the efficacy of a single layer placental-based allograft and standard of care in the management of nonhealing diabetic foot ulcers.
+
+Detailed Description:
+This study follows a rescue design: patients in the SOC arm who fail to heal during the CAMPX Prospective Multicenter Randomized Controlled Clinical Trial will enter the Rescue trial and receive the study product.
+
+Patients enrolled in this trial must still meet medical necessity criteria for cellular, acellular, matrix-like, products (CAMPs) recently published by the Medicare Administrative Contractor's (MAC) in their local coverage determinations (LCD).
+
+Interventions:
+- OTHER: XWRAP. Application of XWRAP + standard of care for up to 12 weeks.
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+* The potential subject must be at least 18 years of age or older.
+* The potential subject must have a diagnosis of type 1 or 2 Diabetes mellitus.
+* If the potential subject has two or more ulcers, the target ulcer must be the same ulcer treated in the CAMPX study.
+* The potential subject must consent to using the prescribed offloading method for the duration of the study.
+* The potential subject must agree to attend the weekly study visits required by the protocol.
+* The potential subject must be willing and able to participate in the informed consent process.
+* The potential subject must have participated in the CAMPX trial in the SOC only arm and NOT achieved complete closure by the 12-week endpoint.
+
+Exclusion Criteria:
+
+* The potential subject is known to have a life expectancy of \< 6 months.
+* The potential subject's target ulcer is not secondary to diabetes.
+* The target ulcer is infected or there is cellulitis in the surrounding skin.
+* The target ulcer exposes tendon or bone.
+* There is evidence of osteomyelitis complicating the target ulcer.
+* There is an infection in the target ulcer or in a remote location that requires systemic antibiotic therapy.
+* The potential subject is receiving immunosuppressants (including systemic corticosteroids at doses greater than 10 mg of prednisone per day or equivalent) or cytotoxic chemotherapy or is taking medications that the PI believes will interfere with wound healing (e.g., biologics).
+* The potential subject has applied topical steroids to the ulcer surface within one month of initial screening.
+* The potential subject with a previous partial amputation on the affected foot that results in a deformity that impedes proper offloading of the target ulcer.
+* The potential subject has glycated hemoglobin (HbA1c) greater than or equal to 12% within 3 months of the initial screening visit.
+* The potential subject has an acute Charcot foot, or an inactive Charcot foot, which impedes proper offloading of the target ulcer.
+* The potential subject is a woman who is pregnant or considering becoming pregnant within the next 6 months.
+* The potential subject has end stage renal disease requiring dialysis.
+* The potential subject, in the opinion of the investigator, has a medical or psychological condition that may interfere with study assessments.
+* The potential subject has a malnutrition indicator score \<17 as measured on the Mini Nutritional Assessment.
+* The potential subject did not participate in the CAMPX trial.
+* The potential subject participated in the CAMPX trial and was not randomized to the SOC only arm.
+* The potential subject participated in the CAMPX trial and achieved complete closure.
+Minimum Age: 18 Years
+Maximum Age: 
+Sex: ALL
+
+Primary Outcome Measures:
+- Wound Closure [Time Frame: 1-12 Weeks] The percentage of target ulcers achieving complete wound closure in 12 weeks.

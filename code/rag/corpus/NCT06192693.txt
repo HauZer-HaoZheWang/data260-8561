@@ -1,0 +1,80 @@
+NCT Number: NCT06192693
+Title: Fecal Microbiota Transfer to Improve Diabetes Control Post-bariatric Surgery
+Official Title: Fecal Microbiota Transfer to Improve Diabetes Control Post-bariatric Surgery
+Lead Sponsor: Assistance Publique - Hôpitaux de Paris
+Overall Status: RECRUITING
+Start Date: 2024-01-21
+Study Type: INTERVENTIONAL
+Phases: PHASE3
+Enrollment: 54
+Conditions: Bariatric Surgery, Type 2 Diabetes
+
+Brief Summary:
+Obesity progresses worldwide with few effective treatments leading to a burst in Bariatric surgery (BS). France is the 3rd country in BS numbers yearly.
+
+BS improves diabetes (T2D) and even induces diabetes remission (DR) in 60% of patients. Thus, an expert consensus recommended extending BS to T2D with BMI≥30kg/m² with uncontrolled glycaemia, anticipating even more BS. Glycaemic control further deteriorates in the longer term in non DR (NDR) patients and relapse occurs in some DR patients, urging the need to add new therapy to control glycaemia and provide new recommendations in the future.
+
+Obesity and T2D are characterized by gut microbiota dysbiosis with low to very low microbial gene richness (MGR). About 75% of patients' candidates for BS are in the low MGR category. Whereas BS modifies microbiota composition and increases MGR 1-year post-BS, we demonstrated that only a few patients reach high MGR. Dysbiosis can be improved by several means; fibre enriched diet, prebiotics, probiotics also improve metabolic alterations and insulin resistance in mice. However, human studies observed rather divergent results: some studies display a beneficial effect in improving insulin-resistance but to a small extent while others do not display any significant effects at all. Therefore, other innovative strategies should be tested in humans. For example, Faecal microbiota transfer (FMT) ameliorates insulin sensitivity and MGR in metabolic syndrome patients, but was never tested in T2D nor post-BS. Whether adding such an innovative therapy to further modify gut microbiota post-BS can help improve glucose control should be tested.
+
+FMT showed health benefits in several diseases (clostridium difficile (CD) and Crohn's). Until recently, FMT was performed using invasive tool (endoscopy or colonoscopy) thus with potential secondary effects, or enema yet maybe less effective. Recent technologic developments enabled to generate oral capsulized FMT (filled with fecal material) performing as well as invasive FMT for CD with good tolerance. This strategy has never been tested in obesity or T2D, whereas in metabolic syndrome patients (before T2D occurrence) and less severe dysbiosis, a proof-of-concept study showed that endoscopic FMT may improve insulin sensitivity after 6 weeks. Yet these studies have included a small number of patients, non T2D and did not test oral FMT. We here hypothesize that an intervention improving dysbiosis after 1-year post-BS might help improve/maintain diabetes control in the long-term. We will examine the effects of FMT (from lean healthy donors) vs. placebo transfer in dietary-controlled non-DR patients after 1-year post-BS, on Hba1c reduction evaluated 6 months' post-intervention
+
+Detailed Description:
+
+
+Interventions:
+- DRUG: Capsulized fecal microbiota transfer containing the healthy feces + stool dilution solution. 1 FMT=30 capsulized FMT given during 2 days in several intakes per day (3 intakes per day).
+
+FMT will be performed at baseline after randomization. Further treatment(s) will be given again at 6 and 12 weeks if we do not observe a change of Hba1c of at least -0.15% in patients who have Hba1c at inclusion \<7%; of at least -0.4% in patients who have Hba1c at inclusion ≤8% and of at least -0.7% in patients who have Hba1c at inclusion \>8%.
+- DRUG: Capsulized placebo transfer containing dilution solution. 1 Placebo of FMT=30 capsulized given during 2 days in several intakes per day (3 intakes per day).
+
+Placebo of FMT will be performed at baseline after randomization. Further treatment(s) will be given again at 6 and 12 weeks if we do not observe a change of Hba1c of at least -0.15% in patients who have Hba1c at inclusion \<7%; of at least -0.4% in patients who have Hba1c at inclusion ≤8% and of at least -0.7% in patients who have Hba1c at inclusion \>8%.
+
+Eligibility Criteria:
+Inclusion Criteria patients :
+
+* Adult patients from 18-65 years old
+* T2D patients any severity of initial T2D disease before BS
+* Who underwent Bariatric surgery (BS) 1 to 5 years before (Roux-en-Y gastric bypass or sleeve, patients with pre-BS BMI≥35kg/m²)
+* Non-Diabetic remission (NDR) patients 1-year post-BS, defined as Hba1c\>6.5% and/or fasting glycaemia\>6.9mmol/l and/or receiving anti-diabetic drugs for at least 2 months. We will rather select patients with uncontrolled diabetes with Hba1c\>7% and willing to receive proton pump inhibitor (PPI)
+* Patient compliant to 1rd year follow-up post-BS (who came to at least 2 among the three routine care follow-up visits during the first year (i.e. 3, 6 and 12M)
+* Signature of the informed consent
+* Affiliated to a social security regime (except AME)
+
+Exclusion Criteria patients :
+
+* Type 1 diabetes
+* Patients receiving antibiotics (ATB) at the selection time or within the 3 previous months (if agreeing to participate to the study, the patients will be proposed randomization 3 months after stopping ATB)
+* Immunosuppressive therapy
+* Laxative treatments
+* DR since BS (nor relapse patients detailed further in the protocol)
+* Patients already recruited in another interventional studies study where a drug is being tested
+* Pregnant or breastfeeding women
+* Patient with contemporary disease such as intestine disease
+* Patient under guardianship or curatorship
+* Patient deprived of their liberty by a judicial or administrative decision
+
+Inclusion criteria donors:
+
+* Age ≥ 18 years and \< 50 years
+* Lean individuals (18\<BMI\<25kg/m²)
+* Euglycemic: fasting glycemia \<6mmol/l; Hba1c \<5.9%
+* Healthy: no current drug prescription (except contraception or pain killers other than AINS)
+* Regular bowel movement in the morning defined as 1 stool/day at least
+* Signature of the informed consent
+* Subject with health insurance (except AME)
+
+Exclusion criteria donors:
+
+* Familial history of obesity or diabetes and personal history of overweight/obesity
+* Infectious risk
+* Gastrointestinal disease
+* Exclusion criteria according screening test to National Agency for the Safety of Medicines and Health Products (ANSM) recommendations
+* Pregnancy or breastfeeding women
+* Subject under guardianship or curatorship
+* Subject deprived of their liberty by a judicial or administrative decision
+Minimum Age: 18 Years
+Maximum Age: 65 Years
+Sex: ALL
+
+Primary Outcome Measures:
+- Hba1c change from baseline to 6 months post randomization [Time Frame: At baseline and at 6 months after randomization] 

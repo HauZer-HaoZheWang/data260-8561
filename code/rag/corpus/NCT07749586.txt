@@ -1,0 +1,71 @@
+NCT Number: NCT07749586
+Title: A Study to Evaluate ARV-6723 Alone and With Pembrolizumab in Participants With Advanced Solid Tumors
+Official Title: A Phase 1/2 Open-label Study to Evaluate Safety, Tolerability, Pharmacokinetics, and Preliminary Anti-tumor Activity of ARV-6723 Administered as Monotherapy and in Combination With Pembrolizumab in Participants With Advanced Solid Tumors
+Lead Sponsor: Arvinas Inc.
+Overall Status: RECRUITING
+Start Date: 2026-07-29
+Study Type: INTERVENTIONAL
+Phases: PHASE1, PHASE2
+Enrollment: 499
+Conditions: Advanced Solid Tumor
+
+Brief Summary:
+This is a study to evaluate the safety and potential anti-tumor activity of an investigational drug called ARV-6723, in participants with advanced solid tumors.
+
+This is an open-label study which means that participants and study staff will know that all participants will receive ARV-6723. The investigational drug ARV-6723 will be given as an oral tablet on its own and also in combination with other drugs.
+
+Researchers think that ARV-6723 can help the body's immune system to better recognize, attack, and destroy cancer cells in adults with advanced solid tumors. ARV-6723 is an investigational drug, and this is the first time ARV-6723 will be used in humans.
+
+Depending on the treatment assignment, the investigational drug, ARV-6723, will be given as an oral tablet either on its own (monotherapy) or in combination with pembrolizumab, either through a vein (intravenously or IV) or through an injection beneath the skin (subcutaneously or SQ).
+
+This study will include multiple parts:
+
+In Part A1 (Phase 1a), different small groups of participants will receive lower to higher doses of ARV-6723 as monotherapy or in combination with standard-dose of pembrolizumab.
+
+In Part A2 (Phase 1b), two groups of participants with specific tumor indication(s) (TBD) will receive one of two doses selected based on information from Part A1.
+
+Details of Part B will be determined based on information generated from Part A.
+
+Detailed Description:
+
+
+Interventions:
+- DRUG: ARV-6723. Oral daily dose of ARV-6723 at an assigned dose.
+- DRUG: Pembrolizumab. IV infusion or SQ injection Q3W at an assigned dose.
+- DRUG: SOC. Investigator's choice of SOC drugs.
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+Part A1 dose escalation and A2 dose optimization: Participants must meet all of the following criteria:
+
+* Have a histologic or cytologic diagnosis of unresectable or metastatic solid tumor malignancy.
+* Have previously received at least one prior therapy targeting programmed cell death protein 1 (PD-1), programmed death-ligand 1 (PD-L1), cytotoxic T-lymphocyte antigen 4 (CTLA-4), lymphocyte-activation gene 3 (LAG-3), and/or another T-cell co-stimulatory or immune checkpoint pathway, in any treatment setting (including neoadjuvant or adjuvant).
+* Have received prior SOC therapy appropriate for their disease type and stage and have no remaining available treatment options with established clinical benefit; or, in the opinion of the investigator, are unlikely to tolerate or derive clinically meaningful benefit from appropriate SOC therapy; or have declined SOC therapy.
+* Participants must have demonstrated radiographic progression and have at least 1 measurable lesion per RECIST v1.1 that has not been previously irradiated or has demonstrated progression of disease since radiation therapy.
+* ECOG PS 0 or 1 or equivalent. Participants with ECOG PS 2 may be considered upon discussion with the Sponsor Medical Monitor.
+* Participants with adequate organ function.
+
+Exclusion Criteria:
+
+Exclusion Criteria (Part A)
+
+* Active brain metastases (new lesions identified on imaging, existing lesions showing progression per Response Evaluation Criteria in Solid Tumors, version 1.1 (RECIST v1.1)/imaging characteristics or by clinical criteria, lesions requiring active interventions for symptom control).
+* Carcinomatous meningitis.
+* Known or suspected hypersensitivity to ARV-6723 or pembrolizumab or any of its excipients.
+* Active autoimmune disease or history of autoimmune diseases that may relapse.
+* History of severe immune-related adverse events (irAE) attributed to prior anti-PD-1/anti-CTLA-4/anti-LAG-3 therapy.
+* Prior treatment with any HPK1-targeting agent
+* Systemic anti-cancer therapy or radiation therapy within 14 days prior to study treatment start.
+* Current use of any prohibited concomitant medication(s) or herbal supplements which cannot be discontinued, prior to start of study intervention and for the duration of the study.
+* Baseline (screening) standard 12-lead electrocardiogram (ECG) that demonstrates clinically relevant abnormalities that may affect participant safety or interpretation of study results.
+Minimum Age: 18 Years
+Maximum Age: 
+Sex: ALL
+
+Primary Outcome Measures:
+- Part A1: Number of Dose-Limiting Toxicities (DLTs) of ARV-6723 [Time Frame: 21 days from first ARV-6723 administration] Number of participants within a dose escalation cohort with adverse events (AEs) meeting protocol defined dose limiting toxicities during cycle 1 (21 days).
+- Part A1: Number of Participants With Adverse Events (AEs) [Time Frame: From the first dose of ARV-6723 through at least 28 days after the last dose (up to approximately 4.7 years)] AEs as characterized by type, frequency, severity (as graded by National Cancer Institute Common Terminology Criteria for Adverse Events \[NCI CTCAE\]), timing, seriousness, and relationship to study intervention as a measure of safety and tolerability.
+- Part A2: Number of Participants With AEs [Time Frame: From the first dose of ARV-6723 through at least 28 days after the last dose (up to approximately 4.7 years)] AEs as characterized by type, frequency, severity (as graded by National Cancer Institute Common Terminology Criteria for Adverse Events \[NCI CTCAE\]), timing, seriousness, and relationship to study intervention as a measure of safety and tolerability.
+- Part A2: Overall Response Rate (ORR) by computed tomography/magnetic resonance imaging (CT/MRI) Using Response Evaluation Criteria in Solid Tumors, version 1.1 (RECIST 1.1) Criteria Per Investigator Assessment [Time Frame: Approximately 24 months] ORR is defined as the proportion of participants reaching a confirmed complete response (CR) or partial response (PR) to the study treatment based on investigator assessment using RECIST 1.1 criteria.
+- Part B: ORR by CT/MRI using RECIST v1.1 Criteria Per Investigator Assessment [Time Frame: Approximately 24 months] ORR is defined as the proportion of participants reaching a confirmed complete response (CR) or partial response (PR) to the study treatment based on investigator assessment using RECIST 1.1 criteria.

@@ -1,0 +1,49 @@
+NCT Number: NCT06835569
+Title: A Study to Learn About Study Medicine ALTA3263 in Adults With Advanced Solid Tumors With KRAS Mutations
+Official Title: A Phase 1/1b Multiple Cohort Trial of ALTA3263 in Patients With Advanced Solid Tumors With KRAS Mutations
+Lead Sponsor: Alterome Therapeutics, Inc.
+Overall Status: RECRUITING
+Start Date: 2025-03-05
+Study Type: INTERVENTIONAL
+Phases: PHASE1
+Enrollment: 448
+Conditions: Cancer, PDAC - Pancreatic Ductal Adenocarcinoma, NSCLC (Non-small Cell Lung Cancer), CRC (Colorectal Cancer), Advanced Solid Tumors
+
+Brief Summary:
+The purpose of this study is to characterize the safety and tolerability of ALTA3263 in adults with advanced solid tumors with KRAS mutations.
+
+Detailed Description:
+This is an open-label, multicenter, Phase 1/1b study of ALTA3263, an orally bioavailable KRAS isoform-selective inhibitor that inhibits multiple mutant forms of KRAS, in adults with advanced solid tumor malignancies with KRAS mutations. This study will evaluate the safety, tolerability, pharmacokinetics (PK), and preliminary clinical activity of ALTA3263 as a monotherapy and as a combination regimen. The study consists of two parts: Part 1 - Dose Escalation and Part 1b - Dose Expansion.
+
+Interventions:
+- DRUG: ALTA3263. Oral ALTA3263 tablets will be administered at a protocol-defined dose
+- DRUG: cetuximab. Cetuximab injection for IV use will be administered at a protocol-defined dose
+- DRUG: mFOLFOX6. modified folinic acid (leucovorin), fluorouracil, and oxaliplatin will be administered at a protocol-defined dose
+- DRUG: Pembrolizumab. Pembrolizumab injection for IV use will be administered at a protocol-defined dose
+- DRUG: Pemetrexed + Cisplatin /Carboplatin. Pemetrexed and carboplatin/cisplatin injection for IV use will be administered at a protocol-defined dose
+- DRUG: mFOLFIRINOX. modified folinic acid (leucovorin), fluorouracil, irinotecan, and oxaliplatin will be administered at a protocol-defined dose
+- DRUG: GnP. gemcitabine and albumin-bound paclitaxel will be administered at a protocol-defined dose
+- DRUG: Midazolam. Oral midazolam will be administered at a protocol-defined dose
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+* Histologically confirmed diagnosis of a solid tumor malignancy harboring a KRAS mutation identified through molecular testing (NGS- or PCR-based) with a Clinical Laboratory Improvement Amendments-certified (or equivalent) diagnostic test.
+* Unresectable or metastatic disease.
+* Progressed on, intolerant to, or declined prior standard-of-care therapy (including targeted therapy, if applicable) appropriate to tumor type and stage
+* Eastern Cooperative Oncology Group (ECOG) performance status of 0 or 1.
+* Adequate organ function
+
+Exclusion Criteria:
+
+* Prior treatment with a KRAS inhibitor, certain exceptions are described in the full study protocol
+* Known condition that prohibits the ability to swallow or absorb an oral medication.
+
+Other inclusion/exclusion criteria may apply.
+Minimum Age: 18 Years
+Maximum Age: 
+Sex: ALL
+
+Primary Outcome Measures:
+- Adverse Events [Time Frame: Up to 39 months] Number of participants that experience treatment-emergent adverse events (TEAEs).
+- Dose Limiting Toxicities [Time Frame: 21 days] Number of participants with Dose Limiting Toxicities (DLTs).

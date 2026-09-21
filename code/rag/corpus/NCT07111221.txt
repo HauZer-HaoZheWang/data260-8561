@@ -1,0 +1,66 @@
+NCT Number: NCT07111221
+Title: Portal Inflow Modulation Prior to Liver Transplantation in Patients With Increased Risk of Intraoperative Blood Loss
+Official Title: A Prospective, Randomized Study Evaluating the Effectiveness of Portal Hypertension Modulation in the Preoperative Period in Patients at Increased Risk of Massive Blood Loss During Liver Transplantation.
+Lead Sponsor: Medical University of Warsaw
+Overall Status: RECRUITING
+Start Date: 2025-06-24
+Study Type: INTERVENTIONAL
+Phases: NA
+Enrollment: 104
+Conditions: Liver Cirrhosis, Clinically Significant Portal Hypertension
+
+Brief Summary:
+Liver transplantation is a procedure associated with an exceptionally high risk of blood loss. Liver failure, which is the most common indication for transplantation, not only leads to coagulation disorders but also to the development of portal hypertension. As a result, collateral circulation forms within the abdominal venous system, significantly increasing the risk of massive intraoperative blood loss. The number of intraoperatively transfused units of red blood cell concentrate is one of the main predictors of serious complications and postoperative mortality.
+
+Patients with portal hypertension awaiting liver transplantation should be treated with non-selective β-blockers, which reduce pressure in the portal system. This is primarily justified by the need to prevent esophageal variceal bleeding, one of the most common causes of decompensation in chronic liver failure and a potential cause of death while awaiting liver transplantation.
+
+According to the Baveno VII guidelines, if bleeding recurs despite the use of non-selective β-blockers, a transjugular intrahepatic portosystemic shunt (TIPS) should be considered. Significant reduction of portal pressure is observed in up to 50% of patients treated with propranolol and up to 75% with carvedilol. TIPS effectively prevents bleeding caused by portal hypertension.
+
+However, recommendations for pre-transplant management of portal hypertension do not address the reduction of blood loss risk during liver transplantation. Previous studies evaluating the use of TIPS before transplantation primarily confirmed its safety and showed no significant increase in intraoperative risk. One analysis even suggested using TIPS in all patients with portal hypertension awaiting liver transplantation. Although some studies have addressed the issue of blood loss during transplantation, they were observational and retrospective, without distinguishing patients at particularly high risk of massive blood loss. So far, the effectiveness of TIPS in reducing blood loss during liver transplantation has not been confirmed-nor have studies reliably excluded such potential.
+
+The objective of the study is to directly compare the effectiveness of two different methods of modulating portal hypertension in the context of the risk of massive blood loss during liver transplantation.
+
+We hypothesize that the superior effectiveness of TIPS in significantly reducing portal hypertension may lead to a significant decrease in blood loss and the need for transfusion of blood products in patients at high risk of massive blood loss.
+
+Detailed Description:
+
+
+Interventions:
+- PROCEDURE: Transjugular Intrahepatic Portosystemic Shunt. Transjugular Intrahepatic Portosystemic Shunt performed prior to liver transplantation in patients with increased risk of intraoperative blood loss
+- DRUG: Non-selective beta-blockers. Non-selective beta-blockers for lowering portal hypertension
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+* Qualification for elective liver transplantation from a deceased donor
+* Age ≥18 years
+* BMI between 18.5 kg/m² and 30 kg/m²
+* Informed consent to participate in the study
+* Clinically significant portal hypertension
+* At least 1 of the following risk factors for massive blood loss:
+* Re-transplantation
+* Previous surgery in the upper abdomen
+* History of esophageal variceal bleeding
+* History of spontaneous bacterial peritonitis
+* Planned thrombectomy during liver transplantation
+
+Exclusion Criteria:
+
+* Heart failure (EF \<50%)
+* Severe right ventricular failure
+* Severe pulmonary hypertension
+* Systemic infection
+* Portal vein thrombosis (Yerdel \>1)
+* Severe coagulopathy (INR \>5)
+* Thrombocytopenia \<20,000/ml
+* Severe or uncontrolled encephalopathy (ammonia concentration \>100 μmol/l)
+* Contraindication to TIPS
+* Contraindication to therapy with non-selective beta-blockers
+* Pregnancy
+* Lack of informed consent to participate in the study
+Minimum Age: 18 Years
+Maximum Age: 
+Sex: ALL
+
+Primary Outcome Measures:
+- Number of red blood cell units transfused during liver transplantation. [Time Frame: Intraoperative] 

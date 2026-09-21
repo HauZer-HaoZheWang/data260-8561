@@ -1,0 +1,77 @@
+NCT Number: NCT06518915
+Title: Baroloop Multicenter Trial (Baroloop MCT)
+Official Title: Baroloop MCT - A Multicenter Trial of Safety and Performance of Baroloop
+Lead Sponsor: neuroloop GmbH
+Overall Status: RECRUITING
+Start Date: 2024-05-22
+Study Type: INTERVENTIONAL
+Phases: NA
+Enrollment: 120
+Conditions: Hypertension, Resistant to Conventional Therapy
+
+Brief Summary:
+The goal of this clinical trial is to learn weather the baroloop system is safe and works to treat hypertension in adults that do not respond sufficiently to medication. The main questions it aims to answer are:
+
+* Is the baroloop device associated with any major medical problems including death?
+* Does the baroloop lower the blood pressure of study participants?
+
+Participants will be implanted with the baroloop device. Afterwards they will visit the clinic after 14 days, 3 months, 6 months, 12 months, 18 months, and 24 months for adjustment of the device settings and/or other study related assessments. Participants will also be asked to answer questions regarding their quality of life.
+
+Detailed Description:
+
+
+Interventions:
+- DEVICE: baroloop system. Participants will have the baroloop device implanted for selective stimulation of the vagus nerve.
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+1. Aged 18 years or older.
+2. Persistent office systolic blood pressure (SBP) ≥ 140 mm Hg and diastolic blood pressure (DBP) \> 90 mm Hg on antihypertensive medicines on two visits separated by a minimum of four weeks.
+3. Mean 24-hour systolic ABPM ≥ 130 mm Hg and mean 24 hour diastolic ABPM ≥ 80 mm Hg conducted after direct observed therapy to confirm that antihypertensive medicines were taken as prescribed during the ABPM measurement.
+4. Stable drug regimen of 3 antihypertensive medicines consisting of a reninangiotensin blocker (ACE) or Angiotensin II Receptor Blocker (ARBs), a calcium channel blocker (CCB), and a diuretic for 4 weeks at treatment.
+5. Willingness and ability to comply with follow-up requirements.
+6. Signed informed consent.
+
+Exclusion Criteria:
+
+1. Any patient in whom access to the vagal nerve is limited by the size of the vagus (a size not compatible with the baroloop cuff).
+2. Any patient with a history of injury to the vagus nerve or its branches (e.g., the recurrent laryngeal nerve).
+3. Secondary causes of hypertension.
+4. Calculated eGFR \< 30 mL/min/1.73m2.
+5. Type 1 diabetes mellitus or poorly controlled type 2 diabetes mellitus (HbA1c \> 10%).
+6. Requirement for chronic oxygen therapy or mechanical ventilation.
+7. Untreated (no CPAP therapy) sleep apnea (AHI \> 15)
+8. Morbid obesity, defined as Body Mass Index \>40 kg/m2 or arm circumference 46 cm.
+9. Pacemaker and/or implantable defibrillators.
+10. History of transient ischemic accident or cerebrovascular accident during six (6) months prior to screening.
+11. Symptomatic carotid artery disease or \> 70% occlusion of either carotid artery; any carotid malformation or lesion, a carotid bruit or other abnormal carotid sound.
+12. Prior surgery, radiation therapy or scarring in the neck in the region of the carotid artery (e.g., patients with a tracheostomy, extensive thymectomy or thyroid surgery).
+13. Limited mobility of the neck secondary to vertebral disease or prior vertebral surgery, including patients who wear a cervical support.
+14. History of heart failure (NYHA class III-IV).
+15. Cardiac arrythmias (atrial fibrillation, atrial flutter, etc.) that require anticoagulation if the condition interferes with a consistent measurement of blood pressure.
+16. Unexplained syncope in the last 6 months.
+17. History of bleeding disorders, thrombocytopenia, hemophilia, or significant anemia (hemoglobin (Hgb) \< 10 g/dl).
+18. Current anticoagulation therapy (excluding antiplatelet therapy with aspirin as a sole therapy).
+19. History of unresolved drug or alcohol use.
+20. Active treatment of a psychiatric ailment.
+21. Life expectancy of less than 12 months due to other disease.
+22. Subject has a condition that, in the opinion of the investigator, precludes participation, including willingness to comply, with all follow-up procedures.
+23. Participation in another clinical study for which follow-up is currently on-going.
+24. Women who are pregnant
+25. Resting heart rateof \< 45 beats/min s, confirmed at both baseline visits.
+26. Baroreflex failure or autonomic neuropathy
+27. Symptomatic, uncontrolled bradyarrhythmias
+28. Atrioventricular block of any grade
+29. Presence of a vagus stimulator
+30. Patients who are likely to require magnetic resonance imaging (MRI) of the cervical area
+31. Occupational exposure to high levels of non-ionizing radiation that may interfere with therapy
+32. Patients with a limited ability to read, understand and execute adjustment procedures (for example, persons suffering from dementia).
+33. Likely exposure to diathermy.
+Minimum Age: 18 Years
+Maximum Age: 
+Sex: ALL
+
+Primary Outcome Measures:
+- Safety of the baroloop device [Time Frame: 6 months after initial stimulation] Composite Major Adverse Event (MAE) Rate including all-causes of death and all device or procedure-related serious adverse event
+- Performance [Time Frame: 6 months after initial stimulation] Change in mean 24-hour Systolic Ambulatory Blood Pressure (ABP) by ambulatory blood pressure monitoring

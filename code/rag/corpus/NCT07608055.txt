@@ -1,0 +1,54 @@
+NCT Number: NCT07608055
+Title: Clinical, Oncologic, and Metabolic Effects of Pancreatic Mass Loss After Pancreatectomy in Non-Diabetic Patients
+Official Title: Clinical, Oncologic, and Metabolic Effects of Pancreatic Mass Loss Following Partial, Near-Total, and Total Pancreatectomy in Patients Without Diabetes at Baseline: A Monocentric Ambispective Observational Study
+Lead Sponsor: Fondazione Policlinico Universitario Agostino Gemelli IRCCS
+Overall Status: RECRUITING
+Start Date: 2026-07-20
+Study Type: OBSERVATIONAL
+Phases: 
+Enrollment: 579
+Conditions: Pancreatectomy, Diabetes Mellitus Type 2, Pancreatic Neoplasms
+
+Brief Summary:
+This study will examine how removal of part or all of the pancreas affects blood sugar control, metabolism, and clinical outcomes over time.
+
+The study will include adults without diabetes before surgery who undergo pancreatic surgery as part of routine clinical care at Fondazione Policlinico Universitario A. Gemelli IRCCS.
+
+Researchers will study whether participants develop diabetes after surgery and whether this risk changes according to the type of pancreatic resection.
+
+Information from routine clinical care, metabolic tests, imaging, and pancreatic tissue samples collected during surgery may be used for research analyses.
+
+Detailed Description:
+This is a monocentric ambispective observational cohort study conducted at Fondazione Policlinico Universitario A. Gemelli IRCCS, Rome, Italy. The study integrates retrospective, ambispective, and prospective cohorts of patients undergoing partial, near-total, or total pancreatectomy for benign or malignant pancreatic disease.
+
+Pancreatectomy represents a unique human model to investigate the metabolic consequences of acute pancreatic mass loss and beta-cell reduction. However, substantial interindividual variability exists in postoperative glycemic trajectories, suggesting that preoperative metabolic status and tissue-specific factors may contribute to the risk of new-onset diabetes after surgery.
+
+The primary objective is to evaluate the incidence of new-onset diabetes mellitus within 12 months after surgery according to the type of pancreatic resection in patients without diabetes at baseline.
+
+Secondary objectives include longitudinal evaluation of glycemic and metabolic changes after pancreatectomy, assessment of associations between preoperative metabolic characteristics and postoperative glycemic outcomes, exploratory evaluation of pancreatic tissue morphology/molecular characteristics, and analysis of oncologic outcomes including overall survival and disease-free survival.
+
+Clinical, biochemical, radiologic, and metabolic data will be collected according to routine clinical practice. Metabolic evaluations may include OGTT, mixed meal test (MMT), and metabolic clamp procedures when available. Morphological and molecular analyses will be performed on pancreatic tissue obtained from surgical specimens in selected subgroups.
+
+Interventions:
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+* Adult patients (≥18 years)
+* No diabetes mellitus at baseline
+* Undergoing partial, near-total, or total pancreatectomy at the study center
+* Availability of clinical and metabolic data according to study component
+* Written informed consent for the prospective component
+
+Exclusion Criteria:
+
+* Diabetes mellitus at baseline
+* Age \<18 years
+* Missing key clinical data precluding eligibility assessment or primary outcome evaluation
+* Refusal or inability to provide informed consent for the prospective component, where applicable
+Minimum Age: 18 Years
+Maximum Age: 
+Sex: ALL
+
+Primary Outcome Measures:
+- Incidence of New-Onset Diabetes Mellitus After Pancreatectomy [Time Frame: Within 12 months after surgery] Incidence of new-onset diabetes mellitus in participants without diabetes at baseline according to the type of pancreatic resection.

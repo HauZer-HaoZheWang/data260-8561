@@ -1,0 +1,40 @@
+NCT Number: NCT04926584
+Title: Prospective Trial of Induction Immunotherapy in Locally Advanced or Oligometastatic NSCLC Without a Primary Curative Option
+Official Title: Prospective Trial of Immunotherapy Prior to Resection, Definitive Chemo-radiotherapy, or Palliative Therapy in Patients With Locally Advanced or Oligometastatic Non-small Cell Lung Cancer Without a Primary Curative Option
+Lead Sponsor: Klinikum Esslingen
+Overall Status: RECRUITING
+Start Date: 2017-12-15
+Study Type: OBSERVATIONAL
+Phases: 
+Enrollment: 50
+Conditions: Carcinoma, Non-Small-Cell Lung
+
+Brief Summary:
+In a certified lung- cancer center, patients with NSCLC and a potentially curative stage (including patients with oligometastatic disease) are prospectively enrolled if curative treatment (either definitive radio-chemotherapy or resection) cannot be performed due to large tumor size or for functional reasons. For these patients, the multidisciplinary tumor board (MDB) recommends immuno-(chemo)therapy and re-evaluation. Response is assessed radiologically including PET-CT if indicated. After review of the MDB, patients receive either definitive curative treatment or palliative treatment.
+
+Detailed Description:
+In a certified lung- cancer center, patients with NSCLC and a potentially curative stage (including patients with oligometastatic disease) are prospectively enrolled if curative treatment (either definitive radio-chemotherapy or resection) cannot be performed due to large tumor size or for functional reasons (e. g. too large radiation field or functionally inoperable for the required resection). For these patients, the multidisciplinary tumor board (MDB) recommends immuno-(chemo)therapy and re-evaluation. Response is assessed radiologically including PET-CT if indicated. After review of the MDB, patients receive either definitive curative treatment or palliative treatment.
+
+Interventions:
+- DRUG: induction therapy. induction immuno-chemotherapy or immunotherapy prior to resection or definitive chemoradiotherapy
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+* newly diagnosed NSCLC
+* histologically or cytologically proven
+* stage III - IVA (oligometastatic) by complete staging
+* ECOG 0-2
+* life expectancy 3 months
+* ability to provide written informed consent
+
+Exclusion Criteria:
+
+* primary resectability
+* primary definitive chemoradiotherapy feasible
+Minimum Age: 18 Years
+Maximum Age: 
+Sex: ALL
+
+Primary Outcome Measures:
+- patients completing definitive therapy [Time Frame: 1 year] proportion of patients completing definitive therapy

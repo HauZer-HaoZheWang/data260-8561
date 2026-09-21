@@ -1,0 +1,76 @@
+NCT Number: NCT05005403
+Title: Study to Assess Adverse Events and Pharmacokinetics in Adult Participants With Non-Small Cell Lung Cancer, Head and Neck Squamous Cell Carcinoma and Other Solid Tumors, Receiving Intravenous Infusion of Azirkitug Alone or in Combination(s) With Budigalimab, Bevacizumab, or Telisotuzumab Adizutecan
+Official Title: A Global First-in-Human Study in NSCLC, HNSCC, and Solid Tumors With Azirkitug as a Single Agent and in Combination(s) With Budigalimab, Bevacizumab, or Telisotuzumab Adizutecan
+Lead Sponsor: AbbVie
+Overall Status: RECRUITING
+Start Date: 2021-11-01
+Study Type: INTERVENTIONAL
+Phases: PHASE1
+Enrollment: 694
+Conditions: Non-Small Cell Lung Cancer, Head and Neck Squamous Cell Carcinoma, Micro Satellite Stable Colorectal Cancer, Gastric/Esophageal Cancer, High-Grade Serous Ovarian Cancer, Pancreatic Cancer, Triple Negative Breast Cancer
+
+Brief Summary:
+Cancer is a condition where cells in a specific part of body grow and reproduce uncontrollably. Non-Small Cell Lung Cancer (NSCLC) is a solid tumor, a disease in which cancer cells form in the tissues of the lung. Head and Neck Squamous Cell Carcinoma (HNSCC) is a solid tumor, a disease in which cancer cells form in the tissues of the head and neck. The purpose of this study is to assess adverse events and pharmacokinetics of azirkitug as a monotherapy and in combination with budigalimab, bevacizumab, or telisotuzumab adizutecan.
+
+Bevacizumab is an approved product, while budigalimab, azirkitug, and telisotuzumab adizutecan are investigational drugs being developed for the treatment of NSCLC, HNSCC, and other solid tumors. Study doctors put the participants in groups called treatment arms. The maximum-tolerated dose (MTD)/maximum administered dose (MAD) of azirkitug will be explored. Each treatment arm receives a different dose of azirkitug in monotherapy and in combination with budigalimab, bevacizumab, or telisotuzumab adizutecan. Approximately 694 adult participants will be enrolled in the study across approximately 80 sites worldwide.
+
+Participants will receive azirkitug as a monotherapy or in combination with budigalimab, bevacizumab, or telisotuzumab adizutecan as an Intravenous (IV) Infusion for an estimated treatment period of up to 2 years.
+
+There may be higher treatment burden for participants in this trial compared to their standard of care. Participants will attend regular visits during the study at a hospital or clinic. The effect of the treatment will be checked by medical assessments, blood tests, checking for side effects and completing questionnaires.
+
+Detailed Description:
+
+
+Interventions:
+- DRUG: Azirkitug. Intravenous (IV) Infusion
+- DRUG: Budigalimab. Intravenous (IV) Infusion
+- DRUG: Bevacizumab. Intravenous (IV) Infusion
+- DRUG: Telisotuzumab Adizutecan. Intravenous (IV) Infusion
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+* Pre Treatment biopsy or archive tissue within 6 months without intervening treatment
+* Eastern Cooperative Oncology Group (ECOG) performance status of \<= 0 or 1 and a life expectancy of \>= 3 months.
+* Measurable disease per Response Evaluation Criteria in Solid Tumors (RECIST)
+* Laboratory values meeting criteria outlined in the protocol
+* NSCLC - Advanced or metastatic progressed on standard of care (SOC) including chemotherapy and prior anti-PD-(L)1 antibody (separately or in combination). Actionable gene alterations are eligible if failed targeted therapeutic options.
+* HSNCC - Advanced/metastatic progressed on platinum and PD-1/PD-LI in recurrent or metastatic setting.
+* Micro Satellite Stable Colorectal Cancer (MSS-CRC) - Progressed on Oxaliplatin, Irinotecan, a fluoropyrimidine, anti-EGFR, VEGF or VEGFR therapies, BRAFV600E or HER2, other targetable mutations targeted with locally approved therapy, TAS-102, Regorafenib and not MSI-h or MMR-deficient
+* Gastric and Gastroesophageal Junction adenocarcinoma (GEA) - Advanced/metastatic progressed on at least 1 prior cytotoxic chemotherapeutic regimen and if applicable immune checkpoint inhibitor and/or HER2 therapy
+* High-Grade Serous Ovarian Cancer (HGSOC) - Progressed serous epithelial ovarian, fallopian tube or primary peritoneal cancer post SOC and not eligible for surgical resection. Platinum resistant cannot have \>5 lines of prior therapy.
+* Pancreatic Adenocarcinoma (PDAC) - Advanced/metastatic progressed after SOC. Includes adenosquamous carcinoma and post-Whipple.
+* Triple Negative Breast Cancer (TNBC) - Progressed after 1 or 2 systemic therapy that must have included taxane and treatment naïve to immunotherapy targeting T-cell co-stimulation
+
+Exclusion Criteria:
+
+* Pancreatic Ductal Adenocarcinoma (PDAC) - Excludes neuroendocrine or acinar pancreatic carcinoma and participants with coagulopathy or at risk of or history of Deep vein thrombosis (DVT)/PE
+* No major surgery within 28 days prior to dosing
+* No active autoimmune/immunodeficiency disease with limited exceptions
+* Combination treatment excludes participants treated with anti-programmed cell death protein 1(PD-1)/Programmed cell death ligand 1 (PD-L1) who had immune mediated toxicity G3 or greater, interstitial lung disease, or hypersensitivity Combination treatment may also require no significant cardiac deficiencies and/or events
+* Pregnancy
+* Excluded medications include anticancer therapy within 5 half-live or 28 days (whichever is shorter), agent targeting Chemokine Receptor (CCR)8, live vaccines, immunosuppressive medication with limited exceptions
+Minimum Age: 18 Years
+Maximum Age: 
+Sex: ALL
+
+Primary Outcome Measures:
+- Number of Participants with Adverse Events (AE) [Time Frame: Up to 2 Years] An AE is defined as any untoward medical occurrence in a patient or clinical investigation subject administered a pharmaceutical product and which does not necessarily have a causal relationship with this treatment.
+- Maximum Observed Serum Concentration (Cmax) of Azirkitug [Time Frame: Up to 2 Years] Maximum Observed Serum Concentration (Cmax) of azirkitug.
+- Time to Maximum Observed Serum Concentration (Tmax) of Azirkitug [Time Frame: Up to 2 Years] Time to maximum Observed Serum Concentration (Tmax) of azirkitug.
+- Terminal Elimination Half-Life (t1/2) of Azirkitug [Time Frame: Up to 2 Years] Terminal elimination half-life (t1/2) of azirkitug.
+- Area Under the Serum Concentration Versus Time Curve (AUC) of Azirkitug [Time Frame: Up to 2 Years] Area under the serum concentration versus time curve (AUC) of azirkitug.
+- Azirkitug Antidrug Antibody (ADA) [Time Frame: Up to 2 Years] Incidence and concentration of azirkitug anti-drug antibodies.
+- Azirkitug Neutralizing Antidrug Antibody (nADA) [Time Frame: Up to 2 Years] Incidence and concentration of azirkitug neutralizing anti-drug antibodies.
+- Cmax of Budigalimab [Time Frame: Up to 2 Years] Cmax of budigalimab.
+- Tmax of Budigalimab [Time Frame: Up to 2 Years] Tmax of budigalimab.
+- t1/2 of Budigalimab [Time Frame: Up to 2 Years] t1/2 of budigalimab.
+- AUC of Budigalimab [Time Frame: Up to 2 Years] AUC of budigalimab.
+- Budigalimab ADA [Time Frame: Up to 2 Years] Incidence and concentration of budigalimab ADA.
+- Budigalimab nADA [Time Frame: Up to 2 Years] Incidence and concentration of budigalimab nADA.
+- Cmax of Telisotuzumab Adizutecan [Time Frame: Up to 2 Years] Cmax of telisotuzumab adizutecan.
+- Tmax of Telisotuzumab Adizutecan [Time Frame: Up to 2 Years] Tmax of telisotuzumab adizutecan.
+- t1/2 of Telisotuzumab Adizutecan [Time Frame: Up to 2 Years] t1/2 of telisotuzumab adizutecan.
+- AUC of Telisotuzumab Adizutecan [Time Frame: Up to 2 Years] AUC of telisotuzumab adizutecan.
+- Telisotuzumab Adizutecan ADA [Time Frame: Up to 2 Years] Incidence and concentration of telisotuzumab adizutecan ADA.
+- Telisotuzumab Adizutecan nADA [Time Frame: Up to 2 Years] Incidence and concentration of telisotuzumab adizutecan nADA.

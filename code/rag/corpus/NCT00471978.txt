@@ -1,0 +1,62 @@
+NCT Number: NCT00471978
+Title: DNA Analysis of Blood and Tissue from Patients with Lung Cancer
+Official Title: Molecular and Genetic Analysis of Lung Cancer
+Lead Sponsor: Massachusetts General Hospital
+Overall Status: RECRUITING
+Start Date: 2005-09
+Study Type: OBSERVATIONAL
+Phases: 
+Enrollment: 
+Conditions: Lung Cancer
+
+Brief Summary:
+RATIONALE: Studying samples of blood and tissue from patients with cancer in the laboratory may help doctors learn more about changes that occur in DNA and identify biomarkers related to cancer. It may also help the study of cancer in the future.
+
+PURPOSE: This clinical trial is analyzing the DNA in blood and tissue samples from patients with lung cancer.
+
+Detailed Description:
+OBJECTIVES:
+
+* Assess the role of genetic polymorphisms in lung-cancer risk in patients with lung cancer.
+* Assess the role of germline polymorphisms in DNA repair genes, p53 pathway genes, and a matrix metalloproteinase gene (tumor invasion factor) in lung-cancer risk, after adjusting for potential confounders.
+* Assess the roles of gender and age in the genetic susceptibility of lung cancer.
+* Assess the role of genetic polymorphisms in modifying the diet-lung cancer risk association (gene-diet and exploratory gene-gender-diet and gene-gene-diet interactions).
+* Assess the role of polymorphisms on the risk of developing specific histologic subtypes of lung cancer in case-only analyses.
+* Determine whether continued exposures to mainstream and/or second-hand tobacco smoking is associated with poorer clinical prognosis in patients treated for lung cancer.
+
+OUTLINE: This began as a case-control study, but is currently case only.
+
+Blood samples are collected from patients and controls. Samples are analyzed by polymerase chain reaction for gene polymorphisms. Genes to be studied include GSTP1, GSTM1, GSTT1, ERCC2, XRCC1, EPHX, NAT-2, p53 gene, CYP1A1, NQO1, MnSOD, and GPX1. Tissue samples collected from patients undergoing surgery and blood samples are archived for future studies.
+
+Patients and controls complete questionnaires about diet, medical history, and occupational/environmental history.
+
+PROJECTED ACCRUAL: A total of 3,400 patients and 3,400 controls will be accrued for early phases of this study. Total enrollment to reach 15,000.
+
+Interventions:
+
+Eligibility Criteria:
+DISEASE CHARACTERISTICS:
+
+* Patient:
+
+  * Newly diagnosed primary lung cancer
+
+    * Patient at Massachusetts General Hospital (MGH) or Boston Medical Center Cancer Center
+
+PATIENT CHARACTERISTICS:
+
+* Not specified
+
+PRIOR CONCURRENT THERAPY:
+
+* Not specified
+
+EXCLUSIONS:
+
+Vulnerable populations are excluded. Patients with metastasis from another site to lung or mesothelioma are excluded.
+Minimum Age: 18 Years
+Maximum Age: 120 Years
+Sex: ALL
+
+Primary Outcome Measures:
+- Metabolic polymorphisms [Time Frame: 10 years] to compare differences among lung cancer patients

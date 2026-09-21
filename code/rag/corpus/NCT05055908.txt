@@ -1,0 +1,45 @@
+NCT Number: NCT05055908
+Title: Efficacy and Biomarker Development for Lung Cancer Treated With Immune Checkpoint Inhibitors
+Official Title: Efficacy and Biomarker Development for Lung Cancer Treated With Immune Checkpoint Inhibitors With or Without Chemotherapy
+Lead Sponsor: Hunan Province Tumor Hospital
+Overall Status: RECRUITING
+Start Date: 2021-10-01
+Study Type: INTERVENTIONAL
+Phases: PHASE3
+Enrollment: 12000
+Conditions: Lung Cancer
+
+Brief Summary:
+The purpose of the study is to find some biomarkers to predict the the adverse events of Immune Checkpoint Inhibitors monotherapy or plus platinum based chemotherapy in lung cancer.
+
+Detailed Description:
+The purpose of the study is to find some biomarkers to predict the the adverse events of Immune Checkpoint Inhibitors monotherapy or plus platinum based chemotherapy in lung cancer.
+
+Step 1: All the lung cancer patients treated with Immune Checkpoint Inhibitors monotherapy or plus platinum based chemotherapy were enrolled in this study.
+
+Step 2: All the adverse events were evaluated by principal investigator. Step 3: All the blood and FFPE samples were collected for further anaysis. Step 4: Correlation between adverse events and gene profile was analysis. Step 4: Predict model was construted with AI.
+
+Interventions:
+- DRUG: Pemetrexed plus Pembrolizumab. Atezolizumab(1200mg) ivgtt, every 21 days, or pembrolizumab, 200mg ivgtt, every 21 days etc. Pemetrexed, 500mg/m2, ivgtt, every 21 days
+- DRUG: Pembrolizumab. Atezolizumab(1200mg) ivgtt, every 21 days, or pembrolizumab, 200mg ivgtt, every 21 days etc.
+- DRUG: Pemetrexed. Pemetrexed, 500mg/m2, ivgtt, every 21 days etc.
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+1. Understand the requirements and contents of the clinical trial, and provide a signed and dated informed consent form.
+2. Age ≥ 18 years.
+3. Histologically or cytologically confirmed lung cancer.
+4. Treated with Immune Checkpoint Inhibitors with or without chemotherapy.
+
+6\. Predicted survival ≥ 12 weeks. 7. Adequate bone marrow hematopoiesis and organ function 8. Presence of measurable lesions according to RECIST 1.1.
+
+Exclusion Criteria:
+
+Any conditions can not match for the Inclusion Criteria, includign do not have the data to perform Adverse Events evalutation.
+Minimum Age: 18 Years
+Maximum Age: 
+Sex: ALL
+
+Primary Outcome Measures:
+- Correlation between Adverse events (AEs) and gene profile [Time Frame: Time from first subject dose to study completion, or up to 36 month] Correlation between Adverse events (AEs) and gene profile

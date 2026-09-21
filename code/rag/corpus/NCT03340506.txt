@@ -1,0 +1,38 @@
+NCT Number: NCT03340506
+Title: Dabrafenib and/or Trametinib Rollover Study
+Official Title: Open Label, Multi-center Roll-over Study to Assess Long Term Safety in Patients Who Have Completed a Global Novartis or GSK Sponsored Dabrafenib and/or Trametinib Study
+Lead Sponsor: Novartis Pharmaceuticals
+Overall Status: RECRUITING
+Start Date: 2018-01-26
+Study Type: INTERVENTIONAL
+Phases: PHASE4
+Enrollment: 100
+Conditions: Melanoma, Non Small Cell Lung Cancer, Solid Tumor, Rare Cancers, High Grade Glioma
+
+Brief Summary:
+This study is to provide access for patients who are receiving treatment with dabrafenib and/or trametinib in a Novartis-sponsored Oncology Global Development, Global Medical Affairs or a former GSK-sponsored study who have fulfilled the requirements for the primary objective, and who are judged by the investigator as benefiting from continued treatment in the parent study as judged by the Investigator at the completion of the parent study.
+
+Detailed Description:
+
+
+Interventions:
+- DRUG: dabrafenib. dabrafenib is available in capsules (50mg and 75mg) taken twice a day
+- DRUG: trametinib. trametinib is available in tablets (0.5mg, 2mg dose)
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+* Patient is currently receiving treatment with dabrafenib/trametinib monotherapy or combination within a Novartis or former GSK sponsored study which has fulfilled the requirements for the primary objective.
+* In the opinion of the Investigator would benefit from continued treatment.
+
+Exclusion Criteria:
+
+* Patient has been previously permanently discontinued from study treatment in the parent protocol.
+* Patient's indication is commercially available and reimbursed in the local country.
+* Patient currently has unresolved toxicities for which dabrafenib and/or trametinib dosing has been interrupted in the parent study.
+Minimum Age: 18 Years
+Maximum Age: 100 Years
+Sex: ALL
+
+Primary Outcome Measures:
+- Occurences of adverse events to evaluate long term safety and tolerability of dabrafenib, trametinib or combination [Time Frame: Baseline up to approximately 10 years after the first subject's first visit, or will remain open until treatment becomes commercially available and reimbursed, or another access program becomes available, whichever comes first.] Clinical and laboratory assessments should be completed based on the local standard of care and physician practice for routine safety monitoring. More frequent examinations may be performed at the Investigator's discretion if medically indicated. Any abnormalities considered clinically significant, induce clinical signs or symptoms, or require changes in treatment constitute an adverse event.

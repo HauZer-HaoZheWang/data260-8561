@@ -1,0 +1,51 @@
+NCT Number: NCT07155187
+Title: A Study to Assess Adverse Events and Change in Disease Activity of Intravenous (IV) Telisotuzumab Adizutecan, Monotherapy or in Combination With Osimertinib, Compared to Standard of Care in Adult Participants With Locally Advanced or Metastatic EGFR-Mutated Non-Squamous Non-Small Cell Lung Cancer
+Official Title: A Phase 2/3 Open Label Randomized Study of Telisotuzumab Adizutecan, Monotherapy or in Combination With Osimertinib, Compared to Standard of Care in Subjects With Locally Advanced or Metastatic EGFR-Mutated Non-Squamous Non-Small Cell Lung Cancer After Progression on a Third-Generation EGFR TKI - AndroMETa-Lung-713
+Lead Sponsor: AbbVie
+Overall Status: RECRUITING
+Start Date: 2025-12-10
+Study Type: INTERVENTIONAL
+Phases: PHASE2, PHASE3
+Enrollment: 490
+Conditions: Non-Small Cell Lung Cancer
+
+Brief Summary:
+Non-small cell lung cancer (NSCLC) is a common type of lung cancer where abnormal cells in the lungs grow out of control. The purpose of this study is to assess adverse events and change in disease activity of telisotuzumab adizutecan as a monotherapy or in combination with osimertinib compared to standard of care (SOC).
+
+Telisotuzumab adizutecan is an investigational drug being developed for the treatment of NSCLC. This study will be divided into two stages, in the first stage (phase 2) participants will receive 1 of 2 doses of telisotuzumab adizutecan as a monotherapy or in combination with osimertinib. In the second stage (phase 3) participants will receive the recommended phase 3 dose (RP3D) of telisotuzumab adizutecan, from the previous stage, or SOC. Approximately 490 adult participants with NSCLC will be enrolled in the study in 200 sites around the world.
+
+In phase 2, participants will receive 1 of 2 intravenous (IV) doses of telisotuzumab adizutecan as a monotherapy or in combination with oral osimertinib. In phase 3, participants will receive the IV RP3D of telisotuzumab adizutecan, or SOC. The study will run for a duration of approximately 69 months.
+
+There may be higher treatment burden for participants in this trial compared to their standard of care. Participants will attend regular visits during the study at an approved institution (hospital or clinic). The effect of the treatment will be frequently checked by medical assessments, blood tests, questionnaires and side effects.
+
+Detailed Description:
+
+
+Interventions:
+- DRUG: Telisotuzumab Adizutecan. Intravenous (IV) Infusion
+- DRUG: Standard of Care. Standard of Care
+- DRUG: Osimertinib. Oral
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+* Histologically or cytologically confirmed diagnosis of locally advanced or metastatic non-squamous non-small cell lung cancer (NSCLC) with documented EGFR Exon 19 deletion or Exon21 L858R mutation.
+* Provide recently obtained tumor tissue during Screening for c-Met immunohistochemistry (IHC) testing (and study stratification in Phase 2). If recently obtained tumor tissue is not available, archived tumor tissue is also acceptable.
+* Received one prior third-generation epidermal growth factor receptor tyrosine kinase inhibitor (EGFR TKI) therapy in the adjuvant, locally advanced, or metastatic setting, either as monotherapy or in combination with other agents, and experienced documented radiographic disease progression on or after therapy for the most recent regimen administered prior to study entry. Participant who has received prior third-generation EGFR TKI therapy in the adjuvant setting must have progressed while on treatment.
+* Eastern Cooperative Oncology Group (ECOG) Performance Status of 0 to 1.
+* At least 1 measurable lesion per Response Evaluation Criteria in Solid Tumors (RECIST) version 1.1, that has not been previously irradiated.
+
+Exclusion Criteria:
+
+* Tumor(s) have adenosquamous or squamous histology or sarcomatoid features.
+* Received more than 1 line of systemic therapy in the locally advanced or metastatic setting.
+* Active/symptomatic central nervous system (CNS) metastases. Previously treated brain metastases may be included provided they are radiologically stable.
+* Evidence of active interstitial lung disease (ILD)/pneumonitis or history of ILD or pneumonitis that required steroids.
+* Have any clinically significant medical conditions or any other reason that the investigator determines would interfere with the participant's participation.
+Minimum Age: 18 Years
+Maximum Age: 
+Sex: ALL
+
+Primary Outcome Measures:
+- Phase 2: Objective Response (OR) Assessed by the Blinded Independent Central Review (BICR) [Time Frame: Up to Approximately 69 Months] OR is defined as participants achieving a best overall response of confirmed complete response (CR) or confirmed partial response (PR) per the BICR based on Response Evaluation Criteria in Solid Tumors (RECIST) version 1.1.
+- Phase 3: Progression-Free Survival (PFS) as assessed by the BICR [Time Frame: Up to Approximately 69 Months] PFS is defined as the time from randomization to the first occurrence of radiographic progression based on RECIST version 1.1 as determined by the BICR or death from any cause, whichever occurs earlier.

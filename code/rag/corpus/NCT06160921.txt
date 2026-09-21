@@ -1,0 +1,36 @@
+NCT Number: NCT06160921
+Title: Prognostic Model of Hypertension
+Official Title: Prognostic Model of Hypertension
+Lead Sponsor: Xinjiang Medical University
+Overall Status: RECRUITING
+Start Date: 2020-01-01
+Study Type: OBSERVATIONAL
+Phases: 
+Enrollment: 50000
+Conditions: Hypertension
+
+Brief Summary:
+The aim of this study was to establish a registration and monitoring system for hypertension in Xinjiang from 2020 to 2030 to obtain real information about patient basic information, patient characteristics, diagnostic test patterns, treatment options, and hospitalization outcomes (including mortality). Treatment complications, hospitalization costs, and end-of-life events (death, major adverse cardiac events, mild adverse cardiovascular events) in patients with hypertension in Xinjiang; and scientific prevention strategies aimed at effectively preventing the onset of hypertension; Guidelines in clinical practice recommend, analyze and develop effective treatment strategies to optimize management and outcomes for patients with hypertension; and create cost-effective assessment systems.
+
+Detailed Description:
+The aim of the study is to establish a platform for monitoring, clinical research and translational medicine in Xinjiang, which aims to provide a basis for future quality improvement and research, and to promote efforts to improve the prognosis of patients with hypertension, and to translate research into improved care for patients, thereby reducing Morbidity and mortality associated with hypertension.
+
+Interventions:
+- OTHER: Standard therapy. Individualized blood pressure reduction program
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+* A patient diagnosed with primary hypertension who was admitted to the First Affiliated Hospital of Xinjiang Medical University
+
+Exclusion Criteria:
+
+* Patients with secondary hypertension, patients with liver and kidney dysfunction,
+* patients with mental disorders, and patients who are unwilling to participate in this trial
+Minimum Age: 
+Maximum Age: 
+Sex: ALL
+
+Primary Outcome Measures:
+- Resistant hypertension [Time Frame: 10 years of follow-up Resistant hypertension occurred during this period] 
+- Death (all-cause mortality, mortality from hypertension complications) [Time Frame: 10 years of follow-up deaths occurred during this period] 

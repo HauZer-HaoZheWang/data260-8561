@@ -1,0 +1,49 @@
+NCT Number: NCT06572540
+Title: Transthoracic vs Transbronchial Cryoablation for Early-stage Peripheral Lung Cancer
+Official Title: Transthoracic Versus Transbronchial Cryoablation for Early-stage Peripheral Lung Cancer: A Prospective, Randomized Controlled Trial
+Lead Sponsor: Jiayuan Sun
+Overall Status: RECRUITING
+Start Date: 2024-09-01
+Study Type: INTERVENTIONAL
+Phases: NA
+Enrollment: 110
+Conditions: Lung Cancer
+
+Brief Summary:
+The study aims to compare the efficacy and safety of transthoracic cryoablation to transbronchial cryoablation in the treatment of early-stage peripheral lung cancer.
+
+Detailed Description:
+Ablation therapy has been widely used in the treatment of peripheral lung cancer. Among various ablation techniques, cryoablation has been demonstrated to be therapeutic efficacy with several advantages, including high safety, clear ablation borders, and minimal local pain. With the development of navigational bronchoscopy, pilot study on transbronchial cryoablation for peripheral lung cancer has proved its efficacy and safety, but there is a lack of prospective randomized controlled trials to verify its near-term as well as long-term efficacy and safety. This study was designed as a prospective, randomized controlled, multicenter clinical trial. A total of 110 participants will be randomly assigned to either the transbronchial group or the transthoracic group in a 1:1 ratio. The primary endpoint is the complete ablation rate at 12 months post-ablation. Secondary endpoints include technical success rate, complete ablation rate at 6 months post-ablation, local control rate at 1, 2 and 3 years post-ablation, progression-free survival, overall survival, and safety.
+
+Interventions:
+- DEVICE: Transthoracic cryoablation. Transthoracic cryoablation will be performed under the guidance of CT.
+- DEVICE: Transbronchial cryoablation. Transbronchial cryoablation will be performed under the guidance of navigation bronchoscopy and CBCT.
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+1. Age older than 18 years.
+2. Primary peripheral lung cancer diagnosed by pathology and pre-procedure staging examination suggesting clinical stage T1N0M0, stage IA (including postoperative new and multiple primary).
+3. The target lesion was evaluated to be feasible for both CT and bronchoscopy-guided ablation.
+4. Patients who are not suitable for surgery or refuse surgery, agree to undergo initial ablation therapy and sign informed consent form.
+
+Exclusion Criteria:
+
+1. Patients with platelets \<70×109/L, severe bleeding tendency and coagulation dysfunction that cannot be corrected in a short term.
+2. Patients with severe pulmonary fibrosis and pulmonary arterial hypertension.
+3. Infectious and radioactive inflammation around the lesion, skin infection at the puncture site that is not well controlled, systemic infection, high fever \>38.5°C.
+4. Patients with severe hepatic, renal, cardiac, pulmonary and cerebral insufficiency, severe anaemia, dehydration and serious disorders of nutritional metabolism that cannot be corrected or improved in a short term.
+5. Those with poorly controlled malignant pleural effusions.
+6. Anticoagulation therapy and/or anti-platelet drugs (except dabigatran, rivaroxaban and other new oral anticoagulants) have not been discontinued more than 5\~7d before ablation.
+7. Eastern Cooperative Oncology Group (ECOG) score \>2.
+8. Combination with other tumors with extensive metastases and an expected survival of \<6 months.
+9. Patients with episodic psychosis.
+10. Pregnant women, or patients with pregnancy plan during the study period.
+11. Have participated or are participating in other clinical studies within 30 days.
+12. Any other condition that the investigator considers inappropriate for participation in this study.
+Minimum Age: 18 Years
+Maximum Age: 
+Sex: ALL
+
+Primary Outcome Measures:
+- Complete ablation rate at 12 months [Time Frame: Twelve months post-ablation] Twelve months after the overall ablation procedure, the proportion that subjects whose lesion recevied ablation maintain completely ablated account for all evaluable subjects who receive cryoablation.

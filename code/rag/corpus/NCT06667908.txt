@@ -1,0 +1,46 @@
+NCT Number: NCT06667908
+Title: A Study of JNJ-90301900 in Combination With Chemoradiation Followed by Consolidation Immunotherapy for Non-Small Cell Lung Cancer (NSCLC)
+Official Title: A Phase 2, Randomized, Open-Label, Active-Controlled Study of JNJ-90301900 in Combination With Chemoradiation Followed by Durvalumab in Locally Advanced and Unresectable Stage III NSCLC
+Lead Sponsor: Johnson & Johnson Enterprise Innovation Inc.
+Overall Status: RECRUITING
+Start Date: 2024-12-06
+Study Type: INTERVENTIONAL
+Phases: PHASE2
+Enrollment: 130
+Conditions: Carcinoma, Non-Small-Cell Lung
+
+Brief Summary:
+The purpose of this study is to determine whether JNJ-90301900 added to concurrent platinum-based doublet chemotherapy with radiation therapy (cCRT) followed by consolidation immunotherapy (cIT) can improve objective response rate (ORR; that is percentage of participants whose best response is complete response or partial response during the study) in participants with locally advanced and unresectable stage III non-small cell lung cancer.
+
+Detailed Description:
+
+
+Interventions:
+- DRUG: JNJ-90301900. JNJ-90301900 will be injected intratumorally and/or intranodally.
+- BIOLOGICAL: Durvalumab. Durvalumab will be administered as intravenous (IV) infusion as cIT.
+- RADIATION: Concurrent Chemo/Radiation Therapy (cCRT). Radiation by intensity modulated radiation therapy (IMRT) will be administered.
+- DRUG: Concurrent Chemo/Radiation Therapy (cCRT): Carboplatin. Carboplatin will be administered as IV infusion as platinum-based doublet chemotherapy.
+- DRUG: Concurrent Chemo/Radiation Therapy (cCRT): Paclitaxel. Paclitaxel will be administered as IV infusion as platinum-based doublet chemotherapy.
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+* Must be a candidate for standard of care (SOC) treatment of non small cell lung cancer (NSCLC) by concurrent platinum-based doublet chemotherapy with radiation therapy (cCRT) followed by consolidation durvalumab treatment as determined by the investigator and per local guidelines at screening
+* Have a medical history of pathologically (histologically or cytologically) proven diagnosis of NSCLC within 3 months prior to enrollment/randomization
+* Have locally advanced unresectable stage III NSCLC according to the eighth edition lung cancer stage classification
+* Have at least 1 target lesion (primary lung lesion or involved lymph node\[s\]) per RECIST version 1.1 that is amenable to intratumoral and/or intranodal injection and intensity modulated radiation therapy (IMRT) as determined by the investigator at screening
+* Have an eastern cooperative oncology group (ECOG) performance status of 0 to 1
+
+Exclusion Criteria:
+
+* Medical history of: (a) Primary immunodeficiency (b) Organ transplant that requires therapeutic immunosuppression
+* Any of the following within 3 months prior to enrollment/randomization: severe or unstable angina, myocardial infarction, clinically significant ventricular arrhythmias or heart failure New York heart association functional classification class III to IV
+* Another concurrent or prior primary malignancy within the last 36 months at informed consent
+* Known allergies, hypersensitivity, or intolerance to any ingredients of JNJ-90301900 crystalline solution, platinum-based doublet chemotherapy (ChT), or durvalumab
+* History of coagulation disorders, including: (a) Active bleeding diathesis or requirement for therapeutic anticoagulation or antiplatelet that cannot be interrupted or altered for JNJ-90301900 injection procedures, (b) Major thromboembolic events (for example, pulmonary embolism, cerebrovascular accident) within 3 months of enrollment or randomization
+Minimum Age: 18 Years
+Maximum Age: 
+Sex: ALL
+
+Primary Outcome Measures:
+- Objective Response Rate (ORR) Using Independent Central Review (ICR) Assessment [Time Frame: Up to 2 Years and 2 months] ORR is defined as the percentage of participants who have a best response of complete response (CR) or partial response (PR) according to response evaluation criteria in solid tumors (RECIST) version (v) 1.1 using ICR assessments.

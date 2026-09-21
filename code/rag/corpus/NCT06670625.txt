@@ -1,0 +1,94 @@
+NCT Number: NCT06670625
+Title: Intensive Dietary and Activity Counselling (IDAC)
+Official Title: Intensive Dietary and Activity Counselling
+Lead Sponsor: Lund University
+Overall Status: RECRUITING
+Start Date: 2025-03-15
+Study Type: INTERVENTIONAL
+Phases: NA
+Enrollment: 1244
+Conditions: Type 1 Diabetes, Autoimmune Diabetes
+
+Brief Summary:
+The aim of this intervention study is to investigate if a intensive dietary and physical activity counselling during the first two years of life in children with increased (genetically) risk for Type 1 Diabetes (T1D) can promote a healthy beta-cell environment, in order to reduce increased weight gain and development of islet autoimmunity (beta-cell autoantibodies).
+
+The main hypotheses are:
+
+* Early lifestyle influences the susceptibility to islet autoimmunity (IA) by increasing beta-cell vulnerability. Introducing a "healthy beta-cell lifestyle" from infancy will reduce beta-cell vulnerability and the likelihood of IA.
+* Will promotion of a healthy beta-cell environment during early childhood in children with increased genetic risk of T1D reduce beta-cell stress, increased weight gain and development of islet autoantibodies?
+
+The primary objective is to determine whether an Intensive Diet and Activity Counseling (IDAC) from age 3 months to age 2 years improves beta-cell health in children with increased risk for islet autoimmunity.
+
+Secondary objectives are to determine whether IDAC is associated with infant and early childhood growth and body composition and to determine whether IDAC reduces the cumulative incidence of islet autoantibodies or type 1 diabetes in childhood.
+
+Participants will be randomized (ratio 1:1) to control group and intervention group. Breastfeeding status at time of randomization will be taken into account.
+
+Participants will be enrolled by the age of four months and visit the research clinic ever third months up until the age of 24 months, and then yearly up until the age of 6 years.
+
+* Anthropometric measurements and blood draw will be taken at each visit.
+* Questionnaires focusing on breastfeeding and early infant feeding habits will be used at each visit.
+* 24hrs recalls will be done at the age of 6, 9, 12, 18 and 24 months of age.
+* Physical activity will be estimated using questionnaires (3, 6, 9 months) and accelerometer data (12, 18 and 24 months).
+* Stool samples will be collected at 6, 12 and 18 months of age
+
+Detailed Description:
+The aim is to test previously described associations between increased growth, diet and physical activity and the development of type 1 diabetes-related autoantibodies. In a randomized trial, it is investigated whether intensive counseling regarding diet and physical activity already during infancy affects metabolism (beta-cell health), growth and the risk of type 1 diabetes-related autoantibodies.
+
+Rapid growth and/or weight gain during childhood has been shown in previous studies to be associated with an increased risk of developing type 1 diabetes-related autoantibodies (IA, IA-2A, GADA, ZnT8RA, ZnT8WA), a precursor to autoimmune type 1 diabetes. Rapid growth can, in theory, stress the beta cells through an increased need for insulin and make them more susceptible to an autoimmune attack. Adipocytokines and inflammatory cytokines secreted from adipose tissue and overload induced by circulating nutrients have been discussed to play a role in the pathogenesis of autoimmune diseases through their impact on immune cell function and activation.
+
+Although previous research has used different measures of weight gain and obesity (BMI, body fat%, growth rate), the results are relatively consistent and show a link between overweight and obesity in early years and an increased risk of beta cell autoimmunity and progression to type 1 diabetes. Specific growth patterns during early childhood have also been associated with type 1 diabetes-related autoantibodies and progression to T1D in children at genetic risk.
+
+Dietary protein intake has been considered a key player in regulating body weight in infants based on results from both intervention and observational studies. A high protein intake, especially from animal sources, has been suggested to affect the development and function of the immune system, potentially contributing to the development of autoimmune diseases such as type 1 diabetes. In addition, previous studies have shown a link between cow's milk consumption (both age at first introduction and quantity) with the risk of T1D. However, exactly how this happens is not entirely clear, and more research is needed to better understand the connections. Previous studies have shown that children who had a high protein intake during the first year of life had a slightly higher risk of developing T1D-related autoantibodies. There is some evidence to suggest that both the energy and protein content of the diet may influence the risk of developing T1D, particularly through mechanisms related to growth, weight gain, and immune response. However, the evidence is not entirely consistent and more research is needed to clarify these relationships and mechanisms. According to the 'early protein hypothesis', a high intake of protein during early childhood stimulates growth, especially adipose tissue, and later leads to an increased risk of obesity. The hypothesis is that a high-protein diet in early childhood may increase levels of insulin-releasing amino acids (branched-chain amino acids), which in turn may stimulate insulin- and insulin-like growth factor 1 (IGF-1) secretion.
+
+In this study, the investigators will test previously described associations by including infants with an increased genetic risk of T1D in a randomized trial, where the parents receive either the usual advice given by the child health center or an intensive counseling regarding diet and physical activity. All children are monitored for growth, metabolic parameters and development of type 1 diabetes-related autoantibodies.
+
+During the intervention period (3 months - 2 years of age), the study will focus on the following:
+
+1. Support continued breastfeeding up to 12 months of age.
+2. Advise families on diet and physical activity during infancy in accordance with national/international recommendations.
+3. Study growth patterns in infants/children through anthropometric measurements (weight, height) and body composition (skin fold measurement).
+
+The primary endpoint is beta-cell health at 36 months of age, assessed as the proinsulin/C-peptide ratio at glucose load (OGTT).
+
+Secondary endpoints are:
+
+* accelerated growth during infancy
+* overweight at 36 months of age
+* time to development of persistent confirmed islet autoantibodies or type 1 diabetes
+
+Visits to the research clinic take place every three months up to the age of 2, then once a year up to the age of 6.
+
+Study duration per research participant; minimum 4 months of age to 3 years of age, maximum of 3 months of age to 6 years of age.
+
+Interventions:
+- BEHAVIORAL: IDAC+. Diet and physical activity counselling at baseline, 6, 12 and 24 months visit.
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+* The age of the infant at time of enrolment should be 3.0 months (13 - 17 weeks).
+* An increased genetic risk (7-10%) to develop beta-cell autoantibodies by the age of 6 years.
+
+Genetic inclusion criteria: Children without a T1D-FDR having HLA DR3/DR4-DQ8, DR4-DQ8/DR4-DQ8 or DR4-DQ8/DR4-DQ7 rs6901541 C/T genotype and:
+
+* for males having a genetic risk score greater than or equal to 18.2 but excluding those who are eligible for AVANT1A.
+* for females having a genetic risk score greater than or equal to 14.5 but excluding those who are eligible for AVANT1A.
+
+Children with a T1D-FDR, all DR3/3, DR4-DQ8/DR4-DQ7 and DR4-DQ8/x where x is none of the following protective alleles: DRB1\*1501, DQB1\*0503, DRB1\*1303 will be included regardless of genetic risk score.
+
+\- Written informed consent signed by the custodial parent(s).
+
+Exclusion Criteria:
+
+* Any medical condition, concomitant disease or treatment that may interfere with the assessments or may jeopardize the participant's safe participation in the study, as judged by the investigators.
+* Preterm delivery \< 36 weeks of gestation.
+* Any condition that could be associated with poor compliance.
+* Diagnosis of diabetes prior to recruitment or randomization.
+* Current use of any investigational drug.
+Minimum Age: 3 Months
+Maximum Age: 4 Months
+Sex: ALL
+
+Primary Outcome Measures:
+- Beta-cell health [Time Frame: at 36 months] Assessed by the proinsulin/ C-peptide ratio during OGTT
+- Beta-cell health [Time Frame: at 36 months] Assessed by the Disposition Index relative to insulin resistance (HOMA-IR) IGI30/HOMA-IR (IGI30=Delta insulin 0-30/Delta Glucose 0-30 during OGTT).

@@ -1,0 +1,56 @@
+NCT Number: NCT06642246
+Title: Sleep Promotion and Pediatric Hypertension
+Official Title: Sleep Promotion Among Children Newly Diagnosed With Essential Hypertension
+Lead Sponsor: Children's Hospital of Philadelphia
+Overall Status: RECRUITING
+Start Date: 2026-02-16
+Study Type: INTERVENTIONAL
+Phases: NA
+Enrollment: 10
+Conditions: Insufficient Sleep, Hypertension
+
+Brief Summary:
+Determine the effectiveness and feasibility of a mobile health sleep extension approach in the pediatric nephrology setting, to increase sleep duration and reduce systolic and diastolic blood pressure.
+
+Detailed Description:
+Insufficient sleep is associated with hypertension in children. Despite this knowledge, sleep promotion is not considered as a behavioral target during the initial treatment of pediatric essential hypertension. Investigators are developing a mobile platform to promote sleep in children that may have utility for treating pediatric essential hypertension.
+
+The overall objective of this study is to determine the effectiveness and feasibility of a mobile health sleep extension approach in the pediatric nephrology setting, to increase sleep duration and reduce systolic and diastolic blood pressure.
+
+This is a home-based, single-site study, of 13-to-18-year-olds (N=10, 5 parent-child dyads). Participants will have a recent diagnosis of essential hypertension, based on clinical ambulatory blood pressure monitoring, with initial treatment targeting lifestyle modification without pharmacological therapy. Participants must have cellular or internet access and spend less than or equal to 7.5 hours in bed per night. Children will be excluded if they have a known clinical sleep disorder.
+
+The sleep promotion intervention will be delivered using REDCap. All participants will be provided with a sleep tracker to monitor their sleep patterns throughout the study. A two-week run-in phase will be used to capture baseline sleep patterns, and a home sleep polysomnography test will be completed to provide clinical sleep data. During a 7-week intervention phase, all participants will receive the same intervention condition. Participants will be provided a sleep duration goal paired with a loss-framed financial incentive (virtual account) starting with deductions each time the sleep goal is not met, will be sent sleep guidance text messages, and will receive weekly performance feedback text messages. Further, at the end of the intervention phase, participants will undergo a second Ambulatory Blood Pressure Monitoring (ABPM). The primary outcome is acceptance and feasibility of completing this study captured via self-reported feedback and documenting compliance with the study protocol. The secondary outcomes are changes in sleep duration from baseline, and changes in daytime and nocturnal systolic and diastolic blood pressure from baseline.
+
+Interventions:
+- BEHAVIORAL: Intervention. During a 7-week intervention phase, parent-child dyads will be provided a sleep duration goal paired with a loss-framed financial incentive (virtual account) starting with deductions each time the sleep goal is not met, will be sent sleep guidance text messages, and will receive weekly performance feedback text messages.
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+* Speak, read and write in English.
+* Parental/guardian permission (informed consent) and child assent.
+* Have a computer or a tablet computer with access to the Internet or own a smartphone with a data and text plan.
+* Parent reported sleep duration on school nights less than or equal to 7.5 hours.
+* Recently diagnosed with essential hypertension by Ambulatory Blood Pressure Monitoring (ABPM).
+* If taking over the counter sleep aides, willing to stop them over the course of the study.
+
+Exclusion Criteria:
+
+* Any clinically diagnosed sleep disorder (e.g. sleep apnea) in the electronic health record and or regular use of prescribed sleep aide.
+* Underlying chronic medical conditions, defined as a medical condition with a duration or expected duration longer than 3 months that involved taking regular medication, taking medications that could affect blood pressure (e.g., anti-hypertensive medications, glucocorticoids, or stimulants), and patients with underlying diagnoses known to be associated with elevated blood pressure (e.g., cardiac disease, kidney disease or diabetes).
+
+Inclusion Criteria for Parents/Legal Guardians:
+
+* Be the parent/guardian of an eligible child enrolled in the main study.
+* Speak, read, and write in English.
+
+Exclusion Criteria for Parents/Legal Guardians:
+
+\- Limited English proficiency
+Minimum Age: 13 Years
+Maximum Age: 18 Years
+Sex: ALL
+
+Primary Outcome Measures:
+- Hypertension [Time Frame: From baseline to approximately week 11] The number of participants who are still diagnosed with hypertension by ambulatory blood pressure monitoring (ABPM). This is defined as a mean systolic or diastolic blood pressure when either awake or asleep, greater than the 95th percentile.
+- Change in sleep tracker estimated weeknight sleep duration [Time Frame: From baseline to approximately week 11] Change in sleep tracker estimated weeknight sleep duration will be measured from baseline (operationalized as the average hours per weeknight per week). There will be one week of baseline data and seven weeks of intervention data as well as two weeks of follow-up data.

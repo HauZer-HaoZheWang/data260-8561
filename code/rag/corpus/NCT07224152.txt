@@ -1,0 +1,89 @@
+NCT Number: NCT07224152
+Title: NBTXR3 With Radiation Therapy Alone for Locally-advanced Non-small Cell Lung Cancer
+Official Title: NBTXR3 With Radiation Therapy Alone for Locally-advanced Non-small Cell Lung Cancer
+Lead Sponsor: M.D. Anderson Cancer Center
+Overall Status: RECRUITING
+Start Date: 2026-03-27
+Study Type: INTERVENTIONAL
+Phases: PHASE1, PHASE2
+Enrollment: 40
+Conditions: Locally-Advanced Non-Small Cell Lung Cancer
+
+Brief Summary:
+This is a single institution, single arm phase I/II study of NBTXR3 with radiation therapy for stage I-III advanced non-small cell lung cancer patients who are not candidates for chemotherapy or surgical resection.
+
+Detailed Description:
+Primary Objectives:
+
+Phase I
+
+To evaluate the feasibility and safety of radiation therapy with NBTXR3 in LA-NSCLC with the following dose escalation:
+
+* 45 Gy in 15 fx with NBTXR3 at 22% RP2D
+* 52.5 Gy in 15 fx with NBTXR3 at 22% RP2D
+* 60 Gy in 15 fx with NBTXR3 at 22% RP2D
+* 60 Gy in 15 fx with NBTXR3 at 33% RP2D
+
+Phase II
+
+* To estimate the efficacy of radiation therapy alone with NBTXR3 in inoperable, locoregional NSCLC
+* To evaluate the safety of RP2D
+
+Secondary Objectives:
+
+* To evaluate the anti-tumor response of radiation with NBTXR3 in patients with inoperable, locoregional NSCLC
+* To evaluate time-to-event outcomes for radiation therapy with NBTXR3 in patients with inoperable, locoregional NSCL
+
+Interventions:
+- DRUG: NBTXR3. Given by injection
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+1. Signed informed consent form (ICF) indicating that participant understands the purpose of, and procedures required for, the study and is willing to participate in the study.
+2. Age ≥ 18 years.
+3. ECOG Performance Status 0-2
+4. Biopsy proven stage I-III NSCLC.
+5. Participant deemed medically inoperable by the investigator or treating physician, or patient declines surgery.
+6. No prior or concurrent systemic therapies within 4 weeks of injection. Patient may receive up to 1 line of prior systemic therapy prior to starting RT.
+7. Amenable to undergo bronchoscopic (EBUS, CBCT) or CT-guided injection of NBTXR3 as per investigator or treating physician.
+
+   a. Up to 4 lung lesions may be injected with NBTXR3, including the primary tumor and involved lymph node(s) All injected lesions must be radiated.
+8. The target lesion(s) should be measurable on cross sectional imaging (RECIST 1.1), Nodal target lesions must be ≥15mm (short axis) based on CT (slice thickness of 5mm or less) or MRI.
+9. Adequate screening laboratory values
+
+   1. Hemoglobin ≥ 8.0 g/dL
+   2. Absolute Neutrophil Count (ANC) ≥ 1,500/mm3
+   3. Platelet Count ≥ 100,000/mm3
+   4. Creatinine ≤ 1.5 x upper limit of normal (ULN)
+   5. Calc. Creatinine Clearance ≥ 30 mL/min
+   6. Total Bilirubin ≤ 2.0 mg/dL
+   7. AST / ALT ≤ 3.0 x upper limit of normal (ULN) or 5.0 x ULN if known liver metastases
+   8. Serum albumin ≥ 3.0 g/dL Negative urine or serum pregnancy test ≤ 7 days of NBTXR3 injection in all females of child-bearing potential.
+
+Exclusion Criteria:
+
+1. Unable to undergo NBTXR3 injection via bronchoscopic or CT-guided approach
+2. Unable to undergo radiation therapy for any reason
+3. Female patients who are pregnant or breastfeeding.
+4. Women of child-bearing potential and their male partners who are unwilling or unable to use an acceptable method of birth control to avoid pregnancy for the entire study period. Acceptable methods of contraception are those that, alone or in combination, result in a failure rate of \< 1% per year when used consistently and correctly.
+5. Any condition for which, in the opinion of the investigator, participation would not be in the best interest of the participant (e.g., compromise the well-being) or that could prevent, limit, or confound the protocol-specified assessments.
+6. At screening, past medical history of:
+
+   1. Interstitial lung disease
+   2. Drug related pneumonitis
+   3. Radiation therapy to lung or other intrathoracic organs (e.g. prior breast radiation okay)
+7. Has received any approved or investigational anti-neoplastic or immunotherapy agent within 4 weeks prior to NBTXR3 injection
+8. Receipt of more than 1 line of systemic therapy prior to RT
+9. Use of concurrent systemic therapy (chemotherapy, immunotherapy, targeted therapy) or patient participation on another therapeutic clinical trial.
+10. Known contraindication to iodine-based or gadolinium-based IV contrast.
+11. Active malignancy, in addition to locoregional recurrent NSCLC, with the exception of definitively treated and relapse free within 1 year from diagnosis of non-melanoma skin cancer or cervical cancer in situ; definitively treated non-metastatic prostate cancer; or patients with another primary malignancy who are definitely treated and relapse free with at least 2 years elapsed since the diagnosis of the other primary malignancy.
+12. Uncontrolled intercurrent illness including, but not limited to, ongoing or active infection, recent severe pulmonary infection, symptomatic congestive heart failure, unstable angina pectoris, renal failure, cardiac arrhythmia, or psychiatric illness that would limit compliance with treatment.
+13. Known active, uncontrolled (high viral load) HIV or hepatitis B or hepatitis C infection
+14. Cognitively impaired subjects
+Minimum Age: 18 Years
+Maximum Age: 
+Sex: ALL
+
+Primary Outcome Measures:
+- Safety and Adverse Events (AEs) [Time Frame: Through study completion; an average of 1 year] Incidence of Adverse Events, Graded According to National Cancer Institute Common Terminology Criteria for Adverse Events (NCI CTCAE) Version (v) 5.0

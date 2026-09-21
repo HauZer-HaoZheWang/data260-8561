@@ -1,0 +1,67 @@
+NCT Number: NCT06646471
+Title: PROspective Master-protocol for Evaluation of Systemic THErapeutics in Elderly With Thoracic Malignancies
+Official Title: PROspective Master-protocol for Evaluation of Systemic THErapeutics in Elderly
+Lead Sponsor: GFPC Investigation
+Overall Status: RECRUITING
+Start Date: 2024-09-26
+Study Type: INTERVENTIONAL
+Phases: PHASE4
+Enrollment: 500
+Conditions: Non Small Cell Lung Cancer, Lung Cancer
+
+Brief Summary:
+The objective of the study is to prospectively generate real-life data in patients aged ≥70 years treated in first line for a thoracic tumor (Non-Small-Cell Lung Carcinoma) according to best standard of care as defined by the European Society for Medical Oncology (ESMO). This cohort will aim to:
+
+* characterize participants in terms of geriatrics, biology and carcinology
+* describe the treatment modalities by stage, as well as the results in terms of efficacy, safety and impact on quality of life.
+
+At the same time, exploratory sub-cohorts will be identified including participants treated uniformly with the same molecule, and/or the same innovative strategy.
+
+Participants will be followed in accordance with investigator's usual clinical practice at the corresponding site. They will be asked to:
+
+* visit the clinic as per physician's request for checkups and tests for assessing general condition and clinical efficacy and tolerance of current treatment.
+* perform the necessary regular para-clinical examinations (lab testing, imaging, re-biopsy).
+* provide blood samples for bio-bank repository
+* perform assessments specific to older adults
+* answer three quality of life questionnaires
+
+Detailed Description:
+
+
+Interventions:
+- GENETIC: Bio-bank repository. Blood samples taken during the screening phase prior to the first administration of systemic treatment and stored in a repository for a maximum duration of 10 years
+- OTHER: Quality of Life (QoL). Collection of EORTC QoL questionnaires QLQ-F17, QLQ-LC13 and QLQ-ELD14:
+
+* stage 3 non-operable/non-radiable, stage 4: at inclusion, 12 weeks, 6 months of treatment, first-line progression.
+* operable stage 1 to 3b: at inclusion, end of neoadjuvant period before surgery post-operative baseline, at 6 months, at 12 months.
+* radiable stages 3a to 3c: at inclusion, at the end of thoracic radiotherapy, at 6 months, at 12 months.
+- PROCEDURE: G-Code. G-CODE: Katz Autonomy Scale (ADL), Instrumental Activities of Daily Living questionnaire (IADL), Charlson score, mini GDS, mini COG, falls history, Timed Get Up and Go test, social environment.
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+* Patient ≥70 years
+* Non-small-cell lung cancer for which the multidisciplinary consultation required systemic treatment regardless of Tumor-Node-Metastasis (TNM) stage
+* Patient naïve to systemic anticancer treatment for bronchial neoplasia
+* Patient covered by social security
+* Patient eligible for systemic treatment
+* Systemic treatment with marketing authorization in the indication, available in routine care early access or compassionate access.
+* Patient able to understand the protocol
+* Patient not opposed to the collection of data concerning him/her
+* Signature of study consent form.
+
+Exclusion Criteria:
+
+* Patients under guardians or curators
+* Patient not under the care of the investigating center and not monitored by the investigating center
+* Patient already treated with systemic therapy for NSCLC
+Minimum Age: 70 Years
+Maximum Age: 
+Sex: ALL
+
+Primary Outcome Measures:
+- Progression Free Survival (PFS) [Time Frame: From the date of first dose of treatment received until the date of the first documented disease progression according to Response Evaluation Criteria in Solid Tumor (RECIST) 1.1 or to death from any cause, whichever comes first, assessed up to 2 years] The Progression Free Survival is defined as the time between treatment start date and event date defined by the Response Evaluation Criteria in Solid Tumor (RECIST) 1.1 progression or death for any cause, whichever comes first.
+
+Disease progression will be evaluated according to (RECIST) 1.1 assessed locally. Frequency of this assessment is let to the investigator \&#39;s discretion and local practices.
+
+The participants will be followed until disease progression or death for any cause. Patients without an event at the time of analysis will be censored at the date of their last tumor assessment.

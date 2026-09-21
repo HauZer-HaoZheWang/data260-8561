@@ -1,0 +1,100 @@
+NCT Number: NCT07768865
+Title: Arterial Stiffness in Children and Young People With Hypertension and Chronic Kidney Disease
+Official Title: Arterial Stiffness in Children and Young People With Hypertension and Chronic Kidney Disease
+Lead Sponsor: King's College London
+Overall Status: RECRUITING
+Start Date: 2026-06-16
+Study Type: OBSERVATIONAL
+Phases: 
+Enrollment: 200
+Conditions: Chronic Kidney Disease, Hypertension
+
+Brief Summary:
+Age related stiffening and hardening of the arteries is often a slow process, but some conditions such as chronic kidney disease (CKD), seem to increase the rate at which the arteries stiffen even during childhood. High blood pressure (BP) is well known to lead to arterial stiffening and is often seen in children and young people (CYP) with CKD.
+
+A greater risk of arterial stiffening has been reported in children CYP with CKD compared to healthy CYP and this is thought to be related to the development of high BP, heart problems, and the worsening of kidney damage. The cause is unknown and is unlikely due to age related changes in the arterial wall seen in older adults. Potential mechanisms contributing to arterial stiffening in CYP with CKD include i) abnormalities in the interaction between the heart and the aorta (the large artery pumping blood away from the heart to the rest of the body), overactivity of the sympathetic nervous system (SNS), the body's "stress response", or iii) abnormal metabolism seen in CKD, where there are high levels of phosphate and other waste products circulating in the blood as a result of damage to the kidneys.
+
+In this study, the investigators will use a variety of non invasive experimental methods to determine if arterial stiffening seen in CYP with CKD is due solely to increased BP, or whether the other potential factors listed above also contribute. This may help to eventually identify how to prevent or treat arterial stiffness in CYP with CKD and prevent its adverse impact on kidney and heart health in later life. The investigators will compare findings between those with CKD and an age, sex and BP matched control group. This control group will comprise CYP both with high BP (primary hypertension) and without high BP (healthy participants).
+
+Detailed Description:
+Methods:
+
+Single time point assessment of aortic stiffness of children and young people with CKD; recruitment target of in total 100 participants, of which: 50 pre-dialysis (CKD stage 1-5), 25 on dialysis (CKD stage 5D) and 25 with kidney transplant (CKD-T) compared to 100 age-, sex- and BP-matched controls. Controls will be sourced from existing funded studies performing similar measurements on young people with primary hypertension and healthy normotensive controls, allowing the investigators to match CKD participants to a control group from across the blood pressure (BP) spectrum.
+
+Longitudinal follow-up for one additional timepoint will be offered to all CKD participants with BP \>75th percentile (or \>130/80 mmHg in adults). The investigators expect this to be around 25 children and young people over the study time period.
+
+All participants will undergo the following investigations:
+
+1. 24-hour ambulatory BP.
+2. Blood and urine tests for standard CKD biochemistry, hypertension biomarkers, cardiovascular risk profile and proteinuria.
+3. Arterial applanation tonometry.
+4. Cardiac and aortic MRI.
+5. Echocardiography.
+6. Height, weight and clinical BP.
+7. Tanita body composition.
+
+Assessments will then be repeated in the CKD study group once BP \<75th percentile (or \<130/80 mmHg in adults) is achieved.
+
+In a subset of study participants (n = 25 for each additional intervention), some additional investigations will be performed optionally at the discretion of researchers, patients and families:
+
+1. Respiratory effort with applanation tonometry before and after effort.
+2. Device guided slow breathing.
+3. Lower limb venous occlusion.
+
+Study visits:
+
+Potential participants will be identified from established CKD clinics and recruited with the help of a study coordinator based at Evelina London Children's Hospital (ELCH). Young adults with CKD will be recruited with the help of the well-established transition and adult CKD clinic at Guy's Hospital, with whom there are long- standing collaborations. Routinely, most children with moderate CKD will be seen at least once every 3-6 months.
+
+Control participants will be included from a contemporaneously funded parallel study and include both children with primary hypertension and healthy normotensive children who have consented for their anonymised research data to be used in other ethically approved studies.
+
+The investigators anticipate study consent and some routine clinic testing to be performed at the time of a planned clinic visit but detailed research related investigations including MRI may require an additional planned study visit lasting 2-4 hours at baseline and again at follow up for each complete set of research investigations. Visits will be conducted at dedicated child and adult Clinical Research Facilities as appropriate.
+
+Participants will visit their usual hospital, have no extra needle pricks for blood tests, have non-invasive research tests offered at flexible timings and be compensated for their time and travel.
+
+As this is an observational study, no study related change in the management of participants will be made.
+
+Following achievement of clinical BP target (\<75th percentile or \<130/80mmHg in adults), assessments similar to baseline will be repeated in all participants and experimental interventions in a subset.
+
+Sample size determination and statistical analysis:
+
+Primary outcome: The mean difference in cfPWV between CYP with pre-dialysis CKD and age/sex/BP matched controls is expected to be \~ 0.8 m/s and with n = 50 in each group and a between-subject SD of 0.7 m/s (in-house from our HOT KID controls), the study will have 80% power (for p \< 0.05) of detecting a difference \> 0.4 m/s.
+
+Interventional studies: a sample size n = 25 has similar power to detect a change \>0.6 of the within-subject SD for differences in cfPWV, which for a within-subject SD of 0.5 m/s is 0.3 m/s, approximately 50% of the difference between hypertensive and normotensive CYP with CKD.
+
+Longitudinal follow-up: within-subject SD is expected to be slightly greater, but this is offset by the greater sample size, and the investigators expect power to be similar to detect a change of 0.3 m/s, 50% of the difference between CYP with CKD and age-, sex- and BP-matched controls.
+
+Recruitment of dialysis and transplant patients is exploratory at this stage and will generate pilot data, therefore for this study they were not included in the power calculation.
+
+The primary outcome measure will be assessed by students t test and ANOVA, with and without adjustment for confounders including age, sex, ethnicity, renal function, heart rate, use of antihypertensive and BMI.
+
+Effects of interventions and change in outcomes after follow-up will be assessed by repeated measures ANOVA.
+
+Significance is defined as P \< 0.05.
+
+Interventions:
+
+Eligibility Criteria:
+Inclusion criteria:
+
+For CKD participants:
+
+* Aged 10-25 years at study entry.
+* Diagnosis of CKD confirmed on at least two GFR assessments 3-months apart; eGFR will be estimated using routine bedside formulae (modified Schwartz). Participants may include those on dialysis or those with a functioning kidney transplant.
+* Able to tolerate study investigations including 24-hour ABPM, echocardiogram, vascular assessments and MRI.
+
+For controls:
+
+* Aged 10-25 years at study entry
+* Having completed study measurements as part of other research being completed by the research group and having consented to their anonymised data being used in future research within the same research theme.
+
+Exclusion criteria (for all participants):
+
+* Heart abnormalities or pre-existing cardiac disease including congenital heart disease, previous cardiac surgery or heart failure.
+* Cardiac dysrhythmia.
+* Inability to tolerate the required study investigations (out of office BP monitoring, applanation tonometry, cardiac MRI).
+Minimum Age: 10 Years
+Maximum Age: 25 Years
+Sex: ALL
+
+Primary Outcome Measures:
+- Difference in carotid femoral pulse wave velocity [Time Frame: Baseline (single time point)] The difference in carotid femoral pulse wave velocity (m/s) between children and young adults with CKD and age, sex and blood pressure (BP) matched controls.

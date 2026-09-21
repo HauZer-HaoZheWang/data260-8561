@@ -1,0 +1,114 @@
+NCT Number: NCT05477979
+Title: The Associations of Psychological Stress With Therapy Efficacy and Prognosis of Lung Cancer (STRESS-LUNG)
+Official Title: Cohort Studies of Associations of Psychological Stress With Therapy Efficacy and Prognosis of Lung Cancer, Including Non-small-cell Lung Cancer and Small-cell Lung Cancer With Early and Advanced Staging (STRESS-LUNG)
+Lead Sponsor: Second Xiangya Hospital of Central South University
+Overall Status: RECRUITING
+Start Date: 2020-06-01
+Study Type: OBSERVATIONAL
+Phases: 
+Enrollment: 750
+Conditions: Lung Cancer, Psychological Stress, Immune Checkpoint Inhibitors, Cancer, Treatment-Related
+
+Brief Summary:
+This is the prospective, observational cohort study (STRESS-LUNG) to explore the associations of psychological stress with progression, efficacy of immune checkpoint inhibitors (ICIs) and prognosis of Lung Cancer. The participants including the patients diagnosed with advanced non-small-cell lung cancer (NSCLC) who received the first-line therapy or neoadjuvant therapy of ICIs; patients diagnosed with advanced small-cell lung cancer (SCLC) receiving the first-line therapy ICIs; patients diagnosed with early small-cell lung cancer (SCLC) receiving surgery.
+
+Detailed Description:
+This is the prospective, observational cohort study (STRESS-LUNG) to explore the associations of psychological stress with progression, efficacy of ICIs and prognosis of Lung Cancer. This study will have 4 cohorts
+
+* Cohort 1 (STRESS-LUNG-1): A prospective, observational cohort study to explore the association between psychological stress and the efficacy of first-line treatment of ICIs in advanced NSCLC.
+* Cohort 2 (STRESS-LUNG-2): A prospective, observational cohort study to explore the association between psychological stress and the efficacy of first-line treatment of limited-stage and extensive-stage SCLC.
+* Cohort 3 (STRESS-LUNG-3): A prospective, observational cohort study to explore the association between psychological stress and the efficacy of neoadjuvant therapy of ICIs in resectable NSCLC.
+* Cohort 4 (STRESS-LUNG-4): A prospective, observational cohort study to explore the association of psychological stress with cancer progression, and Prognosis in early-stage NSCLC receiving radical surgery.
+
+Interventions:
+- OTHER: Exposure: psychological stress status. The assessment of depressive and anxiety symptoms was conducted using Patient Health Questionnaire-9 (PHQ-9) and Generalized Anxiety Disorder Assessment 7 (GAD-7). Patients with a PHQ-9 score ≥ 5 or a GAD-7 score ≥ 5 were categorized as the stressed group.
+
+Eligibility Criteria:
+Cohort 1 (STRESS-LUNG-1):
+
+Inclusion Criteria:
+
+1. Age ≥ 18 years;
+2. Histologically confirmed diagnosis of NSCLC;
+3. Unresectable locally advanced, metastatic, or recurrent stage ⅢB-Ⅳ based on AJCC TNM staging 8th edition;
+4. Eastern Cooperative Oncology Group (ECOG) performance status of 0-1;
+5. Systematic treatments naive ( e. g., chemotherapy, anti-angiogenic drugs, targeted drugs, and immunotherapy );
+6. Presence of at least one measurable lesion according to the Response Evaluation Criteria in Advanced Solid Tumors version 1.1 (RECIST v1.1) ;
+7. Receiving PD-1/PD-L1 inhibitors monotherapy or combination with chemotherapy;
+8. Informed and agreed to participate in the study;
+
+Exclusion Criteria:
+
+1. Epidermal growth factor receptor (EGFR)-sensitizing mutation and/or anaplastic lymphoma kinase (ALK) gene and/or ROS proto-oncogene 1 (ROS1) fusion-positive;
+2. Combined with other malignant tumors in the past 3 years;
+3. Concurrent acute or chronic psychiatric disorders;
+4. Current receiving anti-depressive or anti-anxiety therapy;
+5. Previous treatment with other clinical drug trials;
+6. Patients with symptomatic brain metastasis;
+7. Can't cooperate with psychological scale assessment;
+
+Cohort 2 (STRESS-LUNG-2):
+
+1. Age ≥ 18 years；
+2. Pathologically diagnosed as small cell lung cancer；
+3. Unresectable locally advanced, metastatic, or recurrent stage Ⅲ-Ⅳ based on AJCC TNM staging 8th edition;
+4. Eastern Cooperative Oncology Group (ECOG) performance status of 0-1;
+5. Systematic treatments naive ( e. g., chemotherapy, anti-angiogenic drugs, targeted drugs, and immunotherapy );
+6. Presence of at least one measurable lesion according to the Response Evaluation Criteria in Advanced Solid Tumors version 1.1 (RECIST v1.1) ;
+7. Receiving PD-1/PD-L1 inhibitors monotherapy or combination with chemotherapy;
+8. Informed and agreed to participate in the study;
+
+Exclusion Criteria:
+
+1. Combined with other malignant tumors in the past 3 years;
+2. Concurrent acute or chronic psychiatric disorders;
+3. Current receiving anti-depressive or anti-anxiety therapy;
+4. Previous treatment with other clinical drug trials;
+5. Patients with symptomatic brain metastasis;
+6. Can't cooperate with psychological scale assessment;
+
+Cohort 3 (STRESS-LUNG-3):
+
+1. Age ≥18 years ；
+2. Pathologically diagnosed as non-small cell lung cancer;
+3. Resectable clinical stage IB-IIIB based on AJCC TNM staging 8th edition;
+4. At least one measurable lesion can be evaluated according to the RECIST 1.1 standard；
+5. Systematic treatments naive ( e. g., chemotherapy, anti-angiogenic drugs, targeted drugs, and immunotherapy );
+6. Receiving PD-1/PD-L1 inhibitors combined with chemotherapy as neoadjuvant therapy.
+
+6\. Cardiopulmonary function can withstand surgery; 7. Informed and agreed to participate in the study;
+
+Exclusion Criteria:
+
+1. Epidermal growth factor receptor (EGFR)-sensitizing mutation and/or anaplastic lymphoma kinase (ALK) gene and/or ROS proto-oncogene 1 (ROS1) fusion-positive;
+2. Combined with other malignant tumors in the past 3 years;
+3. Concurrent acute or chronic psychiatric disorders;
+4. Current receiving anti-depressive or anti-anxiety therapy;
+5. Previous treatment with other clinical drug trials;
+6. Can't cooperate with psychological scale assessment;
+
+Cohort 4 (STRESS-LUNG-4):
+
+1. Age ≥18 years;
+2. Pathologically diagnosed as non-small-cell lung cancer；
+3. Pathologically stage conformed as early stage of IA-IIIA
+4. Available for tumor tissue samples；
+5. Systematic treatments naive ( e. g., chemotherapy, anti-angiogenic drugs, targeted drugs, and immunotherapy );
+6. Receiving radical surgery;
+7. Informed and agreed to participate in the study;
+
+Exclusion Criteria:
+
+1. Combined with other malignant tumors in the past 3 years;
+2. Concurrent acute or chronic psychiatric disorders;
+3. Current receiving anti-depressive or anti-anxiety therapy;
+4. Previous treatment with other clinical drug trials;
+5. Can't cooperate with psychological scale assessment;
+Minimum Age: 18 Years
+Maximum Age: 
+Sex: ALL
+
+Primary Outcome Measures:
+- Cohort 1 & 2: Progression-free survival (PFS) [Time Frame: 3 years] Time from the beginning of first-line immunotherapy to the first progression (PD) in patients with lung cancer
+- Cohort 3: Pathologic complete response (pCR) rate [Time Frame: 3 years] pCR is no viable tumor cells in tumor bed and lymph nodes. The pCR rate is the proportion of patients with a pathologic complete response.
+- Cohort 4: Disease-free survival (DFS) [Time Frame: 5 years] The duration between the date after surgery to the date of any recurrence or death firstly

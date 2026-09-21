@@ -1,0 +1,58 @@
+NCT Number: NCT05626426
+Title: Electrical Stimulation for the Treatment of Optic Neuropathies
+Official Title: An Open-Label Study to Evaluate the Safety and Efficacy of Repetitive, Transorbital Alternating Current Stimulation (rtACS) for the Treatment of Optic Neuropathies
+Lead Sponsor: Stanford University
+Overall Status: RECRUITING
+Start Date: 2023-02-27
+Study Type: INTERVENTIONAL
+Phases: NA
+Enrollment: 40
+Conditions: Glaucoma, Glaucoma, Open-Angle, Optic Nerve Diseases
+
+Brief Summary:
+The overall aim of this study is to see whether long-term electrical stimulation with a home-stimulation device works well and is safe for the treatment of open-angle glaucoma. Open-Angle Glaucoma is a disease where the nerves in the back of your eye die off faster than expected regardless of your eye pressure.
+
+Detailed Description:
+This is a concurrent open-label study for patients who are deemed safe to participate in the electrical stimulation trial but do not fit the exact criteria for the randomized clinical trial.
+
+Interventions:
+- DEVICE: Repetitive, Transorbital Alternating Current Stimulation (rtACS). Patients receive treatment every other day via a headband that delivers electrical stimulation to the retina
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+1. Participant must be at least 18.
+2. Participant must has the ability to comply with the requirements of the study and complete the schedule of events (SOE).
+3. Participant's clinical diagnosis must be consistent with glaucoma characterized by the following features: Mean deviation (MD) worse than -3 on Humphrey Visual Field 24-2 testing. Reliable visual field measures, fixation losses do not exceed 20% and false postivies do not exeed 20%.
+4. In the opinion of the investigator the participant's eye pressure must be clinically stable.
+5. If a participant has two eyes meeting study criteria, the worse eye as determined by mean deviation. If both eyes qualify and have the same MD, the patient may choose which eye they are willing to enter, or else a randomization procedure will assign one eye to the study.
+6. Participant must understand and sign the informed consent. If the participant's vision is impaired to the point where he/she cannot read the informed consent document, the document will be read to the participant in its entirety.
+
+Exclusion Criteria:
+
+1. Participant is unable to comply with study procedures or follow-up visits.
+2. Participant has a history of ocular herpes zoster.
+3. Participant has pathological nystagmus
+4. Participant has evidence of visually significant retinopathy including but not limited to Diabetic retinopathy or retinitis pigmentosa.
+5. Participant has evidence of corneal opacification or lack of optical clarity.
+6. Participant has uveitis or other ocular inflammatory disease.
+7. Participant has any electric or electroinc implants such as a pacemaker.
+8. Participant has acute conjunctivitis.
+9. Participant has acute autoimmune disease.
+10. Participant is pregnant or lactating.
+11. Participant has, in the opinion of the investigator, any physical or mental condition that would increase the risk of participation in the study or may interfere with the study procedures, evaluations and outcome assessments. Including but not limited to all forms of dementia.
+12. Unresected brain tumors
+13. Implanted intracranial magnetic metals (metallic implants in the head / skull such as clamps, coils, ventriculo-peritoneal shunts, endoprostheses, etc.), which are not MRI-compatible. Note: metallic dental implants and titanium screws or plates are acceptable
+14. Patients with any skin damage.
+15. Children and comatose patients.
+16. Patients with history of epileptic seizure within the last 10 years.
+17. Patients with uncontrolled systemic hypertension or uncontrolled diabetes.
+18. Participant is not able to travel, to comply with the requirements of the study or not willing to complete the schedule of events (SOE) and/or unable to confirm follow-up participation
+19. Prior participation in a vision training/stimulation study in the last 12 months
+Minimum Age: 18 Years
+Maximum Age: 
+Sex: ALL
+
+Primary Outcome Measures:
+- Change from baseline in visual field assessed by Humphrey Visual Field Index (VFI). [Time Frame: Baseline through 6 months] 
+- Change from baseline in visual field assessed by Humphrey Mean Deviation (MD). [Time Frame: Baseline through 6 months] 

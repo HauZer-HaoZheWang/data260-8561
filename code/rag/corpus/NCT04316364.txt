@@ -1,0 +1,56 @@
+NCT Number: NCT04316364
+Title: A Trial of SHR-1316/Placebo in Combination With Chemotherapy in Patients With Resectable NSCLC
+Official Title: A Randomized, Double-Blind, Multicenter, Phase Ib/III Clinical Study on PD-L1 Monoclonal Antibody SHR-1316 or Placebo in Combination With Chemotherapy as Perioperative Treatment of Resectable Stage II or III Non-Small Cell Lung Cancer
+Lead Sponsor: Jiangsu HengRui Medicine Co., Ltd.
+Overall Status: RECRUITING
+Start Date: 2020-07-14
+Study Type: INTERVENTIONAL
+Phases: PHASE3
+Enrollment: 537
+Conditions: Non-Small-Cell Lung Cancer
+
+Brief Summary:
+This trial is designed to evaluate the efficacy, safety and immunogenicity of neoadjuvant treatment with monoclonal antibody SHR-1316 or placebo in combination with platinum doublet chemotherapy in participants with resectable Stage II, IIIA, or selected IIIB non-small cell lung cancer (NSCLC) followed by adjuvant SHR-1316 or placebo and monitoring.
+
+Detailed Description:
+
+
+Interventions:
+- DRUG: SHR-1316、Paclitaxel (Albumin Bound)、Carboplatin. Drug: SHR-1316, an engineered anti-PD-L1 antibody will be administered as intravenous (IV) infusion on Day 1 of each 21-day cycle Drug: Paclitaxel (Albumin Bound) will be administered intravenously on Day 1,8,15 of each 21-day cycle Drug: Carboplatin will be administered intravenously on Day 1 of each 21-day cycle
+- DRUG: SHR-1316、Chemotherapeutic. Drug: SHR-1316, an engineered anti-PD-L1 antibody will be administered as intravenous (IV) infusion on Day 1 of each 21-day cycle Drug: Chemotherapeutic drugs will be administered on Day 1 of each 21day cycle, if applicable, they will also be administered on Day 8 and/or Day 15 according to the drug package insert
+- DRUG: Placebo、Chemotherapeutic. Drug: Placebo, will be administered as intravenous (IV) infusion on Day 1 of each 21-day cycle Drug: Chemotherapeutic drugs will be administered on Day 1 of each 21day cycle, if applicable, they will also be administered on Day 8 and/or Day 15 according to the drug package insert
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+* Eastern Cooperative Oncology Group (ECOG) performance status 0 or 1
+* Have previously untreated, pathologically confirmed resectable Stage II, IIIA, or Selected IIIB NSCLC. Staging should be based on the 8th edition of the AJCC/UICC staging system
+* Evaluation by an attending thoracic surgeon to confirm eligibility for an R0 resection with curative intent
+* Adequate tumor tissue sample blocks for central programmed death-ligand 1 (PD-L1) testing
+* Measurable disease as defined by RECIST v1.1
+* Adequate organ function
+* Women of childbearing age without sterilizing or male, must agree to use contraception or practice abstinence at least 180 days after the last dose of study treatment
+
+Exclusion Criteria:
+
+* Any previous systematic anti-cancer therapy for lung cancer
+* With active, known or suspected autoimmune disease of autoimmune disease
+* Malignancies other than NSCLC within 5 years prior to randomization
+* Has or suspected has a history of pneumonitis /interstitial lung disease or any serve lung diseases which will influence the examination of lung function
+* Significant history of cardiovascular and cerebrovascular disease
+* Significant haemorrhagic disease
+* Has an arteriovenous thrombotic events
+* Has a known history of human immunodeficiency virus (HIV) infection
+* Has a known active Hepatitis B or Hepatitis C
+* Allergic to monoclonal antibodies or other protein drugs
+* Allergic to the intervention regimens
+* Pregnant or lactating women
+* Has known psychiatric or substance abuse disorders
+* Confirmed COVID-19 infection or suspected COVID-19 infection or close contact with a person with known or suspected COVID-19 infection.
+Minimum Age: 18 Years
+Maximum Age: 70 Years
+Sex: ALL
+
+Primary Outcome Measures:
+- Major pathological response rate (MPR) [Time Frame: At time of surgery] 
+- Event free survival (EFS) [Time Frame: Approximately 66 months] 

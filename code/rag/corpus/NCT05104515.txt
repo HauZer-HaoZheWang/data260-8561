@@ -1,0 +1,57 @@
+NCT Number: NCT05104515
+Title: First-in-human Study of OVM-200 as a Therapeutic Cancer Vaccine
+Official Title: A Phase 1, Multicentre, Open-label, Nonrandomised, First-in-human Study of OVM-200 as a Therapeutic Vaccine in Patients With Locally Advanced or Metastatic Non-Small Cell Lung Cancer, Ovarian Cancer, and Prostate Cancer
+Lead Sponsor: Oxford Vacmedix UK Ltd.
+Overall Status: RECRUITING
+Start Date: 2021-11-01
+Study Type: INTERVENTIONAL
+Phases: PHASE1
+Enrollment: 36
+Conditions: Prostate Cancer, Non Small Cell Lung Cancer, Ovarian Cancer
+
+Brief Summary:
+OVM-200 will be tested in humans for the first time in Study OVM-200-100. Up to 52 patients aged 18-75 with prostate, lung or ovarian cancer will be enrolled in the Study to find out if OVM-200 is safe to continue studying it in patients with cancer. The Study consists of 2 parts: a dose escalation part and a dose expansion part. In the dose escalation part, up to 4 increasing doses of OVM-200 will be evaluated in small groups of cancer patients to find the recommended dose for the expansion part. The recommended dose of OVM-200 will then be given to cancer patients in the dose expansion part to confirm safety and understand how effective it is against their disease and if there are any side effects.
+
+Patients who agree to participate in the Study and pass screening will receive 3 doses of OVM-200 in total at 2-week intervals as an injection under the skin. After completing treatment with OVM-200 patients will be followed up for side effects and to monitor changes in their cancer. Patients will stay on the Study for about 6 months in total during which they will have 10 hospital visits. The Study will run at around 5 sites in the UK.
+
+Detailed Description:
+
+
+Interventions:
+- BIOLOGICAL: OVM-200. The first part (Phase 1a) comprises a first-in-human (FIH) multiple-dose, sequential-cohort 3+3 design to establish a dose of OVM-200 that is safe and tolerable, and that elicits an immune response in humans.
+
+This dose will be taken forward into the second part (Phase 1b) of the study. Phase 1b will further assess the safety and tolerability of the selected dose and investigate the immune and tumour response in 3 expansion cohorts of additional patients with NSCLC, ovarian cancer, and prostate cancer.
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+* 1\. Histologically confirmed metastatic or locally advanced inoperable NSCLC, ovarian cancer, or prostate cancer that have already received at least 1 line of approved cancer therapy and either: exhausted current recognized treatment options; or are stable in a planned treatment-free interval following completion of a set course of treatment; or in the case of prostate cancer, are currently stable on an antihormonal treatment.
+
+  2\. Are not receiving active cancer treatment other than supportive therapies or androgen deprivation therapies for prostate cancer, which may be continued, and, in the opinion of the investigator, are not anticipated to require further approved cancer treatment options until the Week 8 assessment (up to 9 weeks) after the first dose of OVM-200 per standard of care.
+
+  3\. At least 1 measurable lesion that can be accurately assessed at baseline by computed tomography (CT)/magnetic resonance imaging (MRI) and is suitable for repeated assessment (NSCLC only).
+
+  4\. Age ≥ 18 years and ≤ 75 years. 5. Eastern Cooperative Oncology Group (ECOG) performance status ≤ 2 (Section 7.2.6).
+
+  6\. Predicted life expectancy ≥ 3 months. 7. Adequate bone marrow, renal, and hepatic function.
+
+Exclusion Criteria:
+
+1. Known history or evidence of significant immunodeficiency due to underlying illness. Patients with a condition requiring systemic treatment with either corticosteroids (\> 10 mg daily prednisolone equivalent) or other immunosuppressive medications within 14 days of the first dose of study drug. Inhaled or topical steroids and adrenal replacement steroids are permitted in the absence of autoimmune disease.
+2. Patients with a history of or active, known, or suspected autoimmune disease or a syndrome that requires systemic or immunosuppressive agents. Patients with vitiligo, type I diabetes mellitus, residual hypothyroidism due to autoimmune disease only requiring hormone replacement, psoriasis not requiring systemic treatment, or conditions not expected to recur in the absence of an external trigger are permitted to enrol.
+3. Prior therapy with an anticancer vaccine; anti-PD-1, anti-PD-L1, anti-PD-L2, anti-CD137, or anti-CTLA-4 antibody; or any other antibody or drug specifically targeting T-cell co-stimulation or immune checkpoint pathways in the 28 days before the first dose of study drug.
+4. Administration of an investigational drug in the 28 days or 6 half-lives (whichever is longer) before the first dose of study drug.
+5. Major surgery or treatment with any chemotherapy, or radiation therapy for cancer in the 28 days before the first dose of study drug.
+6. Active infection requiring antibiotics or physician monitoring, or recurrent fevers (\> 38.0°C) associated with a clinical diagnosis of active infection.
+7. Active viral disease, positive test for hepatitis B virus using hepatitis B surface antigen test, or positive test for hepatitis C virus (HCV) using HCV ribonucleic acid or HCV antibody test indicating acute or chronic infection. Positive test for human immunodeficiency virus (HIV) or acquired immunodeficiency syndrome; testing is not required in the absence of history.
+8. Receipt of any vaccine within 28 days before the first dose of study drug.
+9. Other prior malignancy within the previous 3 years, except for local or organ-confined early stage cancer that has been definitively treated with curative intent and does not require ongoing treatment, has no evidence of residual disease, and has a negligible risk of recurrence and is therefore unlikely to interfere with the primary and secondary endpoints of the study, including response rate and safety and tolerability.
+10. Symptomatic brain metastases or any leptomeningeal metastasis.
+11. Any serious or uncontrolled medical disorder (including cardiovascular, respiratory, renal, or autoimmune disease) that, in the opinion of the investigator or the medical monitor, may increase the risk associated with study participation or study drug administration, impair the ability of the patient to receive protocol therapy, or interfere with the interpretation of study results.
+12. History of allergic reaction or hypersensitivity to any component of the OVM-200 therapeutic vaccine or adjuvant.
+Minimum Age: 18 Years
+Maximum Age: 75 Years
+Sex: ALL
+
+Primary Outcome Measures:
+- The primary endpoint (safety and tolerability) for this study is the occurrence and intensity of adverse events. [Time Frame: 24 Weeks] 

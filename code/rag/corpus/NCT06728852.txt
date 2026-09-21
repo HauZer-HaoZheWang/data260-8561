@@ -1,0 +1,61 @@
+NCT Number: NCT06728852
+Title: Efficacy and Safety of Vorolanib Monotherapy As Third-line or Later Treatment for Advanced Non-small Cell Lung Cancer Patients: a Single-arm, Prospective, Open-label Phase II Clinical Study
+Official Title: Efficacy and Safety of Vorolanib Monotherapy As Third-line or Later Treatment for Advanced Non-small Cell Lung Cancer Patients: a Single-arm, Prospective, Open-label Phase II Clinical Study
+Lead Sponsor: Li-kun Chen
+Overall Status: RECRUITING
+Start Date: 2024-12-01
+Study Type: INTERVENTIONAL
+Phases: PHASE2
+Enrollment: 32
+Conditions: Advanced Non-small Cell Lung Cancer (NSCLC), Recurrent or Metastatic Lung Cancer, Third-line and Beyond Therapy, Angiogenesis Inhibition in Oncology
+
+Brief Summary:
+This study evaluates the efficacy and safety of Vorolanib as monotherapy for advanced non-small cell lung cancer (NSCLC) patients receiving third-line or higher treatments. It is a single-center, single-arm, prospective Phase II clinical trial. Thirty-two patients who have undergone at least two lines of systemic therapy and exhibited progression or recurrence will receive 300 mg of Vorolanib daily until disease progression, intolerable toxicity, withdrawal of consent, or death. The primary endpoint is the 6-month progression-free survival (PFS) rate. Secondary endpoints include PFS, objective response rate (ORR), disease control rate (DCR), overall survival (OS), and safety. This research aims to expand the clinical applications of Vorolanib in NSCLC, providing a basis for further investigation.
+
+Detailed Description:
+
+
+Interventions:
+- DRUG: Administration of Vorolanib. This study utilizes Vorolanib, a novel angiogenesis inhibitor, as a monotherapy for advanced non-small cell lung cancer (NSCLC) patients who have failed at least two lines of systemic therapy. Vorolanib is administered orally at a dosage of 300 mg daily. The intervention focuses on its efficacy and safety as a third-line or beyond treatment, aiming to improve progression-free survival (PFS) and other clinical outcomes. Vorolanib targets VEGFR, PDGFR, and other tyrosine kinases, distinguishing it from other therapies by its enhanced anti-angiogenesis properties and tolerable safety profile in late-stage cancer treatment.
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+1. Sign the informed consent
+2. Pathologically or cytologically diagnosed with metastatic/relapsed advanced NSCLC, with measurable lesions (according to RECIST 1.1)
+3. Previously received at least two systemic therapies, allowing for third-line or higher chemotherapy or unable to tolerate chemotherapy
+4. Patients with negative results for driver gene testing or patients with positive results who have already received relevant targeted drugs or systemic anti-tumor treatments and are either resistant or unable to tolerate them
+5. Eastern Cooperative Oncology Group (ECOG) performance status score of 0-2. Expected survival time ≥ 3 months
+6. Normal major organ function: renal function with creatinine clearance rate ≥ 60 mL/min; liver function with bilirubin ≤ 1.5× upper limit of normal (ULN), ALT/AST ≤ 2.5× ULN (for patients with documented liver metastasis, AST and ALT levels ≤ 5× ULN)
+7. Good hematological function, defined as an absolute neutrophil count (ANC) ≥ 1.5×10\^9/L, platelet count ≥ 100×10\^9/L, hemoglobin ≥ 90g/L (without blood transfusion or erythropoietin \[EPO\] dependency within the last 7 days)
+8. Good coagulation function, defined as an international normalized ratio (INR) or prothrombin time (PT) ≤ 1.5× ULN; if the subject is on anticoagulation therapy, PT should be within the intended therapeutic range of the anticoagulant
+9. Female patients of childbearing potential must agree to use contraception (e.g., intrauterine device, contraceptives, or condoms) during the study and for 6 months after the study ends; must not be breastfeeding and must have a negative serum or urine pregnancy test within 7 days before enrollment. Male patients must agree to use contraception during the study and for 6 months after the study ends
+10. Patients with well-controlled pleural or peritoneal effusions that do not cause grade 2 or higher respiratory syndrome (≥ CTCAE grade 2) can be included
+11. Patients without clinical symptoms of intracranial hypertension caused by brain metastases or with brain metastasis symptoms that are stable after prior treatment (radiation therapy or surgery) of brain or meningeal metastasis (usually requiring more than 4 weeks post-radiation therapy)
+
+Exclusion Criteria:
+
+1. Previously failed treatment with multi-target anti-angiogenic drugs, such as anlotinib, cabozantinib, apatinib, lenvatinib, etc. The use of bevacizumab is allowed, but the last administration must be more than 3 weeks before enrollment
+2. Small cell lung cancer (including small cell carcinoma, non-small cell lung cancer mixed with other types of tumors)
+3. Testing positive for driver genes but not treated with TKIs
+4. Tumor invasion of large blood vessels, central squamous cell carcinoma of the lung with cavitation, or non-small cell lung cancer with hemoptysis (\>5ml/day), or where the tumor is likely to invade important blood vessels and cause fatal bleeding during the subsequent study period
+5. Accompanied by other types of malignant tumors within the past 5 years or currently
+6. Planning to receive systemic anti-tumor therapy within 4 weeks before enrollment or during the study period, including cytotoxic therapy, signal transduction inhibitors, and immunotherapy (or mitomycin C within 6 weeks before receiving experimental drug therapy); received extended-field radiation therapy (EF-RT) within 4 weeks before enrollment or limited-field radiation therapy within 2 weeks before enrollment with evaluation of lesions recommended
+7. Unremitting toxic reactions caused by previous treatment, CTCAE grade \>1, excluding hair loss
+8. Various factors affecting oral medication (such as inability to swallow, gastrointestinal resection, chronic diarrhea, bowel obstruction)
+9. Pleural effusion or ascites leading to respiratory syndrome (≥CTCAE grade 2)
+10. Symptoms of brain metastasis not controlled and treated within 2 months
+11. Presence of any severe or uncontrolled disease
+12. Major surgery, open biopsy, or significant traumatic injury within 28 days before enrollment
+13. Bleeding diathesis or history of significant bleeding, regardless of severity; any wound, ulcer, or fracture that has not healed following a bleeding or bleeding event (≥CTCAE grade 3)
+14. Arterial/venous thrombosis within 6 months, such as cerebrovascular accident (including transient ischemic attack), venous thrombosis, pulmonary embolism
+15. History of substance abuse that cannot be quit or diagnosed with psychiatric disorders
+16. Participated in other clinical trials of anti-tumor drugs within 4 weeks
+17. Diagnosed with diseases that severely jeopardize patient safety or affect the completion of this study
+18. Known history of human immunodeficiency virus (HIV) infection (i.e., HIV 1/2 antibody positive); untreated active hepatitis B; active HCV infection (HCV antibody positive and HCV-RNA levels above detection limit)
+Minimum Age: 18 Years
+Maximum Age: 70 Years
+Sex: ALL
+
+Primary Outcome Measures:
+- 6-Month Progression-Free Survival (PFS) Rate in Advanced Non-Small Cell Lung Cancer Patients [Time Frame: 6 months from the initiation of treatment] The primary outcome measure is the 6-month progression-free survival (PFS) rate, defined as the proportion of patients who have not experienced disease progression or death within 6 months of initiating Vorolanib treatment. Disease progression will be assessed using RECIST 1.1 criteria through imaging studies, including enhanced chest and upper abdominal CT scans and brain MRI, conducted at regular intervals.

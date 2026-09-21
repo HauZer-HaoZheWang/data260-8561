@@ -1,0 +1,67 @@
+NCT Number: NCT05822609
+Title: Trial of Semaglutide for Diabetic Kidney Disease in Type 1 Diabetes
+Official Title: Trial of Semaglutide for Diabetic Kidney Disease in Type 1 Diabetes
+Lead Sponsor: University of Washington
+Overall Status: RECRUITING
+Start Date: 2024-04-05
+Study Type: INTERVENTIONAL
+Phases: PHASE2
+Enrollment: 60
+Conditions: Diabetic Kidney Disease, Type 1 Diabetes
+
+Brief Summary:
+The primary objective of this study is to determine the effects of semaglutide on change in albuminuria from baseline to 26 weeks in type 1 diabetes. The secondary objective is to determine the effects of semaglutide on change in kidney parameters (including kidney oxygenation and function) measured by MRI from baseline to 26 weeks in type 1 diabetes. Other objectives are to determine the glycemic effects and safety of semaglutide in type 1 diabetes.
+
+Detailed Description:
+A parallel-group, double-blind, placebo-controlled, randomized study will rigorously test effects of semaglutide on the kidney. Real-time continuous glucose monitoring will be used to control glycemia during study run-in (prior to randomization) and during active therapy, which investigators anticipate will lead to similar glycemic control according to treatment assignment and ability to assess effects independent of glycemia. The trial duration is 26 weeks, a period of time sufficient to gradually titrate study medications to maximum target dose (over 12 weeks) and then observe the full short-term effect of semaglutide on the kidney.
+
+Study Aims and Hypotheses:
+
+Aim 1: Determine the effects of semaglutide vs. placebo on kidney oxygenation in type 1 diabetes. Hypothesis 1: Semaglutide will improve kidney oxygen availability in adults with type 1 diabetes.
+
+Aim 2: Determine the effects of semaglutide vs. placebo on urine albumin-creatinine ratio and estimated glomerular filtration rate in type 1 diabetes. Hypothesis 2: Semaglutide will lower albuminuria and slow estimated glomerular filtration rate decline in adults with type 1 diabetes.
+
+Aim 3: Determine the glycemic effects and safety of semaglutide vs. placebo in type 1 diabetes. Hypothesis 3: Semaglutide will reduce total daily insulin dose and improve glycemic variability without increasing risk of severe hypoglycemia or diabetic ketoacidosis in adults with type 1 diabetes.
+
+Interventions:
+- DRUG: Semaglutide. 1.0 mg
+- OTHER: Placebo. Placebo
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+* Adults (≥18 years) with type 1 diabetes
+* Diabetes duration of ≥5 years
+* Persistent urine albumin-to-creatinine ratio (UACR) ≥ 30 mg/g, on the most recent two measurements within the prior 3 years
+* Estimated glomerular filtration rate ≥ 20 mL/min/1.73m2
+* Stable doses of drugs altering blood pressure (e.g., Angiotensin-converting enzyme inhibitor) required for at least 4 weeks prior to randomization, and requested for the duration of the trial
+* Stable doses of lipid-lowering medications required for at least 4 weeks prior to randomization, and requested for the duration of the trial
+* Adequate contraceptive method for females of child-bearing potential
+
+Exclusion Criteria:
+
+* HbA1c \>9%, recent diabetic ketoacidosis, hyperosmolar hyperglycemic state or severe illness requiring hospitalization in past 30 days
+* Other causes of diabetes mellitus, including type 2 diabetes and maturity-onset diabetes of the young (MODY)
+* Chronic kidney disease unrelated to diabetes
+* Personal or family history of medullary thyroid carcinoma or Multiple Endocrine Neoplasia syndrome type 2 (MEN 2) or thyroid nodule palpated by endocrinologist at screening
+* Personal history of pancreatitis
+* Current/planned pregnancy or nursing
+* Uncontrolled thyroid disease or hypertension (Systolic blood pressure \[SBP\] ≥ 160 mm Hg or diastolic blood pressure \[DBP\] ≥ 100 mm Hg despite treatment)
+* Proliferative retinopathy with treatment in the past 6 months
+* Uncontrolled or potentially unstable diabetic retinopathy or maculopathy, verified by fundus examination with pupil dilation unless performed using a digital fundus photography camera specified for non-dilated examination
+* More than 2 severe hypoglycemic episodes (requiring glucagon and/or assistance from another person) in the past 6 months
+* Frequent hypoglycemia during the last two weeks of the study run-in phase (time below range \[\<70 mg/dL\] ≥4%)
+* Pramlintide and the use of glycemia treatments not approved for type 1 diabetes by the FDA, e.g., metformin, SGT-2 inhibitor, GLP-1 receptor agonist, closed loop insulin delivery using unapproved algorithms
+* Significant systemic conditions or treatment such as cancer or immunomodulators
+* Known liver disease other than non-alcoholic fatty liver disease (NAFLD) or aspartate aminotransferase (AST) or alanine aminotransferase (ALT) \>100 IU/L, history of severe gastrointestinal disease (e.g., gastroparesis) or gallstones
+* Body mass index \<20 kg/m2
+* Known or suspected allergy/sensitivity to semaglutide or its excipients
+* Pregnant, breast feeding, or the intention of becoming pregnant
+* The receipt of any investigational drug within 3 months prior to this trial
+* Previously randomized in this trial
+Minimum Age: 18 Years
+Maximum Age: 
+Sex: ALL
+
+Primary Outcome Measures:
+- Change in urine albumin excretion [Time Frame: Baseline to 26 weeks] Measured as mean of multiple urine albumin-creatinine ratio measurements in spot urine

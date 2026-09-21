@@ -1,0 +1,66 @@
+NCT Number: NCT05913089
+Title: A Clinical Study of TQB2450 Injection Combined With Chemotherapy or Anlotinib Hydrochloride Capsule in the Treatment of Non Small Cell Lung Cancer
+Official Title: A Phase II/III Clinical Study on the Efficacy and Safety of TQB2450 Injection Combined With Chemotherapy or Anlotinib Hydrochloride Capsule in the Perioperative Treatment of Resectable Stage II/III Non Small Cell Lung Cancer.
+Lead Sponsor: Chia Tai Tianqing Pharmaceutical Group Co., Ltd.
+Overall Status: RECRUITING
+Start Date: 2023-06-14
+Study Type: INTERVENTIONAL
+Phases: PHASE2
+Enrollment: 58
+Conditions: Non Small Cell Lung Cancer
+
+Brief Summary:
+This is a clinical study on the efficacy and safety of TQB2450 injection combined with chemotherapy or anlotinib hydrochloride capsule in the perioperative treatment of resectable non-small cell lung cancer. The part I study was planned to enroll 58 subjects, 1:1 randomized into two cohorts. The treatment regimen was as follows: Cohort 1: 3-4 cycles of TQB2450 combined with chemotherapy, surgery should be performed 4-6 weeks after the last administration, and TQB2450 therapy should be continued for 1 year after surgery. Cohort 2: 4 cycles of TQB2450 combined with 3 cycles of anlotinib hydrochloride capsule. Surgery was performed 4-6 weeks after the last dose and continued for 1 year starting 4 weeks after surgery.
+
+Detailed Description:
+
+
+Interventions:
+- DRUG: TQB2450 injection + Chemotherapy. TQB2450 injection is a humanized monoclonal antibody targeting programmed death ligand -1 (PD-L1).
+
+Chemotherapy is a systematic treatment that kill fast growing cells.
+- DRUG: TQB2450 injection + Anlotinib Hydrochloride Capsule. TQB2450 injection is a humanized monoclonal antibody targeting programmed death ligand -1 (PD-L1).
+
+Anlotinib hydrochloride is a muti-target tyrosine kinase inhibitor.
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+* patients with stage II-IIIB (T3N2M0 only) Non-Small Cell Lung Carcinoma (NSCLC) and determined to be eligible for curable R0 excision, after pathologic diagnosis of puncture specimens;
+* ≥18 years old (calculated on the date of signing the informed consent); Both men and women; Eastern Cooperative Oncology Group (ECOG) score 0\~1; Predicted survival ≥3 months;
+* Have at least 1 measurable lesion according to Response Evaluation Criteria in Solid Tumours (RECIST) 1.1 criteria within 28 days prior to initiation of treatment;
+* Has not received systemic antitumor therapy, including radiotherapy, chemotherapy and immunotherapy;
+* Agree to provide fresh or 6 month tumor tissue for programmed death ligand -1 (PD-L1) testing.
+* Major organs are functioning well.
+* Women of reproductive age should agree that they must use effective birth control during the study period and for 6 months after the study, and that a negative serum or urine pregnancy test occurred within 7 days prior to study enrollment; Men should agree that effective contraception must be used during the study period and for 6 months after the study period ends.
+* The subjects voluntarily joined the study and signed the informed consent with good compliance.
+
+Exclusion Criteria:
+
+* Present or complication with other malignancies within 5 years.
+* Subjects are known to have genetic abnormalities with approved targeted drug therapy.
+* Cirrhosis, active hepatitis;
+* Cardio-cerebrovascular abnormalities;
+* Subjects with severe active infection within 4 weeks prior to initiation of study treatment; Or unexplained fever \>38.0 ℃ occurred during screening and before first administration;
+* Patients with active tuberculosis within 1 year prior to enrollment;
+* Immunodeficiency disease;
+* History of active autoimmune disease or autoimmune disease;
+* Preparing for or having previously received an organ transplant, or having received a hematopoietic stem cell transplant within 60 days prior to initial medication, or having a significant host transplant response;
+* Patients who required immunosuppressive, systemic, or absorbable topical hormone therapy for immunosuppressive purposes and continued use within two weeks prior to randomization
+* Severe infection of grade 4 or higher occurred within 1 year prior to initiation of study therapy;
+* Severe lung disease;
+* History of pituitary or adrenal dysfunction;
+* History of severe mental disorder;
+* History of drug abuse, alcoholism or drug use;
+* Participated in clinical trials of other drugs within 30 days;
+* History of live attenuated vaccine vaccination within 28 days prior to randomization or planned live attenuated vaccine vaccination during the study period;
+* Received Chinese patent drugs with anti-tumor indications specified in the National Medical Product Administration approved drug package inserts within 2 weeks prior to initiation of administration
+* Had major surgery within 4 weeks prior to initiation of medication;
+* Other severe, acute, or chronic medical conditions or laboratory abnormalities that, in the investigator's opinion, may increase the risks associated with study participation or may interfere with the interpretation of the study results, or are otherwise unsuitable for participation in the clinical study;
+* The compliance of patients to participate in this clinical study is estimated to be insufficient.
+Minimum Age: 18 Years
+Maximum Age: 80 Years
+Sex: ALL
+
+Primary Outcome Measures:
+- Major pathologic response (MPR) [Time Frame: Baseline up to 60 months.] MPR defined as the percentage of subjects with a residual surviving tumor less than or equal to 10% after surgery.

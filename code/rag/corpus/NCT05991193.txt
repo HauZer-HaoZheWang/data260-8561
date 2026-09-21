@@ -1,0 +1,37 @@
+NCT Number: NCT05991193
+Title: A Study With Central Nervous System Metastatic EGFR Mutation Positive Non-small Cell Lung Cancer
+Official Title: A Non-interventional Study and Its Clinical Relevance With Central Nervous System Metastatic Epidermal Growth Factor Receptor Mutation Positive Non-small Cell Lung Cancer
+Lead Sponsor: Hunan Province Tumor Hospital
+Overall Status: RECRUITING
+Start Date: 2023-12-29
+Study Type: OBSERVATIONAL
+Phases: 
+Enrollment: 100
+Conditions: NSCLC
+
+Brief Summary:
+This is a descriptive observational study, in which data are collected in an epidemiological fashion and prospective. This study does not intend to intervene the current medical practice of the recruited patients.
+
+Detailed Description:
+This is a descriptive observational study, in which data are collected in an EGFR mutant NSCLC. Our research plan aims to use multi-omics approaches to predict the likelihood of patients developing brain metastases, assess the prognosis of brain metastasis treatment, and identify potential biomarkers.
+
+Interventions:
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+* Patients must be ≥18 years.
+* Provision of fully informed consent prior to any study specific procedures.
+* Patient with EGFR 19Del or L858R mutation diagnosed histologically or cytologically. The mutations above may exist alone or together.
+* Patients must have untreated advanced Non-Small Cell Lung Cancer (NSCLC).
+* According to the RECIST 1.1 standard, the patient must have at least one measurable lesion.
+
+Exclusion Criteria:
+
+* None
+Minimum Age: 18 Years
+Maximum Age: 
+Sex: ALL
+
+Primary Outcome Measures:
+- Progression-free survival [Time Frame: 2 years] Progression-free survival (PFS) is defined as the time from beginning of study treatment until the date of objective disease progression or death (by any cause in the absence of progression), regardless of whether the patient withdraws from randomized therapy or receives another anti-cancer therapy prior to progression.

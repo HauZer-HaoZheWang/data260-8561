@@ -1,0 +1,56 @@
+NCT Number: NCT06394934
+Title: Home Blood Pressure Variability and Its Link to Arteriosclerosis and Metabolic Dysfunction in Hypertensive Patients
+Official Title: Impact of Home and Clinical Blood Pressure Variability on Arteriosclerosis and Metabolic Indicators
+Lead Sponsor: Korea University Anam Hospital
+Overall Status: RECRUITING
+Start Date: 2024-01-09
+Study Type: OBSERVATIONAL
+Phases: 
+Enrollment: 4188
+Conditions: Hypertension, Blood Pressure Monitoring, Home, Arteriosclerosis, Metabolic Syndrome X
+
+Brief Summary:
+This observational study investigates the correlation between home blood pressure variability (BPV) and arteriosclerosis, alongside metabolic indicators, in hypertensive patients over a three-year period. The research specifically focuses on the predictive value of home BPV for major adverse cardiovascular events (MACE) including myocardial infarction, stroke, and heart failure hospitalizations. Utilizing a mobile application called Healthscan for daily BP monitoring, the study aims to enhance the understanding of how BPV impacts cardiovascular and metabolic health in a real-world setting.
+
+Detailed Description:
+Objective:
+
+This longitudinal, non-randomized study aims to explore the prognostic value of home-measured blood pressure variability (BPV) in predicting arteriosclerosis and metabolic dysfunction in patients with hypertension. By examining the relationship between home BPV and several vascular and metabolic health indicators, this study seeks to validate home BP monitoring as a crucial component of hypertension management.
+
+Study Design:
+
+Participants will be recruited from multiple clinical settings and followed for a three-year period, during which they will use the Healthscan mobile application to record their daily blood pressure readings. The primary outcome measure is the correlation between home BPV and pulse wave velocity, a key marker of arteriosclerosis. Secondary outcomes include other arteriosclerosis indicators such as ankle-brachial index and central systolic blood pressure, as well as metabolic indicators like fasting glucose and lipid profiles.
+
+Methodology:
+
+Approximately 4,188 hypertensive patients over 19 years old, with a history of antihypertensive medication use, will be enrolled. Data collection will be facilitated through the Healthscan app, which participants will use to enter their BP measurements. This data will provide insights into the average blood pressure and variability over specified periods. The study will utilize Pearson or Spearman correlation coefficients to assess the relationships between home BPV and health indicators, with multivariate regression models adjusting for potential confounders.
+
+Ethical Considerations:
+
+The study has been approved by an institutional review board and all participants will provide written informed consent. The study prioritizes data confidentiality and participant privacy, with data being securely stored and managed.
+
+Significance:
+
+By correlating BPV with arteriosclerosis and metabolic parameters, the study could significantly impact clinical practices by reinforcing the role of home BP monitoring in the early detection and management of cardiovascular risks in hypertensive patients. This could potentially lead to more personalized and effective healthcare strategies, ultimately improving patient outcomes in hypertension management.
+
+Interventions:
+- BEHAVIORAL: Healthscan App. Participants will use the Healthscan mobile application to monitor and record their daily blood pressure at home. The app allows participants to enter their BP measurements, which are then used to calculate blood pressure variability (BPV). The app's use is intended as a non-invasive, practical tool for patient self-management and longitudinal health monitoring in hypertensive individuals.
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+1. Adults aged 19 years or older.
+2. Diagnosed with hypertension.
+3. Regular use of antihypertensive medication for at least two years.
+4. Access to a home blood pressure monitor.
+5. Comprehensive medical records available for the past year.
+
+Exclusion Criteria:
+
+1\. Participants who are unable to consent or who might not reliably use the home monitoring app.
+Minimum Age: 19 Years
+Maximum Age: 
+Sex: ALL
+
+Primary Outcome Measures:
+- Correlation between Home Blood Pressure Variability and Pulse Wave Velocity [Time Frame: 1 year] Measure the strength and nature of the relationship between variability in home-monitored blood pressure and pulse wave velocity, a primary indicator of arteriosclerosis.

@@ -1,0 +1,39 @@
+NCT Number: NCT07599579
+Title: Mobile Health Program for Post-Preeclampsia Hypertension
+Official Title: Multilevel Mobile Health Program to Improve Hypertension Among Midlife Women After Hypertensive Disorder of Pregnancy
+Lead Sponsor: University of Pittsburgh
+Overall Status: RECRUITING
+Start Date: 2026-07-22
+Study Type: INTERVENTIONAL
+Phases: NA
+Enrollment: 50
+Conditions: Hypertension (HTN), Preeclampsia, Hypertensive Disorders of Pregnancy (HDP)
+
+Brief Summary:
+Strategies targeted to optimize hypertension (HTN) control for midlife women after hypertensive disorders of pregnancy (HDP) have not been studied, despite evidence of a critical need. This proposal targets the 10-20 years postpartum as a key time when women have subclinical cardiovascular (CV) sequelae of uncontrolled HTN and are primed for CV prevention interventions. Before proceeding with large-scale intervention trials of a home blood pressure monitoring (HBPM) and coaching intervention following HDP, further pilot testing is necessary. The overarching hypothesis of this proposal is that a new monitoring and treatment paradigm utilizing HBPM combined with a virtual coaching intervention would be better than standard of care for mid-life women with prior HDP who develop HTN. Women will be assigned in an unblinded manner to the intervention or standard of care control group.
+
+Detailed Description:
+
+
+Interventions:
+- BEHAVIORAL: Coaching application. A digital application for providing education and support for home-based blood pressure monitoring.
+- BEHAVIORAL: Home-based blood pressure monitoring. Device for measuring blood pressure at home with blue tooth connectivity for automated collection.
+- OTHER: WebMD. Smartphone-based application for health education and/or monitoring.
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+* Women who had a history of HDP (either gestational HTN or preeclampsia) diagnosed by ACOG guidelines at the time of delivery at Magee-Womens Hospital between 2008 and 2015, thus 10 to 20 years from their index pregnancy complicated by HDP.
+* Evidence of current stage 2 HTN (BP ≥ 140/90 mmHg with or without treatment with antihypertensive medication).
+
+Exclusion Criteria:
+
+* Known clinical CVD (prior myocardial infarction, stroke, heart failure, or peripheral arterial disease).
+* Males will also be excluded from this study as it focuses on pregnancy related conditions.
+* Children will be excluded as the study is only recruiting people who are 10-20 years postpartum.
+Minimum Age: 18 Years
+Maximum Age: 
+Sex: FEMALE
+
+Primary Outcome Measures:
+- Change in systolic blood pressure from baseline to 3 months [Time Frame: Baseline, 3 Months] Change in home-based systolic blood pressure from baseline to 3 months between the intervention and usual care arms.

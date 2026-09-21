@@ -1,0 +1,47 @@
+NCT Number: NCT07369596
+Title: Impact of Chemotherapy Dose Reductions on Survival Outcomes Among Older NSCLC Patients Without Actionable Mutations
+Official Title: Impact of Chemotherapy Dose Reductions on Survival Outcomes Among Older NSCLC Patients Without Actionable Mutations: A Retrospective Cohort Study.
+Lead Sponsor: University of Malaya
+Overall Status: RECRUITING
+Start Date: 2026-01-01
+Study Type: OBSERVATIONAL
+Phases: 
+Enrollment: 150
+Conditions: Non Small Cell Lung Carcinoma NSCLC
+
+Brief Summary:
+Evidence suggests that appropriately selected older adults can tolerate standard-dose chemotherapy and achieve survival outcomes comparable to younger patients. However, older adults are usually under-represented in clinical trials and often receive reduced doses of chemotherapy due to concerns regarding age-related frailty, polypharmacy, and toxicity.
+
+This study seeks to evaluate chemotherapy dosing patterns and associated survival outcomes in older patients.
+
+Detailed Description:
+Lung cancer remains the leading cause of cancer-related mortality globally, responsible for approximately 1.8 million deaths annually. Non-small cell lung cancer (NSCLC) comprises about 85% of all lung cancer cases, with adenocarcinoma (ADC) now the predominant histological subtype. In Malaysia, NSCLC is similarly the most common form of lung cancer, with high proportions of EGFR and ALK mutations in certain subgroups.
+
+Despite the emergence of targeted therapy and immunotherapy, cytotoxic chemotherapy, particularly platinum-based doublets remains the backbone of treatment for many NSCLC patients lacking actionable mutations. These patients often present with advanced disease and limited survival prospects, with median overall survival (OS) of 8- 10 months. These includes older patients with advanced NSCLC and no actionable mutations who depend on chemotherapy for disease control.
+
+Clinical decisions regarding dosing are frequently influenced by perceptions of frailty rather than individual fitness. Evidence suggests that appropriately selected older adults can tolerate standard-dose chemotherapy and achieve survival outcomes comparable to younger patients. However, older adults are usually under-represented in clinical trials and often receive reduced doses of chemotherapy due to concerns regarding age-related frailty, polypharmacy, and toxicity. This raises an important question: does dose reduction compromise survival outcomes in older NSCLC patients?
+
+This study seeks to address this knowledge gap by retrospectively evaluating chemotherapy dosing patterns and associated survival outcomes in older patients treated at three centres in Malaysia: Universiti Malaya Medical Centre (UMMC), Hospital Tengku Ampuan Afzan, Kuantan and Hospital Wanita dan Kanak-kanak, Likas, Sabah and one centre in Hong Kong: Queen Mary Hospital, The University of Hong Kong. It will evaluate whether chemotherapy dose reductions are associated with poorer survival outcomes in older NSCLC patients. It will also assess clinical predictors such as ECOG performance status, BMI, comorbidities, and gender to identify factors influencing treatment tolerance and survival.
+
+Interventions:
+- OTHER: Progression free survival. PFS
+- OTHER: Overall survival. OS
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+* Age ≥65 years
+* Histologically confirmed stage IV NSCLC
+* Negative for EGFR mutation, ALK rearrangement, and ROS1 fusion
+* Treated with at least ONE cycle of first-line chemotherapy
+
+Exclusion Criteria:
+
+* Patients who received targeted therapy or immunotherapy as monotherapy in the first-line setting
+* Incomplete survival data
+Minimum Age: 65 Years
+Maximum Age: 
+Sex: ALL
+
+Primary Outcome Measures:
+- To compare the overall survival (OS) between older NSCLC patients treated with standard-dose versus reduced-dose first-line platinum-doublet chemotherapy OR single agent non-platinum chemotherapy. [Time Frame: From enrollment to the end of study on 31 Dec 2026] 

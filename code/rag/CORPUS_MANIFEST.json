@@ -1,0 +1,516 @@
+{
+  "generated_at": "2026-09-20T17:33:31-0700",
+  "source": "https://clinicaltrials.gov/api/v2/studies",
+  "query": {
+    "query.cond": "diabetes OR lung cancer OR hypertension",
+    "filter.overallStatus": "RECRUITING",
+    "pageSize": 100,
+    "format": "json"
+  },
+  "file_count": 100,
+  "total_bytes": 548872,
+  "smallest_file_bytes": 1933,
+  "largest_file_bytes": 25209,
+  "files": [
+    {
+      "filename": "NCT00471978.txt",
+      "bytes": 2889,
+      "sha256": "05dc734fc98263a04864c30607b98b06ae8f377ce42d72c4b47da777c2ba6789"
+    },
+    {
+      "filename": "NCT00568490.txt",
+      "bytes": 2483,
+      "sha256": "0d83c730d01a5738c13d598a9b50b0137bf6e7f4edb5c3511dbf343f88db31a6"
+    },
+    {
+      "filename": "NCT03340506.txt",
+      "bytes": 2674,
+      "sha256": "addfa0ac0ba6a85350e721dd29b3a23b8fd6eee216ed48b383b6ba290ced7c97"
+    },
+    {
+      "filename": "NCT03463564.txt",
+      "bytes": 3668,
+      "sha256": "04056ddc5f9a057a6b8ddb6a3f0e774cbd643683ea7dfbda8ec29fefd74409be"
+    },
+    {
+      "filename": "NCT03819296.txt",
+      "bytes": 10693,
+      "sha256": "3ed570726e171c5dd0fb17cc447369187f0d6447a9143bd01c19757e9cdf7585"
+    },
+    {
+      "filename": "NCT03827382.txt",
+      "bytes": 6251,
+      "sha256": "48e64ba89c5042e3fb0e5ce404eb20891b6b01da0572308153e89e177a519e8d"
+    },
+    {
+      "filename": "NCT04024631.txt",
+      "bytes": 2654,
+      "sha256": "28317f693f2eaa7eeaeed9a1d11ac4026ecf585b12ce5b5ea87ec83fb6582358"
+    },
+    {
+      "filename": "NCT04316364.txt",
+      "bytes": 3954,
+      "sha256": "1c25a0f821d26528ae426ed9ab605ed2b815e1b3e9e76f49b595d9d1f50a2951"
+    },
+    {
+      "filename": "NCT04342429.txt",
+      "bytes": 2839,
+      "sha256": "8def4522508d3d26f3f0d7055c3c139d2092229de8fa40465db651324c345041"
+    },
+    {
+      "filename": "NCT04789148.txt",
+      "bytes": 3948,
+      "sha256": "f61a6ca8ffe18567ed2b3fc19fd31984a5a20a2da968dcc96dd4d7a4a07feb4b"
+    },
+    {
+      "filename": "NCT04926584.txt",
+      "bytes": 2554,
+      "sha256": "c3980f3c635b06c12fd8c98366e0a933046c946be2a9aa4939150609b8889856"
+    },
+    {
+      "filename": "NCT05005403.txt",
+      "bytes": 7866,
+      "sha256": "f40b9cf5b4e74f5a94e4a52e3671fbc7a6c815299c0b368e30fd7ededf97eca1"
+    },
+    {
+      "filename": "NCT05055908.txt",
+      "bytes": 2537,
+      "sha256": "d9412af7bce0689e437b9f5ba3734ec54b5b0b6acd4c55692c9837cd21e78652"
+    },
+    {
+      "filename": "NCT05104515.txt",
+      "bytes": 6799,
+      "sha256": "8a14c07685b65a20b2d3daef06cda084d405895c56edcc2bf96a4b1d460dfb0c"
+    },
+    {
+      "filename": "NCT05187338.txt",
+      "bytes": 6238,
+      "sha256": "609c6ac25c168163befd8eb51108066268daa749776aa98b2667df5082c98f86"
+    },
+    {
+      "filename": "NCT05252208.txt",
+      "bytes": 4034,
+      "sha256": "7f500dc2a1226806a56185fcad2b8befc36adf58d296c3bf75dec92b40919d22"
+    },
+    {
+      "filename": "NCT05379985.txt",
+      "bytes": 2770,
+      "sha256": "067253ac181fdb4ccc773a07f26fcb2ec893145922be272a67a3c20b92ff5578"
+    },
+    {
+      "filename": "NCT05420051.txt",
+      "bytes": 6790,
+      "sha256": "8ae2ff7a28833a661279562223af44ec0b490fd82e2f2c81d597239640d0693d"
+    },
+    {
+      "filename": "NCT05477979.txt",
+      "bytes": 7251,
+      "sha256": "c7bcf4ed5c58060214119c51b5afd3ab8a7998fb7a2f15b0e0a0f432e6f95511"
+    },
+    {
+      "filename": "NCT05487534.txt",
+      "bytes": 5276,
+      "sha256": "89f3f483511ecb348f20d2f6095fa7b49b5c0d25553f095a84c4609bfd51ced4"
+    },
+    {
+      "filename": "NCT05540704.txt",
+      "bytes": 6536,
+      "sha256": "8e917926acb3aa16cd3c1480e68ad8bd0fce70bf670598d1f04a1a502aaab237"
+    },
+    {
+      "filename": "NCT05626426.txt",
+      "bytes": 4391,
+      "sha256": "9b6ac272204f845e4ef0b284d082a261517a9d595770f6d9d805b4ae7de22583"
+    },
+    {
+      "filename": "NCT05633810.txt",
+      "bytes": 6816,
+      "sha256": "f195974941bb6dce22b454c6e239fee1a32f04bd6b61763b9c68bbb80cc56946"
+    },
+    {
+      "filename": "NCT05704920.txt",
+      "bytes": 3418,
+      "sha256": "db79d2f679277d1df09694ecb91b27fa091ceba4f8812a6fafd6c2767d119cae"
+    },
+    {
+      "filename": "NCT05706129.txt",
+      "bytes": 10538,
+      "sha256": "46fbb7cd2ef166f1f96482cc8bd7a294b49120f242f94a0f540335ae1914a52a"
+    },
+    {
+      "filename": "NCT05822609.txt",
+      "bytes": 5413,
+      "sha256": "685cbfc890f946659e2ed978f668fa097c582d0f7046c3c318025b1fcff1411b"
+    },
+    {
+      "filename": "NCT05826925.txt",
+      "bytes": 3580,
+      "sha256": "8c7fb59cd02132ab97fae45e5027b1789f856fb403ebb8bef8e613194a1ac866"
+    },
+    {
+      "filename": "NCT05902988.txt",
+      "bytes": 5010,
+      "sha256": "dee5fd2cbbd81397b454f1bcb75b87488b761cad6bcc91d6ed5cab9405095ec0"
+    },
+    {
+      "filename": "NCT05913089.txt",
+      "bytes": 5553,
+      "sha256": "507eceefd80261e639375ef1d44e493694f03c78fa02f580f3916daf7f45b521"
+    },
+    {
+      "filename": "NCT05979818.txt",
+      "bytes": 14223,
+      "sha256": "fddc4d9658588325228c4b5d613767560c20e791d4ec3a359acf58194b2052db"
+    },
+    {
+      "filename": "NCT05991193.txt",
+      "bytes": 1982,
+      "sha256": "fda33074faa401e1dfb51827ce388873a32c278e34969ec47df9033524c2495a"
+    },
+    {
+      "filename": "NCT06040541.txt",
+      "bytes": 2504,
+      "sha256": "5072141d0c02a5e3f6fb764b426daabfc29778f8ad730f766c2a712d4539eb30"
+    },
+    {
+      "filename": "NCT06160921.txt",
+      "bytes": 2310,
+      "sha256": "3c0501d4acaa30e939a5c42e6fce52682fc0bfdc9e6b0c2d3c7fe97c0aa70511"
+    },
+    {
+      "filename": "NCT06169033.txt",
+      "bytes": 1933,
+      "sha256": "a5cf10dc34896a2cabd7c287681efc5ee7c49e8cf4b9e311053096eab4707868"
+    },
+    {
+      "filename": "NCT06192693.txt",
+      "bytes": 6868,
+      "sha256": "4d9f71ccb7c35128ac530ffb32cae540927dd76d81b4d3c2e91b767aeb27009b"
+    },
+    {
+      "filename": "NCT06281678.txt",
+      "bytes": 2818,
+      "sha256": "a9d002c708b17f4a39626f01a68a2eb9a6e654216cda60b3986d6b885c45891f"
+    },
+    {
+      "filename": "NCT06287736.txt",
+      "bytes": 3850,
+      "sha256": "8329ac40c8e051c5cf954f07432e82ad3b0f2ae02b1448ef68c8ab89be44edb2"
+    },
+    {
+      "filename": "NCT06323538.txt",
+      "bytes": 5808,
+      "sha256": "f45f800f68dccfcc43368d57e9aacfd49756d2a355efe62d53f5c5d9beeccaad"
+    },
+    {
+      "filename": "NCT06326957.txt",
+      "bytes": 5246,
+      "sha256": "94481452d5c88d2248c3b2382563498b0e74a53957dcbe5644894f425f7f6c81"
+    },
+    {
+      "filename": "NCT06331208.txt",
+      "bytes": 8217,
+      "sha256": "1e446916af777f66fb35f2c6001b94e42b0ac78a3732bc281da40efdad759e78"
+    },
+    {
+      "filename": "NCT06394934.txt",
+      "bytes": 4572,
+      "sha256": "7fb371f6da6c9c72af82d21c1fbf3c1f43fcea558ba6ba038a085f151c77accf"
+    },
+    {
+      "filename": "NCT06423690.txt",
+      "bytes": 3920,
+      "sha256": "60b1c02cbd24b70f7ef54e177cbb3e57f07135a6cbfdd470585637460d9058a9"
+    },
+    {
+      "filename": "NCT06496048.txt",
+      "bytes": 9072,
+      "sha256": "965d62407f3c00a5bac6969eb941eea3141ef41176c895f572d6a5f3a8f90875"
+    },
+    {
+      "filename": "NCT06518915.txt",
+      "bytes": 5309,
+      "sha256": "f2532d662d8aba82aa33cf895cd122923882fc5e22ee2df69e935a1ab2116dd8"
+    },
+    {
+      "filename": "NCT06561685.txt",
+      "bytes": 5985,
+      "sha256": "90e881254707ebc3109f564529a48f259142c8842d5b8b88a80b59168b39b440"
+    },
+    {
+      "filename": "NCT06572540.txt",
+      "bytes": 4138,
+      "sha256": "bbb3c8d388d8767182587d5be17102f2274bc0a1beac09b4f2de2e7eea2af3f6"
+    },
+    {
+      "filename": "NCT06579950.txt",
+      "bytes": 6131,
+      "sha256": "9146eb9e2afd5b90451f5ecbd2ffd5e1e1d0de57933ed9cab6bfd148b3585956"
+    },
+    {
+      "filename": "NCT06639191.txt",
+      "bytes": 8256,
+      "sha256": "ee4e999883d129df1edcd0c77c37353ab0aeb4489653c34f3057fedaecc0fc05"
+    },
+    {
+      "filename": "NCT06642246.txt",
+      "bytes": 5376,
+      "sha256": "b5a6dd11dd01d60f7ea8965c6bd6f0a6cf8cf4961d2266fab9e162c713248bd3"
+    },
+    {
+      "filename": "NCT06646471.txt",
+      "bytes": 4400,
+      "sha256": "e0e47151a095fc4d20ceefc3a27ad7c3706766eba36066ae26e513fbd9361de3"
+    },
+    {
+      "filename": "NCT06667908.txt",
+      "bytes": 4093,
+      "sha256": "8c10f076c12ba379a3c0394fd9b14232cb2fcd7c944a2db2ca35b9cbb3fdbabc"
+    },
+    {
+      "filename": "NCT06670625.txt",
+      "bytes": 8778,
+      "sha256": "773f7544a1c9e780a30b8677e0bb1ef9695224362fe4a2b8498823f0afdc97e1"
+    },
+    {
+      "filename": "NCT06683391.txt",
+      "bytes": 4665,
+      "sha256": "f9c3db71a952e5d34951c891e28bf95e1b255356a86b062db2c6bf08df3046b1"
+    },
+    {
+      "filename": "NCT06687941.txt",
+      "bytes": 3426,
+      "sha256": "0cc93bb2de617ae311c6a0bc7cf96a1cb531820a8237df5e34db56aaec27bbfe"
+    },
+    {
+      "filename": "NCT06688461.txt",
+      "bytes": 4804,
+      "sha256": "898366a2ec709cd06a46d91dd15af5a01430639f544c72d6c00204f2331577af"
+    },
+    {
+      "filename": "NCT06702826.txt",
+      "bytes": 8764,
+      "sha256": "6b1647ef4c7ce8d19a850c845e029da065aecf9e28ba7ed0158125bbc35a4603"
+    },
+    {
+      "filename": "NCT06728852.txt",
+      "bytes": 7837,
+      "sha256": "790515059f411792cfc3266dcb611385da19f02cb31e8a7827609b356ff5ba73"
+    },
+    {
+      "filename": "NCT06735391.txt",
+      "bytes": 5982,
+      "sha256": "feea5ac693d892ecaaab28f2bbc4d8d8cbcb388ef2893933f82d26a1caf247f5"
+    },
+    {
+      "filename": "NCT06739135.txt",
+      "bytes": 25209,
+      "sha256": "a870101f6013cee87075e0054fa3c88a283822a93e1d681c0227dc3c619bce01"
+    },
+    {
+      "filename": "NCT06805786.txt",
+      "bytes": 4308,
+      "sha256": "91e0dbe04e80ab6eb8b1b9e6f4ffb34cfb1dce5595f813d1318b28176aa24a49"
+    },
+    {
+      "filename": "NCT06835569.txt",
+      "bytes": 3291,
+      "sha256": "f2cdaa726e0d504a347639d62c86c03c03e2c3c44cbccf0b46ba1332d5d7c382"
+    },
+    {
+      "filename": "NCT06862180.txt",
+      "bytes": 10959,
+      "sha256": "ded7a14798333f82034744ad07207d189fe753930266801fc5d3204f06ccf59e"
+    },
+    {
+      "filename": "NCT06875193.txt",
+      "bytes": 4206,
+      "sha256": "cd985003472340182e11f83c1814452a2e31e5663c43b15157e0d150280dc8df"
+    },
+    {
+      "filename": "NCT06878274.txt",
+      "bytes": 3007,
+      "sha256": "749fd9b100e6782c54daad8e87735e96d8e8dd1cc2ddeffe72b9e5684c10d3a8"
+    },
+    {
+      "filename": "NCT06881082.txt",
+      "bytes": 4167,
+      "sha256": "c8523f0df093e3b943328eee56eb34935e9c96769631bece3fb56c000f8b1a09"
+    },
+    {
+      "filename": "NCT06923774.txt",
+      "bytes": 2775,
+      "sha256": "cf5b80e1709972439d5ac568dea8a5c0f8706a40601057ab72c90acdb722583f"
+    },
+    {
+      "filename": "NCT06937203.txt",
+      "bytes": 3389,
+      "sha256": "4f81cdbf41021be0865f96ba32b6d8713ed301f7da5dde22b102c0985df4b991"
+    },
+    {
+      "filename": "NCT06984133.txt",
+      "bytes": 3687,
+      "sha256": "a4729cb4560da54575368fa44369d0687df633d8b78d5cb927978fb517916d3b"
+    },
+    {
+      "filename": "NCT06989216.txt",
+      "bytes": 6438,
+      "sha256": "dcf87a4b2cef7ae43aaf0cd85dfcb90e743f1cae3a8c7a79aa50a0b515f5b38e"
+    },
+    {
+      "filename": "NCT07000214.txt",
+      "bytes": 7572,
+      "sha256": "121101e477a0878d99fc17921a4a04165dd1ad39e30ab7d7b90330879fe8bef9"
+    },
+    {
+      "filename": "NCT07003321.txt",
+      "bytes": 2360,
+      "sha256": "0033b09b09689a163fcea04d2ac0042aa358f3672f612d041175704755abcb7d"
+    },
+    {
+      "filename": "NCT07096258.txt",
+      "bytes": 2016,
+      "sha256": "b7a5496c7b39c9d47f58fba2d92f27748acf9109f0513a59d7c2947738d61d00"
+    },
+    {
+      "filename": "NCT07111221.txt",
+      "bytes": 4718,
+      "sha256": "8ee2b6b756eed6dc664d88829f768f5fd4c70f1ea79d4ef4a1a6df29b8b71329"
+    },
+    {
+      "filename": "NCT07155187.txt",
+      "bytes": 5123,
+      "sha256": "0d0d914bb72a336965847823210be5c8c1ab28b5efa6d63b33198518560b8823"
+    },
+    {
+      "filename": "NCT07159282.txt",
+      "bytes": 4460,
+      "sha256": "4c44fde335bf729b763491b61ec7a39cee5b014aa41c485135c5647dd5d6eba9"
+    },
+    {
+      "filename": "NCT07163975.txt",
+      "bytes": 7239,
+      "sha256": "d9947d7bc84c25cabb6e260ba87114299f5fe80a5a796a26f1774bb49b9c6fa8"
+    },
+    {
+      "filename": "NCT07209410.txt",
+      "bytes": 3417,
+      "sha256": "6bc8247ef863a2ab3f285677cc829b5232c7545f7679bd3d8a3bf93d55d7a50c"
+    },
+    {
+      "filename": "NCT07224152.txt",
+      "bytes": 5618,
+      "sha256": "a56b188ce3ef9dc49f046b09fe27c634bedcdd2929b71ac2dc1c680d4f6b4146"
+    },
+    {
+      "filename": "NCT07229729.txt",
+      "bytes": 2742,
+      "sha256": "bda175aeb06eaf18555247210386c1ffcd207b424ad111b63ac3f12e820a133f"
+    },
+    {
+      "filename": "NCT07244835.txt",
+      "bytes": 4633,
+      "sha256": "5b3e3875814f71c325f7519eccfb5e4b966a439c579733bbdab16ca0f0f7917b"
+    },
+    {
+      "filename": "NCT07296484.txt",
+      "bytes": 10013,
+      "sha256": "43af655cdbedf6fde8beacc5a897dc2a3d84af2fa2aec2cb3f47e04bc60a8e08"
+    },
+    {
+      "filename": "NCT07344701.txt",
+      "bytes": 10195,
+      "sha256": "173de6dd45d0be8810a866082b2471324d4e39144cb390536f573ed6d711a7a3"
+    },
+    {
+      "filename": "NCT07356817.txt",
+      "bytes": 7972,
+      "sha256": "9f7993a91e2865909e0138402024b1ddf6bf4ee1b0f840cb34c9547ddf6fefd9"
+    },
+    {
+      "filename": "NCT07369596.txt",
+      "bytes": 3976,
+      "sha256": "152debe47062df654ab6a673530ccdb3efa4d9a61899f376de4041a261331152"
+    },
+    {
+      "filename": "NCT07446179.txt",
+      "bytes": 3587,
+      "sha256": "865e75f645e29df8c172558a66976fcec88dfe9195f1d0347441274ef9b38148"
+    },
+    {
+      "filename": "NCT07465848.txt",
+      "bytes": 3651,
+      "sha256": "a58504a5a88297a939eab4bc087f07203ad275e11a59184a134dbe2a10ffe6bc"
+    },
+    {
+      "filename": "NCT07468188.txt",
+      "bytes": 2937,
+      "sha256": "a1ba1a29a86f576b1c1d5007709c3d483bef28b1879f00541a272a5937b59a44"
+    },
+    {
+      "filename": "NCT07477249.txt",
+      "bytes": 2689,
+      "sha256": "d1a1b6afd0dac6e08d0f17d89f36431c01ae50cbf5350d837d6776eb7174a5a1"
+    },
+    {
+      "filename": "NCT07504055.txt",
+      "bytes": 8912,
+      "sha256": "3dc2815577cbc7e49efe26ed3b400cf000993d6a95058c4a040b18cd0c755401"
+    },
+    {
+      "filename": "NCT07522866.txt",
+      "bytes": 4534,
+      "sha256": "9bc6b27bc91836d4a44b4d5db5e8dd556ce6bb2cb63075169a38f77581f2d633"
+    },
+    {
+      "filename": "NCT07556497.txt",
+      "bytes": 4382,
+      "sha256": "82e55a26c0a94e92be40a318ec0831d3a9200be1f42f5057148680fdfc891915"
+    },
+    {
+      "filename": "NCT07588438.txt",
+      "bytes": 10227,
+      "sha256": "d1d9a6e0eade81a91157055e7602e4e41d645eb4fa2be2cf9b94926ba24c71cd"
+    },
+    {
+      "filename": "NCT07599579.txt",
+      "bytes": 2779,
+      "sha256": "d224e1046b755a1083d810d5f9c38be7851a56a612334cb6bd2fd03133a105ca"
+    },
+    {
+      "filename": "NCT07608055.txt",
+      "bytes": 3865,
+      "sha256": "2d05061271919cce690f4d3d284925921f80d5cc44f04c6961b35ff9c40f6e79"
+    },
+    {
+      "filename": "NCT07623525.txt",
+      "bytes": 10930,
+      "sha256": "a78485e6cd5f69d0cd1626fef052a9cf561aef120fc1e9eb9ab8a7c069240701"
+    },
+    {
+      "filename": "NCT07739121.txt",
+      "bytes": 5119,
+      "sha256": "9ac54b6a079818c4b6363b813e040d848447375343b3619eca4a22acb3beae4a"
+    },
+    {
+      "filename": "NCT07749586.txt",
+      "bytes": 6701,
+      "sha256": "4d4476f3e7f5c32078decf17c22deb5128407058481c916d06da75c31bdcb1dd"
+    },
+    {
+      "filename": "NCT07758582.txt",
+      "bytes": 2149,
+      "sha256": "f7a147049590bf0cc530a11a0a2f48bb5ef6c67539a9c5982c65bc74d0c6d1ae"
+    },
+    {
+      "filename": "NCT07768865.txt",
+      "bytes": 8491,
+      "sha256": "27b09f8a7c4a9c6f7ddbab4dc71838f231ab2425475d4c31f985a030dabc1d20"
+    },
+    {
+      "filename": "NCT07817329.txt",
+      "bytes": 7739,
+      "sha256": "bb8b26aa747ded999352bf3c2fd8d96e4eb81133a6158ee4a996473f1be727b3"
+    }
+  ]
+}

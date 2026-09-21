@@ -1,0 +1,104 @@
+NCT Number: NCT05706129
+Title: A Study to Assess Safety, Tolerability and Imaging Characteristics of [68Ga]Ga-DPI-4452 and to Assess Safety, Tolerability, and Efficacy of [177Lu]Lu-DPI-4452 in Participants With Unresectable Locally Advanced or Metastatic Solid Tumors
+Official Title: A Multicenter, Open-Label, Non-Randomized Phase 1/2 Study to Assess Safety, Tolerability and Imaging Characteristics of [68Ga]Ga-DPI-4452 and to Assess Safety, Tolerability, and Efficacy of [177Lu]Lu-DPI-4452 in Patients With Unresectable Locally Advanced or Metastatic Solid Tumors
+Lead Sponsor: Lumara Bio Oncologics GmbH
+Overall Status: RECRUITING
+Start Date: 2023-03-14
+Study Type: INTERVENTIONAL
+Phases: PHASE1, PHASE2
+Enrollment: 270
+Conditions: Clear Cell Renal Cell Cancer (ccRCC), Pancreatic Ductal Adenocarcinoma (PDAC), Colorectal Cancer (CRC), Urothelial Carcinoma (UC), Indeterminate Renal Mass (IDRM), Muscle Invasive Bladder Cancer (MIBC), Head and Neck Cancer (H&N), Triple Negative Breast Cancer (TNBC), Squamous Non-Small Cell Lung Cancer (NSCLC)
+
+Brief Summary:
+The main purpose of Part A of the study is to evaluate safety, tolerability and tracer uptake after a single intravenous (IV) administration of \[68Ga\]Ga-DPI-4452 for each tumor type such as clear cell renal cell cancer (ccRCC), pancreatic ductal adenocarcinoma (PDAC), and colorectal cancer (CRC); Part B: is to determine the recommended phase 2 dose (RP2D) \[maximum tolerated dose (MTD) or lower dose\] for \[177Lu\]Lu-DPI-4452 for each tumor type such as ccRCC, PDAC, CRC, and urothelial carcinoma (UC); Part C: is to evaluate the preliminary antitumor activity of \[177Lu\]Lu-DPI-4452 as monotherapy for each tumor type such as ccRCC, PDAC, CRC, and UC; Part D: is to assess the diagnostic concordance between \[68Ga\]Ga-DPI-4452 Positron Emission Tomography (PET) and the histopathology result of the Indeterminate Renal Mass (IDRM); Part E: is to assess \[68Ga\]Ga-DPI-4452 uptake in each tumour type such as UC, muscle invasive bladder cancer (MIBC), head and neck cancer (H\&N), triple negative breast cancer (TNBC), squamous non-small cell lung cancer (NSCLC), and any other tumor with locally confirmed carbonic anhydrase (CA) IX expression except ccRCC, CRC and PDAC.
+
+Detailed Description:
+
+
+Interventions:
+- DRUG: [68Ga]Ga-DPI-4452. \[68Ga\]Ga-DPI-4452, administered as IV injection.
+- DRUG: [177Lu]Lu-DPI-4452. \[177Lu\]Lu-DPI-4452, administered as IV infusion.
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+Part A, B, and C:
+
+* Written informed consent, dated and signed by the patient prior to any study-specific procedure.
+* Part B and C are not conducted in the United States of America.
+* Has histologically or cytologically confirmed, unresectable locally advanced or metastatic solid tumors of:
+* Clear cell renal cell cancer (ccRCC) - participants must have received at least one line containing Tyrosine kinase inhibitor (TKI) treatment and at least one line containing immune checkpoint inhibitor treatment in metastatic setting, meaning at least two lines of treatment in metastatic setting.
+* Pancreatic ductal adenocarcinoma (PDAC) - participants must have received at least one line of platinum- and/or gemcitabine-based regimen.
+* Colorectal cancer (CRC) - participants must have received at least one line of FOLFIRINOX or FOLFOX/FOLFIRI in two lines in combination with anti-Vascular Endothelial Growth Factor (VEGF) or anti-Epidermal Growth Factor Receptor (EGFR).
+* Participants with CRC or PDAC: availability of fresh biopsy, OR an archival biopsy/surgical specimen of the tumor (preferably, taken after last prior line of therapy).
+* For Part B and C only: Urothelial cancer (UC) patients must have received all available standard of care if eligible, including one line of platinum-based chemotherapy, enfortumab vedotin and pembrolizumab.
+* Presence of at least 1 non-irradiated tumor lesion detected at conventional imaging (computed tomography / magnetic resonance imaging (CT/MRI)) documented within 4 weeks prior to the \[68Ga\]Ga-DPI-4452 administration.
+* Measurable disease per response evaluation criteria in solid tumors (RECIST) v1.1.
+
+Part D:
+
+Participants with imaging evidence of a single indeterminate renal mass (IDRM) of ≤ 7 cm in largest diameter (tumor stage cT1) on any conventional diagnostic imaging technique, suspicious for ccRCC and planned for total or partial nephrectomy, or interventional diagnostic (cystoscopy and retrograde pyelography or biopsy) within 90 days from planned \[68Ga\]Ga-DPI-4452 administration.
+
+Part E:
+
+Regardless of lines of treatment, participants with histologically or cytologically confirmed progressive, unresectable locally advanced or metastatic solid tumors of
+
+* UC, including MIBC
+* H\&N cancer
+* TNBC
+* Squamous NSCLC
+* Any other indication with confirmed carbonic anhydrase IX (CA IX) expression excluding ccRCC, PDAC and CRC, upon Sponsor agreement.
+
+Presence of at least 1 non-irradiated tumor lesion detected at conventional imaging (CT/MRI) documented within 4 weeks prior to the \[68Ga\]Ga-DPI-4452 administration (for scans dated more than 4 weeks prior to D1, the Sponsor should be contacted to assess conventional imaging suitability)
+
+Exclusion Criteria:
+
+* Any major surgery within 12 weeks before enrolment.
+* Inability to stay in the scanner bed with the arms resting out of the thoracic and abdominal fields (i.e., arms alongside the body or raised arm position) for the duration of the scan.
+
+Part A:
+
+* Has known hypersensitivity to the active substance, to any of the excipients of the DPI-4452, or to radiographic contrast agents.
+* Bladder outflow obstruction or unmanageable urinary incontinence.
+* Participants who have not had resolution of clinically significant toxic effects of prior systemic cancer therapy, surgery, or radiotherapy to Grade ≤1 (except for laboratory parameters specified above, Grade 2 alopecia, and/or stable Grade 2 sensory neuropathy, according to National Cancer Institute Common Terminology Criteria for Adverse Events \[NCI-CTCAE\]).
+* Administration of a radiopharmaceutical within a period corresponding to 10 half-lives of the radionuclide used prior to injection of \[68Ga\]Ga-DPI-4452.
+* Previous Carbonic anhydrase (CA) IX-targeting treatment.
+* Prior external beam radiation therapy (EBRT) to more than 25% of the bone marrow, as judged by the Investigator.
+
+Part B and Part C:
+
+* Known hypersensitivity to the active substance, to any of the excipients of the DPI-4452, or to radiographic contrast agents.
+* Bladder outflow obstruction or unmanageable urinary incontinence.
+* Participants who have not had resolution of clinically significant toxic effects of prior systemic cancer therapy, surgery, active clinically significant cardiac disease, or radiotherapy to Grade ≤1 (except for laboratory parameters specified above, Grade 2 alopecia, or stable Grade 2 sensory neuropathy, according to NCI-CTCAE).
+* Administration of a radiopharmaceutical with therapeutic intent within a period of 6 months prior to injection of \[68Ga\]Ga-DPI-4452.
+* Any previous CA IX-targeting treatment for non-oncological indication within 3 months prior to the \[177Lu\]Lu-DPI-4452 infusion; any previous CA IX-targeting treatment for any oncological indication.
+* Participants who received any systemic antineoplastic therapy for the underlying disease and/or other investigational agents within a period which is ≤5 half-lives or ≤4 weeks (whichever is shorter).
+* Inflammatory bowel disease (e.g Crohn's disease, ulcerative colitis, etc).
+
+Part D:
+
+* Known hypersensitivity to the active substance, to any of the excipients of the DPI-4452, or to radiographic contrast agents.
+* Any previous CA IX-targeting treatment within 3 months prior to the \[68Ga\]Ga-DPI-4452 injection.
+* Administration of a radiopharmaceutical within a period corresponding to 10 half-lives of the radionuclide used prior to injection of \[68Ga\]Ga-DPI-4452.
+* Malignant disease, other than that being treated in this study. Exceptions include the following: malignancies that were treated curatively and have not recurred within 2 years prior to screening; treated basal cell or localized squamous skin carcinomas, localized or low grade (e.g., Gleason 3+3 or 3+4 with low prostate specific antigen) prostate cancer, superficial (non-muscle invasive) urothelial cancer, localized thyroid gland microcarcinoma, other in-situ carcinoma, or other malignancy for which participants are not on active antineoplastic therapy.
+* Ongoing treatment with sulfonamides and/or coumarin derivatives (e.g., acenocoumarol, warfarin, phenprocoumon) within 2 weeks (or 5 half-lives, whichever is longer) prior to the \[68Ga\]Ga-DPI-4452 injection.
+
+Part E:
+
+* Known hypersensitivity to the active substance, to any of the excipients of the DPI-4452, or to radiographic contrast agents.
+* Administration of a radiopharmaceutical within a period corresponding to 10 half-lives of the radionuclide used prior to injection of \[68Ga\]Ga-DPI-4452.
+* Any previous CA IX-targeting treatment within 3 months prior to \[68Ga\]Ga-DPI-4452 injection.
+* EBRT to more than 25% of the bone marrow, as judged by the Investigator.
+* Malignant disease, other than that being treated in this study. Exceptions include the following: malignancies that were treated curatively and have not recurred within 2 years prior to screening; treated basal cell or localized squamous skin carcinomas, localized or low grade (e.g., Gleason 3+3 or 3+4 with low prostate specific antigen) prostate cancer, superficial (non-muscle invasive) urothelial cancer, localized thyroid gland microcarcinoma, other in-situ carcinoma, or other malignancy for which participants are not on active antineoplastic therapy.
+
+Note: Other inclusion/exclusion criteria mentioned in the protocol may apply.
+Minimum Age: 18 Years
+Maximum Age: 
+Sex: ALL
+
+Primary Outcome Measures:
+- Part A: Number of Participants With Treatment-Emergent Adverse Events (TEAEs) and Serious Adverse Events (SAEs) [Time Frame: Up to Day 7] 
+- Part B: Number of Participants Experiencing Dose-Limiting Toxicities (DLTs) [Time Frame: Cycle 1(each cycle = 28 or 42 days depending on every 4 weeks or 6 weeks dosing schedule)] 
+- Part C: Objective Response Rate (ORR) [Time Frame: Up to 81 months] 
+- Part D: Concordance Between [68Ga]Ga-DPI-4452 Uptake by PET Imaging and Assessment of Histological Characteristics of IDRM [Time Frame: Day 1] 
+- Part E: Radiotracer Uptake at Lesion Level Identified by PET Imaging [Time Frame: Day 1] 

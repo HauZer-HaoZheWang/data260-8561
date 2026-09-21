@@ -1,0 +1,55 @@
+NCT Number: NCT07000214
+Title: Peripheral Magnetic Stimulation With Balance Training to Decrease Fall Risks in Diabetic Polyneuropathy
+Official Title: Peripheral Magnetic Stimulation With Balance Training to Decrease Fall Risks in Older Patients With Diabetic Polyneuropathy
+Lead Sponsor: Queen Savang Vadhana Memorial Hospital, Thailand
+Overall Status: RECRUITING
+Start Date: 2025-06-10
+Study Type: INTERVENTIONAL
+Phases: PHASE2
+Enrollment: 40
+Conditions: Diabetic Polyneuropathy
+
+Brief Summary:
+This study aims to determine whether peripheral magnetic stimulation (PMS) during balance training in patients with diabetic polyneuropathy reduces fall risk, as measured by balance tests, and lessens disease severity compared to balance training with sham stimulation.
+
+This proof-of-concept study will utilize the Magnetic and Balance Training Activator (MAGBATA), a platform mounted with a magnetic stimulation coil that delivers electromagnetic pulses directly to the plantar surfaces of the feet while patients stand. A racetrack coil (RT-120), connected to the MagPro X100 magnetic stimulator with MagOption (MagVenture, Farum, Denmark), will be used. Parameters for the repetitive peripheral magnetic stimulation (rPMS) protocol will be configured to facilitate sensory input, enhance brain plasticity, and promote axonal regeneration.
+
+Detailed Description:
+This single-center randomized controlled trial will use a two-group parallel design and include 40 patients with diabetic polyneuropathy who meet the eligibility criteria. Participants will be randomly assigned to either the active intervention group or the control group.
+
+The active intervention group will receive a warm-up exercise consisting of 25 repetitions of ankle dorsiflexion with concurrent 10 Hz rPMS applied to the tibialis anterior of each leg. Following the warm-up, participants will stand on the MAGBATA platform and perform 20 cycles of one-leg stance exercises under the supervision of a physiotherapist. Each cycle lasts 20 seconds and consists of 3 seconds of 20 Hz rPMS applied to the plantar surface of the foot while the participant stands on one leg, followed by 12 seconds of rest during which the participant stands on both legs. The same sequence will then be repeated for the other leg. Stimulation intensity will be determined prior to the warm-up. The coil will be placed over the tibialis anterior to determine the minimal contraction threshold (MCT), defined as the lowest intensity that produces a visible contraction. The stimulation intensity will be set at 110% of the MCT for the warm-up exercise and 120% for the treatment during balance exercises.
+
+The control group will receive the same procedure, but with sham stimulation during both the warm-up and one-leg stance phases.
+
+The intervention will consist of 8 sessions, conducted twice per week with at least one day of rest between sessions. Outcome assessments include one-leg stance test (OLST) with eyes open, timed up and go test (TUGT), and short physical performance battery (SPPB); these assessments will be conducted at baseline and after the 4-week intervention. Additionally, a rehabilitation physician, blinded to group allocation, will perform electrophysiologic studies at baseline and week 8 to assess disease severity. These studies will include bilateral measurements of sural nerve amplitude and conduction velocity, tibial compound motor action potential (CMAP) amplitude and conduction velocity, and tibial F-wave latency.
+
+Interventions:
+- DEVICE: Peripheral magnetic stimulation. During the warm-up exercise, 10-Hz rPMS will be applied to the tibialis anterior with an on-time of 4 seconds (40 pulses per train), followed by an off-time (inter-train interval) of 8 seconds, for a total of 25 trains for each leg. During the one-leg stance exercise, 20-Hz rPMS will be applied to the plantar surface of the standing foot for 3 seconds of on-time (60 pulses per train), followed by 12 seconds of off-time, for a total of 20 trains for each foot. Stimulation intensity will be set at 110% of MCT for the warm-up exercise and 120% of MCT for the treatment during the one-leg stance exercise.
+- BEHAVIORAL: Balance training. The warm-up exercise consists of 25 repetitions of 4-second active contractions of the tibialis anterior muscle in each leg while seated. Following the warm-up, participants will stand on the MAGBATA platform and perform 20 cycles of one-leg stance exercises under the supervision of a physiotherapist. Each cycle lasts 20 seconds, consisting of 3 seconds of one-leg stance while the other leg is raised about 10 centimeters above the ground, followed by 12 seconds of rest during which the participant stands on both legs, keeping their arms close to their body and hands free. The same sequence will then be repeated for the other leg. To prevent falling, participants will wear a safety belt around the waist, allowing the physiotherapist to assist if they lose balance. Participants will also be allowed to grab the walker positioned in front of them to prevent falling.
+- OTHER: Sham stimulation. During the warm-up exercise, the stimulation coil will be placed perpendicular to the participants' shin. The same parameter settings will be used, except for the intensity, which will be set at 30% of the maximum stimulator output (MSO). Sham stimulation during the one-leg stance exercise is achieved by disconnecting the coil mounted in MAGBATA and placing an alternate coil, connected to the magnetic stimulator placed behind the participants so they can hear a clicking pattern similar to that of the rPMS-BT arm.
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+* Diabetes mellitus type 2 with any symptoms of distal polyneuropathy, including numbness, paresthesia, dysesthesia, or lower leg weakness.
+* Abnormal 10g monofilament test.
+* Abnormal one-leg stance test (OLST) with eyes open.
+
+Exclusion Criteria:
+
+* Chronic foot ulceration.
+* Severe leg or foot pain not controllable with medications or other interventions.
+* Significant foot deformity, including severe pes cavus, severe claw toe, or toe amputation.
+* Body mass index (BMI) over 35 kg/m².
+* Visual acuity less than 20/100 after correction with glasses or contact lenses.
+* Postural instability or coordination disorders resulting from musculoskeletal, vestibular, or central nervous system conditions.
+* Symptoms such as confusion, drowsiness, dizziness, or a high risk of falls due to any disease or recent medication changes within a two-week period.
+* Presence of cardiac pacemaker, knee prosthesis, or metal implants in the lower legs.
+* Inability to walk or stand for at least 5 minutes.
+* Inability to understand, comprehend, or follow instructions required to conduct the study, or to provide informed consent.
+Minimum Age: 50 Years
+Maximum Age: 75 Years
+Sex: ALL
+
+Primary Outcome Measures:
+- One-leg standing balance test (OLST) [Time Frame: From enrollment to the end of treatment (week 4).] Participants stand on the floor with their eyes open and arms relaxed at the sides of the body. They are instructed to lift the opposite foot off the floor, flex the knee to 90 degrees, and position the lifted foot behind the body, maintaining balance on the tested leg for as long as possible. The assessor begins timing when the participant's foot leaves the floor and stops timing if the participant sways, extends either arm to maintain balance, or successfully holds the position for 30 seconds. The test is then repeated on the opposite leg. The durations from each legs are reported in seconds.

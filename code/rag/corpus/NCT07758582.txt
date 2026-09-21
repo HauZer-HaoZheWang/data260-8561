@@ -1,0 +1,36 @@
+NCT Number: NCT07758582
+Title: Validation of the Artificial Intelligence Subsystem of the DDART Medical Device for the Automated Detection of Lesions Compatible With Diabetic Retinopathy in a Random Sample of Retinal Fundus Photographs
+Official Title: Validation of the Artificial Intelligence Subsystem of the DDART Medical Device for the Automated Detection of Lesions Compatible With Diabetic Retinopathy in a Random Sample of Retinal Fundus Photographs
+Lead Sponsor: Democritus University of Thrace
+Overall Status: RECRUITING
+Start Date: 2026-05-21
+Study Type: OBSERVATIONAL
+Phases: 
+Enrollment: 2000
+Conditions: Diabetic Retinopathy
+
+Brief Summary:
+To validate the artificial intelligence subsystem of the DDART medical device for the automated detection of lesions compatible with diabetic retinopathy in a random sample of retinal fundus photographs.
+
+Secondary Objectives To determine the sensitivity and specificity of the artificial intelligence subsystem for the detection of diabetic retinopathy.
+
+To estimate the overall diagnostic accuracy and the area under the receiver operating characteristic (ROC) curve (AUC).
+
+To compare the performance of the algorithm with that of experienced ophthalmologists.
+
+To evaluate the ability of the model to distinguish between different stages of disease severity
+
+Detailed Description:
+
+
+Interventions:
+- DIAGNOSTIC_TEST: Color retinal fundus photograph. Diagnostic Test: color fundus photograph Description: Color retinal fundus photographs will be acquired from: Digital non-mydriatic fundus cameras.
+
+Eligibility Criteria:
+Inclusion Criteria Age ≥18 years Availability of a high-resolution color fundus photograph Confirmed diagnosis established by an ophthalmology specialist Exclusion Criteria Poor-quality retinal images Concomitant ocular diseases that interfere with image interpretation
+Minimum Age: 18 Years
+Maximum Age: 
+Sex: ALL
+
+Primary Outcome Measures:
+- Validation the artificial intelligence subsystem of the DDART medical device for the automated detection of lesions compatible with diabetic retinopathy in a random sample of retinal fundus photographs. [Time Frame: 1 year] 

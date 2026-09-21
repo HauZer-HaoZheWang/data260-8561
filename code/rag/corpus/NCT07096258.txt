@@ -1,0 +1,36 @@
+NCT Number: NCT07096258
+Title: EMPATHY NSCLC: European Registry for Plasma-Based Molecular Profiling in Advanced NSCLC Patients
+Official Title: A Patient Registry Collecting the Clinical and Molecular Profiling Data of Patients With Locally Advanced and/or Metastatic, Unresectable, Stages IIIB/C or IV Non-small Cell Lung Cancer (NSCLC), Who Have Not Previously Been Treated for This Advanced Disease and Are Therefore Considered as Patients Receiving First-line Therapy.
+Lead Sponsor: Hedera Dx SA
+Overall Status: RECRUITING
+Start Date: 2024-06-01
+Study Type: OBSERVATIONAL
+Phases: 
+Enrollment: 1000
+Conditions: NSCLC (Advanced Non-small Cell Lung Cancer)
+
+Brief Summary:
+The goal of this registry is to capture real-world data from plasma- and tissue-based molecular profiling, treatments, outcomes and patient-reported outcomes from patients with advanced or metastatic non-small cell lung cancer (NSCLC). The main objective of the study is to better understand the real-world clinical practice of the use and utility of molecular tumour profiling, the choice of treatment, and the outcome after such molecular profiling and treatment.
+
+Detailed Description:
+
+
+Interventions:
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+* Locally advanced or metastatic, unresectable NSCLC, stages IIIB/C or IV, who have not previously been treated for this advanced disease.
+* Intention-to-initiate first-line tumour therapy for this advanced disease.
+* Eastern Cooperative Oncology Group (ECOG) performance status ≤ 2.
+* At least 18 years of age on the day of signing informed consent, and capable of signing informed consent.
+
+Exclusion Criteria:
+
+* Any known non-cutaneous malignancy (except for this NSCLC and early-stage non-invasive cervical cancer) that has occurred within 5 years prior to enrolment.
+Minimum Age: 18 Years
+Maximum Age: 
+Sex: ALL
+
+Primary Outcome Measures:
+- Actionable biomarkers [Time Frame: At baseline] Proportion of patients with successful molecular profiling and detectable actionable biomarkers

@@ -1,0 +1,56 @@
+NCT Number: NCT05704920
+Title: Integrating Artificial Intelligence Into Lung Cancer Screening.
+Official Title: A Randomized Controlled Study of Including a Deep Learning-based Analysis of Chest Computed Tomography as an Aid to Decision Making of Multidisciplinary Team Meetings for Lung Cancer Screening in Eligible Patients
+Lead Sponsor: Centre Hospitalier Universitaire de Nice
+Overall Status: RECRUITING
+Start Date: 2024-04-08
+Study Type: INTERVENTIONAL
+Phases: NA
+Enrollment: 2722
+Conditions: Lung Cancer
+
+Brief Summary:
+Lung cancer (LC) screening using low-dose chest CT (LDCT) has already proven its efficacy.
+
+The mortality reduction associated with LC screening is around 20%, much higher than the reduction in mortality associated with screening for breast, colon or prostate cancers.
+
+Implementing lung cancer screening on a large scale faces two main obstacles:
+
+1. The lack of thoracic radiologists and LDCT necessary for the eligible population (between 1.6 and 2.2 million people in France);
+2. The high frequency of false positive screenings: in the NLST trial, more than 20% of the subjects screened were found to have at least one nodule of an indeterminate lung nodule (ILN) whereas less than 3% of ILNs are actually LC.
+
+The gold standard for determining on the benign or malignant nature of a nodule is definitive histology. Otherwise, the evolution of the nodule on serial thoracic imaging is a good alternative. The period of indeterminacy of a nodule can be as long as 24 months in many cases, which can be a source of prolonged and sometimes unjustified anxiety for screening candidates.
+
+The purpose of this randomized controlled study that focuses on LC screening in patients aged 50 to 80 years, who smoked more than 20 packs/ year or stopped smoking less than 15 years ago. Its objective is to determine whether assisting multidisciplinary team (MDT) meetings with an AI-based analysis of screening LDCT accelerates the definitive classification of nodules into malignant or benign.
+
+Detailed Description:
+
+
+Interventions:
+- OTHER: IA. The multidisciplinary team meeting discussion is informed of the AI-based analysis of their chest computed tomography
+- OTHER: Not IA. The multidisciplinary team meeting discussion is not informed of the AI-based analysis of their chest computed tomography
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+* Age between 50 and 80 years old
+* active smoker or ex-smoker who quit smoking less than 15 years ago
+* smoking history of at least 20 pack-years
+* signature of the informed consent
+* affiliation to French social security
+
+Exclusion Criteria:
+
+* clinical signs suggestive of cancer
+* recent chest scan (\<1 year) for another cause
+* radiological abnormality requiring follow-up or additional investigations
+* health problem significantly limiting life expectancy from the clinician's point of view
+* health problem limiting ability or willingness to undergo lung surgery
+* Patients with active neoplasia, except basal cell carcinoma of the skin.
+* vulnerable people: adults under guardianship, adults under curatorship medical and/or psychiatric problems of sufficient severity to limit full adherence to the study or expose patients to excessive risk
+Minimum Age: 18 Years
+Maximum Age: 80 Years
+Sex: ALL
+
+Primary Outcome Measures:
+- Diagnosis of lung disease [Time Frame: At 3 years] Elapsed time between lung nodule discovery and MDT decision making.

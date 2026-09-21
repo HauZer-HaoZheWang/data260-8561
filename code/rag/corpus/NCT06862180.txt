@@ -1,0 +1,96 @@
+NCT Number: NCT06862180
+Title: Effect of Meal Replacement Therapy on Glucose Control and Metabolic Parameters in Patients With Uncontrolled Diabetes
+Official Title: The Effect of Meal Replacement Therapy on Glucose Control and Other Metabolic Parameters in Patients With Uncontrolled Type 2 Diabetes on Oral Hypoglycemic Agents: A Randomized Controlled Trial
+Lead Sponsor: Hospital Universiti Sains Malaysia
+Overall Status: RECRUITING
+Start Date: 2024-11-01
+Study Type: INTERVENTIONAL
+Phases: NA
+Enrollment: 108
+Conditions: Diabetes Mellitus, Type 2
+
+Brief Summary:
+To evaluate the effect of meal replacement therapy on glucose control and other metabolic parameters in patients with uncontrolled type 2 diabetes.
+
+Methodology:
+
+This is an open-label, prospective, randomized control trial study. Study duration. August 2023 - March 2026. Study location. This study will be conducted at the Klinik Rawatan Keluarga and diabetes clinic Hospital Universiti Sains Malaysia.
+
+Source Reference :
+
+People with type 2 diabetes mellitus attending the Hospital Universiti Sains Malaysia.
+
+Study source population :
+
+People with type 2 diabetes mellitus attended Klinik Rawatan Keluarga and diabetes clinic Hospital Universiti Sains Malaysia during the study period.
+
+Detailed Description:
+General objective To determine the effect of Contro Eazy NOW (CEN) as meal replacement therapy on HbA1c, fasting plasma glucose, fasting lipid profile, body mass index (BMI) and body composition in patients with uncontrolled type 2 diabetes on oral hypoglycemic agents vs control group.
+
+Hypotheses
+
+1. There are significant improvement in HbA1c over a 12-week period between type 2 diabetes mellitus patients taking meal replacement Contro Eazy Now vs the control group (between-group).
+2. There are significant improvement in HbA1c among type 2 diabetes mellitus patients at baselines and 12-week after taking meal replacement Contro Eazy Now (within-group).
+3. There are significant improvements in fasting plasma glucose, fasting lipid profile, body mass index (BMI), blood pressure body composition (muscle mass(kg), fat mass (kg), fat percentage (%) and diabetes quality of life over 12-weeks between type 2 diabetes mellitus patients taking meal replacement Contro Eazy Now vs control group (between-group).
+4. There are significant improvements in fasting plasma glucose, fasting lipid profile, body mass index (BMI), blood pressure, body composition (muscle mass(kg), fat mass (kg), fat percentage (%) and diabetes quality of life at baselines and 12-week after taking meal replacement Contro Eazy Now? (within-group).
+
+Study procedure Participants will be recruited from KRK. Potential participants will be identified from the case notes of patients or being referred by the medical officers in charge. Participants will be screened to determine their eligibility criteria. Those who are willing to participate in this study will be given information regarding the study. Informed consent will be obtained. Their latest blood result within the last 3 months will be checked such as hemoglobin A1c (HbA1c), Liver function test (LFT), renal function test (RFT). If there is no blood result within the last 3 months, blood will be taken and sent to the private lab.
+
+If all the inclusion criteria are fulfilled, they will be given an appointment for the next visit for recruitment. During recruitment, the participants' socio-demographic data will be collected, and the medical record will be assessed to fill in their medical and diabetes profiles. They will also answer the Diabetes Quality of Life (Rv-DQoL) questionnaire. The physical examination includes measurement of height, weight, calculated Body Mass Index (BMI), body composition (muscle mass, fat mass and fat percentage) and blood pressure during sitting will be done. Blood taking 8ml of fasting venous blood will be taken for measurement of hemoglobin A1c (HbA1c), fasting blood sugar(FBS), full blood count(FBC), renal function test(RFT), liver function test(LFT) and fasting lipid profile(FLP) as a baseline.
+
+All participants were advised not to consume any special supplement or other replacement meal throughout the study. They then will be given an appointment date for visit 2 for randomization.
+
+During visit 2, The participants will be randomized to either intervention or control group. Both groups will receive diet consultation and dietary assessment using a 24-hour diet recall form from the dietitian in the study team at the Dietetic Clinic, Hospital USM. Those in the intervention group will receive diet consultation and meal replacement therapy (Contro Eazy Now (CEN)). The control group will get a diet consultation.
+
+The participants will be seen 6 weeks after taking the product. During this visit, they will be assessed for any side effects or adverse events and compliance with meal replacement product (food record form). Blood pressure, weight, height, calculated Body Mass Index (BMI) and body composition (muscle mass, fat mass and fat percentage) also will be measured. Supply of Contro Eazy Now (CEN) will be given for another 6 weeks for the intervention group. For the control group, blood pressure, weight, height, calculated Body Mass Index (BMI) and body composition (muscle mass, fat mass and fat percentage) also will be measured.
+
+Lastly, the participants will be assessed in week 12. During this visit, the same measurement will be taken as visit 1, including answering the Diabetes Quality of Life (Rv-DQoL) Questionnaires. Adverse events and compliance will be assessed. Blood taking 8ml of fasting venous blood same as baseline will be taken for measurement of HbA1c, FBS, FBC, RFT, LFT and FLP.
+
+The duration for visit 1 and visit 4 (at 12 weeks) is about 50-60 minutes for each visit since it will involve blood taking procedure. Duration for visit 2 and 3 (at 6 weeks) is about 30 minutes since it will not involve blood taking.
+
+Meal replacement arm group. At baseline, both the meal replacement and control group will receive diet consultation from a research Dietician. On top of that, the MR group will receive a meal replacement product (Contro Eazy Now) to replace one meal daily for 5 days a week. Participants in the MR group then will be briefed about meal replacement therapy using Contro Eazy Now (CEN) covering its benefits (on glucose control, weight, body composition and quality of life), dosage, method of preparation and suggested meal replacement time. The meal replacement time suggested by the Dietitian must be agreed by participants first, to allow good compliance with meal replacement therapy.
+
+The duration of the intervention will be 12 weeks. All participants are required to return to the clinic in the 6th and 12th week for a post-intervention assessment. Dietary compliance towards advice on diabetic diet and meal replacement therapy given at baseline will be assessed on the 6th and 12th week intervention in 30 minutes follow up session.
+
+Control group Participants will receive one session of dietary consultation at baseline. The 45 to 60 minutes session will be conducted on a one-on-one basis by a research Dietitian. The dietary consultation session mirrors usual/standard practice for diabetes patients at Dietetic Clinic Hospital USM, including topics on calorie intake and carbohydrate requirements, carbohydrate food sources, carbohydrate exchange counting, sucrose intake, fat intake, Healthy Food Plate Malaysia, physical activity recommendation, and individualised menu plan.
+
+Upon completion of the dietary consultation session, participants in the control group will be advised to continue their daily lives and routine medical care without extra intervention.
+
+They will be given a 24-hour diet record form to record the 24-hour diet recall before coming in for follow-up at 6-week and 12-week.
+
+The duration of the intervention will be 12-weeks, the same as MR group. Dietary compliance advice on diabetic diet given at baseline FRF will be assessed on the 6th and 12th week.
+
+Follow up There will be two follow-ups during this study. 1st follow-up will be on the 6th week and 2nd follow-up (final follow-up) will be during 12th week of the study.
+
+During the 6th week follow-up, participants will be checked for their weight, height, calculated Body Mass Index (BMI), body composition and Compliance Form, any adverse effect will be documented and collect the balance of six-weeks supplements. During this visit also the participants will be asked to bring their Food Record Form, and the researcher will check the form before handing over the balance of 6-weeks MR product.
+
+A final visit (12th week) to the clinic will be conducted on the 12th week. During these visits, assessment of the outcome measures will be carried out to determine the effect of meal replacement interventions.
+
+Interventions:
+- OTHER: Meal replacement therapy. A serving of Contro Eazy Now is equivalent to 5 scoops (50g) contains 26.5g of carbohydrate, 10g of protein and 8.9g of fat. It supplies 215kcal of energy per serving
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+1. Patients between ≥ 30 to ≤ 65 years old
+2. Diagnosed as having type 2 diabetes mellitus base on CPG Malaysia Clinical Practice Guidelines (CPG) for Type 2 Diabetes Mellitus (T2DM) 6th edition 2020.
+3. On oral hypoglycaemic agent(s)
+4. HbA1c 7- 10 % (result 3 months from the date of recruitment)
+5. Agree not to take other beverages, herbal or nutritional supplements for the duration of the study.
+
+Exclusion Criteria:
+
+1. Severe diabetic complication(s) including end-stage renal disease and proliferative retinopathy.
+2. Pregnancy or plan to get pregnant during the study period
+3. Newly diagnosed diabetic less than 3 months from the date of recruitment
+4. Currently involve in any weight loss program
+5. Currently consuming any meal replacement product
+6. Patients with chronic kidney disease with eGFR ≤ 25 ml/min.
+7. Patients with advanced liver disease, such as non-alcoholic steatohepatitis (NASH) with significant fibrosis (e.g., liver stiffness measurement \> 9.5 kPa by FibroScan) or cirrhosis.
+8. Patients with significantly elevated liver enzymes (e.g., ALT or AST ≥ 3 times the upper limit of normal), which may indicate more severe liver damage.
+Minimum Age: 30 Years
+Maximum Age: 65 Years
+Sex: ALL
+
+Primary Outcome Measures:
+- To compare changes and differences of HbA1c over a 12-week period in patients with uncontrolled type 2 diabetes on oral hypoglycemic agents on meal replacement vs control group. [Time Frame: 12 weeks] The HbA1c test reflects the average blood glucose levels by measuring the percentage of glycated hemoglobin (hemoglobin bound with glucose) and is an important indicator of long term blood sugar control. The HbA1c results are reported as a percentage (%) of glycated hemoglobin. The target HbA1C level for most diabetic individuals is typically below 7% to reduce the risk of diabetes-related complications.

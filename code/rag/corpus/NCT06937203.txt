@@ -1,0 +1,46 @@
+NCT Number: NCT06937203
+Title: A First-In-Human Study of ARO-ALK7 in Adults With Obesity With and Without Type 2 Diabetes Mellitus
+Official Title: A Phase 1/2A Dose-Escalating Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of ARO-ALK7 in Adult Volunteers With Obesity With and Without Type 2 Diabetes Mellitus
+Lead Sponsor: Arrowhead Pharmaceuticals
+Overall Status: RECRUITING
+Start Date: 2025-05-09
+Study Type: INTERVENTIONAL
+Phases: PHASE1, PHASE2
+Enrollment: 150
+Conditions: Obesity, Diabetes Mellitus, Type 2
+
+Brief Summary:
+This is a Phase 1/2a double-blind dose-escalating study to evaluate the safety, tolerability, pharmacokinetics (PK), and pharmacodynamics (PD) of single and multiple doses of ARO-ALK7 in adult participants with obesity without Type 2 Diabetes Mellitus (T2DM) (Part 1), and the safety, tolerability, and PD of multiple doses of ARO-ALK7 in adult participants with obesity with and without T2DM, either as monotherapy or in combination with tirzepatide (Part 2).
+
+Detailed Description:
+
+
+Interventions:
+- DRUG: ARO-ALK7. Subcutaneous (SC) injection
+- DRUG: Placebo. calculated volume to match active treatment by SC injection
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+* Obesity, defined as body mass index (BMI) between 30-50 kilograms (kg)/square meter (m\^2), inclusive, with weight at Screening not to exceed 159 kg (350 pounds \[lbs\])
+* At least one self-reported, unsuccessful attempt at weight loss with lifestyle modification
+* No abnormal finding of clinical relevance at Screening that could adversely impact participant safety during the study or adversely impact study results
+* Female participants of childbearing potential must agree to use highly effective contraception and male participants with female partners of childbearing potential must agree to use a condom during the study and for at least 90 days following the end of the study or last dose of study drug, whichever is later. Participants must not donate sperm or eggs during the study for at least 90 days following the end of the study or last dose of study drug, whichever is later
+
+Exclusion Criteria:
+
+* Self-reported (or documented) weight gain or loss \>5% within 3 months prior to Screening
+* Use of glucagon-like peptide-1 receptor agonist (GLP-1RAs) (liraglutide, semaglutide, etc.) for any indication within 6 months prior to Screening
+* Use of non-GLP-1R medications for weight loss within 3 months prior to Screening, including but not limited to naltrexone/bupropion, orlistat, phentermine/topiramate, and other prescription or over-the-counter medication or supplement taken for weight loss purposes
+* Obesity attributable primarily in the Investigator's opinion to medication use, monogenic or endocrinologic disorders (other than polycystic ovary syndrome)
+* History of prior surgical or device-based therapy for obesity (including endoscopic bariatric procedures)
+* Use of medications or therapies strongly associated with weight gain, alterations in body composition, or increase in muscle mass, within 3 months prior to Screening
+* Type 1 diabetes mellitus
+
+Note: Additional inclusion/exclusion criteria may apply per protocol.
+Minimum Age: 18 Years
+Maximum Age: 65 Years
+Sex: ALL
+
+Primary Outcome Measures:
+- Number of Participants with Treatment-Emergent Adverse Events (TEAEs) [Time Frame: Up to Day 253 End of Study (EOS)] 

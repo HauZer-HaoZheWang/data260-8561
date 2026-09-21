@@ -1,0 +1,40 @@
+NCT Number: NCT06923774
+Title: European Real-World Registry for Use of the Ion Endoluminal System
+Official Title: A European Multi-Center, Prospective, Single-Arm, Observational Study to Evaluate Real-World Outcomes for the Ion Endoluminal System
+Lead Sponsor: Intuitive Surgical
+Overall Status: RECRUITING
+Start Date: 2025-09-09
+Study Type: OBSERVATIONAL
+Phases: 
+Enrollment: 1200
+Conditions: Pulmonary Nodule, Lung Cancer
+
+Brief Summary:
+The objective of this study is to collect collect real-world data for the Ion endoluminal system.
+
+Detailed Description:
+This is a prospective, observational, multi-center, single-arm study to collect real-world data evaluating procedural characteristics and short- and long-term clinical outcomes following the use of the CE-marked Ion endoluminal system for elective lung nodule biopsies and/or localization procedures. It is a post-market study using the device per the approved indications. All patients will be enrolled per the protocol eligibility criteria. Enrollment for this study will conclude when approximately 1,200 patients have had a nodule biopsy and/or localization procedure attempted or performed.
+
+Interventions:
+- DEVICE: Ion endoluminal system. Lung nodule biopsy and/or localization procedure using the Ion endoluminal system per sites' standard of care
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+* Patient is aged 18 years or older at time of consent.
+* Patient is planned to undergo a lung lesion biopsy(s) and/or localization procedure(s) utilizing the Ion endoluminal system.
+* Patient is willing and able to give written informed consent for clinical study participation.
+
+Exclusion Criteria:
+
+* Patient is participating in an interventional research study or research study with investigational agents with an unknown safety profile that would interfere with participation in this study or study results.
+* Female patient that is pregnant or breast feeding as determined by standard site practices.
+* Patient is legally incapacitated or in a legal/court ordered institution or is part of a known vulnerable population, including but not limited to dependency on the sponsor, hospital or study doctor.
+* Patient is not willing to comply with post-procedure study participation requirements.
+* Investigator, in their professional opinion, has decided that it is in the patient's best interest to not participate in the clinical study.
+Minimum Age: 18 Years
+Maximum Age: 
+Sex: ALL
+
+Primary Outcome Measures:
+- Diagnostic Yield [Time Frame: Intra-procedure through 24 month post-procedure] Diagnostic Yield defined as the sum of true positives and true negatives divided by the total number of nodules biopsied. Primary outcome analyses will exclude subjects that are enrolled for localization procedure only.

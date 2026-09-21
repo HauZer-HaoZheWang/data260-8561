@@ -1,0 +1,65 @@
+NCT Number: NCT04789148
+Title: Effects of Intranasal Oxytocin in Patients With Arginine-vasopressin Deficiency
+Official Title: Effects of Intranasal Oxytocin in Patients With Arginine-vasopressin Deficiency - A Pilot Study
+Lead Sponsor: Elizabeth Austen Lawson
+Overall Status: RECRUITING
+Start Date: 2025-09-10
+Study Type: INTERVENTIONAL
+Phases: PHASE1
+Enrollment: 40
+Conditions: Vasopressin Deficiency
+
+Brief Summary:
+This is a randomized, double-blind, placebo-controlled crossover pilot study of single-dose intranasal oxytocin (6 IU and 24 IU) vs. placebo in adult men and women (aged 18 years and above) with arginine-vasopressin deficiency to evaluate the effect of oxytocin on anxiety, depression, and socioemotional functioning (Part A), with an optional randomized, double-blind, placebo-controlled 2-week repeated dose substudy of intranasal oxytocin 6 IU or placebo (Part B).
+
+Following a screening visit to determine eligibility, participants will return for three main study visits in Part A. During the main study visits, study participants will receive either oxytocin or placebo, followed by assessments of emotional behavior.
+
+In Part A, thirty participants will be equally randomized to one of six possible groups:
+
+1. 6 IU oxytocin - 24 IU oxytocin - placebo
+2. 6 IU oxytocin - placebo - 24 IU oxytocin
+3. 24 IU oxytocin - 6 IU oxytocin - placebo
+4. 24 IU oxytocin - placebo - 6 IU oxytocin
+5. placebo - 6 IU oxytocin - 24 IU oxytocin
+6. placebo - 24 IU oxytocin - 6 IU oxytocin
+
+Following completion of the Part A crossover portion of the study, in Part B participants may also choose to continue participation in an optional, randomized, double-blind, placebo-controlled substudy of intranasal oxytocin 6 IU or placebo three times a day for two weeks, followed by assessments of emotional behavior.
+
+Detailed Description:
+
+
+Interventions:
+- DRUG: Intranasal Oxytocin (IN-OXT). 6 IU single dose
+- DRUG: Intranasal Oxytocin (IN-OXT). IN-OXT 6 IU three times a day for 2 weeks
+- DRUG: Placebo. Intranasal placebo three times a day for 2 weeks
+- DRUG: Intranasal Oxytocin (IN-OXT). 24 IU single dose
+- DRUG: Placebo. placebo single dose
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+* Age 18 and above
+* Arginine-vasopressin deficiency
+* Normal FT4 or T4
+* Normal serum/plasma sodium
+* Stable hormone replacement
+
+Exclusion Criteria:
+
+* Active substance use disorder within the last 6 months
+* History of psychosis
+* Suicidal behavior and/or active suicidal ideation with plan and/or intent, e.g., suicidal ideation of type 4 or type 5 as assessed by the Columbia Suicide Severity Rating Scale (C-SSRS), in the last month
+* Medication changes within 4 weeks of enrollment or planned medication changes during the study
+* History of chronic nasal obstruction or local pathology in nostril pathway which, in the opinion of the investigator, would prevent appropriate nasal administration of the study drug.
+* History of cardiac disease, including arrhythmias, coronary heart disease, coronary artery spasms, valvular heart disease, hypertrophic cardiomyopathy (hypertension is not exclusionary)
+* History of chronic kidney disease stage III and above
+* History of liver cirrhosis
+* Pregnancy or breastfeeding within the last 8 weeks
+* Unwilling to use a medically acceptable form of contraception throughout the study period (female of child-bearing potential only)
+* Any significant illness, condition, drug or medical device that the Investigator determines could interfere with study participation, data collection, or safety
+Minimum Age: 18 Years
+Maximum Age: 
+Sex: ALL
+
+Primary Outcome Measures:
+- Dot-probe task - anxious behavior between low dose oxytocin and placebo [Time Frame: 20 minutes following intervention at each main visit] Difference in response times (in milliseconds) to dots appearing in the location of the previously shown negative versus the neutral face between 6 IU oxytocin vs placebo in the dot-probe task.

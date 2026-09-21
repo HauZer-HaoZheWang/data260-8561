@@ -1,0 +1,67 @@
+NCT Number: NCT05540704
+Title: Study Comparing Acceptance and Commitment Therapy to Supportive Diabetes Counseling and a Waitlist Control for Eating Disorders in Type 1 Diabetes
+Official Title: Changing the T1DE (Type 1 Diabetes Eating Disorders): A Randomized Controlled Trial Comparing Acceptance and Commitment Therapy (ACT) to Supportive Diabetes Counseling and a Waitlist Control
+Lead Sponsor: Duke University
+Overall Status: RECRUITING
+Start Date: 2023-04-04
+Study Type: INTERVENTIONAL
+Phases: NA
+Enrollment: 235
+Conditions: Type 1 Diabetes, Eating Disorders, Disordered Eating Behaviors, Purging (Eating Disorders), Binge-Eating Disorder
+
+Brief Summary:
+The goal of this clinical trial is to test whether a new intervention works to treat eating disorders in type 1 diabetes. Participants are assigned to one of the following: (1) Acceptance and Commitment Therapy (ACT), (2) Supportive Diabetes Counseling, or (3) a 6-month Waitlist Control. Participants in the ACT and Supportive Diabetes Counseling conditions complete 12 sessions over 12-16 weeks and use their mobile phone between sessions to increase engagement and reinforce learning.
+
+The main questions are:
+
+Does treatment improve glycemic levels, eating disorder symptoms, diabetes management and diabetes distress?
+
+Does one treatment do better than the other?
+
+How do the treatments work, if they work, and for whom?
+
+Participants complete assessments that include wearing a continuous glucose sensor and activity watch, and get a blood draw to determine HbA1c. They also complete diagnostic interviews, surveys and computer tests of attention and things like heart rate and reaction time. These assessments help us better understand the types of changes that are happening and how they might influence health and well-being.
+
+Detailed Description:
+This is a randomized controlled trial comparing an Acceptance and Commitment Therapy (ACT) protocol to supportive diabetes counseling (SDC) and a Waitlist Control (WLC) for individuals with type 1 diabetes and disordered eating (or T1DE). Both active conditions are tailored to the needs of individuals living with T1D and the unique conditions under which the eating disorder developed and is maintained. Participants will be 161 individuals with T1D, between the ages of 16-50, with binge-purge eating disorders (EDs), including threshold and subthreshold bulimia nervosa, binge eating disorder and purging disorder. Purging includes restriction of insulin for weight loss. An expansion cohort of 74 persons with T1D and elevated Diabetes Eating Problems Survey-Revised scores (DEPS-R=\>20) will also be recruited to assess the utility of the treatments for a broader array of eating and weight control problems in T1D. Participants will be randomized to either ACT, SDC, or a WLC and complete assessments at baseline, mid-treatment, end-of-treatment, and at 1 month, 3 months, and 6 months post-treatment. The primary outcome of interest for power and sample size calculation is blood glucose levels (mean and % time in target glycemic range) as assessed by continuous glucose monitoring. Other outcomes include change in hemoglobin A1c (HbA1c), eating disorder symptoms, diabetes self-management and, secondary, diabetes distress. In addition to examining clinical outcomes, this study tests biobehavioral mechanisms of change and predictors of treatment response. Process of change assessments focus on flexible responding to pathology-relevant stimuli and early improvement in glycemic control affecting executive function. The primary site is Duke University Medical Center. The Miriam Hospital is a secondary site.
+
+Interventions:
+- BEHAVIORAL: ACT. Treatment is based on Acceptance and Commitment Therapy (ACT), a contemporary cognitive behavioral therapy (CBT) that improves human functioning and adaptability by increasing psychological flexibility. Individual therapy sessions are paired with mobile phone delivered interventions.
+- BEHAVIORAL: Supportive Diabetes Counseling. Counseling with a diabetes educator knowledgeable about disordered eating in type 1 diabetes. Intervention focuses on supportive listening, diabetes-related education, including management problems and goal setting.
+
+Eligibility Criteria:
+Primary Cohort
+
+Inclusion Criteria:
+
+* 16-50 years of age
+* Diagnosis of Type 1 diabetes
+* Eating disorder characterized by binge eating and/or problematic weight control behaviors, including withholding insulin (Bulimia Nervosa, Binge Eating and Purging Disorder spectrum diagnoses)
+* Independently manages diabetes (not reliant on a caregiver)
+
+Expansion Cohort
+
+Inclusion Criteria:
+
+* 16-50 years of age
+* Diagnosis of Type 1 diabetes
+* DEPR-R score \>=20 but does not meet criteria for the primary cohort
+
+Primary and Expansion Cohort
+
+Exclusion Criteria:
+
+* Active suicidal ideation
+* Diagnosis of Avoidant Restrictive Food Intake Disorder or Anorexia Nervosa spectrum diagnoses
+* Hypoglycemic unawareness as assessed by the Gold Method and multiple severe episodes of hypoglycemia requiring 3rd party assistance in the last 2 years
+* Current substance abuse disorder or current or past psychotic disorder
+* NonEnglish speaking
+Minimum Age: 16 Years
+Maximum Age: 50 Years
+Sex: ALL
+
+Primary Outcome Measures:
+- Change in glycemic control as indexed by continuous glucose monitoring (CGM) [Time Frame: baseline, 6 weeks, 12 weeks, 36 weeks] CGM indices of time in target glycemic range, mean blood sugar, frequency of Level 1 and 2 hyperglycemia and blood glucose variability
+- Change in eating disorder symptoms as indexed by the Diabetes Eating Problems Survey-Revised (DEPS-R) [Time Frame: baseline, 12 weeks, 16 weeks, 24 weeks, 36 weeks] Severity of eating and body image concerns, frequency of engagement in maladaptive eating and weight control behaviors, specifically in the context of diabetes. Scores range from 0-80, with higher scores indicating greater symptom severity (worse outcome).
+- Change in diabetes self-management as indexed by the Diabetes Self-Management Questionnaire [Time Frame: baseline, 12 weeks, 16 weeks, 24 weeks, 36 weeks] Engagement in activities necessary to manage diabetes, including checking blood sugar and administering insulin. Scores range from 0-10 with higher scores indicating better self-management.
+- Change in glycemic control as indexed by hemoglobin A1c (HbA1c) [Time Frame: baseline, 24 weeks, 36 weeks] Glycated hemoglobin (percentage of red blood cells that are glycated providing an estimate of average blood glucose over 3 months)

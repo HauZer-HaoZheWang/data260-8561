@@ -1,0 +1,95 @@
+NCT Number: NCT07817329
+Title: NUT Project: Nutritional Support in Thoracic Oncology
+Official Title: NUT Project: Nutritional Support in Thoracic Oncology
+Lead Sponsor: Casa di Cura Dott. Pederzoli
+Overall Status: RECRUITING
+Start Date: 2026-10
+Study Type: OBSERVATIONAL
+Phases: 
+Enrollment: 100
+Conditions: Oncologic Diseases, Lung Cancer (NSCLC)
+
+Brief Summary:
+monitoring of the patient's nutritional status from diagnosis ensuring a dietetic-nutritional intervention throughout the treatment process
+
+Detailed Description:
+During the first visit, a nutritional screening test such as the Nutritional Risk Screening 2002 (NRS-2002) will be performed, which represents one of the main internationally validated screening tools (recommended by ESPEN and SINPE) for the risk of malnutrition. The test considers both the nutritional status and the degree of severity of the underlying pathology.
+
+The final score (Total Score) is the sum of three parameters:
+
+1. Nutritional Status: Assessed by percentage of weight loss, decline in dietary income, and BMI. (Score from 0 to 3).
+2. Severity of the Pathology: Evaluated according to the increased metabolic requirement linked to the disease (e.g. surgery, COPD, tumors, intensive care). (Score from 0 to 3).
+3. Age: For patients \>70 years of age, a point is added.
+
+Based on the final score:
+
+* patients with a score \< 3 (low nutritional risk) will receive simple nutritional advice from the oncologist on the correct management of their diet during treatment.
+* patients with score ≥ 3 (high nutritional risk) will be enrolled, after signing the informed consent, and subjected to a dietary - nutritional assessment as per clinical practice.
+
+This nutritional dietary assessment is composed of:
+
+1. Use of GLIM criteria for the diagnosis of malnutrition
+
+   The patient will then be assessed according to the GLIM (Global Leadership Initiative on Malnutrition) criteria, which are the international standard for the diagnosis and classification of malnutrition in adults. They are based on a two-stage process:
+
+   Initial screening: Identifies the risk of malnutrition using validated tools (NRS2002 test) Diagnosis: Requires the presence of at least one phenotypic criterion and one etiological criterion.
+
+   The Three Phenotypic Criteria serve to define the severity of malnutrition and are:
+   * Unintentional weight loss: Quantified based on the percentage of weight lost over time.
+   * Low Body Mass Index (BMI) based on age-specific thresholds.
+   * Reduced muscle mass: Assessed by body composition tests (e.g. BIA or DXA) or anthropometric measurements.
+
+   The Two Etiological Criteria serve to guide the therapeutic path and are:
+   * Reduced food intake or absorption: Intake of a smaller amount than estimated nutritional needs.
+   * Inflammation or presence of pathologies: acute, chronic conditions (e.g. tumors, inflammatory diseases) or trauma that increase catabolism Based on the extent of the phenotypic criteria, it is then possible to establish the severity (stage 1 or stage 2) of malnutrition.
+2. Nutrition data collections
+3. Completion of questionnaires for data collection on health-related quality of life and oncology fatigue data (EORTC -QLQ-C30; EQ-5D-5L; FACIT-F)
+
+This nutritional dietary assessment will be performed, in addition to the diagnosis (Time 0,) also at the following times:
+
+* after 3-4 months i.e. at the first re-evaluation of restaging (time 1)
+* after 6-8 months i.e. at the second re-evaluation of restaging (time 2)
+* after 12 months i.e. at the third re-evaluation of restaging and one year after diagnosis (time 3) 3) These longitudinal reassessments will allow us to describe the impact of nutritional support on quality of life over time.
+
+Between one evaluation and the next, patients with screening ≥ 3 taken into care, as per clinical practice, from a dietary-nutritional point of view, will receive a personalized intervention on a regular basis (approximately every 30-50 days) that can make use of counseling and/or diet therapy and/or nutritional support (use of Oral Nutritional Supplement, enteral nutrition, parenteral nutrition). The study therefore also aims to monitor the frequency and type of nutritional intervention performed (nutritional counseling and/or diet therapy and/or nutritional support) and their correlation with other variables collected as per clinical practice.
+
+Following the enlistment phase (2 years), subjects will be observed for a total duration of 1 year at the end of which a second year is foreseen for the analysis and drafting of the results. Patients will be evaluated through a follow-up visit as per clinical practice, and those who have completed follow-up at the hospital will be contacted by telephone for a telematic data update.
+
+Interventions:
+- OTHER: nutritional status. During the first visit, a nutritional screening test such as the Nutritional Risk Screening 2002 (NRS-2002) will be performed, which represents one of the main internationally validated screening tools (recommended by ESPEN and SINPE) for the risk of malnutrition. The test considers both the nutritional status and the degree of severity of the underlying pathology.
+
+Based on the final score:
+
+* patients with a score \< 3 will receive simple nutritional advice from the oncologist on the correct management of their diet during treatment.
+* patients with score ≥ 3 will be enrolled, after signing the informed consent, and subjected to a dietary - nutritional assessment as per clinical practice.
+
+This nutritional dietary assessment is composed of:
+
+1. Use of GLIM criteria for the diagnosis of malnutrition
+2. Nutrition data collections
+3. Completion of questionnaires for data collection on health-related quality of life and data on oncological fatigue
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+* Men and women aged ≥ 18 years,
+* Diagnosis of advanced/metastatic non-small cell and small cell lung cancer candidates for first-line treatment of thoracic cancer
+* High nutritional risk according to NRS2002 screening test (score ≥3)
+* Nutritional assessment and care at the center
+* Sign Informed Consent
+
+Exclusion Criteria:
+
+* Lack of availability of information regarding anamnestic data,
+* Failure to sign informed consent
+Minimum Age: 18 Years
+Maximum Age: 
+Sex: ALL
+
+Primary Outcome Measures:
+- Describe the impact of dietary intervention and/or nutritional support on the nutritional status of patients during antiblastic treatments in terms of weight (kg) [Time Frame: through study completion, an average of 1 year] 
+- Describe the impact of dietary intervention and/or nutritional support on the nutritional status of patients during antiblastic treatments in terms of height (cm) [Time Frame: through study completion, an average of 1 year] 
+- Describe the impact of dietary intervention and/or nutritional support on the nutritional status of patients during antiblastic treatments in terms of BMI (kg/m^2) [Time Frame: through study completion, an average of 1 year] 
+- Describe the impact of dietary intervention and/or nutritional support on the nutritional status of patients during antiblastic treatments in terms of fatigue (Units on a Scale) [Time Frame: through study completion, an average of 1 year] 
+- Describe the impact of dietary intervention and/or nutritional support on the nutritional status of patients during antiblastic treatments in terms of adverse events [Time Frame: through study completion, an average of 1 year] 
+- Describe the impact of dietary intervention and/or nutritional support on the nutritional status of patients during antiblastic treatments in terms of strength (Hand Grip) [Time Frame: through study completion, an average of 1 year] 

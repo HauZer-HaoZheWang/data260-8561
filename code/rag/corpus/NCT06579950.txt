@@ -1,0 +1,45 @@
+NCT Number: NCT06579950
+Title: Assessing the Effects of Cool Roofs on Indoor Environments and Health
+Official Title: The Effects of Cool Roofs on Health, Environmental, and Economic Outcomes: a Global Multi-center Cluster-randomized Controlled Trial
+Lead Sponsor: Aditi Bunker
+Overall Status: RECRUITING
+Start Date: 2024-09-04
+Study Type: INTERVENTIONAL
+Phases: NA
+Enrollment: 3200
+Conditions: Resting Heart Rate, Blood Glucose Control, Depression, Heat-related Symptoms, Physician Diagnosed Heat-related Illnesses, Food Insecurity, Diet Quality, Health-related Quality of Life, Indoor Thermal Comfort, Coping Ability, Life Satisfaction, Healthcare Provider Utilization, Hospitalization, Systolic Blood Pressure, Diastolic Blood Pressure, Inner Ear Canal Temperature, Dehydration, Sleep Quality, Cognition, Productivity, Aggression, Indoor Air Temperature, Indoor Relative Humidity, Indoor Heat Index, Household Energy Expenditure
+
+Brief Summary:
+Ambient air temperatures in Asian, Latin American, African, and Pacific climate hotspots have broken record highs in 2024, driven by man-made climate change. Solutions are needed to reduce heat exposure in communities. Sunlight-reflecting cool roof coatings passively reduce indoor temperatures and energy use to protect home occupants from extreme heat. Occupants living in poor housing conditions globally - for example in informal settlements, slums, and low-socioeconomic households - are especially vulnerable to increased indoor heat exposure.
+
+Heat exposure can instigate and worsen numerous physical, mental and social health conditions. The worst adverse health effects are being experienced in communities least able to adapt to heat exposure. By reducing indoor temperatures, cool roof use can promote physical, mental and social wellbeing in occupants.
+
+The long-term research goal is to identify viable passive housing adaptation technologies with proven health and environmental benefits to reduce the burden of heat stress in communities affected by heat globally. To meet this goal, the investigators will conduct a cluster-randomized controlled trial to establish the effects of cool roof use on health, indoor environment and economic outcomes in five urban climate hotspots: Ouagadougou, Burkina Faso; Colima, Mexico; Ahmedabad, India; Niue; and Tavua, Fiji.
+
+Detailed Description:
+Increasing heat exposure from climate change is causing and exacerbating heat-related illnesses in millions worldwide - particularly in low resource settings. June 2024 was the 13th consecutive hottest month on record globally - shattering previous records. Heat exposure can instigate and worsen health conditions including cardiovascular, metabolic, endocrine and respiratory disease, heat-related illnesses, pregnancy complications, and mental health conditions. Adaptation is essential for protecting people from increasing heat exposure. The built environment, especially our homes, are ideal for deploying interventions to reduce heat exposure and accelerate adaptation efforts. However, currently there is a lack of evidence on a global scale - generated through empirical studies - guiding the uptake of interventions to reduce heat stress in low resource settings.
+
+Sunlight-reflecting cool roof coatings passively reduce indoor temperatures and lower energy use, offering protection to home occupants from extreme heat. The investigators aim to conduct a global multi-centre cluster-randomized controlled trial investigating the effects of cool-roof use on health, environmental and economic outcomes in five urban climate hotspots - Ouagadougou, Burkina Faso (sub-Saharan Africa), Ahmedabad, India (Asia), Tavua, Fiji and Niue (Oceania), and Colima, Mexico (Latin America). The sites represent hotspots where people experience a triple burden from heat exposure, chronic health issues and vulnerable housing conditions (slums, informal settlements and low socioeconomic housing). They also exhibit diversity in climate profiles, housing typology, level of socioeconomic development, population density and rates of urbanisation.
+
+The trial will quantify whether cool roofs are an effective passive home cooling intervention with beneficial health effects for vulnerable populations in four locations. Findings will inform global policy responses on scaling cool roof implementation to protect people from increasing heat exposure driven by climate change.
+
+Interventions:
+- OTHER: Cool roof. Cool roofs are a sunlight reflecting roof coating that can reduce indoor temperature. Cool roofs have high solar reflectance (reflecting the ultraviolet and visible wavelengths of sunlight, reducing heat transfer to the surface of a roof) and high thermal emittance (radiating absorbed solar energy).
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+* Permanent household resident.
+
+Exclusion Criteria:
+
+* Roof damage, inaccessible or instability of roof adversely affecting cool roof coating application.
+* Participant unable to provide written/verbal informed consent.
+Minimum Age: 18 Years
+Maximum Age: 
+Sex: ALL
+
+Primary Outcome Measures:
+- Resting heart rate [Time Frame: Eight measurements will be taken: one at baseline and seven over 12 months, covering three consecutive hottest months and four alternate months.] Resting heart rate in beats per minute measured as the average of three readings in the left arm over one hour using Blip portable automated sphygmomanometers.
+- Blood glucose control [Time Frame: Two measurements will be taken: one at baseline and one in the last month of three consecutive hottest months.] Three month average of blood glucose in mmol/mol measured as glycosylated hemoglobin (HbA1c) using capillary blood and the HemoCue® HbA1c 501 System.
+- Depression [Time Frame: Eight measurements will be taken: one at baseline and seven over 12 months, covering three consecutive hottest months and four alternate months.] Self-reported presence and frequency of symptoms of depression assessed using aggregate score of the Patient Health Questionnaire 9 (PHQ-9). Minimum score of 0 and a maximum score of 27 with a higher score meaning a worse outcome.

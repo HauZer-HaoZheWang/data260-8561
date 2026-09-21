@@ -1,0 +1,57 @@
+NCT Number: NCT07244835
+Title: A Study of DEG6498 in Participants With Solid Tumors
+Official Title: A First in Human Phase 1 Open-Label, Multicenter, Dose Escalation and Expansion Study of DEG6498 in Patients With Solid Tumors
+Lead Sponsor: Degron Therapeutics Co.
+Overall Status: RECRUITING
+Start Date: 2025-11-13
+Study Type: INTERVENTIONAL
+Phases: PHASE1
+Enrollment: 100
+Conditions: Malignant Neoplasms
+
+Brief Summary:
+The goal of this first in human, Phase 1, multi-center, open-label, and 2-part study is to learn whether DEG6498 is safe and tolerable in participants with advanced solid tumors. It will also learn about DEG6498 pharmacokinetics (PK) profile and potential antitumor activity. The main questions it aims to answer are:
+
+* what is an appropriate dose to be given to participants?
+* are the side effects of treatment manageable?
+
+Participants who are treated in this study will receive DEG6498 orally once a day and be closely monitored by the treating physicians.
+
+Detailed Description:
+This study will be conducted in 2 Parts. Part 1, the dose escalation part of the study, will test different doses of DEG6498 as a single agent when administered to participants with any type of advanced solid tumor that has no available alternative treatments, and determine the maximum tolerated dose (MTD)/recommended phase 2 dose (RP2D) for further studies. Part 2, the dose expansion part of the study, will further characterize the safety/tolerability profile and clinical activities of DEG6498 in 2 tumor types: BRAF mutant tumors and hepatocellular carcinoma (HCC).
+
+Interventions:
+- DRUG: DEG6498. DEG6498 is an orally bioavailable molecular glue drug that potently induces the degradation of human antigen R (HuR).
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+1. Willing and able to provide written informed consent for the study prior to the performance of any study-specific procedures
+2. Male and female older than or equal to 18 years of age at the time signing the informed consent form (ICF)
+3. If female, must be postmenopausal, or surgically sterile, or agree to highly effective contraceptive measures to prevent pregnancy throughout treatment period and within 30 days of last study drug treatment
+4. Women of childbearing potential (WOCBP) must have 2 negative pregnancy tests (1 serum test required) as verified by the investigator prior to starting study drug
+5. If male, must agree to inform and ensure their female partners to use highly effective contraception measures to prevent pregnancy, and to refrain from donating sperm while on study drug and for at least 30 days following DEG6498 discontinuation
+6. Patients with advanced solid tumors, who have failed standard therapies, or for whom no standard therapy exists
+
+   1. Part 1: Advanced solid tumor patients
+   2. Part 2: Patients with BRAF mutation positive tumors and HCC
+7. Presence of at least 1 measurable lesion according to RECIST v1.1 .
+8. Has an Eastern Cooperative Oncology Group (ECOG) performance status of 0 or 1
+
+Exclusion Criteria:
+
+1. Participant has a significant medical condition, laboratory abnormality, or psychiatric illness that would prevent the participant from participating in the study, puts the participant at unacceptable risk if he/she were to participate in the study
+2. Participant has a condition that confounds the ability for interpret data from the study
+3. Pregnant or breastfeeding women
+4. Active or concurrent malignancy requiring treatment (including both systemic therapy and radiotherapy) within 14 days or 5 half lives (whichever is shorter) prior to the first dose of study drug, or received antibody therapy within 28 days
+5. Symptomatic CNS metastases which are neurologically unstable, or CNS metastases requiring local CNS directed therapy, or increasing doses of corticosteroids within 2 weeks of first dose of study treatment.
+6. Clinically significant cardiovascular disease
+7. Known active or chronic infection that requires systemic therapy within 2 weeks of first dose of study drug
+8. Known human immunodeficiency virus (HIV) infection or known acquired immunodeficiency syndrome, or active HBV or HCV infection.
+Minimum Age: 18 Years
+Maximum Age: 
+Sex: ALL
+
+Primary Outcome Measures:
+- Incidence of dose limiting toxicity (DLT) [Time Frame: From first dose through the end of Cycle 1 (each cycle is 28 days)] Number of participants with DLT in Part 1
+- Incidence of adverse events (AEs) and serious AEs (SAEs) as assessed by CTCAE v5.0 [Time Frame: From Screening up to 30 days after the last dose] Number, type, frequency, severity, timing, and relationship to DEG6498 of AEs, SAEs, etc

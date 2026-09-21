@@ -1,0 +1,45 @@
+NCT Number: NCT04342429
+Title: Prospective Study of Intensity-Modulated Proton Therapy (IMPT) for Small Cell Lung Cancer
+Official Title: RAD4649-19: Prospective Study of Intensity-Modulated Proton Therapy (IMPT) for Small Cell Lung Cancer
+Lead Sponsor: Emory University
+Overall Status: RECRUITING
+Start Date: 2020-03-19
+Study Type: INTERVENTIONAL
+Phases: NA
+Enrollment: 30
+Conditions: Small-cell Lung Cancer
+
+Brief Summary:
+To assess the safety and efficacy of intensity-modulated proton therapy (IMPT) for small cell lung cancer (SCLC)
+
+Detailed Description:
+To determine the optimal schedule for three-dimensional verification imaging and necessary re-planning of patients undergoing IMPT for a rapidly changing tumor (small cell lung cancer).
+
+* To determine the rate of cardiac toxicities from IMPT in patients with small cell lung cancer compared with historical controls receiving photon-based treatment.
+* To determine the rate of pneumonitis and esophagitis from IMPT and compare with historical controls receiving photon based treatment.
+
+Interventions:
+- RADIATION: Proton-beam Therapy for Small Cell Lung Cancer. The goal of intensity-modulated proton therapy (IMPT) is to deliver radiation to the tumor while minimizing exposure to surrounding normal tissues.
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+* Pathologically confirmed small cell lung cancer, limited or extensive stage.
+* Patients who are offered thoracic radiotherapy with intensity-modulated proton therapy (IMPT) techniques delivering 30-66 Gy in 15-33 fractions at 2 Gy per fraction, at the recommendation of the treating radiation oncologist.
+* Age 18 or greater
+
+Exclusion Criteria:
+
+* Prior radiation therapy which would provide significant dose overlap with the planned target volume(s)
+* Pregnancy
+Minimum Age: 18 Years
+Maximum Age: 
+Sex: ALL
+
+Primary Outcome Measures:
+- Patients with small cell lung cancer (SCLC) will be assessed with the intensity-modulated proton therapy (IMPT). [Time Frame: Up to 1 year from study start] Patients enrolled will experience \<35% incidence of cardiac events at 1-year. Cardiac events included are acute heart disease, acute myocardial infarction, cardiomyopathy, dysrhythmia, heart failure, pericarditis, and pericardial effusion.
+- Determination of the optimal frequency of conebeam CT during treatment and subsequent need for adaptive re-planning [Time Frame: Up to 1,2, and 5 years] The optimal frequency of conebeam CT during treatment will be determined by a mixed model:
+
+* The local control, distant metastases, patterns of failure will be summarized as frequency and percentage.
+* Chi-square test will be used to test their relationships with other categorical variables.
+* General linear model will be used to measure their association with continuous covariates with and without adjusting for other factors

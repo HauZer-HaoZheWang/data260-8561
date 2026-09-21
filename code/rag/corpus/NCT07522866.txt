@@ -1,0 +1,42 @@
+NCT Number: NCT07522866
+Title: Thrive With Type 1 Diabetes 2026
+Official Title: Intervention to Thrive With Type 1 Diabetes 2026
+Lead Sponsor: Emory University
+Overall Status: RECRUITING
+Start Date: 2026-09
+Study Type: INTERVENTIONAL
+Phases: NA
+Enrollment: 48
+Conditions: Type1diabetes
+
+Brief Summary:
+This study aims to learn whether a cognitive behavioral intervention can improve lifestyle and glucose targets for adults with type 1 diabetes.
+
+Detailed Description:
+Type 1 diabetes (T1D), a common yet understudied chronic condition in young adulthood, is a life-shortening disorder leading to beta-cell destruction and absolute insulin deficiency. Suboptimal glucose diabetes self-management is associated with a higher risk for premature vascular complications, both macrovascular (e.g., coronary artery disease, peripheral arterial disease, and stroke) and microvascular (retinopathy, nephropathy, neuropathy) through accelerated vascular aging. Yet a majority of adults with T1D do not achieve recommended glycemic targets (A1C \<7%) or blood pressure targets.
+
+Interventions:
+- BEHAVIORAL: TranS-C Intervention Arm. This 12-week cognitive behavioral intervention uses motivational interviewing and behavior change principles, focusing on self-efficacy and action planning. Participants target 7-9 hours of sleep per night, ≥85% sleep efficiency, and \<60 minutes' variability in bed and wake times.
+
+Components include sleep education and hygiene, nightly routines, the management of competing activities, sleep environment optimization, lifestyle modifications (e.g., avoiding caffeine and vigorous exercise before bedtime), screen time reduction, basic stress management (e.g., progressive muscle relaxation), and self-monitoring. Following a baseline visit, a research assistant conducts a 60-minute telehealth session via HIPAA-compliant Zoom/Teams, with booster sessions at weeks 4, 8, and 12. Sleep time is adjusted weekly based on sleep efficiency criteria.
+- BEHAVIORAL: Attention Control Enhanced Usual Care (EUC) Arm. This time- and attention-balanced 12-week condition will focus on enhancing usual care. After the initial baseline visit, the RA for this group will schedule a 60-minute telehealth appointment for the enhanced usual care. Follow-up sessions (weeks 4 and 8) will focus on health perceptions, care plans, and relationship-building rather than sleep promotion. The RA will encourage participants to share their progress and confidence in their self-set goals to foster engagement and retention. Participants may engage in self-initiated diabetes management, which will be tracked using a Diabetes Self-Management Tracking Form.
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+* Aged 31 to 75 years
+* Type 1 Diabetes for at least 1 year
+* One or more sleep health dimensions are out of range
+
+Exclusion Criteria:
+
+* Non-English speaking
+* Recent night shift work or transmeridian travel
+* Life-limiting illness
+Minimum Age: 31 Years
+Maximum Age: 75 Years
+Sex: ALL
+
+Primary Outcome Measures:
+- Multidimensional sleep health composite score [Time Frame: Baseline and post-intervention (14 weeks from baseline)] The multidimensional sleep health composite score assesses six domains: regularity, satisfaction, alertness, timing, efficiency, and duration. Sleep regularity, timing, efficiency, and duration will be measured using a non-dominant wrist-worn research-grade actigraph (Ametris CentrePoint Insight Watch) worn 24/7 during the monitoring period. Sleep satisfaction will be assessed using the global score of the 19-item Pittsburgh Sleep Quality Index (PSQI; range 0-21; scores \<5 coded as 1, indicating good sleep). Alertness will be assessed using the Epworth Sleepiness Scale (ESS; range 0-24; scores \<8 coded as 1, indicating good daytime alertness). Each component will be scored according to predefined criteria and summed to create a composite score ranging from 0 to 6, with higher scores indicating better overall sleep health over the 1-week monitoring period at each time point. The composite score (unitless) will be assessed at baseline and post-intervention.
+- Glycated hemoglobin (HbA1C) [Time Frame: Baseline and post-intervention (14 weeks from baseline)] HbA1C will be measured by the FDA-approved A1C Now Self-Check. HbA1C reflects the average blood glucose level over the preceding approximately 2-3 months and will be reported as a percentage (%). Changes in glycemia will be assessed by comparing HbA1C values measured at baseline and post intervention. Units = percent (%).

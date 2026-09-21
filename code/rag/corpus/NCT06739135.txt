@@ -1,0 +1,142 @@
+NCT Number: NCT06739135
+Title: Driving with Neuropathy
+Official Title: Enabling People with Diabetic Neuropathy to Drive Safely: a Proof of Concept Randomised Controlled Trial
+Lead Sponsor: Manchester Metropolitan University
+Overall Status: RECRUITING
+Start Date: 2024-10-25
+Study Type: INTERVENTIONAL
+Phases: NA
+Enrollment: 115
+Conditions: Diabetic Polyneuropathy, Diabetes Mellitus, Type 2
+
+Brief Summary:
+This study is a proof-of-concept randomised controlled trial (RCT). The goal of the study is to investigate the effectiveness of a feedback intervention to improve use of the accelerator pedal in patients driving with diabetes and peripheral neuropathy (DPN).
+
+The main (primary) question it aims to answer is:
+
+What is the effect of a visual feedback intervention (over 6 sessions a month apart), compared to no feedback, on accelerator pedal use by drivers with diabetic peripheral neuropathy?
+
+Our working hypothesis is that the visual feedback intervention will reduce the % of drive time with the accelerator pedal pushed down further than 9 degrees (about halfway down), the point at which the visual feedback (a warning signal) is triggered.
+
+Secondary research questions are:
+
+1. What is the effect of the feedback intervention on drivers with diabetic peripheral neuropathy at the first visit, and at the third visit? When does the biggest improvement happen? Our working hypothesis is that the visual feedback intervention will reduce the % of drive time spent driving with the accelerator pedal pushed down further than 9 degrees, the point at which the feedback is triggered, in the first visit (ie with the first exposure to feedback) and by additional amounts in subsequent visits ie there will be an immediate benefit, and additional benefits that accrue gradually with repetition over the 6 monthly visits.
+2. What is the effect of the feedback intervention on a second variable, % of drive time with the vehicle 'out of control'. Out of control is defined as extreme use of the steering wheel, large and rapid movements that reach the full range of motion of the steering wheel or large swings back and forth together with excursion out of lane which the driver fails to prevent.
+
+Our working hypothesis is that the visual feedback intervention will reduce the % of drive time with the vehicle out of control.
+
+Researchers will compare the group of drivers with neuropathy who receive the intervention with a control group who do not.
+
+In addition, a group of drivers who have diabetes but no diagnosed neuropathy will be studied. This is to seek confirmatory evidence (previously seen in a small sample in a previous study) that most drivers who have no diagnosed neuropathy do not push the accelerator pedal down more than 9 degrees and so do not need to improve their use of the accelerator pedal.
+
+Participants will have their driving assessed in a driving simulator. Participants with DPN who push the accelerator pedal down more than 9 degrees will then be randomly allocated to the intervention group or control group. Only drivers in the intervention group will go on to experience the visual feedback intervention (in 6 sessions a month apart). Drivers in the control group will have their driving assessed at their first visit, and then at two later visits timed to coincide with the 3rd and 6th visit by drivers in the intervention group. This is the minimum necessary to be able to compare their driving with the intervention group at the start, midpoint and end of the intervention.
+
+Detailed Description:
+Each participant will attend the driving simulator laboratory within the Manchester Institute of Sport at the Manchester Metropolitan University. All participants will, after a practice drive on the simulator (Drive 1) undergo a baseline assessment of their driving (Drive 2).
+
+Participants with DPN who never pushed the accelerator pedal down more than 9 degrees in the baseline assessment drive (Drive 2) will be screened out and take no further part in the study (as they cannot further reduce their use of the accelerator pedal beyond 9 degrees; they already spend no time driving with the pedal in that range).
+
+Participants with DPN who did push the accelerator down more than 9 degrees in the baseline assessment drive (Drive 2) will at the end of that drive be randomly assigned to intervention or control group. The intervention group will experience an active visual feedback intervention during simulated driving which aims to modify their use of the accelerator pedal, specifically to reduce the % of time they spend driving with the accelerator pedal pushed down more than 9 degrees i.e., to moderate their use of the accelerator and so help them to drive safely. The control group will receive a minimal intervention with no visual feedback and the minimum simulated driving experience necessary for us to assess their driving.
+
+Intervention (DPN) The active intervention phase for the DPN group will consist of 6 visits to the simulator with a month between each visit.
+
+Control (DPN) The DPN control group who receive minimal intervention will have an initial visit (baseline assessment), a second visit timed to match visit 3 of the intervention group (the halfway point in the study), and a final visit timed to match visit 6 of the intervention group, to permit comparisons with the intervention group at the start, halfway point, and end of the study.
+
+At the first visit, the session will last up to 1 hour 45 minutes in total. There will be a number of different components to the protocol (see below). At the first visit, informed consent will be taken by a researcher at the Manchester Metropolitan University trained in Good Clinical Practice. Also, at first visit only, physiological measures to confirm the severity (or absence) of neuropathy will then be taken as described below; and demographic and other information will be obtained. This will be followed by driving simulator testing. In all subsequent visits, only simulated driving will be tested. In all visits, a blood glucose test will be performed prior to undertaking the driving simulator test, to confirm that participants are not close to the hypoglycaemic range (should be ≥4.5 mmol/l) or hyperglycaemic (\<20 mmol/l) at the time of driving.
+
+Peripheral neuropathy testing \[approximately 15 minutes\]:
+
+All participants will undergo the neuropathy tests described at their first visit only. These tests are routine clinical tests performed for diabetes patients to test peripheral sensory perception. For participants who arrive with diagnosed diabetic peripheral neuropathy researchers would be conducting these tests to assess the severity of peripheral neuropathy. For participants who arrive with no diagnosed neuropathy, researchers would be conducting these tests to confirm the absence of neuropathy.
+
+Researchers will apply two common tests for neuropathy - the mNDS and VPT. The mNDS is a composite test of multiple sensory modalities testing temperature perception (ability to distinguish between a warm and cold object applied to the end of the big toe), pain perception (ability to distinguish between a sharp and blunt object applied to the end of the big toe), vibration detection (ability to distinguish between a tuning fork applied to the end of the big toe that is vibrating at 128Hz, and the same tuning fork applied without any vibration) and the presence of an Achilles tendon reflex. The VPT involves an instrument applied to the end of the big toe with the vibration incrementally increased until the person can first detect the vibration. Researchers will assign participants either to the no/low DPN group, or to the DPN group, based upon their prior clinical diagnosis confirmed by the results of these tests for neuropathy.
+
+Testing of proprioception \[approximately 15 minutes\]:
+
+Participants will undergo testing of proprioception at first visit only. Researchers measure this because loss of proprioception at the ankle is another sensory consequence of neuropathy, and ankle joint angle varies with accelerator position when driving. This measurement therefore permits further confirmation of the presence of neuropathy and a consequence that might be important for driving (in addition to the standard clinical tests described above). To assess proprioception at the ankle, researchers will use a machine called an isokinetic dynamometer (a CE marked device) that researchers have routinely used to test proprioception in people with diabetes, older adults and other populations. Participants will be positioned prone on the bed of the dynamometer with their knee in full extension and their right foot (because this is the foot used for applying the accelerator and brake) secured into the footplate of the dynamometer. To assess proprioception at the ankle, which is a useful proxy for the extent to which the person knows the position of their foot during driving, researchers will ask them to recreate certain joint positions. This will entail moving the participant's foot to a given ankle joint angle and then moving their foot away from this position and asking them to return their foot to the previous position as accurately as possible. Researchers will be able to record the ankle joint position and the 'error' in degrees between the intended and actual positions.
+
+Blood glucose test \[approximately 10 minutes\]:
+
+A blood glucose test will always be performed prior to undertaking the driving simulator test, to confirm that participants are not close to the hypoglycaemic range (should be ≥4.5 mmol/l) or hyperglycaemic (should be \<20 mmol/l) at the time of driving. Participants should therefore have a blood glucose level within the range 4.5 to 20 mmol/l. If participants are outside of this blood glucose range, they will be invited back to the university for testing on another occasion. A capillary blood sample will be acquired from the finger by 'pricking' the finger and acquiring blood onto the testing strip of a blood glucose meter immediately after being taken. The sample will therefore not be stored and will be disposed of appropriately immediately after testing for the level of glucose. In the case where participants have continuous glucose monitors, researchers will take blood glucose readings from their device to avoid the need for any additional blood measures. Because people with diabetes may carry glucose testing meters with them and will be familiar with testing themselves regularly, they may prefer to test themselves - in this instance researchers will use the value they obtain.
+
+Demographic details and other information \[approximately 20 minutes\]:
+
+At first visit only, researchers will take routine anthropometric measures: height and body weight to adequately characterise our sample. Researchers will ask participants a series of questions to establish the demographic information about the sample researchers are studying such as their date of birth and ethnicity. Researchers will perform a Snellen test (sight test) to check their corrected visual acuity (ie while they wear any prescription spectacles) - this involves reading standard-sized letters from a piece of paper at a set distance. Researchers will ask about any current involvement in other research studies. Researchers will ask participants their time since diagnosis of diabetes and about any medication they are currently taking (for all groups, since this might affect driving performance). Researchers will ask a series of questions about driving such as the type of car the person currently drives (i.e., manual or automatic, estate-type car or saloon-type etc.) and how long they have held their UK driving licence for. Researchers will also ask participants some questions similar to those that a car insurance firm would ask when someone is taking out car insurance - specifically whether they have had any accidents in the last 5 years, if so whether it was judged to be their fault or not and whether they have any points on their driving licence. The reason researchers intend to ask these questions is so that they may relate this kind of specific information to driving performance in the simulator, or more specifically to use of the accelerator pedal. As with all other research data, this information will be pseudo-anonymised and only associated with a participant code. Before researchers ask all of these questions, they will make it very clear to participants that all of this information is confidential, is used only for the purpose of the research study and will not be shared with anyone outside of the research team. If participants do not wish to provide this information they will still be able to proceed with the remainder of the protocol.
+
+Driving simulator testing \[27-39 minutes of driving\]:
+
+While taking consent from the participant and therefore before the participant initiates the driving tests, researchers will have been very clear to explain that the purpose of these measurements of their simulated driving is for research purposes only and that they will not be used in any way to inform decisions on their fitness to drive. Researchers will also clarify that they will not be sharing their data with anyone outside of the research team. These research data will be stored on a password protected computer and as with all other research data will be stored using pseudorandomised participant codes.
+
+The assessment of driving will follow a well-established protocol built up from a number of previous studies in our laboratory using the identical simulator. The participant sits in a comfortable car seat in front of a bench on which there is a large, windscreen-sized flat screen display (viewing distance approx 1 metre) showing the view of the road ahead. The car seat is adjustable to achieve a comfortable driving position with hands on the steering wheel and feet on the pedals. Sensors within the steering wheel and accelerator pedal housing are invisible to the driver and measure the position of the steering wheel and accelerator pedal throughout the tests. There are no sensors attached to the participant; the aim is to monitor his or her driving imperceptibly so as not to cause any distraction.
+
+Once the participant is seated in a comfortable driving position, a standard instruction to 'drive safely, as you would in a real car on the road' together with other brief information on the absence of other vehicles, pedestrians or junctions along the route, will be read out.
+
+The driving simulation programme is then started, this is essentially a driving computer game which offers a number of routes along winding country roads. The DPN intervention group will be asked to complete the following 5 drives each time they visit:
+
+Drive 1. Practice (3 minutes). Drivers with neuropathy take a little longer than other drivers to get used to the feel of the simulator. They drive differently for the first 3 minutes as they learn the weighting of the pedals and steering wheel. This standardised practice drive, along a route similar to the one on which they will subsequently be tested, ensures that before beginning the evaluation and intervention part of the session they are familiar with the simulator and driving as well as they can.
+
+Drive 2. Assessment (6-9 minutes). This drive along a standard test route assesses their driving ability as they arrived at the simulator on the day. Since participants choose their own safe driving speed, time to complete the route varies (typically 7 minutes driving mainly at 30-35 mph). Researchers will impose an upper limit of 9 minutes' driving to avoid fatigue over the course of the session.
+
+At the end of this drive, in their first visit, drivers with DPN who never pushed the accelerator pedal beyond 9 degrees down (the trigger value for delivering visual feedback) will be told that their use of the accelerator pedal does not need modification by visual feedback training, and that they therefore will not continue to the intervention phase of the study but will stop at this point.
+
+At the end of this drive, in their first visit, drivers with DPN who did push the accelerator pedal beyond 9 degrees for some % of the drive time will at this point be randomly assigned to either the intervention group or the control group.
+
+Drivers assigned to the intervention group will receive an immediate analysis of their use of the accelerator pedal and their overall speed. Researchers will explain that changes in driving can develop gradually as a consequence of diabetic peripheral neuropathy, and that one of these is a tendency to sometimes skip over the mid-range of the accelerator pedal, so that the pedal is pushed down a long way, resulting in too strong accelerations that make it difficult to stay in control of the vehicle.
+
+Researchers will then demonstrate a simple visual feedback system consisting of an illuminated pedal warning symbol (in the style of a road speed limit sign, a white background with a red circular surround, containing an icon of a foot just off/above a pedal) at the right hand side of the simulated car windscreen, which will appear whenever the pedal is pushed down beyond its mid-range into a more extreme position, defined as more than 9 degrees down.
+
+In the simulator, maximum depression of the pedal is 20 degrees down, so 9 degrees represents 45% of maximum acceleration. The region beyond this point is infrequently used by drivers with no medical condition who have been told to drive safely, as they would in a real car on the road.
+
+The participant will be instructed that in the next drive whenever they push the accelerator pedal more than halfway down, the pedal warning symbol will appear, and they should ease back off the accelerator until it turns off (which will happen when the pedal is once again less than halfway down). Before driving, the participant will practise a few times pushing the accelerator down by different amounts with the visual feedback active to enable them to get a feel for the pedal position at which the warning symbol will appear. Researchers will then ask them to drive the same standard test route again with this visual feedback on their use of the accelerator activated (which will be Drive 3, see below). Repeated driving of the same test route allows us to assess a common driving task such as the daily commute, in which the journey is well known and practised.
+
+Drive 3. Driving with feedback and immediate prior instruction (6-9 minutes). The standard test route will be driven again, this time with the pedal warning symbol coming on to indicate whenever the accelerator pedal is pushed too far down (more than 9 degrees). At the end of this drive, an immediate analysis will be provided as before to identify whether there has been any change in driving behaviour away from that associated with diabetic peripheral neuropathy and towards that seen for drivers without this condition.
+
+Drive 4. Driving after feedback, without feedback (6-9 minutes). The same route will be driven again, but without feedback. This will identify whether any changes seen whilst feedback was being provided in Drive 3 persist after feedback is withdrawn. This will indicate whether driver training using feedback was only effective whilst the feedback was actually being given (so that it would be permanently required) or whether a brief period of training could induce a change that persisted beyond its duration (so that it could be episodic).
+
+Drive 5. Driving with feedback again but without immediate prior instruction (6-9 minutes). This final drive will assess the effectiveness of the warning symbol to modify driving when no immediately prior instruction has been given (but the meaning of the symbol is understood).
+
+Simulated driving time at each visit will therefore be 3 minutes + 4 x (6-9 minutes) yielding a total time of 27-39 minutes. Comparison of all these drives between monthly visits will reveal how the long-term benefits of visual feedback training are sustained.
+
+Researchers will ask participants in the DPN control group, and the no/low DPN group, to complete only the following driving tasks:
+
+Drive 1. Practice (3 minutes). Drivers with neuropathy take a little longer than other drivers to get used to the feel of the simulator. They drive differently for the first 3 minutes as they learn the weighting of the pedals and steering wheel. This standardised practice drive, along a route similar to the one on which they will subsequently be tested, ensures that before beginning the assessed drive along the standard test route they are familiar with the simulator and driving as well as they can. Drivers in the no/low neuropathy group will complete the same drive to permit comparison with drivers in the other groups.
+
+Drive 2. Assessment (6-9 minutes). This drive along a standard test route assesses their driving ability as they arrived at the simulator on the day. Since participants choose their own safe driving speed, time to complete the route varies (typically 7 minutes driving mainly at 30-35 mph). Researchers will impose an upper limit of 9 minutes' driving to maintain compatibility with Drive 2 as experienced by the DPN intervention group.
+
+At the end of this drive, no analysis will be provided of their use of the accelerator pedal, and no explanation given that changes in driving can develop as a consequence of diabetic peripheral neuropathy. There will be no further drives, and consequently no experience of the visual feedback training. These participants therefore receive the minimum experience on the driving simulator that will still enable us to assess their driving at that visit on that day.
+
+Post-driving participant feedback:
+
+After the driving session has finished in their last visit to the simulator only researchers will provide an opportunity for participant feedback on their experience to the research team. Researchers will encourage participants to share their thoughts about their experience and use their comments for our future guidance. Often, participants provide insights into their own approach to the task which are helpful for us to assess the current protocol, and to feed into the development of future experimental protocols. Researchers will ask the following questions:
+
+1. Having completed the last driving session today do you have any comments about your experience of driving in the simulator in this study?
+2. How did it feel to drive with the visual feedback turned on?
+3. Do you have any suggestions for changes we could make to the simulated driving sessions, or other things we could do in the future?
+4. Did you find anything about the task annoying or difficult? Anything we could improve?
+5. Is there anything else you'd like to tell us?
+
+The DPN intervention group will be asked all of the above questions in their final visit. The DPN control group and the no/low DPN group will in their final visit be asked all of the questions except question 2 (as they did not drive with the visual feedback turned on). All DPN drivers will be given an information leaflet published by the DVLA which has information about driving with neuropathy. Researchers will also provide the details of the local driving mobility assessment centre, and advise that if they have any concerns about their driving they can contact this centre to arrange a professional driving assessment by an approved instructor.
+
+Interventions:
+- BEHAVIORAL: Visual feedback training. Visual feedback training to modify use of the accelerator pedal when driving in a driving simulator, to reduce the % of time driving with the pedal pushed down more than 9 degrees
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+* Able to understand English and all of the study requirements, including ability to provide informed consent
+* Current full UK driving licence held, and for a minimum of 5 years (experienced drivers)
+* Drives a car at least once per week on average (current drivers)
+* Diagnosed with type 2 diabetes and diabetic peripheral neuropathy
+* Diagnosed with type 2 diabetes only (no diagnosed diabetic peripheral neuropathy)
+
+Exclusion Criteria:
+
+* Active foot ulcer on either foot
+* Lower limb amputation involving more than two toes on the right foot
+* Dementia
+* Current participation in another research study that would compromise safety, or scientific integrity of either study (for example, a pharmaceutical trial that may affect ability to drive safely).
+Minimum Age: 25 Years
+Maximum Age: 69 Years
+Sex: ALL
+
+Primary Outcome Measures:
+- Percent of drive time with the accelerator pedal pushed down further than 9 degrees at the end of the intervention (visit 6) [Time Frame: The intervention arm of the study has 6 visits that are spaced 1 month apart, with visit 1 being the baseline/randomisation visit. Thus, visit 6 happens at 5 months post-baseline/randomisation.] Percent of drive time with the accelerator pedal pushed down further than 9 degrees, the point at which the visual feedback is triggered, measured in Drive 3 (feedback and immediate prior instruction) of the final visit (visit 6) of the intervention, 5 months after baseline (visit 1).

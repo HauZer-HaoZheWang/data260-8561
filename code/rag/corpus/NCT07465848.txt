@@ -1,0 +1,60 @@
+NCT Number: NCT07465848
+Title: Prospective Multicentre Study for the Application of Telomere Measurement Technology as a Tool for Lung Cancer Diagnosis
+Official Title: Prospective Multicentre Study for the Application of Telomere Measurement Technology as a Tool for Lung Cancer Diagnosis
+Lead Sponsor: Grupo Español de Investigación en Diagnóstico y Tratamiento Hipertemprano de Enfermedades (GeDiTPhe)
+Overall Status: RECRUITING
+Start Date: 2025-10-08
+Study Type: INTERVENTIONAL
+Phases: NA
+Enrollment: 1200
+Conditions: Lung Cancer (Diagnosis), Health Adult Subjects, Patient
+
+Brief Summary:
+This research is a clinical performance study of in vitro diagnostic device (IVD), a prospective, multicentre, open-label, case-control clinical investigation aimed at constructing a predictive model that allows results to be classified as positive or negative in relation to the probability of having lung cancer.
+
+Detailed Description:
+
+
+Interventions:
+- DIAGNOSTIC_TEST: Blood sample collection for telomere biomarker analysis. Peripheral blood samples will be collected to measure telomere-related biomarkers that will be used for the development of a predictive algorithm.
+- DIAGNOSTIC_TEST: Telomere biomarker analysis. Laboratory analysis of telomere-associated biomarkers in blood samples to generate data for the development of a predictive clinical algorithm.
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+Case Group:
+
+* Person aged 45 years or older at the time of signing the consent form.
+* Person with a current anatomopathologically confirmed diagnosis of small-cell or non-small cell lung cancer.
+* Not having received any oncological treatment prior to sample collection (surgery, radiotherapy, or systemic treatment with chemotherapy or immunotherapy).
+
+Control Group:
+
+Cohort A (High risk controls):
+
+* Person aged 45 years or older at the time of signing the consent form.
+* High risk of lung cancer, defined as having a smoking history of at least 20 pack-year and currently smoking or having quit within the past 15 years.
+* No diagnosis or suspicion of lung cancer. Asymptomatic individuals who have undergone a chest computed tomography (CT) scan for lung cancer screening within the 12 months prior to signing the informed consent and as part of routine clinical practice, with a LUNG-RADS score of 3 or lower, will be included.
+
+Cohort B (Low-risk controls):
+
+* Person aged 45 years or older at the time of signing the consent form.
+* Without high risk of lung cancer according to the criteria defined in cohort A.
+* No diagnosis or suspicion of lung cancer.
+
+Exclusion Criteria:
+
+* History of any malignant neoplasm, except for subjects with tumors in localized stages who have undergone radical treatment and have been disease-free for at least five years.
+* Patient diagnosed with lung cancer who has already started oncological treatment before sample collection.
+* Patient who has undergone a biopsy or any invasive procedure or minor surgery less than 48 hours ago.
+* Patient who has undergone major surgery less than 7 days ago.
+* Patient with severe chronic kidney disease, defined as a glomerular filtration rate below 15 ml/min.
+* Patient with severe liver disease, defined as Child-Pugh C.
+* Active infection, or treated less than 4 weeks ago.
+* Vulnerable population, for example, minors, prisoners, pregnant women, adults physically or mentally incapable of giving consent.
+Minimum Age: 45 Years
+Maximum Age: 
+Sex: ALL
+
+Primary Outcome Measures:
+- To determine the risk of developing lung cancer, expressed as a percentage, in order to assist doctors in the diagnosis of lung cancer. [Time Frame: At study enrollment] 

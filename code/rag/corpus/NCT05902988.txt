@@ -1,0 +1,55 @@
+NCT Number: NCT05902988
+Title: A Phase I/II Study of VLS-1488 in Subjects With Advanced Cancer
+Official Title: A Phase I/II Study of VLS-1488 (an Oral KIF18A Inhibitor) in Subjects With Advanced Cancer
+Lead Sponsor: Volastra Therapeutics, Inc.
+Overall Status: RECRUITING
+Start Date: 2023-10-18
+Study Type: INTERVENTIONAL
+Phases: PHASE1, PHASE2
+Enrollment: 200
+Conditions: Advanced Solid Tumor, High Grade Serous Adenocarcinoma of Ovary, Squamous Non-small-cell Lung Cancer, Triple Negative Breast Cancer, Head and Neck Squamous Cell Carcinoma, Ovarian Carcinosarcoma, Uterine Carcinosarcoma, Uterine Serous Carcinoma, Endometrium Cancer, Chromosomal Instability
+
+Brief Summary:
+This is a first-in-human phase I/II study to examine the safety, tolerability and preliminary efficacy of VLS-1488 in subjects with advanced cancers.
+
+Detailed Description:
+This a first-in-human phase I/II study designed to assess the safety, tolerability and preliminary efficacy of VLS-1488 monotherapy and consists of two parts: Dose Escalation and Dose Expansion.
+
+Dose Escalation will examine the safety and tolerability of VLS-1488 in different solid tumor types at various dose levels through a series of Dose Escalation and Backfill Cohorts to identify the Maximum Tolerated Dose (MTD) and to select dose levels for Dose Expansion. The criteria for dose (de-)escalation will be based on a Bayesian Optimal Interval (BOIN) design.
+
+Dose Expansion will examine the safety, tolerability, Drug Drug Interaction (DDI) risk, Food Effect (FE) and preliminary efficacy of VLS-1488 in different tumor types and/or dose levels of interest through various expansion cohorts.
+
+VLS-1488 will be given orally in 28-day cycles. Dosing will be continued until disease progression, unacceptable toxicity, withdrawal of consent, or other stopping criteria are met.
+
+Interventions:
+- DRUG: VLS-1488. VLS-1488 tablets will be given orally.
+
+Eligibility Criteria:
+Key Inclusion Criteria:
+
+* All Parts: Age ≥ 18 years, ECOG Performance Status ≤ 1, at least 1 site of measurable disease evaluable by CT scan or MRI per RECIST 1.1, able to take oral medication without alteration
+* Dose Escalation: No available therapeutic options to provide clinically meaningful benefits in the following tumor types: High Grade Serous Ovarian Cancer, Squamous Non -Small Cell Lung Cancer, Triple Negative Breast Cancer, Gastric Adenocarcinoma (not EBV+), Colorectal, Esophageal Squamous Cell Carcinoma, Esophageal Adenocarcinoma, Gastroesophageal Junction, Bladder (transitional cell), Head and Neck Squamous Cell Carcinomas (not nasopharynx, sinonasal or lip), Ovarian Carcinosarcoma, CN-high Endometrial/Uterine
+* Dose Expansion: Must have been previously treated with several lines of standard of care treatment specified in the protocol in the following tumor types: High Grade Serous Ovarian Cancer, Squamous Non-Small Cell Lung Cancer, Triple Negative Breast Cancer, Gastric Adenocarcinoma (not EBV+), Colorectal, Esophageal Squamous Cell Carcinoma, Esophageal Adenocarcinoma, Head and Neck Squamous Cell Carcinomas (not nasopharynx, sinonasal or lip), CN-high Endometrial/Uterine
+
+Key Exclusion Criteria:
+
+* MSI-H, dMMR, POLE gene hotspot mutated, or known hypermutator phenotype
+* Previously received KIF18A inhibitor
+* Current CNS metastases or leptomeningeal disease
+* Cardiac parameters: MI or stroke ≤ 1 year, unstable angina/PE/DVT/CABG ≤ 6 months, NYHA Class ≥ II, LVEF \< 50%
+* Inability to comply with concomitant medication restrictions with respect to strong inhibitors and inducers of CYP3A, and clinical inhibitors of MDR1 (P-gp) and BCRP
+* Any clinically significant ascites or pleural effusions at time of enrollment, or any therapeutic paracentesis or thoracentesis within 28 days of planned first dose of study drug
+* Bowel obstruction or GI perforation within 6 months of planned first dose of study drug
+Minimum Age: 18 Years
+Maximum Age: 
+Sex: ALL
+
+Primary Outcome Measures:
+- Dose Escalation: Incidence of Dose Limiting Toxicities (DLTs) in DLT-evaluable subjects [Time Frame: Up to 12 months] 
+- Dose Escalation: Determination of the MTD of VLS-1488 [Time Frame: Up to 12 months] 
+- Dose Escalation: Frequency of Serious Adverse Events (SAEs) graded according to the National Cancer Institute Common Terminology Criteria for Adverse Events (NCI-CTCAE) version 5.0 [Time Frame: Up to 12 months] 
+- Dose Escalation: Frequency of Treatment-related Adverse Events (AEs) graded per NCI-CTCAE version 5.0 [Time Frame: Up to 12 months] 
+- Dose Escalation: Frequency of Treatment-Emergent AEs (TEAEs) graded per NCI-CTCAE version 5.0 [Time Frame: Up to 12 months] 
+- Dose Escalation: Frequency of Dose Interruptions and Permanent Treatment Discontinuations [Time Frame: Up to 12 months] 
+- Dose Expansion: Frequency of Trigger Events (TEs) [Time Frame: Up to 18 months] 
+- Dose Expansion: Objective Response Rate (ORR) as assessed by Response Evaluation Criteria in Solid Tumors (RECIST) version 1.1 [Time Frame: Up to 18 months] 

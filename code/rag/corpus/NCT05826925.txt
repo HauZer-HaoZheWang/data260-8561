@@ -1,0 +1,37 @@
+NCT Number: NCT05826925
+Title: Optimizing Cardiovascular Preventive Care for Women Following Hypertensive Disorders of Pregnancy
+Official Title: Optimizing Cardiovascular Preventive Care for Women Following Hypertensive Disorders of Pregnancy
+Lead Sponsor: University of Utah
+Overall Status: RECRUITING
+Start Date: 2026-07-15
+Study Type: INTERVENTIONAL
+Phases: NA
+Enrollment: 30
+Conditions: Hypertension, Pregnancy Induced, Hypertension Complicating Pregnancy, Preeclampsia, Cardiovascular Diseases, Patient Engagement
+
+Brief Summary:
+Cardiovascular disease is the leading cause of death among women in the United States, and women with hypertensive disorders of pregnancy have a 2-fold higher risk for cardiovascular disease later in life compared to women with uncomplicated pregnancies. This research investigates a patient-centered intervention during the postpartum period to promote engagement in cardiovascular preventive care.
+
+Detailed Description:
+Current evidence demonstrates that women with hypertensive disorders of pregnancy have 2-fold higher risk for the later development of cardiovascular disease (CVD) compared to women with healthy pregnancies. CVD prevention is a high priority for women's health, as it is the leading cause of death among women in the United States. In order to improve women's cardiovascular health, interventions for cardiovascular prevention could be initiated shortly after a pregnancy complicated by a hypertensive disorder. However, patient-centered interventions to promote preventive care engagement among postpartum women are lacking. Our objective is to address current gaps in knowledge regarding needs, values, and barriers regarding cardiovascular prevention among postpartum women with hypertensive disorders of pregnancy, and to remedy the lack of available evidence-based interventions for this at-risk population. To this end, we will conduct a pilot study to demonstrate feasibility and preliminary efficacy of a patient decision aid to improve patient knowledge and self-efficacy regarding CVD prevention during the postpartum period
+
+Interventions:
+- OTHER: Decision aid. A decision aid will be developed based on qualitative data from Aim 1 and iterative refinement with input from stakeholders from Aim 2. Anticipated content includes: 1) information about cardiovascular risk following hypertensive disorders of pregnancy; 2) goal-setting exercises for blood pressure, weight management, glucose control, physical activity, and smoking cessation; 3) self-care steps to achieve management targets; 4) values clarification exercises to identify values related to cardiovascular risk management and identify priority areas for focus and improvement; and 5) discussion of how to communicate questions and goals of treatment to their provider.
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+* Delivered a pregnancy complicated by a hypertensive disorder of pregnancy at the University of Utah during the current hospital admission
+* Ability to speak and read English or Spanish
+* Written informed consent obtained
+
+Exclusion Criteria:
+
+* Cardiovascular disease diagnosis (history of peripheral artery disease, stroke, or myocardial infarction)
+* Impairment of cognitive function or vision that prohibits communication and/or reading the decision aid.
+Minimum Age: 18 Years
+Maximum Age: 
+Sex: FEMALE
+
+Primary Outcome Measures:
+- Decisional conflict [Time Frame: 6-8 weeks postpartum] Measured via the validated Decisional Conflict Scale. Scores range from 0 (no decisional conflict) to 100 (extremely high decisional conflict)

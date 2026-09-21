@@ -1,0 +1,61 @@
+NCT Number: NCT06875193
+Title: DM Treatment to Evaluate the Efficacy and Safety of Dapagliflozin or Pioglitazone in Patients with Type 2 Diabetes
+Official Title: Key Finding of DM Treatment with Combination, a MuLticenter, Randomized, Parallel, Gathering Information of Phase 4 Trial to Evaluate the Efficacy and Safety of Dapagliflozin or Pioglitazone Add-on to Metformin and DPP-4 Inhibitor in Patients with Type 2 Diabetes
+Lead Sponsor: Dong Wha Pharmaceutical Co. Ltd.
+Overall Status: RECRUITING
+Start Date: 2024-05-28
+Study Type: INTERVENTIONAL
+Phases: PHASE4
+Enrollment: 196
+Conditions: Type2diabetes
+
+Brief Summary:
+Key finding of DM Treatment with combination, A MuLticenter, Randomized, Parallel, Gathering Information of phase 4 Trial to Evaluate the Efficacy and Safety of Dapagliflozin or Pioglitazone add-on to Metformin and DPP-4 inhibitor in Patients with Type 2 Diabetes Who Have Inadequate Glycaemic Control on a Background Combination of Metformin and DPP-4 inhibitor(KLIMT Study)
+
+Detailed Description:
+This is a Phase 4, multicenter, randomized, open-label, parallel clinical trial
+
+Interventions:
+- DRUG: DW6012(Dasidiem tab. 10/100mg). Once a day, Oral administration
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+* Patients with type 2 diabetes who are 19 years of age or older at the date of written consent
+* Subjects who Receiving a stable dose of metformin and a DPP-4 inhibitor for at least the last 8 weeks at the time of screening
+* HbA1c ≤ 7.0% ≤ HbA1c \< 10% at time of screening
+* BMI ≤ 18.5 kg/m2 ≤ 40 kg/m2 at time of screening
+* Subjects fully explained and understood the purpose and methods of this study and voluntarily gave written informed consent
+
+Exclusion Criteria:
+
+* Patients with type 1 diabetes
+* Have a BMI \> 40 kg/m2
+* Subjects who have moderate (Stage 3b) or severe kidney disease or an estimated glomerular filtration rate (eGFR, using the CKD-EPI formula) \< 45 mL/min/1.73 m2
+* Patients with end stage renal disease or patients on dialysis
+* Patients with uncontrolled heart failure (NYHA class III - IV)
+* Patients with history of uncontrolled arrhythmia, myocardial infarction, unstable angina, coronary artery bypass graft surgery, cerebrovascular disease within 24 weeks prior to the screening visit
+* Patients with acute or chronic metabolic acidosis, including lactic acidosis, diabetic ketoacidosis (DKA) with or without coma, and patients with a history of ketoacidosis
+* Patients with diabetic coma or precoma
+* Patients with a history of severe hypoglycemia while taking metformin and DPP-4 inhibitors.
+* Patients with hematuria
+* Patients who receiving treatment for thyroid dysfunction at the time of screening
+* Malnourished, starving, or debilitated subjects
+* Patients with pituitary insufficiency or adrenal insufficiency
+* Patients with clinically significant hepatic disease with AST or ALT greater than 3 times the upper limit of normal
+* Patients with severe infectious diseases, perioperative, or clinically significant trauma
+* Have a history of substance abuse
+* Patients receiving insulin or sulfonylurea, thiazolidinedione, SGLT2 inhibitor, GLP-1 receptor agonist within 8 weeks prior to the screening visit
+* Patients who have received more than 2 consecutive weeks of corticosteroids within 8 weeks at the time of screening or who require treatment requiring repeated use of corticosteroids
+* Patients with a history of malignancy within the last 5 years
+* Participation in any other clinical trial within 12 weeks of screening in which an investigational drug or investigational medical device was administered or applied
+* Pregnant and breastfeeding women
+* Hypersensitivity to any of the drugs and components, including metformin, DPP-4 inhibitors, dapagliflozin, TZDs, sulfonylurea class of drugs, or any of the ingredients
+* Patients with genetic problems such as galactose intolerance, Lapp lactose deficiency, or glucose-galactose mal-absorption.
+* Any other person deemed by the investigator to be unsuitable for participation in the study
+Minimum Age: 19 Years
+Maximum Age: 
+Sex: ALL
+
+Primary Outcome Measures:
+- Variance in HbA1c from baseline to 24 weeks on study drug [Time Frame: 24 weeks] Change in HbA1c

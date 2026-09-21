@@ -1,0 +1,41 @@
+NCT Number: NCT05252208
+Title: Stretching vs Walking for Lowering Blood Pressure
+Official Title: Is Stretching Superior to Aerobic Training for Reducing Blood Pressure?
+Lead Sponsor: University of Saskatchewan
+Overall Status: RECRUITING
+Start Date: 2022-03-28
+Study Type: INTERVENTIONAL
+Phases: NA
+Enrollment: 96
+Conditions: Hypertension
+
+Brief Summary:
+High blood pressure is a leading risk factor for cardiovascular disease. Traditionally, one of the ways to treat or prevent high blood pressure is to prescribe aerobic exercise training (i.e. brisk walking). Stretching may also be effective because it may cause changes in blood vessel stiffness and therefore reduce resistance to blood flow. The study will assess a group of individuals (i.e. 96) participating in a supervised stretching or walking program five days per week for six months to determine whether stretching is superior for reducing blood pressure. This research will contribute to recommendations about the most effective exercise programs for reducing blood pressure and risk of cardiovascular disease.
+
+Detailed Description:
+Hypertension or high blood pressure is a prevalent and leading risk factor for heart disease and stroke afflicting seven million people in Canada and costing our health system approximately $20 billion annually. The prevailing exercise recommendation for people with hypertension is to perform aerobic training (i.e. brisk walking) as a non-pharmacological way to moderately reduce blood pressure. Evidence from several recent studies indicates flexibility training may accrue more positive changes in blood pressure than aerobic training. Additional recent studies show stretching can reduce arterial stiffness and sympathetic nervous system activation, suggesting physiological mechanisms by which blood pressure might be reduced through exercises designed mostly to improve flexibility. The purpose of this study is to determine if a 6-month flexibility program is superior to aerobic training for reducing 24-hour blood pressure measurements, improving measures of vascular function (i.e. arterial stiffness), and improving the ratio of parasympathetic to sympathetic nervous system activation. This study involves a randomized controlled trial of 96 men and women presenting with either high-normal blood pressure (systolic 130 to 139 mmHg or diastolic 85 to 89 mmHg) or stage 1 hypertension (systolic 140 to 159 mmHg or diastolic 90 to 99 mmHg) stratified by blood pressure (i.e. either high normal or stage 1 hypertension), sex, and age (≥55y or \<55y) and randomized to one of two groups for six months duration: 1) a flexibility program (30 minutes of stretching per day); or 2) an aerobic training program (30 minutes of brisk walking per day). Assessments pre- and post-intervention and three months later include: 24-hour ambulatory blood pressure, arterial stiffness, and heart rate variability. .
+
+Interventions:
+- OTHER: Stretching exercise. Stretching (30-45 minutes, 5 days per week, 6 months)
+- OTHER: Walking exercise. Walking (30-45 minutes, 5 days per week, 6 months)
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+* Systolic blood pressure between 130 and 159 mmHg OR diastolic blood pressure between 85 and 99 mmHg
+* Able to walk unaided for 30 minutes
+* Can safely perform exercises as determined by the Get Active Questionnaire
+
+Exclusion Criteria:
+
+* Not on blood pressure medication unless it has been a stable dose for 6 months and target blood pressure has not been achieved (i.e. below 140/90 mmHg)
+* Smoking
+* Already performing 150 minutes or more moderate to vigorous physical activity per week
+* Already involved in a flexibility-training program (e.g. Yoga or Pilates)
+* Pregnant or lactating or planning to become pregnant during the study
+Minimum Age: 18 Years
+Maximum Age: 
+Sex: ALL
+
+Primary Outcome Measures:
+- Night time systolic and diastolic blood pressure [Time Frame: Change from baseline night time blood pressure at 6 months] Blood pressure assessed during the night with an automated device

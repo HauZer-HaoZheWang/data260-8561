@@ -1,0 +1,48 @@
+NCT Number: NCT03463564
+Title: Insulin Pump vs Multiple Daily Injections of Insulin and Glyco-metabolic Control in Type 1 Diabetic Patients
+Official Title: Effects of Insulin Pump Versus Multiple Daily Injections of Insulin on Glycemic and Metabolic Control in Type 1 Diabetic Patients Transitioned to the Adult Center: the Management and Technology for Transition Study (METRO)
+Lead Sponsor: University of Campania Luigi Vanvitelli
+Overall Status: RECRUITING
+Start Date: 2016-01
+Study Type: INTERVENTIONAL
+Phases: PHASE4
+Enrollment: 150
+Conditions: Type 1 Diabetes Mellitus
+
+Brief Summary:
+The transition from the Pediatric clinic to the adult care is a challenging period for young adults with type 1 diabetes, due to the high risk of poor glycemic control. Achieving the glycemic target without hypoglycemia and/or large glucose excursions is of paramount importance for type 1 diabetic patients, who have high variability of daily glucose levels . Both insulin pump therapy and multiple daily injections of insulin are recommended strategy to achieve glycemic control in type 1 diabetes; however, no studies investigated the effects of insulin pump vs insulin injections on glycol-metabolic outcomes in the transition phase. The aim of this study was to evaluate the effects of continuous subcutaneous insulin infusion (CSII) therapy, as compared with multiple daily injections of insulin (MDI), on glycemic and metabolic control, in young type 1 diabetic patients transitioned to the adult diabetes care.
+
+Detailed Description:
+
+
+Interventions:
+- DEVICE: Insulin pump. Continuous subcutaneous insulin infusion consisting of the delivery of insulin lispro as basal rate and boluses administered before meals.
+- DRUG: Insulin injections. Four injections of insulin daily consisting in three bolus of a rapid-acting analog lispro or aspart before breakfast, lunch and dinner and one injection of insulin glargine or degludec at bed-time of basal insulin
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+* T1DM for at least 12 months
+* persistent HbA1c levels ≥ 7.5% (58 mmol/mol) despite optimized education therapy,
+* recurrent severe hypoglycemic episodes or high glucose variability
+* willingness to wear the insulin pump
+
+Exclusion Criteria:
+
+* previous use of insulin pump
+* pregnancy or planning to become pregnant in the next 2 years,
+* lack of ability to use the study devices
+* history of severe chronic diseases
+* recent or concomitant use of corticosteroids
+* drug or alcohol abuse
+* psychiatric complaints that interfere with the correct use of the devices
+Minimum Age: 18 Years
+Maximum Age: 30 Years
+Sex: ALL
+
+Primary Outcome Measures:
+- HbA1c change [Time Frame: Baseline, 6 months, 12 months, 24 months] Within and between groups difference in HbA1c levels
+- Change in mean amplitude glucose excursions (MAGE [Time Frame: Baseline, 6 months, 12 months, 24 months] Within and between groups difference in glucose variability measured as mean amplitude of glucose excursions (MAGE).
+- Change in coefficient of variation (CV) [Time Frame: Baseline, 6 months, 12 months, 24 months] Within and between groups difference in glucose variability measured as coefficient of variation (CV).
+- Change in standard deviation (SD) of mean glucose levels [Time Frame: Baseline, 6 months, 12 months, 24 months] Within and between groups difference in glucose variability measured as standard deviation (SD) of mean glucose levels
+- Change in glucose variability [Time Frame: Baseline, 6 months, 12 months, 24 months] Within and between groups difference in time in the euglycemic range, defined as the minutes per day spent in glucose levels ranging between 70-180 mg/dL

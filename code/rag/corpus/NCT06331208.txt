@@ -1,0 +1,87 @@
+NCT Number: NCT06331208
+Title: Mechanisms of Pulmonary Vascular Dysfunction in Heart Failure
+Official Title: Mechanisms of Pulmonary Vascular Dysfunction in Heart Failure
+Lead Sponsor: Institute for Clinical and Experimental Medicine
+Overall Status: RECRUITING
+Start Date: 2024-08-23
+Study Type: OBSERVATIONAL
+Phases: 
+Enrollment: 230
+Conditions: Heart Failure, Pulmonary Hypertension, Pulmonary Vascular Resistance Abnormality
+
+Brief Summary:
+Heart failure (HF) patients often develop pulmonary hypertension (PH) that leads to transition into a biventricular HF with poor prognosis.
+
+There are two PH components: 1) passive transmission of increased left atrial pressure, 2) heart failure (HF) related pulmonary vascular dysfunction (PVD) with increased vascular resistance. Intriguingly, only some, but not all HF patients develop heart failure-related PVD. The mechanisms and non-invasive detection of HF-PVD are poorly understood and are the focus of the current grant application. Development of PVD is linked to insufficiently characterized metabolic factors that may be mediators of HF-PVD.
+
+Untargeted metabolomics is an emerging powerful platform for the discovery of pathways linked to diseases. Its specificity can be further enhanced using transpulmonary gradient sampling.
+
+Part A of the project aims to identify novel metabolites associated with the presence of PVD in patients with HF that can serve as biomarkers or targets and will provide biologic insights into PVD. Part C will assess the effects of reverting of metabolic alterations (identified in part A) by a drug/diet on pulmonary vasculature in experimental HF-related PVD. The "gold standard" for the detection of PVD is right heart catheterization, which is invasive and risky. Heart failure-related PVD is therefore often diagnosed late.
+
+There is a need for noninvasive tests that may help to detect PVD in early stages and can be done repeatedly. Recent advances in artificial intelligence (AI)-assisted automated quantitative analysis of lung texture from low-dose contrast-free high-resolution CT images allow to quantify lung water content, interstitial changes or vessel volume, and may provide clues for detection of heart failure-related PVD. Such an approach, not tested yet, will be utilized for the detection of HF-PVD (part B). Clinical and functional characteristics of lung circulation (exercise hemodynamics, diffusion capacity, perfusion) will be analyzed in relation to quantitative CT data.
+
+Detailed Description:
+Goals of the project are:
+
+A) To identify metabolic factors associated with the development of heart failure related pulmonary vascular disease (PVD) using unbiased metabolomic analysis of blood samples obtained before and after passage through lungs (transpulmonary metabolome), obtained during medically indicated right heart catheterization of HF patients with variable degree of pulmonary vasculopathy. Findings from discovery cohort A1 (200 HF, 30 controls) will be prospectively validated in validation cohort A2 (200 HF, 30 controls). Clinical data (medication, comorbidities, nutritional intake) will be analyzed to identify explanatory links to transpulmonary metabolome and increased pulmonary vascular resistance. The goal is to discover metabolic factors and pathways critical for PVD development, that might be targeted by pharmaco-intervention.
+
+B) To identify structural and functional characteristics of heart failure (HF) related PVD using advanced imaging (cohort B, 60 HF patients, 30 controls). Advanced non-invasive imaging methods (high resolution non-contrast CT, SPECT) will be used to identify early changes in lung structure indicating the presence of pulmonary vascular disease. HF subjects with variable elevation of pulmonary vascular resistance will be extensively phenotyped using novel automated AI-augmented analysis of CT data texture, and by SPECT perfusion imaging. These morphologic characteristics will be linked to functional parameters (diffusion capacity, pulmonary vascular resistance change during exercise). The goal is to develop non-invasive imaging markers of early PVD due to HF.
+
+C) To test the impact of the correction of metabolic abnormalities on heart failure-related PVD in animal model. Animal model mimicking PVD due to HF will be characterized and the impact of the dietary or pharmacological intervention (based on findings from part A) on pulmonary hemodynamics will be tested in rats with myocardial infarction by left anterior descending (LAD) artery ligation combined with low-dose toxin to pulmonary circulation (monocrotaline or substance Sugen 5416).
+
+Interventions:
+- DIAGNOSTIC_TEST: non-contrast chest CT. patients who undergo clinically indicated evaluation of pulmonary circulation (right heart catheterisation - RHC) will undergo non-contrast CT of the chest, blood sampling from pulmonary artery and spirometry with DLCO analysis.
+- DIAGNOSTIC_TEST: spirometry with diffusing lung capacity for carbon monoxide (DLCO) analysis. patients who undergo clinically indicated evaluation of pulmonary circulation (RHC) will undergo non-contrast CT of the chest, blood sampling from pulmonary artery and spirometry with DLCO analysis.
+- DIAGNOSTIC_TEST: Omics analysis of blood plasma obtained from pulmonary artery or peripheral blood. patients who undergo clinically indicated evaluation of pulmonary circulation (RHC) will undergo non-contrast CT of the chest, blood sampling from pulmonary artery and spirometry with DLCO analysis.
+- DIAGNOSTIC_TEST: supine bike exercise during right heart catheterisation. subgroup of HF subjects who undergo right heart catheterisation will perform short supine bike exercise during RHC
+- DIAGNOSTIC_TEST: Lung ventilation/perfusion SPECT. subgroup of HF subjects will undergo ventilation/perfusion SPECT
+
+Eligibility Criteria:
+A) Inclusion Criteria
+
+HF group:
+
+* age\>18y
+* signed informed consent,
+* left ventricular (LV) ejection fraction \<50%
+* duration of HF\>6 months,
+* loop diuretic use,
+* clinical indication to right heart catheterisation
+
+Control group:
+
+* Age \>18years
+* Signed informed consent
+* Non-HF subjects referred to Institute for Clinical and Experimental Medicine (IKEM) in Prague for an invasive procedure (PFO closure, arrhythmia ablation, for subjects undergoing RHC) or non-invasive diagnostic evaluation (controls without invasive sampling)
+
+B) Exclusion Criteria:
+
+Heart Failure group:
+
+* Patients with hemodynamic instability requiring inotropic support
+* Severe renal insufficiency (estimated glomerular filtration rate \<0.6 ml/s)
+* Acute coronary syndrome
+* High cardiac output (cardiac index \>4 l/m2)
+* Known pulmonary hypertension of other type than II (type I, III, IV)
+* Active infection
+* Respiration insufficiency
+* Large pleural effusion
+* Severe intrinsic lung disease (treated chronic obstructive pulmonary disease (COPD)
+
+  * asthma, known interstitial lung disease)
+
+Control group:
+
+* Pulmonary hypertension (RV systolic pressure estimate on screening \> 45 mmHg)
+* History of recent pulmonary embolism \< 1 year
+* Echocardiographic evidence of reduced function of right or left ventricle
+* Treated asthma/COPD, known intersticial lung disease
+* Significant exercise intolerance (NYHA \> II)
+Minimum Age: 18 Years
+Maximum Age: 
+Sex: ALL
+
+Primary Outcome Measures:
+- biomarker of pulmonary vasculopathy in HF [Time Frame: after recruitment and cross-sectional analysis of all enrolled subjects (no later than december 2026-the end of study)] putative biomarker (protein or metabolite) identified by omics analysis of from plasma of HF patients (with low and high pulmonary vascular resistance) or controls
+- CT characteristics of pulmonary vasculopathy in HF [Time Frame: after recruitment and cross-sectional analysis of all enrolled subjects (no later than december 2026-the end of study)] average volume of pulmonary arterioles and venules by non-contrast high resolution CT
+- CT characteristics of presence of heart failure [Time Frame: after recruitment and cross-sectional analysis of all enrolled subjects (no later than december 2026-the end of study)] radiographic density of lung parenchyma (lung water estimation) by non-contrast high resolution CT

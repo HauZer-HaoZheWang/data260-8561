@@ -1,0 +1,81 @@
+NCT Number: NCT06496048
+Title: Lurbinectedin or in Combination with Irinotecan Versus Topotecan in Patients with Relapsed SCLC
+Official Title: A Phase III, Multicenter, Randomized, Open-label Study of Lurbinectedin As Monotherapy or in Combination with Irinotecan Versus Topotecan in Patients with Relapsed Small-cell Lung Cancer (SCLC)
+Lead Sponsor: Luye Pharma Group Ltd.
+Overall Status: RECRUITING
+Start Date: 2024-09-14
+Study Type: INTERVENTIONAL
+Phases: PHASE3
+Enrollment: 180
+Conditions: Relapsed Small Cell Lung Cancer
+
+Brief Summary:
+Multicenter, open-label, randomized, controlled phase III clinical trial to evaluate and compare the activity and safety of two experimental arms consisting of Lurbinectedin monotherapy or Lurbinectedin + Irinotecan combined therapy versus Topotecan comparator in Small-cell Lung Cancer (SCLC) patients who failed one prior platinum-containing line.
+
+Detailed Description:
+
+
+Interventions:
+- DRUG: Lurbinectedin. Lurbinectedin 3.2 mg/m2 administered by infusion on Day 1 of each cycle (q3wk)
+- DRUG: Irinotecan. Irinotecan 75 mg/m² intravenously Days 1 \& 8 q3wk
+- DRUG: Lurbinectedin. Lurbinectedin 2.0 mg/m2 administered by infusion on Day 1 of each cycle (q3wk)
+- DRUG: Topotecan. Topotecan 1.2 mg/m² intravenously Days 1-5 q3wk
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+1. Being voluntary to sign the informed consent form, with good compliance with the study treatment regimen and visit schedule.
+2. Men or women ≥18 years of age.
+3. Histologically or cytologically confirmed SCLC.
+4. Life expectancy ≥12 weeks.
+5. Eastern Cooperative Oncology Group performance status (ECOG PS) score ≤2 (see Appendix I for the scoring criteria).
+6. One prior line of etoposide + platinum chemotherapy with/without anti-PD-1 or anti-PD-L1 (Note: at least 70% of the patients included in the study have to be pretreated with anti-PD-1 or anti-PD-L1)
+7. Chemotherapy-free interval (CTFI, i.e., the time from the last dose of first-line platinum-based chemotherapy to the occurrence of disease progression) ≥30 days.
+8. At least one measurable lesion (in accordance with RECIST 1.1 criteria).
+9. Adequate organ function as defined below:
+
+   1. Hemoglobin ≥ 9.0 g/dL (Red blood cell transfusion is allowed to be given more than 2 weeks prior to enrollment if blood transfusion is clinically indicated); absolute neutrophil count ≥ 2.0 × 109/L, and platelet count ≥ 100 × 109/L.
+   2. Alanine aminotransferase and aspartate aminotransferase ≤ 3.0 × ULN.
+   3. Total bilirubin ≤ 1.5 × ULN or direct bilirubin ≤ 1 × ULN.
+   4. Albumin ≥ 3.0 g/dL.
+   5. Calculated creatinine clearance (CrCL) ≥ 40 mL/min (using the Cockcroft-Gault formula, as detailed in Appendix IV).
+10. ≥ 3 weeks since the last anti-tumor therapy and recovery of adverse events (AEs) related to prior anti-tumor therapy to Grade ≤ 1, as judged by National Cancer Institute - Common Terminology Criteria for Adverse Events (NCI-CTCAE 5.0) (Except for anemia; and recovery to Grade ≤ 2 for sensory neuropathy, asthenia and alopecia).
+11. Female patients of childbearing potential must have a negative blood or urine pregnancy test prior to enrollment, and must accept to take highly effective contraceptive measures during the treatment with the investigational medicinal product and for 7 months after the last dose. Male patients with a female partner of childbearing potential must accept to take highly effective contraceptive measures during the treatment with the investigational medicinal product and for 4 months after the last dose.
+
+Exclusion Criteria:
+
+1. Patients with central nervous system (CNS) metastases, unless that they have received corresponding treatment and have been shown by a repeated imaging examination to have stable disease (i.e., no evidence of disease progression) for at least 4 weeks (Note: the repeated imaging examination should be performed at screening), are asymptomatic, and do not need to receive steroid therapy within at least 7 days prior to the first dose of the investigational medicinal product.
+2. Platinum-naïve patients or patients pretreated with more than one prior chemotherapy regimen (including patients re-challenged with same initial regimen).
+3. Prior use of Lurbinectedin, Trabectedin, PM14 (Ecubebectedin), or topoisomerase I inhibitors (Irinotecan, Topotecan, etc.).
+4. Having received a strong or moderate CYP3A4 inhibitor within 2 weeks prior to the first dose of the investigational medicinal product (see Appendix III for details).
+5. Patients who have received prophylactic cranial irradiation (PCI) and radiotherapy (prophylactic and/or therapeutic) at other sites within 2 weeks prior to randomization.
+6. Patients with limited-stage disease who plan to receive local or regional treatment (including PCI, thoracic radiotherapy, or both) during the study (Note: patients with extensive-stage disease may receive radiotherapy during the study if they meet the requirements as described in Section 5.8.1).
+7. Patients who, at the screening visit, are about to receive radiotherapy, such as for painful bone metastasis and/or risk of spinal cord compression. Patients who have a history of bone marrow and/or stem cell transplantation and allogeneic transplantation.
+8. Having received a live vaccine or attenuated live vaccine within 30 days before the first dose of the investigation medicinal product (inactivated vaccines are allowed).
+9. Concomitant diseases:
+
+   1. Having unstable angina pectoris, myocardial infarction, congestive heart failure (CHF) of New York Heart Association (NYHA) class II or above, or clinically significant heart valve diseases within one year prior to screening.
+   2. Having symptomatic arrhythmia, or arrhythmia with unstable control and requiring continuous treatment at screening.
+   3. Patients requiring continuous oxygen inhalation within 2 weeks prior to randomization.
+   4. Patients with confirmed or suspected diffuse interstitial lung disease or pulmonary fibrosis.
+   5. Patients who have rapidly increasing pleural or pericardial effusion with significant symptoms, and/or need prompt local therapy within 7 days, at screening.
+   6. Hepatic cirrhosis with the Child-Pugh score (see Appendix II for the scoring criteria) of B or C.
+   7. Patients with Gilbert's disease.
+   8. Patients with persistent non-neoplastic chronic liver disease (of any etiology) requiring treatment, including those with positive hepatitis B surface antigen (HBsAg) and hepatitis B virus deoxyribonucleic acid (HBV-DNA) titer ≥ 500 IU/mL, those with positive hepatitis C antibody and hepatitis C virus ribonucleic acid (HCV-RNA) titer ≥ 100 IU/mL, and those having received hepatitis-related antiviral therapy within 6 months prior to the first dose of the investigational medicinal product.
+   9. Chronic inflammatory bowel disease or intestinal obstruction (including intestinal pseudo-obstruction, incomplete intestinal obstruction, enteroparalysis, etc.) in the past or at screening.
+   10. Patients with uncontrolled active infection who have received systemic intravenous anti-infective therapy within 1 week prior to randomization.
+   11. Having severe and uncured wounds, ulcers, fractures, and external drainage disposal at screening.
+   12. Patients with confirmed or suspected invasive fungal infection within 12 weeks prior to randomization who need systemic treatment.
+   13. Positive for human immunodeficiency virus (HIV) antibody at screening.
+   14. Patients with prior history of malignant tumors other than SCLC, except those who have undergone radical resection more than 3 years prior to randomization and have a sustained response after treatment (e.g., cervical carcinoma in situ, basal or squamous cell skin cancer, transitional cell bladder cancer in situ, etc.).
+   15. Any other major disease that, at the discretion of the investigator, can significantly increase the risk associated with participation in this study.
+10. Having a history of allergy or hypersensitivity to any of the investigational medicinal products or any of their excipients.
+11. Drug abuse, drug addiction or alcohol abuse (alcohol abuse is defined as drinking more than 14 units of alcohol per week within 3 months prior to signing the informed consent \[1 unit = 350 mL of beer, or 45 mL of liquor, or 150 mL of wine\]).
+12. Pregnant or lactating women and patients of childbearing age who cannot use highly effective contraceptive methods (regardless of gender) (see Inclusion Criterion #11).
+13. Those who cannot fully comply with the treatment plan or comply with the study protocol, as judged by the investigator.
+Minimum Age: 18 Years
+Maximum Age: 
+Sex: ALL
+
+Primary Outcome Measures:
+- Overall survival (OS) [Time Frame: from the date of randomization until the date of death or the last contact date, up to 12 months after randomization of the last enrolled subject] OS will be calculated calculated from the date of randomization until the date of death or the last contact date (in which case, OS time will be censored at that date)

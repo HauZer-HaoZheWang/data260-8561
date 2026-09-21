@@ -1,0 +1,59 @@
+NCT Number: NCT05487534
+Title: Do "sugar Swings" Impact the Brain Function and the Eating Behaviors of People with Type 1 Diabetes
+Official Title: Impact of Glycemic Variability on Cognitive Impairment, Disordered Eating Behavior, and Self-management Skills in Patients Living with Type 1 Diabetes
+Lead Sponsor: Laval University
+Overall Status: RECRUITING
+Start Date: 2023-04-26
+Study Type: OBSERVATIONAL
+Phases: 
+Enrollment: 150
+Conditions: Type 1 Diabetes
+
+Brief Summary:
+In type 1 diabetes, it is common to choose the food we eat according to the blood sugar level and the insulin dose and vice versa. Beyond the nutritional aspects, the relationship to food and the resulting eating behaviors can be a source of suffering. Also, it has been reported that one out of two people over 60 years of age living with type 1 diabetes has cognitive impairment. Changes in cognitive functions can have important implications for daily well-being, diet (e.g., the ability to modulate cravings), and treatment decisions to manage diabetes.
+
+One factor that can affect both eating behaviors and cognitive function is variation in blood glucose levels.
+
+This research aims to better understand the impact of glycemic variability in disordered eating behaviors and cognitive impairment, and its consequences on self-management skills in people with type 1 diabetes.
+
+The hypotheses are that i) higher glycemic variability is associated with higher disordered eating behaviors and poorer cognitive function in people with type 1 diabetes, and that differences exist between sexes, ii) higher disordered eating behaviors and poorer cognitive function are associated with lower self-management skills; and iii) cognitive impairment, interoception awareness and insulin resistance may mediate the relationship between glycemic variability and disordered eating behaviors.
+
+This research study will contribute to highlighting the consequences of blood sugar fluctuations, "sugar swings", in daily life, in particular the way they disrupt eating behaviors and brain function. A better understanding of the mechanisms involved could eventually allow for early detection and management of these problems. Our study will also seek to understand the patients' point of view, which will allow the design of appropriate and meaningful recommendations.
+
+Detailed Description:
+All assessments will be done in virtual mode through secure platforms (but also offered in person in Quebec City if needed to limit discrimination).
+
+The study will start with an inclusion visit during which self-reported and medical data will be collected as well as some anthropometric parameters measured. Following the visit, the participant will be asked to wear a continuous glucose sensor provided by the investigator (Dexcom®) to perform a continuous glucose recording for 10 days. During this 10-day period, the participant will be required to complete:
+
+* A food diary during 3 weekdays and 1 weekend day using the Keenoa® app.
+* 3 online sessions combining questionnaires (using the Redcap platform) and computerized tests (Inquisit® platform). Each session will last approximately 45 minutes (can vary between 30 and 60 minutes).
+
+Participants who wish to participate in the qualitative phase of this study will also be offered the opportunity to do so. Participants will be recruited consecutively until a total of 50 are reached. For this part of the study, an individual interview will be conducted by a professional specifically trained in this method of analysis. This meeting will last on average 1.5 hours, but may last up to 2.5 hours depending on the length of the discussion. There will be an audio and video recording of this meeting. The discussions will then be transcribed into text and analyzed.
+
+Interventions:
+- OTHER: Observational. The same self-reported questionnaires and cognitive tests will be completed by both groups. There is no intervention.
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+* Type 1 diabetes (\> 12 months)
+* Age between 18 and 65 years old
+* 6.5 % \< A1C \< 9% (to avoid potential severe eating disorder)
+
+Exclusion Criteria:
+
+* Type 2 diabetes or other form of diabetes; gastroparesis (clinical diagnosis);
+* Recent (\< 6 months) major cardiovascular event (e.g. myocardial infarction, cerebrovascular accident, major revascularization)
+* Recent (\< 12 weeks) severe hypoglycemia episodes (\<2.8 mmol/L or assistance from a third party)
+* Recent (\< 12 weeks) changes in insulin type or delivery method
+* Automated Insulin Delivery
+* History of severe brain trauma, epilepsy, schizophrenia or bipolar disorders
+* Inability to use a computer
+* Incorrect vision or auditory problems
+Minimum Age: 18 Years
+Maximum Age: 65 Years
+Sex: ALL
+
+Primary Outcome Measures:
+- Eating Disorder examination (EDE-Q) [Time Frame: Day 1 (+/- 2 days)] To assess eating behaviors according to their glycemic variability.
+- Glucose variability and insulin resistance (CGMS - 10 days) [Time Frame: Start at inclusion (Day 1 to Day 10)] CGMS will be performed over a 10-day period using a DEXCOM G6 to separate participants into groups based on glycemic variation (i.e., a coefficient of variation \[CV\] \>36% over a 10-day CGMS) versus those with a low glucose variability (i.e., CV \<36%).

@@ -1,0 +1,63 @@
+NCT Number: NCT06423690
+Title: First in Human Study for the Assessment of Safety and Initial Performance of the EAS1 System
+Official Title: Snipe Medical First In Human Study
+Lead Sponsor: Snipe Medical
+Overall Status: RECRUITING
+Start Date: 2024-11-01
+Study Type: INTERVENTIONAL
+Phases: NA
+Enrollment: 15
+Conditions: Lung Cancer
+
+Brief Summary:
+A Prospective, open label, multi center, single arm, First in Human study to assess the safety and initial performance of EAS1 system for Irreversible Electroporation (IRE) ablation of lung cancer in subjects eligible for tumor resection
+
+Detailed Description:
+
+
+Interventions:
+- DEVICE: EAS1 System. tumor ablation system in IRE method
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+* Adult male and female subjects (age ≥18 years at the date of informed consent signature)
+* Subject is capable and willing to provide an informed consent
+* Subjects with a known diagnosis of lung cancer at cT1a-T1c, cN0 stages
+* At least one pulmonary tumor (primary or metastasis) ≤ 30 mm in maximal diameter, as confirmed by the latest standard of care imaging (CT/MRI), performed preferably up to 30 days prior to screening
+* Subjects who are scheduled or deemed eligible by a thoracic surgeon for lung tumor resection
+* Subject is able and willing to comply with the study procedures and visits
+* There is ≥ 5mm of nodule-free lung parenchyma between target nodule and pleura or fissure, as confirmed by the latest standard of care imaging (CT/MRI), performed preferably up to 30 days prior to screening
+* ECOG 0-1
+* Stable doses of concomitant medications for at least four (4) weeks prior to enrollment
+
+Exclusion Criteria:
+
+* An inability to provide informed consent
+* Subjects with contraindication for tumor resection
+* Subjects with life expectancy \<12 months
+* Target nodule is abutting main stem bronchus, main pulmonary vasculature, esophagus and/or trachea
+* Subjects with Forced Expiratory Volume (FEV1) \<50%
+* Total Lung Capacity (TLC)\< 80% of expected for age
+* Diffusing Capacity (DCO) \< 60% of expected
+* Oxygen saturation in free air of \<88%, or requiring more than 2 l/min oxygen to achieve saturation of 92%
+* PCO2 of ≥ 45mm/Hg
+* Subjects in exacerbations group E (high risk; ≥2 exacerbations per year or ≥1 requiring hospitalization and any level of symptoms)
+* Severe emphysema, Bullous Emphysema or chronic obstructive pulmonary disease (COPD) (GOLD III/IV)
+* Active and/or prolonged lung or bronchi infection, required an antibiotic treatment up to 21 days prior to screening and for more than 10 days of treatment
+* Known history or current evidence of a significant bronchiectasis
+* Evidence of lung Bullae the occupies more than one third of the lung intended for ablation
+* Previous surgery in the lung intended for ablation; thoracic major surgery at the side intended for ablation
+* Anticoagulation treatment that cannot be discontinued prior to the ablation, or a bleeding diathesis or platelets \<100 )K/µl)
+* Pregnant or breastfeeding female subjects or female subjects who plan pregnancy during participation in the study
+* Highly hypoxemic patients, according to investigator's discretion
+* Subjects with implanted metal or electronic thoracic devices objects (such as pacemaker) that cannot be removed prior to procedure
+* Subjects with contraindication for bronchoscopy
+* Participation in any other interventional clinical trial with medication, medical device and/or supplements within 30 days prior to informed consent signature
+* Any subject who, at the discretion of the investigator, may be jeopardized by study participation
+Minimum Age: 18 Years
+Maximum Age: 80 Years
+Sex: ALL
+
+Primary Outcome Measures:
+- Safety of the EAS1 System in Lung Tumor Ablation During Procedure [Time Frame: 48 hours post procedure] Accumulative rate of device related Serious Adverse Events (SAEs) during the ablation and up to 48 hours post ablation

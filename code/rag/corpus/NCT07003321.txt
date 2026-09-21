@@ -1,0 +1,44 @@
+NCT Number: NCT07003321
+Title: A Trial of HRS-4508 in Subjects With Locally Advanced or Metastatic Non-small Cell Lung Cancer
+Official Title: Study on Efficacy and Safety of HRS-4508 in Subjects With Locally Advanced or Metastatic Non-small Cell Lung Cancer
+Lead Sponsor: Jiangsu HengRui Medicine Co., Ltd.
+Overall Status: RECRUITING
+Start Date: 2025-09-12
+Study Type: INTERVENTIONAL
+Phases: PHASE2
+Enrollment: 120
+Conditions: Solid Tumor
+
+Brief Summary:
+The study is being conducted to evaluate the efficacy, safety, and ORR of HRS-4508 in subjects with locally advanced or metastatic non-small cell lung cancer; Evaluate the pharmacokinetic (PK) characteristics of HRS-4508 and other efficacy endpoints for the treatment of locally advanced or metastatic non-small cell lung cancer.
+
+Detailed Description:
+
+
+Interventions:
+- DRUG: HRS-4508 tablet. HRS-4508 tablet
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+1. Age: 18 to 80 years old; Both men and women are welcome;
+2. Locally advanced or metastatic non-small cell lung cancer that has failed standard treatment or cannot tolerate standard treatment regimens.
+3. ECOG ratings of 0 or 1.
+4. Expected survival period ≥ 12 weeks.
+5. At least one measurable lesion outside the central nervous system that meets the RECIST v1.1 standard definition.
+6. Willing to participate and comply with the requirements of the research protocol, and willing to cooperate with follow-up visits.
+
+Exclusion Criteria:
+
+1. Accompanied by untreated or active central nervous system (CNS) tumor metastasis. Subjects with a history of meningeal metastasis or current meningeal metastasis
+2. There have been significant severe infections and major surgeries in the past 4 weeks
+3. Existence of previous or concurrent malignant tumors
+4. Difficult to treat nausea, vomiting, or other gastrointestinal diseases that affect the use of oral medication
+5. Having undergone major surgeries other than diagnosis or biopsy within 28 days prior to the first administration; Experiencing traumatic minor surgery within 7 days prior to the first administration of medication
+Minimum Age: 18 Years
+Maximum Age: 80 Years
+Sex: ALL
+
+Primary Outcome Measures:
+- The incidence and severity of adverse events (AE)/serious adverse events (SAE) (rated based on CTCAE v5.0) [Time Frame: 2 years] 
+- Objective response rate (ORR) [Time Frame: 1 year] 

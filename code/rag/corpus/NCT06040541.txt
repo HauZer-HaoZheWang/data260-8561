@@ -1,0 +1,44 @@
+NCT Number: NCT06040541
+Title: Study of RMC-9805 in Participants With KRAS G12D-Mutant Solid Tumors
+Official Title: Phase 1/1b, Multicenter, Open-Label, Study of RMC 9805 in Participants With Advanced KRASG 12D-Mutant Solid Tumors
+Lead Sponsor: Revolution Medicines, Inc.
+Overall Status: RECRUITING
+Start Date: 2023-09-07
+Study Type: INTERVENTIONAL
+Phases: PHASE1
+Enrollment: 604
+Conditions: Non-small Cell Lung Cancer (NSCLC), Colorectal Cancer (CRC), Pancreatic Ductal Adenocarcinoma (PDAC), Advanced Solid Tumors
+
+Brief Summary:
+This study is to evaluate the safety and tolerability of RMC-9805 as monotherapy and in combination with RMC-6236 in adults with KRAS G12D-mutant solid tumors.
+
+Detailed Description:
+This is an open-label, multicenter, Phase 1/1b study of RMC-9805, a selective and orally bioavailable KRAS G12D(ON) inhibitor, in subjects with KRASG12D-mutant solid tumors to evaluate the safety, tolerability, pharmacokinetics (PK), and preliminary clinical activity. The study consists of two arms: RMC-9805 monotherapy arm and RMC-9805 plus RMC-6236 combination arm. Both arms consist of two parts: Part 1- dose exploration and Part 2- dose expansion.
+
+Interventions:
+- DRUG: RMC-9805. Oral Tablets
+- DRUG: RMC-6236. Oral Tablets
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+* Pathologically documented, locally advanced or metastatic solid tumor with a KRAS G12D-mutation
+* Received and progressed or been intolerant to prior standard therapy (including targeted therapy) appropriate for tumor type and stage
+* ECOG performance status 0 or 1
+* Adequate organ function
+
+Exclusion Criteria:
+
+* Primary central nervous system (CNS) tumors
+* Known or suspected leptomeningeal or active brain metastases or spinal cord compression
+* Known or suspected impairment of gastrointestinal function that may prohibit ability to swallow or absorb an oral medication
+* Participant was previously treated with an investigational KRAS G12D inhibitor, pan- or multi-RAS inhibitor, or had prior therapy with any direct RAS-targeted therapy (eg, degraders and inhibitors)
+
+Other inclusion/exclusion criteria may apply.
+Minimum Age: 18 Years
+Maximum Age: 
+Sex: ALL
+
+Primary Outcome Measures:
+- Adverse events [Time Frame: Up to 3 years] Incidence and severity of treatment-emergent Adverse Events (AEs) and serious AEs and clinically significant changes in laboratory values, ECGs, and vital signs
+- Dose Limiting Toxicities [Time Frame: 21 days] Number of participants with Dose Limiting Toxicities (DLTs)

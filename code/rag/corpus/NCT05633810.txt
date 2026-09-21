@@ -1,0 +1,85 @@
+NCT Number: NCT05633810
+Title: COLchicine and Non-enteric Coated Aspirin in the Cardiovascular Outcomes Trial of Patients With Type 2 Diabetes
+Official Title: COLchicine and Non-enteric Coated Aspirin in the Cardiovascular Outcomes Trial of Patients With Type 2 Diabetes (COLCOT-T2D)
+Lead Sponsor: Montreal Heart Institute
+Overall Status: RECRUITING
+Start Date: 2022-12-21
+Study Type: INTERVENTIONAL
+Phases: PHASE3
+Enrollment: 10000
+Conditions: Diabete Type 2, Cardiovascular Diseases
+
+Brief Summary:
+To evaluate the efficacy and safety of colchicine and non-enteric coated aspirin, combined or alone, to improve cardiovascular outcomes in high-risk patients with type 2 diabetes.
+
+Detailed Description:
+
+
+Interventions:
+- DRUG: Aspirin. 40 mg non-enteric-coated tablet taken twice daily.
+- DRUG: Aspirin Placebo. non-enteric-coated tablet taken twice daily.
+- DRUG: Colchicine. 0.5 mg tablet taken once daily
+- DRUG: Colchicine Placebo. tablet taken once daily.
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+1. Men and women aged 55 to 80 years
+2. Type 2 diabetes treated as per national guidelines
+3. No previous history of coronary artery disease-related clinical event
+4. And at least one of the following:
+
+   1. Duration of diabetes of 5 years or more,
+   2. HbA1c ≥ 8.0% or more in the last 2 years
+   3. Active cigarette smoking,
+   4. High hs-CRP (\> 2.0 mg/L),
+   5. High coronary calcium score (Agatston score \>100),
+   6. High TG-levels (≥1.7 mmol/L) despite lipid lowering therapy administered as per guidelines,
+   7. High LDL-C levels (≥3.5 mmol/L) or high non-HDL-C levels (≥4.2 mmol/L) despite lipid lowering therapy administered as per guidelines
+   8. High Apo-B (≥1.05 g/L)
+   9. Reduced HDL-C (\<1.05 mmol/L in men, \<1.3 mmol/L in women),
+   10. Lp(a) \>50 mg/dL,
+   11. Peripheral artery disease with stenosis ≥50% or prior revascularization,
+   12. Cerebrovascular disease with stenosis ≥50% or prior revascularization,
+   13. Diabetic retinopathy or diabetic neuropathy,
+   14. Mild or moderate proteinuria (dipstick analysis) or micro-albuminuria
+5. Women of childbearing potential must have a negative urine pregnancy test at screening/randomization visit 1 and must agree to use an effective method of birth control throughout the study. Acceptable means of birth control include: oral contraceptives, implantable contraceptives, injectable contraceptives, transdermal contraceptives, intrauterine devices, male or female condoms with spermicide, abstinence, or a sterile sexual partner.
+
+   Women are considered not of childbearing potential if they either:
+   1. Have had a hysterectomy or tubal ligation prior to baseline visit or
+   2. Are postmenopausal defined as no menses for 12 months or a FSH level (if available) in the menopausal range.
+6. Patients with the capacity to provide informed consent.
+
+Exclusion Criteria:
+
+1. Any prior history of myocardial infarction, angina, coronary revascularization, coronary stenosis \>30%, stroke, transient ischemic attack, or known heart failure
+2. Known chronic renal insufficiency defined as an estimated glomerular filtration rate (eGFR), using the MDRD equation, of \< 35 mL/min/1.73m2
+3. History of cancer or lymphoproliferative disease within the last 3 years other than a successfully treated non-metastatic cutaneous squamous cell or basal cell carcinoma and/or localized carcinoma in situ of the cervix and/or low-grade prostate cancer
+4. Inflammatory bowel disease (Crohn's disease or ulcerative colitis) or chronic diarrhea
+5. Peptic ulcer diagnosed within the last 24 months or previous gastro-intestinal bleeding, except for mild hemorrhoidal bleeding more than 5 years ago which is permitted (patients meeting this exclusion criterion will not be randomized to receive aspirin or placebo but can be randomized to receive colchicine or placebo)
+6. Pre-existent progressive neuromuscular disease or known CPK level \> 3 times the upper limit of normal as measured within the past 30 days and determined to be non-transient through repeat testing
+7. Any of the following known parameters as measured within the past 90 days, and determined to be non-transient through repeat testing:
+
+   1. hemoglobin \< 100 g/L
+   2. 2\. white blood cell count \< 3.0 X 10⁹/L
+   3. platelet count \<110 X 10⁹/L
+   4. ALT \> 3 times the upper limit of normal (ULN)
+   5. total bilirubin \> 2 times ULN (unless due to Gilbert syndrome, which is allowed)
+8. History of cirrhosis, chronic active hepatitis or severe hepatic disease
+9. Female patient who is pregnant, or breast-feeding or is considering becoming pregnant during the study or for 6 months after the last dose of study medication
+10. History of clinically significant drug or alcohol abuse in the last year
+11. Patient is currently using or plans to begin chronic systemic steroid therapy (oral or intravenous) during the study (topical or inhaled steroids are allowed, as well as replacement corticosteroids for adrenal insufficiency)
+12. Current chronic treatment with aspirin or another antiplatelet agent (patients meeting this exclusion criterion will not be randomized to receive aspirin or placebo but can be randomized to receive colchicine or placebo)
+13. Chronic treatment with an anticoagulant agent (patients meeting this exclusion criterion will not be randomized to receive aspirin or placebo but can be randomized to receive colchicine or placebo)
+14. Current use of colchicine for other indications (mainly chronic indications consisting of Familial Mediterranean Fever or gout); there is no wash-out period required for patients who have been treated with colchicine and stopped treatment prior to enrolment
+15. History of an allergic reaction or significant sensitivity to colchicine
+16. History of an allergic reaction or significant sensitivity to aspirin (patients meeting this exclusion criterion will not be randomized to receive aspirin or placebo but can be randomized to receive colchicine or placebo)
+17. Chronic treatment with an anti-inflammatory agent (for example, anti-TNF-alpha or nonsteroidal anti-inflammatory drug (NSAID))
+18. Use of an investigational chemical agent less than 30 days or 5 half-lives prior to the screening visit (whichever is longer)
+19. Patient is considered by the investigator, for any reason, to be an unsuitable candidate for the study.
+Minimum Age: 55 Years
+Maximum Age: 80 Years
+Sex: ALL
+
+Primary Outcome Measures:
+- First event of the composite of cardiovascular death, resuscitated cardiac arrest, non-fatal myocardial infarction, non-fatal stroke, or urgent hospitalization for angina requiring coronary revascularization. [Time Frame: From randomization to occurrence of first event, assessed up to 60 months.] The number of participants having at least one of the composite of the primary endpoint.

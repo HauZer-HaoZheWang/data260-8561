@@ -1,0 +1,58 @@
+NCT Number: NCT07356817
+Title: Cardiovascular Risk Assessment in Young Women After Index Pregnancy With and Without Placental Complications
+Official Title: Cardiovascular Risk Assessment in Young Women After Index Pregnancy With and Without Placental Complications
+Lead Sponsor: Fundació Institut de Recerca de l'Hospital de la Santa Creu i Sant Pau
+Overall Status: RECRUITING
+Start Date: 2023-08-28
+Study Type: OBSERVATIONAL
+Phases: 
+Enrollment: 1260
+Conditions: Cardiovascular (CV) Risk, Preeclampsia (PE), Fetal Weight
+
+Brief Summary:
+In this project, the investigators aim to study how all these factors determine the cardiovascular status of a total of 1,800 mothers, 3 to 6 years after delivery. In addition, the investigators want to assess whether lifestyle and living conditions after childbirth may improve or worsen this imprint, since women often prioritize their families over themselves, making it more difficult to maintain a healthy lifestyle that could reduce their cardiovascular risk. Furthermore, the investigators will evaluate how environmental exposures influence their health, as well as explore potential strategies for prediction and prevention.
+
+The goal is to develop an easy-to-use algorithm or test that allows women and their physicians to assess this risk, ideally in the form of a mobile app. Although predictive algorithms for cardiovascular health already exist, most have been developed using predominantly male or older populations, and none have taken into account pregnancy-related events or environmental exposure - both of which are key determinants of women's cardiovascular health.
+
+Detailed Description:
+Cardiovascular diseases (CVD) are the leading cause of death among women, particularly non-obstructive myocardial infarction, heart failure, and stroke. However, neither women themselves nor, often, their physicians are fully aware of this reality. This lack of awareness is partly due to gender-related myths and biases that have led to insufficient study of the specific causes and risk factors that affect women's cardiovascular systems. Traditionally, it has been assumed that cardiovascular risk mechanisms, prediction, diagnosis, and treatment are the same in men and women. Today, it is known that this is not true: while the severity and mortality due to cardiovascular disease have decreased in men, they continue to rise and remain more severe among women.
+
+Reproductive history and hormonal influence play a decisive role in modulating cardiovascular risk in women. Experiencing complications during pregnancy - such as preeclampsia (a hypertensive disorder caused by abnormal placental function), preterm delivery, or the birth of a low-weight infant - increases the risk of cardiovascular complications up to sevenfold later in life, compared with women who had normal pregnancies. This is explained by the fact that the cardiovascular system undergoes major adaptive changes during pregnancy; in complicated pregnancies, these adaptations fail to occur properly, resulting in cardiovascular stress and damage.
+
+Among the objectives of this project, the investigators also aim to evaluate other risk factors such as lifestyle and external influences like exposure to environmental pollutants, which may further contribute to cardiovascular vulnerability. Pregnancy represents a critical window of susceptibility - as seen in other conditions such as COVID-19 - during which these environmental and biological impacts on the cardiovascular system are amplified.
+
+In this project, the aim is to investigate how all these factors determine cardiovascular health in a cohort of 1,800 mothers, assessed 3 to 6 years after childbirth. The investigators will also examine how postnatal lifestyle and self-care behaviors may either mitigate or exacerbate this imprint. Women often prioritize their families' needs over their own, which can make it difficult to maintain healthy habits that reduce cardiovascular risk. Moreover, the investigators will study how environmental exposures influence maternal health and explore potential predictive and preventive strategies.
+
+The goal is to develop an easy-to-use algorithm or test - ideally in the form of a mobile application - to help women and their physicians assess cardiovascular risk. Although predictive algorithms for cardiovascular health already exist, they have mostly been developed in predominantly male or older populations, and none have considered pregnancy-related factors or environmental exposures, both of which are key determinants of women's cardiovascular health.
+
+To date, preventive cardiovascular strategies have not been specifically designed for women, and even less so for recently postpartum women. Existing tools have not been adapted for this population. This project brings together obstetricians and cardiologists, as well as midwives and primary care physicians - the healthcare professionals primarily responsible for women's health and well-being. The investigators believe that this multidisciplinary approach is crucial to anticipate cardiovascular disease and implement truly preventive strategies.
+
+All study findings will be disseminated through educational sessions for healthcare professionals, new clinical tools and practices to improve patient satisfaction, audiovisual materials for better maternal health communication, and through professional societies (such as SEGO, SEC, SEAP, SEM, etc.). Results will also be published in open-access scientific journals and shared via public outreach, including media coverage, conferences in hospitals and community centers, social media (@DonaSantPau), and the institutional website (http://www.santpau.cat/web/public/go-inici
+
+).
+
+The active participation of women in this study will also allow the creation of discussion and advocacy groups among participants, supporting dissemination through social media, online platforms (https://inatal.org), and patient associations (such as El parto es nuestro), as well as newspapers, radio, and television.
+
+Interventions:
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+* Patients who participated in the BiSC (Barcelona Life Study Cohort), EuroPE (Randomized open-label control trial to evaluate if the incorporation of sFlt1/PlGF ratio in the diagnosis and classification of PE improves maternal and perinatal outcomes in women with suspicion of the disease; PI16/00375) and AngioCor (Cardiac dysfunction and remodeling in patients with preeclampsia regulated by antiangiogenic environment: clinical and experimental approach, PI19/00702) cohort studies
+* Who have delivered within the previous 3-6 years.
+* Give written consent when invited to participate in this study protocol.
+
+Exclusion Criteria:
+
+* Unwillingness to participate in this study
+* Probability of loss to follow-up.
+Minimum Age: 18 Years
+Maximum Age: 
+Sex: FEMALE
+
+Primary Outcome Measures:
+- Hypertension [Time Frame: 3-6 years after index pregnancy] Presence of hypertension, defined as stage 1 hypertension (SBP of 130-139 or DBP of 80-89 mmHg)
+- Abnormal cardiac function [Time Frame: 3-6 years after index pregnancy] Abnormal cardiac function in the echocardiographic ultrasound assessment. Abnormal values of the different parameters will be considered according to reference limits published in 2020 by the British Society of Echocardiography
+- Biochemical cardiac markers [Time Frame: 3-6 years after index pregnancy] Abnormal biochemical cardiac markers: NTproBNP \>300 ng/L or high-sensitivity troponin\>30 ng/L
+- Coronary artery disease [Time Frame: 3-6 years after index pregnancy] Signs of coronary artery disease by computer tomography (CCT) myocardial perfusion imaging (mild (CACS≥10 AU and \<100 AU); moderate (CACS≥100 AU and \<400 AU) and severe (CACS ≥400 AU)
+- Other cardiovascular major events [Time Frame: 3-6 years after index pregnancy] Cardiovascular major events (ictus, coronary artery disease, cardiac insufficiency or myocardiopathy)

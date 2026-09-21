@@ -1,0 +1,53 @@
+NCT Number: NCT07229729
+Title: A Study of SHR-A2102 in Combination With Other Anti-tumor Therapies for Resectable Non-small Cell Lung Cancer
+Official Title: A Randomized, Open-label, Multicenter Phase II Clinical Study of SHR-A2102 in Combination With Other Anti-tumor Therapies for Perioperative Treatment of Resectable Non-small Cell Lung Cancer
+Lead Sponsor: Shanghai Hengrui Pharmaceutical Co., Ltd.
+Overall Status: RECRUITING
+Start Date: 2025-11-24
+Study Type: INTERVENTIONAL
+Phases: PHASE2
+Enrollment: 300
+Conditions: Non-small Cell Lung Cancer
+
+Brief Summary:
+The study is a Phase II study to explore the efficacy and safety of SHR-A2102 in combination with other anti-tumor therapies as perioperative treatment in patients with resectable non-small cell lung cancer.
+
+Detailed Description:
+
+
+Interventions:
+- DRUG: SHR-A2102. SHR-A2102.
+- DRUG: Adebrelimab. Adebrelimab.
+- DRUG: Paclitaxel. Paclitaxel.
+- DRUG: Carboplatin. Carboplatin.
+- DRUG: Alomnertinib Mesilate. Alomnertinib Mesilate.
+- DRUG: Furmonertini Mesilate. Furmonertini Mesilate.
+- DRUG: Osimertinib Mesylate. Osimertinib Mesylate.
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+1. Voluntarily participate in this clinical study, understand the research procedures and be able to sign the informed consent form in writing;
+2. Participants must be aged between 18 and 70 years old (inclusive) when signing the informed consent form, and both men and women are eligible;
+3. Eastern Cooperative Oncology Group (ECOG) performance status 0 or 1;
+4. Adequate organ function;
+5. Women of childbearing age must undergo serum pregnancy tests, and the results must be negative. Female subjects of childbearing age and male subjects who are partners of women of childbearing age must agree to use highly effective contraceptive methods.
+
+Exclusion Criteria:
+
+1. With active, known or suspected autoimmune disease of autoimmune disease;
+2. Malignancies other than NSCLC within 5 years prior to randomization;
+3. Has or suspected has a history of pneumonitis / interstitial lung disease or any serve lung diseases which will influence the examination of lung function;
+4. Significant history of cardiovascular and cerebrovascular disease; Significant haemorrhagic disease;
+5. Has an arteriovenous thrombotic events;
+6. Has a known history of human immunodeficiency virus (HIV) infection;
+7. Has a known active Hepatitis B or Hepatitis C;
+8. Allergic to the intervention regimens.
+Minimum Age: 18 Years
+Maximum Age: 70 Years
+Sex: ALL
+
+Primary Outcome Measures:
+- Pathology complete response (pCR) [Time Frame: Up to approximately 20 weeks.] 
+- 18-month event free rate [Time Frame: Up to approximately 18 months.] 
+- 2-years disease free rate [Time Frame: Up to approximately 2 years.] 

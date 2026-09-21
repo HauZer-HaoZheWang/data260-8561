@@ -1,0 +1,46 @@
+NCT Number: NCT06687941
+Title: A Study to Evaluate the Tolerability, Safety, and PK of AST-201 in Patients With GPC3-positive Advanced Solid Tumors
+Official Title: A Multi-center, Open-label, Dose Escalation and Expansion, Phase 1 Study to Evaluate the Tolerability, Safety and Pharmacokinetics of AST-201 in Patients With GPC3-positive Advanced Solid Tumors
+Lead Sponsor: Aptamer Sciences, Inc.
+Overall Status: RECRUITING
+Start Date: 2025-03-11
+Study Type: INTERVENTIONAL
+Phases: PHASE1
+Enrollment: 70
+Conditions: Neoplasms, Carcinoma, Hepatocellular, Carcinoma, Non-Small-Cell Lung, Liver Neoplasms
+
+Brief Summary:
+This is the first in human trial clinical study of AST-201 in patients with GPC3-positive advanced solid tumors. This study aims to evaluate the safety, tolerability, pharmacokinetic properties, and preliminary efficacy of AST-201 across various tumor types.
+
+Detailed Description:
+AST-201 is a novel aptamer drug conjugate (ApDC) investigational agent with demonstrated preclinical efficacy in GPC3-positive tumor models. This Phase 1 clinical study aims to investigate the safety, tolerability, and preliminary efficacy of AST-201, targeting GPC3-positive advanced solid tumors. The study consists of two parts: Phase 1a and Phase 1b.
+
+In Phase 1a, AST-201 will be administered in a dose escalating manner across cohorts of patients to determine the maximum tolerated dose (MTD) and recommended Phase 2 dose (RP2D). In this dose-escalation phase, patients will receive AST-201 as a single agent, with safety, tolerability, and pharmacokinetic (PK) profiles assessed. In Phase 1b, patients will receive AST-201 at the RP2D across specific GPC3-positive tumor types to further explore safety and efficacy. This expansion phase focuses on assessing anti-tumor efficacy and overall safety in a broader patient population. Data collected from this study will support future clinical development of AST-201 in GPC3-positive advanced solid tumors.
+
+Interventions:
+- DRUG: AST-201. AST-201 is administered intravenously on Days 1, 8, and 15 of each 28-day cycle, followed by a one-week rest period. Dosing is repeated until DLT or disease progression is occurred.
+
+Eligibility Criteria:
+Inclusion Criteria
+
+* Male and female aged ≥19 years
+* Histologically and/or cytologically diagnosed as the advanced recurrent solid tumor
+* GPC3-positive confirmed by IHC test
+* At least 1 measurable or non-measurable but evaluable lesion as defined per RECIST v1.1 (modified RECIST for hepatocellular carcinoma)
+* ECOG performance status of 0 or 1
+* Life expectancy at least 12 weeks
+* Adequate hematologic, hepatic, renal, and heart/coagulation function
+* Child-Pugh Class of A for HCC
+
+Exclusion Criteria
+
+* Subjects with ischemic heart disease
+* Subjects with anti-tumor treatment within 4 weeks
+* Subjects with comorbidities such as uncontrolled hypertension, heart failure, etc.
+* Pregnant or potentially pregnant and lactating woman
+Minimum Age: 19 Years
+Maximum Age: 
+Sex: ALL
+
+Primary Outcome Measures:
+- Dose Limiting Toxicity (DLT) [Time Frame: 4 weeks] Dose-limiting toxicity (DLT) is defined as any treatment-related Grade 3 or higher adverse event, or other clinically significant toxicity occurring during the first cycle (4 weeks), that meets the protocol-defined criteria for dose limitation, based on the National Cancer Institute Common Terminology Criteria for Adverse Events (NCI CTCAE), version \[5.0\].

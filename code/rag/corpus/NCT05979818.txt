@@ -1,0 +1,111 @@
+NCT Number: NCT05979818
+Title: Propranolol Hydrochloride in Combination With Sintilimab and Platinum-based Chemotherapy for Treatment of Advanced Non-small Cell Lung Cancer
+Official Title: Study of Propranolol Hydrochloride in Combination With Sintilimab and Platinum-based Chemotherapy for Treatment of Advanced Non-small Cell Lung Cancer (BRIO)
+Lead Sponsor: Second Xiangya Hospital of Central South University
+Overall Status: RECRUITING
+Start Date: 2024-11-13
+Study Type: INTERVENTIONAL
+Phases: PHASE1
+Enrollment: 6
+Conditions: Non Small Cell Lung Cancer, Propranolol
+
+Brief Summary:
+This study is a prospective single-center Phase I clinical study in patients with EGFR/ALK/ROS1 driver oncogene negative, and advanced or metastatic NSCLC. This study is to evaluate the efficacy and safety preliminarily in a small-size of propranolol hydrochloride in combination with sintilimab and platinum-based chemotherapy in first-line therapy. Propranolol hydrochloride is a beta- adrenergic blocking agent which is associated with augment of immune cell responses. Propranolol hydrochloride may improve the responses of immune checkpoint inhibitors in treating patients with advanced NSCLC.
+
+Detailed Description:
+
+
+Interventions:
+- DRUG: Propranolol hydrochloride. 10 mg, PO, BID, for up to 2 years until disease progression/intolerable toxicity/withdrawal of informed consent.
+- DRUG: Sintilimab. intravenous infusion (IV), 200 mg, Day1, Q3W, for up to 2 years until disease progression/intolerable toxicity/withdrawal of informed consent.
+- DRUG: Chemotherapy. Platinum-based chemotherapy:
+
+For non-squamous cell carcinoma options: carboplatin/cisplatin + pemetrexed; For squamous cell carcinoma: carboplatin/cisplatin + paclitaxel/gemcitabine. Carboplatin: IV, AUC 5, Day1, Q3W; Cisplatin: IV, 75 mg/m2, Day1-3, Q3W; Pemetrexed: IV, 500 mg/m2, Day1, Q3W; Paclitaxel: IV, 175 mg/m², Day1, Q3W; Albumin-bound paclitaxel: IV, 100 mg/m², Day1, 8, 15; or 260 mg/m2, Q3W; Gemcitabine: IV, 1000mg/m2, Day1, 8, Q3W; After 4-6 cycles of sintilimab and platinum-based chemotherapy, the patients of non-squamous cell carcinoma will be received with sintilimab and pemetrexed for maintenance therapy, for up to 2 years until disease progression/intolerable toxicity/withdrawal of informed consent.
+
+Eligibility Criteria:
+Inclusion Criteria:
+
+* Sign a written informed consent prior to any research-related procedure
+* Age ≥18 years and ≤ 75 years old
+* ECOG PS score of 0-1
+* Expected survival time ≥ 12 weeks
+* Patients with histologically or cytologically confirmed non-localizable stage IIIB-IIIC, stage IV non-small cell lung cancer (International Association for the Study of Lung Cancer and the Joint Committee on the American Classification of Cancers, 8th edition). Patients with unresectable IIIB-IIIC include recurrent and primary unresectable (surgery and radical concurrent chemoradiotherapy), and stage IV includes primary or recurrent stage IV but without prior systemic therapy for advanced/metastatic disease.
+* Chemotherapy and chemoradiotherapy are permitted as neoadjuvant/adjuvant treatment as long as the treatment is completed at least 12 months prior to the diagnosis of advanced or metastatic disease
+* There must be no EGFR gene-sensitive mutation, ALK gene fusion or ROS1 gene fusion in non-squamous carcinoma
+* At least one imaging measurable lesion according to the criteria for the evaluation of the efficacy of solid tumors (RECIST version 1.1). A lesion located in the field of exposure to previous radiotherapy is considered measurable if progression is confirmed (within 28 days prior to the first treatment)
+* Subjects with brain metastases who are asymptomatic or whose symptoms have stabilized with local treatment are permitted to be enrolled, provided that the subject meets the following criteria:
+
+  1. Have a measurable lesion outside the CNS.
+  2. No CNS symptoms or no worsening of symptoms for at least 2 weeks.
+  3. No glucocorticoid therapy is required, or glucocorticoid therapy has been discontinued within 7 days prior to the first dose, or the glucocorticoid dosage has been stable and reduced to less than 10 mg/day of prednisone (or equivalent dose) within 7 days prior to the first dose
+* Meet the following laboratory indicators (within 14 days before the first treatment):
+
+  1. Blood routine examination: absolute neutrophil count ≥ 1.5 x 10\^9/L; platelet count ≥ 100 x 10\^9/L; hemoglobin level ≥ 9.0 g/dL (no blood transfusion or erythropoietin-dependent administration within 7 days).
+  2. Liver function: total bilirubin (TBIL) ≤ 1.5 × upper limit of normal (ULN); alanine aminotransferase (ALT) and aspartate aminotransferase (AST) ≤ 2.5 × ULN in the absence of hepatic metastases; ALT or AST ≤ 5 × ULN in the case of patients with hepatic metastases.
+  3. Renal function: serum creatinine (Cr) ≤1.5 times ULN or Cr clearance ≥60 mL/min (Cockcroft-Gault formula), and urine routine test results show urine protein (UPRO) \<2+ or 24-hour urine protein quantification \<1g.
+  4. Coagulation: International Normalized Ratio (INR) ≤ 1.5 times ULN or Prothrombin Time (PT) ≤ 1.5 times ULN within 7 days prior to study treatment; if the subject is receiving anticoagulant therapy, as long as the PT is within the range of the anticoagulant drug
+* Heart function: the New York heart association (NYHA) classification \< 3;Left ventricular ejection fraction（LVEF）≥ 50%; Baseline ECG showed no PR interval lengthened or atrioventricular block
+* For female subjects of childbearing potential, a negative urine or serum pregnancy test should be obtained within 3 days prior to receiving the first dose of study drug (Day 1 of Cycle 1). If a negative urine pregnancy test result cannot be confirmed, a blood pregnancy test will be requested. Females not of childbearing potential are defined as being at least 1 year postmenopausal or having undergone surgical sterilization or hysterectomy; if conception is at risk, all subjects (male or female) are required to use contraception with an annual failure rate of less than 1% throughout the treatment period up to 120 days after the end-of-treatment administration of study drug (or 180 days after the end-of-study drug administration)
+
+Exclusion Criteria:
+
+* Concurrent participation in another interventional clinical study or receipt of another investigational drug, unless participating in an observational clinical study
+* Prior exposure to any anti-PD-1 or anti-PD-L1, PD-L2, CD137, CTLA-4 antibody therapy, or any other antibody or drug specifically targeting T-cell co-stimulation or checkpoint pathways
+* Systemic therapy with proprietary Chinese medicines with anti-tumor indications or immunomodulatory drugs (including thiopeptides, interferons, interleukins, except those used locally for the control of hydrothorax or ascites) within 2 weeks prior to the first dose
+* Current use of oral or intravenous beta-blockers (e.g., atenolol, bisoprolol, carvedilol, labetalol, metoprolol, nadolol, sotalol, etc.) cannot be safely switched to a non-beta-blocker
+* There are contraindications to the use of beta-blockers:
+
+  1. Hypersensitivity to any of the components of the product.
+  2. Bronchial asthma or risk of bronchospasm.
+  3. Ketoacidosis and metabolic acidosis.
+  4. Severe or symptomatic bradycardia (resting heart rate ≤55bpm), atrioventricular block (degrees II and III), sinus block, sick sinus node syndrome.
+  5. Cardiogenic shock
+  6. Right heart insufficiency due to pulmonary hypertension.
+  7. Congestive heart failure (class III or IV).
+  8. Hypotension (systolic blood pressure \< 100 mmHg).
+  9. Prolonged fasting.
+  10. Severe peripheral circulatory failure (e.g., gangrene).
+  11. Symptomatic peripheral arterial disease or Raynaud's syndrome, untreated pheochromocytoma.
+  12. Unstable angina or variant angina.
+  13. Patients on rizatriptan benzoate.
+  14. Severe asthma or chronic obstructive pulmonary disease (COPD)
+  15. Uncontrolled type I or type II diabetes mellitus (glycosylated hemoglobin \[HbA1C\] \> 8.5 or fasting blood glucose \> 160 mg/dl at screening).
+  16. Current use or within the last 2 years of a non-dihydropyridine calcium channel blocker (NDCCB)
+* Hepatic encephalopathy, hepatorenal syndrome or Child-Pugh class B or more severe cirrhosis
+* Tumor-related intestinal obstruction (within 3 months prior to the signing of the informed consent) or history of inflammatory bowel disease or extensive bowel resection (partial colectomy or extensive small bowel resection with chronic diarrhea), Crohn's disease, ulcerative colitis
+* Completion of palliative radiotherapy within 7 days prior to the first dose of study drug
+* With clinically active diverticulitis, abdominal abscess, gastrointestinal obstruction
+* History of psychotropic substance abuse or addiction
+* Known hypersensitivity to the active ingredients or excipients of the study drug
+* Known history of primary immunodeficiency or undergoing systemic glucocorticoid therapy or any other form of immunosuppressive therapy
+* Use of immunosuppressive drugs, excluding topical glucocorticoids by nasal, inhalational or other routes or physiological doses of systemic glucocorticoids (i.e., no more than 10 mg/day of prednisone or an equivalent dose of other glucocorticoids), or use of hormones for the prevention of contrast sensitization, within 4 weeks prior to the first dose of study treatment
+* Failure to recover adequately from any intervention-induced toxicity and/or complications (≤ grade 1 or baseline, excluding weakness or alopecia) prior to initiation of treatment
+* Receipt of live attenuated influenza vaccine within 4 weeks prior to the first dose of study treatment or planned for the duration of the study (inactivated injectable viral vaccine against seasonal influenza is permitted up to 4 weeks prior to the first dose; however, live attenuated influenza vaccine is not permitted)
+* Major surgery (craniotomy, thoracotomy, or laparotomy) within 4 weeks prior to the first dose of study treatment or anticipation of major surgery during study treatment; laparoscopic exploratory surgery within 2 weeks prior to the first dose of study treatment
+* Known symptomatic CNS metastases and/or carcinomatous meningitis. Subjects with previously treated brain metastases may be enrolled in the trial if they are clinically stable (no evidence of imaging progression for at least 4 weeks prior to the first dose of the experimental treatment, no evidence of new brain metastases or increase in size of pre-existing brain metastases as confirmed by repeat imaging) and do not require steroid therapy for at least 14 days prior to the first dose of the experimental treatment. This exception does not include carcinomatous meningitis, which should be excluded regardless of whether it is clinically stable.
+* Presence of clinically uncontrolled pleural effusion or ascites (subjects may be recruited who do not require drainage of the effusion or who do not have a significant increase in the effusion after 3 days of cessation of drainage)
+* Patients with bone metastases at risk of paraplegia
+* Known or suspected autoimmune disease or history of such disease within the last 2 years (patients with vitiligo, psoriasis, alopecia areata or Graves' disease not requiring systemic treatment within the last 2 years, hypothyroidism requiring only thyroid hormone replacement therapy, and type I diabetes mellitus requiring only insulin replacement therapy may be enrolled)
+* Known to have active tuberculosis.
+* A history of allogeneic organ transplants and allogeneic hematopoietic stem cell transplants is known
+* Known history of human immunodeficiency virus (HIV) infection (HIV-positive)
+* Known acute or chronic active hepatitis B virus (HBsAg-positive and HBVDNA viral load ≥200 IU/mL or ≥10\^3 copies/mL) or acute or chronic active hepatitis C virus (HCV antibody-positive and HCV RNA-positive)
+* Active syphilis infection requiring treatment
+* Suffer from interstitial lung disease requiring steroid hormone therapy
+* Serious infections that are active or poorly controlled clinically
+* Severe cardiovascular disease (e.g., myocardial infarction, arterial thromboembolism, cerebrovascular thromboembolism); angina pectoris requiring treatment; symptomatic peripheral vascular disease; NYHA cardiac class 3 or 4 congestive heart failure; or uncontrolled ≥class 3 hypertension (diastolic blood pressure ≥100 mm Hg or systolic blood pressure ≥160 mm Hg) despite antihypertensive treatment
+* History of other primary malignancies within 5 years, except：
+
+  1. malignancies that have been in complete remission for at least 2 years prior to enrolment and for which no other treatment was required during the study period.
+  2. adequately treated non-melanoma skin cancer or malignant nevus with no evidence of disease recurrence.
+  3. adequately treated carcinoma in situ without evidence of disease recurrence
+* Female patients who are pregnant or breastfeeding
+* Other acute or chronic medical conditions, psychiatric disorders, or abnormal laboratory test values that may result in increased risk associated with study participation or administration of study medication, or interfere with the interpretation of study results, and that, in the investigator's judgement, classify the patient as ineligible for participation in this study.
+Minimum Age: 18 Years
+Maximum Age: 75 Years
+Sex: ALL
+
+Primary Outcome Measures:
+- Objective Response Rate (ORR) [Time Frame: 2 years] The proportion of patients with a complete response or partial response to treatment according to Response Evaluation Criteria in Solid Tumors (RECIST v1.1)
+- Disease Control Rate (DCR) [Time Frame: 2 years] Disease Control Rate (DCR) The proportion of patients with a complete response or partial response or stable disease to treatment according to Response Evaluation Criteria in Solid Tumors (RECIST v1.1)
+- Adverse events (AEs) [Time Frame: 2 years] Based on the physical examination, vital signs, laboratory findings, and medical examinations, and record the type, incidence, severity of AEs, which were graded by Common Terminology Criteria for Adverse Events (CTCAE) v5.0
