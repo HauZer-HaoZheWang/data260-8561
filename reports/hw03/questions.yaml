@@ -1,75 +1,42 @@
-# DATA 260 HW3 — Domain 1 (Clinical Trials), s8561
-# Committed BEFORE running the graded retrieval comparison.
-# Expected answers are derived from the corpus snapshot recorded in
-# CORPUS_MANIFEST.json and were not revised after seeing retrieval output.
+configuration:
+  sid4: 8561
+  seed: 8561
+  domain_id: 1
+  domain: "Clinical Trial Listings"
+  question_count: 5
 
 questions:
   - id: Q1
-    question: >
-      Which study examines germline polymorphisms in DNA repair genes such as
-      GSTP1, GSTM1, and ERCC2 in relation to lung cancer risk, and over what
-      time frame is its primary outcome measured?
-    expected_answer: >
-      Study NCT00471978 (Molecular and Genetic Analysis of Lung Cancer,
-      Massachusetts General Hospital). Primary outcome time frame: 10 years.
-    expected_source: NCT00471978.txt
+    question: "Which study examines germline polymorphisms in DNA repair genes such as GSTP1, GSTM1, and ERCC2 in relation to lung cancer risk, and over what time frame is its primary outcome measured?"
+    expected_answer: "The study is NCT00471978, and the primary outcome is measured over 10 years."
+    expected_source: "NCT00471978.txt"
     single_source: true
-    rationale: >
-      The gene-name cluster appears in exactly one document, so lexical and
-      semantic signals should agree. Serves as a baseline for retrieval quality.
+    reason: "The gene combination and 10-year outcome identify one study."
 
   - id: Q2
-    question: >
-      In the ARV-6723 dose escalation study, over how many days after the first
-      administration are dose-limiting toxicities assessed?
-    expected_answer: >
-      21 days from the first ARV-6723 administration (cycle 1).
-    expected_source: NCT07749586.txt
+    question: "In the ARV-6723 dose escalation study, over how many days after the first administration are dose-limiting toxicities assessed?"
+    expected_answer: "Dose-limiting toxicities are assessed for 21 days after the first ARV-6723 administration."
+    expected_source: "NCT07749586.txt"
     single_source: true
-    rationale: >
-      The numeric answer sits inside a bracketed time-frame annotation adjacent
-      to a unique drug identifier. Tests whether a chunker splits the entity
-      away from its associated value.
+    reason: "ARV-6723 is a unique intervention name in the corpus."
 
   - id: Q3
-    question: >
-      What is the planned enrollment and trial phase of the Arrowhead
-      Pharmaceuticals study in obesity and type 2 diabetes?
-    expected_answer: >
-      Enrollment: 150 participants. Phases: PHASE1, PHASE2.
-    expected_source: NCT06937203.txt
+    question: "What is the planned enrollment and trial phase of the Arrowhead Pharmaceuticals study in obesity and type 2 diabetes?"
+    expected_answer: "The planned enrollment is 150 participants, and the study is Phase 1 and Phase 2."
+    expected_source: "NCT06937203.txt"
     single_source: true
-    rationale: >
-      The answer lives in the structured header block, far from the narrative
-      body. Tests retrieval when the target region is short, dense, and
-      stylistically unlike surrounding prose.
+    reason: "The sponsor, conditions, enrollment, and phases belong to one study."
 
   - id: Q4
-    question: >
-      What is the minimum age requirement for participation in this trial?
-    expected_answer: >
-      Underdetermined. "Minimum Age: 18 Years" appears in 78 of 100 corpus
-      documents; the question does not identify a specific trial.
-    expected_source: null
-    single_source: false
-    rationale: >
-      Deliberate negative control. Near-identical eligibility boilerplate should
-      produce confidently scored retrievals that cannot answer the question,
-      illustrating that embedding similarity captures register rather than
-      factual reference.
+    question: "What is the minimum age requirement for the lung cancer genetic analysis study sponsored by Massachusetts General Hospital?"
+    expected_answer: "The minimum age requirement is 18 Years."
+    expected_source: "NCT00471978.txt"
+    single_source: true
+    reason: "The sponsor and study topic identify one source, while the common age value tests retrieval confusion."
 
   - id: Q5
-    question: >
-      Which study reports resistant hypertension and mortality outcomes over a
-      ten-year follow-up period?
-    expected_answer: >
-      Study NCT06160921 (Prognostic Model of Hypertension, Xinjiang Medical
-      University). Primary outcomes: resistant hypertension and all-cause /
-      hypertension-complication mortality, both over 10 years of follow-up.
-    expected_source: NCT06160921.txt
+    question: "Which study reports resistant hypertension and mortality outcomes over a ten-year follow-up period?"
+    expected_answer: "The study is NCT06160921, Prognostic Model of Hypertension."
+    expected_source: "NCT06160921.txt"
     single_source: true
-    rationale: >
-      The two primary outcomes appear on adjacent lines; a chunk boundary
-      falling between them would yield a partial answer. Also requires matching
-      a condition term (hypertension) that appears in many other documents,
-      so the follow-up duration is the discriminating signal.
+    reason: "The combination of resistant hypertension, mortality, and ten-year follow-up identifies one source."
