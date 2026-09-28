@@ -33,7 +33,7 @@ required_files = [
     FRONTEND / "src" / "App.jsx",
     ROOT / "code" / "rag" / "rag.py",
     REPORTS / "METRICS.md",
-    REPORTS / "RUN_LOG.md",
+    REPORTS / "RUN_LOG.txt",
     REPORTS / "AI_USE.md",
     REPORTS / "RAG_ANALYSIS.md",
 ]
