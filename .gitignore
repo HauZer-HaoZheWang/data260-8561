@@ -5,3 +5,4 @@ __pycache__/
 *.pyc
 code/web_application/certs/
 .DS_Store
+.env

@@ -3,3 +3,9 @@ uvicorn
 jinja2
 python-multipart
 itsdangerous
+sqlalchemy
+pymysql
+python-dotenv
+passlib[bcrypt]
+email-validator
+bcrypt==4.0.1

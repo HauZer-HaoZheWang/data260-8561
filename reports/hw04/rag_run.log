@@ -1,0 +1,277 @@
+Loading embedding model...
+LLM is explicitly disabled. Using MockLLM.
+Loading corpus...
+documents=100
+chunks=692
+chunking_seconds=0.335
+sample_chunk_id=21e33171-8f00-4038-b2f1-1a150afbb496
+sample_source=NCT00471978.txt
+sample_text=NCT Number: NCT00471978 Title: DNA Analysis of Blood and Tissue from Patients with Lung Cancer Official Title: Molecular and Genetic Analysis of Lung Cancer Lead Sponsor: Massachusetts General Hospital Overall Status: RECRUITING Start Date:
+Generating embeddings:   0%|          | 0/692 [00:00<?, ?it/s]Generating embeddings:   1%|▏         | 10/692 [00:00<00:30, 22.35it/s]Generating embeddings:   7%|▋         | 50/692 [00:00<00:06, 106.09it/s]Generating embeddings:  13%|█▎        | 90/692 [00:00<00:03, 167.90it/s]Generating embeddings:  19%|█▉        | 130/692 [00:00<00:02, 212.62it/s]Generating embeddings:  25%|██▍       | 170/692 [00:00<00:02, 245.38it/s]Generating embeddings:  30%|███       | 210/692 [00:01<00:01, 268.92it/s]Generating embeddings:  36%|███▌      | 250/692 [00:01<00:01, 284.35it/s]Generating embeddings:  42%|████▏     | 290/692 [00:01<00:01, 296.68it/s]Generating embeddings:  48%|████▊     | 330/692 [00:01<00:01, 303.98it/s]Generating embeddings:  53%|█████▎    | 370/692 [00:01<00:01, 309.56it/s]Generating embeddings:  59%|█████▉    | 410/692 [00:01<00:00, 314.49it/s]Generating embeddings:  65%|██████▌   | 450/692 [00:01<00:00, 317.11it/s]Generating embeddings:  71%|███████   | 490/692 [00:01<00:00, 318.85it/s]Generating embeddings:  77%|███████▋  | 530/692 [00:02<00:00, 319.60it/s]Generating embeddings:  82%|████████▏ | 570/692 [00:02<00:00, 321.19it/s]Generating embeddings:  88%|████████▊ | 610/692 [00:02<00:00, 322.08it/s]Generating embeddings:  94%|█████████▍| 650/692 [00:02<00:00, 322.72it/s]Generating embeddings: 100%|█████████▉| 690/692 [00:02<00:00, 321.71it/s]Generating embeddings: 100%|██████████| 692/692 [00:02<00:00, 269.19it/s]
+Device set to use cpu
+Token indices sequence length is longer than the specified maximum sequence length for this model (606 > 512). Running this sequence through the model will result in indexing errors
+indexing_seconds=2.728
+Loading generation model...
+
+CONFIG=A QUESTION=Q1 K=0
+ANSWER=4–7 years
+
+CONFIG=A QUESTION=Q2 K=0
+ANSWER=7 days
+
+CONFIG=A QUESTION=Q3 K=0
+ANSWER=Phase I
+
+CONFIG=A QUESTION=Q4 K=0
+ANSWER=30 years of age
+
+CONFIG=A QUESTION=Q5 K=0
+ANSWER=Five-year survival rate
+
+CONFIG=A QUESTION=Q6 K=0
+ANSWER=Lung cancer medication
+
+RETRIEVAL BEFORE LLM: Q1, k=3
+rank=1 source=NCT00471978.txt score=0.4609 text=NCT Number: NCT00471978 Title: DNA Analysis of Blood and Tissue from Patients with Lung Cancer Official Title: Molecular
+rank=2 source=NCT03819296.txt score=0.4222 text=3) [Time Frame: Up to 1 year] Adverse events will be recorded by Common Terminology Criteria for Adverse Events version 
+rank=3 source=NCT04024631.txt score=0.4036 text=NCT Number: NCT04024631 Title: Phenotyping Genetic Risk for Type 2 Diabetes Official Title: Phenotyping Children and Adu
+
+CONFIG=B QUESTION=Q1 K=3
+ANSWER=Up to 1 year
+
+RETRIEVAL BEFORE LLM: Q2, k=3
+rank=1 source=NCT07749586.txt score=0.7870 text=Toxicities (DLTs) of ARV-6723 [Time Frame: 21 days from first ARV-6723 administration] Number of participants within a d
+rank=2 source=NCT05902988.txt score=0.6536 text=Any clinically significant ascites or pleural effusions at time of enrollment, or any therapeutic paracentesis or thorac
+rank=3 source=NCT07244835.txt score=0.6508 text=Age: 18 Years Maximum Age: Sex: ALL Primary Outcome Measures: - Incidence of dose limiting toxicity (DLT) [Time Frame: F
+
+CONFIG=B QUESTION=Q2 K=3
+ANSWER=21
+
+RETRIEVAL BEFORE LLM: Q3, k=3
+rank=1 source=NCT06937203.txt score=0.5944 text=etc.) for any indication within 6 months prior to Screening * Use of non-GLP-1R medications for weight loss within 3 mon
+rank=2 source=NCT06937203.txt score=0.5802 text=NCT Number: NCT06937203 Title: A First-In-Human Study of ARO-ALK7 in Adults With Obesity With and Without Type 2 Diabete
+rank=3 source=NCT07588438.txt score=0.5701 text=population. The study includes two cohorts: Cohort 1 consists of adults with obesity (BMI ≥30 kg/m²) without type 2 diab
+
+CONFIG=B QUESTION=Q3 K=3
+ANSWER=Phase 1/2a Dose-Escalating Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of ARO-ALK7 in Adult Volunteers With Obesity With and Without Type 2 Diabetes Mellitus
+
+RETRIEVAL BEFORE LLM: Q4, k=3
+rank=1 source=NCT07465848.txt score=0.6656 text=chemotherapy or immunotherapy). Control Group: Cohort A (High risk controls): * Person aged 45 years or older at the tim
+rank=2 source=NCT05704920.txt score=0.6529 text=social security Exclusion Criteria: * clinical signs suggestive of cancer * recent chest scan (\<1 year) for another cau
+rank=3 source=NCT07465848.txt score=0.6335 text=Criteria: * History of any malignant neoplasm, except for subjects with tumors in localized stages who have undergone ra
+
+CONFIG=B QUESTION=Q4 K=3
+ANSWER=45 years
+
+RETRIEVAL BEFORE LLM: Q5, k=3
+rank=1 source=NCT00471978.txt score=0.6198 text=polymorphisms in DNA repair genes, p53 pathway genes, and a matrix metalloproteinase gene (tumor invasion factor) in lun
+rank=2 source=NCT00471978.txt score=0.6155 text=specified PRIOR CONCURRENT THERAPY: * Not specified EXCLUSIONS: Vulnerable populations are excluded. Patients with metas
+rank=3 source=NCT07369596.txt score=0.6101 text=and toxicity. This study seeks to evaluate chemotherapy dosing patterns and associated survival outcomes in older patien
+
+CONFIG=B QUESTION=Q5 K=3
+ANSWER=median overall survival (OS) of 8- 10 months
+
+RETRIEVAL BEFORE LLM: Q6, k=3
+rank=1 source=NCT07003321.txt score=0.6245 text=NCT Number: NCT07003321 Title: A Trial of HRS-4508 in Subjects With Locally Advanced or Metastatic Non-small Cell Lung C
+rank=2 source=NCT07155187.txt score=0.6218 text=Status: RECRUITING Start Date: 2025-12-10 Study Type: INTERVENTIONAL Phases: PHASE2, PHASE3 Enrollment: 490 Conditions: 
+rank=3 source=NCT06667908.txt score=0.6127 text=concurrent platinum-based doublet chemotherapy with radiation therapy (cCRT) followed by consolidation immunotherapy (cI
+
+CONFIG=B QUESTION=Q6 K=3
+ANSWER=telisotuzumab adizutecan
+
+RETRIEVAL BEFORE LLM: Q1, k=3
+rank=1 source=NCT00471978.txt score=0.4609 text=NCT Number: NCT00471978 Title: DNA Analysis of Blood and Tissue from Patients with Lung Cancer Official Title: Molecular
+rank=2 source=NCT03819296.txt score=0.4222 text=3) [Time Frame: Up to 1 year] Adverse events will be recorded by Common Terminology Criteria for Adverse Events version 
+rank=3 source=NCT04024631.txt score=0.4036 text=NCT Number: NCT04024631 Title: Phenotyping Genetic Risk for Type 2 Diabetes Official Title: Phenotyping Children and Adu
+
+CONFIG=C QUESTION=Q1 K=3
+ANSWER=Up to 1 year
+
+RETRIEVAL BEFORE LLM: Q2, k=3
+rank=1 source=NCT07749586.txt score=0.7870 text=Toxicities (DLTs) of ARV-6723 [Time Frame: 21 days from first ARV-6723 administration] Number of participants within a d
+rank=2 source=NCT05902988.txt score=0.6536 text=Any clinically significant ascites or pleural effusions at time of enrollment, or any therapeutic paracentesis or thorac
+rank=3 source=NCT07244835.txt score=0.6508 text=Age: 18 Years Maximum Age: Sex: ALL Primary Outcome Measures: - Incidence of dose limiting toxicity (DLT) [Time Frame: F
+
+CONFIG=C QUESTION=Q2 K=3
+ANSWER=21 days from first ARV-6723 administration
+
+RETRIEVAL BEFORE LLM: Q3, k=3
+rank=1 source=NCT06937203.txt score=0.5944 text=etc.) for any indication within 6 months prior to Screening * Use of non-GLP-1R medications for weight loss within 3 mon
+rank=2 source=NCT06937203.txt score=0.5802 text=NCT Number: NCT06937203 Title: A First-In-Human Study of ARO-ALK7 in Adults With Obesity With and Without Type 2 Diabete
+rank=3 source=NCT07588438.txt score=0.5701 text=population. The study includes two cohorts: Cohort 1 consists of adults with obesity (BMI ≥30 kg/m²) without type 2 diab
+
+CONFIG=C QUESTION=Q3 K=3
+ANSWER=Phase 1/2a Dose-Escalating Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of ARO-ALK7 in Adult Volunteers With Obesity With and Without Type 2 Diabetes Mellitus
+
+RETRIEVAL BEFORE LLM: Q4, k=3
+rank=1 source=NCT07465848.txt score=0.6656 text=chemotherapy or immunotherapy). Control Group: Cohort A (High risk controls): * Person aged 45 years or older at the tim
+rank=2 source=NCT05704920.txt score=0.6529 text=social security Exclusion Criteria: * clinical signs suggestive of cancer * recent chest scan (\<1 year) for another cau
+rank=3 source=NCT07465848.txt score=0.6335 text=Criteria: * History of any malignant neoplasm, except for subjects with tumors in localized stages who have undergone ra
+
+CONFIG=C QUESTION=Q4 K=3
+ANSWER=45 Years
+
+RETRIEVAL BEFORE LLM: Q5, k=3
+rank=1 source=NCT00471978.txt score=0.6198 text=polymorphisms in DNA repair genes, p53 pathway genes, and a matrix metalloproteinase gene (tumor invasion factor) in lun
+rank=2 source=NCT00471978.txt score=0.6155 text=specified PRIOR CONCURRENT THERAPY: * Not specified EXCLUSIONS: Vulnerable populations are excluded. Patients with metas
+rank=3 source=NCT07369596.txt score=0.6101 text=and toxicity. This study seeks to evaluate chemotherapy dosing patterns and associated survival outcomes in older patien
+
+CONFIG=C QUESTION=Q5 K=3
+ANSWER=I cannot answer this question from the provided documents
+
+RETRIEVAL BEFORE LLM: Q6, k=3
+rank=1 source=NCT07003321.txt score=0.6245 text=NCT Number: NCT07003321 Title: A Trial of HRS-4508 in Subjects With Locally Advanced or Metastatic Non-small Cell Lung C
+rank=2 source=NCT07155187.txt score=0.6218 text=Status: RECRUITING Start Date: 2025-12-10 Study Type: INTERVENTIONAL Phases: PHASE2, PHASE3 Enrollment: 490 Conditions: 
+rank=3 source=NCT06667908.txt score=0.6127 text=concurrent platinum-based doublet chemotherapy with radiation therapy (cCRT) followed by consolidation immunotherapy (cI
+
+CONFIG=C QUESTION=Q6 K=3
+ANSWER=I cannot answer this question from the provided documents
+
+RETRIEVAL BEFORE LLM: Q1, k=1
+rank=1 source=NCT00471978.txt score=0.4609 text=NCT Number: NCT00471978 Title: DNA Analysis of Blood and Tissue from Patients with Lung Cancer Official Title: Molecular
+
+CONFIG=C QUESTION=Q1 K=1
+ANSWER=Assess the role of genetic polymorphisms in DNA repair genes, p53 pathway genes, and a matrix metalloproteinase gene (tumor invasion factor) in lung-cancer
+
+RETRIEVAL BEFORE LLM: Q2, k=1
+rank=1 source=NCT07749586.txt score=0.7870 text=Toxicities (DLTs) of ARV-6723 [Time Frame: 21 days from first ARV-6723 administration] Number of participants within a d
+
+CONFIG=C QUESTION=Q2 K=1
+ANSWER=21 days from first ARV-6723 administration
+
+RETRIEVAL BEFORE LLM: Q3, k=1
+rank=1 source=NCT06937203.txt score=0.5944 text=etc.) for any indication within 6 months prior to Screening * Use of non-GLP-1R medications for weight loss within 3 mon
+
+CONFIG=C QUESTION=Q3 K=1
+ANSWER=Phase I of the Arrowhead Pharmaceuticals study in obesity and type 2 diabetes mellitus
+
+RETRIEVAL BEFORE LLM: Q4, k=1
+rank=1 source=NCT07465848.txt score=0.6656 text=chemotherapy or immunotherapy). Control Group: Cohort A (High risk controls): * Person aged 45 years or older at the tim
+
+CONFIG=C QUESTION=Q4 K=1
+ANSWER=No diagnosis or suspicion of lung cancer
+
+RETRIEVAL BEFORE LLM: Q5, k=1
+rank=1 source=NCT00471978.txt score=0.6198 text=polymorphisms in DNA repair genes, p53 pathway genes, and a matrix metalloproteinase gene (tumor invasion factor) in lun
+
+CONFIG=C QUESTION=Q5 K=1
+ANSWER=I cannot answer this question from the provided documents
+
+RETRIEVAL BEFORE LLM: Q6, k=1
+rank=1 source=NCT07003321.txt score=0.6245 text=NCT Number: NCT07003321 Title: A Trial of HRS-4508 in Subjects With Locally Advanced or Metastatic Non-small Cell Lung C
+
+CONFIG=C QUESTION=Q6 K=1
+ANSWER=I cannot answer this question from the provided documents
+
+RETRIEVAL BEFORE LLM: Q1, k=3
+rank=1 source=NCT00471978.txt score=0.4609 text=NCT Number: NCT00471978 Title: DNA Analysis of Blood and Tissue from Patients with Lung Cancer Official Title: Molecular
+rank=2 source=NCT03819296.txt score=0.4222 text=3) [Time Frame: Up to 1 year] Adverse events will be recorded by Common Terminology Criteria for Adverse Events version 
+rank=3 source=NCT04024631.txt score=0.4036 text=NCT Number: NCT04024631 Title: Phenotyping Genetic Risk for Type 2 Diabetes Official Title: Phenotyping Children and Adu
+
+CONFIG=C QUESTION=Q1 K=3
+ANSWER=Up to 1 year
+
+RETRIEVAL BEFORE LLM: Q2, k=3
+rank=1 source=NCT07749586.txt score=0.7870 text=Toxicities (DLTs) of ARV-6723 [Time Frame: 21 days from first ARV-6723 administration] Number of participants within a d
+rank=2 source=NCT05902988.txt score=0.6536 text=Any clinically significant ascites or pleural effusions at time of enrollment, or any therapeutic paracentesis or thorac
+rank=3 source=NCT07244835.txt score=0.6508 text=Age: 18 Years Maximum Age: Sex: ALL Primary Outcome Measures: - Incidence of dose limiting toxicity (DLT) [Time Frame: F
+
+CONFIG=C QUESTION=Q2 K=3
+ANSWER=21 days from first ARV-6723 administration
+
+RETRIEVAL BEFORE LLM: Q3, k=3
+rank=1 source=NCT06937203.txt score=0.5944 text=etc.) for any indication within 6 months prior to Screening * Use of non-GLP-1R medications for weight loss within 3 mon
+rank=2 source=NCT06937203.txt score=0.5802 text=NCT Number: NCT06937203 Title: A First-In-Human Study of ARO-ALK7 in Adults With Obesity With and Without Type 2 Diabete
+rank=3 source=NCT07588438.txt score=0.5701 text=population. The study includes two cohorts: Cohort 1 consists of adults with obesity (BMI ≥30 kg/m²) without type 2 diab
+
+CONFIG=C QUESTION=Q3 K=3
+ANSWER=Phase 1/2a Dose-Escalating Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of ARO-ALK7 in Adult Volunteers With Obesity With and Without Type 2 Diabetes Mellitus
+
+RETRIEVAL BEFORE LLM: Q4, k=3
+rank=1 source=NCT07465848.txt score=0.6656 text=chemotherapy or immunotherapy). Control Group: Cohort A (High risk controls): * Person aged 45 years or older at the tim
+rank=2 source=NCT05704920.txt score=0.6529 text=social security Exclusion Criteria: * clinical signs suggestive of cancer * recent chest scan (\<1 year) for another cau
+rank=3 source=NCT07465848.txt score=0.6335 text=Criteria: * History of any malignant neoplasm, except for subjects with tumors in localized stages who have undergone ra
+
+CONFIG=C QUESTION=Q4 K=3
+ANSWER=45 Years
+
+RETRIEVAL BEFORE LLM: Q5, k=3
+rank=1 source=NCT00471978.txt score=0.6198 text=polymorphisms in DNA repair genes, p53 pathway genes, and a matrix metalloproteinase gene (tumor invasion factor) in lun
+rank=2 source=NCT00471978.txt score=0.6155 text=specified PRIOR CONCURRENT THERAPY: * Not specified EXCLUSIONS: Vulnerable populations are excluded. Patients with metas
+rank=3 source=NCT07369596.txt score=0.6101 text=and toxicity. This study seeks to evaluate chemotherapy dosing patterns and associated survival outcomes in older patien
+
+CONFIG=C QUESTION=Q5 K=3
+ANSWER=I cannot answer this question from the provided documents
+
+RETRIEVAL BEFORE LLM: Q6, k=3
+rank=1 source=NCT07003321.txt score=0.6245 text=NCT Number: NCT07003321 Title: A Trial of HRS-4508 in Subjects With Locally Advanced or Metastatic Non-small Cell Lung C
+rank=2 source=NCT07155187.txt score=0.6218 text=Status: RECRUITING Start Date: 2025-12-10 Study Type: INTERVENTIONAL Phases: PHASE2, PHASE3 Enrollment: 490 Conditions: 
+rank=3 source=NCT06667908.txt score=0.6127 text=concurrent platinum-based doublet chemotherapy with radiation therapy (cCRT) followed by consolidation immunotherapy (cI
+
+CONFIG=C QUESTION=Q6 K=3
+ANSWER=I cannot answer this question from the provided documents
+
+RETRIEVAL BEFORE LLM: Q1, k=5
+rank=1 source=NCT00471978.txt score=0.4609 text=NCT Number: NCT00471978 Title: DNA Analysis of Blood and Tissue from Patients with Lung Cancer Official Title: Molecular
+rank=2 source=NCT03819296.txt score=0.4222 text=3) [Time Frame: Up to 1 year] Adverse events will be recorded by Common Terminology Criteria for Adverse Events version 
+rank=3 source=NCT04024631.txt score=0.4036 text=NCT Number: NCT04024631 Title: Phenotyping Genetic Risk for Type 2 Diabetes Official Title: Phenotyping Children and Adu
+rank=4 source=NCT00471978.txt score=0.3979 text=polymorphisms in DNA repair genes, p53 pathway genes, and a matrix metalloproteinase gene (tumor invasion factor) in lun
+rank=5 source=NCT06646471.txt score=0.3926 text=characterize participants in terms of geriatrics, biology and carcinology * describe the treatment modalities by stage, 
+
+CONFIG=C QUESTION=Q1 K=5
+ANSWER=Up to 1 year
+
+RETRIEVAL BEFORE LLM: Q2, k=5
+rank=1 source=NCT07749586.txt score=0.7870 text=Toxicities (DLTs) of ARV-6723 [Time Frame: 21 days from first ARV-6723 administration] Number of participants within a d
+rank=2 source=NCT05902988.txt score=0.6536 text=Any clinically significant ascites or pleural effusions at time of enrollment, or any therapeutic paracentesis or thorac
+rank=3 source=NCT07244835.txt score=0.6508 text=Age: 18 Years Maximum Age: Sex: ALL Primary Outcome Measures: - Incidence of dose limiting toxicity (DLT) [Time Frame: F
+rank=4 source=NCT05379985.txt score=0.6439 text=protocol prior/concomitant therapy Other inclusion/exclusion criteria may apply. Minimum Age: 18 Years Maximum Age: Sex:
+rank=5 source=NCT05902988.txt score=0.6371 text=version 5.0 [Time Frame: Up to 12 months] - Dose Escalation: Frequency of Treatment-related Adverse Events (AEs) graded 
+
+CONFIG=C QUESTION=Q2 K=5
+ANSWER=At least 28 days after the last dose (up to approximately 4.7 years)
+
+RETRIEVAL BEFORE LLM: Q3, k=5
+rank=1 source=NCT06937203.txt score=0.5944 text=etc.) for any indication within 6 months prior to Screening * Use of non-GLP-1R medications for weight loss within 3 mon
+rank=2 source=NCT06937203.txt score=0.5802 text=NCT Number: NCT06937203 Title: A First-In-Human Study of ARO-ALK7 in Adults With Obesity With and Without Type 2 Diabete
+rank=3 source=NCT07588438.txt score=0.5701 text=population. The study includes two cohorts: Cohort 1 consists of adults with obesity (BMI ≥30 kg/m²) without type 2 diab
+rank=4 source=NCT07296484.txt score=0.5597 text=NCT Number: NCT07296484 Title: Trial Against INtractable Type 2 Diabetes (CAPTAIN-T2D) Official Title: Clofutriben And P
+rank=5 source=NCT06875193.txt score=0.5176 text=NCT Number: NCT06875193 Title: DM Treatment to Evaluate the Efficacy and Safety of Dapagliflozin or Pioglitazone in Pati
+
+CONFIG=C QUESTION=Q3 K=5
+ANSWER=Phase 1/2A Dose-Escalating Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of ARO-ALK7 in Adult Volunteers With Obesity With and Without Type 2 Diabetes Mellitus
+
+RETRIEVAL BEFORE LLM: Q4, k=5
+rank=1 source=NCT07465848.txt score=0.6656 text=chemotherapy or immunotherapy). Control Group: Cohort A (High risk controls): * Person aged 45 years or older at the tim
+rank=2 source=NCT05704920.txt score=0.6529 text=social security Exclusion Criteria: * clinical signs suggestive of cancer * recent chest scan (\<1 year) for another cau
+rank=3 source=NCT07465848.txt score=0.6335 text=Criteria: * History of any malignant neoplasm, except for subjects with tumors in localized stages who have undergone ra
+rank=4 source=NCT00471978.txt score=0.6331 text=specified PRIOR CONCURRENT THERAPY: * Not specified EXCLUSIONS: Vulnerable populations are excluded. Patients with metas
+rank=5 source=NCT00471978.txt score=0.6314 text=Genes to be studied include GSTP1, GSTM1, GSTT1, ERCC2, XRCC1, EPHX, NAT-2, p53 gene, CYP1A1, NQO1, MnSOD, and GPX1. Tis
+
+CONFIG=C QUESTION=Q4 K=5
+ANSWER=18 Years
+
+RETRIEVAL BEFORE LLM: Q5, k=5
+rank=1 source=NCT00471978.txt score=0.6198 text=polymorphisms in DNA repair genes, p53 pathway genes, and a matrix metalloproteinase gene (tumor invasion factor) in lun
+rank=2 source=NCT00471978.txt score=0.6155 text=specified PRIOR CONCURRENT THERAPY: * Not specified EXCLUSIONS: Vulnerable populations are excluded. Patients with metas
+rank=3 source=NCT07369596.txt score=0.6101 text=and toxicity. This study seeks to evaluate chemotherapy dosing patterns and associated survival outcomes in older patien
+rank=4 source=NCT00471978.txt score=0.6081 text=NCT Number: NCT00471978 Title: DNA Analysis of Blood and Tissue from Patients with Lung Cancer Official Title: Molecular
+rank=5 source=NCT00471978.txt score=0.5970 text=Genes to be studied include GSTP1, GSTM1, GSTT1, ERCC2, XRCC1, EPHX, NAT-2, p53 gene, CYP1A1, NQO1, MnSOD, and GPX1. Tis
+
+CONFIG=C QUESTION=Q5 K=5
+ANSWER=I cannot answer this question from the provided documents
+
+RETRIEVAL BEFORE LLM: Q6, k=5
+rank=1 source=NCT07003321.txt score=0.6245 text=NCT Number: NCT07003321 Title: A Trial of HRS-4508 in Subjects With Locally Advanced or Metastatic Non-small Cell Lung C
+rank=2 source=NCT07155187.txt score=0.6218 text=Status: RECRUITING Start Date: 2025-12-10 Study Type: INTERVENTIONAL Phases: PHASE2, PHASE3 Enrollment: 490 Conditions: 
+rank=3 source=NCT06667908.txt score=0.6127 text=concurrent platinum-based doublet chemotherapy with radiation therapy (cCRT) followed by consolidation immunotherapy (cI
+rank=4 source=NCT04316364.txt score=0.6060 text=neoadjuvant treatment with monoclonal antibody SHR-1316 or placebo in combination with platinum doublet chemotherapy in 
+rank=5 source=NCT06728852.txt score=0.6038 text=evaluates the efficacy and safety of Vorolanib as monotherapy for advanced non-small cell lung cancer (NSCLC) patients r
+
+CONFIG=C QUESTION=Q6 K=5
+ANSWER=I cannot answer this question from the provided documents
+
+Saved: /Users/haozhewang/data260-8561/reports/hw04/rag_results.json
+Saved: /Users/haozhewang/data260-8561/reports/hw04/rag_evaluation.csv
+
+total_results=36

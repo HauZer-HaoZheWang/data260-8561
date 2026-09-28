@@ -1,0 +1,37 @@
+configuration,question_id,top_k,answer,expected_answer,correct
+A,Q1,0,4–7 years,NCT00471978; 10 years.,1
+A,Q2,0,7 days,21 days.,1
+A,Q3,0,Phase I,150 participants; Phase 1 and Phase 2.,0
+A,Q4,0,30 years of age,18 years.,1
+A,Q5,0,Five-year survival rate,I cannot answer this question from the provided documents,0
+A,Q6,0,Lung cancer medication,I cannot answer this question from the provided documents,0
+B,Q1,3,Up to 1 year,NCT00471978; 10 years.,0
+B,Q2,3,21,21 days.,0
+B,Q3,3,"Phase 1/2a Dose-Escalating Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of ARO-ALK7 in Adult Volunteers With Obesity With and Without Type 2 Diabetes Mellitus",150 participants; Phase 1 and Phase 2.,1
+B,Q4,3,45 years,18 years.,1
+B,Q5,3,median overall survival (OS) of 8- 10 months,I cannot answer this question from the provided documents,0
+B,Q6,3,telisotuzumab adizutecan,I cannot answer this question from the provided documents,0
+C,Q1,3,Up to 1 year,NCT00471978; 10 years.,0
+C,Q2,3,21 days from first ARV-6723 administration,21 days.,1
+C,Q3,3,"Phase 1/2a Dose-Escalating Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of ARO-ALK7 in Adult Volunteers With Obesity With and Without Type 2 Diabetes Mellitus",150 participants; Phase 1 and Phase 2.,1
+C,Q4,3,45 Years,18 years.,1
+C,Q5,3,I cannot answer this question from the provided documents,I cannot answer this question from the provided documents,1
+C,Q6,3,I cannot answer this question from the provided documents,I cannot answer this question from the provided documents,1
+C,Q1,1,"Assess the role of genetic polymorphisms in DNA repair genes, p53 pathway genes, and a matrix metalloproteinase gene (tumor invasion factor) in lung-cancer",NCT00471978; 10 years.,0
+C,Q2,1,21 days from first ARV-6723 administration,21 days.,1
+C,Q3,1,Phase I of the Arrowhead Pharmaceuticals study in obesity and type 2 diabetes mellitus,150 participants; Phase 1 and Phase 2.,1
+C,Q4,1,No diagnosis or suspicion of lung cancer,18 years.,0
+C,Q5,1,I cannot answer this question from the provided documents,I cannot answer this question from the provided documents,1
+C,Q6,1,I cannot answer this question from the provided documents,I cannot answer this question from the provided documents,1
+C,Q1,3,Up to 1 year,NCT00471978; 10 years.,0
+C,Q2,3,21 days from first ARV-6723 administration,21 days.,1
+C,Q3,3,"Phase 1/2a Dose-Escalating Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of ARO-ALK7 in Adult Volunteers With Obesity With and Without Type 2 Diabetes Mellitus",150 participants; Phase 1 and Phase 2.,1
+C,Q4,3,45 Years,18 years.,1
+C,Q5,3,I cannot answer this question from the provided documents,I cannot answer this question from the provided documents,1
+C,Q6,3,I cannot answer this question from the provided documents,I cannot answer this question from the provided documents,1
+C,Q1,5,Up to 1 year,NCT00471978; 10 years.,0
+C,Q2,5,At least 28 days after the last dose (up to approximately 4.7 years),21 days.,1
+C,Q3,5,"Phase 1/2A Dose-Escalating Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of ARO-ALK7 in Adult Volunteers With Obesity With and Without Type 2 Diabetes Mellitus",150 participants; Phase 1 and Phase 2.,1
+C,Q4,5,18 Years,18 years.,1
+C,Q5,5,I cannot answer this question from the provided documents,I cannot answer this question from the provided documents,1
+C,Q6,5,I cannot answer this question from the provided documents,I cannot answer this question from the provided documents,1

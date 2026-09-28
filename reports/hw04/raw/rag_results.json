@@ -1,0 +1,638 @@
+[
+  {
+    "configuration": "A",
+    "question_id": "Q1",
+    "question": "Which study examines germline polymorphisms in DNA repair genes such as GSTP1, GSTM1, and ERCC2, and over what time frame is its primary outcome measured?",
+    "top_k": 0,
+    "answer": "4\u20137 years",
+    "expected_answer": "NCT00471978; 10 years.",
+    "correct": 1,
+    "retrieved_sources": [],
+    "retrieved_scores": []
+  },
+  {
+    "configuration": "A",
+    "question_id": "Q2",
+    "question": "In the ARV-6723 dose escalation study, over how many days after the first administration are dose-limiting toxicities assessed?",
+    "top_k": 0,
+    "answer": "7 days",
+    "expected_answer": "21 days.",
+    "correct": 1,
+    "retrieved_sources": [],
+    "retrieved_scores": []
+  },
+  {
+    "configuration": "A",
+    "question_id": "Q3",
+    "question": "What is the planned enrollment and trial phase of the Arrowhead Pharmaceuticals study in obesity and type 2 diabetes?",
+    "top_k": 0,
+    "answer": "Phase I",
+    "expected_answer": "150 participants; Phase 1 and Phase 2.",
+    "correct": 0,
+    "retrieved_sources": [],
+    "retrieved_scores": []
+  },
+  {
+    "configuration": "A",
+    "question_id": "Q4",
+    "question": "What is the minimum age requirement for the lung cancer genetic analysis study sponsored by Massachusetts General Hospital?",
+    "top_k": 0,
+    "answer": "30 years of age",
+    "expected_answer": "18 years.",
+    "correct": 1,
+    "retrieved_sources": [],
+    "retrieved_scores": []
+  },
+  {
+    "configuration": "A",
+    "question_id": "Q5",
+    "question": "What exact five-year survival rate was reported for participants in the lung cancer genetic analysis study?",
+    "top_k": 0,
+    "answer": "Five-year survival rate",
+    "expected_answer": "I cannot answer this question from the provided documents",
+    "correct": 0,
+    "retrieved_sources": [],
+    "retrieved_scores": []
+  },
+  {
+    "configuration": "A",
+    "question_id": "Q6",
+    "question": "Based on these trial listings, what medication and dosage should an individual patient take to treat lung cancer?",
+    "top_k": 0,
+    "answer": "Lung cancer medication",
+    "expected_answer": "I cannot answer this question from the provided documents",
+    "correct": 0,
+    "retrieved_sources": [],
+    "retrieved_scores": []
+  },
+  {
+    "configuration": "B",
+    "question_id": "Q1",
+    "question": "Which study examines germline polymorphisms in DNA repair genes such as GSTP1, GSTM1, and ERCC2, and over what time frame is its primary outcome measured?",
+    "top_k": 3,
+    "answer": "Up to 1 year",
+    "expected_answer": "NCT00471978; 10 years.",
+    "correct": 0,
+    "retrieved_sources": [
+      "NCT00471978.txt",
+      "NCT03819296.txt",
+      "NCT04024631.txt"
+    ],
+    "retrieved_scores": [
+      0.460855,
+      0.42216,
+      0.403611
+    ]
+  },
+  {
+    "configuration": "B",
+    "question_id": "Q2",
+    "question": "In the ARV-6723 dose escalation study, over how many days after the first administration are dose-limiting toxicities assessed?",
+    "top_k": 3,
+    "answer": "21",
+    "expected_answer": "21 days.",
+    "correct": 0,
+    "retrieved_sources": [
+      "NCT07749586.txt",
+      "NCT05902988.txt",
+      "NCT07244835.txt"
+    ],
+    "retrieved_scores": [
+      0.78697,
+      0.653576,
+      0.650841
+    ]
+  },
+  {
+    "configuration": "B",
+    "question_id": "Q3",
+    "question": "What is the planned enrollment and trial phase of the Arrowhead Pharmaceuticals study in obesity and type 2 diabetes?",
+    "top_k": 3,
+    "answer": "Phase 1/2a Dose-Escalating Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of ARO-ALK7 in Adult Volunteers With Obesity With and Without Type 2 Diabetes Mellitus",
+    "expected_answer": "150 participants; Phase 1 and Phase 2.",
+    "correct": 1,
+    "retrieved_sources": [
+      "NCT06937203.txt",
+      "NCT06937203.txt",
+      "NCT07588438.txt"
+    ],
+    "retrieved_scores": [
+      0.594361,
+      0.580185,
+      0.570084
+    ]
+  },
+  {
+    "configuration": "B",
+    "question_id": "Q4",
+    "question": "What is the minimum age requirement for the lung cancer genetic analysis study sponsored by Massachusetts General Hospital?",
+    "top_k": 3,
+    "answer": "45 years",
+    "expected_answer": "18 years.",
+    "correct": 1,
+    "retrieved_sources": [
+      "NCT07465848.txt",
+      "NCT05704920.txt",
+      "NCT07465848.txt"
+    ],
+    "retrieved_scores": [
+      0.665644,
+      0.652882,
+      0.633506
+    ]
+  },
+  {
+    "configuration": "B",
+    "question_id": "Q5",
+    "question": "What exact five-year survival rate was reported for participants in the lung cancer genetic analysis study?",
+    "top_k": 3,
+    "answer": "median overall survival (OS) of 8- 10 months",
+    "expected_answer": "I cannot answer this question from the provided documents",
+    "correct": 0,
+    "retrieved_sources": [
+      "NCT00471978.txt",
+      "NCT00471978.txt",
+      "NCT07369596.txt"
+    ],
+    "retrieved_scores": [
+      0.619796,
+      0.615504,
+      0.610142
+    ]
+  },
+  {
+    "configuration": "B",
+    "question_id": "Q6",
+    "question": "Based on these trial listings, what medication and dosage should an individual patient take to treat lung cancer?",
+    "top_k": 3,
+    "answer": "telisotuzumab adizutecan",
+    "expected_answer": "I cannot answer this question from the provided documents",
+    "correct": 0,
+    "retrieved_sources": [
+      "NCT07003321.txt",
+      "NCT07155187.txt",
+      "NCT06667908.txt"
+    ],
+    "retrieved_scores": [
+      0.624459,
+      0.621824,
+      0.612703
+    ]
+  },
+  {
+    "configuration": "C",
+    "question_id": "Q1",
+    "question": "Which study examines germline polymorphisms in DNA repair genes such as GSTP1, GSTM1, and ERCC2, and over what time frame is its primary outcome measured?",
+    "top_k": 3,
+    "answer": "Up to 1 year",
+    "expected_answer": "NCT00471978; 10 years.",
+    "correct": 0,
+    "retrieved_sources": [
+      "NCT00471978.txt",
+      "NCT03819296.txt",
+      "NCT04024631.txt"
+    ],
+    "retrieved_scores": [
+      0.460855,
+      0.42216,
+      0.403611
+    ]
+  },
+  {
+    "configuration": "C",
+    "question_id": "Q2",
+    "question": "In the ARV-6723 dose escalation study, over how many days after the first administration are dose-limiting toxicities assessed?",
+    "top_k": 3,
+    "answer": "21 days from first ARV-6723 administration",
+    "expected_answer": "21 days.",
+    "correct": 1,
+    "retrieved_sources": [
+      "NCT07749586.txt",
+      "NCT05902988.txt",
+      "NCT07244835.txt"
+    ],
+    "retrieved_scores": [
+      0.78697,
+      0.653576,
+      0.650841
+    ]
+  },
+  {
+    "configuration": "C",
+    "question_id": "Q3",
+    "question": "What is the planned enrollment and trial phase of the Arrowhead Pharmaceuticals study in obesity and type 2 diabetes?",
+    "top_k": 3,
+    "answer": "Phase 1/2a Dose-Escalating Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of ARO-ALK7 in Adult Volunteers With Obesity With and Without Type 2 Diabetes Mellitus",
+    "expected_answer": "150 participants; Phase 1 and Phase 2.",
+    "correct": 1,
+    "retrieved_sources": [
+      "NCT06937203.txt",
+      "NCT06937203.txt",
+      "NCT07588438.txt"
+    ],
+    "retrieved_scores": [
+      0.594361,
+      0.580185,
+      0.570084
+    ]
+  },
+  {
+    "configuration": "C",
+    "question_id": "Q4",
+    "question": "What is the minimum age requirement for the lung cancer genetic analysis study sponsored by Massachusetts General Hospital?",
+    "top_k": 3,
+    "answer": "45 Years",
+    "expected_answer": "18 years.",
+    "correct": 1,
+    "retrieved_sources": [
+      "NCT07465848.txt",
+      "NCT05704920.txt",
+      "NCT07465848.txt"
+    ],
+    "retrieved_scores": [
+      0.665644,
+      0.652882,
+      0.633506
+    ]
+  },
+  {
+    "configuration": "C",
+    "question_id": "Q5",
+    "question": "What exact five-year survival rate was reported for participants in the lung cancer genetic analysis study?",
+    "top_k": 3,
+    "answer": "I cannot answer this question from the provided documents",
+    "expected_answer": "I cannot answer this question from the provided documents",
+    "correct": 1,
+    "retrieved_sources": [
+      "NCT00471978.txt",
+      "NCT00471978.txt",
+      "NCT07369596.txt"
+    ],
+    "retrieved_scores": [
+      0.619796,
+      0.615504,
+      0.610142
+    ]
+  },
+  {
+    "configuration": "C",
+    "question_id": "Q6",
+    "question": "Based on these trial listings, what medication and dosage should an individual patient take to treat lung cancer?",
+    "top_k": 3,
+    "answer": "I cannot answer this question from the provided documents",
+    "expected_answer": "I cannot answer this question from the provided documents",
+    "correct": 1,
+    "retrieved_sources": [
+      "NCT07003321.txt",
+      "NCT07155187.txt",
+      "NCT06667908.txt"
+    ],
+    "retrieved_scores": [
+      0.624459,
+      0.621824,
+      0.612703
+    ]
+  },
+  {
+    "configuration": "C",
+    "question_id": "Q1",
+    "question": "Which study examines germline polymorphisms in DNA repair genes such as GSTP1, GSTM1, and ERCC2, and over what time frame is its primary outcome measured?",
+    "top_k": 1,
+    "answer": "Assess the role of genetic polymorphisms in DNA repair genes, p53 pathway genes, and a matrix metalloproteinase gene (tumor invasion factor) in lung-cancer",
+    "expected_answer": "NCT00471978; 10 years.",
+    "correct": 0,
+    "retrieved_sources": [
+      "NCT00471978.txt"
+    ],
+    "retrieved_scores": [
+      0.460855
+    ]
+  },
+  {
+    "configuration": "C",
+    "question_id": "Q2",
+    "question": "In the ARV-6723 dose escalation study, over how many days after the first administration are dose-limiting toxicities assessed?",
+    "top_k": 1,
+    "answer": "21 days from first ARV-6723 administration",
+    "expected_answer": "21 days.",
+    "correct": 1,
+    "retrieved_sources": [
+      "NCT07749586.txt"
+    ],
+    "retrieved_scores": [
+      0.78697
+    ]
+  },
+  {
+    "configuration": "C",
+    "question_id": "Q3",
+    "question": "What is the planned enrollment and trial phase of the Arrowhead Pharmaceuticals study in obesity and type 2 diabetes?",
+    "top_k": 1,
+    "answer": "Phase I of the Arrowhead Pharmaceuticals study in obesity and type 2 diabetes mellitus",
+    "expected_answer": "150 participants; Phase 1 and Phase 2.",
+    "correct": 1,
+    "retrieved_sources": [
+      "NCT06937203.txt"
+    ],
+    "retrieved_scores": [
+      0.594361
+    ]
+  },
+  {
+    "configuration": "C",
+    "question_id": "Q4",
+    "question": "What is the minimum age requirement for the lung cancer genetic analysis study sponsored by Massachusetts General Hospital?",
+    "top_k": 1,
+    "answer": "No diagnosis or suspicion of lung cancer",
+    "expected_answer": "18 years.",
+    "correct": 0,
+    "retrieved_sources": [
+      "NCT07465848.txt"
+    ],
+    "retrieved_scores": [
+      0.665644
+    ]
+  },
+  {
+    "configuration": "C",
+    "question_id": "Q5",
+    "question": "What exact five-year survival rate was reported for participants in the lung cancer genetic analysis study?",
+    "top_k": 1,
+    "answer": "I cannot answer this question from the provided documents",
+    "expected_answer": "I cannot answer this question from the provided documents",
+    "correct": 1,
+    "retrieved_sources": [
+      "NCT00471978.txt"
+    ],
+    "retrieved_scores": [
+      0.619796
+    ]
+  },
+  {
+    "configuration": "C",
+    "question_id": "Q6",
+    "question": "Based on these trial listings, what medication and dosage should an individual patient take to treat lung cancer?",
+    "top_k": 1,
+    "answer": "I cannot answer this question from the provided documents",
+    "expected_answer": "I cannot answer this question from the provided documents",
+    "correct": 1,
+    "retrieved_sources": [
+      "NCT07003321.txt"
+    ],
+    "retrieved_scores": [
+      0.624459
+    ]
+  },
+  {
+    "configuration": "C",
+    "question_id": "Q1",
+    "question": "Which study examines germline polymorphisms in DNA repair genes such as GSTP1, GSTM1, and ERCC2, and over what time frame is its primary outcome measured?",
+    "top_k": 3,
+    "answer": "Up to 1 year",
+    "expected_answer": "NCT00471978; 10 years.",
+    "correct": 0,
+    "retrieved_sources": [
+      "NCT00471978.txt",
+      "NCT03819296.txt",
+      "NCT04024631.txt"
+    ],
+    "retrieved_scores": [
+      0.460855,
+      0.42216,
+      0.403611
+    ]
+  },
+  {
+    "configuration": "C",
+    "question_id": "Q2",
+    "question": "In the ARV-6723 dose escalation study, over how many days after the first administration are dose-limiting toxicities assessed?",
+    "top_k": 3,
+    "answer": "21 days from first ARV-6723 administration",
+    "expected_answer": "21 days.",
+    "correct": 1,
+    "retrieved_sources": [
+      "NCT07749586.txt",
+      "NCT05902988.txt",
+      "NCT07244835.txt"
+    ],
+    "retrieved_scores": [
+      0.78697,
+      0.653576,
+      0.650841
+    ]
+  },
+  {
+    "configuration": "C",
+    "question_id": "Q3",
+    "question": "What is the planned enrollment and trial phase of the Arrowhead Pharmaceuticals study in obesity and type 2 diabetes?",
+    "top_k": 3,
+    "answer": "Phase 1/2a Dose-Escalating Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of ARO-ALK7 in Adult Volunteers With Obesity With and Without Type 2 Diabetes Mellitus",
+    "expected_answer": "150 participants; Phase 1 and Phase 2.",
+    "correct": 1,
+    "retrieved_sources": [
+      "NCT06937203.txt",
+      "NCT06937203.txt",
+      "NCT07588438.txt"
+    ],
+    "retrieved_scores": [
+      0.594361,
+      0.580185,
+      0.570084
+    ]
+  },
+  {
+    "configuration": "C",
+    "question_id": "Q4",
+    "question": "What is the minimum age requirement for the lung cancer genetic analysis study sponsored by Massachusetts General Hospital?",
+    "top_k": 3,
+    "answer": "45 Years",
+    "expected_answer": "18 years.",
+    "correct": 1,
+    "retrieved_sources": [
+      "NCT07465848.txt",
+      "NCT05704920.txt",
+      "NCT07465848.txt"
+    ],
+    "retrieved_scores": [
+      0.665644,
+      0.652882,
+      0.633506
+    ]
+  },
+  {
+    "configuration": "C",
+    "question_id": "Q5",
+    "question": "What exact five-year survival rate was reported for participants in the lung cancer genetic analysis study?",
+    "top_k": 3,
+    "answer": "I cannot answer this question from the provided documents",
+    "expected_answer": "I cannot answer this question from the provided documents",
+    "correct": 1,
+    "retrieved_sources": [
+      "NCT00471978.txt",
+      "NCT00471978.txt",
+      "NCT07369596.txt"
+    ],
+    "retrieved_scores": [
+      0.619796,
+      0.615504,
+      0.610142
+    ]
+  },
+  {
+    "configuration": "C",
+    "question_id": "Q6",
+    "question": "Based on these trial listings, what medication and dosage should an individual patient take to treat lung cancer?",
+    "top_k": 3,
+    "answer": "I cannot answer this question from the provided documents",
+    "expected_answer": "I cannot answer this question from the provided documents",
+    "correct": 1,
+    "retrieved_sources": [
+      "NCT07003321.txt",
+      "NCT07155187.txt",
+      "NCT06667908.txt"
+    ],
+    "retrieved_scores": [
+      0.624459,
+      0.621824,
+      0.612703
+    ]
+  },
+  {
+    "configuration": "C",
+    "question_id": "Q1",
+    "question": "Which study examines germline polymorphisms in DNA repair genes such as GSTP1, GSTM1, and ERCC2, and over what time frame is its primary outcome measured?",
+    "top_k": 5,
+    "answer": "Up to 1 year",
+    "expected_answer": "NCT00471978; 10 years.",
+    "correct": 0,
+    "retrieved_sources": [
+      "NCT00471978.txt",
+      "NCT03819296.txt",
+      "NCT04024631.txt",
+      "NCT00471978.txt",
+      "NCT06646471.txt"
+    ],
+    "retrieved_scores": [
+      0.460855,
+      0.42216,
+      0.403611,
+      0.397932,
+      0.392643
+    ]
+  },
+  {
+    "configuration": "C",
+    "question_id": "Q2",
+    "question": "In the ARV-6723 dose escalation study, over how many days after the first administration are dose-limiting toxicities assessed?",
+    "top_k": 5,
+    "answer": "At least 28 days after the last dose (up to approximately 4.7 years)",
+    "expected_answer": "21 days.",
+    "correct": 1,
+    "retrieved_sources": [
+      "NCT07749586.txt",
+      "NCT05902988.txt",
+      "NCT07244835.txt",
+      "NCT05379985.txt",
+      "NCT05902988.txt"
+    ],
+    "retrieved_scores": [
+      0.78697,
+      0.653576,
+      0.650841,
+      0.643924,
+      0.637148
+    ]
+  },
+  {
+    "configuration": "C",
+    "question_id": "Q3",
+    "question": "What is the planned enrollment and trial phase of the Arrowhead Pharmaceuticals study in obesity and type 2 diabetes?",
+    "top_k": 5,
+    "answer": "Phase 1/2A Dose-Escalating Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of ARO-ALK7 in Adult Volunteers With Obesity With and Without Type 2 Diabetes Mellitus",
+    "expected_answer": "150 participants; Phase 1 and Phase 2.",
+    "correct": 1,
+    "retrieved_sources": [
+      "NCT06937203.txt",
+      "NCT06937203.txt",
+      "NCT07588438.txt",
+      "NCT07296484.txt",
+      "NCT06875193.txt"
+    ],
+    "retrieved_scores": [
+      0.594361,
+      0.580185,
+      0.570084,
+      0.559658,
+      0.517576
+    ]
+  },
+  {
+    "configuration": "C",
+    "question_id": "Q4",
+    "question": "What is the minimum age requirement for the lung cancer genetic analysis study sponsored by Massachusetts General Hospital?",
+    "top_k": 5,
+    "answer": "18 Years",
+    "expected_answer": "18 years.",
+    "correct": 1,
+    "retrieved_sources": [
+      "NCT07465848.txt",
+      "NCT05704920.txt",
+      "NCT07465848.txt",
+      "NCT00471978.txt",
+      "NCT00471978.txt"
+    ],
+    "retrieved_scores": [
+      0.665644,
+      0.652882,
+      0.633506,
+      0.633136,
+      0.631359
+    ]
+  },
+  {
+    "configuration": "C",
+    "question_id": "Q5",
+    "question": "What exact five-year survival rate was reported for participants in the lung cancer genetic analysis study?",
+    "top_k": 5,
+    "answer": "I cannot answer this question from the provided documents",
+    "expected_answer": "I cannot answer this question from the provided documents",
+    "correct": 1,
+    "retrieved_sources": [
+      "NCT00471978.txt",
+      "NCT00471978.txt",
+      "NCT07369596.txt",
+      "NCT00471978.txt",
+      "NCT00471978.txt"
+    ],
+    "retrieved_scores": [
+      0.619796,
+      0.615504,
+      0.610142,
+      0.608054,
+      0.596961
+    ]
+  },
+  {
+    "configuration": "C",
+    "question_id": "Q6",
+    "question": "Based on these trial listings, what medication and dosage should an individual patient take to treat lung cancer?",
+    "top_k": 5,
+    "answer": "I cannot answer this question from the provided documents",
+    "expected_answer": "I cannot answer this question from the provided documents",
+    "correct": 1,
+    "retrieved_sources": [
+      "NCT07003321.txt",
+      "NCT07155187.txt",
+      "NCT06667908.txt",
+      "NCT04316364.txt",
+      "NCT06728852.txt"
+    ],
+    "retrieved_scores": [
+      0.624459,
+      0.621824,
+      0.612703,
+      0.605981,
+      0.603812
+    ]
+  }
+]

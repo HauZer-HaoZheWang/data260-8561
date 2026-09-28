@@ -1,0 +1,90 @@
+Mon Sep 28 10:14:46 PDT 2026
+NAMES         IMAGE       PORTS
+s8561-mysql   mysql:8.4   0.0.0.0:3307->3306/tcp, [::]:3307->3306/tcp
+{
+  "sid4": 8561,
+  "status": "PASS",
+  "checks": {
+    "required_files": {
+      "passed": true,
+      "detail": "all present"
+    },
+    "required_database_variable": {
+      "passed": true,
+      "detail": "db_session_basede26 found"
+    },
+    "no_signed_session_middleware": {
+      "passed": true,
+      "detail": "SessionMiddleware absent from main.py"
+    },
+    "react_components_and_routes": {
+      "passed": true,
+      "detail": "all present"
+    },
+    "nplus1_raw_measurements": {
+      "passed": true,
+      "detail": "180 rows"
+    },
+    "nplus1_combinations": {
+      "passed": true,
+      "detail": "[('fixed', 10), ('fixed', 50), ('fixed', 200), ('naive', 10), ('naive', 50), ('naive', 200)]"
+    },
+    "screenshots": {
+      "passed": true,
+      "detail": "84 PNG files"
+    },
+    "rag_result_count": {
+      "passed": true,
+      "detail": "36 results"
+    },
+    "rag_configurations": {
+      "passed": true,
+      "detail": "['A', 'B', 'C']"
+    },
+    "rag_k_sweep": {
+      "passed": true,
+      "detail": "[1, 3, 5]"
+    },
+    "rag_q5_q6_refusal": {
+      "passed": true,
+      "detail": "8/8 correct refusals"
+    },
+    "mysql_database": {
+      "passed": true,
+      "detail": "s8561_rel"
+    },
+    "mysql_tables": {
+      "passed": true,
+      "detail": "4/4 tables"
+    },
+    "seeded_trials": {
+      "passed": true,
+      "detail": "5000 trials"
+    },
+    "seeded_trial_details": {
+      "passed": true,
+      "detail": "200 trial details"
+    }
+  }
+}
+Saved: /Users/haozhewang/data260-8561/reports/hw04/verification.json
+     181 reports/hw04/raw/nplus1_measurements.csv
+# HW4 N+1 Metrics
+
+| Page size | Version | SQL statements/request | p50 ms | p95 ms | p99 ms |
+|---:|---|---:|---:|---:|---:|
+| 10 | fixed | 1.0 | 1.311 | 1.445 | 1.453 |
+| 10 | naive | 11.0 | 3.732 | 6.424 | 8.354 |
+| 50 | fixed | 1.0 | 1.831 | 1.994 | 2.063 |
+| 50 | naive | 51.0 | 11.779 | 12.495 | 14.270 |
+| 200 | fixed | 1.0 | 3.507 | 12.956 | 14.050 |
+| 200 | naive | 201.0 | 42.943 | 45.356 | 47.710 |
+
+## Speed-up
+
+- Page size 10: 2.85x faster by p50 latency
+- Page size 50: 6.43x faster by p50 latency
+- Page size 200: 12.24x faster by p50 latencydocuments=100
+chunks=692
+indexing_seconds=2.728
+total_results=36

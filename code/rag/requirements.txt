@@ -1,9 +1,11 @@
 llama-index
 llama-index-embeddings-huggingface
-sentence-transformers
-transformers
+sentence-transformers==5.1.2
+transformers==4.57.1
 faiss-cpu
 numpy
 pandas
 PyYAML
 requests
+
+sentencepiece==0.2.2

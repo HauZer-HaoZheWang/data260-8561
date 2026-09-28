@@ -1,0 +1,42 @@
+configuration:
+  sid4: 8561
+  seed: 8561
+  domain: "Clinical Trial Listings"
+  question_count: 6
+
+questions:
+  - id: Q1
+    question: "Which study examines germline polymorphisms in DNA repair genes such as GSTP1, GSTM1, and ERCC2, and over what time frame is its primary outcome measured?"
+    expected_answer: "NCT00471978; 10 years."
+    expected_source: "NCT00471978.txt"
+    answerable: true
+
+  - id: Q2
+    question: "In the ARV-6723 dose escalation study, over how many days after the first administration are dose-limiting toxicities assessed?"
+    expected_answer: "21 days."
+    expected_source: "NCT07749586.txt"
+    answerable: true
+
+  - id: Q3
+    question: "What is the planned enrollment and trial phase of the Arrowhead Pharmaceuticals study in obesity and type 2 diabetes?"
+    expected_answer: "150 participants; Phase 1 and Phase 2."
+    expected_source: "NCT06937203.txt"
+    answerable: true
+
+  - id: Q4
+    question: "What is the minimum age requirement for the lung cancer genetic analysis study sponsored by Massachusetts General Hospital?"
+    expected_answer: "18 years."
+    expected_source: "NCT00471978.txt"
+    answerable: true
+
+  - id: Q5
+    question: "What exact five-year survival rate was reported for participants in the lung cancer genetic analysis study?"
+    expected_answer: "I cannot answer this question from the provided documents"
+    expected_source: null
+    answerable: false
+
+  - id: Q6
+    question: "Based on these trial listings, what medication and dosage should an individual patient take to treat lung cancer?"
+    expected_answer: "I cannot answer this question from the provided documents"
+    expected_source: null
+    answerable: false

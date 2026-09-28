@@ -1,248 +1,183 @@
-import os
 from pathlib import Path
-from typing import List, Optional
+from typing import Optional
 
 import uvicorn
-from fastapi import FastAPI, HTTPException, Query
+from fastapi import Depends, FastAPI, HTTPException, Query
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
-from pydantic import BaseModel
-from starlette.middleware.sessions import SessionMiddleware
+from sqlalchemy.orm import Session
 
-from routers.auth import router as auth_router
+from database import Base, db_session_basede26, get_db
+from models import Trial
+from routers.auth import require_session, router as auth_router
+from performance import router as performance_router
+from schemas import TrialCreate, TrialOut, TrialUpdate
 
 
-#Get the web_application folder
 BASE_DIR = Path(__file__).resolve().parent
-
-#This is the assigned port for SID4 8561
 PORT_BASE = 8461
 
-#Create the FastAPI application
 app = FastAPI(
     title="Clinical Trial API",
-    version="1.0.0"
+    version="2.0.0",
 )
 
-#Read session settings from environment variables
-SECRET_KEY = os.getenv(
-    "SECRET_KEY",
-    "dev-only-secret-key"
-)
+# Create missing tables without deleting existing data
+Base.metadata.create_all(bind=db_session_basede26)
 
-#Use false for local HTTP and true for the HTTPS test
-COOKIE_SECURE = os.getenv(
-    "COOKIE_SECURE",
-    "0"
-) == "1"
-
-#Add signed cookie session support
-app.add_middleware(
-    SessionMiddleware,
-    secret_key=SECRET_KEY,
-    https_only=COOKIE_SECURE,
-    same_site="lax",
-    max_age=3600
-)
-
-#Add Homework 3 authentication routes
+# MySQL-backed authentication routes
 app.include_router(auth_router)
+app.include_router(performance_router)
 
-#Make files inside static available through /static
+# Serve frontend files
 app.mount(
     "/static",
-    StaticFiles(
-        directory=str(BASE_DIR / "static")
-    ),
-    name="static"
+    StaticFiles(directory=str(BASE_DIR / "static")),
+    name="static",
 )
 
 
-#Trial is the complete data returned by server.
-class Trial(BaseModel):
-    id: int
-    brief_title: str
-    sponsor: str
-
-
-#TrialCreate is the data client sends when creating a trial
-#Client does not provide id because server creates it.
-class TrialCreate(BaseModel):
-    brief_title: str
-    sponsor: str
-
-
-#TrialUpdate is the data client sends when updating a trial.
-class TrialUpdate(BaseModel):
-    brief_title: str
-    sponsor: str
-
-
-#Use a list as temporary memory storage
-#All data will reset after server restarts.
-trials: List[Trial] = [
-    Trial(
-        id=1,
-        brief_title="Diabetes Prevention Study",
-        sponsor="Stanford University"
-    ),
-    Trial(
-        id=2,
-        brief_title="New Treatment for Lung Cancer",
-        sponsor="National Cancer Institute"
-    ),
-    Trial(
-        id=3,
-        brief_title="Sleep and Memory Research",
-        sponsor="University of California"
-    ),
-]
-
-
-#Return the Homework 2 CRUD frontend page.
 @app.get("/trials")
 def trials_ui():
-    return FileResponse(
-        BASE_DIR / "static" / "index.html"
-    )
+    return FileResponse(BASE_DIR / "static" / "index.html")
 
 
-#Return all trials or search by title and sponsor
 @app.get(
     "/api/trials",
-    response_model=List[Trial]
+    response_model=list[TrialOut],
 )
 def get_trials(
-    q: Optional[str] = Query(default=None)
+    q: Optional[str] = Query(default=None),
+    db: Session = Depends(get_db),
+    _session=Depends(require_session),
 ):
-    #If q is missing or empty, return all trials.
-    if q is None or not q.strip():
-        return trials
+    query = db.query(Trial)
 
-    #Remove spaces and change search text to lowercase
-    search_text = q.strip().lower()
-
-    #Return trials whose title or sponsor contains the search text.
-    return [
-        trial
-        for trial in trials
-        if (
-            search_text in trial.brief_title.lower()
-            or search_text in trial.sponsor.lower()
+    if q and q.strip():
+        search_text = f"%{q.strip()}%"
+        query = query.filter(
+            (Trial.brief_title.ilike(search_text))
+            | (Trial.sponsor.ilike(search_text))
         )
-    ]
+
+    return query.order_by(Trial.id.asc()).all()
 
 
-#Return one trial by its id.
 @app.get(
     "/api/trials/{trial_id}",
-    response_model=Trial
+    response_model=TrialOut,
 )
-def get_trial(trial_id: int):
-    #Go through every trial and find the same id
-    for trial in trials:
-        if trial.id == trial_id:
-            return trial
-
-    #Return 404 if the trial does not exist.
-    raise HTTPException(
-        status_code=404,
-        detail="Trial not found"
+def get_trial(
+    trial_id: int,
+    db: Session = Depends(get_db),
+    _session=Depends(require_session),
+):
+    trial = (
+        db.query(Trial)
+        .filter(Trial.id == trial_id)
+        .first()
     )
 
+    if not trial:
+        raise HTTPException(
+            status_code=404,
+            detail="Trial not found",
+        )
 
-#Create a new trial
+    return trial
+
+
 @app.post(
     "/api/trials",
-    response_model=Trial,
-    status_code=201
+    response_model=TrialOut,
+    status_code=201,
 )
 def create_trial(
-    trial_data: TrialCreate
+    trial_data: TrialCreate,
+    db: Session = Depends(get_db),
+    _session=Depends(require_session),
 ):
-    #Find the largest current id and add one.
-    new_id = max(
-        [trial.id for trial in trials],
-        default=0
-    ) + 1
-
-    #Create a complete Trial object with server generated id
-    new_trial = Trial(
-        id=new_id,
+    trial = Trial(
         brief_title=trial_data.brief_title,
-        sponsor=trial_data.sponsor
+        sponsor=trial_data.sponsor,
     )
 
-    #Save the new trial into memory.
-    trials.append(new_trial)
+    db.add(trial)
+    db.commit()
+    db.refresh(trial)
 
-    return new_trial
+    return trial
 
 
-#Update an existing trial by its id.
 @app.put(
     "/api/trials/{trial_id}",
-    response_model=Trial
+    response_model=TrialOut,
 )
 def update_trial(
     trial_id: int,
-    trial_data: TrialUpdate
+    trial_data: TrialUpdate,
+    db: Session = Depends(get_db),
+    _session=Depends(require_session),
 ):
-    #Use enumerate to get both index and trial
-    for index, trial in enumerate(trials):
-        if trial.id == trial_id:
-            updated_trial = Trial(
-                id=trial_id,
-                brief_title=trial_data.brief_title,
-                sponsor=trial_data.sponsor
-            )
-
-            #Replace the old trial with updated trial.
-            trials[index] = updated_trial
-
-            return updated_trial
-
-    #Return 404 if the trial does not exist
-    raise HTTPException(
-        status_code=404,
-        detail="Trial not found"
+    trial = (
+        db.query(Trial)
+        .filter(Trial.id == trial_id)
+        .first()
     )
 
+    if not trial:
+        raise HTTPException(
+            status_code=404,
+            detail="Trial not found",
+        )
 
-#Delete a trial by its id
+    trial.brief_title = trial_data.brief_title
+    trial.sponsor = trial_data.sponsor
+
+    db.commit()
+    db.refresh(trial)
+
+    return trial
+
+
 @app.delete("/api/trials/{trial_id}")
 def delete_trial(
-    trial_id: int
+    trial_id: int,
+    db: Session = Depends(get_db),
+    _session=Depends(require_session),
 ):
-    #Use enumerate to find its position in the list.
-    for index, trial in enumerate(trials):
-        if trial.id == trial_id:
-            deleted_trial = trials.pop(index)
-
-            return {
-                "message": "Trial deleted successfully",
-                "trial": deleted_trial
-            }
-
-    #Return 404 if the trial does not exist.
-    raise HTTPException(
-        status_code=404,
-        detail="Trial not found"
+    trial = (
+        db.query(Trial)
+        .filter(Trial.id == trial_id)
+        .first()
     )
 
-
-#Run the application in HTTP or HTTPS mode.
-if __name__ == "__main__":
-    ssl_dir = BASE_DIR / "certs"
-    use_https = (ssl_dir / "cert.pem").exists() and COOKIE_SECURE
-
-    if use_https:
-        uvicorn.run(
-            app,
-            host="127.0.0.1",
-            port=PORT_BASE,
-            ssl_keyfile=str(ssl_dir / "key.pem"),
-            ssl_certfile=str(ssl_dir / "cert.pem"),
+    if not trial:
+        raise HTTPException(
+            status_code=404,
+            detail="Trial not found",
         )
-    else:
-        uvicorn.run(app, host="127.0.0.1", port=PORT_BASE)
+
+    db.delete(trial)
+    db.commit()
+
+    return {
+        "message": "Trial deleted successfully",
+        "trial_id": trial_id,
+    }
+
+
+@app.get("/health")
+def health():
+    return {
+        "status": "ok",
+        "database": "mysql",
+    }
+
+
+if __name__ == "__main__":
+    uvicorn.run(
+        app,
+        host="127.0.0.1",
+        port=PORT_BASE,
+    )
