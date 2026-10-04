@@ -1,0 +1,3 @@
+# HW5 Part 2A uses the assignment's FastMCP 1.x API and `mcp dev` CLI.
+mcp[cli]>=1.28,<2
+httpx[socks]>=0.27,<1
