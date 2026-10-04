@@ -1,0 +1,10 @@
+HW5 Part 4 offline execute_tool tests
+PASS 1/8 - search_trials valid input
+PASS 2/8 - search_trials rejected input
+PASS 3/8 - get_trial_details valid input
+PASS 4/8 - get_trial_details rejected input
+PASS 5/8 - summarize_sponsors valid input
+PASS 6/8 - summarize_sponsors rejected input
+PASS 7/8 - unknown tool rejected
+PASS 8/8 - handler exception contained
+Final summary: 8/8 PASS
