@@ -1,0 +1,12 @@
+HW5 Part 3 reproducible retry experiment
+VERIFY_SEED=268561
+rate  calls  success_rate  mean_ms  p99_ms
+0%     50     100.0%        0.040    0.110
+20%     50     100.0%        1.050    6.385
+50%     50      94.0%        5.152   18.880
+raw_rows=150
+reproducible_sequence=True
+saved=/Users/haozhewang/data260-8561/reports/hw05/raw/retry_experiment.csv
+saved=/Users/haozhewang/data260-8561/reports/hw05/raw/retry_summary.json
+saved=/Users/haozhewang/data260-8561/reports/hw05/PART3_RETRY_ANALYSIS.md
+Retry experiment PASS

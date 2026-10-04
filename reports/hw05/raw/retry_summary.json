@@ -1,0 +1,32 @@
+{
+  "verify_seed": 268561,
+  "calls_per_rate": 50,
+  "total_calls": 150,
+  "max_attempts": 3,
+  "timeout_seconds": 0.5,
+  "base_delay_seconds": 0.005,
+  "max_delay_seconds": 0.02,
+  "results": [
+    {
+      "failure_rate": 0.0,
+      "calls": 50,
+      "success_rate_percent": 100.0,
+      "mean_latency_ms": 0.04,
+      "p99_latency_ms": 0.11
+    },
+    {
+      "failure_rate": 0.2,
+      "calls": 50,
+      "success_rate_percent": 100.0,
+      "mean_latency_ms": 1.05,
+      "p99_latency_ms": 6.385
+    },
+    {
+      "failure_rate": 0.5,
+      "calls": 50,
+      "success_rate_percent": 94.0,
+      "mean_latency_ms": 5.152,
+      "p99_latency_ms": 18.88
+    }
+  ]
+}

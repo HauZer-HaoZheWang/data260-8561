@@ -1,0 +1,5 @@
+HW5 Part 3 retry demonstration
+PASS 1/3 - success on first attempt: attempts=1, value='database read succeeded'
+PASS 2/3 - first attempt failed, retry succeeded: attempts=2, value='database read succeeded'
+PASS 3/3 - all retries failed cleanly: attempts=3, response={'ok': False, 'data': None, 'error': 'operation failed after 3 attempts'}
+Retry demonstration: 3/3 PASS

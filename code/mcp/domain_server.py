@@ -15,6 +15,8 @@ from sqlalchemy import func, or_, select
 from sqlalchemy.exc import SQLAlchemyError
 from sqlalchemy.orm import Session, selectinload
 
+from retry_policy import RetryExhaustedError, run_with_retry
+
 
 WEB_APPLICATION_DIR = Path(__file__).resolve().parents[1] / "web_application"
 load_dotenv(WEB_APPLICATION_DIR / ".env")
@@ -39,6 +41,8 @@ mcp = FastMCP("s8561-clinical-trials")
 
 SessionFactory = Callable[[], Session]
 NCT_PATTERN = re.compile(r"^NCT\d{8}$")
+DATABASE_TIMEOUT_SECONDS = 2.0
+DATABASE_MAX_ATTEMPTS = 3
 
 
 def envelope(
@@ -58,9 +62,37 @@ def failure(message: str) -> dict[str, Any]:
     return envelope(ok=False, data=None, error=message)
 
 
-def _database_failure(error: SQLAlchemyError) -> dict[str, Any]:
+def _database_failure(error: RetryExhaustedError) -> dict[str, Any]:
     logger.error("Database operation failed: %s", error)
-    return failure("database operation failed; please try again")
+    return failure(
+        "database operation failed after "
+        f"{error.attempts} attempts; please try again"
+    )
+
+
+def _log_retry(attempt: int, error: BaseException, delay: float) -> None:
+    logger.warning(
+        "Database attempt %s failed (%s); retrying in %.3fs",
+        attempt,
+        error,
+        delay,
+    )
+
+
+def _run_database(operation: Callable[[], Any]) -> tuple[Any, dict[str, Any] | None]:
+    try:
+        outcome = run_with_retry(
+            operation,
+            timeout_seconds=DATABASE_TIMEOUT_SECONDS,
+            max_attempts=DATABASE_MAX_ATTEMPTS,
+            base_delay_seconds=0.05,
+            max_delay_seconds=0.20,
+            retryable_exceptions=(SQLAlchemyError,),
+            on_retry=_log_retry,
+        )
+    except RetryExhaustedError as error:
+        return None, _database_failure(error)
+    return outcome.value, None
 
 
 def search_trials_data(
@@ -77,7 +109,7 @@ def search_trials_data(
 
     clean_query = query.strip()
     match = f"%{clean_query}%"
-    try:
+    def operation() -> list[dict[str, Any]]:
         with session_factory() as session:
             statement = (
                 select(Trial)
@@ -94,7 +126,7 @@ def search_trials_data(
                 .limit(limit)
             )
             trials = session.scalars(statement).all()
-            rows = [
+            return [
                 {
                     "id": trial.id,
                     "nct_code": trial.nct_code,
@@ -105,8 +137,10 @@ def search_trials_data(
                 }
                 for trial in trials
             ]
-    except SQLAlchemyError as error:
-        return _database_failure(error)
+
+    rows, error_response = _run_database(operation)
+    if error_response is not None:
+        return error_response
 
     return success(
         {
@@ -130,7 +164,7 @@ def get_trial_details_data(
     if not NCT_PATTERN.fullmatch(clean_code):
         return failure("nct_code must match NCT########")
 
-    try:
+    def operation() -> dict[str, Any] | None:
         with session_factory() as session:
             statement = (
                 select(Trial)
@@ -142,9 +176,9 @@ def get_trial_details_data(
             )
             trial = session.scalar(statement)
             if trial is None:
-                return failure(f"trial {clean_code} was not found")
+                return None
 
-            result = {
+            return {
                 "id": trial.id,
                 "nct_code": trial.nct_code,
                 "brief_title": trial.brief_title,
@@ -159,8 +193,12 @@ def get_trial_details_data(
                 },
                 "details": [detail.detail for detail in trial.details],
             }
-    except SQLAlchemyError as error:
-        return _database_failure(error)
+
+    result, error_response = _run_database(operation)
+    if error_response is not None:
+        return error_response
+    if result is None:
+        return failure(f"trial {clean_code} was not found")
 
     return success(result)
 
@@ -185,7 +223,7 @@ def summarize_sponsors_data(
     total_participants = func.coalesce(func.sum(Trial.participant_count), 0)
     average_participants = func.coalesce(func.avg(Trial.participant_count), 0)
 
-    try:
+    def operation() -> list[dict[str, Any]]:
         with session_factory() as session:
             statement = (
                 select(
@@ -202,7 +240,7 @@ def summarize_sponsors_data(
                 .limit(limit)
             )
             rows = session.execute(statement).all()
-            summaries = [
+            return [
                 {
                     "sponsor_id": row.id,
                     "sponsor_name": row.name,
@@ -212,8 +250,10 @@ def summarize_sponsors_data(
                 }
                 for row in rows
             ]
-    except SQLAlchemyError as error:
-        return _database_failure(error)
+
+    summaries, error_response = _run_database(operation)
+    if error_response is not None:
+        return error_response
 
     return success(
         {
