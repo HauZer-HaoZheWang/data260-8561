@@ -31,6 +31,32 @@ class SessionToken(Base):
     expires_at = Column(DateTime, nullable=False)
 
 
+class Sponsor(Base):
+    __tablename__ = "sponsors"
+
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    name = Column(String(255), nullable=False)
+    contact_name = Column(String(255), nullable=False)
+    email = Column(String(255), nullable=False, unique=True)
+    created_at = Column(
+        DateTime,
+        nullable=False,
+        server_default=func.now(),
+    )
+    updated_at = Column(
+        DateTime,
+        nullable=False,
+        server_default=func.now(),
+        onupdate=func.now(),
+    )
+
+    trials = relationship(
+        "Trial",
+        back_populates="sponsor_entity",
+        passive_deletes=True,
+    )
+
+
 class Trial(Base):
     __tablename__ = "trials"
 
@@ -40,13 +66,46 @@ class Trial(Base):
         String(500),
         nullable=False,
     )
-    sponsor = Column(String(255), nullable=False)
+    nct_code = Column(String(11), nullable=False, unique=True)
+    participant_count = Column(
+        Integer,
+        nullable=False,
+        default=0,
+        server_default="0",
+    )
+    sponsor_id = Column(
+        Integer,
+        ForeignKey("sponsors.id", ondelete="RESTRICT"),
+        nullable=False,
+        index=True,
+    )
+    created_at = Column(
+        DateTime,
+        nullable=False,
+        server_default=func.now(),
+    )
+    updated_at = Column(
+        DateTime,
+        nullable=False,
+        server_default=func.now(),
+        onupdate=func.now(),
+    )
+
+    sponsor_entity = relationship(
+        "Sponsor",
+        back_populates="trials",
+    )
 
     details = relationship(
         "TrialDetail",
         back_populates="trial",
         cascade="all, delete-orphan",
     )
+
+    @property
+    def sponsor(self):
+        """Keep the sponsor name in API output for UI compatibility."""
+        return self.sponsor_entity.name
 
 
 class TrialDetail(Base):

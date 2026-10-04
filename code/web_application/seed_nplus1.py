@@ -1,7 +1,7 @@
 import random
 
 from database import SessionLocal
-from models import Trial, TrialDetail
+from models import Sponsor, Trial, TrialDetail
 
 
 SEED = 8561
@@ -19,13 +19,29 @@ def main():
         db.query(Trial).delete(
             synchronize_session=False
         )
+        db.query(Sponsor).delete(
+            synchronize_session=False
+        )
+        db.commit()
+
+        sponsors = [
+            Sponsor(
+                name=f"Sponsor {i}",
+                contact_name=f"Contact for Sponsor {i}",
+                email=f"sponsor{i + 1:03d}@example.edu",
+            )
+            for i in range(50)
+        ]
+        db.add_all(sponsors)
         db.commit()
 
         # Create 5,000 primary records
         trials = [
             Trial(
                 brief_title=f"Seeded Clinical Trial {i}",
-                sponsor=f"Sponsor {i % 50}",
+                nct_code=f"NCT{i:08d}",
+                participant_count=100 + (i % 901),
+                sponsor_id=sponsors[i % 50].id,
             )
             for i in range(1, 5001)
         ]
