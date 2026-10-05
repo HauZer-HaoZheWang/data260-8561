@@ -21,6 +21,7 @@ from domain_server import (  # noqa: E402
     summarize_sponsors_data,
 )
 from tool_executor import execute_tool  # noqa: E402
+from agent_loop import MockModel, run_agent  # noqa: E402
 
 
 TestFunction = Callable[[], None]
@@ -132,12 +133,12 @@ def run_tests() -> None:
             result = parse_result(
                 execute_tool(
                     "summarize_sponsors",
-                    {"min_trials": 1, "limit": 5},
+                    {"min_trials": 5, "limit": 5},
                     handlers=handlers,
                 )
             )
             assert result["ok"] is True
-            assert result["data"]["sponsors"][0]["trial_count"] == 1
+            assert result["data"]["count"] == 0
 
         def summary_invalid() -> None:
             result = parse_result(
@@ -182,6 +183,56 @@ def run_tests() -> None:
                 "error": "search_trials failed cleanly: RuntimeError",
             }
 
+        def safety_rule_block() -> None:
+            result = parse_result(
+                execute_tool(
+                    "summarize_sponsors",
+                    {"min_trials": 1, "limit": 5},
+                    handlers=handlers,
+                )
+            )
+            assert result == {
+                "ok": False,
+                "data": None,
+                "error": (
+                    "safety rule: sponsor aggregates require min_trials "
+                    "of at least 5"
+                ),
+            }
+
+        def agent_stops_at_max_steps() -> None:
+            model = MockModel(
+                [
+                    {
+                        "type": "tool",
+                        "name": "search_trials",
+                        "inputs": {"query": "Fixture", "limit": 1},
+                    },
+                    {
+                        "type": "tool",
+                        "name": "search_trials",
+                        "inputs": {"query": "Fixture", "limit": 1},
+                    },
+                    {"type": "final", "content": "This must not be reached."},
+                ]
+            )
+
+            def fake_executor(name, inputs):
+                del name, inputs
+                return json.dumps({"ok": True, "data": [], "error": None})
+
+            log_path = os.path.join(directory, "mock_agent_runs.jsonl")
+            run = run_agent(
+                "Keep searching until stopped.",
+                model=model,
+                max_steps=2,
+                executor=fake_executor,
+                log_path=__import__("pathlib").Path(log_path),
+            )
+            assert run["stop_reason"] == "max_steps"
+            assert run["step_count"] == 2
+            assert run["tool_call_count"] == 2
+
         tests: list[tuple[str, TestFunction]] = [
             ("search_trials valid input", search_valid),
             ("search_trials rejected input", search_invalid),
@@ -191,6 +242,8 @@ def run_tests() -> None:
             ("summarize_sponsors rejected input", summary_invalid),
             ("unknown tool rejected", unknown_tool),
             ("handler exception contained", handler_exception),
+            ("safety rule blocks small aggregate", safety_rule_block),
+            ("MockModel stops at max_steps", agent_stops_at_max_steps),
         ]
 
         passed = 0
@@ -198,10 +251,10 @@ def run_tests() -> None:
             try:
                 test()
             except Exception as error:  # noqa: BLE001 - report every test result
-                print(f"FAIL {index}/8 - {name}: {error}")
+                print(f"FAIL {index}/{len(tests)} - {name}: {error}")
             else:
                 passed += 1
-                print(f"PASS {index}/8 - {name}")
+                print(f"PASS {index}/{len(tests)} - {name}")
 
         print(f"Final summary: {passed}/{len(tests)} PASS")
         if passed != len(tests):

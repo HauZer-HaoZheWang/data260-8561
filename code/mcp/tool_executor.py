@@ -22,6 +22,8 @@ DEFAULT_HANDLERS: dict[str, ToolHandler] = {
     "summarize_sponsors": summarize_sponsors_data,
 }
 
+MIN_SAFE_AGGREGATE_TRIALS = 5
+
 
 def _json_response(result: dict[str, Any]) -> str:
     return json.dumps(result, ensure_ascii=False, sort_keys=True)
@@ -44,6 +46,20 @@ def execute_tool(
         return _json_response(failure("inputs must be a JSON object"))
     if clean_name not in registry:
         return _json_response(failure(f"unknown tool: {clean_name}"))
+
+    if clean_name == "summarize_sponsors":
+        min_trials = inputs.get("min_trials", 1)
+        if (
+            isinstance(min_trials, int)
+            and not isinstance(min_trials, bool)
+            and min_trials < MIN_SAFE_AGGREGATE_TRIALS
+        ):
+            return _json_response(
+                failure(
+                    "safety rule: sponsor aggregates require min_trials "
+                    f"of at least {MIN_SAFE_AGGREGATE_TRIALS}"
+                )
+            )
 
     try:
         result = registry[clean_name](**dict(inputs))
