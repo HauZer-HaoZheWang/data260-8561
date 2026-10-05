@@ -1,0 +1,414 @@
+{
+  "captured_at_utc": "2026-10-05T12:28:30.011457+00:00",
+  "note": "Machine-readable copies of the inputs and outputs demonstrated in MCP Inspector.",
+  "servers": [
+    {
+      "server_file": "meals_server.py",
+      "registered_tools": [
+        "meal_details",
+        "meals_by_ingredient",
+        "random_meal",
+        "search_meals_by_name"
+      ],
+      "calls": [
+        {
+          "label": "search success",
+          "tool": "search_meals_by_name",
+          "inputs": {
+            "query": "Arrabiata",
+            "limit": 2
+          },
+          "result": {
+            "is_error": false,
+            "structured_content": {
+              "result": [
+                {
+                  "id": "52771",
+                  "name": "Spicy Arrabiata Penne",
+                  "area": "Italian",
+                  "category": "Vegetarian",
+                  "thumb": "https://www.themealdb.com/images/media/meals/ustsqw1468250014.jpg"
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "{\n  \"id\": \"52771\",\n  \"name\": \"Spicy Arrabiata Penne\",\n  \"area\": \"Italian\",\n  \"category\": \"Vegetarian\",\n  \"thumb\": \"https://www.themealdb.com/images/media/meals/ustsqw1468250014.jpg\"\n}",
+                "annotations": null,
+                "meta": null
+              }
+            ]
+          }
+        },
+        {
+          "label": "ingredient success",
+          "tool": "meals_by_ingredient",
+          "inputs": {
+            "ingredient": "chicken",
+            "limit": 2
+          },
+          "result": {
+            "is_error": false,
+            "structured_content": {
+              "result": [
+                {
+                  "id": "52940",
+                  "name": "Brown Stew Chicken",
+                  "thumb": "https://www.themealdb.com/images/media/meals/sypxpx1515365095.jpg"
+                },
+                {
+                  "id": "53161",
+                  "name": "Chicken & chorizo rice pot",
+                  "thumb": "https://www.themealdb.com/images/media/meals/fk80jp1763280767.jpg"
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "{\n  \"id\": \"52940\",\n  \"name\": \"Brown Stew Chicken\",\n  \"thumb\": \"https://www.themealdb.com/images/media/meals/sypxpx1515365095.jpg\"\n}",
+                "annotations": null,
+                "meta": null
+              },
+              {
+                "type": "text",
+                "text": "{\n  \"id\": \"53161\",\n  \"name\": \"Chicken & chorizo rice pot\",\n  \"thumb\": \"https://www.themealdb.com/images/media/meals/fk80jp1763280767.jpg\"\n}",
+                "annotations": null,
+                "meta": null
+              }
+            ]
+          }
+        },
+        {
+          "label": "random success",
+          "tool": "random_meal",
+          "inputs": {},
+          "result": {
+            "is_error": false,
+            "structured_content": {
+              "id": "53452",
+              "name": "Handesh – Bangladeshi rice flour and date molasses cakes",
+              "category": "Dessert",
+              "area": null,
+              "instructions": "Add the molasses to a large mixing bowl and begin by pouring 300ml of water to start with and whisk together. The texture of Bangladeshi molasses varies from a thick syrup to slightly set. I use brands such as Zilani or Akza. If the set is very syrupy (like golden syrup) you will only require 300–325ml of water\r\n2\r\nPour in the flours and spices (if using) and whisk for 3–5 minutes, until you have a smooth batter. You need to check carefully for lumps, as they prevent the handesh from rising and will cause them to split. Cover the batter and rest for 2 hours\r\n3\r\nAfter 2 hours, thoroughly whisk the batter until smooth, as the rice flour will have settled at the bottom of the bowl. The batter should have a fairly thick consistency, yet remain loose enough to pour – similar to thick pancake or waffle batter. It should form ribbons as you drag the whisk though it\r\n4\r\nTake a cast-iron korai or wok and add enough oil to half-fill the pan, or enough to deep-fry and turn the heat to high. Once the oil is hot reduce the heat to low–medium. Drop in a teaspoon of batter to test the oil – if it rises slowly to the surface the oil is ready\r\n5\r\nPour batter in a quick steady stream into the centre of the pan, preferably using a pyrex jug with a pouring spout (About 45ml of batter for each cake). It should rise to the surface in about 15–20 seconds and slowly puff up. If it rises too quickly, just turn the heat down slightly. Cook for 45 seconds, or until the underside is golden. Carefully turn over and cook for a further 30–45 seconds, until golden. Make sure to not let excess batter drip into the pan as this may prevent the cakes from rising and always fry one at a time\r\n6\r\nIf the batter splits while frying, whisk in 2 tablespoons of flour to the mixture and try again. You should be creating handesh which are about the size of a digestive biscuit\r\n7\r\nUse a slotted spoon to remove the handesh and place on kitchen towel with frilled edge facing down while you continue frying the reaming batter. This helps retain the shape of the cakes\r\n8\r\nEnjoy hot, fresh out of the pan. Once cool, place in an airtight container overnight and in the fridge for up to a week. Reheat in a warm oven for a few minutes to refresh or on a tawa or frying pan over a very low heat, turning a few times",
+              "image": "https://www.themealdb.com/images/media/meals/vfybi01780261706.jpg",
+              "source": "https://www.greatbritishchefs.com/recipes/handesh-recipe",
+              "youtube": "",
+              "ingredients": [
+                {
+                  "name": "Date Molasses",
+                  "measure": "250g"
+                },
+                {
+                  "name": "Warm Water",
+                  "measure": "400ml"
+                },
+                {
+                  "name": "Rice Flour",
+                  "measure": "250g"
+                },
+                {
+                  "name": "Flour",
+                  "measure": "150g"
+                },
+                {
+                  "name": "Ground Cinnamon",
+                  "measure": "1/4 tsp"
+                },
+                {
+                  "name": "Ground Cardomom",
+                  "measure": "1/4 tsp"
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "{\n  \"id\": \"53452\",\n  \"name\": \"Handesh – Bangladeshi rice flour and date molasses cakes\",\n  \"category\": \"Dessert\",\n  \"area\": null,\n  \"instructions\": \"Add the molasses to a large mixing bowl and begin by pouring 300ml of water to start with and whisk together. The texture of Bangladeshi molasses varies from a thick syrup to slightly set. I use brands such as Zilani or Akza. If the set is very syrupy (like golden syrup) you will only require 300–325ml of water\\r\\n2\\r\\nPour in the flours and spices (if using) and whisk for 3–5 minutes, until you have a smooth batter. You need to check carefully for lumps, as they prevent the handesh from rising and will cause them to split. Cover the batter and rest for 2 hours\\r\\n3\\r\\nAfter 2 hours, thoroughly whisk the batter until smooth, as the rice flour will have settled at the bottom of the bowl. The batter should have a fairly thick consistency, yet remain loose enough to pour – similar to thick pancake or waffle batter. It should form ribbons as you drag the whisk though it\\r\\n4\\r\\nTake a cast-iron korai or wok and add enough oil to half-fill the pan, or enough to deep-fry and turn the heat to high. Once the oil is hot reduce the heat to low–medium. Drop in a teaspoon of batter to test the oil – if it rises slowly to the surface the oil is ready\\r\\n5\\r\\nPour batter in a quick steady stream into the centre of the pan, preferably using a pyrex jug with a pouring spout (About 45ml of batter for each cake). It should rise to the surface in about 15–20 seconds and slowly puff up. If it rises too quickly, just turn the heat down slightly. Cook for 45 seconds, or until the underside is golden. Carefully turn over and cook for a further 30–45 seconds, until golden. Make sure to not let excess batter drip into the pan as this may prevent the cakes from rising and always fry one at a time\\r\\n6\\r\\nIf the batter splits while frying, whisk in 2 tablespoons of flour to the mixture and try again. You should be creating handesh which are about the size of a digestive biscuit\\r\\n7\\r\\nUse a slotted spoon to remove the handesh and place on kitchen towel with frilled edge facing down while you continue frying the reaming batter. This helps retain the shape of the cakes\\r\\n8\\r\\nEnjoy hot, fresh out of the pan. Once cool, place in an airtight container overnight and in the fridge for up to a week. Reheat in a warm oven for a few minutes to refresh or on a tawa or frying pan over a very low heat, turning a few times\",\n  \"image\": \"https://www.themealdb.com/images/media/meals/vfybi01780261706.jpg\",\n  \"source\": \"https://www.greatbritishchefs.com/recipes/handesh-recipe\",\n  \"youtube\": \"\",\n  \"ingredients\": [\n    {\n      \"name\": \"Date Molasses\",\n      \"measure\": \"250g\"\n    },\n    {\n      \"name\": \"Warm Water\",\n      \"measure\": \"400ml\"\n    },\n    {\n      \"name\": \"Rice Flour\",\n      \"measure\": \"250g\"\n    },\n    {\n      \"name\": \"Flour\",\n      \"measure\": \"150g\"\n    },\n    {\n      \"name\": \"Ground Cinnamon\",\n      \"measure\": \"1/4 tsp\"\n    },\n    {\n      \"name\": \"Ground Cardomom\",\n      \"measure\": \"1/4 tsp\"\n    }\n  ]\n}",
+                "annotations": null,
+                "meta": null
+              }
+            ]
+          }
+        },
+        {
+          "label": "details success",
+          "tool": "meal_details",
+          "inputs": {
+            "id": "52772"
+          },
+          "result": {
+            "is_error": false,
+            "structured_content": {
+              "id": "52772",
+              "name": "Teriyaki Chicken Casserole",
+              "category": "Chicken",
+              "area": "Japanese",
+              "instructions": "Preheat oven to 350° F. Spray a 9x13-inch baking pan with non-stick spray.\r\nCombine soy sauce, ½ cup water, brown sugar, ginger and garlic in a small saucepan and cover. Bring to a boil over medium heat. Remove lid and cook for one minute once boiling.\r\nMeanwhile, stir together the corn starch and 2 tablespoons of water in a separate dish until smooth. Once sauce is boiling, add mixture to the saucepan and stir to combine. Cook until the sauce starts to thicken then remove from heat.\r\nPlace the chicken breasts in the prepared pan. Pour one cup of the sauce over top of chicken. Place chicken in oven and bake 35 minutes or until cooked through. Remove from oven and shred chicken in the dish using two forks.\r\n*Meanwhile, steam or cook the vegetables according to package directions.\r\nAdd the cooked vegetables and rice to the casserole dish with the chicken. Add most of the remaining sauce, reserving a bit to drizzle over the top when serving. Gently toss everything together in the casserole dish until combined. Return to oven and cook 15 minutes. Remove from oven and let stand 5 minutes before serving. Drizzle each serving with remaining sauce. Enjoy!",
+              "image": "https://www.themealdb.com/images/media/meals/wvpsxx1468256321.jpg",
+              "source": null,
+              "youtube": "https://www.youtube.com/watch?v=4aZr5hZXP_s",
+              "ingredients": [
+                {
+                  "name": "soy sauce",
+                  "measure": "3/4 cup"
+                },
+                {
+                  "name": "water",
+                  "measure": "1/2 cup"
+                },
+                {
+                  "name": "brown sugar",
+                  "measure": "1/4 cup"
+                },
+                {
+                  "name": "ground ginger",
+                  "measure": "1/2 teaspoon"
+                },
+                {
+                  "name": "minced garlic",
+                  "measure": "1/2 teaspoon"
+                },
+                {
+                  "name": "cornstarch",
+                  "measure": "4 Tablespoons"
+                },
+                {
+                  "name": "chicken breasts",
+                  "measure": "2"
+                },
+                {
+                  "name": "stir-fry vegetables",
+                  "measure": "1 (12 oz.)"
+                },
+                {
+                  "name": "brown rice",
+                  "measure": "3 cups"
+                }
+              ]
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "{\n  \"id\": \"52772\",\n  \"name\": \"Teriyaki Chicken Casserole\",\n  \"category\": \"Chicken\",\n  \"area\": \"Japanese\",\n  \"instructions\": \"Preheat oven to 350° F. Spray a 9x13-inch baking pan with non-stick spray.\\r\\nCombine soy sauce, ½ cup water, brown sugar, ginger and garlic in a small saucepan and cover. Bring to a boil over medium heat. Remove lid and cook for one minute once boiling.\\r\\nMeanwhile, stir together the corn starch and 2 tablespoons of water in a separate dish until smooth. Once sauce is boiling, add mixture to the saucepan and stir to combine. Cook until the sauce starts to thicken then remove from heat.\\r\\nPlace the chicken breasts in the prepared pan. Pour one cup of the sauce over top of chicken. Place chicken in oven and bake 35 minutes or until cooked through. Remove from oven and shred chicken in the dish using two forks.\\r\\n*Meanwhile, steam or cook the vegetables according to package directions.\\r\\nAdd the cooked vegetables and rice to the casserole dish with the chicken. Add most of the remaining sauce, reserving a bit to drizzle over the top when serving. Gently toss everything together in the casserole dish until combined. Return to oven and cook 15 minutes. Remove from oven and let stand 5 minutes before serving. Drizzle each serving with remaining sauce. Enjoy!\",\n  \"image\": \"https://www.themealdb.com/images/media/meals/wvpsxx1468256321.jpg\",\n  \"source\": null,\n  \"youtube\": \"https://www.youtube.com/watch?v=4aZr5hZXP_s\",\n  \"ingredients\": [\n    {\n      \"name\": \"soy sauce\",\n      \"measure\": \"3/4 cup\"\n    },\n    {\n      \"name\": \"water\",\n      \"measure\": \"1/2 cup\"\n    },\n    {\n      \"name\": \"brown sugar\",\n      \"measure\": \"1/4 cup\"\n    },\n    {\n      \"name\": \"ground ginger\",\n      \"measure\": \"1/2 teaspoon\"\n    },\n    {\n      \"name\": \"minced garlic\",\n      \"measure\": \"1/2 teaspoon\"\n    },\n    {\n      \"name\": \"cornstarch\",\n      \"measure\": \"4 Tablespoons\"\n    },\n    {\n      \"name\": \"chicken breasts\",\n      \"measure\": \"2\"\n    },\n    {\n      \"name\": \"stir-fry vegetables\",\n      \"measure\": \"1 (12 oz.)\"\n    },\n    {\n      \"name\": \"brown rice\",\n      \"measure\": \"3 cups\"\n    }\n  ]\n}",
+                "annotations": null,
+                "meta": null
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "server_file": "domain_server.py",
+      "registered_tools": [
+        "get_trial_details",
+        "search_trials",
+        "summarize_sponsors"
+      ],
+      "calls": [
+        {
+          "label": "search success",
+          "tool": "search_trials",
+          "inputs": {
+            "query": "Seeded Clinical Trial 1",
+            "limit": 2
+          },
+          "result": {
+            "is_error": false,
+            "structured_content": {
+              "ok": true,
+              "data": {
+                "query": "Seeded Clinical Trial 1",
+                "count": 2,
+                "trials": [
+                  {
+                    "id": 5,
+                    "nct_code": "NCT00000005",
+                    "brief_title": "Seeded Clinical Trial 1",
+                    "participant_count": 0,
+                    "sponsor_id": 2,
+                    "sponsor_name": "Sponsor 1"
+                  },
+                  {
+                    "id": 14,
+                    "nct_code": "NCT00000014",
+                    "brief_title": "Seeded Clinical Trial 10",
+                    "participant_count": 0,
+                    "sponsor_id": 3,
+                    "sponsor_name": "Sponsor 10"
+                  }
+                ],
+                "message": null
+              },
+              "error": null
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "{\n  \"ok\": true,\n  \"data\": {\n    \"query\": \"Seeded Clinical Trial 1\",\n    \"count\": 2,\n    \"trials\": [\n      {\n        \"id\": 5,\n        \"nct_code\": \"NCT00000005\",\n        \"brief_title\": \"Seeded Clinical Trial 1\",\n        \"participant_count\": 0,\n        \"sponsor_id\": 2,\n        \"sponsor_name\": \"Sponsor 1\"\n      },\n      {\n        \"id\": 14,\n        \"nct_code\": \"NCT00000014\",\n        \"brief_title\": \"Seeded Clinical Trial 10\",\n        \"participant_count\": 0,\n        \"sponsor_id\": 3,\n        \"sponsor_name\": \"Sponsor 10\"\n      }\n    ],\n    \"message\": null\n  },\n  \"error\": null\n}",
+                "annotations": null,
+                "meta": null
+              }
+            ]
+          }
+        },
+        {
+          "label": "search invalid",
+          "tool": "search_trials",
+          "inputs": {
+            "query": "Seeded Clinical Trial 1",
+            "limit": 26
+          },
+          "result": {
+            "is_error": false,
+            "structured_content": {
+              "ok": false,
+              "data": null,
+              "error": "limit must be an integer between 1 and 25"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "{\n  \"ok\": false,\n  \"data\": null,\n  \"error\": \"limit must be an integer between 1 and 25\"\n}",
+                "annotations": null,
+                "meta": null
+              }
+            ]
+          }
+        },
+        {
+          "label": "detail success",
+          "tool": "get_trial_details",
+          "inputs": {
+            "nct_code": "NCT00000005"
+          },
+          "result": {
+            "is_error": false,
+            "structured_content": {
+              "ok": true,
+              "data": {
+                "id": 5,
+                "nct_code": "NCT00000005",
+                "brief_title": "Seeded Clinical Trial 1",
+                "participant_count": 0,
+                "created_at": "2026-10-04T08:17:26",
+                "updated_at": "2026-10-04T08:17:26",
+                "sponsor": {
+                  "id": 2,
+                  "name": "Sponsor 1",
+                  "contact_name": "Contact for Sponsor 1",
+                  "email": "sponsor002@example.edu"
+                },
+                "details": [
+                  "Related detail for trial 5"
+                ]
+              },
+              "error": null
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "{\n  \"ok\": true,\n  \"data\": {\n    \"id\": 5,\n    \"nct_code\": \"NCT00000005\",\n    \"brief_title\": \"Seeded Clinical Trial 1\",\n    \"participant_count\": 0,\n    \"created_at\": \"2026-10-04T08:17:26\",\n    \"updated_at\": \"2026-10-04T08:17:26\",\n    \"sponsor\": {\n      \"id\": 2,\n      \"name\": \"Sponsor 1\",\n      \"contact_name\": \"Contact for Sponsor 1\",\n      \"email\": \"sponsor002@example.edu\"\n    },\n    \"details\": [\n      \"Related detail for trial 5\"\n    ]\n  },\n  \"error\": null\n}",
+                "annotations": null,
+                "meta": null
+              }
+            ]
+          }
+        },
+        {
+          "label": "detail invalid",
+          "tool": "get_trial_details",
+          "inputs": {
+            "nct_code": "BAD8561"
+          },
+          "result": {
+            "is_error": false,
+            "structured_content": {
+              "ok": false,
+              "data": null,
+              "error": "nct_code must match NCT########"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "{\n  \"ok\": false,\n  \"data\": null,\n  \"error\": \"nct_code must match NCT########\"\n}",
+                "annotations": null,
+                "meta": null
+              }
+            ]
+          }
+        },
+        {
+          "label": "summary success",
+          "tool": "summarize_sponsors",
+          "inputs": {
+            "min_trials": 100,
+            "limit": 2
+          },
+          "result": {
+            "is_error": false,
+            "structured_content": {
+              "ok": true,
+              "data": {
+                "min_trials": 100,
+                "count": 2,
+                "sponsors": [
+                  {
+                    "sponsor_id": 1,
+                    "sponsor_name": "Sponsor 0",
+                    "trial_count": 100,
+                    "total_participants": 0,
+                    "average_participants": 0.0
+                  },
+                  {
+                    "sponsor_id": 2,
+                    "sponsor_name": "Sponsor 1",
+                    "trial_count": 100,
+                    "total_participants": 0,
+                    "average_participants": 0.0
+                  }
+                ],
+                "message": null
+              },
+              "error": null
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "{\n  \"ok\": true,\n  \"data\": {\n    \"min_trials\": 100,\n    \"count\": 2,\n    \"sponsors\": [\n      {\n        \"sponsor_id\": 1,\n        \"sponsor_name\": \"Sponsor 0\",\n        \"trial_count\": 100,\n        \"total_participants\": 0,\n        \"average_participants\": 0.0\n      },\n      {\n        \"sponsor_id\": 2,\n        \"sponsor_name\": \"Sponsor 1\",\n        \"trial_count\": 100,\n        \"total_participants\": 0,\n        \"average_participants\": 0.0\n      }\n    ],\n    \"message\": null\n  },\n  \"error\": null\n}",
+                "annotations": null,
+                "meta": null
+              }
+            ]
+          }
+        },
+        {
+          "label": "summary invalid",
+          "tool": "summarize_sponsors",
+          "inputs": {
+            "min_trials": 5001,
+            "limit": 3
+          },
+          "result": {
+            "is_error": false,
+            "structured_content": {
+              "ok": false,
+              "data": null,
+              "error": "min_trials must be an integer between 1 and 5000"
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "{\n  \"ok\": false,\n  \"data\": null,\n  \"error\": \"min_trials must be an integer between 1 and 5000\"\n}",
+                "annotations": null,
+                "meta": null
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
