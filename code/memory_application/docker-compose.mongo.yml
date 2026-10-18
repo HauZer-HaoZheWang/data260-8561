@@ -1,0 +1,12 @@
+services:
+  mongodb:
+    image: mongo:8
+    container_name: s8561-mongodb
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    volumes:
+      - s8561_mongo_data:/data/db
+
+volumes:
+  s8561_mongo_data:

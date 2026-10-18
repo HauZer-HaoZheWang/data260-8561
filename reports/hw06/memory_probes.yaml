@@ -1,0 +1,46 @@
+probes:
+  - id: P1
+    question: "What is the project domain?"
+    expected_criteria: "Answer identifies clinical-trial listings or clinical trials."
+    rubric:
+      1: "Incorrect or unrelated."
+      2: "Vague software answer without domain."
+      3: "Mentions clinical trials but misses the listing context."
+      4: "Correctly identifies clinical-trial listings."
+      5: "Correct domain plus a relevant detail such as NCT identifiers."
+  - id: P2
+    question: "What local model is required?"
+    expected_criteria: "Answer identifies Ollama qwen3:8b."
+    rubric:
+      1: "Wrong model."
+      2: "Only says a local model."
+      3: "Identifies Ollama or Qwen but not both."
+      4: "Correctly identifies qwen3:8b through Ollama."
+      5: "Correct model plus local execution context."
+  - id: P3
+    question: "What MongoDB database should memory use?"
+    expected_criteria: "Answer is s8561_doc."
+    rubric:
+      1: "Wrong database."
+      2: "Says MongoDB without a name."
+      3: "Partially correct database prefix."
+      4: "Correctly states s8561_doc."
+      5: "Correct database and explains it is shared by HW6 collections."
+  - id: P4
+    question: "Which port does the application use?"
+    expected_criteria: "Answer is 8461."
+    rubric:
+      1: "Wrong port."
+      2: "Gives a port range only."
+      3: "Near-correct but not exact."
+      4: "Correctly states 8461."
+      5: "Correct port with the SID4 calculation."
+  - id: P5
+    question: "What must be preserved when adding HW6?"
+    expected_criteria: "Answer says the existing data260-8561 repository and prior homework lineage."
+    rubric:
+      1: "Says to create a separate project."
+      2: "Mentions the repository but not its history."
+      3: "Mentions prior work generally."
+      4: "Correctly says to preserve the original repository and lineage."
+      5: "Also explains that prior reports and tags must remain intact."

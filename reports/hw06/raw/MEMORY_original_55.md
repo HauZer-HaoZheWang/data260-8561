@@ -1,0 +1,56 @@
+<!-- consolidated_at: 2026-10-14T23:30:00+00:00 -->
+- The model is qwen3:8b
+- The model is qwen3:8b
+- The model is llama3
+- The database is s8561_doc
+- The database is study_planner
+- The port is 8461
+- The port is 8000
+- The project domain is clinical-trial listings.
+- The repository is data260-8561.
+- Prior homework history must remain intact.
+- The student is Haozhe Wang.
+- SID4 is 8561.
+- DOMAIN_ID is 1.
+- The API uses FastAPI.
+- The API uses PyMongo.
+- The API uses Pydantic.
+- The database is MongoDB.
+- Memory has three layers.
+- Short-term memory is a sliding window.
+- Long-term memory uses summaries.
+- Episodic memory uses embeddings.
+- Retrieval uses cosine similarity.
+- The chat endpoint returns memory evidence.
+- The memory endpoint returns recent messages.
+- The aggregate endpoint groups by date.
+- The project uses UTC timestamps.
+- The project uses typed schemas.
+- The project requires validation errors.
+- The project requires 404 errors.
+- The project requires 500 errors.
+- The report needs labeled screenshots.
+- The report needs code snippets.
+- The report needs output screenshots.
+- The report needs raw experiment data.
+- The report needs five probes.
+- The report needs a cost estimate.
+- The report needs AI_USE.
+- The report needs verification.json.
+- The report needs an hw6 tag.
+- The collaborators need repository access.
+- The old reports must not be deleted.
+- The MySQL application must not be replaced.
+- The MongoDB application must be separate.
+- The local model runs through Ollama.
+- The embedding model is local.
+- The memory experiment uses fresh sessions.
+- The memory experiment uses thirty messages.
+- The memory experiment compares three windows.
+- The memory experiment tests compression.
+- The best setting balances quality and cost.
+- The worst setting has the highest cost.
+- The final report explains limitations.
+- The final code uses short functions.
+- The final code avoids secrets.
+- The final code has deterministic fixtures.

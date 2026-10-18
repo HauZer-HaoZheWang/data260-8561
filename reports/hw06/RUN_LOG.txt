@@ -1,0 +1,393 @@
+[2026-10-18T15:50:04.663950+00:00] HW6 Part 3 started; SEED=8561; VERIFY_SEED=268561; timestamp=20261018T155004Z
+[2026-10-18T15:50:04.663987+00:00] START N4 user_id=hw6-exp-n4-20261018T155004Z session_id=N4-20261018T155004Z
+INFO:     Started server process [89805]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8461 (Press CTRL+C to quit)
+INFO:     127.0.0.1:50063 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50064 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T15:50:21.633383+00:00] N4 turn=01/30 prompt_tokens=125 latency_ms=15927.0
+INFO:     127.0.0.1:50099 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T15:50:44.262744+00:00] N4 turn=02/30 prompt_tokens=210 latency_ms=22621.58
+INFO:     127.0.0.1:50114 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T15:51:17.192906+00:00] N4 turn=03/30 prompt_tokens=418 latency_ms=32922.35
+INFO:     127.0.0.1:50125 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T15:51:52.335037+00:00] N4 turn=04/30 prompt_tokens=614 latency_ms=35135.12
+INFO:     127.0.0.1:50136 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T15:53:04.314759+00:00] N4 turn=05/30 prompt_tokens=681 latency_ms=71971.31
+INFO:     127.0.0.1:50156 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T15:53:28.754622+00:00] N4 turn=06/30 prompt_tokens=1050 latency_ms=24431.34
+INFO:     127.0.0.1:50168 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T15:53:47.836915+00:00] N4 turn=07/30 prompt_tokens=915 latency_ms=19076.15
+INFO:     127.0.0.1:50180 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T15:54:00.671300+00:00] N4 turn=08/30 prompt_tokens=821 latency_ms=12826.35
+INFO:     127.0.0.1:50192 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T15:54:17.464826+00:00] N4 turn=09/30 prompt_tokens=821 latency_ms=16788.65
+INFO:     127.0.0.1:50203 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T15:55:58.359185+00:00] N4 turn=10/30 prompt_tokens=832 latency_ms=100881.9
+INFO:     127.0.0.1:50222 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T15:56:29.329362+00:00] N4 turn=11/30 prompt_tokens=1194 latency_ms=30955.78
+INFO:     127.0.0.1:50234 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T15:57:01.196661+00:00] N4 turn=12/30 prompt_tokens=1266 latency_ms=31857.34
+INFO:     127.0.0.1:50247 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T15:57:49.580727+00:00] N4 turn=13/30 prompt_tokens=1309 latency_ms=48372.97
+INFO:     127.0.0.1:50259 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T15:58:19.822347+00:00] N4 turn=14/30 prompt_tokens=1548 latency_ms=30232.66
+INFO:     127.0.0.1:50271 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:01:39.667693+00:00] N4 turn=15/30 prompt_tokens=1666 latency_ms=199827.26
+INFO:     127.0.0.1:50299 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:02:36.175632+00:00] N4 turn=16/30 prompt_tokens=2139 latency_ms=56495.35
+INFO:     127.0.0.1:50311 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:03:16.305274+00:00] N4 turn=17/30 prompt_tokens=2327 latency_ms=40113.26
+INFO:     127.0.0.1:50324 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:04:14.426635+00:00] N4 turn=18/30 prompt_tokens=2245 latency_ms=58110.61
+INFO:     127.0.0.1:50338 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:05:16.372022+00:00] N4 turn=19/30 prompt_tokens=2192 latency_ms=61933.28
+INFO:     127.0.0.1:50351 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:06:40.077355+00:00] N4 turn=20/30 prompt_tokens=2374 latency_ms=83694.37
+INFO:     127.0.0.1:50369 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:07:12.021975+00:00] N4 turn=21/30 prompt_tokens=1973 latency_ms=31931.74
+INFO:     127.0.0.1:50381 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:07:43.807552+00:00] N4 turn=22/30 prompt_tokens=1673 latency_ms=31771.51
+INFO:     127.0.0.1:50393 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:08:37.166314+00:00] N4 turn=23/30 prompt_tokens=1614 latency_ms=53342.71
+INFO:     127.0.0.1:50407 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:09:19.607427+00:00] N4 turn=24/30 prompt_tokens=1639 latency_ms=42421.08
+INFO:     127.0.0.1:50420 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:10:38.984431+00:00] N4 turn=25/30 prompt_tokens=1681 latency_ms=79363.23
+INFO:     127.0.0.1:50438 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:11:14.779590+00:00] N4 turn=26/30 prompt_tokens=1699 latency_ms=35785.15
+INFO:     127.0.0.1:50451 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:11:46.714667+00:00] N4 turn=27/30 prompt_tokens=1694 latency_ms=31923.64
+INFO:     127.0.0.1:50464 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:12:22.650997+00:00] N4 turn=28/30 prompt_tokens=1694 latency_ms=35925.42
+INFO:     127.0.0.1:50476 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:12:52.676283+00:00] N4 turn=29/30 prompt_tokens=1724 latency_ms=30011.55
+INFO:     127.0.0.1:50489 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:15:34.566010+00:00] N4 turn=30/30 prompt_tokens=1759 latency_ms=161877.24
+INFO:     127.0.0.1:50516 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:16:05.569494+00:00] N4 probe='What is the project domain?' score=5.0
+INFO:     127.0.0.1:50528 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:16:33.130728+00:00] N4 probe='What local model is required?' score=5.0
+INFO:     127.0.0.1:50540 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:16:56.995774+00:00] N4 probe='What MongoDB database should memory use?' score=5.0
+INFO:     127.0.0.1:50554 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:17:14.795201+00:00] N4 probe='Which port does the application use?' score=5.0
+INFO:     127.0.0.1:50566 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:18:34.348692+00:00] N4 probe='What must be preserved when adding HW6?' score=1.0
+[2026-10-18T16:18:34.365940+00:00] DONE N4 summary={'mean_prompt_tokens': 1396.57, 'mean_completion_tokens': 582.63, 'mean_latency_ms': 50950.93, 'mean_probe_score': 4.2}
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [89805]
+[2026-10-18T16:18:34.620916+00:00] START N12 user_id=hw6-exp-n12-20261018T155004Z session_id=N12-20261018T155004Z
+INFO:     Started server process [90797]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8461 (Press CTRL+C to quit)
+INFO:     127.0.0.1:50585 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50586 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:18:44.433211+00:00] N12 turn=01/30 prompt_tokens=125 latency_ms=8758.26
+INFO:     127.0.0.1:50601 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:18:59.686316+00:00] N12 turn=02/30 prompt_tokens=196 latency_ms=15246.15
+INFO:     127.0.0.1:50612 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:19:11.967298+00:00] N12 turn=03/30 prompt_tokens=259 latency_ms=12274.97
+INFO:     127.0.0.1:50623 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:19:25.780815+00:00] N12 turn=04/30 prompt_tokens=353 latency_ms=13808.21
+INFO:     127.0.0.1:50634 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:19:58.133782+00:00] N12 turn=05/30 prompt_tokens=460 latency_ms=32345.91
+INFO:     127.0.0.1:50649 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:20:22.981587+00:00] N12 turn=06/30 prompt_tokens=634 latency_ms=24841.48
+INFO:     127.0.0.1:50660 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:20:37.471636+00:00] N12 turn=07/30 prompt_tokens=732 latency_ms=14483.92
+INFO:     127.0.0.1:50671 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:20:54.064252+00:00] N12 turn=08/30 prompt_tokens=793 latency_ms=16586.56
+INFO:     127.0.0.1:50684 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:21:14.706010+00:00] N12 turn=09/30 prompt_tokens=873 latency_ms=20629.07
+INFO:     127.0.0.1:50696 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:22:03.192995+00:00] N12 turn=10/30 prompt_tokens=936 latency_ms=48475.81
+INFO:     127.0.0.1:50714 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:22:21.578771+00:00] N12 turn=11/30 prompt_tokens=1035 latency_ms=18373.39
+INFO:     127.0.0.1:50726 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:22:41.488423+00:00] N12 turn=12/30 prompt_tokens=1121 latency_ms=19897.81
+INFO:     127.0.0.1:50738 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:23:06.760734+00:00] N12 turn=13/30 prompt_tokens=1201 latency_ms=25261.24
+INFO:     127.0.0.1:50750 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:23:32.119051+00:00] N12 turn=14/30 prompt_tokens=1254 latency_ms=25346.31
+INFO:     127.0.0.1:50762 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:25:12.476865+00:00] N12 turn=15/30 prompt_tokens=1329 latency_ms=100346.22
+INFO:     127.0.0.1:50785 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:25:42.422108+00:00] N12 turn=16/30 prompt_tokens=1594 latency_ms=29933.61
+INFO:     127.0.0.1:50797 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:26:02.776868+00:00] N12 turn=17/30 prompt_tokens=1649 latency_ms=20344.77
+INFO:     127.0.0.1:50810 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:26:27.009963+00:00] N12 turn=18/30 prompt_tokens=1608 latency_ms=24223.12
+INFO:     127.0.0.1:50822 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:26:51.285119+00:00] N12 turn=19/30 prompt_tokens=1555 latency_ms=24264.35
+INFO:     127.0.0.1:50835 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:27:53.336113+00:00] N12 turn=20/30 prompt_tokens=1484 latency_ms=62037.19
+INFO:     127.0.0.1:50852 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:28:19.699735+00:00] N12 turn=21/30 prompt_tokens=1448 latency_ms=26353.44
+INFO:     127.0.0.1:50865 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:28:41.233461+00:00] N12 turn=22/30 prompt_tokens=1450 latency_ms=21524.62
+INFO:     127.0.0.1:50877 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:28:59.647066+00:00] N12 turn=23/30 prompt_tokens=1340 latency_ms=18400.37
+INFO:     127.0.0.1:50890 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:29:20.753807+00:00] N12 turn=24/30 prompt_tokens=1339 latency_ms=21095.02
+INFO:     127.0.0.1:50902 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:30:19.969623+00:00] N12 turn=25/30 prompt_tokens=1324 latency_ms=59202.89
+INFO:     127.0.0.1:50919 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:30:42.217805+00:00] N12 turn=26/30 prompt_tokens=1335 latency_ms=22236.34
+INFO:     127.0.0.1:50932 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:31:00.448981+00:00] N12 turn=27/30 prompt_tokens=1321 latency_ms=18220.14
+INFO:     127.0.0.1:50945 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:31:18.510095+00:00] N12 turn=28/30 prompt_tokens=1309 latency_ms=18051.21
+INFO:     127.0.0.1:50957 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:31:35.404198+00:00] N12 turn=29/30 prompt_tokens=1308 latency_ms=16880.13
+INFO:     127.0.0.1:50969 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:33:34.758465+00:00] N12 turn=30/30 prompt_tokens=1322 latency_ms=119341.61
+INFO:     127.0.0.1:50992 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:33:55.918536+00:00] N12 probe='What is the project domain?' score=5.0
+INFO:     127.0.0.1:51004 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:34:14.145701+00:00] N12 probe='What local model is required?' score=5.0
+INFO:     127.0.0.1:51017 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:34:35.010469+00:00] N12 probe='What MongoDB database should memory use?' score=5.0
+INFO:     127.0.0.1:51030 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:34:49.965694+00:00] N12 probe='Which port does the application use?' score=5.0
+INFO:     127.0.0.1:51042 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:35:46.080249+00:00] N12 probe='What must be preserved when adding HW6?' score=1.0
+[2026-10-18T16:35:46.092393+00:00] DONE N12 summary={'mean_prompt_tokens': 1089.57, 'mean_completion_tokens': 294.1, 'mean_latency_ms': 29959.47, 'mean_probe_score': 4.2}
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [90797]
+[2026-10-18T16:35:46.239003+00:00] START N30 user_id=hw6-exp-n30-20261018T155004Z session_id=N30-20261018T155004Z
+INFO:     Started server process [91353]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8461 (Press CTRL+C to quit)
+INFO:     127.0.0.1:51063 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51064 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:36:03.944034+00:00] N30 turn=01/30 prompt_tokens=125 latency_ms=16653.97
+INFO:     127.0.0.1:51079 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:36:18.920080+00:00] N30 turn=02/30 prompt_tokens=236 latency_ms=14968.32
+INFO:     127.0.0.1:51090 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:36:37.807077+00:00] N30 turn=03/30 prompt_tokens=358 latency_ms=18875.4
+INFO:     127.0.0.1:51101 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:36:55.554489+00:00] N30 turn=04/30 prompt_tokens=486 latency_ms=17740.51
+INFO:     127.0.0.1:51112 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:37:37.052578+00:00] N30 turn=05/30 prompt_tokens=625 latency_ms=41493.1
+INFO:     127.0.0.1:51127 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:38:00.175819+00:00] N30 turn=06/30 prompt_tokens=910 latency_ms=23118.78
+INFO:     127.0.0.1:51139 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:38:29.535807+00:00] N30 turn=07/30 prompt_tokens=1081 latency_ms=29349.32
+INFO:     127.0.0.1:51152 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:38:51.526306+00:00] N30 turn=08/30 prompt_tokens=1258 latency_ms=21980.77
+INFO:     127.0.0.1:51165 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:39:11.069437+00:00] N30 turn=09/30 prompt_tokens=1435 latency_ms=19535.74
+INFO:     127.0.0.1:51177 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:40:14.034114+00:00] N30 turn=10/30 prompt_tokens=1607 latency_ms=62952.63
+INFO:     127.0.0.1:51195 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:40:42.244064+00:00] N30 turn=11/30 prompt_tokens=1825 latency_ms=28199.48
+INFO:     127.0.0.1:51208 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:41:09.889401+00:00] N30 turn=12/30 prompt_tokens=2053 latency_ms=27633.41
+INFO:     127.0.0.1:51221 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:41:34.022953+00:00] N30 turn=13/30 prompt_tokens=2322 latency_ms=24123.41
+INFO:     127.0.0.1:51233 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:41:54.113703+00:00] N30 turn=14/30 prompt_tokens=2499 latency_ms=20082.93
+INFO:     127.0.0.1:51246 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:44:17.259296+00:00] N30 turn=15/30 prompt_tokens=2678 latency_ms=143133.03
+INFO:     127.0.0.1:51269 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:45:07.522961+00:00] N30 turn=16/30 prompt_tokens=3525 latency_ms=50253.66
+INFO:     127.0.0.1:51282 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:45:51.521391+00:00] N30 turn=17/30 prompt_tokens=3779 latency_ms=43987.25
+INFO:     127.0.0.1:51294 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:46:43.710271+00:00] N30 turn=18/30 prompt_tokens=3877 latency_ms=52176.24
+INFO:     127.0.0.1:51308 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:47:35.692211+00:00] N30 turn=19/30 prompt_tokens=4002 latency_ms=51971.41
+INFO:     127.0.0.1:51320 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:49:04.490654+00:00] N30 turn=20/30 prompt_tokens=2050 latency_ms=88784.28
+INFO:     127.0.0.1:51340 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:49:47.747583+00:00] N30 turn=21/30 prompt_tokens=2050 latency_ms=43243.31
+INFO:     127.0.0.1:51353 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:50:21.191477+00:00] N30 turn=22/30 prompt_tokens=2050 latency_ms=33431.01
+INFO:     127.0.0.1:51367 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:50:53.126865+00:00] N30 turn=23/30 prompt_tokens=2050 latency_ms=31923.95
+INFO:     127.0.0.1:51381 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:51:38.099208+00:00] N30 turn=24/30 prompt_tokens=2050 latency_ms=44962.38
+INFO:     127.0.0.1:51394 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:52:55.758461+00:00] N30 turn=25/30 prompt_tokens=2050 latency_ms=77644.27
+INFO:     127.0.0.1:51414 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:53:34.951516+00:00] N30 turn=26/30 prompt_tokens=2050 latency_ms=39180.98
+INFO:     127.0.0.1:51431 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:54:13.248613+00:00] N30 turn=27/30 prompt_tokens=2050 latency_ms=38281.09
+INFO:     127.0.0.1:51444 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:55:11.537414+00:00] N30 turn=28/30 prompt_tokens=2050 latency_ms=58271.73
+INFO:     127.0.0.1:51457 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:56:14.732554+00:00] N30 turn=29/30 prompt_tokens=2050 latency_ms=63179.96
+INFO:     127.0.0.1:51471 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T16:59:36.086678+00:00] N30 turn=30/30 prompt_tokens=2050 latency_ms=201334.93
+INFO:     127.0.0.1:51497 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T17:00:13.118943+00:00] N30 probe='What is the project domain?' score=5.0
+INFO:     127.0.0.1:51510 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T17:00:54.163018+00:00] N30 probe='What local model is required?' score=5.0
+INFO:     127.0.0.1:51524 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T17:02:03.929338+00:00] N30 probe='What MongoDB database should memory use?' score=5.0
+INFO:     127.0.0.1:51538 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T17:02:28.900116+00:00] N30 probe='Which port does the application use?' score=5.0
+INFO:     127.0.0.1:51551 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T17:04:18.222509+00:00] N30 probe='What must be preserved when adding HW6?' score=1.0
+[2026-10-18T17:04:18.235364+00:00] DONE N30 summary={'mean_prompt_tokens': 1907.7, 'mean_completion_tokens': 496.23, 'mean_latency_ms': 47615.57, 'mean_probe_score': 4.2}
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [91353]
+[2026-10-18T17:04:18.428633+00:00] START N30+compression user_id=hw6-exp-n30-compression-20261018T155004Z session_id=N30+compression-20261018T155004Z
+INFO:     Started server process [92307]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8461 (Press CTRL+C to quit)
+INFO:     127.0.0.1:51573 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51574 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T17:04:30.640591+00:00] N30+compression turn=01/30 prompt_tokens=125 latency_ms=11163.13
+INFO:     127.0.0.1:51589 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T17:04:46.562085+00:00] N30+compression turn=02/30 prompt_tokens=210 latency_ms=15916.03
+INFO:     127.0.0.1:51600 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T17:05:02.272458+00:00] N30+compression turn=03/30 prompt_tokens=294 latency_ms=15705.89
+INFO:     127.0.0.1:51612 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T17:05:19.044660+00:00] N30+compression turn=04/30 prompt_tokens=329 latency_ms=16768.37
+INFO:     127.0.0.1:51623 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T17:05:58.557989+00:00] N30+compression turn=05/30 prompt_tokens=362 latency_ms=39508.61
+INFO:     127.0.0.1:51638 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T17:06:30.330300+00:00] N30+compression turn=06/30 prompt_tokens=543 latency_ms=31761.26
+INFO:     127.0.0.1:51649 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T17:06:50.780129+00:00] N30+compression turn=07/30 prompt_tokens=595 latency_ms=20438.29
+INFO:     127.0.0.1:51661 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T17:07:08.024313+00:00] N30+compression turn=08/30 prompt_tokens=662 latency_ms=17233.62
+INFO:     127.0.0.1:51672 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T17:07:28.631831+00:00] N30+compression turn=09/30 prompt_tokens=699 latency_ms=20596.05
+INFO:     127.0.0.1:51683 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T17:08:35.867921+00:00] N30+compression turn=10/30 prompt_tokens=716 latency_ms=67223.46
+INFO:     127.0.0.1:51699 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T17:08:57.978097+00:00] N30+compression turn=11/30 prompt_tokens=757 latency_ms=22099.69
+INFO:     127.0.0.1:51711 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T17:09:20.970662+00:00] N30+compression turn=12/30 prompt_tokens=794 latency_ms=22983.63
+INFO:     127.0.0.1:51722 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T17:09:48.751081+00:00] N30+compression turn=13/30 prompt_tokens=823 latency_ms=27768.06
+INFO:     127.0.0.1:51733 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T17:10:18.114281+00:00] N30+compression turn=14/30 prompt_tokens=832 latency_ms=29351.26
+INFO:     127.0.0.1:51745 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T17:12:25.079140+00:00] N30+compression turn=15/30 prompt_tokens=885 latency_ms=126950.91
+INFO:     127.0.0.1:51768 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T17:13:00.446223+00:00] N30+compression turn=16/30 prompt_tokens=1450 latency_ms=35355.07
+INFO:     127.0.0.1:51780 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T17:13:23.025444+00:00] N30+compression turn=17/30 prompt_tokens=1432 latency_ms=22569.27
+INFO:     127.0.0.1:51792 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T17:13:46.849090+00:00] N30+compression turn=18/30 prompt_tokens=1295 latency_ms=23812.93
+INFO:     127.0.0.1:51804 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T17:14:18.279704+00:00] N30+compression turn=19/30 prompt_tokens=1255 latency_ms=31420.18
+INFO:     127.0.0.1:51816 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T17:15:43.203425+00:00] N30+compression turn=20/30 prompt_tokens=1361 latency_ms=84909.32
+INFO:     127.0.0.1:51836 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T17:16:14.493287+00:00] N30+compression turn=21/30 prompt_tokens=1404 latency_ms=31277.84
+INFO:     127.0.0.1:51849 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T17:16:47.030076+00:00] N30+compression turn=22/30 prompt_tokens=1477 latency_ms=32526.29
+INFO:     127.0.0.1:51861 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T17:17:25.008473+00:00] N30+compression turn=23/30 prompt_tokens=1537 latency_ms=37966.36
+INFO:     127.0.0.1:51873 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T17:18:12.545508+00:00] N30+compression turn=24/30 prompt_tokens=1522 latency_ms=47523.31
+INFO:     127.0.0.1:51886 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T17:19:45.732542+00:00] N30+compression turn=25/30 prompt_tokens=1519 latency_ms=93169.69
+INFO:     127.0.0.1:51905 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T17:20:22.244203+00:00] N30+compression turn=26/30 prompt_tokens=1435 latency_ms=36498.31
+INFO:     127.0.0.1:51918 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T17:20:59.471216+00:00] N30+compression turn=27/30 prompt_tokens=1436 latency_ms=37210.85
+INFO:     127.0.0.1:51932 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T17:21:32.448357+00:00] N30+compression turn=28/30 prompt_tokens=1480 latency_ms=32965.35
+INFO:     127.0.0.1:51945 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T17:22:16.566254+00:00] N30+compression turn=29/30 prompt_tokens=1526 latency_ms=44107.39
+INFO:     127.0.0.1:51957 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T17:25:10.433086+00:00] N30+compression turn=30/30 prompt_tokens=1597 latency_ms=173848.98
+INFO:     127.0.0.1:51985 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T17:25:36.256584+00:00] N30+compression probe='What is the project domain?' score=5.0
+INFO:     127.0.0.1:51997 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T17:25:53.059999+00:00] N30+compression probe='What local model is required?' score=5.0
+INFO:     127.0.0.1:52009 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T17:26:09.695798+00:00] N30+compression probe='What MongoDB database should memory use?' score=5.0
+INFO:     127.0.0.1:52021 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T17:26:26.848785+00:00] N30+compression probe='Which port does the application use?' score=5.0
+INFO:     127.0.0.1:52034 - "POST /api/chat HTTP/1.1" 200 OK
+[2026-10-18T17:28:11.442156+00:00] N30+compression probe='What must be preserved when adding HW6?' score=1.0
+[2026-10-18T17:28:11.448109+00:00] DONE N30+compression summary={'mean_prompt_tokens': 1011.73, 'mean_completion_tokens': 477.83, 'mean_latency_ms': 41687.65, 'mean_probe_score': 4.2}
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [92307]
+[2026-10-18T17:28:11.694591+00:00] ALL SETTINGS COMPLETE; combined_file=/Users/haozhewang/data260-8561/reports/hw06/raw/memory_experiments_20261018T155004Z.json
+[
+  {
+    "label": "N4",
+    "mean_prompt_tokens": 1396.57,
+    "mean_completion_tokens": 582.63,
+    "mean_latency_ms": 50950.93,
+    "mean_probe_score": 4.2
+  },
+  {
+    "label": "N12",
+    "mean_prompt_tokens": 1089.57,
+    "mean_completion_tokens": 294.1,
+    "mean_latency_ms": 29959.47,
+    "mean_probe_score": 4.2
+  },
+  {
+    "label": "N30",
+    "mean_prompt_tokens": 1907.7,
+    "mean_completion_tokens": 496.23,
+    "mean_latency_ms": 47615.57,
+    "mean_probe_score": 4.2
+  },
+  {
+    "label": "N30+compression",
+    "mean_prompt_tokens": 1011.73,
+    "mean_completion_tokens": 477.83,
+    "mean_latency_ms": 41687.65,
+    "mean_probe_score": 4.2
+  }
+]
+PASS - required HW6 files: all present
+PASS - configuration: SID4=8561 PORT_BASE=8461 VERIFY_SEED=268561
+PASS - Python compilation: memory application compiles
+PASS - probe count: five fixed probes declared
+{
+  "homework": "HW6",
+  "sid4": 8561,
+  "commit_hash": "5bd74198c9666a689f1863568d8ff56b8d325aa8",
+  "model": "qwen3:8b",
+  "port_base": 8461,
+  "seed": 8561,
+  "verify_seed": 268561,
+  "generated_at": "2026-10-18T18:36:47.447347+00:00",
+  "checks": [
+    {
+      "name": "required HW6 files",
+      "passed": true,
+      "detail": "all present"
+    },
+    {
+      "name": "configuration",
+      "passed": true,
+      "detail": "SID4=8561 PORT_BASE=8461 VERIFY_SEED=268561"
+    },
+    {
+      "name": "Python compilation",
+      "passed": true,
+      "detail": "memory application compiles"
+    },
+    {
+      "name": "probe count",
+      "passed": true,
+      "detail": "five fixed probes declared"
+    }
+  ],
+  "passed": true
+}

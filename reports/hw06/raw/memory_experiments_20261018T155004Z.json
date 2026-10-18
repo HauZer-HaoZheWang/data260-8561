@@ -1,0 +1,2758 @@
+[
+  {
+    "label": "N4",
+    "short_term_n": 4,
+    "compression": false,
+    "user_id": "hw6-exp-n4-20261018T155004Z",
+    "session_id": "N4-20261018T155004Z",
+    "turns": [
+      {
+        "turn": 1,
+        "message": "The trial project studies diabetes interventions.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 0,
+            "short_term_window": 14,
+            "episodic_facts": 13
+          },
+          "assembly_ms": 21.74,
+          "prompt_tokens": 125,
+          "completion_tokens": 213,
+          "latency_ms": 15927.0,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 2,
+        "message": "The primary domain is clinical-trial listings.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 0,
+            "short_term_window": 113,
+            "episodic_facts": 25
+          },
+          "assembly_ms": 27.27,
+          "prompt_tokens": 210,
+          "completion_tokens": 409,
+          "latency_ms": 22621.58,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 3,
+        "message": "The project uses NCT identifiers for studies.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 0,
+            "short_term_window": 365,
+            "episodic_facts": 37
+          },
+          "assembly_ms": 15.04,
+          "prompt_tokens": 418,
+          "completion_tokens": 603,
+          "latency_ms": 32922.35,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 4,
+        "message": "The API runs locally for reproducible experiments.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 0,
+            "short_term_window": 599,
+            "episodic_facts": 50
+          },
+          "assembly_ms": 26.01,
+          "prompt_tokens": 614,
+          "completion_tokens": 622,
+          "latency_ms": 35135.12,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 5,
+        "message": "The student prefers concise evidence-based answers.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 0,
+            "short_term_window": 679,
+            "episodic_facts": 63
+          },
+          "assembly_ms": 16.53,
+          "prompt_tokens": 681,
+          "completion_tokens": 443,
+          "latency_ms": 71971.31,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": true,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 6,
+        "message": "The database should preserve facts across sessions.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 476,
+            "short_term_window": 602,
+            "episodic_facts": 63
+          },
+          "assembly_ms": 16.74,
+          "prompt_tokens": 1050,
+          "completion_tokens": 367,
+          "latency_ms": 24431.34,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 7,
+        "message": "The model is served locally through Ollama.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 476,
+            "short_term_window": 405,
+            "episodic_facts": 61
+          },
+          "assembly_ms": 17.02,
+          "prompt_tokens": 915,
+          "completion_tokens": 326,
+          "latency_ms": 19076.15,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 8,
+        "message": "The current model is qwen3:8b.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 476,
+            "short_term_window": 270,
+            "episodic_facts": 56
+          },
+          "assembly_ms": 13.96,
+          "prompt_tokens": 821,
+          "completion_tokens": 217,
+          "latency_ms": 12826.35,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 9,
+        "message": "The MongoDB database is s8561_doc.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 476,
+            "short_term_window": 245,
+            "episodic_facts": 54
+          },
+          "assembly_ms": 16.83,
+          "prompt_tokens": 821,
+          "completion_tokens": 292,
+          "latency_ms": 16788.65,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 10,
+        "message": "The application port is 8461.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 476,
+            "short_term_window": 252,
+            "episodic_facts": 48
+          },
+          "assembly_ms": 17.52,
+          "prompt_tokens": 832,
+          "completion_tokens": 483,
+          "latency_ms": 100881.9,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": true,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 11,
+        "message": "The assigned domain id is 1.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 779,
+            "short_term_window": 293,
+            "episodic_facts": 48
+          },
+          "assembly_ms": 17.43,
+          "prompt_tokens": 1194,
+          "completion_tokens": 463,
+          "latency_ms": 30955.78,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 12,
+        "message": "The SID4 is 8561.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 779,
+            "short_term_window": 347,
+            "episodic_facts": 37
+          },
+          "assembly_ms": 20.86,
+          "prompt_tokens": 1266,
+          "completion_tokens": 556,
+          "latency_ms": 31857.34,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 13,
+        "message": "The repository is data260-8561.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 779,
+            "short_term_window": 370,
+            "episodic_facts": 42
+          },
+          "assembly_ms": 19.31,
+          "prompt_tokens": 1309,
+          "completion_tokens": 855,
+          "latency_ms": 48372.97,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 14,
+        "message": "Prior homework reports must remain intact.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 779,
+            "short_term_window": 600,
+            "episodic_facts": 62
+          },
+          "assembly_ms": 19.52,
+          "prompt_tokens": 1548,
+          "completion_tokens": 491,
+          "latency_ms": 30232.66,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 15,
+        "message": "The FastAPI layer uses Pydantic validation.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 779,
+            "short_term_window": 775,
+            "episodic_facts": 56
+          },
+          "assembly_ms": 19.52,
+          "prompt_tokens": 1666,
+          "completion_tokens": 787,
+          "latency_ms": 199827.26,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": true,
+            "lifetime_summary_updated": true
+          }
+        }
+      },
+      {
+        "turn": 16,
+        "message": "MongoDB stores messages, summaries, and episodes.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 1312,
+            "short_term_window": 792,
+            "episodic_facts": 55
+          },
+          "assembly_ms": 36.54,
+          "prompt_tokens": 2139,
+          "completion_tokens": 832,
+          "latency_ms": 56495.35,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 17,
+        "message": "Short-term memory is a sliding window.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 1312,
+            "short_term_window": 984,
+            "episodic_facts": 60
+          },
+          "assembly_ms": 21.38,
+          "prompt_tokens": 2327,
+          "completion_tokens": 638,
+          "latency_ms": 40113.26,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 18,
+        "message": "Long-term memory is stored as summaries.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 1312,
+            "short_term_window": 954,
+            "episodic_facts": 58
+          },
+          "assembly_ms": 21.94,
+          "prompt_tokens": 2245,
+          "completion_tokens": 971,
+          "latency_ms": 58110.61,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 19,
+        "message": "Episodic memory stores short facts and embeddings.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 1312,
+            "short_term_window": 911,
+            "episodic_facts": 60
+          },
+          "assembly_ms": 17.17,
+          "prompt_tokens": 2192,
+          "completion_tokens": 1050,
+          "latency_ms": 61933.28,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 20,
+        "message": "Cosine similarity ranks episodic facts.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 1312,
+            "short_term_window": 1071,
+            "episodic_facts": 60
+          },
+          "assembly_ms": 19.26,
+          "prompt_tokens": 2374,
+          "completion_tokens": 719,
+          "latency_ms": 83694.37,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": true,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 21,
+        "message": "The chat endpoint returns memory evidence.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 1106,
+            "short_term_window": 891,
+            "episodic_facts": 61
+          },
+          "assembly_ms": 24.6,
+          "prompt_tokens": 1973,
+          "completion_tokens": 474,
+          "latency_ms": 31931.74,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 22,
+        "message": "The aggregate endpoint groups messages by date.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 1106,
+            "short_term_window": 594,
+            "episodic_facts": 60
+          },
+          "assembly_ms": 25.91,
+          "prompt_tokens": 1673,
+          "completion_tokens": 540,
+          "latency_ms": 31771.51,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 23,
+        "message": "The memory endpoint returns recent records.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 1106,
+            "short_term_window": 548,
+            "episodic_facts": 58
+          },
+          "assembly_ms": 17.23,
+          "prompt_tokens": 1614,
+          "completion_tokens": 941,
+          "latency_ms": 53342.71,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 24,
+        "message": "The experiment uses fresh sessions for each setting.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 1106,
+            "short_term_window": 588,
+            "episodic_facts": 64
+          },
+          "assembly_ms": 24.68,
+          "prompt_tokens": 1639,
+          "completion_tokens": 741,
+          "latency_ms": 42421.08,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 25,
+        "message": "The experiment records prompt tokens.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 1106,
+            "short_term_window": 628,
+            "episodic_facts": 59
+          },
+          "assembly_ms": 24.44,
+          "prompt_tokens": 1681,
+          "completion_tokens": 553,
+          "latency_ms": 79363.23,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": true,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 26,
+        "message": "The experiment records completion tokens.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 1076,
+            "short_term_window": 630,
+            "episodic_facts": 59
+          },
+          "assembly_ms": 25.18,
+          "prompt_tokens": 1699,
+          "completion_tokens": 584,
+          "latency_ms": 35785.15,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 27,
+        "message": "The experiment records latency.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 1076,
+            "short_term_window": 611,
+            "episodic_facts": 55
+          },
+          "assembly_ms": 23.58,
+          "prompt_tokens": 1694,
+          "completion_tokens": 538,
+          "latency_ms": 31923.64,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 28,
+        "message": "The experiment uses five fixed probes.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 1076,
+            "short_term_window": 605,
+            "episodic_facts": 52
+          },
+          "assembly_ms": 27.62,
+          "prompt_tokens": 1694,
+          "completion_tokens": 611,
+          "latency_ms": 35925.42,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 29,
+        "message": "The report explains the best and worst settings.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 1076,
+            "short_term_window": 662,
+            "episodic_facts": 56
+          },
+          "assembly_ms": 32.38,
+          "prompt_tokens": 1724,
+          "completion_tokens": 499,
+          "latency_ms": 30011.55,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 30,
+        "message": "The final state receives the hw6 tag.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 1076,
+            "short_term_window": 712,
+            "episodic_facts": 42
+          },
+          "assembly_ms": 28.8,
+          "prompt_tokens": 1759,
+          "completion_tokens": 661,
+          "latency_ms": 161877.24,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": true,
+            "lifetime_summary_updated": true
+          }
+        }
+      }
+    ],
+    "probes": [
+      {
+        "question": "What is the project domain?",
+        "answer": "**Known Fact:** The project domain is **clinical-trial listings**, as explicitly stated in the context. This aligns with the use of **NCT identifiers** for studies and the **s8561_doc MongoDB database** for persistence.  \n\n**Domain-Specific Details:**  \n- **Primary domain**: Clinical-trial listings (specifically focusing on diabetes interventions).  \n- **Domain ID**: 1 (assigned to the clinical-trial listings domain).  \n- **Data identifiers**: NCT identifiers are used to reference studies.  \n- **Database**: `s8561_doc` stores facts related to the domain.  \n\n**Uncertainty:**  \n- No evidence connects the domain to broader systems (e.g., repository `data260-8561`, Pydantic models, or model integration with NCT data).  \n\n**Conclusion:** The project domain is explicitly confirmed as **clinical-trial listings** (domain ID 1), centered on diabetes interventions and NCT identifiers. Further clarification is needed on system integrations beyond this scope.  \n\n**Key Constraint:** Answers remain **evidence-based**, reflecting only explicitly stated facts from the provided context.",
+        "criteria": [
+          "clinical",
+          "trial"
+        ],
+        "score": 5.0
+      },
+      {
+        "question": "What local model is required?",
+        "answer": "**Known Fact:** The local model required is **qwen3:8b**, as explicitly stated in the context. This model is served locally via **Ollama** and is part of the project\u2019s technical stack.  \n\n**Domain-Specific Details:**  \n- **Model Name**: `qwen3:8b`  \n- **Service**: Run locally through **Ollama** for reproducibility.  \n- **Use Case**: Integral to the project\u2019s workflow, though its specific role (e.g., data analysis, NCT processing) remains unresolved.  \n\n**Uncertainty:**  \n- No explicit details on how **qwen3:8b** interacts with **NCT identifiers**, **clinical-trial data**, or other systems like **Pydantic validation** or the **s8561_doc database**.  \n\n**Conclusion:** The **qwen3:8b model** is explicitly confirmed as the local model required, but its functional integration with the project\u2019s clinical-trial workflows or data systems is unclear.  \n\n**Key Constraint:** Answers remain **evidence-based**, reflecting only explicitly stated facts from the provided context.",
+        "criteria": [
+          "qwen3:8b"
+        ],
+        "score": 5.0
+      },
+      {
+        "question": "What MongoDB database should memory use?",
+        "answer": "**Known Fact:** The MongoDB database required for memory is **s8561_doc**, as explicitly stated in the context.  \n\n**Domain-Specific Details:**  \n- **Database Name**: `s8561_doc`  \n- **Functionality**: Stores messages, summaries, and episodes; preserves facts across sessions.  \n- **Endpoint Behavior**: The memory endpoint returns recent records from this database.  \n\n**Uncertainty:**  \n- No explicit details on how `s8561_doc` interacts with other systems (e.g., Pydantic validation, NCT data, or the qwen3:8b model).  \n\n**Conclusion:** The **s8561_doc** database is explicitly confirmed as the required MongoDB instance for memory, with clear persistence and session-based storage. Further clarification is needed on its integration with other project components.  \n\n**Key Constraint:** Answers remain **evidence-based**, reflecting only explicitly stated facts from the provided context.",
+        "criteria": [
+          "s8561_doc"
+        ],
+        "score": 5.0
+      },
+      {
+        "question": "Which port does the application use?",
+        "answer": "**Known Fact:** The application uses **port 8461**, as explicitly stated in the context.  \n\n**Domain-Specific Details:**  \n- **Port Number**: `8461`  \n- **Purpose**: Hosts the local API for reproducible experiments.  \n\n**Uncertainty:** None. The port is explicitly confirmed across multiple contexts (LONG-TERM SUMMARY, SHORT-TERM WINDOW, EPISODIC FACTS).  \n\n**Conclusion:** The application explicitly uses **port 8461** for its local API.  \n\n**Key Constraint:** Answers remain **evidence-based**, reflecting only explicitly stated facts from the provided context.",
+        "criteria": [
+          "8461"
+        ],
+        "score": 5.0
+      },
+      {
+        "question": "What must be preserved when adding HW6?",
+        "answer": "**Known Fact:** When adding HW6, **prior homework reports must remain intact**, as explicitly stated in the EPISODIC FACTS.  \n\n**Domain-Specific Details:**  \n- **Preservation Requirement**: Existing homework reports (e.g., prior HW versions) must not be overwritten or deleted.  \n- **Final State Tag**: The final state receives the **hw6 tag**, indicating HW6 is a distinct, preserved endpoint in the workflow.  \n\n**Uncertainty:**  \n- **Integration with Database**: While the **s8561_doc database** is confirmed to preserve facts across sessions, no explicit details exist on how it interacts with HW6-specific data (e.g., whether HW6 outputs are stored or versioned).  \n- **Model/Tag Linkage**: The **hw6 tag\u2019s technical integration** with the **qwen3:8b model** or **NCT data** remains unresolved.  \n\n**Conclusion:** The explicit requirement is to **preserve prior homework reports** when adding HW6. The **hw6 tag** is tied to the final state, but its broader integration with the system is unclear.  \n\n**Key Constraint:** Answers remain **evidence-based**, reflecting only explicitly stated facts from the provided context.",
+        "criteria": [
+          "repository",
+          "history"
+        ],
+        "score": 1.0
+      }
+    ],
+    "summary": {
+      "mean_prompt_tokens": 1396.57,
+      "mean_completion_tokens": 582.63,
+      "mean_latency_ms": 50950.93,
+      "mean_probe_score": 4.2
+    }
+  },
+  {
+    "label": "N12",
+    "short_term_n": 12,
+    "compression": false,
+    "user_id": "hw6-exp-n12-20261018T155004Z",
+    "session_id": "N12-20261018T155004Z",
+    "turns": [
+      {
+        "turn": 1,
+        "message": "The trial project studies diabetes interventions.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 0,
+            "short_term_window": 14,
+            "episodic_facts": 13
+          },
+          "assembly_ms": 33.99,
+          "prompt_tokens": 125,
+          "completion_tokens": 155,
+          "latency_ms": 8758.26,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 2,
+        "message": "The primary domain is clinical-trial listings.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 0,
+            "short_term_window": 89,
+            "episodic_facts": 25
+          },
+          "assembly_ms": 12.01,
+          "prompt_tokens": 196,
+          "completion_tokens": 289,
+          "latency_ms": 15246.15,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 3,
+        "message": "The project uses NCT identifiers for studies.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 0,
+            "short_term_window": 160,
+            "episodic_facts": 37
+          },
+          "assembly_ms": 11.94,
+          "prompt_tokens": 259,
+          "completion_tokens": 230,
+          "latency_ms": 12274.97,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 4,
+        "message": "The API runs locally for reproducible experiments.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 0,
+            "short_term_window": 268,
+            "episodic_facts": 50
+          },
+          "assembly_ms": 14.61,
+          "prompt_tokens": 353,
+          "completion_tokens": 255,
+          "latency_ms": 13808.21,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 5,
+        "message": "The student prefers concise evidence-based answers.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 0,
+            "short_term_window": 399,
+            "episodic_facts": 63
+          },
+          "assembly_ms": 14.88,
+          "prompt_tokens": 460,
+          "completion_tokens": 215,
+          "latency_ms": 32345.91,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": true,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 6,
+        "message": "The database should preserve facts across sessions.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 119,
+            "short_term_window": 497,
+            "episodic_facts": 63
+          },
+          "assembly_ms": 14.67,
+          "prompt_tokens": 634,
+          "completion_tokens": 428,
+          "latency_ms": 24841.48,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 7,
+        "message": "The model is served locally through Ollama.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 119,
+            "short_term_window": 605,
+            "episodic_facts": 61
+          },
+          "assembly_ms": 16.47,
+          "prompt_tokens": 732,
+          "completion_tokens": 228,
+          "latency_ms": 14483.92,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 8,
+        "message": "The current model is qwen3:8b.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 119,
+            "short_term_window": 660,
+            "episodic_facts": 56
+          },
+          "assembly_ms": 15.09,
+          "prompt_tokens": 793,
+          "completion_tokens": 261,
+          "latency_ms": 16586.56,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 9,
+        "message": "The MongoDB database is s8561_doc.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 119,
+            "short_term_window": 725,
+            "episodic_facts": 54
+          },
+          "assembly_ms": 16.45,
+          "prompt_tokens": 873,
+          "completion_tokens": 332,
+          "latency_ms": 20629.07,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 10,
+        "message": "The application port is 8461.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 119,
+            "short_term_window": 763,
+            "episodic_facts": 48
+          },
+          "assembly_ms": 16.15,
+          "prompt_tokens": 936,
+          "completion_tokens": 327,
+          "latency_ms": 48475.81,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": true,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 11,
+        "message": "The assigned domain id is 1.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 162,
+            "short_term_window": 784,
+            "episodic_facts": 48
+          },
+          "assembly_ms": 15.83,
+          "prompt_tokens": 1035,
+          "completion_tokens": 253,
+          "latency_ms": 18373.39,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 12,
+        "message": "The SID4 is 8561.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 162,
+            "short_term_window": 839,
+            "episodic_facts": 37
+          },
+          "assembly_ms": 18.99,
+          "prompt_tokens": 1121,
+          "completion_tokens": 297,
+          "latency_ms": 19897.81,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 13,
+        "message": "The repository is data260-8561.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 162,
+            "short_term_window": 876,
+            "episodic_facts": 42
+          },
+          "assembly_ms": 15.61,
+          "prompt_tokens": 1201,
+          "completion_tokens": 386,
+          "latency_ms": 25261.24,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 14,
+        "message": "Prior homework reports must remain intact.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 162,
+            "short_term_window": 919,
+            "episodic_facts": 62
+          },
+          "assembly_ms": 17.12,
+          "prompt_tokens": 1254,
+          "completion_tokens": 386,
+          "latency_ms": 25346.31,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 15,
+        "message": "The FastAPI layer uses Pydantic validation.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 162,
+            "short_term_window": 971,
+            "episodic_facts": 56
+          },
+          "assembly_ms": 20.66,
+          "prompt_tokens": 1329,
+          "completion_tokens": 251,
+          "latency_ms": 100346.22,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": true,
+            "lifetime_summary_updated": true
+          }
+        }
+      },
+      {
+        "turn": 16,
+        "message": "MongoDB stores messages, summaries, and episodes.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 421,
+            "short_term_window": 946,
+            "episodic_facts": 55
+          },
+          "assembly_ms": 17.13,
+          "prompt_tokens": 1594,
+          "completion_tokens": 415,
+          "latency_ms": 29933.61,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 17,
+        "message": "Short-term memory is a sliding window.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 421,
+            "short_term_window": 1007,
+            "episodic_facts": 60
+          },
+          "assembly_ms": 21.32,
+          "prompt_tokens": 1649,
+          "completion_tokens": 262,
+          "latency_ms": 20344.77,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 18,
+        "message": "Long-term memory is stored as summaries.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 421,
+            "short_term_window": 989,
+            "episodic_facts": 58
+          },
+          "assembly_ms": 24.16,
+          "prompt_tokens": 1608,
+          "completion_tokens": 339,
+          "latency_ms": 24223.12,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 19,
+        "message": "Episodic memory stores short facts and embeddings.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 421,
+            "short_term_window": 965,
+            "episodic_facts": 60
+          },
+          "assembly_ms": 21.65,
+          "prompt_tokens": 1555,
+          "completion_tokens": 347,
+          "latency_ms": 24264.35,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 20,
+        "message": "Cosine similarity ranks episodic facts.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 421,
+            "short_term_window": 928,
+            "episodic_facts": 60
+          },
+          "assembly_ms": 22.3,
+          "prompt_tokens": 1484,
+          "completion_tokens": 287,
+          "latency_ms": 62037.19,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": true,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 21,
+        "message": "The chat endpoint returns memory evidence.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 470,
+            "short_term_window": 875,
+            "episodic_facts": 61
+          },
+          "assembly_ms": 22.21,
+          "prompt_tokens": 1448,
+          "completion_tokens": 359,
+          "latency_ms": 26353.44,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 22,
+        "message": "The aggregate endpoint groups messages by date.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 470,
+            "short_term_window": 891,
+            "episodic_facts": 60
+          },
+          "assembly_ms": 27.78,
+          "prompt_tokens": 1450,
+          "completion_tokens": 323,
+          "latency_ms": 21524.62,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 23,
+        "message": "The memory endpoint returns recent records.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 470,
+            "short_term_window": 813,
+            "episodic_facts": 58
+          },
+          "assembly_ms": 25.71,
+          "prompt_tokens": 1340,
+          "completion_tokens": 264,
+          "latency_ms": 18400.37,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 24,
+        "message": "The experiment uses fresh sessions for each setting.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 470,
+            "short_term_window": 812,
+            "episodic_facts": 64
+          },
+          "assembly_ms": 22.66,
+          "prompt_tokens": 1339,
+          "completion_tokens": 314,
+          "latency_ms": 21095.02,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 25,
+        "message": "The experiment records prompt tokens.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 470,
+            "short_term_window": 811,
+            "episodic_facts": 59
+          },
+          "assembly_ms": 18.41,
+          "prompt_tokens": 1324,
+          "completion_tokens": 268,
+          "latency_ms": 59202.89,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": true,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 26,
+        "message": "The experiment records completion tokens.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 485,
+            "short_term_window": 813,
+            "episodic_facts": 59
+          },
+          "assembly_ms": 21.65,
+          "prompt_tokens": 1335,
+          "completion_tokens": 297,
+          "latency_ms": 22236.34,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 27,
+        "message": "The experiment records latency.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 485,
+            "short_term_window": 814,
+            "episodic_facts": 55
+          },
+          "assembly_ms": 27.06,
+          "prompt_tokens": 1321,
+          "completion_tokens": 263,
+          "latency_ms": 18220.14,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 28,
+        "message": "The experiment uses five fixed probes.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 485,
+            "short_term_window": 802,
+            "episodic_facts": 52
+          },
+          "assembly_ms": 22.84,
+          "prompt_tokens": 1309,
+          "completion_tokens": 262,
+          "latency_ms": 18051.21,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 29,
+        "message": "The report explains the best and worst settings.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 485,
+            "short_term_window": 791,
+            "episodic_facts": 56
+          },
+          "assembly_ms": 38.4,
+          "prompt_tokens": 1308,
+          "completion_tokens": 252,
+          "latency_ms": 16880.13,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 30,
+        "message": "The final state receives the hw6 tag.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 485,
+            "short_term_window": 785,
+            "episodic_facts": 42
+          },
+          "assembly_ms": 25.43,
+          "prompt_tokens": 1322,
+          "completion_tokens": 278,
+          "latency_ms": 119341.61,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": true,
+            "lifetime_summary_updated": true
+          }
+        }
+      }
+    ],
+    "probes": [
+      {
+        "question": "What is the project domain?",
+        "answer": "The project domain is **clinical-trial listings** (domain ID 1). Key confirmed facts include:  \n- **Primary domain**: Clinical-trial listings.  \n- **Domain ID**: 1.  \n- **Database**: MongoDB (`s8561_doc`).  \n- **Focus**: Uses **NCT identifiers** for diabetes interventions.  \n\nNo uncertainties noted in these facts.",
+        "criteria": [
+          "clinical",
+          "trial"
+        ],
+        "score": 5.0
+      },
+      {
+        "question": "What local model is required?",
+        "answer": "The local model required is **qwen3:8b**, which is served locally through Ollama. Key confirmed facts include:  \n- **Current model**: `qwen3:8b`.  \n- **Model serving**: The model is served locally via Ollama.  \n- **API setup**: The API runs locally for reproducible experiments.  \n\nNo uncertainties are noted in these facts.",
+        "criteria": [
+          "qwen3:8b"
+        ],
+        "score": 5.0
+      },
+      {
+        "question": "What MongoDB database should memory use?",
+        "answer": "The MongoDB database required for memory is **`s8561_doc`**. Key confirmed facts include:  \n- **Database name**: `s8561_doc`.  \n- **Database purpose**: Stores messages, summaries, and episodes.  \n- **Persistence requirement**: Preserves facts across sessions.  \n- **Memory endpoint**: Returns recent records.  \n\nNo uncertainties are noted in these facts.",
+        "criteria": [
+          "s8561_doc"
+        ],
+        "score": 5.0
+      },
+      {
+        "question": "Which port does the application use?",
+        "answer": "The application uses port **8461**. This is a confirmed fact from the EPISODIC FACTS. Key details include:  \n- **Application port**: 8461.  \n- **Repository**: `data260-8561`.  \n- **API setup**: Runs locally for reproducible experiments.  \n\nNo uncertainties are noted in these facts.",
+        "criteria": [
+          "8461"
+        ],
+        "score": 5.0
+      },
+      {
+        "question": "What must be preserved when adding HW6?",
+        "answer": "The statement \"What must be preserved when adding HW6?\" is addressed by the following confirmed EPISODIC FACTS:  \n\n### **Known Facts**  \n1. **Prior homework reports must remain intact**.  \n   - This includes preserving prior homework reports (e.g., `hw6`) and ensuring they are not overwritten or deleted when adding new entries.  \n\n2. **Database must preserve facts across sessions**.  \n   - The MongoDB database (`s8561_doc`) is required to store and retain facts, summaries, and episodes across sessions, ensuring consistency and reproducibility.  \n\n3. **Final state receives the `hw6` tag**.  \n   - When adding HW6, the final state must retain the `hw6` tag to maintain the project's documented workflow and reporting structure.  \n\n### **No Uncertainties**  \nAll referenced facts are explicitly confirmed in the EPISODIC FACTS framework. No assumptions or inferred details are introduced.",
+        "criteria": [
+          "repository",
+          "history"
+        ],
+        "score": 1.0
+      }
+    ],
+    "summary": {
+      "mean_prompt_tokens": 1089.57,
+      "mean_completion_tokens": 294.1,
+      "mean_latency_ms": 29959.47,
+      "mean_probe_score": 4.2
+    }
+  },
+  {
+    "label": "N30",
+    "short_term_n": 30,
+    "compression": false,
+    "user_id": "hw6-exp-n30-20261018T155004Z",
+    "session_id": "N30-20261018T155004Z",
+    "turns": [
+      {
+        "turn": 1,
+        "message": "The trial project studies diabetes interventions.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 0,
+            "short_term_window": 14,
+            "episodic_facts": 13
+          },
+          "assembly_ms": 18.56,
+          "prompt_tokens": 125,
+          "completion_tokens": 291,
+          "latency_ms": 16653.97,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 2,
+        "message": "The primary domain is clinical-trial listings.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 0,
+            "short_term_window": 141,
+            "episodic_facts": 25
+          },
+          "assembly_ms": 13.11,
+          "prompt_tokens": 236,
+          "completion_tokens": 277,
+          "latency_ms": 14968.32,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 3,
+        "message": "The project uses NCT identifiers for studies.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 0,
+            "short_term_window": 284,
+            "episodic_facts": 37
+          },
+          "assembly_ms": 13.38,
+          "prompt_tokens": 358,
+          "completion_tokens": 339,
+          "latency_ms": 18875.4,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 4,
+        "message": "The API runs locally for reproducible experiments.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 0,
+            "short_term_window": 437,
+            "episodic_facts": 50
+          },
+          "assembly_ms": 15.71,
+          "prompt_tokens": 486,
+          "completion_tokens": 328,
+          "latency_ms": 17740.51,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 5,
+        "message": "The student prefers concise evidence-based answers.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 0,
+            "short_term_window": 612,
+            "episodic_facts": 63
+          },
+          "assembly_ms": 25.27,
+          "prompt_tokens": 625,
+          "completion_tokens": 276,
+          "latency_ms": 41493.1,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": true,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 6,
+        "message": "The database should preserve facts across sessions.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 222,
+            "short_term_window": 762,
+            "episodic_facts": 63
+          },
+          "assembly_ms": 16.78,
+          "prompt_tokens": 910,
+          "completion_tokens": 360,
+          "latency_ms": 23118.78,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 7,
+        "message": "The model is served locally through Ollama.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 222,
+            "short_term_window": 960,
+            "episodic_facts": 61
+          },
+          "assembly_ms": 15.03,
+          "prompt_tokens": 1081,
+          "completion_tokens": 536,
+          "latency_ms": 29349.32,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 8,
+        "message": "The current model is qwen3:8b.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 222,
+            "short_term_window": 1161,
+            "episodic_facts": 56
+          },
+          "assembly_ms": 15.07,
+          "prompt_tokens": 1258,
+          "completion_tokens": 394,
+          "latency_ms": 21980.77,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 9,
+        "message": "The MongoDB database is s8561_doc.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 222,
+            "short_term_window": 1358,
+            "episodic_facts": 54
+          },
+          "assembly_ms": 17.23,
+          "prompt_tokens": 1435,
+          "completion_tokens": 343,
+          "latency_ms": 19535.74,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 10,
+        "message": "The application port is 8461.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 222,
+            "short_term_window": 1543,
+            "episodic_facts": 48
+          },
+          "assembly_ms": 15.99,
+          "prompt_tokens": 1607,
+          "completion_tokens": 393,
+          "latency_ms": 62952.63,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": true,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 11,
+        "message": "The assigned domain id is 1.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 212,
+            "short_term_window": 1767,
+            "episodic_facts": 48
+          },
+          "assembly_ms": 15.85,
+          "prompt_tokens": 1825,
+          "completion_tokens": 359,
+          "latency_ms": 28199.48,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 12,
+        "message": "The SID4 is 8561.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 212,
+            "short_term_window": 2002,
+            "episodic_facts": 37
+          },
+          "assembly_ms": 18.41,
+          "prompt_tokens": 2053,
+          "completion_tokens": 483,
+          "latency_ms": 27633.41,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 13,
+        "message": "The repository is data260-8561.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 212,
+            "short_term_window": 2247,
+            "episodic_facts": 42
+          },
+          "assembly_ms": 21.04,
+          "prompt_tokens": 2322,
+          "completion_tokens": 408,
+          "latency_ms": 24123.41,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 14,
+        "message": "Prior homework reports must remain intact.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 212,
+            "short_term_window": 2424,
+            "episodic_facts": 62
+          },
+          "assembly_ms": 16.95,
+          "prompt_tokens": 2499,
+          "completion_tokens": 341,
+          "latency_ms": 20082.93,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 15,
+        "message": "The FastAPI layer uses Pydantic validation.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 212,
+            "short_term_window": 2623,
+            "episodic_facts": 56
+          },
+          "assembly_ms": 19.96,
+          "prompt_tokens": 2678,
+          "completion_tokens": 690,
+          "latency_ms": 143133.03,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": true,
+            "lifetime_summary_updated": true
+          }
+        }
+      },
+      {
+        "turn": 16,
+        "message": "MongoDB stores messages, summaries, and episodes.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 747,
+            "short_term_window": 2875,
+            "episodic_facts": 55
+          },
+          "assembly_ms": 20.09,
+          "prompt_tokens": 3525,
+          "completion_tokens": 562,
+          "latency_ms": 50253.66,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 17,
+        "message": "Short-term memory is a sliding window.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 747,
+            "short_term_window": 3110,
+            "episodic_facts": 60
+          },
+          "assembly_ms": 22.54,
+          "prompt_tokens": 3779,
+          "completion_tokens": 512,
+          "latency_ms": 43987.25,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 18,
+        "message": "Long-term memory is stored as summaries.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 747,
+            "short_term_window": 3209,
+            "episodic_facts": 58
+          },
+          "assembly_ms": 24.0,
+          "prompt_tokens": 3877,
+          "completion_tokens": 563,
+          "latency_ms": 52176.24,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 19,
+        "message": "Episodic memory stores short facts and embeddings.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 747,
+            "short_term_window": 3331,
+            "episodic_facts": 60
+          },
+          "assembly_ms": 36.05,
+          "prompt_tokens": 4002,
+          "completion_tokens": 572,
+          "latency_ms": 51971.41,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 20,
+        "message": "Cosine similarity ranks episodic facts.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 747,
+            "short_term_window": 3441,
+            "episodic_facts": 60
+          },
+          "assembly_ms": 24.45,
+          "prompt_tokens": 2050,
+          "completion_tokens": 490,
+          "latency_ms": 88784.28,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": true,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 21,
+        "message": "The chat endpoint returns memory evidence.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 806,
+            "short_term_window": 3552,
+            "episodic_facts": 61
+          },
+          "assembly_ms": 20.79,
+          "prompt_tokens": 2050,
+          "completion_tokens": 612,
+          "latency_ms": 43243.31,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 22,
+        "message": "The aggregate endpoint groups messages by date.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 806,
+            "short_term_window": 3641,
+            "episodic_facts": 60
+          },
+          "assembly_ms": 22.68,
+          "prompt_tokens": 2050,
+          "completion_tokens": 431,
+          "latency_ms": 33431.01,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 23,
+        "message": "The memory endpoint returns recent records.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 806,
+            "short_term_window": 3641,
+            "episodic_facts": 58
+          },
+          "assembly_ms": 20.18,
+          "prompt_tokens": 2050,
+          "completion_tokens": 404,
+          "latency_ms": 31923.95,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 24,
+        "message": "The experiment uses fresh sessions for each setting.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 806,
+            "short_term_window": 3621,
+            "episodic_facts": 64
+          },
+          "assembly_ms": 24.47,
+          "prompt_tokens": 2050,
+          "completion_tokens": 644,
+          "latency_ms": 44962.38,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 25,
+        "message": "The experiment records prompt tokens.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 806,
+            "short_term_window": 3776,
+            "episodic_facts": 59
+          },
+          "assembly_ms": 26.36,
+          "prompt_tokens": 2050,
+          "completion_tokens": 471,
+          "latency_ms": 77644.27,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": true,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 26,
+        "message": "The experiment records completion tokens.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 767,
+            "short_term_window": 3825,
+            "episodic_facts": 59
+          },
+          "assembly_ms": 26.99,
+          "prompt_tokens": 2050,
+          "completion_tokens": 537,
+          "latency_ms": 39180.98,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 27,
+        "message": "The experiment records latency.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 767,
+            "short_term_window": 3914,
+            "episodic_facts": 55
+          },
+          "assembly_ms": 21.07,
+          "prompt_tokens": 2050,
+          "completion_tokens": 501,
+          "latency_ms": 38281.09,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 28,
+        "message": "The experiment uses five fixed probes.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 767,
+            "short_term_window": 4040,
+            "episodic_facts": 52
+          },
+          "assembly_ms": 24.77,
+          "prompt_tokens": 2050,
+          "completion_tokens": 887,
+          "latency_ms": 58271.73,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 29,
+        "message": "The report explains the best and worst settings.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 767,
+            "short_term_window": 4337,
+            "episodic_facts": 56
+          },
+          "assembly_ms": 27.78,
+          "prompt_tokens": 2050,
+          "completion_tokens": 967,
+          "latency_ms": 63179.96,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 30,
+        "message": "The final state receives the hw6 tag.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 767,
+            "short_term_window": 4822,
+            "episodic_facts": 42
+          },
+          "assembly_ms": 29.07,
+          "prompt_tokens": 2050,
+          "completion_tokens": 916,
+          "latency_ms": 201334.93,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": true,
+            "lifetime_summary_updated": true
+          }
+        }
+      }
+    ],
+    "probes": [
+      {
+        "question": "What is the project domain?",
+        "answer": "**Project Domain:**  \nThe project\u2019s **primary domain is clinical-trial listings**, with the assigned **domain ID 1**. It focuses on analyzing and managing data related to **clinical trials**, particularly those involving **diabetes interventions**.  \n\n### Key Details:  \n1. **Clinical-Trial Focus**:  \n   - The project uses **NCT identifiers** (ClinicalTrials.gov unique identifiers) to link data to specific studies, ensuring alignment with real-world clinical research.  \n   - It emphasizes **diabetes interventions**, as seen in prior discussions about tying linguistic data (e.g., prompt/completion tokens, latency) to clinical outcomes.  \n\n2. **Data Infrastructure**:  \n   - Data is stored in **MongoDB\u2019s `s8561_doc`** collection, which aggregates metrics like prompt tokens, completion tokens, latency, and five fixed probes.  \n   - The **domain ID 1** ensures structured categorization of data within the repository (`data260-8561`).  \n\n3. **Reproducibility & Integration**:  \n   - Fresh sessions and local API runs ensure reproducibility, while endpoints (e.g., chat, memory, aggregate) leverage domain-specific data for insights.  \n   - The **hw6 tag** marks final states, preserving clinical-trial-linked data for analysis.  \n\n**Summary**: The project domain is **clinical-trial data management**, with a focus on diabetes-related interventions, using NCT identifiers and MongoDB for structured, reproducible analysis.",
+        "criteria": [
+          "clinical",
+          "trial"
+        ],
+        "score": 5.0
+      },
+      {
+        "question": "What local model is required?",
+        "answer": "**Answer:**  \nThe **required local model** is **`qwen3:8b`**, which is served locally through **Ollama**. This model is used for processing clinical-trial data (e.g., prompt/completion tokens, latency) tied to **NCT identifiers** (clinical trial IDs for diabetes interventions).  \n\n### Key Details:  \n1. **Model Serving**:  \n   - The model runs locally via **Ollama**, ensuring **reproducible experiments** and consistent environment setup.  \n   - Local API execution aligns with the project\u2019s focus on **reproducibility** and **clinical data analysis**.  \n\n2. **Model Role**:  \n   - Processes linguistic data (tokens, latency) and probe metrics for clinical-trial studies.  \n   - Outputs are stored in MongoDB\u2019s `s8561_doc` (repository `data260-8561`) alongside NCT identifiers for data linkage.  \n\n3. **Integration**:  \n   - The model\u2019s behavior is logged for analysis, supporting endpoints like **chat** (cosine similarity ranking), **memory** (recent session data), and **aggregate** (trend analysis).  \n   - The **hw6 tag** marks final states, preserving model outputs for clinical-trial insights.  \n\n**Summary**: The **`qwen3:8b`** model, served locally via Ollama, is the required component for processing and analyzing clinical-trial data linked to NCT identifiers in this project.",
+        "criteria": [
+          "qwen3:8b"
+        ],
+        "score": 5.0
+      },
+      {
+        "question": "What MongoDB database should memory use?",
+        "answer": "**Answer:**  \nThe **memory endpoint** should use the **MongoDB database `data260-8561`**, which contains the collection `s8561_doc`. This database is tied to the project\u2019s repository (`data260-8561`) and stores all critical data, including:  \n- **Messages**, **summaries**, and **episodes** (as specified in the EPISODIC FACTS).  \n- **Performance metrics** (latency, prompt/completion tokens).  \n- **Five fixed probes** and **NCT identifiers** for clinical-trial linkage.  \n\n### Key Details:  \n1. **Database Name**: `data260-8561` (repository context).  \n2. **Collection**: `s8561_doc` (stores structured data like messages, summaries, and episodes).  \n3. **Persistence**: The database preserves facts across sessions, ensuring continuity for the **memory endpoint** (which returns recent records).  \n4. **Integration**: The **chat endpoint** uses cosine similarity on episodic facts stored here, while the **aggregate endpoint** analyzes trends over time.  \n\n**Summary**: The memory endpoint should use the `data260-8561` MongoDB database, which houses the `s8561_doc` collection for storing and retrieving session data, ensuring reproducibility and clinical-trial alignment.",
+        "criteria": [
+          "s8561_doc"
+        ],
+        "score": 5.0
+      },
+      {
+        "question": "Which port does the application use?",
+        "answer": "**Answer:**  \nThe **application uses port 8461**. This is explicitly stated in the EPISODIC FACTS, and it aligns with the project\u2019s setup for **local API execution** to ensure **reproducible experiments**. The port is part of the infrastructure for managing clinical-trial data (via `data260-8561`) and integrating with endpoints like **chat**, **memory**, and **aggregate**.",
+        "criteria": [
+          "8461"
+        ],
+        "score": 5.0
+      },
+      {
+        "question": "What must be preserved when adding HW6?",
+        "answer": "**Answer:**  \nWhen adding **HW6**, the following must be preserved to ensure continuity, reproducibility, and alignment with clinical-trial data:  \n\n1. **Prior Homework Reports**:  \n   - All previous homework reports (e.g., earlier milestones) must remain **intact** to enable **longitudinal analysis** and **comparison** of setting performance across sessions.  \n\n2. **Final State Data (HW6 Tag)**:  \n   - The **final state** of the experiment must receive the **hw6 tag**, preserving:  \n     - **Completion tokens** (prompt/completion token counts).  \n     - **Latency metrics** (response time).  \n     - **Five fixed probes** (e.g., user engagement, adherence to diabetes protocols).  \n     - **NCT identifiers** (clinical trial links for diabetes interventions).  \n\n3. **Database Facts Across Sessions**:  \n   - The **MongoDB database `data260-8561`** (collection `s8561_doc`) must preserve all **episodic facts**, including:  \n     - **Messages**, **summaries**, and **episodes**.  \n     - **Model outputs** (e.g., qwen3:8b behavior).  \n     - **Session metadata** (e.g., latency, token usage).  \n\n4. **Reproducibility**:  \n   - **Fresh sessions** and **local API execution** (port 8461) ensure isolated, reproducible runs, with data stored for future reference.  \n\n**Summary**:  \nAdding HW6 requires preserving **prior reports**, **final state data** (tagged with hw6), and **database facts** across sessions to maintain reproducibility, clinical-trial alignment, and structured analysis.",
+        "criteria": [
+          "repository",
+          "history"
+        ],
+        "score": 1.0
+      }
+    ],
+    "summary": {
+      "mean_prompt_tokens": 1907.7,
+      "mean_completion_tokens": 496.23,
+      "mean_latency_ms": 47615.57,
+      "mean_probe_score": 4.2
+    }
+  },
+  {
+    "label": "N30+compression",
+    "short_term_n": 30,
+    "compression": true,
+    "user_id": "hw6-exp-n30-compression-20261018T155004Z",
+    "session_id": "N30+compression-20261018T155004Z",
+    "turns": [
+      {
+        "turn": 1,
+        "message": "The trial project studies diabetes interventions.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 0,
+            "short_term_window": 14,
+            "episodic_facts": 13
+          },
+          "assembly_ms": 17.49,
+          "prompt_tokens": 125,
+          "completion_tokens": 203,
+          "latency_ms": 11163.13,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 2,
+        "message": "The primary domain is clinical-trial listings.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 0,
+            "short_term_window": 107,
+            "episodic_facts": 25
+          },
+          "assembly_ms": 20.95,
+          "prompt_tokens": 210,
+          "completion_tokens": 301,
+          "latency_ms": 15916.03,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 3,
+        "message": "The project uses NCT identifiers for studies.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 0,
+            "short_term_window": 199,
+            "episodic_facts": 37
+          },
+          "assembly_ms": 14.12,
+          "prompt_tokens": 294,
+          "completion_tokens": 288,
+          "latency_ms": 15705.89,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 4,
+        "message": "The API runs locally for reproducible experiments.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 0,
+            "short_term_window": 227,
+            "episodic_facts": 50
+          },
+          "assembly_ms": 15.17,
+          "prompt_tokens": 329,
+          "completion_tokens": 305,
+          "latency_ms": 16768.37,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 5,
+        "message": "The student prefers concise evidence-based answers.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 0,
+            "short_term_window": 257,
+            "episodic_facts": 63
+          },
+          "assembly_ms": 12.99,
+          "prompt_tokens": 362,
+          "completion_tokens": 271,
+          "latency_ms": 39508.61,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": true,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 6,
+        "message": "The database should preserve facts across sessions.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 208,
+            "short_term_window": 269,
+            "episodic_facts": 63
+          },
+          "assembly_ms": 17.34,
+          "prompt_tokens": 543,
+          "completion_tokens": 566,
+          "latency_ms": 31761.26,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 7,
+        "message": "The model is served locally through Ollama.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 208,
+            "short_term_window": 323,
+            "episodic_facts": 61
+          },
+          "assembly_ms": 17.12,
+          "prompt_tokens": 595,
+          "completion_tokens": 356,
+          "latency_ms": 20438.29,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 8,
+        "message": "The current model is qwen3:8b.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 208,
+            "short_term_window": 387,
+            "episodic_facts": 56
+          },
+          "assembly_ms": 16.97,
+          "prompt_tokens": 662,
+          "completion_tokens": 287,
+          "latency_ms": 17233.62,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 9,
+        "message": "The MongoDB database is s8561_doc.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 208,
+            "short_term_window": 406,
+            "episodic_facts": 54
+          },
+          "assembly_ms": 16.69,
+          "prompt_tokens": 699,
+          "completion_tokens": 356,
+          "latency_ms": 20596.05,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 10,
+        "message": "The application port is 8461.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 208,
+            "short_term_window": 413,
+            "episodic_facts": 48
+          },
+          "assembly_ms": 18.31,
+          "prompt_tokens": 716,
+          "completion_tokens": 406,
+          "latency_ms": 67223.46,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": true,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 11,
+        "message": "The assigned domain id is 1.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 197,
+            "short_term_window": 432,
+            "episodic_facts": 48
+          },
+          "assembly_ms": 18.55,
+          "prompt_tokens": 757,
+          "completion_tokens": 354,
+          "latency_ms": 22099.69,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 12,
+        "message": "The SID4 is 8561.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 197,
+            "short_term_window": 455,
+            "episodic_facts": 37
+          },
+          "assembly_ms": 15.02,
+          "prompt_tokens": 794,
+          "completion_tokens": 396,
+          "latency_ms": 22983.63,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 13,
+        "message": "The repository is data260-8561.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 197,
+            "short_term_window": 467,
+            "episodic_facts": 42
+          },
+          "assembly_ms": 18.41,
+          "prompt_tokens": 823,
+          "completion_tokens": 483,
+          "latency_ms": 27768.06,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 14,
+        "message": "Prior homework reports must remain intact.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 197,
+            "short_term_window": 489,
+            "episodic_facts": 62
+          },
+          "assembly_ms": 18.87,
+          "prompt_tokens": 832,
+          "completion_tokens": 499,
+          "latency_ms": 29351.26,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 15,
+        "message": "The FastAPI layer uses Pydantic validation.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 197,
+            "short_term_window": 534,
+            "episodic_facts": 56
+          },
+          "assembly_ms": 14.41,
+          "prompt_tokens": 885,
+          "completion_tokens": 473,
+          "latency_ms": 126950.91,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": true,
+            "lifetime_summary_updated": true
+          }
+        }
+      },
+      {
+        "turn": 16,
+        "message": "MongoDB stores messages, summaries, and episodes.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 726,
+            "short_term_window": 560,
+            "episodic_facts": 55
+          },
+          "assembly_ms": 37.39,
+          "prompt_tokens": 1450,
+          "completion_tokens": 514,
+          "latency_ms": 35355.07,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 17,
+        "message": "Short-term memory is a sliding window.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 726,
+            "short_term_window": 550,
+            "episodic_facts": 60
+          },
+          "assembly_ms": 20.85,
+          "prompt_tokens": 1432,
+          "completion_tokens": 349,
+          "latency_ms": 22569.27,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 18,
+        "message": "Long-term memory is stored as summaries.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 726,
+            "short_term_window": 448,
+            "episodic_facts": 58
+          },
+          "assembly_ms": 20.87,
+          "prompt_tokens": 1295,
+          "completion_tokens": 406,
+          "latency_ms": 23812.93,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 19,
+        "message": "Episodic memory stores short facts and embeddings.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 726,
+            "short_term_window": 415,
+            "episodic_facts": 60
+          },
+          "assembly_ms": 20.35,
+          "prompt_tokens": 1255,
+          "completion_tokens": 539,
+          "latency_ms": 31420.18,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 20,
+        "message": "Cosine similarity ranks episodic facts.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 726,
+            "short_term_window": 499,
+            "episodic_facts": 60
+          },
+          "assembly_ms": 17.72,
+          "prompt_tokens": 1361,
+          "completion_tokens": 583,
+          "latency_ms": 84909.32,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": true,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 21,
+        "message": "The chat endpoint returns memory evidence.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 736,
+            "short_term_window": 521,
+            "episodic_facts": 61
+          },
+          "assembly_ms": 24.65,
+          "prompt_tokens": 1404,
+          "completion_tokens": 498,
+          "latency_ms": 31277.84,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 22,
+        "message": "The aggregate endpoint groups messages by date.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 736,
+            "short_term_window": 591,
+            "episodic_facts": 60
+          },
+          "assembly_ms": 24.83,
+          "prompt_tokens": 1477,
+          "completion_tokens": 552,
+          "latency_ms": 32526.29,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 23,
+        "message": "The memory endpoint returns recent records.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 736,
+            "short_term_window": 650,
+            "episodic_facts": 58
+          },
+          "assembly_ms": 21.7,
+          "prompt_tokens": 1537,
+          "completion_tokens": 629,
+          "latency_ms": 37966.36,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 24,
+        "message": "The experiment uses fresh sessions for each setting.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 736,
+            "short_term_window": 635,
+            "episodic_facts": 64
+          },
+          "assembly_ms": 22.27,
+          "prompt_tokens": 1522,
+          "completion_tokens": 819,
+          "latency_ms": 47523.31,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 25,
+        "message": "The experiment records prompt tokens.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 736,
+            "short_term_window": 627,
+            "episodic_facts": 59
+          },
+          "assembly_ms": 18.77,
+          "prompt_tokens": 1519,
+          "completion_tokens": 683,
+          "latency_ms": 93169.69,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": true,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 26,
+        "message": "The experiment records completion tokens.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 677,
+            "short_term_window": 618,
+            "episodic_facts": 59
+          },
+          "assembly_ms": 24.08,
+          "prompt_tokens": 1435,
+          "completion_tokens": 567,
+          "latency_ms": 36498.31,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 27,
+        "message": "The experiment records latency.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 677,
+            "short_term_window": 630,
+            "episodic_facts": 55
+          },
+          "assembly_ms": 24.94,
+          "prompt_tokens": 1436,
+          "completion_tokens": 632,
+          "latency_ms": 37210.85,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 28,
+        "message": "The experiment uses five fixed probes.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 677,
+            "short_term_window": 681,
+            "episodic_facts": 52
+          },
+          "assembly_ms": 26.39,
+          "prompt_tokens": 1480,
+          "completion_tokens": 550,
+          "latency_ms": 32965.35,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 29,
+        "message": "The report explains the best and worst settings.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 677,
+            "short_term_window": 724,
+            "episodic_facts": 56
+          },
+          "assembly_ms": 24.54,
+          "prompt_tokens": 1526,
+          "completion_tokens": 737,
+          "latency_ms": 44107.39,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": false,
+            "lifetime_summary_updated": false
+          }
+        }
+      },
+      {
+        "turn": 30,
+        "message": "The final state receives the hw6 tag.",
+        "metrics": {
+          "component_tokens": {
+            "primer": 39,
+            "long_term_summary": 677,
+            "short_term_window": 789,
+            "episodic_facts": 42
+          },
+          "assembly_ms": 29.16,
+          "prompt_tokens": 1597,
+          "completion_tokens": 733,
+          "latency_ms": 173848.98,
+          "facts_saved": 1,
+          "summary_updates": {
+            "session_summary_updated": true,
+            "lifetime_summary_updated": true
+          }
+        }
+      }
+    ],
+    "probes": [
+      {
+        "question": "What is the project domain?",
+        "answer": "**Project Domain:**  \nThe project domain is **clinical-trial listings** (domain ID: 1), specifically focused on **diabetes-related interventions**.  \n\n**Key Context:**  \n- **Database:** MongoDB (`s8561_doc`) stores trial data.  \n- **Identifiers:** NCT (ClinicalTrials.gov) identifiers are used for diabetes studies.  \n- **Scope:** Targets diabetes interventions, populations, outcomes, and trial designs.  \n\nNo uncertainties exist regarding the domain definition. \ud83e\uddea\ud83d\udcda",
+        "criteria": [
+          "clinical",
+          "trial"
+        ],
+        "score": 5.0
+      },
+      {
+        "question": "What local model is required?",
+        "answer": "**Local Model Required:**  \nThe project requires the **`qwen3:8b`** model, served locally via **Ollama**.  \n\n**Key Details:**  \n- **Model Serving:** The model runs locally through Ollama (no external dependencies).  \n- **API Configuration:** The FastAPI backend operates locally on port `8461` for reproducible experiments.  \n- **Project Alignment:** NCT identifiers are used for diabetes-related clinical trials, ensuring domain-specific focus.  \n\nNo uncertainties exist regarding the model or setup. \ud83e\udde0\ud83d\udd17",
+        "criteria": [
+          "qwen3:8b"
+        ],
+        "score": 5.0
+      },
+      {
+        "question": "What MongoDB database should memory use?",
+        "answer": "**MongoDB Database for Memory:**  \nThe memory system uses the **`s8561_doc`** MongoDB database.  \n\n**Key Details:**  \n- **Purpose:** Stores messages, summaries, and episodic facts for session continuity.  \n- **Persistence:** Preserves data across sessions via cosine similarity for long-term memory.  \n- **Endpoint Behavior:** The memory endpoint retrieves recent records (short-term window) and leverages `s8561_doc` for persistent storage.  \n\nNo uncertainties exist regarding the database configuration. \ud83d\uddc4\ufe0f\ud83d\udd04",
+        "criteria": [
+          "s8561_doc"
+        ],
+        "score": 5.0
+      },
+      {
+        "question": "Which port does the application use?",
+        "answer": "**Application Port:**  \nThe application uses **port 8461** for its local API endpoint.  \n\n**Key Details:**  \n- **Port Assignment:** `8461` (as specified in the Technical Stack and Short-Term Window).  \n- **Local Execution:** The API runs locally to ensure reproducibility (no external dependencies).  \n- **Domain Alignment:** This port is part of the project's setup for diabetes-related clinical-trial analysis.  \n\nNo uncertainties exist regarding the port configuration. \ud83d\ude80\ud83d\udccc",
+        "criteria": [
+          "8461"
+        ],
+        "score": 5.0
+      },
+      {
+        "question": "What must be preserved when adding HW6?",
+        "answer": "**What Must Be Preserved When Adding HW6?**  \n\n### **Known Facts (Preservation Requirements)**  \n1. **Final State Tagging**:  \n   - The **`hw6` tag** must be applied to the final state to denote completion.  \n\n2. **Prior Homework Integrity**:  \n   - **Prior homework reports** must remain **intact** and **unmodified** to ensure historical accuracy and reproducibility.  \n\n3. **Database Persistence**:  \n   - The **`s8561_doc` MongoDB database** must preserve **episodic facts**, **summaries**, and **session-specific data** across sessions using **cosine similarity** for long-term memory alignment.  \n\n4. **Local Model Configuration**:  \n   - The **`qwen3:8b` model** (served via Ollama) must remain **preserved** to maintain consistency in natural language processing tasks.  \n\n5. **Technical Metrics**:  \n   - **Tokens, latency, and probe data** must be retained to align with the study\u2019s technical context and ensure reproducibility of results.  \n\n---\n\n### **Uncertainties (If Any)**  \n- **No uncertainties** exist regarding the preservation requirements for HW6, as all criteria are explicitly defined in the system\u2019s memory and technical stack.  \n\n---\n\n### **Summary**  \nWhen adding HW6, ensure:  \n- The `hw6` tag is applied to the final state.  \n- Prior reports are unaltered.  \n- MongoDB preserves facts across sessions.  \n- The `qwen3:8b` model and technical metrics are retained.  \n\nLet me know if you\u2019d like to proceed with finalizing the report! \ud83e\uddea\ud83d\udcca",
+        "criteria": [
+          "repository",
+          "history"
+        ],
+        "score": 1.0
+      }
+    ],
+    "summary": {
+      "mean_prompt_tokens": 1011.73,
+      "mean_completion_tokens": 477.83,
+      "mean_latency_ms": 41687.65,
+      "mean_probe_score": 4.2
+    }
+  }
+]
