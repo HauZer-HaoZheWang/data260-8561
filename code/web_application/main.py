@@ -1,4 +1,5 @@
 from pathlib import Path
+import sys
 from typing import Optional
 
 import uvicorn
@@ -12,6 +13,13 @@ from database import Base, db_session_basede26, get_db
 from models import Sponsor, Trial
 from routers.auth import require_session, router as auth_router
 from performance import router as performance_router
+
+ROOT_PATH = Path(__file__).resolve().parents[2]
+if str(ROOT_PATH) not in sys.path:
+    sys.path.insert(0, str(ROOT_PATH))
+from code.memory_application.document_routes import router as hw6_document_router
+from code.memory_application.memory_routes import router as hw6_memory_router
+from code.memory_application.file_routes import router as hw6_file_memory_router
 from schemas import (
     SponsorCreate,
     SponsorOut,
@@ -36,6 +44,9 @@ Base.metadata.create_all(bind=db_session_basede26)
 # MySQL-backed authentication routes
 app.include_router(auth_router)
 app.include_router(performance_router)
+app.include_router(hw6_document_router)
+app.include_router(hw6_memory_router)
+app.include_router(hw6_file_memory_router)
 
 # Serve frontend files
 app.mount(

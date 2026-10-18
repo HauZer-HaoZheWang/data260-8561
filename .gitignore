@@ -6,3 +6,6 @@ __pycache__/
 code/web_application/certs/
 .DS_Store
 .env
+reports/*/*.pid
+reports/*/backend.log
+reports/*/frontend.log

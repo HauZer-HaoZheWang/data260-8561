@@ -16,3 +16,8 @@ langchain-community==0.4.2
 
 # Model adapter (src/model_client.py)
 ollama==0.6.2
+
+# HW6 MongoDB memory system
+pymongo==4.15.3
+python-dotenv==1.1.1
+PyYAML==6.0.3
