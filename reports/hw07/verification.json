@@ -1,0 +1,30 @@
+{
+  "homework": 7,
+  "sid4": "8561",
+  "model": "qwen3:8b",
+  "seed": 8561,
+  "verify_seed": 268561,
+  "checks": [
+    {
+      "name": "safe calculator",
+      "pass": true
+    },
+    {
+      "name": "calculator rejects code",
+      "pass": true
+    },
+    {
+      "name": "destructive command detected",
+      "pass": true
+    },
+    {
+      "name": "destructive command blocked",
+      "pass": true
+    },
+    {
+      "name": "safe command allowed",
+      "pass": true
+    }
+  ],
+  "pass": true
+}

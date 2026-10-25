@@ -7,6 +7,8 @@ class UserCreate(BaseModel):
     name: str = Field(min_length=1, max_length=100)
     email: EmailStr
     password: str = Field(min_length=6, max_length=128)
+    username: str | None = Field(default=None, min_length=1, max_length=100)
+    role: str | None = Field(default="reader", pattern="^(reader|writer|moderator)$")
 
 
 class LoginRequest(BaseModel):
@@ -18,6 +20,8 @@ class UserOut(BaseModel):
     id: int
     name: str
     email: EmailStr
+    username: str | None = None
+    role: str = "reader"
 
     model_config = ConfigDict(from_attributes=True)
 

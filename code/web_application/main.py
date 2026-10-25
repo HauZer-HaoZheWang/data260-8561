@@ -11,15 +11,18 @@ from sqlalchemy.orm import Session, joinedload
 
 from database import Base, db_session_basede26, get_db
 from models import Sponsor, Trial
-from routers.auth import require_session, router as auth_router
+from routers.auth import require_role, require_session, router as auth_router
 from performance import router as performance_router
 
 ROOT_PATH = Path(__file__).resolve().parents[2]
 if str(ROOT_PATH) not in sys.path:
     sys.path.insert(0, str(ROOT_PATH))
-from code.memory_application.document_routes import router as hw6_document_router
-from code.memory_application.memory_routes import router as hw6_memory_router
-from code.memory_application.file_routes import router as hw6_file_memory_router
+CODE_PATH = ROOT_PATH / "code"
+if str(CODE_PATH) not in sys.path:
+    sys.path.insert(0, str(CODE_PATH))
+from memory_application.document_routes import router as hw6_document_router
+from memory_application.memory_routes import router as hw6_memory_router
+from memory_application.file_routes import router as hw6_file_memory_router
 from schemas import (
     SponsorCreate,
     SponsorOut,
@@ -101,7 +104,7 @@ def trials_ui():
 def create_sponsor(
     sponsor_data: SponsorCreate,
     db: Session = Depends(get_db),
-    _session=Depends(require_session),
+    _session=Depends(require_role("writer", "moderator")),
 ):
     sponsor = Sponsor(**sponsor_data.model_dump())
     db.add(sponsor)
@@ -196,7 +199,7 @@ def update_sponsor(
 def delete_sponsor(
     sponsor_id: int,
     db: Session = Depends(get_db),
-    _session=Depends(require_session),
+    _session=Depends(require_role("moderator")),
 ):
     sponsor = find_sponsor_or_404(db, sponsor_id)
 
@@ -263,7 +266,7 @@ def get_trial(
 def create_trial(
     trial_data: TrialCreate,
     db: Session = Depends(get_db),
-    _session=Depends(require_session),
+    _session=Depends(require_role("writer", "moderator")),
 ):
     find_sponsor_or_404(db, trial_data.sponsor_id)
     trial = Trial(**trial_data.model_dump())
@@ -306,7 +309,7 @@ def update_trial(
 def delete_trial(
     trial_id: int,
     db: Session = Depends(get_db),
-    _session=Depends(require_session),
+    _session=Depends(require_role("moderator")),
 ):
     trial = find_trial_or_404(db, trial_id)
 

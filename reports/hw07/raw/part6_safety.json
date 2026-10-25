@@ -1,0 +1,89 @@
+{
+  "integration": {
+    "glob": [
+      "a.py",
+      "c.py",
+      "b.py"
+    ],
+    "search": [
+      {
+        "file": "b.py",
+        "line": 1,
+        "text": "# DEBUG"
+      }
+    ],
+    "read": "# DEBUG\nprint('debug')\n"
+  },
+  "commands": [
+    {
+      "command": "pwd",
+      "decision": {
+        "allowed": true,
+        "reason": "safe read-only prefix"
+      }
+    },
+    {
+      "command": "ls",
+      "decision": {
+        "allowed": true,
+        "reason": "safe read-only prefix"
+      }
+    },
+    {
+      "command": "find .",
+      "decision": {
+        "allowed": true,
+        "reason": "safe read-only prefix"
+      }
+    },
+    {
+      "command": "grep DEBUG b.py",
+      "decision": {
+        "allowed": true,
+        "reason": "safe read-only prefix"
+      }
+    },
+    {
+      "command": "python -m pytest",
+      "decision": {
+        "allowed": true,
+        "reason": "safe read-only prefix"
+      }
+    },
+    {
+      "command": "rm -rf x",
+      "decision": {
+        "allowed": false,
+        "reason": "destructive command requires explicit confirmation"
+      }
+    },
+    {
+      "command": "sudo ls",
+      "decision": {
+        "allowed": false,
+        "reason": "destructive command requires explicit confirmation"
+      }
+    },
+    {
+      "command": "chmod 777 a.py",
+      "decision": {
+        "allowed": false,
+        "reason": "destructive command requires explicit confirmation"
+      }
+    },
+    {
+      "command": "dd if=/dev/zero of=/dev/sda",
+      "decision": {
+        "allowed": false,
+        "reason": "destructive command requires explicit confirmation"
+      }
+    },
+    {
+      "command": "echo x > /etc/hosts",
+      "decision": {
+        "allowed": false,
+        "reason": "destructive command requires explicit confirmation"
+      }
+    }
+  ]
+}

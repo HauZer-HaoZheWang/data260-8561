@@ -1,0 +1,7 @@
+HW7 offline evidence run UTC
+part2_attempts=20
+part2_after_success=20
+part4_scenarios=2
+part5_attacks=3
+part6_commands=10
+elapsed_seconds=0.007

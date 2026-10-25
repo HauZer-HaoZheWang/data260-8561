@@ -1,0 +1,222 @@
+[
+  {
+    "attempt": 1,
+    "task": "A",
+    "before": {
+      "well_formed": false,
+      "failure": "malformed arguments"
+    },
+    "after_well_formed": true,
+    "after_tool_calls": 2,
+    "evidence": "required tool chain completed"
+  },
+  {
+    "attempt": 2,
+    "task": "B",
+    "before": {
+      "well_formed": true,
+      "failure": null
+    },
+    "after_well_formed": true,
+    "after_tool_calls": 2,
+    "evidence": "required tool chain completed"
+  },
+  {
+    "attempt": 3,
+    "task": "C",
+    "before": {
+      "well_formed": true,
+      "failure": null
+    },
+    "after_well_formed": true,
+    "after_tool_calls": 3,
+    "evidence": "required tool chain completed"
+  },
+  {
+    "attempt": 4,
+    "task": "A",
+    "before": {
+      "well_formed": true,
+      "failure": null
+    },
+    "after_well_formed": true,
+    "after_tool_calls": 2,
+    "evidence": "required tool chain completed"
+  },
+  {
+    "attempt": 5,
+    "task": "B",
+    "before": {
+      "well_formed": true,
+      "failure": null
+    },
+    "after_well_formed": true,
+    "after_tool_calls": 2,
+    "evidence": "required tool chain completed"
+  },
+  {
+    "attempt": 6,
+    "task": "C",
+    "before": {
+      "well_formed": false,
+      "failure": "malformed arguments"
+    },
+    "after_well_formed": true,
+    "after_tool_calls": 3,
+    "evidence": "required tool chain completed"
+  },
+  {
+    "attempt": 7,
+    "task": "A",
+    "before": {
+      "well_formed": true,
+      "failure": null
+    },
+    "after_well_formed": true,
+    "after_tool_calls": 2,
+    "evidence": "required tool chain completed"
+  },
+  {
+    "attempt": 8,
+    "task": "B",
+    "before": {
+      "well_formed": true,
+      "failure": null
+    },
+    "after_well_formed": true,
+    "after_tool_calls": 2,
+    "evidence": "required tool chain completed"
+  },
+  {
+    "attempt": 9,
+    "task": "C",
+    "before": {
+      "well_formed": true,
+      "failure": null
+    },
+    "after_well_formed": true,
+    "after_tool_calls": 3,
+    "evidence": "required tool chain completed"
+  },
+  {
+    "attempt": 10,
+    "task": "A",
+    "before": {
+      "well_formed": true,
+      "failure": null
+    },
+    "after_well_formed": true,
+    "after_tool_calls": 2,
+    "evidence": "required tool chain completed"
+  },
+  {
+    "attempt": 11,
+    "task": "B",
+    "before": {
+      "well_formed": false,
+      "failure": "malformed arguments"
+    },
+    "after_well_formed": true,
+    "after_tool_calls": 2,
+    "evidence": "required tool chain completed"
+  },
+  {
+    "attempt": 12,
+    "task": "C",
+    "before": {
+      "well_formed": true,
+      "failure": null
+    },
+    "after_well_formed": true,
+    "after_tool_calls": 3,
+    "evidence": "required tool chain completed"
+  },
+  {
+    "attempt": 13,
+    "task": "A",
+    "before": {
+      "well_formed": true,
+      "failure": null
+    },
+    "after_well_formed": true,
+    "after_tool_calls": 2,
+    "evidence": "required tool chain completed"
+  },
+  {
+    "attempt": 14,
+    "task": "B",
+    "before": {
+      "well_formed": true,
+      "failure": null
+    },
+    "after_well_formed": true,
+    "after_tool_calls": 2,
+    "evidence": "required tool chain completed"
+  },
+  {
+    "attempt": 15,
+    "task": "C",
+    "before": {
+      "well_formed": true,
+      "failure": null
+    },
+    "after_well_formed": true,
+    "after_tool_calls": 3,
+    "evidence": "required tool chain completed"
+  },
+  {
+    "attempt": 16,
+    "task": "A",
+    "before": {
+      "well_formed": false,
+      "failure": "malformed arguments"
+    },
+    "after_well_formed": true,
+    "after_tool_calls": 2,
+    "evidence": "required tool chain completed"
+  },
+  {
+    "attempt": 17,
+    "task": "B",
+    "before": {
+      "well_formed": true,
+      "failure": null
+    },
+    "after_well_formed": true,
+    "after_tool_calls": 2,
+    "evidence": "required tool chain completed"
+  },
+  {
+    "attempt": 18,
+    "task": "C",
+    "before": {
+      "well_formed": true,
+      "failure": null
+    },
+    "after_well_formed": true,
+    "after_tool_calls": 3,
+    "evidence": "required tool chain completed"
+  },
+  {
+    "attempt": 19,
+    "task": "A",
+    "before": {
+      "well_formed": true,
+      "failure": null
+    },
+    "after_well_formed": true,
+    "after_tool_calls": 2,
+    "evidence": "required tool chain completed"
+  },
+  {
+    "attempt": 20,
+    "task": "B",
+    "before": {
+      "well_formed": true,
+      "failure": null
+    },
+    "after_well_formed": true,
+    "after_tool_calls": 2,
+    "evidence": "required tool chain completed"
+  }
+]

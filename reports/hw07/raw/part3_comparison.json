@@ -1,0 +1,83 @@
+[
+  {
+    "task": "A",
+    "original": {
+      "success": false,
+      "tool_calls": 1
+    },
+    "reflexion": {
+      "task": "A",
+      "success": true,
+      "attempts": 2,
+      "stop_reason": "success",
+      "reflections": [
+        {
+          "attempt": 1,
+          "evidence": "expected ['search_trials', 'get_trial_details'], got ['get_trial_details']",
+          "strategy": "follow the fixed task chain and verify each successful observation"
+        }
+      ]
+    },
+    "reflection_evidence": [
+      {
+        "attempt": 1,
+        "evidence": "expected ['search_trials', 'get_trial_details'], got ['get_trial_details']",
+        "strategy": "follow the fixed task chain and verify each successful observation"
+      }
+    ]
+  },
+  {
+    "task": "B",
+    "original": {
+      "success": false,
+      "tool_calls": 1
+    },
+    "reflexion": {
+      "task": "B",
+      "success": true,
+      "attempts": 2,
+      "stop_reason": "success",
+      "reflections": [
+        {
+          "attempt": 1,
+          "evidence": "expected ['summarize_sponsors', 'search_trials'], got ['search_trials']",
+          "strategy": "follow the fixed task chain and verify each successful observation"
+        }
+      ]
+    },
+    "reflection_evidence": [
+      {
+        "attempt": 1,
+        "evidence": "expected ['summarize_sponsors', 'search_trials'], got ['search_trials']",
+        "strategy": "follow the fixed task chain and verify each successful observation"
+      }
+    ]
+  },
+  {
+    "task": "C",
+    "original": {
+      "success": false,
+      "tool_calls": 2
+    },
+    "reflexion": {
+      "task": "C",
+      "success": true,
+      "attempts": 2,
+      "stop_reason": "success",
+      "reflections": [
+        {
+          "attempt": 1,
+          "evidence": "expected ['search_trials', 'get_trial_details', 'get_trial_details'], got ['get_trial_details', 'get_trial_details']",
+          "strategy": "follow the fixed task chain and verify each successful observation"
+        }
+      ]
+    },
+    "reflection_evidence": [
+      {
+        "attempt": 1,
+        "evidence": "expected ['search_trials', 'get_trial_details', 'get_trial_details'], got ['get_trial_details', 'get_trial_details']",
+        "strategy": "follow the fixed task chain and verify each successful observation"
+      }
+    ]
+  }
+]

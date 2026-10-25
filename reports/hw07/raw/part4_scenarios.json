@@ -1,0 +1,94 @@
+[
+  {
+    "scenario": "membership_wins",
+    "rides": 100,
+    "duration_min": 20,
+    "pay_per_use": 480.0,
+    "monthly_membership": 29.0,
+    "decision": "Buy Monthly Membership",
+    "weekly": {
+      "success": true,
+      "data": {
+        "rows": [
+          {
+            "week": "1",
+            "rides": 125,
+            "avg_duration": 16.2
+          },
+          {
+            "week": "2",
+            "rides": 125,
+            "avg_duration": 1.0
+          },
+          {
+            "week": "3",
+            "rides": 125,
+            "avg_duration": 1.0
+          },
+          {
+            "week": "4",
+            "rides": 125,
+            "avg_duration": 1.0
+          }
+        ],
+        "row_count": 4
+      },
+      "error": null,
+      "source": "uploaded.csv",
+      "ts": "2026-10-24T04:46:35.164355+00:00"
+    },
+    "break_even_rides": 6.041666666666667,
+    "pricing_snapshot": {
+      "source_url": "https://example.local/bay-wheels/pricing",
+      "access_date_utc": "2026-10-24T04:46:35.165869+00:00",
+      "sha256": "c0663f35d0c8a0fa0e9f136dcb702aefe58f21c0dd82ff2f7505bdeae806e328",
+      "path": "/Users/haozhewang/data260-8561/reports/hw07/raw/membership_wins_pricing.txt"
+    }
+  },
+  {
+    "scenario": "payg_wins",
+    "rides": 3,
+    "duration_min": 10,
+    "pay_per_use": 8.7,
+    "monthly_membership": 29.0,
+    "decision": "Pay Per Ride/Minute",
+    "weekly": {
+      "success": true,
+      "data": {
+        "rows": [
+          {
+            "week": "1",
+            "rides": 125,
+            "avg_duration": 1.216
+          },
+          {
+            "week": "2",
+            "rides": 125,
+            "avg_duration": 1.0
+          },
+          {
+            "week": "3",
+            "rides": 125,
+            "avg_duration": 1.0
+          },
+          {
+            "week": "4",
+            "rides": 125,
+            "avg_duration": 1.0
+          }
+        ],
+        "row_count": 4
+      },
+      "error": null,
+      "source": "uploaded.csv",
+      "ts": "2026-10-24T04:46:35.165644+00:00"
+    },
+    "break_even_rides": 10.0,
+    "pricing_snapshot": {
+      "source_url": "https://example.local/bay-wheels/pricing",
+      "access_date_utc": "2026-10-24T04:46:35.165946+00:00",
+      "sha256": "c0663f35d0c8a0fa0e9f136dcb702aefe58f21c0dd82ff2f7505bdeae806e328",
+      "path": "/Users/haozhewang/data260-8561/reports/hw07/raw/payg_wins_pricing.txt"
+    }
+  }
+]
