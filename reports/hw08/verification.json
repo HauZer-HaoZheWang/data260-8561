@@ -1,0 +1,23 @@
+{
+  "homework": 8,
+  "sid4": 8561,
+  "commit_hash": "d4c3eda362a1898f13171059d039ec5ce79d1129",
+  "model": "qwen3:8b",
+  "seed": 8561,
+  "verify_seed": 268561,
+  "checks": [
+    {
+      "name": "configuration",
+      "pass": true
+    },
+    {
+      "name": "hw08_modules_importable",
+      "pass": true
+    },
+    {
+      "name": "live_kafka_create_get_round_trip",
+      "pass": false,
+      "reason": "Run this script with Kafka and worker running to replace this smoke check."
+    }
+  ]
+}

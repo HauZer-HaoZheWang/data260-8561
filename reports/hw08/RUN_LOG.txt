@@ -1,0 +1,7 @@
+HW8 RUN LOG - replace this file with real timestamped console output.
+
+[UTC timestamp] docker compose -f docker-compose.hw08.yml up -d
+[UTC timestamp] python code/hw08_kafka/create_topics.py
+[UTC timestamp] python code/hw08_kafka/trial_worker.py
+[UTC timestamp] python code/hw08_kafka/api.py
+[UTC timestamp] python code/hw08_kafka/homework_demo.py
