@@ -5,3 +5,26 @@ HW8 RUN LOG - replace this file with real timestamped console output.
 [UTC timestamp] python code/hw08_kafka/trial_worker.py
 [UTC timestamp] python code/hw08_kafka/api.py
 [UTC timestamp] python code/hw08_kafka/homework_demo.py
+{
+  "homework": 8,
+  "sid4": 8561,
+  "commit_hash": "d36f192df742a30d7dcb93dd2a4a7b09cac092bd",
+  "model": "qwen3:8b",
+  "seed": 8561,
+  "verify_seed": 268561,
+  "checks": [
+    {
+      "name": "configuration",
+      "pass": true
+    },
+    {
+      "name": "hw08_modules_importable",
+      "pass": true
+    },
+    {
+      "name": "live_kafka_create_get_round_trip",
+      "pass": false,
+      "reason": "Run this script with Kafka and worker running to replace this smoke check."
+    }
+  ]
+}
