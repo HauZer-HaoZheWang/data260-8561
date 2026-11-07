@@ -9,3 +9,6 @@ code/web_application/certs/
 reports/*/*.pid
 reports/*/backend.log
 reports/*/frontend.log
+
+# HW9 local database credentials
+code/hw09/.env.local
