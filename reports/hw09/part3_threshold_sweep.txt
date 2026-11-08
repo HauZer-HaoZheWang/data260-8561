@@ -1,0 +1,72 @@
+Student: Haozhe Wang
+DATA 260 HW9 - Part 3 Threshold Sweep
+PASS: Loaded 40 precommitted cases
+Thresholds: [0.75, 0.8, 0.85, 0.9, 0.95]
+Embedding 40 unique questions...
+Embedding 1/40 latency_ms=36.54
+Embedding 2/40 latency_ms=16.73
+Embedding 3/40 latency_ms=12.90
+Embedding 4/40 latency_ms=13.96
+Embedding 5/40 latency_ms=14.98
+Embedding 6/40 latency_ms=13.33
+Embedding 7/40 latency_ms=13.06
+Embedding 8/40 latency_ms=12.97
+Embedding 9/40 latency_ms=13.32
+Embedding 10/40 latency_ms=13.64
+Embedding 11/40 latency_ms=15.18
+Embedding 12/40 latency_ms=13.78
+Embedding 13/40 latency_ms=13.76
+Embedding 14/40 latency_ms=13.64
+Embedding 15/40 latency_ms=14.37
+Embedding 16/40 latency_ms=14.32
+Embedding 17/40 latency_ms=15.72
+Embedding 18/40 latency_ms=15.02
+Embedding 19/40 latency_ms=16.58
+Embedding 20/40 latency_ms=19.15
+Embedding 21/40 latency_ms=16.24
+Embedding 22/40 latency_ms=18.48
+Embedding 23/40 latency_ms=16.87
+Embedding 24/40 latency_ms=17.61
+Embedding 25/40 latency_ms=19.89
+Embedding 26/40 latency_ms=20.29
+Embedding 27/40 latency_ms=22.25
+Embedding 28/40 latency_ms=24.22
+Embedding 29/40 latency_ms=13.26
+Embedding 30/40 latency_ms=14.48
+Embedding 31/40 latency_ms=13.16
+Embedding 32/40 latency_ms=14.15
+Embedding 33/40 latency_ms=13.49
+Embedding 34/40 latency_ms=12.78
+Embedding 35/40 latency_ms=12.36
+Embedding 36/40 latency_ms=13.93
+Embedding 37/40 latency_ms=13.55
+Embedding 38/40 latency_ms=12.58
+Embedding 39/40 latency_ms=12.20
+Embedding 40/40 latency_ms=14.99
+
+===== THRESHOLD SWEEP =====
+threshold=0.75 hit_rate=62.5% false_hits=7 negative_false_hit_rate=35.0% false_misses=2 estimated_latency_ms=34588.42 estimated_cost_usd=0.030250
+threshold=0.80 hit_rate=47.5% false_hits=3 negative_false_hit_rate=15.0% false_misses=4 estimated_latency_ms=48413.16 estimated_cost_usd=0.042190
+threshold=0.85 hit_rate=40.0% false_hits=3 negative_false_hit_rate=15.0% false_misses=7 estimated_latency_ms=55325.53 estimated_cost_usd=0.048160
+threshold=0.90 hit_rate=27.5% false_hits=1 negative_false_hit_rate=5.0% false_misses=10 estimated_latency_ms=66846.15 estimated_cost_usd=0.058110
+threshold=0.95 hit_rate=25.0% false_hits=0 negative_false_hit_rate=0.0% false_misses=10 estimated_latency_ms=69150.27 estimated_cost_usd=0.060100
+
+===== FALSE HIT EXAMPLE =====
+{
+  "id": "C21",
+  "category": "hard_negative",
+  "target_seed": "S01",
+  "expected_hit": false,
+  "question": "What is parental permission for a child in a clinical trial?",
+  "nearest_seed": "S01",
+  "nearest_question": "What is informed consent in a clinical trial?",
+  "similarity": 0.790493,
+  "threshold": 0.75,
+  "predicted_hit": true,
+  "false_hit": true,
+  "wrong_seed_hit": false
+}
+
+PASS: Evaluated 40 cases at 5 thresholds
+PASS: Results saved to reports/hw09/
+=== PART 3 THRESHOLD SWEEP COMPLETE ===

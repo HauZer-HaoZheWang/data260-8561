@@ -1,0 +1,43 @@
+Student: Haozhe Wang
+DATA 260 HW9 - Part 3 Stale Answer and Invalidation
+view_count column already exists
+
+===== STEP 1: ORIGINAL DATABASE =====
+trial_id: 5
+participant_count: 0
+Original data version: f9c0d5ebe9a34858
+PASS: Stored database-grounded answer in Redis
+
+===== STEP 2: MODIFY MYSQL RECORD =====
+Updated participant_count: 1
+PASS: MySQL record changed
+
+===== STEP 3: DEMONSTRATE STALE ANSWER =====
+Redis cached answer: Trial 5: Seeded Clinical Trial 1. Participant count: 0.
+Current MySQL count: 1
+Cached data version: f9c0d5ebe9a34858
+PASS: Redis still contains the old answer
+STALE ANSWER DETECTED
+
+===== STEP 4: VERSION CHECK =====
+Cached version: f9c0d5ebe9a34858
+Current version: 694f20f9da35f17a
+Version mismatch: True
+PASS: Version-aware validation rejects stale answer
+
+===== STEP 5: INVALIDATE AND REFRESH =====
+Refreshed answer: Trial 5: Seeded Clinical Trial 1. Participant count: 1.
+Refreshed version: 694f20f9da35f17a
+PASS: Old cache entry invalidated
+PASS: New answer matches updated MySQL record
+
+===== STEP 6: CLEANUP =====
+PASS: Original MySQL value restored
+PASS: Temporary Redis entries removed
+
+===== FINAL RESULT =====
+PASS: Stale answer demonstrated
+PASS: Version mismatch detected
+PASS: Cache invalidated and refreshed
+PASS: Database restored
+=== PART 3 INVALIDATION COMPLETE ===

@@ -1,0 +1,6 @@
+threshold,hits,misses,hit_rate_percent,false_hits,negative_false_hit_rate_percent,wrong_seed_hits,false_misses,estimated_avg_latency_ms,estimated_total_cost_usd
+0.75,25,15,62.5,7,35.0,0,2,34588.42,0.03025
+0.8,19,21,47.5,3,15.0,0,4,48413.16,0.04219
+0.85,16,24,40.0,3,15.0,0,7,55325.53,0.04816
+0.9,11,29,27.5,1,5.0,0,10,66846.15,0.05811
+0.95,10,30,25.0,0,0.0,0,10,69150.27,0.0601
