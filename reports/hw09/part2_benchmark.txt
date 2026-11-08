@@ -1,0 +1,95 @@
+Student: Haozhe Wang
+DATA 260 HW9 - Part 2 Benchmark
+Threshold: 0.85
+Demo cache cleared.
+
+===== QUERY 1/10 =====
+Category: new
+Question: What should a reader know about a clinical trial?
+CACHE MISS similarity=None question=What should a reader know about a clinical trial?
+is_cached: False
+similarity: None
+latency_ms: 97649.27
+
+===== QUERY 2/10 =====
+Category: exact
+Question: What should a reader know about a clinical trial?
+CACHE HIT similarity=1.0000 latency=34.83ms
+is_cached: True
+similarity: 1.0
+latency_ms: 34.83
+
+===== QUERY 3/10 =====
+Category: paraphrase
+Question: What are the main things to know before joining a clinical trial?
+CACHE MISS similarity=0.840422272682 question=What are the main things to know before joining a clinical trial?
+is_cached: False
+similarity: 0.8404
+latency_ms: 114899.25
+
+===== QUERY 4/10 =====
+Category: new
+Question: What does informed consent mean in a clinical trial?
+CACHE MISS similarity=0.724835455418 question=What does informed consent mean in a clinical trial?
+is_cached: False
+similarity: 0.7248
+latency_ms: 87179.1
+
+===== QUERY 5/10 =====
+Category: exact
+Question: What does informed consent mean in a clinical trial?
+CACHE HIT similarity=1.0000 latency=39.34ms
+is_cached: True
+similarity: 1.0
+latency_ms: 39.34
+
+===== QUERY 6/10 =====
+Category: paraphrase
+Question: Explain informed consent for clinical trial participants.
+CACHE HIT similarity=0.9262 latency=17.52ms
+is_cached: True
+similarity: 0.9262
+latency_ms: 17.52
+
+===== QUERY 7/10 =====
+Category: new
+Question: What are the four phases of clinical trials?
+CACHE MISS similarity=0.715380966663 question=What are the four phases of clinical trials?
+is_cached: False
+similarity: 0.7154
+latency_ms: 66410.65
+
+===== QUERY 8/10 =====
+Category: exact
+Question: What are the four phases of clinical trials?
+CACHE HIT similarity=1.0000 latency=18.51ms
+is_cached: True
+similarity: 1.0
+latency_ms: 18.51
+
+===== QUERY 9/10 =====
+Category: new
+Question: What is the role of a clinical trial sponsor?
+CACHE MISS similarity=0.69162106514 question=What is the role of a clinical trial sponsor?
+is_cached: False
+similarity: 0.6916
+latency_ms: 94819.26
+
+===== QUERY 10/10 =====
+Category: exact
+Question: What is the role of a clinical trial sponsor?
+CACHE HIT similarity=1.0000 latency=22.58ms
+is_cached: True
+similarity: 1.0
+latency_ms: 22.58
+
+========== FINAL PERFORMANCE ==========
+total_queries: 10
+cache_hits: 5
+cache_misses: 5
+hit_rate_percent: 50.0
+avg_hit_latency_ms: 26.56
+avg_miss_latency_ms: 92191.51
+PASS: 10 queries completed
+PASS: Exact duplicate queries hit cache
+=== PART 2 BENCHMARK COMPLETE ===

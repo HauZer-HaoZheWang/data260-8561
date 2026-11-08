@@ -1,0 +1,92 @@
+[
+  {
+    "question": "What should a reader know about a clinical trial?",
+    "answer": "1. **Understand the Purpose**: Learn the trial’s goal (e.g., testing a new treatment) and weigh potential benefits (e.g., access to cutting-edge care) against risks (e.g., side effects).  \n2. **Know the Phases**: Phase I (safety), II (effectiveness), III (broader efficacy/safety), and IV (long-term outcomes) define the trial’s focus.  \n3. **Informed Consent**: Agree to participate after reviewing risks, benefits, and your right to withdraw at any time.  \n4. **Safety and Monitoring**: Trials are overseen by ethics committees and include regular health checks to prioritize participant safety.  \n5. **Role of Participants**: Expect scheduled visits, specific procedures, and time commitments (e.g., follow-ups).  \n6. **Distinguish from Regular Care**: Trials are research studies, not standard treatment, and may involve more frequent assessments.  \n7. **Access Reliable Information**: Verify details via trusted sources like [ClinicalTrials.gov](https://www.clinicaltrials.gov) or healthcare providers.",
+    "is_cached": false,
+    "similarity": null,
+    "latency_ms": 97649.27,
+    "category": "new",
+    "query_number": 1
+  },
+  {
+    "question": "What should a reader know about a clinical trial?",
+    "answer": "1. **Understand the Purpose**: Learn the trial’s goal (e.g., testing a new treatment) and weigh potential benefits (e.g., access to cutting-edge care) against risks (e.g., side effects).  \n2. **Know the Phases**: Phase I (safety), II (effectiveness), III (broader efficacy/safety), and IV (long-term outcomes) define the trial’s focus.  \n3. **Informed Consent**: Agree to participate after reviewing risks, benefits, and your right to withdraw at any time.  \n4. **Safety and Monitoring**: Trials are overseen by ethics committees and include regular health checks to prioritize participant safety.  \n5. **Role of Participants**: Expect scheduled visits, specific procedures, and time commitments (e.g., follow-ups).  \n6. **Distinguish from Regular Care**: Trials are research studies, not standard treatment, and may involve more frequent assessments.  \n7. **Access Reliable Information**: Verify details via trusted sources like [ClinicalTrials.gov](https://www.clinicaltrials.gov) or healthcare providers.",
+    "is_cached": true,
+    "similarity": 1.0,
+    "latency_ms": 34.83,
+    "category": "exact",
+    "query_number": 2
+  },
+  {
+    "question": "What are the main things to know before joining a clinical trial?",
+    "answer": "To participate in a clinical trial:  \n1. **Understand the Trial Purpose**: Clarify the study’s goal, the drug/treatment being tested, and its phase (I–IV).  \n2. **Review Informed Consent**: Carefully read the document detailing risks, benefits, procedures, and your right to withdraw.  \n3. **Check Eligibility Criteria**: Confirm if your age, health, or other factors meet the trial’s requirements.  \n4. **Assess Risks and Benefits**: Evaluate potential side effects, placebo risks, and advantages like access to new therapies or medical care.  \n5. **Plan Time Commitment**: Determine the trial’s duration, required visits, and how it aligns with your schedule.  \n6. **Clarify Costs and Insurance**: Verify if the trial covers expenses (medications, visits) and how insurance will handle participation.  \n7. **Understand Data Privacy**: Learn how your personal and medical data will be protected, shared, and anonymized.  \n8. **Confirm Withdrawal Rights**: Ensure you can leave the trial at any time without penalty or harm.  \n\nThis structured approach ensures informed, safe participation.",
+    "is_cached": false,
+    "similarity": 0.8404,
+    "latency_ms": 114899.25,
+    "category": "paraphrase",
+    "query_number": 3
+  },
+  {
+    "question": "What does informed consent mean in a clinical trial?",
+    "answer": "**Informed Consent** is a process where participants receive clear, understandable information about a clinical trial to make an educated decision to join.  \n\n**Key Elements**: The trial’s purpose, procedures, risks, benefits, alternatives, confidentiality, and the participant’s right to withdraw are clearly explained.  \n\n**Process Steps**: Information is disclosed, understanding is assessed through dialogue, and voluntary agreement is documented.  \n\n**Documentation**: A written consent form, signed by the participant and researcher, outlines all terms.  \n\n**Ethical/Regulatory Compliance**: Adheres to standards like the Declaration of Helsinki and legal requirements (e.g., IRB approval) to ensure participant autonomy and safety.",
+    "is_cached": false,
+    "similarity": 0.7248,
+    "latency_ms": 87179.1,
+    "category": "new",
+    "query_number": 4
+  },
+  {
+    "question": "What does informed consent mean in a clinical trial?",
+    "answer": "**Informed Consent** is a process where participants receive clear, understandable information about a clinical trial to make an educated decision to join.  \n\n**Key Elements**: The trial’s purpose, procedures, risks, benefits, alternatives, confidentiality, and the participant’s right to withdraw are clearly explained.  \n\n**Process Steps**: Information is disclosed, understanding is assessed through dialogue, and voluntary agreement is documented.  \n\n**Documentation**: A written consent form, signed by the participant and researcher, outlines all terms.  \n\n**Ethical/Regulatory Compliance**: Adheres to standards like the Declaration of Helsinki and legal requirements (e.g., IRB approval) to ensure participant autonomy and safety.",
+    "is_cached": true,
+    "similarity": 1.0,
+    "latency_ms": 39.34,
+    "category": "exact",
+    "query_number": 5
+  },
+  {
+    "question": "Explain informed consent for clinical trial participants.",
+    "answer": "**Informed Consent** is a process where participants receive clear, understandable information about a clinical trial to make an educated decision to join.  \n\n**Key Elements**: The trial’s purpose, procedures, risks, benefits, alternatives, confidentiality, and the participant’s right to withdraw are clearly explained.  \n\n**Process Steps**: Information is disclosed, understanding is assessed through dialogue, and voluntary agreement is documented.  \n\n**Documentation**: A written consent form, signed by the participant and researcher, outlines all terms.  \n\n**Ethical/Regulatory Compliance**: Adheres to standards like the Declaration of Helsinki and legal requirements (e.g., IRB approval) to ensure participant autonomy and safety.",
+    "is_cached": true,
+    "similarity": 0.9262,
+    "latency_ms": 17.52,
+    "category": "paraphrase",
+    "query_number": 6
+  },
+  {
+    "question": "What are the four phases of clinical trials?",
+    "answer": "Clinical trial phases are structured to ensure drug safety and efficacy:  \n1. **Phase I**: Tests safety, determines dosage ranges, and identifies side effects in 20–100 healthy volunteers or patients.  \n2. **Phase II**: Assesses effectiveness and monitors side effects in 100–300 patients.  \n3. **Phase III**: Confirms effectiveness, tracks side effects, and compares to standard treatments in 1,000–3,000 patients.  \n4. **Phase IV**: Conducts post-approval studies to monitor long-term effects and real-world usage in broader populations.",
+    "is_cached": false,
+    "similarity": 0.7154,
+    "latency_ms": 66410.65,
+    "category": "new",
+    "query_number": 7
+  },
+  {
+    "question": "What are the four phases of clinical trials?",
+    "answer": "Clinical trial phases are structured to ensure drug safety and efficacy:  \n1. **Phase I**: Tests safety, determines dosage ranges, and identifies side effects in 20–100 healthy volunteers or patients.  \n2. **Phase II**: Assesses effectiveness and monitors side effects in 100–300 patients.  \n3. **Phase III**: Confirms effectiveness, tracks side effects, and compares to standard treatments in 1,000–3,000 patients.  \n4. **Phase IV**: Conducts post-approval studies to monitor long-term effects and real-world usage in broader populations.",
+    "is_cached": true,
+    "similarity": 1.0,
+    "latency_ms": 18.51,
+    "category": "exact",
+    "query_number": 8
+  },
+  {
+    "question": "What is the role of a clinical trial sponsor?",
+    "answer": "1. **Funding and Initiation**: Secure financial resources (e.g., grants, partnerships) to launch a clinical trial aimed at evaluating a medical intervention’s safety and efficacy.  \n2. **Protocol Development**: Create a detailed study protocol outlining objectives, methodology (e.g., randomized controlled trials), participant criteria, and ethical standards (e.g., informed consent).  \n3. **Regulatory Compliance**: Align with legal frameworks (e.g., FDA, EMA guidelines) and obtain necessary approvals (e.g., IND/CTA) to ensure ethical and legal compliance.  \n4. **Oversight and Monitoring**: Implement rigorous oversight via Data Safety Monitoring Boards (DSMBs), conduct regular audits, and prioritize participant safety and data integrity throughout the trial.  \n5. **Reporting and Dissemination**: Share findings with regulatory agencies, publish results in peer-reviewed journals, and communicate outcomes to the public and scientific community.  \n6. **Post-Trial Responsibilities**: Monitor long-term safety, support follow-up studies, and provide ongoing care for participants as needed, ensuring transparency and accountability.",
+    "is_cached": false,
+    "similarity": 0.6916,
+    "latency_ms": 94819.26,
+    "category": "new",
+    "query_number": 9
+  },
+  {
+    "question": "What is the role of a clinical trial sponsor?",
+    "answer": "1. **Funding and Initiation**: Secure financial resources (e.g., grants, partnerships) to launch a clinical trial aimed at evaluating a medical intervention’s safety and efficacy.  \n2. **Protocol Development**: Create a detailed study protocol outlining objectives, methodology (e.g., randomized controlled trials), participant criteria, and ethical standards (e.g., informed consent).  \n3. **Regulatory Compliance**: Align with legal frameworks (e.g., FDA, EMA guidelines) and obtain necessary approvals (e.g., IND/CTA) to ensure ethical and legal compliance.  \n4. **Oversight and Monitoring**: Implement rigorous oversight via Data Safety Monitoring Boards (DSMBs), conduct regular audits, and prioritize participant safety and data integrity throughout the trial.  \n5. **Reporting and Dissemination**: Share findings with regulatory agencies, publish results in peer-reviewed journals, and communicate outcomes to the public and scientific community.  \n6. **Post-Trial Responsibilities**: Monitor long-term safety, support follow-up studies, and provide ongoing care for participants as needed, ensuring transparency and accountability.",
+    "is_cached": true,
+    "similarity": 1.0,
+    "latency_ms": 22.58,
+    "category": "exact",
+    "query_number": 10
+  }
+]

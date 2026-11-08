@@ -1,0 +1,29 @@
+Student: Haozhe Wang
+Homework: DATA 260 HW9
+Part 2: Semantic Cache Test
+
+===== FIRST QUERY: CACHE MISS =====
+CACHE MISS similarity=None question=What should a reader know about a clinical trial?
+{
+  "question": "What should a reader know about a clinical trial?",
+  "answer": "1. **Understand the Purpose**: Trials test new treatments’ safety, efficacy, or compare them to existing ones.  \n2. **Know the Phases**: Phase I (safety), II (efficacy), III (comparison to standard care), IV (long-term outcomes).  \n3. **Informed Consent**: Participants agree after reviewing risks, benefits, and procedures.  \n4. **Participant Rights**: You can withdraw anytime, ask questions, and access your medical info.  \n5. **Risks vs. Benefits**: Weigh potential side effects against access to novel therapies.  \n6. **Trial Structure**: Details include duration, required visits, and specific tasks during participation.  \n7. **Ethical Oversight**: Independent committees (IRBs) ensure safety and rights are protected.  \n8. **Data Privacy**: Information is anonymized and used only for research purposes.  \n9. **Distinguish from Regular Care**: Trials are research-focused, not standard treatment.  \n10. **How to Find Trials**: Use clinicaltrials.gov, healthcare providers, or advocacy groups for eligibility.",
+  "is_cached": false,
+  "similarity": null,
+  "latency_ms": 109700.42
+}
+
+===== SECOND QUERY: CACHE HIT =====
+CACHE HIT similarity=1.0000 latency=30.3ms
+{
+  "question": "What should a reader know about a clinical trial?",
+  "answer": "1. **Understand the Purpose**: Trials test new treatments’ safety, efficacy, or compare them to existing ones.  \n2. **Know the Phases**: Phase I (safety), II (efficacy), III (comparison to standard care), IV (long-term outcomes).  \n3. **Informed Consent**: Participants agree after reviewing risks, benefits, and procedures.  \n4. **Participant Rights**: You can withdraw anytime, ask questions, and access your medical info.  \n5. **Risks vs. Benefits**: Weigh potential side effects against access to novel therapies.  \n6. **Trial Structure**: Details include duration, required visits, and specific tasks during participation.  \n7. **Ethical Oversight**: Independent committees (IRBs) ensure safety and rights are protected.  \n8. **Data Privacy**: Information is anonymized and used only for research purposes.  \n9. **Distinguish from Regular Care**: Trials are research-focused, not standard treatment.  \n10. **How to Find Trials**: Use clinicaltrials.gov, healthcare providers, or advocacy groups for eligibility.",
+  "is_cached": true,
+  "similarity": 1.0,
+  "latency_ms": 30.3
+}
+
+===== TEST RESULT =====
+PASS: Cache miss used HW8 agent
+PASS: Cache hit reused stored answer
+PASS: Redis semantic search works
+=== PART 2 SMOKE TEST COMPLETE ===
