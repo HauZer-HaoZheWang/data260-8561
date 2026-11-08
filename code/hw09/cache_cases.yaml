@@ -1,0 +1,227 @@
+# DATA 260 HW9 - Part 3
+# Student: Haozhe Wang
+# Freeze and commit BEFORE executing threshold evaluation.
+student: "Haozhe Wang"
+thresholds: [0.75, 0.80, 0.85, 0.90, 0.95]
+seeds:
+  - id: S01
+    question: "What is informed consent in a clinical trial?"
+  - id: S02
+    question: "What happens during Phase I of a clinical trial?"
+  - id: S03
+    question: "What is a placebo in a clinical trial?"
+  - id: S04
+    question: "What is randomization in a clinical trial?"
+  - id: S05
+    question: "What are inclusion criteria in a clinical trial?"
+  - id: S06
+    question: "How is drug safety measured in a clinical trial?"
+  - id: S07
+    question: "What does a clinical trial sponsor do?"
+  - id: S08
+    question: "What is an adverse event in a clinical trial?"
+  - id: S09
+    question: "How do participants enroll in a clinical trial?"
+  - id: S10
+    question: "Why are clinical trials registered publicly?"
+cases:
+  - id: C01
+    category: exact
+    target_seed: S01
+    expected_hit: true
+    question: "What is informed consent in a clinical trial?"
+  - id: C02
+    category: exact
+    target_seed: S02
+    expected_hit: true
+    question: "What happens during Phase I of a clinical trial?"
+  - id: C03
+    category: exact
+    target_seed: S03
+    expected_hit: true
+    question: "What is a placebo in a clinical trial?"
+  - id: C04
+    category: exact
+    target_seed: S04
+    expected_hit: true
+    question: "What is randomization in a clinical trial?"
+  - id: C05
+    category: exact
+    target_seed: S05
+    expected_hit: true
+    question: "What are inclusion criteria in a clinical trial?"
+  - id: C06
+    category: exact
+    target_seed: S06
+    expected_hit: true
+    question: "How is drug safety measured in a clinical trial?"
+  - id: C07
+    category: exact
+    target_seed: S07
+    expected_hit: true
+    question: "What does a clinical trial sponsor do?"
+  - id: C08
+    category: exact
+    target_seed: S08
+    expected_hit: true
+    question: "What is an adverse event in a clinical trial?"
+  - id: C09
+    category: exact
+    target_seed: S09
+    expected_hit: true
+    question: "How do participants enroll in a clinical trial?"
+  - id: C10
+    category: exact
+    target_seed: S10
+    expected_hit: true
+    question: "Why are clinical trials registered publicly?"
+  - id: C11
+    category: paraphrase
+    target_seed: S01
+    expected_hit: true
+    question: "Explain informed consent for someone joining a clinical study."
+  - id: C12
+    category: paraphrase
+    target_seed: S02
+    expected_hit: true
+    question: "What is the purpose of the first phase of clinical testing?"
+  - id: C13
+    category: paraphrase
+    target_seed: S03
+    expected_hit: true
+    question: "Explain the meaning of placebo in medical research."
+  - id: C14
+    category: paraphrase
+    target_seed: S04
+    expected_hit: true
+    question: "How are people randomly assigned to clinical trial groups?"
+  - id: C15
+    category: paraphrase
+    target_seed: S05
+    expected_hit: true
+    question: "Which requirements must someone meet to join a clinical study?"
+  - id: C16
+    category: paraphrase
+    target_seed: S06
+    expected_hit: true
+    question: "How do researchers evaluate the safety of a trial drug?"
+  - id: C17
+    category: paraphrase
+    target_seed: S07
+    expected_hit: true
+    question: "What responsibilities does the sponsor of a clinical study have?"
+  - id: C18
+    category: paraphrase
+    target_seed: S08
+    expected_hit: true
+    question: "What does adverse event mean during medical research?"
+  - id: C19
+    category: paraphrase
+    target_seed: S09
+    expected_hit: true
+    question: "What steps are needed to join a clinical research study?"
+  - id: C20
+    category: paraphrase
+    target_seed: S10
+    expected_hit: true
+    question: "Why must researchers put their clinical studies in a public registry?"
+  - id: C21
+    category: hard_negative
+    target_seed: S01
+    expected_hit: false
+    question: "What is parental permission for a child in a clinical trial?"
+  - id: C22
+    category: hard_negative
+    target_seed: S02
+    expected_hit: false
+    question: "What happens during Phase IV of a clinical trial?"
+  - id: C23
+    category: hard_negative
+    target_seed: S03
+    expected_hit: false
+    question: "What is an active comparator in a clinical trial?"
+  - id: C24
+    category: hard_negative
+    target_seed: S04
+    expected_hit: false
+    question: "What is blinding in a clinical trial?"
+  - id: C25
+    category: hard_negative
+    target_seed: S05
+    expected_hit: false
+    question: "What are exclusion criteria in a clinical trial?"
+  - id: C26
+    category: hard_negative
+    target_seed: S06
+    expected_hit: false
+    question: "How is drug efficacy measured in a clinical trial?"
+  - id: C27
+    category: hard_negative
+    target_seed: S07
+    expected_hit: false
+    question: "What does an institutional review board do?"
+  - id: C28
+    category: hard_negative
+    target_seed: S08
+    expected_hit: false
+    question: "What is a serious adverse event in a clinical trial?"
+  - id: C29
+    category: hard_negative
+    target_seed: S09
+    expected_hit: false
+    question: "How do participants withdraw from a clinical trial?"
+  - id: C30
+    category: hard_negative
+    target_seed: S10
+    expected_hit: false
+    question: "How is personal health information protected in a clinical trial?"
+  - id: C31
+    category: unrelated
+    target_seed: S01
+    expected_hit: false
+    question: "How does a gasoline engine work?"
+  - id: C32
+    category: unrelated
+    target_seed: S02
+    expected_hit: false
+    question: "What causes the seasons on Earth?"
+  - id: C33
+    category: unrelated
+    target_seed: S03
+    expected_hit: false
+    question: "How do I make a loaf of sourdough bread?"
+  - id: C34
+    category: unrelated
+    target_seed: S04
+    expected_hit: false
+    question: "What is the capital of Argentina?"
+  - id: C35
+    category: unrelated
+    target_seed: S05
+    expected_hit: false
+    question: "How does a computer graphics card work?"
+  - id: C36
+    category: unrelated
+    target_seed: S06
+    expected_hit: false
+    question: "Why do ocean tides occur?"
+  - id: C37
+    category: unrelated
+    target_seed: S07
+    expected_hit: false
+    question: "What is the history of classical jazz music?"
+  - id: C38
+    category: unrelated
+    target_seed: S08
+    expected_hit: false
+    question: "How do electric vehicle charging stations operate?"
+  - id: C39
+    category: unrelated
+    target_seed: S09
+    expected_hit: false
+    question: "What are the rules of basketball?"
+  - id: C40
+    category: unrelated
+    target_seed: S10
+    expected_hit: false
+    question: "How does a telescope magnify distant objects?"
