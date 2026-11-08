@@ -1,0 +1,18 @@
+[
+  {
+    "id": "VA01",
+    "question": "Are Phase I clinical trials primarily designed to prove treatment effectiveness?"
+  },
+  {
+    "id": "VA02",
+    "question": "Can a participant withdraw from a clinical trial after giving consent?"
+  },
+  {
+    "id": "VA03",
+    "question": "Does random assignment allow researchers to choose groups based on personal preference?"
+  },
+  {
+    "id": "VA04",
+    "question": "Does a placebo necessarily contain the experimental drug?"
+  }
+]

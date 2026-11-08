@@ -1,0 +1,282 @@
+{
+  "Baseline": [
+    {
+      "id": "TE01",
+      "question": "What is the primary goal of Phase III clinical trials?",
+      "mode": "baseline",
+      "correct": true,
+      "attempts": 1,
+      "latency_ms": 7991.48,
+      "history": [
+        {
+          "attempt": 1,
+          "source": "qwen3",
+          "answer": "The primary goal of Phase III clinical trials is to confirm the effectiveness of a treatment, monitor side effects, and collect data that will be used to approve the treatment for widespread use.",
+          "correct": true,
+          "feedback": "The candidate answer correctly identifies the primary goal of Phase III trials as confirming effectiveness, monitoring side effects, and gathering data for approval, which aligns with the reference."
+        }
+      ]
+    },
+    {
+      "id": "TE02",
+      "question": "Can informed consent be withdrawn during a clinical study?",
+      "mode": "baseline",
+      "correct": true,
+      "attempts": 1,
+      "latency_ms": 4130.34,
+      "history": [
+        {
+          "attempt": 1,
+          "source": "qwen3",
+          "answer": "Yes, informed consent can be withdrawn at any time during a clinical study. Participants have the right to withdraw their consent without facing any penalty or loss of benefits.",
+          "correct": true,
+          "feedback": "The candidate answer correctly states that informed consent can be withdrawn and acknowledges the participant's right to do so without penalty."
+        }
+      ]
+    },
+    {
+      "id": "TE03",
+      "question": "Why is randomization used in controlled clinical trials?",
+      "mode": "baseline",
+      "correct": true,
+      "attempts": 1,
+      "latency_ms": 5005.14,
+      "history": [
+        {
+          "attempt": 1,
+          "source": "qwen3",
+          "answer": "Randomization is used in controlled clinical trials to ensure that each participant has an equal chance of being assigned to any group (such as the treatment group or the control group). This helps reduce bias and ensures that the results are reliable and can be generalized.",
+          "correct": true,
+          "feedback": "The candidate answer correctly explains that randomization reduces bias and ensures reliable, generalizable results, aligning with the reference."
+        }
+      ]
+    },
+    {
+      "id": "TE04",
+      "question": "Can an inactive placebo be used as a comparison in clinical research?",
+      "mode": "baseline",
+      "correct": true,
+      "attempts": 1,
+      "latency_ms": 5023.87,
+      "history": [
+        {
+          "attempt": 1,
+          "source": "qwen3",
+          "answer": "Yes, an inactive placebo can be used as a comparison in clinical research, but it must be done ethically and with proper informed consent. Safety and efficacy are key considerations, and research ethics require that participants are not harmed and are fully informed about the study.",
+          "correct": true,
+          "feedback": "The candidate answer correctly confirms the use of inactive placebo and adds important ethical considerations present in the reference."
+        }
+      ]
+    }
+  ],
+  "Evaluator Repair": [
+    {
+      "id": "TE01",
+      "question": "What is the primary goal of Phase III clinical trials?",
+      "mode": "repair",
+      "correct": true,
+      "attempts": 1,
+      "latency_ms": 4735.28,
+      "history": [
+        {
+          "attempt": 1,
+          "source": "qwen3",
+          "answer": "The primary goal of Phase III clinical trials is to confirm the effectiveness of a treatment, monitor side effects, and collect data that will be used to approve the treatment for widespread use.",
+          "correct": true,
+          "feedback": "The candidate answer correctly identifies the primary goal of Phase III trials as confirming effectiveness, monitoring side effects, and gathering data for approval, which aligns with the reference."
+        }
+      ]
+    },
+    {
+      "id": "TE02",
+      "question": "Can informed consent be withdrawn during a clinical study?",
+      "mode": "repair",
+      "correct": true,
+      "attempts": 1,
+      "latency_ms": 4031.95,
+      "history": [
+        {
+          "attempt": 1,
+          "source": "qwen3",
+          "answer": "Yes, informed consent can be withdrawn at any time during a clinical study. Participants have the right to withdraw their consent without facing any penalty or loss of benefits.",
+          "correct": true,
+          "feedback": "The candidate answer correctly states that informed consent can be withdrawn and acknowledges the participant's right to do so without penalty."
+        }
+      ]
+    },
+    {
+      "id": "TE03",
+      "question": "Why is randomization used in controlled clinical trials?",
+      "mode": "repair",
+      "correct": true,
+      "attempts": 1,
+      "latency_ms": 4988.32,
+      "history": [
+        {
+          "attempt": 1,
+          "source": "qwen3",
+          "answer": "Randomization is used in controlled clinical trials to ensure that each participant has an equal chance of being assigned to any group (such as the treatment group or the control group). This helps reduce bias and ensures that the results are reliable and can be generalized.",
+          "correct": true,
+          "feedback": "The candidate answer correctly explains that randomization reduces bias and ensures reliable, generalizable results, aligning with the reference."
+        }
+      ]
+    },
+    {
+      "id": "TE04",
+      "question": "Can an inactive placebo be used as a comparison in clinical research?",
+      "mode": "repair",
+      "correct": true,
+      "attempts": 1,
+      "latency_ms": 5018.72,
+      "history": [
+        {
+          "attempt": 1,
+          "source": "qwen3",
+          "answer": "Yes, an inactive placebo can be used as a comparison in clinical research, but it must be done ethically and with proper informed consent. Safety and efficacy are key considerations, and research ethics require that participants are not harmed and are fully informed about the study.",
+          "correct": true,
+          "feedback": "The candidate answer correctly confirms the use of inactive placebo and adds important ethical considerations present in the reference."
+        }
+      ]
+    }
+  ],
+  "Lesson Memory": [
+    {
+      "id": "TE01",
+      "question": "What is the primary goal of Phase III clinical trials?",
+      "mode": "lesson_memory",
+      "correct": true,
+      "attempts": 1,
+      "latency_ms": 4202.07,
+      "history": [
+        {
+          "attempt": 1,
+          "source": "qwen3",
+          "answer": "The primary goal of Phase III clinical trials is to confirm the effectiveness of a treatment in a large group of people and to monitor for any side effects.",
+          "correct": true,
+          "feedback": "The candidate answer correctly identifies the primary goal of Phase III trials as confirming effectiveness and monitoring side effects, aligning with the reference."
+        }
+      ]
+    },
+    {
+      "id": "TE02",
+      "question": "Can informed consent be withdrawn during a clinical study?",
+      "mode": "lesson_memory",
+      "correct": true,
+      "attempts": 1,
+      "latency_ms": 4014.55,
+      "history": [
+        {
+          "attempt": 1,
+          "source": "qwen3",
+          "answer": "Yes, informed consent can be withdrawn at any time during a clinical study. Participants have the right to withdraw their consent without facing any penalty or loss of benefits.",
+          "correct": true,
+          "feedback": "The candidate answer correctly states that informed consent can be withdrawn and acknowledges the participant's right to do so without penalty."
+        }
+      ]
+    },
+    {
+      "id": "TE03",
+      "question": "Why is randomization used in controlled clinical trials?",
+      "mode": "lesson_memory",
+      "correct": true,
+      "attempts": 1,
+      "latency_ms": 5177.41,
+      "history": [
+        {
+          "attempt": 1,
+          "source": "qwen3",
+          "answer": "Randomization is used in controlled clinical trials to ensure that each participant has an equal chance of being assigned to any group (such as the treatment group or the control group). This helps reduce bias and ensures that the results are due to the treatment being studied, not other factors.",
+          "correct": true,
+          "feedback": "The candidate answer correctly explains that randomization reduces bias and ensures comparability between groups, aligning with the reference."
+        }
+      ]
+    },
+    {
+      "id": "TE04",
+      "question": "Can an inactive placebo be used as a comparison in clinical research?",
+      "mode": "lesson_memory",
+      "correct": true,
+      "attempts": 1,
+      "latency_ms": 3637.01,
+      "history": [
+        {
+          "attempt": 1,
+          "source": "qwen3",
+          "answer": "Yes, an inactive placebo can be used as a comparison in clinical research, provided it is done ethically and with proper informed consent.",
+          "correct": true,
+          "feedback": "The candidate answer correctly reflects the reference by acknowledging the ethical use of an inactive placebo in clinical research."
+        }
+      ]
+    }
+  ],
+  "Validated Improvement": [
+    {
+      "id": "TE01",
+      "question": "What is the primary goal of Phase III clinical trials?",
+      "mode": "lesson_memory",
+      "correct": true,
+      "attempts": 1,
+      "latency_ms": 4770.23,
+      "history": [
+        {
+          "attempt": 1,
+          "source": "qwen3",
+          "answer": "The primary goal of Phase III clinical trials is to confirm the effectiveness of a treatment, monitor side effects, and collect data that will be used to approve the treatment for widespread use.",
+          "correct": true,
+          "feedback": "The candidate answer correctly identifies the primary goal of Phase III trials as confirming effectiveness, monitoring side effects, and gathering data for approval, which aligns with the reference."
+        }
+      ]
+    },
+    {
+      "id": "TE02",
+      "question": "Can informed consent be withdrawn during a clinical study?",
+      "mode": "lesson_memory",
+      "correct": true,
+      "attempts": 1,
+      "latency_ms": 4013.76,
+      "history": [
+        {
+          "attempt": 1,
+          "source": "qwen3",
+          "answer": "Yes, informed consent can be withdrawn at any time during a clinical study. Participants have the right to withdraw their consent without facing any penalty or loss of benefits.",
+          "correct": true,
+          "feedback": "The candidate answer correctly states that informed consent can be withdrawn and acknowledges the participant's right to do so without penalty."
+        }
+      ]
+    },
+    {
+      "id": "TE03",
+      "question": "Why is randomization used in controlled clinical trials?",
+      "mode": "lesson_memory",
+      "correct": true,
+      "attempts": 1,
+      "latency_ms": 5010.67,
+      "history": [
+        {
+          "attempt": 1,
+          "source": "qwen3",
+          "answer": "Randomization is used in controlled clinical trials to ensure that each participant has an equal chance of being assigned to any group (such as the treatment group or the control group). This helps reduce bias and ensures that the results are reliable and can be generalized.",
+          "correct": true,
+          "feedback": "The candidate answer correctly explains that randomization reduces bias and ensures reliable, generalizable results, aligning with the reference."
+        }
+      ]
+    },
+    {
+      "id": "TE04",
+      "question": "Can an inactive placebo be used as a comparison in clinical research?",
+      "mode": "lesson_memory",
+      "correct": true,
+      "attempts": 1,
+      "latency_ms": 5010.74,
+      "history": [
+        {
+          "attempt": 1,
+          "source": "qwen3",
+          "answer": "Yes, an inactive placebo can be used as a comparison in clinical research, but it must be done ethically and with proper informed consent. Safety and efficacy are key considerations, and research ethics require that participants are not harmed and are fully informed about the study.",
+          "correct": true,
+          "feedback": "The candidate answer correctly confirms the use of inactive placebo and adds important ethical considerations present in the reference."
+        }
+      ]
+    }
+  ]
+}

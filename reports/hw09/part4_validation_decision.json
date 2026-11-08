@@ -1,0 +1,7 @@
+{
+  "validation_cases": 4,
+  "regressions": 0,
+  "improvements": 0,
+  "lessons_accepted": false,
+  "policy": "Accept only with positive improvement and zero regressions"
+}

@@ -1,0 +1,150 @@
+[
+  {
+    "id": "VA01",
+    "baseline": {
+      "id": "VA01",
+      "question": "Are Phase I clinical trials primarily designed to prove treatment effectiveness?",
+      "mode": "baseline",
+      "correct": true,
+      "attempts": 1,
+      "latency_ms": 6928.95,
+      "history": [
+        {
+          "attempt": 1,
+          "source": "qwen3",
+          "answer": "No. Phase I clinical trials are primarily designed to assess the safety of a treatment, determine safe dosage ranges, and identify side effects. Efficacy and consent are important but not the main focus in Phase I.",
+          "correct": true,
+          "feedback": "The candidate answer correctly identifies that Phase I trials focus on safety and dosage, not effectiveness."
+        }
+      ]
+    },
+    "lesson_memory": {
+      "id": "VA01",
+      "question": "Are Phase I clinical trials primarily designed to prove treatment effectiveness?",
+      "mode": "lesson_memory",
+      "correct": true,
+      "attempts": 1,
+      "latency_ms": 4356.7,
+      "history": [
+        {
+          "attempt": 1,
+          "source": "qwen3",
+          "answer": "No. Phase I clinical trials are primarily designed to assess the safety of a treatment, determine safe dosage ranges, and identify side effects, not to prove treatment effectiveness.",
+          "correct": true,
+          "feedback": "The candidate answer correctly identifies that Phase I trials focus on safety and dosage, not effectiveness."
+        }
+      ]
+    }
+  },
+  {
+    "id": "VA02",
+    "baseline": {
+      "id": "VA02",
+      "question": "Can a participant withdraw from a clinical trial after giving consent?",
+      "mode": "baseline",
+      "correct": true,
+      "attempts": 1,
+      "latency_ms": 4947.29,
+      "history": [
+        {
+          "attempt": 1,
+          "source": "qwen3",
+          "answer": "Yes, a participant can withdraw from a clinical trial at any time, even after giving consent. This is part of research ethics and is protected by informed consent. The participant's decision to withdraw should not result in any penalty or loss of benefits.",
+          "correct": true,
+          "feedback": "The candidate answer correctly reflects the reference and includes additional accurate information about research ethics and informed consent."
+        }
+      ]
+    },
+    "lesson_memory": {
+      "id": "VA02",
+      "question": "Can a participant withdraw from a clinical trial after giving consent?",
+      "mode": "lesson_memory",
+      "correct": true,
+      "attempts": 1,
+      "latency_ms": 4325.83,
+      "history": [
+        {
+          "attempt": 1,
+          "source": "qwen3",
+          "answer": "Yes, a participant can withdraw from a clinical trial at any time, even after giving consent. Withdrawal is a participant's right, and the research team must respect this decision.",
+          "correct": true,
+          "feedback": "The candidate answer correctly reflects the reference by confirming that participants can withdraw from a clinical trial at any time and that withdrawal is their right."
+        }
+      ]
+    }
+  },
+  {
+    "id": "VA03",
+    "baseline": {
+      "id": "VA03",
+      "question": "Does random assignment allow researchers to choose groups based on personal preference?",
+      "mode": "baseline",
+      "correct": true,
+      "attempts": 1,
+      "latency_ms": 4245.84,
+      "history": [
+        {
+          "attempt": 1,
+          "source": "qwen3",
+          "answer": "No. Random assignment ensures that participants are placed into groups by chance, not by personal preference. This helps ensure fairness and reduces bias in research.",
+          "correct": true,
+          "feedback": "The candidate answer correctly explains that random assignment uses chance, not personal preference, and mentions fairness and bias reduction, which aligns with the reference."
+        }
+      ]
+    },
+    "lesson_memory": {
+      "id": "VA03",
+      "question": "Does random assignment allow researchers to choose groups based on personal preference?",
+      "mode": "lesson_memory",
+      "correct": true,
+      "attempts": 1,
+      "latency_ms": 3627.16,
+      "history": [
+        {
+          "attempt": 1,
+          "source": "qwen3",
+          "answer": "No. Random assignment ensures that groups are formed by chance, not by personal preference. It helps ensure fairness and reduces bias in research.",
+          "correct": true,
+          "feedback": "The candidate answer correctly states that random assignment uses chance, not personal preference, and explains its purpose."
+        }
+      ]
+    }
+  },
+  {
+    "id": "VA04",
+    "baseline": {
+      "id": "VA04",
+      "question": "Does a placebo necessarily contain the experimental drug?",
+      "mode": "baseline",
+      "correct": true,
+      "attempts": 1,
+      "latency_ms": 4829.21,
+      "history": [
+        {
+          "attempt": 1,
+          "source": "qwen3",
+          "answer": "No. A placebo does not necessarily contain the experimental drug. A placebo is a substance or treatment that appears to be real but has no active ingredients. It is used in research to compare the effects of the experimental drug against a control.",
+          "correct": true,
+          "feedback": "The candidate answer correctly states that a placebo does not necessarily contain the experimental drug and provides additional accurate context about placebos."
+        }
+      ]
+    },
+    "lesson_memory": {
+      "id": "VA04",
+      "question": "Does a placebo necessarily contain the experimental drug?",
+      "mode": "lesson_memory",
+      "correct": true,
+      "attempts": 1,
+      "latency_ms": 4745.97,
+      "history": [
+        {
+          "attempt": 1,
+          "source": "qwen3",
+          "answer": "No. A placebo does not necessarily contain the experimental drug. A placebo is a substance or treatment that appears to be real but has no active ingredients. It is used as a control in research to compare the effects of the experimental drug.",
+          "correct": true,
+          "feedback": "The candidate answer correctly states that a placebo does not necessarily contain the experimental drug and provides additional accurate context about placebos."
+        }
+      ]
+    }
+  }
+]

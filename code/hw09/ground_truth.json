@@ -1,0 +1,86 @@
+{
+  "TR01": {
+    "expected": "Phase I primarily evaluates safety, tolerability, and dosage.",
+    "required_concepts": [
+      "safety",
+      "dose"
+    ]
+  },
+  "TR02": {
+    "expected": "No. Informed consent explains risks but does not eliminate them.",
+    "required_concepts": [
+      "no",
+      "risk"
+    ]
+  },
+  "TR03": {
+    "expected": "Randomization assigns participants to study groups by chance to reduce selection bias.",
+    "required_concepts": [
+      "chance",
+      "bias"
+    ]
+  },
+  "TR04": {
+    "expected": "No. A placebo may be inactive and need not contain an active medication.",
+    "required_concepts": [
+      "no",
+      "inactive"
+    ]
+  },
+  "VA01": {
+    "expected": "No. Phase I primarily focuses on safety and dosage, not proving effectiveness.",
+    "required_concepts": [
+      "no",
+      "safety"
+    ]
+  },
+  "VA02": {
+    "expected": "Yes. Participants may withdraw consent and leave a clinical trial.",
+    "required_concepts": [
+      "yes",
+      "withdraw"
+    ]
+  },
+  "VA03": {
+    "expected": "No. Random assignment uses chance rather than researcher preference.",
+    "required_concepts": [
+      "no",
+      "chance"
+    ]
+  },
+  "VA04": {
+    "expected": "No. A placebo need not contain the experimental drug.",
+    "required_concepts": [
+      "no",
+      "placebo"
+    ]
+  },
+  "TE01": {
+    "expected": "Phase III evaluates effectiveness and safety in larger groups, often comparing with standard care or placebo.",
+    "required_concepts": [
+      "effectiveness",
+      "safety"
+    ]
+  },
+  "TE02": {
+    "expected": "Yes. Participants can withdraw informed consent during the study.",
+    "required_concepts": [
+      "yes",
+      "withdraw"
+    ]
+  },
+  "TE03": {
+    "expected": "Randomization reduces selection bias and makes groups more comparable.",
+    "required_concepts": [
+      "bias",
+      "groups"
+    ]
+  },
+  "TE04": {
+    "expected": "Yes. An inactive placebo can serve as a comparison when ethically appropriate.",
+    "required_concepts": [
+      "yes",
+      "placebo"
+    ]
+  }
+}

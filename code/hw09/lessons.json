@@ -1,0 +1,11 @@
+[
+  {
+    "lesson_id": "L01",
+    "source_case": "TR02",
+    "failure_pattern": "Informed consent risks",
+    "correction": "Informed consent explains risks and rights; it never guarantees that research is risk-free.",
+    "created_at": "2026-11-08T07:22:15.123526+00:00",
+    "use_count": 8,
+    "validation_status": "rejected"
+  }
+]

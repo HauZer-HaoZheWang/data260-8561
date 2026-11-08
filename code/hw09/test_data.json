@@ -1,0 +1,18 @@
+[
+  {
+    "id": "TE01",
+    "question": "What is the primary goal of Phase III clinical trials?"
+  },
+  {
+    "id": "TE02",
+    "question": "Can informed consent be withdrawn during a clinical study?"
+  },
+  {
+    "id": "TE03",
+    "question": "Why is randomization used in controlled clinical trials?"
+  },
+  {
+    "id": "TE04",
+    "question": "Can an inactive placebo be used as a comparison in clinical research?"
+  }
+]

@@ -1,0 +1,77 @@
+[
+  {
+    "id": "TR01",
+    "question": "What is the main purpose of Phase I clinical trials?",
+    "mode": "repair",
+    "correct": true,
+    "attempts": 1,
+    "latency_ms": 8887.88,
+    "history": [
+      {
+        "attempt": 1,
+        "source": "qwen3",
+        "answer": "The main purpose of Phase I clinical trials is to test the safety of a new drug or treatment in a small group of people, usually healthy volunteers, to determine the safe dosage range and identify side effects.",
+        "correct": true,
+        "feedback": "The candidate answer correctly identifies the main purpose of Phase I trials as evaluating safety, dosage, and side effects."
+      }
+    ]
+  },
+  {
+    "id": "TR02",
+    "question": "Does informed consent guarantee that a clinical trial has no risks?",
+    "mode": "repair",
+    "correct": true,
+    "attempts": 2,
+    "latency_ms": 5910.9,
+    "history": [
+      {
+        "attempt": 1,
+        "source": "controlled_incorrect_answer",
+        "answer": "Yes. Once informed consent is signed, a clinical trial is guaranteed to have no risks.",
+        "correct": false,
+        "feedback": "Candidate answer contradicts the reference by claiming informed consent eliminates risks, whereas the reference states it only explains risks."
+      },
+      {
+        "attempt": 2,
+        "source": "qwen3",
+        "answer": "No. Informed consent explains the potential risks of a clinical trial, but it does not guarantee that the trial has no risks.",
+        "correct": true,
+        "feedback": "The candidate answer correctly reflects the reference by stating that informed consent explains potential risks but does not eliminate them."
+      }
+    ]
+  },
+  {
+    "id": "TR03",
+    "question": "What does randomization mean in a clinical trial?",
+    "mode": "repair",
+    "correct": true,
+    "attempts": 1,
+    "latency_ms": 4548.81,
+    "history": [
+      {
+        "attempt": 1,
+        "source": "qwen3",
+        "answer": "Randomization is a method used in clinical trials to assign participants to different treatment groups by chance, ensuring that each person has an equal chance of being placed in any group. This helps reduce bias and makes the results more reliable.",
+        "correct": true,
+        "feedback": "The candidate answer correctly explains randomization, its purpose, and its benefits as described in the reference."
+      }
+    ]
+  },
+  {
+    "id": "TR04",
+    "question": "Is a placebo always an active medication?",
+    "mode": "repair",
+    "correct": true,
+    "attempts": 1,
+    "latency_ms": 3933.0,
+    "history": [
+      {
+        "attempt": 1,
+        "source": "qwen3",
+        "answer": "No. A placebo is not an active medication. It is a substance or treatment with no therapeutic effect, often used as a control in research studies.",
+        "correct": true,
+        "feedback": "The candidate answer correctly states that a placebo is not an active medication and explains its purpose as a control in research."
+      }
+    ]
+  }
+]

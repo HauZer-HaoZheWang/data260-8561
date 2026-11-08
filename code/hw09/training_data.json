@@ -1,0 +1,18 @@
+[
+  {
+    "id": "TR01",
+    "question": "What is the main purpose of Phase I clinical trials?"
+  },
+  {
+    "id": "TR02",
+    "question": "Does informed consent guarantee that a clinical trial has no risks?"
+  },
+  {
+    "id": "TR03",
+    "question": "What does randomization mean in a clinical trial?"
+  },
+  {
+    "id": "TR04",
+    "question": "Is a placebo always an active medication?"
+  }
+]

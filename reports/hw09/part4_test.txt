@@ -1,0 +1,53 @@
+Student: Haozhe Wang
+DATA 260 HW9 Part 4 - test
+Model: qwen3:8b
+===== HELD-OUT TEST COMPARISON =====
+
+VARIANT: Baseline
+TEST TE01
+  attempt=1 correct=True source=qwen3
+TEST TE02
+  attempt=1 correct=True source=qwen3
+TEST TE03
+  attempt=1 correct=True source=qwen3
+TEST TE04
+  attempt=1 correct=True source=qwen3
+
+VARIANT: Evaluator Repair
+TEST TE01
+  attempt=1 correct=True source=qwen3
+TEST TE02
+  attempt=1 correct=True source=qwen3
+TEST TE03
+  attempt=1 correct=True source=qwen3
+TEST TE04
+  attempt=1 correct=True source=qwen3
+
+VARIANT: Lesson Memory
+TEST TE01
+  attempt=1 correct=True source=qwen3
+TEST TE02
+  attempt=1 correct=True source=qwen3
+TEST TE03
+  attempt=1 correct=True source=qwen3
+TEST TE04
+  attempt=1 correct=True source=qwen3
+
+VARIANT: Validated Improvement
+TEST TE01
+  attempt=1 correct=True source=qwen3
+TEST TE02
+  attempt=1 correct=True source=qwen3
+TEST TE03
+  attempt=1 correct=True source=qwen3
+TEST TE04
+  attempt=1 correct=True source=qwen3
+
+===== FOUR VARIANTS COMPARISON =====
+{"variant": "Baseline", "correct": 4, "incorrect": 0, "total_attempts": 4, "avg_attempts": 1.0, "avg_latency_ms": 5537.71}
+{"variant": "Evaluator Repair", "correct": 4, "incorrect": 0, "total_attempts": 4, "avg_attempts": 1.0, "avg_latency_ms": 4693.57}
+{"variant": "Lesson Memory", "correct": 4, "incorrect": 0, "total_attempts": 4, "avg_attempts": 1.0, "avg_latency_ms": 4257.76}
+{"variant": "Validated Improvement", "correct": 4, "incorrect": 0, "total_attempts": 4, "avg_attempts": 1.0, "avg_latency_ms": 4701.35}
+PASS: 4 held-out test questions
+PASS: 4 variants compared
+=== PART 4 TEST COMPLETE ===
