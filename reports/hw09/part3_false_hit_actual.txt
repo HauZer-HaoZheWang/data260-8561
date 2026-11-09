@@ -1,0 +1,24 @@
+Student: Haozhe Wang
+DATA 260 HW9 - Part 3.3 Actual False Hit
+Case: C21 | Seed: S01 | Threshold: 0.75
+
+===== FALSE HIT RESULT =====
+{
+  "student": "Haozhe Wang",
+  "case_id": "C21",
+  "seed_id": "S01",
+  "threshold": 0.75,
+  "incoming_question": "What is parental permission for a child in a clinical trial?",
+  "cached_question": "What is informed consent in a clinical trial?",
+  "similarity": 0.790493,
+  "is_cached": true,
+  "actual_cached_answer": "Informed consent is the process of explaining a clinical trial's purpose, procedures, risks, benefits, and participant rights so a person can voluntarily decide whether to join.",
+  "correct_reference_answer": "Parental permission means a parent or legally authorized guardian gives permission for a child to participate in research, subject to applicable rules. A child's assent may also be required when appropriate. Parental permission is not the same as an adult participant's informed consent.",
+  "false_hit": true,
+  "experiment_type": "Controlled Redis FT.SEARCH using a temporary index and explicitly seeded reference answer"
+}
+
+PASS: Actual Redis cached answer retrieved
+PASS: False hit reproduced at threshold 0.75
+PASS: Correct reference answer documented
+PASS: Temporary Redis data cleaned

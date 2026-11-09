@@ -1,0 +1,47 @@
+{
+  "cost_model": {
+    "cache_hit_usd": 1e-05,
+    "cache_miss_usd": 0.002,
+    "false_hit_penalty_usd": 0.01,
+    "type": "hypothetical_cost_model"
+  },
+  "results": [
+    {
+      "threshold": 0.75,
+      "hits": 25,
+      "misses": 15,
+      "false_hits": 7,
+      "total_cost_usd": 0.10025
+    },
+    {
+      "threshold": 0.8,
+      "hits": 19,
+      "misses": 21,
+      "false_hits": 3,
+      "total_cost_usd": 0.07219
+    },
+    {
+      "threshold": 0.85,
+      "hits": 16,
+      "misses": 24,
+      "false_hits": 3,
+      "total_cost_usd": 0.07816
+    },
+    {
+      "threshold": 0.9,
+      "hits": 11,
+      "misses": 29,
+      "false_hits": 1,
+      "total_cost_usd": 0.06811
+    },
+    {
+      "threshold": 0.95,
+      "hits": 10,
+      "misses": 30,
+      "false_hits": 0,
+      "total_cost_usd": 0.0601
+    }
+  ],
+  "selected_threshold": 0.95,
+  "selection_reason": "Lowest estimated total cost with zero observed false hits on the precommitted 40-case dataset."
+}

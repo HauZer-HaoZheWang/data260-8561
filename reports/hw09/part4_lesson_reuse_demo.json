@@ -1,0 +1,13 @@
+{
+  "timestamp_utc": "2026-11-09T08:41:56.811432+00:00",
+  "demonstration": "Post-test lesson reuse",
+  "question": "Does signing informed consent mean that participating in a clinical trial has no risks?",
+  "lesson_id": "L01",
+  "lesson_source": "TR02",
+  "lesson_status": "rejected",
+  "loaded_correction": "Informed consent explains risks and rights; it never guarantees that research is risk-free.",
+  "answer": "No. Signing informed consent means that you have been told about the possible risks and your rights, but it does not guarantee that the trial is risk-free.",
+  "local_use_count_before": 8,
+  "local_use_count_after": 9,
+  "original_lesson_file_modified": false
+}

@@ -1,0 +1,22 @@
+Student: Haozhe Wang
+DATA 260 HW9 - Later Question Lesson Reuse
+===== LOAD PREVIOUSLY SAVED LESSON =====
+Lesson ID: L01
+Source case: TR02
+Original validation status: rejected
+Loaded correction: Informed consent explains risks and rights; it never guarantees that research is risk-free.
+
+===== NEW QUESTION =====
+Does signing informed consent mean that participating in a clinical trial has no risks?
+
+===== ANSWER AFTER LESSON INJECTION =====
+No. Signing informed consent means that you have been told about the possible risks and your rights, but it does not guarantee that the trial is risk-free.
+
+Lesson use_count before: 8
+Lesson use_count after: 9
+
+PASS: Saved lesson loaded before answering
+PASS: Correction injected into answering prompt
+PASS: New question answered
+PASS: Original lesson file unchanged
+Evidence saved: /Users/haozhewang/data260-8561/reports/hw09/part4_lesson_reuse_demo.json
