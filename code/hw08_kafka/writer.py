@@ -1,9 +1,13 @@
 import asyncio
 import os
 import time
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from aiokafka import AIOKafkaConsumer, AIOKafkaProducer
 from agent_common import ask_ollama, log
 from common import BOOTSTRAP, DRAFTS, DLQ, TASKS, dumps, loads
+from hw10.trace import span, write_queue_wait
 
 MAX_RETRIES = 3
 PAUSE = float(os.getenv("WRITER_PAUSE_SECONDS", "0"))
@@ -12,12 +16,13 @@ PAUSE = float(os.getenv("WRITER_PAUSE_SECONDS", "0"))
 async def main():
     consumer = AIOKafkaConsumer(TASKS, bootstrap_servers=BOOTSTRAP,
                                 group_id="s8561-writers", auto_offset_reset="earliest",
-                                enable_auto_commit=False)
+                                enable_auto_commit=False, max_poll_interval_ms=900000)
     producer = AIOKafkaProducer(bootstrap_servers=BOOTSTRAP)
     await consumer.start(); await producer.start(); print("Writer ready")
     try:
         async for message in consumer:
             item = loads(message.value); cid = item.get("correlation_id")
+            write_queue_wait(cid, "queue_wait_tasks_to_writer", item.get("produced_at", time.time()), time.time())
             log("writer", {"event": "START_PROCESSING", "correlation_id": cid,
                             "partition": message.partition, "offset": message.offset})
             if PAUSE:
@@ -28,8 +33,11 @@ async def main():
                 try:
                     if item.get("poison"):
                         raise ValueError("intentional poison message")
-                    draft = ask_ollama("Write a concise answer using this plan:\n" + item["plan"])
-                    output = {"correlation_id": cid, "draft": draft,
+                    with span(cid, "writer", input_topic=TASKS, output_topic=DRAFTS):
+                        draft = await asyncio.to_thread(ask_ollama, "Write a concise answer using this plan:\n" + item["plan"])
+                    output = {"correlation_id": cid, "trace_id": cid, "question": item.get("question", ""),
+                              "plan": item.get("plan", ""), "draft": draft,
+                              "produced_at": time.time(),
                               "processed_at_ns": time.time_ns(),
                               "task_partition": message.partition,
                               "task_offset": message.offset}

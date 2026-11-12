@@ -17,8 +17,10 @@ from redis.exceptions import ResponseError
 
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "code/hw08_kafka"))
+sys.path.insert(0, str(ROOT / "code"))
 
 from common import BOOTSTRAP, FINAL, INBOX, PREFIX, dumps, loads
+from hw10.trace import span
 
 CACHE_PREFIX = f"{PREFIX}:hw09:semantic"
 INDEX_NAME = f"{PREFIX}:hw09:semantic:index"
@@ -26,10 +28,10 @@ DOCUMENT_PREFIX = f"{CACHE_PREFIX}:doc:"
 OLLAMA_URL = os.getenv("OLLAMA_BASE_URL", "http://127.0.0.1:11434")
 
 
-async def run_hw8_agent(question, timeout=240):
+async def run_hw8_agent(question, timeout=240, trace_id=None):
     from aiokafka import AIOKafkaConsumer, AIOKafkaProducer
 
-    correlation_id = str(uuid.uuid4())
+    correlation_id = trace_id or str(uuid.uuid4())
 
     consumer = AIOKafkaConsumer(
         FINAL,
@@ -47,7 +49,9 @@ async def run_hw8_agent(question, timeout=240):
                 INBOX,
                 dumps({
                     "correlation_id": correlation_id,
+                    "trace_id": correlation_id,
                     "question": question,
+                    "produced_at": time.time(),
                 }),
             )
 
@@ -204,16 +208,16 @@ class SemanticCache:
 
     async def answer(self, question):
         started = time.perf_counter()
+        trace_id = str(uuid.uuid4())
 
-        vector, dimension = self.embed(question)
-        self.ensure_index(dimension)
-
-        # Part 2 stores a version marker.
-        # Part 3 will add record-aware invalidation.
-        data_version = f"{PREFIX}_rel:v1"
-
-        match = self.search(vector)
-        similarity = match["similarity"] if match else None
+        with span(trace_id, "cache_lookup", path="semantic_cache"):
+            vector, dimension = self.embed(question)
+            self.ensure_index(dimension)
+            # Part 2 stores a version marker.
+            # Part 3 will add record-aware invalidation.
+            data_version = f"{PREFIX}_rel:v1"
+            match = self.search(vector)
+            similarity = match["similarity"] if match else None
 
         if (
             match
@@ -222,6 +226,7 @@ class SemanticCache:
         ):
             result = {
                 "question": question,
+                "trace_id": trace_id,
                 "answer": match["answer"],
                 "is_cached": True,
                 "similarity": round(similarity, 4),
@@ -240,7 +245,7 @@ class SemanticCache:
             f"question={question}"
         )
 
-        final_result = await run_hw8_agent(question)
+        final_result = await run_hw8_agent(question, trace_id=trace_id)
 
         for field in (
             "final_answer",
@@ -266,6 +271,7 @@ class SemanticCache:
 
         return {
             "question": question,
+            "trace_id": trace_id,
             "answer": final_answer,
             "is_cached": False,
             "similarity": (
