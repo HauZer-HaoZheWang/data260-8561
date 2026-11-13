@@ -20,7 +20,12 @@ def load_jsonl(name):
 st.set_page_config(page_title="DATA 260 HW10", layout="wide")
 st.title("DATA 260 HW10 Operations Dashboard")
 page = st.sidebar.radio("Page", ["Summary", "Evaluation", "Trace lookup"])
-spans = load_jsonl("spans.jsonl")
+spans = pd.concat(
+    [load_jsonl("spans.jsonl"), load_jsonl("spans_latency.jsonl")],
+    ignore_index=True,
+).drop_duplicates(
+    subset=["trace_id", "stage", "start_time", "end_time"]
+)
 metrics = load_json("computed_metrics.json")
 
 if page == "Summary":
@@ -34,6 +39,25 @@ if page == "Summary":
         c[2].metric("Cache misses", int((~exp["cache_hit"]).sum()))
         c[3].metric("Miss p50 total (ms)", round(float(exp.loc[~exp.cache_hit, "total_ms"].median()), 2))
     st.dataframe(exp.tail(50), use_container_width=True)
+
+    operational = load_json("part4_metrics.json")
+    if operational:
+        error = operational.get("pipeline_error_rate", {})
+        hit = operational.get("cache_hit_latency", {})
+        extra = st.columns(2)
+        extra[0].metric(
+            "Pipeline error rate (50 misses)",
+            f"{100 * error.get('rate', 0):.1f}%",
+        )
+        extra[1].metric(
+            "Cache-hit latency (one example)",
+            f"{hit.get('duration_ms', 0):.3f} ms",
+        )
+        st.caption(
+            "Error rate: latency_experiment.jsonl, 50 controlled misses. "
+            "Cache-hit latency: part4_metrics.json, one separate example; "
+            "this is not a cache-hit p50."
+        )
 
     latency = load_json("latency_metrics.json")
     if latency:
@@ -69,6 +93,12 @@ if page == "Summary":
 elif page == "Evaluation":
     st.header("Evaluation and judge validation")
     st.json(metrics)
+    st.info(
+        "All 20 Plans, Drafts, and Final answers received 5.0 from this "
+        "judge. Its scores cannot distinguish the stages or show whether "
+        "Reviewer improved the answers. Spearman is undefined because "
+        "all judge scores are equal."
+    )
 
     part2 = load_json("part2_metrics.json")
     if part2:
