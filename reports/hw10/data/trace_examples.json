@@ -1,0 +1,20 @@
+{
+  "cache_hit": {
+    "trace_id": "d2954a0c-0e28-4c24-af0e-556046944189",
+    "status": "ok",
+    "similarity": 1.0,
+    "is_cached": true
+  },
+  "cache_miss": {
+    "trace_id": "1a3a7b28-af13-4b45-9615-96cf90c5681f",
+    "status": "ok",
+    "is_cached": false,
+    "similarity": 0.8684
+  },
+  "failed_timeout": {
+    "trace_id": "46600bfc-9ca3-4726-aea3-57ccb7807cec",
+    "status": "error",
+    "error_type": "TimeoutError",
+    "timeout_seconds": 5
+  }
+}
