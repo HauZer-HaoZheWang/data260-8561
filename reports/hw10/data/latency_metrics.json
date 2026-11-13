@@ -1,0 +1,51 @@
+{
+  "cache_lookup": {
+    "n": 50,
+    "p50_ms": 24.755,
+    "p95_ms": 77.694
+  },
+  "queue_wait_inbox_to_planner": {
+    "n": 50,
+    "p50_ms": 6.431,
+    "p95_ms": 8.971
+  },
+  "planner": {
+    "n": 50,
+    "p50_ms": 40371.229,
+    "p95_ms": 53488.993
+  },
+  "queue_wait_tasks_to_writer": {
+    "n": 50,
+    "p50_ms": 6.225,
+    "p95_ms": 10.547
+  },
+  "writer": {
+    "n": 50,
+    "p50_ms": 45102.404,
+    "p95_ms": 58694.795
+  },
+  "queue_wait_drafts_to_reviewer": {
+    "n": 50,
+    "p50_ms": 7.582,
+    "p95_ms": 11.405
+  },
+  "reviewer": {
+    "n": 50,
+    "p50_ms": 39561.836,
+    "p95_ms": 55038.915
+  },
+  "total": {
+    "n": 50,
+    "p50_ms": 130576.366,
+    "p95_ms": 160826.213
+  },
+  "validation": {
+    "requests": 50,
+    "cache_misses": 50,
+    "cache_hits": 0,
+    "unique_trace_ids": 50,
+    "all_cache_thresholds": [
+      0.99
+    ]
+  }
+}
