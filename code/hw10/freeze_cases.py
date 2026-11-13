@@ -50,8 +50,11 @@ async def main():
                 result = loads(msg.value)
                 if result.get("correlation_id") == cid:
                     cases.append({"case_id": f"case-{i:02d}", "correlation_id": cid,
-                                  "question": question, "draft": result.get("draft", ""),
-                                  "final": result.get("answer", ""), "reference": ""})
+                                  "question": question,
+                                  "plan": result.get("plan", ""),
+                                  "draft": result.get("draft", ""),
+                                  "final": result.get("answer", ""),
+                                  "reference": ""})
                     break
     finally:
         await consumer.stop(); await producer.stop()

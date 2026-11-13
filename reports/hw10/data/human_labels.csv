@@ -1,21 +1,21 @@
 case_id,human_score,notes
-case-01,1,empty draft
-case-02,1,empty draft
-case-03,1,empty draft
-case-04,1,empty draft
-case-05,4,complete but slightly overstates the sponsor role
-case-06,5,accurate and complete
+case-01,5,accurate and complete
+case-02,5,accurate and clear
+case-03,5,complete explanation of informed consent
+case-04,5,correct and useful explanation
+case-05,4,mostly correct but missing some sponsor details
+case-06,5,accurate definition with useful details
 case-07,5,clear reasons for post-trial monitoring
-case-08,1,empty draft
+case-08,5,correct and complete
 case-09,4,mostly correct but slightly simplified
-case-10,1,empty draft
-case-11,1,empty draft
-case-12,1,empty draft
-case-13,1,empty draft
-case-14,1,empty draft
-case-15,1,empty draft
+case-10,5,accurate and complete
+case-11,5,clear explanation of blinding
+case-12,4,correct but somewhat general
+case-13,5,accurate and complete
+case-14,5,clear explanation of the committee role
+case-15,4,correct but brief
 case-16,5,clear and complete
 case-17,5,accurate comparison
 case-18,5,clear and detailed
-case-19,1,empty draft
-case-20,1,empty draft
+case-19,5,accurate and complete
+case-20,4,correct but missing some summary details
