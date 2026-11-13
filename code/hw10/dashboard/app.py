@@ -69,7 +69,47 @@ if page == "Summary":
 elif page == "Evaluation":
     st.header("Evaluation and judge validation")
     st.json(metrics)
-    st.caption("Scores are computed from raw per-case results; do not replace missing evidence with estimates.")
+
+    part2 = load_json("part2_metrics.json")
+    if part2:
+        st.subheader("Part 2 stage summary")
+        st.dataframe(
+            pd.DataFrame([{
+                "cases": part2.get("n"),
+                "mean_plan_score": part2.get("mean_plan_score"),
+                "mean_writer_score": part2.get("mean_writer_score"),
+                "mean_final_score": part2.get("mean_final_score"),
+                "mean_final_minus_draft": part2.get("mean_final_minus_draft"),
+                "improved_cases": part2.get("improved_cases"),
+                "unchanged_cases": part2.get("unchanged_cases"),
+                "worse_cases": part2.get("worse_cases"),
+            }]),
+            use_container_width=True,
+            hide_index=True,
+        )
+
+    stage_results = load_jsonl("evaluation_results.jsonl")
+    if not stage_results.empty:
+        st.subheader("Raw per-case Plan, Draft, and Final scores")
+        columns = [
+            "case_id",
+            "trace_id",
+            "plan_score",
+            "writer_score",
+            "final_score",
+            "final_minus_draft",
+        ]
+        available = [c for c in columns if c in stage_results.columns]
+        st.dataframe(
+            stage_results[available],
+            use_container_width=True,
+            hide_index=True,
+        )
+
+    st.caption(
+        "Scores are computed from raw per-case results. "
+        "The raw file is evaluation_results.jsonl."
+    )
 else:
     st.header("Trace lookup")
     examples = load_json("trace_examples.json")
