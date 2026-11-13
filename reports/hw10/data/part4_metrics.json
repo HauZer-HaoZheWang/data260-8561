@@ -1,0 +1,24 @@
+{
+  "queue_wait_total": {
+    "n": 50,
+    "p50_ms": 20.817,
+    "p95_ms": 26.737,
+    "source_requests": 50
+  },
+  "cache_hit_latency": {
+    "n": 1,
+    "duration_ms": 571.085,
+    "trace_id": "d2954a0c-0e28-4c24-af0e-556046944189"
+  },
+  "pipeline_error_rate": {
+    "errors": 0,
+    "requests": 50,
+    "rate": 0.0
+  },
+  "judge_error_rate": {
+    "errors": 0,
+    "rows": 60,
+    "rate": 0.0
+  },
+  "evaluation_note": "GEval was run as a separate 20-case evaluation. It was not part of the 50 cache-miss request critical path."
+}
