@@ -10,13 +10,14 @@ def questions():
 
 async def main():
     out = Path(__file__).resolve().parents[2] / "reports/hw10/data/latency_experiment.jsonl"
-    cache = SemanticCache()
+    cache = SemanticCache(threshold=0.99)
+    cache.clear_demo_cache()
     with out.open("w", encoding="utf-8") as f:
         for i, q in enumerate(questions(), 1):
             started = time.perf_counter()
             result = await cache.answer(q)
             total = (time.perf_counter() - started) * 1000
-            row = {"request_id": f"miss-{i:02d}", "cache_hit": bool(result.get("is_cached")),
+            row = {"request_id": f"miss-{i:02d}", "trace_id": result.get("trace_id"), "cache_threshold": 0.99, "cache_hit": bool(result.get("is_cached")),
                    "question": q, "total_ms": round(total, 3),
                    "cache_lookup_ms": result.get("cache_lookup_ms"),
                    "planner_ms": result.get("planner_ms"), "writer_ms": result.get("writer_ms"),

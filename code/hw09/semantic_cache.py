@@ -28,7 +28,7 @@ DOCUMENT_PREFIX = f"{CACHE_PREFIX}:doc:"
 OLLAMA_URL = os.getenv("OLLAMA_BASE_URL", "http://127.0.0.1:11434")
 
 
-async def run_hw8_agent(question, timeout=240, trace_id=None):
+async def run_hw8_agent(question, timeout=600, trace_id=None):
     from aiokafka import AIOKafkaConsumer, AIOKafkaProducer
 
     correlation_id = trace_id or str(uuid.uuid4())
