@@ -34,6 +34,38 @@ if page == "Summary":
         c[2].metric("Cache misses", int((~exp["cache_hit"]).sum()))
         c[3].metric("Miss p50 total (ms)", round(float(exp.loc[~exp.cache_hit, "total_ms"].median()), 2))
     st.dataframe(exp.tail(50), use_container_width=True)
+
+    latency = load_json("latency_metrics.json")
+    if latency:
+        st.subheader("Latency p50/p95 by stage")
+        stage_order = [
+            "cache_lookup",
+            "queue_wait_inbox_to_planner",
+            "planner",
+            "queue_wait_tasks_to_writer",
+            "writer",
+            "queue_wait_drafts_to_reviewer",
+            "reviewer",
+            "total",
+        ]
+        latency_rows = []
+        for stage in stage_order:
+            item = latency.get(stage, {})
+            latency_rows.append({
+                "stage": stage,
+                "n": item.get("n"),
+                "p50_ms": item.get("p50_ms"),
+                "p95_ms": item.get("p95_ms"),
+            })
+        st.dataframe(
+            pd.DataFrame(latency_rows),
+            use_container_width=True,
+            hide_index=True,
+        )
+        st.caption(
+            "Latency values are computed from the raw 50-request cache-miss "
+            "experiment and span JSONL logs."
+        )
 elif page == "Evaluation":
     st.header("Evaluation and judge validation")
     st.json(metrics)

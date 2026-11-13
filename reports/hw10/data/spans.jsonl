@@ -1,0 +1,2 @@
+{"duration_ms": 571.085, "end_time": "2026-11-13T02:42:54.795866+00:00", "error": null, "path": "semantic_cache", "stage": "cache_lookup", "start_time": "2026-11-13T02:42:54.224705+00:00", "status": "ok", "trace_id": "d2954a0c-0e28-4c24-af0e-556046944189"}
+{"duration_ms": 650.981, "end_time": "2026-11-13T02:51:03.821679+00:00", "error": null, "path": "semantic_cache", "stage": "cache_lookup", "start_time": "2026-11-13T02:51:03.170593+00:00", "status": "ok", "trace_id": "1a3a7b28-af13-4b45-9615-96cf90c5681f"}
