@@ -1,12 +1,23 @@
 {
   "n": 20,
-  "mean_plan_score": 1.0,
-  "mean_writer_score": 2.4,
+  "mean_plan_score": 5.0,
+  "mean_writer_score": 5.0,
   "mean_final_score": 5.0,
-  "mean_final_minus_draft": 2.6,
-  "improved_cases": 13,
-  "unchanged_cases": 7,
+  "mean_final_minus_draft": 0.0,
+  "improved_cases": 0,
+  "unchanged_cases": 20,
   "worse_cases": 0,
-  "improvement_rate": 0.65,
-  "raw_source": "evaluation_results.jsonl"
+  "improvement_rate": 0.0,
+  "judge_score_distribution": {
+    "plan": [
+      5.0
+    ],
+    "writer": [
+      5.0
+    ],
+    "final": [
+      5.0
+    ]
+  },
+  "note": "All 20 cases received 5.0 at every stage, so the judge had no score variance."
 }

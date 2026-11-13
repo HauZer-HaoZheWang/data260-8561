@@ -1,7 +1,7 @@
 {
   "n": 20,
-  "spearman": 0.9813067629253165,
-  "mad": 0.1,
+  "spearman": null,
+  "mad": 0.25,
   "repeat_change_rate": 0.0,
   "repeat_mean_absolute_change": 0.0,
   "repeat_max_absolute_change": 0.0
