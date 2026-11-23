@@ -1,14 +1,14 @@
 {
-  "topic": "Material changes for a stock watchlist: large daily price moves and new SEC 8-K filings",
+  "topic": "Material changes for a clinical-trials stock watchlist: large daily price moves and new SEC 8-K filings",
   "user_agent": "DATA260-stock-watch/1.0 haozhe.wang@sjsu.edu",
-  "note": "Approved-source allowlist. watch.py refuses any URL whose host is not listed here. SEC asks automated clients to send a User-Agent with a contact email: put yours in user_agent above.",
+  "note": "Approved-source allowlist. Live watchlist selected for Domain 1 Clinical Trials. SEC CIKs were verified in EDGAR before the evaluation.",
   "sources": [
     {
       "id": "prices_live",
       "type": "stooq",
       "modes": ["live"],
       "url": "https://stooq.com/q/d/l/",
-      "tickers": ["aapl.us", "nvda.us", "msft.us"],
+      "tickers": ["mrna.us", "regn.us", "gild.us"],
       "threshold_pct": 2.0,
       "lookback_days": 3
     },
@@ -19,19 +19,23 @@
       "url": "https://www.sec.gov/cgi-bin/browse-edgar",
       "form": "8-K",
       "per_company": 5,
-      "ciks": {"AAPL": "0000320193", "NVDA": "0001045810", "MSFT": "0000789019"}
+      "ciks": {
+        "MRNA": "0001682852",
+        "REGN": "0000872589",
+        "GILD": "0000882095"
+      }
     },
     {
-      "id": "prices_demo",
+      "id": "prices_hw11",
       "type": "stooq",
       "modes": ["fixtures"],
       "url": "https://stooq.com/q/d/l/",
-      "tickers": ["aapl.us", "msft.us", "nbrx.us", "cbds.us", "lksp.us", "mprx.us"],
+      "tickers": ["qxzb.us", "qxzc.us", "qxzd.us", "qxzk.us", "qxzl.us"],
       "threshold_pct": 2.0,
       "lookback_days": 3
     },
     {
-      "id": "edgar_demo",
+      "id": "edgar_hw11",
       "type": "edgar",
       "modes": ["fixtures"],
       "url": "https://www.sec.gov/cgi-bin/browse-edgar",
@@ -39,10 +43,10 @@
       "ciks": {}
     },
     {
-      "id": "newswire_demo",
+      "id": "newswire_hw11",
       "type": "rss",
       "modes": ["fixtures"],
-      "url": "https://example-newswire.example/markets/feed.xml",
+      "url": "https://example-newswire.example/clinical-trials/feed.xml",
       "fixture": "newswire.xml"
     }
   ]
