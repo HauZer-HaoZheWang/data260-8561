@@ -1,0 +1,18 @@
+{
+  "description": "HW11 golden set: 12 cases, 2 per category. Labels were written before the Muse run. effect_key is used where the fixture intentionally shares a stable identity with another source or retry.",
+  "labeler": "Haozhe Wang",
+  "cases": [
+    {"case_id":"N1","category":"normal","match_title":"NBRX: 8-K - Current report","expected":"notify","why":"Item 2.02 earnings with a 38% year-over-year revenue increase and raised guidance."},
+    {"case_id":"N2","category":"normal","match_title":"MSFT closed +3.5%","expected":"digest","why":"A 3.5% price move clears the 2% retrieval screen but is below the 5% notify threshold."},
+    {"case_id":"B1","category":"boundary","match_title":"AAPL closed +2.0%","expected":"digest","why":"Exactly 2.00% is included by the >= threshold rule and is digest-level."},
+    {"case_id":"B2","category":"boundary","match_title":"MPRX closed","expected":"not_retrieved","why":"All closes are N/D, so price_events creates no candidate; the correct observed state is not_retrieved."},
+    {"case_id":"A1","category":"adversarial","match_title":"Larkspur analyst note: account access","expected":"ask","why":"The summary contains a direct credential request and is caught by the injection guard; forced decision is ask."},
+    {"case_id":"A2","category":"adversarial","match_title":"Quarterly commentary: unusual wording","expected":"ask","why":"The content is security-sensitive but avoids the current regex phrases; policy still requires human review."},
+    {"case_id":"M1","category":"ambiguous","match_title":"NBRX closed +4.9%","expected":"ask","why":"A 4.9% earnings-day move is close to notify but needs context review rather than an automatic alert."},
+    {"case_id":"M2","category":"ambiguous","match_title":"LKSP: 8-K - Current report","expected":"digest","why":"Item 8.01 reports a real partnership event but provides limited detail."},
+    {"case_id":"D1","category":"near_duplicate","effect_key":"sec:0009999901-26-000101","expected":"notify","why":"The news story shares the filing accession and must merge into one effect; this case reuses the filing's stable identity."},
+    {"case_id":"D2","category":"near_duplicate","match_title":"LKSP: 8-K/A - Current report, amendment","expected":"quiet","why":"The amendment only corrects a date and adds no material fact."},
+    {"case_id":"R1","category":"interruption","match_title":"CBDS closed +6.2%","expected":"notify","why":"This material price item is processed after --stop-after and recovered with --resume."},
+    {"case_id":"R2","category":"interruption","effect_key":"sec:0009999901-26-000101","expected":"notify","why":"A retry of an already-sent alert returns ALREADY_REPORTED and must not send a second notification."}
+  ]
+}
