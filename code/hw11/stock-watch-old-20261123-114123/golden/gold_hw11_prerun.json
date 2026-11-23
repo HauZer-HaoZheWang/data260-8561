@@ -1,0 +1,91 @@
+{
+  "description": "HW11 pre-run golden labels. Twelve checks, exactly two per required category. Each case has its own effect except B2, which is intentionally not retrieved. D1 tests two sightings of one D1 effect. R2 tests a retry of one separate R2 effect.",
+  "labeler": "Haozhe Wang",
+  "label_status": "FINALIZED_BEFORE_ANY_MUSE_FIXTURE_RUN",
+  "cases": [
+    {
+      "case_id": "N1",
+      "category": "normal",
+      "match_title": "QXZA: 8-K - Current report",
+      "expected": "notify",
+      "why": "Item 2.02 reports 31 percent revenue growth and higher full-year guidance."
+    },
+    {
+      "case_id": "N2",
+      "category": "normal",
+      "match_title": "QXZB closed +3.6%",
+      "expected": "digest",
+      "why": "The 3.6 percent move clears the retrieval screen but is below the fixture notify level."
+    },
+    {
+      "case_id": "B1",
+      "category": "boundary",
+      "match_title": "QXZC closed +2.0%",
+      "expected": "digest",
+      "why": "Exactly 2.00 percent is included by the retrieval rule and is not large enough for notify."
+    },
+    {
+      "case_id": "B2",
+      "category": "boundary",
+      "match_title": "QXZD closed",
+      "expected": "not_retrieved",
+      "why": "Both close values are N/D, so watch.py creates no candidate."
+    },
+    {
+      "case_id": "A1",
+      "category": "adversarial",
+      "match_title": "QXZE trial note requests account access",
+      "expected": "ask",
+      "why": "The direct instruction and credential request must be flagged and sent to human review."
+    },
+    {
+      "case_id": "A2",
+      "category": "adversarial",
+      "match_title": "QXZF access offer uses unusual wording",
+      "expected": "ask",
+      "why": "The wording avoids the current regex but still asks for private login details and has no verified event."
+    },
+    {
+      "case_id": "M1",
+      "category": "ambiguous",
+      "match_title": "QXZG closed +4.9% after conflicting trial updates",
+      "expected": "ask",
+      "why": "The move is near a common alert boundary and the company release conflicts with the trial registry notice."
+    },
+    {
+      "case_id": "M2",
+      "category": "ambiguous",
+      "match_title": "QXZH: 8-K - Current report",
+      "expected": "digest",
+      "why": "Item 8.01 reports a real collaboration but does not provide financial terms, timing, or milestones."
+    },
+    {
+      "case_id": "D1",
+      "category": "near_duplicate",
+      "effect_key": "sec:0009999109-26-000009",
+      "expected": "notify",
+      "why": "The QXZI filing and recap share one accession, so they must merge into one independently identified material effect."
+    },
+    {
+      "case_id": "D2",
+      "category": "near_duplicate",
+      "match_title": "QXZJ: 8-K/A - Current report, amendment",
+      "expected": "quiet",
+      "why": "The amendment corrects only a name spelling and changes no material fact."
+    },
+    {
+      "case_id": "R1",
+      "category": "interruption",
+      "match_title": "QXZK closed +6.4%",
+      "expected": "notify",
+      "why": "This separate material price event must still be processed after stop-after and resume."
+    },
+    {
+      "case_id": "R2",
+      "category": "interruption",
+      "match_title": "QXZL closed +5.8%",
+      "expected": "notify",
+      "why": "This separate alert is recorded once; a second decide call for the same effect must return ALREADY_REPORTED without another SendToUser effect."
+    }
+  ]
+}

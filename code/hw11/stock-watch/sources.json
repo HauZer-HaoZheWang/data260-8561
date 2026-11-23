@@ -26,6 +26,14 @@
       }
     },
     {
+      "id": "volatility_calibration",
+      "type": "json",
+      "modes": ["calibration"],
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/",
+      "tickers": ["MRNA", "REGN", "GILD"],
+      "purpose": "Historical adjusted closes used only for threshold calibration; not scanned as live events"
+    },
+    {
       "id": "prices_hw11",
       "type": "stooq",
       "modes": ["fixtures"],
