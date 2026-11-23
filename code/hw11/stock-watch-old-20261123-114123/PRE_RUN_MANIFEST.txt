@@ -1,6 +1,0 @@
-Golden file: golden/gold_hw11_prerun.json
-SHA-256: de8e7cfcfb8cdd35daf44f7b4b031b73dbc41ab03fcf0cca98b8963e83f19317
-Status: finalized before the graded Muse fixture run
-
-Commit this folder to the hw11-work branch before uploading the kit to Muse.
-Save the commit hash, author date, and this SHA-256 as pre-run evidence.
