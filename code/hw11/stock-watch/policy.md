@@ -15,7 +15,7 @@ The retrieval screen is 2.00% for all three stocks so the tool does not miss a p
 
 - **GILD:** notify at 4.0% or more. Gilead is the most mature company in this watchlist, so an unusually large one-day move needs a lower alert threshold.
 - **REGN:** notify at 5.0% or more. Regeneron can move on earnings, trial, and regulatory news, but it is normally less volatile than Moderna.
-- **MRNA:** notify at 7.0% or more. Moderna is more sensitive to vaccine, trial, and regulatory headlines, so a 5% move alone can be normal noise.
+- **MRNA:** notify at 12.0% or more. Moderna is more sensitive to vaccine, trial, and regulatory headlines, so a 5% move alone can be normal noise.
 
 A move from 2.00% up to the ticker's notify threshold normally goes to digest. If the move is close to the threshold and the supporting evidence conflicts, use ask. These starting thresholds must be checked against the 60-session output from `calibrate_volatility.py`; the report should include those measured values and explain any change.
 
